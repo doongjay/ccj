@@ -37,21 +37,52 @@ Phase는 순차적이지만 P5(아트)는 P1~P4와 병행해서 준비(에셋 �
 
 ## 2. Phase 0 — 프로젝트 스캐폴딩
 
-- [ ] `npm create vite@latest` 로 TypeScript 템플릿 생성 (`game/` 서브디렉토리에 배치 권장,
-      루트는 `docs/`와 분리)
-- [ ] `phaser` 패키지 설치
-- [ ] 기본 `Phaser.Game` 설정: `Scale.FIT`, 기준 해상도 720×1280, `physics: arcade`(충돌용)
-- [ ] ESLint/Prettier 설정 (선택)
-- [ ] `npm run dev`로 로컬에서 빈 화면 렌더 확인
+목표: "아무 콘텐츠는 없지만, 모바일 브라우저에서 빈 화면이 뜨고 배포 파이프라인까지 검증된"
+상태를 만든다. 이 Phase가 끝나면 Phase 1부터는 게임 로직에만 집중할 수 있어야 한다.
 
-### 제안 폴더 구조
+### 0.1 저장소 구조 결정
+
+- 게임 코드는 저장소 루트가 아니라 **`game/` 서브디렉토리**에 둔다. `docs/`(기획 문서)와
+  코드가 섞이지 않게 분리하기 위함.
+- 루트 `README.md`는 이후 "이 저장소는 무엇인가 + `docs/`와 `game/` 안내" 정도로 짧게
+  갱신 (지금은 `# ccj` 한 줄뿐 — Phase 0 마지막에 갱신)
+- 결정 사항이므로 별도 승인 불필요, Phase 0 착수 시 바로 적용
+
+### 0.2 개발 환경 전제조건
+
+- [ ] Node.js LTS 버전 확인 (`node -v`, 20.x 이상 권장 — Vite 최신 버전 요구사항 기준)
+- [ ] 패키지 매니저는 `npm` 사용 (별도 사유 없으면 pnpm/yarn 도입 안 함, 의존성 단순화)
+
+### 0.3 Vite + TypeScript 프로젝트 생성
+
+```bash
+npm create vite@latest game -- --template vanilla-ts
+cd game
+npm install
+```
+
+- `vanilla-ts` 템플릿 사용 이유: Phaser는 React 등 UI 프레임워크가 필요 없고, 프레임워크
+  오버헤드 없이 캔버스 하나만 렌더하면 되므로 가장 가벼운 템플릿이 적합
+- 생성 직후 불필요한 템플릿 기본 파일(`counter.ts`, 기본 로고/스타일 등) 정리
+
+### 0.4 Phaser 설치
+
+```bash
+npm install phaser
+```
+
+- 버전은 설치 시점의 최신 stable(Phaser 3.8x 계열 예상)로 고정하고 `package.json`에 커밋
+- 타입 정의는 Phaser 패키지에 내장되어 있어 별도 `@types` 불필요
+
+### 0.5 폴더 구조 생성
 
 ```
 game/
   src/
-    main.ts                 # Phaser.Game 부트스트랩
+    main.ts                       # Phaser.Game 부트스트랩
+    config.ts                     # 게임 전역 설정값(해상도, 물리 등)
     scenes/
-      BootScene.ts
+      BootScene.ts                # 최소 프리로드 + 다음 씬으로 즉시 전환
       IntroScene.ts
       HomeSelectScene.ts
       CarRouteScene.ts
@@ -60,24 +91,100 @@ game/
       VenueHallScene.ts
       EndingScene.ts
     systems/
-      TapToMove.ts           # 탭투무브 + 경로탐색
-      QuizModal.ts            # 공용 퀴즈 UI 컴포넌트
-      TriggerZone.ts          # 트리거 존 → 씬/퀴즈 연결
-      ArrowGuide.ts            # 화살표 안내 연출(C2)
+      TapToMove.ts                 # Phase 1
+      QuizModal.ts                 # Phase 2
+      TriggerZone.ts                # Phase 1
+      ArrowGuide.ts                  # Phase 2
     data/
-      scenario.ts | scenario.json   # scenario.md 내용을 데이터화
+      scenario.ts                    # Phase 2 (scenario.md 데이터화)
     objects/
       Player.ts
       Npc.ts
   public/
     assets/
-      tiles/ ...
-      sprites/ ...
-      ui/ ...
+      tiles/
+      sprites/
+      ui/
   index.html
   vite.config.ts
   tsconfig.json
+  package.json
 ```
+
+- Phase 0에서는 `systems/`, `data/`, `objects/`, `scenes/`의 각 파일을 **빈 껍데기(스텁)**로만
+  만들어둔다. 실제 로직은 Phase 1~3에서 채운다. 폴더 구조를 미리 잡아두는 이유는 이후 Phase
+  진행 시 파일을 어디에 둘지 매번 고민하지 않기 위함.
+
+### 0.6 `index.html` 모바일 대응 설정
+
+- `<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">`
+  추가 (핀치 줌 방지, 노치 대응)
+- `<div id="app"></div>` 하나만 두고 Phaser가 그 안에 캔버스를 생성하도록 구성
+- 카카오톡 인앱 브라우저 대응을 위해 `<meta name="format-detection" content="telephone=no">`
+  등 불필요한 자동 링크 변환 방지 메타도 함께 추가
+
+### 0.7 `main.ts` — Phaser 게임 부트스트랩
+
+- `Phaser.Game` 설정값 (design.md 2장 기준):
+  - `type: Phaser.AUTO`
+  - 기준 해상도 `width: 720, height: 1280`
+  - `scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH }`
+  - `physics: { default: 'arcade' }` (충돌/트리거 존에 사용)
+  - `scene: [BootScene, IntroScene, HomeSelectScene, CarRouteScene, SubwayRouteScene, VenueLobbyScene, VenueHallScene, EndingScene]`
+- `BootScene`은 Phase 0 단계에서는 로딩할 에셋이 없으므로, 화면 중앙에 "Hello Wedding Game"
+  같은 텍스트 하나만 그리고 5초 후(혹은 탭 시) `IntroScene`으로 전환하는 최소 스텁으로 구현
+  → 씬 전환 자체가 동작하는지만 검증하는 것이 이 시점의 목적
+
+### 0.8 tsconfig / lint 설정
+
+- [ ] `tsconfig.json`에서 `strict: true` 유지 (Vite 템플릿 기본값 그대로 사용 권장)
+- [ ] ESLint + Prettier 도입 여부 결정 — 1인 개발 + 빠른 진행이 우선이므로 **Phase 0에서는
+      생략**하고, 코드베이스가 커지는 시점(Phase 3 이후)에 필요하면 추가하는 것으로 보류
+      (introduction.md의 "최대한 빨리" 요구사항 반영)
+
+### 0.9 `.gitignore`
+
+- [ ] `game/node_modules/`, `game/dist/` 반드시 제외
+- [ ] 루트 `.gitignore`에 위 경로 추가 (기존 저장소에는 `.gitignore`가 없으므로 새로 생성)
+
+### 0.10 로컬 개발 서버 & 모바일 기기 테스트
+
+```bash
+npm run dev -- --host
+```
+
+- `--host` 옵션으로 로컬 네트워크에 개발 서버 노출 → 같은 Wi-Fi의 실제 스마트폰에서
+  `http://<PC-IP>:5173` 접속해 렌더 확인 (모바일 전용 프로젝트이므로 Phase 0부터 실기기
+  확인 습관화)
+- 확인 항목: 빈 화면이 아니라 `BootScene`의 텍스트가 세로 화면 중앙에 정상적으로 뜨는지,
+  화면 회전/줌이 막혀 있는지
+
+### 0.11 빌드 파이프라인 검증
+
+```bash
+npm run build
+npm run preview
+```
+
+- 정적 빌드(`dist/`)가 정상 생성되고 `preview`로 로컬에서 프로덕션 빌드가 동일하게
+  렌더되는지 확인 — Phase 4의 실제 배포(Vercel/Netlify) 전에 빌드 자체가 깨지지 않는지
+  미리 검증하는 목적
+
+### 0.12 커밋 & 문서 갱신
+
+- [ ] `game/` 스캐폴딩 전체를 하나의 커밋으로 저장소에 반영
+- [ ] 루트 `README.md`를 "문서는 `docs/`, 게임 코드는 `game/`" 안내로 갱신
+- [ ] `game/README.md`(선택)에 `npm install && npm run dev` 실행법 간단히 기록
+
+### Phase 0 완료 기준 (Definition of Done)
+
+- [ ] `game/` 디렉토리에서 `npm install && npm run dev`로 로컬 서버가 뜨고, 브라우저에서
+      빈 화면이 아닌 `BootScene`의 플레이스홀더 콘텐츠가 보인다
+- [ ] 같은 내용이 실제 스마트폰 브라우저(모바일)에서도 동일하게 보인다
+- [ ] `npm run build && npm run preview`가 에러 없이 동작한다
+- [ ] `scenes/`, `systems/`, `data/`, `objects/` 폴더와 각 스텁 파일이 저장소에 커밋되어
+      있다 (내용은 비어있어도 됨)
+- [ ] `.gitignore`로 `node_modules/`, `dist/`가 저장소에 올라가지 않는다
 
 ---
 
