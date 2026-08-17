@@ -178,13 +178,14 @@ npm run preview
 
 ### Phase 0 완료 기준 (Definition of Done)
 
-- [ ] `game/` 디렉토리에서 `npm install && npm run dev`로 로컬 서버가 뜨고, 브라우저에서
-      빈 화면이 아닌 `BootScene`의 플레이스홀더 콘텐츠가 보인다
-- [ ] 같은 내용이 실제 스마트폰 브라우저(모바일)에서도 동일하게 보인다
-- [ ] `npm run build && npm run preview`가 에러 없이 동작한다
-- [ ] `scenes/`, `systems/`, `data/`, `objects/` 폴더와 각 스텁 파일이 저장소에 커밋되어
+- [x] `game/` 디렉토리에서 `npm install && npm run dev`로 로컬 서버가 뜨고, 브라우저에서
+      빈 화면이 아닌 `BootScene`의 플레이스홀더 콘텐츠가 보인다 (헤드리스 브라우저 스크린샷으로 확인)
+- [ ] 같은 내용이 실제 스마트폰 브라우저(모바일)에서도 동일하게 보인다 — **실기기 확인은
+      사용자가 직접 해야 함** (`npm run dev -- --host`로 같은 Wi-Fi에서 접속)
+- [x] `npm run build && npm run preview`가 에러 없이 동작한다
+- [x] `scenes/`, `systems/`, `data/`, `objects/` 폴더와 각 스텁 파일이 저장소에 커밋되어
       있다 (내용은 비어있어도 됨)
-- [ ] `.gitignore`로 `node_modules/`, `dist/`가 저장소에 올라가지 않는다
+- [x] `.gitignore`로 `node_modules/`, `dist/`가 저장소에 올라가지 않는다
 
 ---
 
