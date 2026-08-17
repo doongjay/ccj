@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { GAME_WIDTH, GAME_HEIGHT } from '../config';
-import type { Quiz } from '../data/scenario';
+import type { Quiz, QuizOption } from '../data/scenario';
 
 const PANEL_WIDTH = 600;
 const PANEL_PADDING = 32;
@@ -12,11 +12,12 @@ const FOOTER_AREA_HEIGHT = 120;
 const FALLBACK_REACTION_TEXT = '음... 다시 골라볼까요?';
 
 /** Question + options modal. Wrong answers show a reaction and reveal a hint button;
- *  retries are unlimited. A correct answer closes the modal and fires onCorrect(). */
+ *  retries are unlimited. A correct answer closes the modal and fires onCorrect() with
+ *  the option that was picked (useful when more than one option counts as correct, e.g. Q3). */
 export class QuizModal {
   private readonly container: Phaser.GameObjects.Container;
 
-  constructor(scene: Phaser.Scene, quiz: Quiz, onCorrect: () => void) {
+  constructor(scene: Phaser.Scene, quiz: Quiz, onCorrect: (option: QuizOption) => void) {
     const optionsHeight = quiz.options.length * OPTION_HEIGHT + (quiz.options.length - 1) * OPTION_GAP;
     const panelHeight = PANEL_PADDING * 2 + QUESTION_AREA_HEIGHT + optionsHeight + FOOTER_AREA_HEIGHT;
     const centerX = GAME_WIDTH / 2;
@@ -86,7 +87,7 @@ export class QuizModal {
       button.on('pointerdown', () => {
         if (option.correct) {
           this.container.destroy(true);
-          onCorrect();
+          onCorrect(option);
           return;
         }
 

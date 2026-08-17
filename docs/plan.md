@@ -252,20 +252,23 @@ npm run preview
 
 scenario.md 기준으로 씬을 순서대로 구현하고 연결한다.
 
-- [ ] `BootScene`: 프리로드 (플레이스홀더 단계에서는 최소 에셋만)
-- [ ] `IntroScene`: 타이틀 텍스트 + 시작 버튼 (신랑신부 인사 연출은 플레이스홀더 텍스트로 대체 가능)
-- [ ] `HomeSelectScene`: 두 트리거 존(자차/지하철) 배치 → 선택값을 전역 상태(Phaser
-      Registry 또는 간단한 상태 모듈)에 저장
-- [ ] `CarRouteScene`: 정체 연출(스토리 비트) → Q1 트리거 → 정답 시 `VenueLobbyScene`으로
-- [ ] `SubwayRouteScene`: 노선 연출 → Q2 트리거 → 정답 시 `VenueLobbyScene`으로
-- [ ] `VenueLobbyScene`: 포토테이블 NPC 트리거 → Q3(신랑측/신부측) → 정답에 따라 축의대
-      1/2 위치로 캐릭터 이동
-- [ ] `VenueHallScene`: `ArrowGuide`로 연회장까지 안내 → 도달 시 `EndingScene`으로
-- [ ] `EndingScene`: 현재는 "곧 공개됩니다" 수준의 빈 플레이스홀더 화면만 구현 (scenario.md
-      5장 참고, 추후 콘텐츠 확정되면 채움)
+- [x] `BootScene`: 프리로드 (플레이스홀더 단계라 로드할 실제 에셋이 없음 — 텍스트만 표시)
+- [x] `IntroScene`: 타이틀 텍스트("이재준 ♥ 김현서의 결혼식으로 가는 길") + 탭하면 시작
+- [x] `HomeSelectScene`: 두 트리거 존(자차/지하철) 배치 → 선택값을 `this.registry`에 저장 (Phase 1에서 이미 구현)
+- [x] `CarRouteScene`: 정체 연출(상단 타이틀 텍스트) → Q1 트리거 → 정답 시 `VenueLobbyScene`으로
+- [x] `SubwayRouteScene`: 노선 연출(상단 타이틀 텍스트) → Q2 트리거 → 정답 시 `VenueLobbyScene`으로
+- [x] `VenueLobbyScene`: 포토테이블 NPC 트리거 → Q3(신랑측/신부측, `QuizModal`이 선택된
+      옵션을 콜백으로 전달하도록 확장) → 정답에 따라 축의대 1/2 위치로 트윈 이동 → 페이드 →
+      `VenueHallScene`
+- [x] `VenueHallScene`: `ArrowGuide`로 연회장까지 안내 → 마지막 지점 도달 시 페이드 →
+      `EndingScene`
+- [x] `EndingScene`: "엔딩 콘텐츠는 추후 확정 예정" 플레이스홀더만 표시 (scenario.md 5장 —
+      사용자가 명시적으로 비워두라고 요청한 부분, 내용은 넣지 않음)
 
 **완료 기준**: 인트로에서 시작해 자차/지하철 어느 경로를 택하든 처음부터 끝(엔딩 플레이스홀더)까지
-막힘 없이 완주 가능.
+막힘 없이 완주 가능. → **검증 완료.** 헤드리스 브라우저로 두 루트 모두
+`IntroScene → HomeSelectScene → (Car/SubwayRouteScene, 퀴즈) → VenueLobbyScene(Q3) →
+VenueHallScene(화살표 안내) → EndingScene`까지 실제 탭 시뮬레이션으로 완주 확인.
 
 ---
 
