@@ -8,10 +8,13 @@ export class IntroScene extends Phaser.Scene {
 
   create() {
     this.add
-      .text(GAME_WIDTH / 2, GAME_HEIGHT / 2, 'IntroScene', {
+      .text(GAME_WIDTH / 2, GAME_HEIGHT / 2, 'IntroScene\n(탭하면 시작)', {
         fontSize: '32px',
         color: '#ffffff',
+        align: 'center',
       })
       .setOrigin(0.5);
+
+    this.input.once('pointerdown', () => this.scene.start('HomeSelectScene'));
   }
 }

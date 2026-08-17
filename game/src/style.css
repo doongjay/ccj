@@ -7,10 +7,9 @@ body {
   height: 100%;
 }
 
+/* Phaser's Scale Manager (CENTER_BOTH) positions the canvas itself —
+   #app must stay a plain block, or centering gets applied twice. */
 #app {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   height: 100%;
 }
