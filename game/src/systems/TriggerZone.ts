@@ -1,6 +1,12 @@
 import Phaser from 'phaser';
 
-/** One-shot overlap trigger between the player sprite and a rectangular zone. */
+// Below this speed the player counts as "arrived" rather than mid-stride.
+const ARRIVED_SPEED_SQ = 25; // 5px/s, squared
+
+/** One-shot overlap trigger between the player sprite and a rectangular zone.
+ *  Only fires once the player has actually come to rest inside the zone — a BFS route
+ *  to some other destination can otherwise cut straight through a zone it never meant
+ *  to visit, firing it by accident while merely passing through. */
 export class TriggerZone {
   private triggered = false;
 
@@ -18,6 +24,7 @@ export class TriggerZone {
 
     scene.physics.add.overlap(player, zone, () => {
       if (this.triggered) return;
+      if (player.body!.velocity.lengthSq() > ARRIVED_SPEED_SQ) return;
       this.triggered = true;
       onEnter();
     });

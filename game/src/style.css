@@ -1,3 +1,17 @@
+/* Galmuri (OFL-1.1, see /fonts/LICENSE.txt), subset to this project's actual copy. */
+@font-face {
+  font-family: 'Galmuri11';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Galmuri11.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Galmuri11';
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Galmuri11-Bold.woff2') format('woff2');
+}
+
 html,
 body {
   margin: 0;

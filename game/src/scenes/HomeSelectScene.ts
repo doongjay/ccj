@@ -1,15 +1,14 @@
 import Phaser from 'phaser';
-import { GAME_WIDTH, GAME_HEIGHT } from '../config';
+import { GAME_WIDTH, GAME_HEIGHT, PIXEL_FONT } from '../config';
 import { Grid } from '../systems/Grid';
 import { TapToMove } from '../systems/TapToMove';
 import { TriggerZone } from '../systems/TriggerZone';
-import { ensureCircleTexture } from '../systems/placeholderAssets';
+import { ensurePixelCharacter, PLAYER_PALETTE } from '../systems/pixelCharacter';
+import { drawPixelFloor } from '../systems/pixelFloor';
 
 const CELL_SIZE = 80;
 const COLS = GAME_WIDTH / CELL_SIZE; // 9
 const ROWS = GAME_HEIGHT / CELL_SIZE; // 16
-
-const PLAYER_TEXTURE = 'player-placeholder';
 
 export class HomeSelectScene extends Phaser.Scene {
   private tapToMove?: TapToMove;
@@ -36,22 +35,23 @@ export class HomeSelectScene extends Phaser.Scene {
       walkable,
     });
 
-    this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, 0x2f3b2f);
+    drawPixelFloor(this, GAME_WIDTH, GAME_HEIGHT, CELL_SIZE, 0x2f3b2f, 0x000000);
     this.drawObstacle(walkable);
 
     this.add
       .text(GAME_WIDTH / 2, 60, '집 앞 — 어떻게 가시겠어요?', {
+        fontFamily: PIXEL_FONT,
         fontSize: '28px',
         color: '#ffffff',
       })
       .setOrigin(0.5);
 
-    ensureCircleTexture(this, PLAYER_TEXTURE, 24, 0xff6fa8);
+    const playerAnims = ensurePixelCharacter(this, 'player', PLAYER_PALETTE);
     const start = grid.cellToWorld(13, 4);
-    const player = this.physics.add.sprite(start.x, start.y, PLAYER_TEXTURE);
+    const player = this.physics.add.sprite(start.x, start.y, playerAnims.idle);
     player.setCollideWorldBounds(true);
 
-    this.tapToMove = new TapToMove(this, grid, player);
+    this.tapToMove = new TapToMove(this, grid, player, playerAnims);
 
     this.createRouteZone(grid, player, '자차로 간다', 1, 3, 2, 2, 0xf2c14e, () =>
       this.selectRoute(player, 'car', 'CarRouteScene'),
@@ -94,6 +94,7 @@ export class HomeSelectScene extends Phaser.Scene {
     this.add.rectangle(centerX, centerY, width, height, color, 0.35).setStrokeStyle(2, color);
     this.add
       .text(centerX, centerY, label, {
+        fontFamily: PIXEL_FONT,
         fontSize: '15px',
         color: '#ffffff',
         align: 'center',

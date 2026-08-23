@@ -1,20 +1,26 @@
 import Phaser from 'phaser';
 import { Grid } from './Grid';
+import type { PixelCharacterKeys } from './pixelCharacter';
 
 const MOVE_SPEED_PX_PER_SEC = 260;
 
-/** Tap-to-move: tapping the scene walks the given sprite to that point via grid pathfinding. */
+/** Tap-to-move: tapping the scene walks the given sprite to that point via grid pathfinding.
+ *  Optionally drives a walk/idle animation on the sprite (see pixelCharacter.ts). */
 export class TapToMove {
   private readonly scene: Phaser.Scene;
   private readonly grid: Grid;
   private readonly sprite: Phaser.Physics.Arcade.Sprite;
+  private readonly animKeys?: PixelCharacterKeys;
   private waypoints: { x: number; y: number }[] = [];
   private enabled = true;
 
-  constructor(scene: Phaser.Scene, grid: Grid, sprite: Phaser.Physics.Arcade.Sprite) {
+  constructor(scene: Phaser.Scene, grid: Grid, sprite: Phaser.Physics.Arcade.Sprite, animKeys?: PixelCharacterKeys) {
     this.scene = scene;
     this.grid = grid;
     this.sprite = sprite;
+    this.animKeys = animKeys;
+
+    if (this.animKeys) this.sprite.setTexture(this.animKeys.idle);
 
     this.scene.input.on('pointerdown', this.handlePointerDown, this);
     this.scene.events.on(Phaser.Scenes.Events.UPDATE, this.handleUpdate, this);
@@ -26,6 +32,7 @@ export class TapToMove {
     if (!enabled) {
       this.waypoints = [];
       this.sprite.setVelocity(0, 0);
+      this.playIdle();
     }
   }
 
@@ -45,9 +52,17 @@ export class TapToMove {
     const next = this.waypoints[0];
     if (next) {
       this.scene.physics.moveTo(this.sprite, next.x, next.y, MOVE_SPEED_PX_PER_SEC);
+      if (this.animKeys) this.sprite.play(this.animKeys.walk, true);
     } else {
       this.sprite.setVelocity(0, 0);
+      this.playIdle();
     }
+  }
+
+  private playIdle() {
+    if (!this.animKeys) return;
+    this.sprite.anims.stop();
+    this.sprite.setTexture(this.animKeys.idle);
   }
 
   private handleUpdate() {
