@@ -93,7 +93,12 @@ export class HomeSelectScene extends Phaser.Scene {
 
     this.add.rectangle(centerX, centerY, width, height, color, 0.35).setStrokeStyle(2, color);
     this.add
-      .text(centerX, centerY, label, { fontSize: '18px', color: '#ffffff', align: 'center', wordWrap: { width: width - 10 } })
+      .text(centerX, centerY, label, {
+        fontSize: '15px',
+        color: '#ffffff',
+        align: 'center',
+        wordWrap: { width: width - 24 },
+      })
       .setOrigin(0.5);
 
     new TriggerZone(this, player, centerX, centerY, width, height, onEnter);
