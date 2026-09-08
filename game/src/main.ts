@@ -9,6 +9,24 @@ import { SubwayRouteScene } from './scenes/SubwayRouteScene';
 import { VenueLobbyScene } from './scenes/VenueLobbyScene';
 import { VenueHallScene } from './scenes/VenueHallScene';
 import { EndingScene } from './scenes/EndingScene';
+import { GreeneryCorridorScene } from './scenes/GreeneryCorridorScene';
+import { BanquetScene, BridalRoomScene, PhotoBoothScene, WaitingRoomScene } from './scenes/VenueRoomScene';
+
+const GAME_SCENES = [
+  BootScene,
+  IntroScene,
+  HomeSelectScene,
+  CarRouteScene,
+  SubwayRouteScene,
+  VenueLobbyScene,
+  VenueHallScene,
+  PhotoBoothScene,
+  BanquetScene,
+  BridalRoomScene,
+  GreeneryCorridorScene,
+  WaitingRoomScene,
+  EndingScene,
+] as const satisfies readonly Phaser.Types.Scenes.SceneType[];
 
 new Phaser.Game({
   type: Phaser.AUTO,
@@ -23,14 +41,5 @@ new Phaser.Game({
   physics: {
     default: 'arcade',
   },
-  scene: [
-    BootScene,
-    IntroScene,
-    HomeSelectScene,
-    CarRouteScene,
-    SubwayRouteScene,
-    VenueLobbyScene,
-    VenueHallScene,
-    EndingScene,
-  ],
+  scene: [...GAME_SCENES],
 });

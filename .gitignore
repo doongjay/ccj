@@ -3,3 +3,13 @@ dist/
 dist-ssr/
 *.local
 .DS_Store
+
+# Generated artifacts
+game/node_modules/
+game/dist/
+playwright-report/
+test-results/
+screenshots/
+videos/
+.omo/
+.omc/

@@ -5,10 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsc && npm run typecheck:e2e && vite build",
+    "preview": "vite preview",
+    "test:e2e": "playwright test",
+    "verify:assets": "node scripts/verify-assets.mjs",
+    "typecheck:e2e": "tsc -p tsconfig.e2e.json",
+    "qa:build": "npm run build && npm run test:e2e -- --list"
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.0",
     "typescript": "~6.0.2",
     "vite": "^8.2.0"
   },
