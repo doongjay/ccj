@@ -71,7 +71,7 @@ npm install
 npm install phaser
 ```
 
-- 버전은 설치 시점의 최신 stable(Phaser 3.8x 계열 예상)로 고정하고 `package.json`에 커밋
+- 버전은 현재 설치된 stable 계열(Phaser 4.x)을 기준으로 `package.json`과 lockfile에 고정
 - 타입 정의는 Phaser 패키지에 내장되어 있어 별도 `@types` 불필요
 
 ### 0.5 폴더 구조 생성
