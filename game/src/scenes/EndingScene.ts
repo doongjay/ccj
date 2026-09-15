@@ -40,7 +40,7 @@ export class EndingScene extends Phaser.Scene {
       submitLabel: "메시지 남기기",
       maxLength: 1000,
       multiline: true,
-      note: `보내는 사람: ${readGuestName(this.registry)} · ${cloudEnabled ? "메시지는 신랑신부에게만 전달됩니다." : "로컬 확인용으로 이 브라우저에만 저장됩니다."}`,
+      note: `보내는 사람: ${readGuestName(this.registry)} · ${cloudEnabled ? "이름, 미니미와 메시지는 방명록에 공개됩니다." : "로컬 확인용으로 이 브라우저에만 저장됩니다."}`,
       onSkip: () => this.showEndingChoices(false),
       onSubmit: async message => {
         await saveGuestMessage(readGuestName(this.registry), side, message, { gender: readGuestGender(this.registry), outfit: readGuestOutfit(this.registry), hair: readGuestHair(this.registry), face: readGuestFace(this.registry) });
@@ -53,7 +53,7 @@ export class EndingScene extends Phaser.Scene {
   private showEndingChoices(saved: boolean): void {
     this.registry.set(CHECKPOINT_REGISTRY.ending, saved ? "saved" : "skipped");
     saveCheckpoint(this, "ending");
-    new StoryDialog(this).show(saved ? (cloudEnabled ? "메시지를 신랑신부에게 보냈어요. 함께해 줘서 고마워요!" : "메시지를 이 브라우저에 저장했어요. 함께해 줘서 고마워요!") : "함께해 줘서 고마워요! 메시지는 나중에 남겨도 좋아요.", [
+    new StoryDialog(this).show(saved ? (cloudEnabled ? "방명록에 메시지를 남겼어요. 함께해 줘서 고마워요!" : "메시지를 이 브라우저에 저장했어요. 함께해 줘서 고마워요!") : "함께해 줘서 고마워요! 메시지는 나중에 남겨도 좋아요.", [
       { label: "청첩장 보기", onSelect: () => fadeToScene(this, SCENE_KEYS.Invitation) },
       { label: "처음부터 다시", onSelect: () => this.replay() },
     ], () => { this.game.canvas.dataset.endingReplayReady = "true"; });

@@ -10,6 +10,7 @@ test("message waits for server acknowledgement and retains the draft on failure"
     access_token: token, refresh_token: "test-refresh", token_type: "bearer", expires_in: 3600,
     user: { id: userId, aud: "authenticated", role: "authenticated", is_anonymous: true, app_metadata: {}, user_metadata: {}, created_at: new Date().toISOString() },
   } }));
+  await page.route("**/rest/v1/guestbook_entries**", route => route.fulfill({ json: [] }));
   let fail = true;
   let writes = 0;
   const ids: string[] = [];

@@ -71,7 +71,7 @@ npm run preview -- --host 127.0.0.1
 
 ## Supabase 사진·메시지 저장
 
-`VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`가 설정된 빌드에서는 사진과 메시지를 Supabase에 저장합니다. 하객은 본인 기록만 조회하며 신랑신부는 Supabase 대시보드에서 전체 기록을 확인합니다. 테이블 생성, 권한, 저장소, 검증 방법은 [Supabase 설정 안내](supabase/README.md)를 참고하세요.
+`VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`가 설정된 빌드에서는 사진과 메시지를 Supabase에 저장합니다. 방명록의 이름·메시지·미니미는 모든 방문자에게 공개되고, 단체사진 영역에 작성한 미니미가 모입니다. 게임 촬영 이미지는 비공개이며 신랑신부가 Supabase 대시보드에서 확인합니다. 테이블 생성, 권한, 저장소, 검증 방법은 [Supabase 설정 안내](supabase/README.md)를 참고하세요.
 
 아래 로컬 저장 설명은 두 환경 변수가 없는 체험판에 해당합니다.
 

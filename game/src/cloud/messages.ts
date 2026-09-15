@@ -1,6 +1,6 @@
 import { z } from "zod";
 import { OUTFIT_LABELS } from "../data/guestOutfits";
-import { CloudSaveError, guestConnection } from "./client";
+import { CloudSaveError, guestConnection, publicConnection } from "./client";
 
 const avatarSchema = z.object({
   gender: z.enum(["male", "female"]).optional(),
@@ -12,7 +12,9 @@ const inputSchema = z.object({
   name: z.string().trim().min(1).max(20), side: z.enum(["groom", "bride"]),
   message: z.string().trim().min(1).max(1000), avatar: avatarSchema,
 });
-const recordSchema = inputSchema.extend({ id: z.uuid(), created_at: z.iso.datetime({ offset: true }) });
+const recordSchema = inputSchema.extend({
+  id: z.uuid(), created_at: z.iso.datetime({ offset: true }), avatar: avatarSchema.catch({}),
+});
 type MessageInput = z.input<typeof inputSchema>;
 const pending = new Map<string, string>();
 
@@ -22,10 +24,17 @@ function messageFromRow(value: unknown) {
     recipient: row.side === "bride" ? "현서" : "재준", createdAt: row.created_at, ...row.avatar };
 }
 export async function loadCloudMessages() {
-  const { client } = await guestConnection();
-  const { data, error } = await client.from("guest_messages").select("*").order("created_at").limit(1000);
-  if (error) throw new CloudSaveError();
-  return z.array(recordSchema).parse(data).map(messageFromRow);
+  const client = publicConnection();
+  const messages: ReturnType<typeof messageFromRow>[] = [];
+  const pageSize = 500;
+  for (let offset = 0; ; offset += pageSize) {
+    const { data, error } = await client.from("guestbook_entries").select("id,name,side,message,avatar,created_at")
+      .order("created_at").order("id").range(offset, offset + pageSize - 1);
+    if (error) throw new CloudSaveError();
+    const rows = z.array(recordSchema).parse(data);
+    messages.push(...rows.map(messageFromRow));
+    if (rows.length < pageSize) return messages;
+  }
 }
 export async function sendCloudMessage(input: MessageInput) {
   const parsed = inputSchema.parse(input);

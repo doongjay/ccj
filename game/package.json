@@ -11,7 +11,7 @@
     "verify:assets": "node scripts/verify-assets.mjs",
     "typecheck:e2e": "tsc -p tsconfig.e2e.json",
     "qa:build": "npm run build && npm run test:e2e -- --list",
-    "test:cloud": "VITE_SUPABASE_URL=http://127.0.0.1:54321 VITE_SUPABASE_PUBLISHABLE_KEY=test-key playwright test cloud-messages cloud-photos cloud-ending --workers=1"
+    "test:cloud": "VITE_SUPABASE_URL=http://127.0.0.1:54321 VITE_SUPABASE_PUBLISHABLE_KEY=test-key playwright test cloud-messages cloud-photos cloud-ending cloud-public-guestbook --workers=1"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.1",

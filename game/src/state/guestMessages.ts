@@ -21,8 +21,10 @@ let cloudMessages: GuestMessage[] = [];
 
 export async function refreshGuestMessages(): Promise<void> {
   if (!cloudEnabled) return;
+  const before = new Set(cloudMessages.map(message => message.id));
   const loaded = await loadCloudMessages();
-  cloudMessages = [...new Map([...loaded, ...cloudMessages].map(message => [message.id, message])).values()]
+  const savedDuringLoad = cloudMessages.filter(message => !before.has(message.id));
+  cloudMessages = [...new Map([...loaded, ...savedDuringLoad].map(message => [message.id, message])).values()]
     .sort((a, b) => a.createdAt.localeCompare(b.createdAt));
 }
 

@@ -15,6 +15,11 @@ export class CloudSaveError extends Error {
   }
 }
 
+export function publicConnection() {
+  if (!client) throw new CloudSaveError("서버 연결이 설정되지 않았어요.");
+  return client;
+}
+
 let signingIn: Promise<string> | undefined;
 export async function guestConnection() {
   if (!client) throw new CloudSaveError("서버 연결이 설정되지 않았어요.");

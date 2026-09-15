@@ -29,7 +29,7 @@ test("real guest message and photo persist while another guest cannot read or im
   const response = await savedMessage;
   expect(response.status()).toBe(201);
   const row = z.object({ id: z.uuid(), user_id: z.uuid() }).parse(await response.json());
-  await expect(page.locator(".minimi-guest")).toHaveCount(1);
+  await expect(page.locator(`.invitation-message[data-guest-id="${row.id}"]`)).toHaveCount(1);
   await page.reload();
   await expect(page.locator(".invitation-messages")).toContainText(message);
   await page.locator(".invitation-guest-form").scrollIntoViewIfNeeded();
@@ -49,10 +49,13 @@ test("real guest message and photo persist while another guest cannot read or im
   const photo = z.object({ id: z.uuid(), user_id: z.uuid(), storage_path: z.string() }).parse(photoResponse.request().postDataJSON());
   expect(photo.user_id).toBe(row.user_id);
   await page.screenshot({ path: info.outputPath("live-photo.png") });
-  // Then an independent guest cannot read, overwrite, or impersonate this author.
+  // Public entries are readable; original records and captured files remain private.
   const peer = createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
   const signIn = await peer.auth.signInAnonymously();
   expect(signIn.error).toBeNull();
+  const publicEntries = await peer.from("guestbook_entries").select("id,name,message,avatar").eq("id", row.id);
+  expect(publicEntries.error).toBeNull();
+  expect(publicEntries.data).toHaveLength(1);
   const messages = await peer.from("guest_messages").select("id").eq("id", row.id);
   expect(messages.error).toBeNull();
   expect(messages.data).toEqual([]);
@@ -68,6 +71,18 @@ test("real guest message and photo persist while another guest cannot read or im
   const publicImage = await page.request.get(`${url}/storage/v1/object/public/guest-photos/${photo.storage_path}`);
   expect(publicImage.status()).toBeGreaterThanOrEqual(400);
   const anonymous = createClient(url, key, { auth: { persistSession: false, autoRefreshToken: false } });
+  for (const reader of [peer, anonymous]) {
+    const publicRead = await reader.from("guestbook_entries").select("id").eq("id", row.id);
+    expect(publicRead.error).toBeNull();
+    expect(publicRead.data).toHaveLength(1);
+    const absentId = crypto.randomUUID();
+    const viewUpdate = await reader.from("guestbook_entries").update({ message: "must not overwrite" }).eq("id", absentId);
+    expect(viewUpdate.error?.code).toBe("42501");
+    const viewDelete = await reader.from("guestbook_entries").delete().eq("id", absentId);
+    expect(viewDelete.error?.code).toBe("42501");
+    const viewInsert = await reader.from("guestbook_entries").insert({ id: row.id, name, side: "groom", message, avatar: {} });
+    expect(viewInsert.error?.code).toBe("42501");
+  }
   const anonymousRead = await anonymous.from("guest_messages").select("id").limit(1);
   expect(anonymousRead.error?.code).toBe("42501");
   await info.attach("live-verification", { body: JSON.stringify({ messageId: row.id, photoId: photo.id, ownerId: row.user_id, storagePath: photo.storage_path, rls: "passed" }), contentType: "application/json" });

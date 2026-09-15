@@ -256,7 +256,7 @@ export class InvitationView {
     horizontalNavigation(album, offset => this.moveGuestPage(offset), this.wall);
     section.append(element("p", "", "신랑신부와 함께 사진을 찍고\n축하 메시지를 남겨주세요."), album,
       element("p", "minimi-photo-hint", "미니미와 방명록 글을 누르면 메시지가 보여요."));
-    section.append(element("p", "invitation-local-note", cloudEnabled ? "메시지는 신랑신부에게 전달됩니다. 여기에는 내가 남긴 메시지만 보여요." : "지금은 로컬 체험판입니다. 미니미와 메시지는 이 브라우저에만 저장되며, 다른 기기와 공유되지 않아요."));
+    section.append(element("p", "invitation-local-note", cloudEnabled ? "방명록에 남긴 이름, 미니미와 축하 메시지는 모든 하객에게 보여요." : "지금은 로컬 체험판입니다. 미니미와 메시지는 이 브라우저에만 저장되며, 다른 기기와 공유되지 않아요."));
     const selectedGender: unknown = this.scene.registry.get(GAME_STATE_REGISTRY_KEYS.guestGender);
     const gameAvatar: MinimiProfile | undefined = selectedGender === "male" || selectedGender === "female" ? {
       gender: readGuestGender(this.scene.registry), outfit: readGuestOutfit(this.scene.registry), hair: readGuestHair(this.scene.registry), face: readGuestFace(this.scene.registry),
@@ -321,7 +321,7 @@ export class InvitationView {
         message.value = "";
         error.textContent = "";
         this.renderGuests();
-        this.notify(cloudEnabled ? "신랑신부에게 메시지를 보냈어요." : "미니미와 메시지를 이 브라우저에 남겼어요.");
+        this.notify(cloudEnabled ? "방명록에 미니미와 메시지를 남겼어요." : "미니미와 메시지를 이 브라우저에 남겼어요.");
         this.wall.scrollIntoView({ block: "center", behavior: "auto" });
       } catch (failure) {
         error.textContent = failure instanceof CloudSaveError ? failure.message : "저장하지 못했어요. 다시 시도해 주세요.";
