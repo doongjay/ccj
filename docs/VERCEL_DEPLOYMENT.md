@@ -23,7 +23,7 @@ Vercel에서 개인 Hobby 계정으로 `Add New → Project`에서 위 저장소
 | Output Directory | `dist` |
 | Production Branch | `master` |
 
-`game/vercel.json`에 명령을 명시했다. 현재 화면은 정적 배포로 제공하고, 원본 사진은 `public/assets`에서 그대로 제공한다. 공용 방명록 저장은 아래와 같이 별도 연결이 필요하다. [Vite 배포](https://vercel.com/docs/frameworks/frontend/vite)
+`game/vercel.json`에 명령을 명시했다. 현재 화면은 정적 배포로 제공하고, 원본 사진은 `public/assets`에서 그대로 제공한다. 공용 방명록은 아래 Supabase 설정을 사용한다. [Vite 배포](https://vercel.com/docs/frameworks/frontend/vite)
 
 현재 원본 사진 포함 public은 약 248 MiB이므로 **Git 저장소 Import**로 빌드한다. Hobby CLI의 source upload 한도는 100 MB이므로 이 프로젝트 전체를 CLI로 직접 업로드하는 방식은 맞지 않는다. 원본 사진을 임의로 압축하거나 누락하지 않는다. [업로드 한도](https://vercel.com/docs/limits)
 
@@ -42,11 +42,13 @@ Vercel에서 개인 Hobby 계정으로 `Add New → Project`에서 위 저장소
 
 ## 현재 검증 범위
 
-### 방명록 보관 — 공개 전 연결 필요
+### 방명록 보관 — 원격 Supabase 패치 반영
 
-현재 `game/src/state/guestMessages.ts`는 각 방문자 브라우저의 `localStorage["wedding.guestMessages"]`에만 이름·메시지·받는 사람·작성 시각·미니미 선택을 저장한다. 서버 전송이나 공용 데이터베이스 연결은 없다. Vercel에 그대로 올려도 하객들의 메시지가 한곳에 모이지 않는다. 브라우저 데이터 삭제, 기기·도메인 변경 시 기존 기록에 접근하지 못할 수 있다.
+2026-09-16 원격 `04ba87b`까지의 방명록·사진 저장 패치를 그대로 반영했다. `VITE_SUPABASE_URL`과 `VITE_SUPABASE_PUBLISHABLE_KEY`가 설정된 배포에서는 메시지를 Supabase `guest_messages`에 저장하고, 공개 읽기 뷰 `guestbook_entries`로 모든 방문자에게 표시한다. 촬영 사진은 비공개 `guest-photos` 버킷과 `guest_photos` 테이블에 저장한다. 받는 사람 선택을 포함한 방명록 추가 수정은 취소했다.
 
-결혼식 이후까지 모두 보관하려면 공용 DB 저장/조회와 관리자용 JSON·CSV 내보내기를 구현하고, 저장 성공·실패 및 서로 다른 두 기기에서 조회되는지 검증해야 한다. DB 외에도 별도 백업 파일을 보관한다. 이 연결은 아직 완료하지 않았으며, 현재 로컬 저장을 장기 보존 기능으로 간주하지 않는다. 기존 로컬 기록은 삭제하거나 자동 업로드하지 않았다.
+설정과 보관 방법은 [원격 패치의 안내](../game/supabase/README.md)를 따른다. 관리자는 Supabase 대시보드에서 메시지·사진을 확인하고 주기적으로 내려받아 별도 보관한다. 앱에 새로운 JSON/CSV 내보내기 기능을 추가하지 않았다. 기존 브라우저 로컬 기록은 삭제하거나 자동 업로드하지 않는다.
+
+두 환경 변수가 없는 로컬 실행은 기존 localStorage 체험판으로 동작한다. 이 작업 환경에는 `game/.env.local`이 없다. 사용자가 원격 동작을 확인했다고 전달하여 방명록 추가 검증은 중단했다. 실제 서비스에 테스트 기록을 쓰거나 DB 설정을 변경하지 않는다.
 
 로컬 build 및 실제 Chromium 검증 기록은 `docs/game-review/`에 있다. shipping asset 검사는 원본 사진 품질 유지로 기존 23개 사진 개별 용량 + 전체 용량, 24건의 한도 초과가 남아 있다. 기준을 낮추지 않았다.
 

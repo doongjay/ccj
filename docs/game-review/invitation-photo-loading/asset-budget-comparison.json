@@ -1,0 +1,32 @@
+{
+  "sameIndividualBudgetErrors": true,
+  "previousTotalBytes": 259823609,
+  "currentTotalBytes": 264077775,
+  "addedDisplayBytes": 4254166,
+  "currentErrors": [
+    "file:assets/invitation/gallery/1.jpg: byte budget exceeded/empty (8396760)",
+    "file:assets/invitation/gallery/2.jpg: byte budget exceeded/empty (8529483)",
+    "file:assets/invitation/gallery/3.jpg: byte budget exceeded/empty (7494326)",
+    "file:assets/invitation/gallery/4.jpg: byte budget exceeded/empty (10534309)",
+    "file:assets/invitation/gallery/6.jpg: byte budget exceeded/empty (6997649)",
+    "file:assets/invitation/gallery/12.jpg: byte budget exceeded/empty (8518911)",
+    "file:assets/invitation/gallery/13.jpg: byte budget exceeded/empty (3214457)",
+    "file:assets/invitation/gallery/22.jpg: byte budget exceeded/empty (4432950)",
+    "file:assets/invitation/gallery/23.jpg: byte budget exceeded/empty (4673486)",
+    "file:assets/invitation/gallery/24.jpg: byte budget exceeded/empty (13145848)",
+    "file:assets/invitation/gallery/25.jpg: byte budget exceeded/empty (4828810)",
+    "file:assets/invitation/gallery/31.jpg: byte budget exceeded/empty (15773393)",
+    "file:assets/invitation/gallery/32.jpg: byte budget exceeded/empty (8433629)",
+    "file:assets/invitation/gallery/33.jpg: byte budget exceeded/empty (9081261)",
+    "file:assets/invitation/gallery/42.jpg: byte budget exceeded/empty (13140947)",
+    "file:assets/invitation/gallery/43.jpg: byte budget exceeded/empty (7572969)",
+    "file:assets/invitation/gallery/44.jpg: byte budget exceeded/empty (14949923)",
+    "file:assets/invitation/gallery/45.jpg: byte budget exceeded/empty (9478045)",
+    "wedding-photo-bride-1: byte budget exceeded/empty (6976166)",
+    "wedding-photo-bride-2: byte budget exceeded/empty (9026796)",
+    "wedding-photo-bride-3: byte budget exceeded/empty (4680567)",
+    "wedding-photo-groom-2: byte budget exceeded/empty (5184731)",
+    "wedding-photo-groom-3: byte budget exceeded/empty (7572969)",
+    "shipping: total byte budget 264077775"
+  ]
+}

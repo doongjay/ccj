@@ -1,0 +1,20 @@
+{
+  "baseHEAD": "9797ef8e9bdfae5e37006af4752f787d59068fe0",
+  "remoteHEAD": "04ba87b5c05706daf27435c8164e7a23dc1e28f5",
+  "sourceSHA256": {
+    "game/src/ui/invitationPhotos.ts": "275171b2b2f471e4e7c0c5c9150118821c0d18c52251f9e795bd8df10f08feba",
+    "game/src/ui/InvitationView.ts": "e880e66127ec05cae6a9d90f29db727a40e9f09646e92ae47829cf9023f060a8",
+    "game/src/ui/WeddingCountdown.ts": "80332920a9d7e5642b313d4f257aef760355aa0320b0d35886097784422ccad9",
+    "game/src/scenes/IntroScene.ts": "d5fd71f1bf1c4c9a11796777f38e488c1b7407a790d1503088225005905b139e",
+    "game/src/invitation.css": "47461b41c3d89a528dd7fe4698011fbf44d7684e69f24490e63ed1f1777ba12b",
+    "game/src/data/invitationPhotoDisplay.json": "faf9be60e63e663e0e9377f37d232bf15b944eaeb2981685a61f4446a5f293a5",
+    "game/src/data/shippingAssets.json": "6e566ee44ca9f3129b0790d251bd6ed896c8d47eb6f657c59f259a20c69b4f6f",
+    "game/package-lock.json": "c6f12c36e27cd50cbd528f5b2f831fa1699619a95cd6257a06dfcc5dea12ca04"
+  },
+  "guestbookChanges": "No additional guestbook/cloud changes; remote patch preserved.",
+  "browserTests": {
+    "visualAndLoading": 22,
+    "production": 2,
+    "guestbookCloudTests": "not run by user request"
+  }
+}

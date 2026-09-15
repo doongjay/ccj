@@ -1,0 +1,155 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=../docs/game-review/invitation-photo-loading/scripts/reference.config.ts"
+    ],
+    "configFile": "/Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/scripts/reference.config.ts",
+    "rootDir": "/Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/scripts",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/reference/browser",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/scripts",
+        "testIgnore": [],
+        "testMatch": [
+          "reference.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../logs/reference.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "reference.spec.ts",
+      "file": "reference.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "read the supplied invitation image sizes and confirm the local server",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 33689,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('img[src*=\"bucket\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('img[src*=\"bucket\"]').first()\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('img[src*=\"bucket\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('img[src*=\"bucket\"]').first()\u001b[22m\n\n    at /Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/scripts/reference.spec.ts:17:60",
+                    "location": {
+                      "file": "/Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/scripts/reference.spec.ts",
+                      "column": 60,
+                      "line": 17
+                    },
+                    "snippet": "  15 |   });\n  16 |   await page.goto(\"https://www.heumcard.com/cards/now-2026-11-21\", { waitUntil: \"domcontentloaded\" });\n> 17 |   await expect(page.locator('img[src*=\"bucket\"]').first()).toBeVisible({ timeout: 30000 });\n     |                                                            ^\n  18 |   for (let step = 0; step < 14; step++) { await page.mouse.wheel(0, 650); await page.waitForTimeout(300); }\n  19 |   await page.screenshot({ path: test.info().outputPath(\"heumcard-page.png\"), fullPage: true });\n  20 |   const images = await page.locator(\"img\").evaluateAll(nodes => nodes.map(image => ({ src: image.currentSrc || image.src, width: image.naturalWidth, height: image.naturalHeight, displayWidth: image.getBoundingClientRect().width, loading: image.loading })));"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/scripts/reference.spec.ts",
+                        "column": 60,
+                        "line": 17
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('img[src*=\"bucket\"]').first()\nExpected: visible\nTimeout: 30000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 30000ms\u001b[22m\n\u001b[2m  - waiting for locator('img[src*=\"bucket\"]').first()\u001b[22m\n\n\n  15 |   });\n  16 |   await page.goto(\"https://www.heumcard.com/cards/now-2026-11-21\", { waitUntil: \"domcontentloaded\" });\n> 17 |   await expect(page.locator('img[src*=\"bucket\"]').first()).toBeVisible({ timeout: 30000 });\n     |                                                            ^\n  18 |   for (let step = 0; step < 14; step++) { await page.mouse.wheel(0, 650); await page.waitForTimeout(300); }\n  19 |   await page.screenshot({ path: test.info().outputPath(\"heumcard-page.png\"), fullPage: true });\n  20 |   const images = await page.locator(\"img\").evaluateAll(nodes => nodes.map(image => ({ src: image.currentSrc || image.src, width: image.naturalWidth, height: image.naturalHeight, displayWidth: image.getBoundingClientRect().width, loading: image.loading })));\n    at /Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/scripts/reference.spec.ts:17:60"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-15T18:25:12.107Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/reference/browser/reference-read-the-supplie-641d4-nd-confirm-the-local-server/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/reference/browser/reference-read-the-supplie-641d4-nd-confirm-the-local-server/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/user/wedding/ccj/docs/game-review/invitation-photo-loading/scripts/reference.spec.ts",
+                    "column": 60,
+                    "line": 17
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "3de41faf189c1fc07e7d-32ed4370e8715050b280",
+          "file": "reference.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-15T18:25:11.902Z",
+    "duration": 35034.268,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

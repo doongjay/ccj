@@ -1,0 +1,424 @@
+{
+  "longEdge": 1920,
+  "webpQuality": 92,
+  "originalBytes": 173589471,
+  "displayBytes": 4254166,
+  "files": [
+    {
+      "original": "game/public/assets/invitation/intro.jpg",
+      "display": "game/public/assets/invitation/display/intro.webp",
+      "originalSHA256": "a4c5be47d495a44ad22bb49be4ef7c62998aa6c6da4dcf4c51f3c3c41f8fe1d6",
+      "displaySHA256": "e114fbb990fe578d88bb7b32018db46bf8df0a2fff38492345aabb33df92ca74",
+      "sourceDimensions": [
+        2918,
+        4377
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 1936245,
+      "displayBytes": 123520
+    },
+    {
+      "original": "game/public/assets/invitation/calendar.jpg",
+      "display": "game/public/assets/invitation/display/calendar.webp",
+      "originalSHA256": "4d457946a70544364f7414615fe5bdfb8a74fe429d5929fc9f78dc71dd65c049",
+      "displaySHA256": "0070092ca20b85e45fe86d67c594459b42dc527bb9ce7686775434fa570d4446",
+      "sourceDimensions": [
+        2918,
+        3628
+      ],
+      "displayDimensions": [
+        1544,
+        1920
+      ],
+      "originalBytes": 1754806,
+      "displayBytes": 159218
+    },
+    {
+      "original": "game/public/assets/invitation/timer.jpg",
+      "display": "game/public/assets/invitation/display/timer.webp",
+      "originalSHA256": "03817e97d9bf7f7412d05de1d573dedb6533edb8c94463057a464bbb5080ab95",
+      "displaySHA256": "d70d28ced974b7e17ab5212b5e37823ae3bf84839357055c022aa9378e4e937e",
+      "sourceDimensions": [
+        2772,
+        4158
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 1007795,
+      "displayBytes": 121416
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/1.jpg",
+      "display": "game/public/assets/invitation/display/gallery/1.webp",
+      "originalSHA256": "7709559186d717c330df95568ae89195b65e08f46cdd22756207dffbde2fda1f",
+      "displaySHA256": "32fc4061f0fbe2df87838bc94b58362e0a09cdfeba811c9d2a28af158fc00ef3",
+      "sourceDimensions": [
+        3072,
+        4705
+      ],
+      "displayDimensions": [
+        1254,
+        1920
+      ],
+      "originalBytes": 8396760,
+      "displayBytes": 153728
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/2.jpg",
+      "display": "game/public/assets/invitation/display/gallery/2.webp",
+      "originalSHA256": "9869f9700865d4fb6bb2b9d21c7cd7a43c2774e283440947521fa36f96741808",
+      "displaySHA256": "d638963d5b312da599c417bc22c440a4a7bd0579aba9378635321fbed83beefc",
+      "sourceDimensions": [
+        4608,
+        3072
+      ],
+      "displayDimensions": [
+        1920,
+        1280
+      ],
+      "originalBytes": 8529483,
+      "displayBytes": 183662
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/3.jpg",
+      "display": "game/public/assets/invitation/display/gallery/3.webp",
+      "originalSHA256": "1ab59f79deaef2bbe2f86dc623725d09b8029197d56c73ca00dfdc116787a7f0",
+      "displaySHA256": "f4d536313c2c77955ba5133f9ba57b728d6087c4cd153cb671f4e4cfaafc88b0",
+      "sourceDimensions": [
+        4608,
+        3072
+      ],
+      "displayDimensions": [
+        1920,
+        1280
+      ],
+      "originalBytes": 7494326,
+      "displayBytes": 156984
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/4.jpg",
+      "display": "game/public/assets/invitation/display/gallery/4.webp",
+      "originalSHA256": "684b5415533e2aad852fb070ca057446afd66c87ad4fb1cc00e455d41a8f9f0b",
+      "displaySHA256": "4c981ba9e928a089de175035c90e65854a3d93a94517417f37545dff1a50c5ae",
+      "sourceDimensions": [
+        3067,
+        4495
+      ],
+      "displayDimensions": [
+        1310,
+        1920
+      ],
+      "originalBytes": 10534309,
+      "displayBytes": 275378
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/5.jpg",
+      "display": "game/public/assets/invitation/display/gallery/5.webp",
+      "originalSHA256": "310a9f0e634315b8cc3eeb09878ef4da7582ab423227d82d80f2fa19512c7ca0",
+      "displaySHA256": "41151f5daf043f2c00256c0dec0f49c6d80ee9fc66f195760e7b54138809518a",
+      "sourceDimensions": [
+        3840,
+        4927
+      ],
+      "displayDimensions": [
+        1496,
+        1920
+      ],
+      "originalBytes": 2042887,
+      "displayBytes": 180648
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/6.jpg",
+      "display": "game/public/assets/invitation/display/gallery/6.webp",
+      "originalSHA256": "a9bd6ef65144be86977043b6af91660531f907ac02304e6dac7ea81a5781ba4f",
+      "displaySHA256": "3ecdd752bacba6aeb36659c59313f5aa41bf671a4e336d1ac3b3d476f3d48602",
+      "sourceDimensions": [
+        3072,
+        4608
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 6997649,
+      "displayBytes": 120584
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/11.jpg",
+      "display": "game/public/assets/invitation/display/gallery/11.webp",
+      "originalSHA256": "5517896c284057d9fe891f4f9368233e0dfb74615934667b2edaaf50c7ed84f1",
+      "displaySHA256": "a39811b09df51fea6333fe279f9f200bf2e93e28ce077d40b25bbca844fbbe92",
+      "sourceDimensions": [
+        3072,
+        4608
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 1691773,
+      "displayBytes": 64260
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/12.jpg",
+      "display": "game/public/assets/invitation/display/gallery/12.webp",
+      "originalSHA256": "5b32077c4695ae8ab13f0aaeb8284126ed20c33ebb24423b20e4ad0ad6905357",
+      "displaySHA256": "7a149b462eddc26f007015e640e4528525bd91222f29ecc43363780b4a293e2a",
+      "sourceDimensions": [
+        3072,
+        4608
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 8518911,
+      "displayBytes": 132810
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/13.jpg",
+      "display": "game/public/assets/invitation/display/gallery/13.webp",
+      "originalSHA256": "c70623d4c51276345cabfdd88162be8862ab56cf3e856cf03a6e0153eb6e514b",
+      "displaySHA256": "407abbafcf03a34ec0eea54b512dc11b77eaf5050cf2de9e2ee68062268f94a7",
+      "sourceDimensions": [
+        2851,
+        4276
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 3214457,
+      "displayBytes": 91938
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/21.jpg",
+      "display": "game/public/assets/invitation/display/gallery/21.webp",
+      "originalSHA256": "78bd30cc3cdbf62c0a327f93b9332cb568a032474c7577c1ab227674000552e2",
+      "displaySHA256": "8fb476968bcf2f0d9f31da10b44ee1283f33ae3a76f77e8967ff9c3972682591",
+      "sourceDimensions": [
+        3072,
+        4639
+      ],
+      "displayDimensions": [
+        1271,
+        1920
+      ],
+      "originalBytes": 2542804,
+      "displayBytes": 173812
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/22.jpg",
+      "display": "game/public/assets/invitation/display/gallery/22.webp",
+      "originalSHA256": "704cb282e5dfe86f6f9328429a000069126510d68aa462b0dda8b469417672bb",
+      "displaySHA256": "8a7888140119de5a5dd3978cf8a2208d8c645628811daf3f726c2846200a9b31",
+      "sourceDimensions": [
+        3072,
+        4608
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 4432950,
+      "displayBytes": 118486
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/23.jpg",
+      "display": "game/public/assets/invitation/display/gallery/23.webp",
+      "originalSHA256": "abcdf50190bdbeca5f7008d1b1c32d6a07ddc38fc9689dfd9441860e530fadfa",
+      "displaySHA256": "63f085dab52b24fd4a35d163e1ee318f339268538e52c5d540314d97b80bc0da",
+      "sourceDimensions": [
+        2730,
+        4095
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 4673486,
+      "displayBytes": 132180
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/24.jpg",
+      "display": "game/public/assets/invitation/display/gallery/24.webp",
+      "originalSHA256": "2669e58203b7df08ccf07c5e0e02300a60bd111df663290b02d0684fff4e21c0",
+      "displaySHA256": "854fad008edd10708fb2eb16c3191cac1a277e0b3a2ecc481cb49527ad3ec858",
+      "sourceDimensions": [
+        4608,
+        3072
+      ],
+      "displayDimensions": [
+        1920,
+        1280
+      ],
+      "originalBytes": 13145848,
+      "displayBytes": 92738
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/25.jpg",
+      "display": "game/public/assets/invitation/display/gallery/25.webp",
+      "originalSHA256": "16b40823a4d1fd7cf4ac09dd016be9f20dcfbf352f9a234d2eaef8363c1c50aa",
+      "displaySHA256": "fe03a87a3f5c7f2e934b66dfeeaadf1d183612a4d5dc21c5dbea891d76ea8e5b",
+      "sourceDimensions": [
+        2836,
+        4254
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 4828810,
+      "displayBytes": 189594
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/26.jpg",
+      "display": "game/public/assets/invitation/display/gallery/26.webp",
+      "originalSHA256": "b93fa9e1833a83c2540569f7a6b4dfbee9b715e425e41391ff192d982f9ad22d",
+      "displaySHA256": "ab53bbdbe4fba8f8d480697efde4da771d0d553a8110ad6bee3c78526a9ca5d2",
+      "sourceDimensions": [
+        2859,
+        4282
+      ],
+      "displayDimensions": [
+        1282,
+        1920
+      ],
+      "originalBytes": 1740872,
+      "displayBytes": 131006
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/31.jpg",
+      "display": "game/public/assets/invitation/display/gallery/31.webp",
+      "originalSHA256": "258999f552461b6c57cee711e1dff84bbc6f70573b519218f724b78a76cae2e9",
+      "displaySHA256": "bf295ad3015e9b14b9256dcfc9c3e0754df0f9c4fa6e5c39fa3b46c57ee9f7af",
+      "sourceDimensions": [
+        4605,
+        3107
+      ],
+      "displayDimensions": [
+        1920,
+        1295
+      ],
+      "originalBytes": 15773393,
+      "displayBytes": 270100
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/32.jpg",
+      "display": "game/public/assets/invitation/display/gallery/32.webp",
+      "originalSHA256": "374b50bac7b38d7788f6fae8deae7906ab9e28006d27d66baf3884e49f3787ce",
+      "displaySHA256": "a57c9ee9fce85422782cfc214dcf8f44722b36d0835b43e561cba9b3c71a7d44",
+      "sourceDimensions": [
+        2875,
+        4608
+      ],
+      "displayDimensions": [
+        1198,
+        1920
+      ],
+      "originalBytes": 8433629,
+      "displayBytes": 194604
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/33.jpg",
+      "display": "game/public/assets/invitation/display/gallery/33.webp",
+      "originalSHA256": "2267b3e74f7052ce348961d19e55acf4763c403ad00e191de3b0d334a8cbaae1",
+      "displaySHA256": "ad8cf29837905cda5523309d23566f5705e4ee64522f7c7204d5cf5540aa0f58",
+      "sourceDimensions": [
+        3072,
+        4252
+      ],
+      "displayDimensions": [
+        1387,
+        1920
+      ],
+      "originalBytes": 9081261,
+      "displayBytes": 314450
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/41.png",
+      "display": "game/public/assets/invitation/display/gallery/41.webp",
+      "originalSHA256": "9baa859da2b70e9bcedd812ffb4b780c8ddb6682c034333dea055017772fe0c3",
+      "displaySHA256": "1456087cc9272693f229cf00987260b9504f1b861dac0b2265c651339bb3762a",
+      "sourceDimensions": [
+        1023,
+        1537
+      ],
+      "displayDimensions": [
+        1023,
+        1537
+      ],
+      "originalBytes": 1675133,
+      "displayBytes": 87404
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/42.jpg",
+      "display": "game/public/assets/invitation/display/gallery/42.webp",
+      "originalSHA256": "52c32afb9ab0faddbebc8957fe0217e3ab26b26a48f1865528397283e3df3d88",
+      "displaySHA256": "8e56382646447ce69bfe0621ce8aab551978f1cf8012dee02a87c03338c9fe7d",
+      "sourceDimensions": [
+        3072,
+        4608
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 13140947,
+      "displayBytes": 116136
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/43.jpg",
+      "display": "game/public/assets/invitation/display/gallery/43.webp",
+      "originalSHA256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+      "displaySHA256": "5c37ee92f552febc6420ad84090c6c54bd56b0aa273656c41ef62ff3547cce72",
+      "sourceDimensions": [
+        2951,
+        4491
+      ],
+      "displayDimensions": [
+        1262,
+        1920
+      ],
+      "originalBytes": 7572969,
+      "displayBytes": 192926
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/44.jpg",
+      "display": "game/public/assets/invitation/display/gallery/44.webp",
+      "originalSHA256": "c1cfcb39c8a63b648f58d8c114fd964b30b0b3f0f2dab295348b333c9f295570",
+      "displaySHA256": "f7e226aea4310745aeffb9bbe85e9b50728473a36d31b98d212d0f830f69d54e",
+      "sourceDimensions": [
+        2983,
+        4608
+      ],
+      "displayDimensions": [
+        1243,
+        1920
+      ],
+      "originalBytes": 14949923,
+      "displayBytes": 306330
+    },
+    {
+      "original": "game/public/assets/invitation/gallery/45.jpg",
+      "display": "game/public/assets/invitation/display/gallery/45.webp",
+      "originalSHA256": "e664f05bf902c489bd6a42316e706978c815dfce417ada562c3216d6f528ed88",
+      "displaySHA256": "506f92ed1088fb39c1fc2b06b43632d595e9994256a3b80580213f656a93fb1d",
+      "sourceDimensions": [
+        3072,
+        4608
+      ],
+      "displayDimensions": [
+        1280,
+        1920
+      ],
+      "originalBytes": 9478045,
+      "displayBytes": 170254
+    }
+  ]
+}

@@ -13,6 +13,7 @@ import { invitationInformation } from "./InvitationInformation";
 import { GUEST_PHOTO_PAGE_SIZE, GUEST_PHOTO_POSITIONS } from "./guestPhotoLayout";
 import { WEDDING_METADATA } from "../data/weddingMetadata";
 import { weddingMonogramElement } from "./weddingMonogram";
+import { invitationPhoto, invitationPhotoUrl, prepareInvitationPhotos } from "./invitationPhotos";
 import { invitationShareUrl, kakaoConfigured, prepareKakaoShare, sendKakaoInvitation } from "./invitationShare";
 
 const SOURCE_URL = "https://www.heumcard.com/cards/now-2026-11-21";
@@ -32,6 +33,7 @@ export class InvitationView {
   private toastTimer: number | undefined;
   private picker: MinimiPicker | undefined;
   private countdown: WeddingCountdown | undefined;
+  private stopPhotoPreparation: (() => void) | undefined;
   private readonly app = document.querySelector<HTMLElement>("#app");
 
   constructor(scene: Phaser.Scene, onReturn?: () => void) {
@@ -60,6 +62,7 @@ export class InvitationView {
       if (this.root.isConnected) this.notify("이전 메시지를 불러오지 못했어요. 잠시 후 청첩장을 다시 열어 주세요.");
     });
     window.addEventListener("storage", this.onStorage);
+    this.stopPhotoPreparation = prepareInvitationPhotos(this.root, paper);
   }
 
   private hero(): HTMLElement {
@@ -164,10 +167,10 @@ export class InvitationView {
     const adjacent = (offset: number) => (index - 1 + offset + source.galleryFiles.length) % source.galleryFiles.length + 1;
     const move = (offset: number) => {
       index = adjacent(offset);
-      image.src = `/assets/invitation/${galleryFile(index)}`;
+      image.src = invitationPhotoUrl(galleryFile(index));
       image.alt = `재준과 현서의 웨딩 사진 ${index}`;
-      beforeImage.src = `/assets/invitation/${galleryFile(adjacent(-1))}`;
-      afterImage.src = `/assets/invitation/${galleryFile(adjacent(1))}`;
+      beforeImage.src = invitationPhotoUrl(galleryFile(adjacent(-1)));
+      afterImage.src = invitationPhotoUrl(galleryFile(adjacent(1)));
       count.textContent = `${index} / ${source.galleryFiles.length}`;
     };
     stage.append(previous, next, active, arrowButton("이전 사진", -1, () => move(-1)), arrowButton("다음 사진", 1, () => move(1)));
@@ -514,6 +517,7 @@ export class InvitationView {
   private readonly onStorage = (): void => this.renderGuests();
 
   destroy(): void {
+    this.stopPhotoPreparation?.();
     this.countdown?.destroy();
     this.picker?.destroy();
     window.removeEventListener("storage", this.onStorage);
@@ -539,7 +543,9 @@ function link(label: string, href: string): HTMLAnchorElement {
 }
 
 function picture(file: string, alt: string, lazy = true): HTMLImageElement {
-  const image = document.createElement("img"); image.src = `/assets/invitation/${file}`; image.alt = alt;
+  const image = document.createElement("img"); image.src = invitationPhotoUrl(file); image.alt = alt;
+  const display = invitationPhoto(file);
+  if (display) { image.width = display.width; image.height = display.height; }
   image.loading = lazy ? "lazy" : "eager"; image.decoding = "async";
   return image;
 }

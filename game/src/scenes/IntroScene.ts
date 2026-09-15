@@ -1,4 +1,5 @@
 import { warmStage } from "../systems/stageAssets";
+import { warmInvitationPhotos } from "../ui/invitationPhotos";
 import Phaser from "phaser";
 import { GAME_WIDTH } from "../config";
 import { WEDDING_METADATA } from "../data/weddingMetadata";
@@ -75,13 +76,14 @@ export class IntroScene extends Phaser.Scene {
       height: 88,
       label: saved.value ? "이어하기" : "출발",
       onPress: (): void => {
+        warmInvitationPhotos();
         if (saved.value) fadeToScene(this, applyCheckpoint(this, saved.value));
         else { restartVisit(this); fadeToScene(this, SCENE_KEYS.HomeSelect); }
       },
     });
     if (saved.value) createTouchButton(this, {
       x: GAME_WIDTH / 2, y: 1216, width: 368, height: 80, label: "처음부터",
-      onPress: () => { restartVisit(this); fadeToScene(this, SCENE_KEYS.HomeSelect); },
+      onPress: () => { warmInvitationPhotos(); restartVisit(this); fadeToScene(this, SCENE_KEYS.HomeSelect); },
     });
     if (saved.problem) new StoryDialog(this).showInfo(saved.problem === "unavailable"
       ? "이 브라우저에서는 이어하기 저장을 사용할 수 없어요. 지금 게임은 계속 즐길 수 있어요."

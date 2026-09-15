@@ -23,7 +23,7 @@
 
 ## 배포 전 남은 사항
 
-방명록은 여전히 각 방문자 브라우저 localStorage에만 저장된다. 공용 DB 및 JSON/CSV 백업은 미연결. 기존 기록을 지우지 않았으며 Vercel 배포만으로 장기 보존이 제공되지 않는다. `docs/VERCEL_DEPLOYMENT.md` 참고.
+최초 화면 검증 시점에는 방명록이 localStorage만 사용했다. 이후 사용자의 지시에 따라 원격 `04ba87b`까지의 Supabase 방명록·사진 패치를 그대로 병합했다. Supabase 환경 변수가 설정된 배포는 서버에 저장하며, 미설정 로컬 실행은 체험판 저장을 유지한다. 받는 사람 버튼 변경은 취소했고 방명록을 추가 수정하지 않았다. 새로운 JSON/CSV 내보내기 기능은 추가하지 않았다. `docs/VERCEL_DEPLOYMENT.md`와 `../remote-guestbook-integration/README.md` 참고.
 
 다른 검수 폴더, 기존 ZIP, 원본 사진, 미니미 얼굴 아트 및 유도선 배경은 변경하지 않았다.
 

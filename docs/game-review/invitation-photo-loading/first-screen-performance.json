@@ -1,0 +1,48 @@
+{
+  "environment": "Local production preview, Chromium, cold cache, 393x852; measured when IntroScene becomes interactive",
+  "at": 1013.6000003814697,
+  "entries": [
+    {
+      "url": "http://127.0.0.1:5199/",
+      "transferSize": 1079,
+      "encodedBodySize": 779
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/index-BFXnaH_M.js",
+      "transferSize": 437022,
+      "encodedBodySize": 436722
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/index-DJHSNGOh.css",
+      "transferSize": 10081,
+      "encodedBodySize": 9781
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/lacitta/fonts/Galmuri11.woff2",
+      "transferSize": 155600,
+      "encodedBodySize": 155300
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-wedding-couple.webp",
+      "transferSize": 1005410,
+      "encodedBodySize": 1005110
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/lacitta/ui/dialog-panel.png",
+      "transferSize": 628,
+      "encodedBodySize": 328
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/lacitta/ui/touch-button.png",
+      "transferSize": 574,
+      "encodedBodySize": 274
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/optimized/lacitta-pixel-venue-hall.webp",
+      "transferSize": 1932640,
+      "encodedBodySize": 1932340
+    }
+  ],
+  "transferBytes": 3543034,
+  "encodedBytes": 3540634
+}

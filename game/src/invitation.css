@@ -1,6 +1,10 @@
 .invitation-page { position: fixed; inset: 0; z-index: 40; overflow: auto; overscroll-behavior: contain; background: #e8eee4; color: #383e35; font: 16px/1.9 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; touch-action: pan-y pinch-zoom; }
 .invitation-page *, .invitation-page *::before, .invitation-page *::after { box-sizing: border-box; }
 .invitation-page:focus { outline: none; }
+.invitation-photo-loading { position: fixed; inset: 0; z-index: 4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 28px; background: #fffdf8; color: #43523e; text-align: center; font: 14px/1.9 Galmuri11, monospace; }
+.invitation-photo-loading[hidden] { display: none; }
+.invitation-photo-loading p { max-width: 300px; margin: 0; }
+.invitation-photo-loading progress { width: min(240px, 80vw); height: 12px; accent-color: #829475; }
 .invitation-paper { position: relative; z-index: 1; max-width: 480px; margin: 0 auto; background: #fffdf8; box-shadow: 0 0 40px #343b2d0a; border-inline: 1px solid #d7e0cd; }
 .invitation-page img { display: block; width: 100%; height: auto; image-rendering: auto; }
 .invitation-page button, .invitation-page input, .invitation-page textarea, .invitation-page select { font: inherit; }

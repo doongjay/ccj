@@ -1,0 +1,9 @@
+
+> game@0.0.0 test:e2e
+> playwright test --config=../docs/game-review/invitation-photo-loading/scripts/verify.config.ts
+
+TypeError: Module "file:///Users/user/wedding/ccj/game/src/data/invitationPhotoDisplay.json" needs an import attribute of "type: json"
+Error: No tests found
+
+
+Exit 1, no tests ran. Added Node's JSON import attributes in the new test file; application code unchanged.

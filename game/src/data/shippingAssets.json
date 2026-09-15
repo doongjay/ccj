@@ -2618,6 +2618,526 @@
       "derivation": "imagegen-local-patch-lossless-png",
       "sourceSHA256": "8850122af5d9f3939df49020f64051c738aa6663980a5cbf21d83660d30214a6",
       "sha256": "8850122af5d9f3939df49020f64051c738aa6663980a5cbf21d83660d30214a6"
+    },
+    {
+      "key": "file:assets/invitation/display/intro.webp",
+      "url": "/assets/invitation/display/intro.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/intro.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "a4c5be47d495a44ad22bb49be4ef7c62998aa6c6da4dcf4c51f3c3c41f8fe1d6",
+      "sha256": "e114fbb990fe578d88bb7b32018db46bf8df0a2fff38492345aabb33df92ca74",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/calendar.webp",
+      "url": "/assets/invitation/display/calendar.webp",
+      "kind": "image",
+      "width": 1544,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/calendar.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "4d457946a70544364f7414615fe5bdfb8a74fe429d5929fc9f78dc71dd65c049",
+      "sha256": "0070092ca20b85e45fe86d67c594459b42dc527bb9ce7686775434fa570d4446",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/timer.webp",
+      "url": "/assets/invitation/display/timer.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/timer.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "03817e97d9bf7f7412d05de1d573dedb6533edb8c94463057a464bbb5080ab95",
+      "sha256": "d70d28ced974b7e17ab5212b5e37823ae3bf84839357055c022aa9378e4e937e",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/1.webp",
+      "url": "/assets/invitation/display/gallery/1.webp",
+      "kind": "image",
+      "width": 1254,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/1.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "7709559186d717c330df95568ae89195b65e08f46cdd22756207dffbde2fda1f",
+      "sha256": "32fc4061f0fbe2df87838bc94b58362e0a09cdfeba811c9d2a28af158fc00ef3",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/2.webp",
+      "url": "/assets/invitation/display/gallery/2.webp",
+      "kind": "image",
+      "width": 1920,
+      "height": 1280,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/2.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "9869f9700865d4fb6bb2b9d21c7cd7a43c2774e283440947521fa36f96741808",
+      "sha256": "d638963d5b312da599c417bc22c440a4a7bd0579aba9378635321fbed83beefc",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/3.webp",
+      "url": "/assets/invitation/display/gallery/3.webp",
+      "kind": "image",
+      "width": 1920,
+      "height": 1280,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/3.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "1ab59f79deaef2bbe2f86dc623725d09b8029197d56c73ca00dfdc116787a7f0",
+      "sha256": "f4d536313c2c77955ba5133f9ba57b728d6087c4cd153cb671f4e4cfaafc88b0",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/4.webp",
+      "url": "/assets/invitation/display/gallery/4.webp",
+      "kind": "image",
+      "width": 1310,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/4.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "684b5415533e2aad852fb070ca057446afd66c87ad4fb1cc00e455d41a8f9f0b",
+      "sha256": "4c981ba9e928a089de175035c90e65854a3d93a94517417f37545dff1a50c5ae",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/5.webp",
+      "url": "/assets/invitation/display/gallery/5.webp",
+      "kind": "image",
+      "width": 1496,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/5.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "310a9f0e634315b8cc3eeb09878ef4da7582ab423227d82d80f2fa19512c7ca0",
+      "sha256": "41151f5daf043f2c00256c0dec0f49c6d80ee9fc66f195760e7b54138809518a",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/6.webp",
+      "url": "/assets/invitation/display/gallery/6.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/6.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "a9bd6ef65144be86977043b6af91660531f907ac02304e6dac7ea81a5781ba4f",
+      "sha256": "3ecdd752bacba6aeb36659c59313f5aa41bf671a4e336d1ac3b3d476f3d48602",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/11.webp",
+      "url": "/assets/invitation/display/gallery/11.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/11.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "5517896c284057d9fe891f4f9368233e0dfb74615934667b2edaaf50c7ed84f1",
+      "sha256": "a39811b09df51fea6333fe279f9f200bf2e93e28ce077d40b25bbca844fbbe92",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/12.webp",
+      "url": "/assets/invitation/display/gallery/12.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/12.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "5b32077c4695ae8ab13f0aaeb8284126ed20c33ebb24423b20e4ad0ad6905357",
+      "sha256": "7a149b462eddc26f007015e640e4528525bd91222f29ecc43363780b4a293e2a",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/13.webp",
+      "url": "/assets/invitation/display/gallery/13.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/13.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "c70623d4c51276345cabfdd88162be8862ab56cf3e856cf03a6e0153eb6e514b",
+      "sha256": "407abbafcf03a34ec0eea54b512dc11b77eaf5050cf2de9e2ee68062268f94a7",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/21.webp",
+      "url": "/assets/invitation/display/gallery/21.webp",
+      "kind": "image",
+      "width": 1271,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/21.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "78bd30cc3cdbf62c0a327f93b9332cb568a032474c7577c1ab227674000552e2",
+      "sha256": "8fb476968bcf2f0d9f31da10b44ee1283f33ae3a76f77e8967ff9c3972682591",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/22.webp",
+      "url": "/assets/invitation/display/gallery/22.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/22.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "704cb282e5dfe86f6f9328429a000069126510d68aa462b0dda8b469417672bb",
+      "sha256": "8a7888140119de5a5dd3978cf8a2208d8c645628811daf3f726c2846200a9b31",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/23.webp",
+      "url": "/assets/invitation/display/gallery/23.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/23.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "abcdf50190bdbeca5f7008d1b1c32d6a07ddc38fc9689dfd9441860e530fadfa",
+      "sha256": "63f085dab52b24fd4a35d163e1ee318f339268538e52c5d540314d97b80bc0da",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/24.webp",
+      "url": "/assets/invitation/display/gallery/24.webp",
+      "kind": "image",
+      "width": 1920,
+      "height": 1280,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/24.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "2669e58203b7df08ccf07c5e0e02300a60bd111df663290b02d0684fff4e21c0",
+      "sha256": "854fad008edd10708fb2eb16c3191cac1a277e0b3a2ecc481cb49527ad3ec858",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/25.webp",
+      "url": "/assets/invitation/display/gallery/25.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/25.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "16b40823a4d1fd7cf4ac09dd016be9f20dcfbf352f9a234d2eaef8363c1c50aa",
+      "sha256": "fe03a87a3f5c7f2e934b66dfeeaadf1d183612a4d5dc21c5dbea891d76ea8e5b",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/26.webp",
+      "url": "/assets/invitation/display/gallery/26.webp",
+      "kind": "image",
+      "width": 1282,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/26.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "b93fa9e1833a83c2540569f7a6b4dfbee9b715e425e41391ff192d982f9ad22d",
+      "sha256": "ab53bbdbe4fba8f8d480697efde4da771d0d553a8110ad6bee3c78526a9ca5d2",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/31.webp",
+      "url": "/assets/invitation/display/gallery/31.webp",
+      "kind": "image",
+      "width": 1920,
+      "height": 1295,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/31.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "258999f552461b6c57cee711e1dff84bbc6f70573b519218f724b78a76cae2e9",
+      "sha256": "bf295ad3015e9b14b9256dcfc9c3e0754df0f9c4fa6e5c39fa3b46c57ee9f7af",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/32.webp",
+      "url": "/assets/invitation/display/gallery/32.webp",
+      "kind": "image",
+      "width": 1198,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/32.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "374b50bac7b38d7788f6fae8deae7906ab9e28006d27d66baf3884e49f3787ce",
+      "sha256": "a57c9ee9fce85422782cfc214dcf8f44722b36d0835b43e561cba9b3c71a7d44",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/33.webp",
+      "url": "/assets/invitation/display/gallery/33.webp",
+      "kind": "image",
+      "width": 1387,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/33.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "2267b3e74f7052ce348961d19e55acf4763c403ad00e191de3b0d334a8cbaae1",
+      "sha256": "ad8cf29837905cda5523309d23566f5705e4ee64522f7c7204d5cf5540aa0f58",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/41.webp",
+      "url": "/assets/invitation/display/gallery/41.webp",
+      "kind": "image",
+      "width": 1023,
+      "height": 1537,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/41.png",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "9baa859da2b70e9bcedd812ffb4b780c8ddb6682c034333dea055017772fe0c3",
+      "sha256": "1456087cc9272693f229cf00987260b9504f1b861dac0b2265c651339bb3762a",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/42.webp",
+      "url": "/assets/invitation/display/gallery/42.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/42.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "52c32afb9ab0faddbebc8957fe0217e3ab26b26a48f1865528397283e3df3d88",
+      "sha256": "8e56382646447ce69bfe0621ce8aab551978f1cf8012dee02a87c03338c9fe7d",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/43.webp",
+      "url": "/assets/invitation/display/gallery/43.webp",
+      "kind": "image",
+      "width": 1262,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/43.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+      "sha256": "5c37ee92f552febc6420ad84090c6c54bd56b0aa273656c41ef62ff3547cce72",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/44.webp",
+      "url": "/assets/invitation/display/gallery/44.webp",
+      "kind": "image",
+      "width": 1243,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/44.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "c1cfcb39c8a63b648f58d8c114fd964b30b0b3f0f2dab295348b333c9f295570",
+      "sha256": "f7e226aea4310745aeffb9bbe85e9b50728473a36d31b98d212d0f830f69d54e",
+      "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "file:assets/invitation/display/gallery/45.webp",
+      "url": "/assets/invitation/display/gallery/45.webp",
+      "kind": "image",
+      "width": 1280,
+      "height": 1920,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/gallery/45.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-display-photos-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "e664f05bf902c489bd6a42316e706978c815dfce417ada562c3216d6f528ed88",
+      "sha256": "506f92ed1088fb39c1fc2b06b43632d595e9994256a3b80580213f656a93fb1d",
+      "derivation": "photograph-webp-1920-q92"
     }
   ],
   "provenance": [
@@ -3238,6 +3758,18 @@
       "evidence": [
         "docs/game-review/share-screen-refinement/ARTWORK.md",
         "docs/game-review/share-screen-refinement/asset-import.json"
+      ]
+    },
+    {
+      "id": "invitation-display-photos-20260916",
+      "mode": "provided",
+      "sourceUrl": "User-supplied wedding originals; display quality reference https://www.heumcard.com/cards/now-2026-11-21",
+      "license": "User authorized invitation display quality comparable to their original Heumcard invitation on 2026-09-16; original files remain unchanged.",
+      "transformationNotes": "EXIF orientation applied, aspect ratio preserved, no upscaling; long edge at most 1920px, WebP quality 92. Embedded ICC profile retained. No retouch, crop, pixel-art or photo-table changes.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/game-review/invitation-photo-loading/README.md",
+        "docs/game-review/invitation-photo-loading/photo-variants.json"
       ]
     }
   ],

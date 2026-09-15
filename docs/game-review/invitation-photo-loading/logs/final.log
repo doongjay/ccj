@@ -1,0 +1,36 @@
+
+> game@0.0.0 test:e2e
+> playwright test --config=../docs/game-review/invitation-photo-loading/scripts/final.config.ts
+
+
+Running 22 tests using 2 workers
+
+(node:8478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8479) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 e2e/invitation-photo-loading.spec.ts:12:3 › direct invitation reveals decoded photos together at 320 (4.2s)
+  ✓   3 e2e/invitation-photo-loading.spec.ts:12:3 › direct invitation reveals decoded photos together at 393 (3.5s)
+  ✓   4 e2e/invitation-photo-loading.spec.ts:12:3 › direct invitation reveals decoded photos together at 430 (3.7s)
+  ✓   1 e2e/group-screen-reuse.spec.ts:7:113 › group screen matches opening artwork and lettering positions at 320 (13.5s)
+  ✓   5 e2e/invitation-photo-loading.spec.ts:51:1 › game boot excludes invitation downloads, play warms them, and opening reuses cached bytes (6.6s)
+  ✓   7 e2e/invitation-photo-loading.spec.ts:87:1 › photo failure keeps the incomplete page covered and offers a keyboard retry (2.6s)
+  ✓   8 e2e/invitation-photo-loading.spec.ts:103:1 › display variants retain all original gallery bytes and numerical ordering (172ms)
+  ✓   9 e2e/invitation-sharing.spec.ts:4:1 › share crawlers receive the wide pixel image in the original HTML (1.6s)
+  ✓  10 e2e/invitation-sharing.spec.ts:24:1 › native sharing and the Kakao card use matching invitation URLs and the correct image shape (2.3s)
+  ✓   6 e2e/group-screen-reuse.spec.ts:7:113 › group screen matches opening artwork and lettering positions at 393 (12.0s)
+  ✓  11 e2e/invitation-sharing.spec.ts:50:113 › explicit link copy and Kakao paste fallback preserve the invitation URL at 320 (5.5s)
+  ✓  13 e2e/invitation-sharing.spec.ts:50:113 › explicit link copy and Kakao paste fallback preserve the invitation URL at 393 (5.8s)
+  ✓  12 e2e/group-screen-reuse.spec.ts:7:113 › group screen matches opening artwork and lettering positions at 430 (11.8s)
+  ✓  15 e2e/minimi-customization.spec.ts:7:1 › original minimi artwork and six outfits preserve a shared head and continuous neck (4.2s)
+  ✓  14 e2e/invitation-sharing.spec.ts:50:113 › explicit link copy and Kakao paste fallback preserve the invitation URL at 430 (5.8s)
+  ✓  17 e2e/invitation-sharing.spec.ts:100:1 › Kakao button uses an initialized SDK and clipboard denial retains selectable text (2.3s)
+  ✓  16 e2e/minimi-customization.spec.ts:41:3 › direct thumbnails preserve independent selections and all six outfits at 320px (4.4s)
+  ✓  18 e2e/minimi-customization.spec.ts:131:3 › invitation outfit arrowheads have no button box and retain touch and keyboard navigation at 320px (3.4s)
+  ✓  19 e2e/minimi-customization.spec.ts:41:3 › direct thumbnails preserve independent selections and all six outfits at 393px (4.1s)
+  ✓  20 e2e/minimi-customization.spec.ts:131:3 › invitation outfit arrowheads have no button box and retain touch and keyboard navigation at 393px (3.5s)
+  ✓  21 e2e/minimi-customization.spec.ts:41:3 › direct thumbnails preserve independent selections and all six outfits at 430px (4.4s)
+  ✓  22 e2e/minimi-customization.spec.ts:131:3 › invitation outfit arrowheads have no button box and retain touch and keyboard navigation at 430px (3.4s)
+
+  22 passed (1.1m)
+

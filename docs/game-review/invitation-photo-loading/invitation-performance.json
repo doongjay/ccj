@@ -1,0 +1,206 @@
+{
+  "environment": "Local production preview, Chromium, cold cache, 393x852; 20 Mbps down/5 Mbps up, 40 ms latency; not a real-device timing guarantee",
+  "readyMs": 8398.800000190735,
+  "transferBytes": 18670624,
+  "images": [
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/intro.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/chrysanthemum.png",
+      "complete": true,
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/calendar.webp",
+      "complete": true,
+      "width": 1544,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/timer.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/1.webp",
+      "complete": true,
+      "width": 1254,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/2.webp",
+      "complete": true,
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/3.webp",
+      "complete": true,
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/4.webp",
+      "complete": true,
+      "width": 1310,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/5.webp",
+      "complete": true,
+      "width": 1496,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/6.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/11.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/12.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/13.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/21.webp",
+      "complete": true,
+      "width": 1271,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/22.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/23.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/24.webp",
+      "complete": true,
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/25.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/26.webp",
+      "complete": true,
+      "width": 1282,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/31.webp",
+      "complete": true,
+      "width": 1920,
+      "height": 1295
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/32.webp",
+      "complete": true,
+      "width": 1198,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/33.webp",
+      "complete": true,
+      "width": 1387,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/41.webp",
+      "complete": true,
+      "width": 1023,
+      "height": 1537
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/42.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/43.webp",
+      "complete": true,
+      "width": 1262,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/44.webp",
+      "complete": true,
+      "width": 1243,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/display/gallery/45.webp",
+      "complete": true,
+      "width": 1280,
+      "height": 1920
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/venue-directions.jpg",
+      "complete": true,
+      "width": 800,
+      "height": 600
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/notice-welcome.jpg",
+      "complete": true,
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/notice-photo-booth.jpg",
+      "complete": true,
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/notice-atm.jpg",
+      "complete": true,
+      "width": 1200,
+      "height": 900
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/invitation/notice-banquet.jpg",
+      "complete": true,
+      "width": 1200,
+      "height": 674
+    },
+    {
+      "src": "http://127.0.0.1:5199/assets/lacitta/photos/bridal-room.jpeg",
+      "complete": true,
+      "width": 765,
+      "height": 512
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,27 @@
+{
+  "sourceUrl": "https://www.heumcard.com/cards/now-2026-11-21",
+  "gallerySamples": [
+    {
+      "file": "reference/heumcard-gallery-1",
+      "dimensions": [
+        1253,
+        1920
+      ],
+      "bytes": 1762581
+    },
+    {
+      "file": "reference/heumcard-gallery-2",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "bytes": 1769276
+    }
+  ],
+  "originalsPreserved": true,
+  "galleryCount": 23,
+  "displayCount": 26,
+  "originalBytes": 173589471,
+  "displayBytes": 4254166,
+  "reductionPercent": 97.55
+}

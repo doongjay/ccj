@@ -1,0 +1,16 @@
+
+> game@0.0.0 test:e2e
+> playwright test --config=../docs/game-review/invitation-photo-loading/scripts/production.config.ts
+
+[WebServer] (node:14228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:14230) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 ../docs/game-review/invitation-photo-loading/scripts/performance.spec.ts:5:5 › production opening stays below 5 MB without invitation preloading (1.9s)
+  ✓  2 ../docs/game-review/invitation-photo-loading/scripts/performance.spec.ts:19:5 › direct production invitation loads together on a simulated 20 Mbps connection (8.5s)
+
+  2 passed (11.4s)
+

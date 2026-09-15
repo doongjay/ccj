@@ -1,4 +1,5 @@
 import { reducedMotion, subscribeMotion } from "./motionPreference";
+import { invitationPhotoUrl } from "./invitationPhotos";
 const DAY = 86400000;
 const KST = 9 * 3600000;
 
@@ -17,7 +18,7 @@ export class WeddingCountdown {
     this.weddingTime = weddingTime;
     this.element.className = "invitation-countdown";
     const photo = document.createElement("img");
-    photo.src = "/assets/invitation/timer.jpg";
+    photo.src = invitationPhotoUrl("timer.jpg");
     photo.alt = "나란히 앉아 함께하는 재준과 현서";
     photo.loading = "lazy";
     const content = document.createElement("div");

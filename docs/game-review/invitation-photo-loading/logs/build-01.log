@@ -1,0 +1,14 @@
+
+> game@0.0.0 build
+> tsc && npm run typecheck:e2e && vite build
+
+
+> game@0.0.0 typecheck:e2e
+> tsc -p tsconfig.e2e.json
+
+e2e/invitation-photo-loading.spec.ts(30,81): error TS2339: Property 'complete' does not exist on type 'HTMLElement | SVGElement'.
+  Property 'complete' does not exist on type 'HTMLElement'.
+e2e/invitation-photo-loading.spec.ts(30,95): error TS2339: Property 'naturalWidth' does not exist on type 'HTMLElement | SVGElement'.
+  Property 'naturalWidth' does not exist on type 'HTMLElement'.
+
+Exit 2. New test needed an HTMLImageElement cast; no application runtime failure. Type annotation corrected without changing test assertions.
