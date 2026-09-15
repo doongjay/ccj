@@ -6,8 +6,8 @@
 
 - 저장소: `https://github.com/doongjay/ccj`, production branch: `master`
 - 작성자: `larvava <with.larva@gmail.com>`
-- 2026-09-16 인증 확인: HTTPS 푸시 계정은 `larvava`, 응답은 `Permission to doongjay/ccj.git denied to larvava` (403).
-- 소유자가 `larvava`에게 쓰기 권한을 부여하고 초대를 수락해야 이 계정으로 origin에 푸시할 수 있다. 원격 저장소/기존 인증 계정은 임의로 변경하지 않았다.
+- 2026-09-16: 최초 권한 확인은 `larvava` 계정으로 403이었으나, 이후 `100b6ae` 커밋을 `origin/master`에 푸시했고 원격 반영까지 확인했다.
+- 원격 저장소/기존 인증 계정은 임의로 변경하지 않았다.
 - Vercel Hobby의 Git 자동 배포는 프로젝트 소유자와 커밋 작성자 계정 연결도 확인해야 한다. [Git 연결 안내](https://vercel.com/docs/git)
 
 ## Import 설정

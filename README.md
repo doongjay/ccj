@@ -1,35 +1,31 @@
-# ccj
+# JJ ♥ HS
 
-이재준 ♥ 김현서 결혼식 게임형 청첩장.
+현서와 재준, 현재의 시작 — 라시따시어터 결혼식을 배경으로 한 픽셀 아트 게임형 청첩장입니다.
 
-- `docs/` — 기획 문서 (introduction, scenario, map, design, plan)
-- `game/` — 게임 코드 (Vite + TypeScript + Phaser 4)
+하객 미니미를 꾸미고, 자동차·지하철로 이동해 로비를 둘러본 뒤 예식과 식사를 즐깁니다. 모바일 청첩장에는 원본 사진 갤러리, 오시는 길, 메시지와 공유 기능이 있습니다.
 
-## 빠른 시작
+## 실행
+
+Node.js와 npm이 필요합니다.
 
 ```bash
 cd game
 npm ci
-npm run dev -- --host 127.0.0.1
+npm run dev -- --host 127.0.0.1 --port 5174 --strictPort
 ```
 
-프로덕션 빌드 확인:
+접속: <http://127.0.0.1:5174/> · 청첩장 바로 보기: <http://127.0.0.1:5174/#invitation>
 
-```bash
-cd game
-npm run build
-npm run preview -- --host 127.0.0.1
-```
+## 구성 · 검증
 
-브라우저 E2E:
+- `game/`: Phaser 4 · TypeScript · Vite, Playwright 테스트와 원본 에셋
+- `docs/`: 기획, 에셋 출처, 검수 기록과 배포 안내
+- `game/`에서 `npm run build`, `npm run test:e2e`, `npm run verify:assets` 실행
+- 원본 사진 품질을 유지하며, 기존 에셋 용량 기준 초과 항목은 검수 기록에 명시합니다.
+- 진행 상황·수첩·메시지는 현재 브라우저에 저장됩니다.
 
-```bash
-cd game
-npm run test:e2e
-```
+## 배포 · 공유
 
-## 배포
+Vercel Hobby에서 Root Directory는 `game`, Framework는 `Vite`, 빌드는 `npm run build`, 결과 폴더는 `dist`로 설정합니다. [배포·도메인 연결 안내](docs/VERCEL_DEPLOYMENT.md)
 
-`game/dist/`를 정적 호스팅(Vercel, Netlify, Cloudflare Pages 등)에 올리는 구조입니다. 배포 전에는 `npm ci`, `npm run build`, `npm run test:e2e`, preview 수동 QA를 순서대로 통과시켜야 합니다.
-
-카카오톡 공유 미리보기는 `game/index.html`의 OG/Twitter 메타 태그와 `game/public/assets/lacitta/share/og-lacitta-wedding.png`로 준비되어 있습니다. 실제 카카오 캐시/미리보기 노출은 배포된 공개 URL에서만 최종 확인할 수 있습니다.
+`SITE_URL` 또는 Vercel 기본 도메인을 공유 주소로 사용합니다. 카카오 카드 공유는 `VITE_KAKAO_JAVASCRIPT_KEY`와 도메인 등록이 필요하며, 미설정 시 기기 공유창 또는 링크 복사로 전달합니다. 환경 변수 예시는 [game/.env.example](game/.env.example)을 참고하세요.

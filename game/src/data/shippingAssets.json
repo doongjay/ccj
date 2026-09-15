@@ -3126,7 +3126,7 @@
       "evidence": [
         "game/src/data/invitationSource.json",
         "game/src/ui/InvitationView.ts",
-        "BATCH_D_IMPLEMENTATION.md"
+        "docs/specifications/BATCH_D_IMPLEMENTATION.md"
       ]
     },
     {
