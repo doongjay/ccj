@@ -1,9 +1,10 @@
+import { cloudEnabled, CloudSaveError } from "../cloud/client";
 import { validOutfit } from "../data/guestOutfits";
 import { shuttleDecoration } from "./shuttleDecoration";
 import type Phaser from "phaser";
 import source from "../data/invitationSource.json";
 import { GAME_STATE_REGISTRY_KEYS, readGuestName, readGuestSide, readGuestGender, readGuestOutfit, readGuestHair, readGuestFace } from "../state/gameState";
-import { readGuestMessages, saveGuestMessage, type GuestMessage } from "../state/guestMessages";
+import { readGuestMessages, refreshGuestMessages, saveGuestMessage, type GuestMessage } from "../state/guestMessages";
 import { MinimiPicker } from "./MinimiPicker";
 import { drawMinimi, type MinimiProfile } from "./minimi";
 import { WeddingCountdown } from "./WeddingCountdown";
@@ -53,6 +54,11 @@ export class InvitationView {
     if (this.app) { this.app.inert = true; this.app.style.visibility = "hidden"; }
     this.root.focus({ preventScroll: true });
     this.renderGuests();
+    if (cloudEnabled) void refreshGuestMessages().then(() => {
+      if (this.root.isConnected) this.renderGuests();
+    }).catch(() => {
+      if (this.root.isConnected) this.notify("이전 메시지를 불러오지 못했어요. 잠시 후 청첩장을 다시 열어 주세요.");
+    });
     window.addEventListener("storage", this.onStorage);
   }
 
@@ -251,7 +257,7 @@ export class InvitationView {
     horizontalNavigation(album, offset => this.moveGuestPage(offset), this.wall);
     section.append(element("p", "", "신랑신부와 함께 사진을 찍고\n축하 메시지를 남겨주세요."), album,
       element("p", "minimi-photo-hint", "미니미와 방명록 글을 누르면 메시지가 보여요."));
-    section.append(element("p", "invitation-local-note", "지금은 로컬 체험판입니다. 미니미와 메시지는 이 브라우저에만 저장되며, 다른 기기와 공유되지 않아요."));
+    section.append(element("p", "invitation-local-note", cloudEnabled ? "방명록에 남긴 이름, 미니미와 축하 메시지는 모든 하객에게 보여요." : "지금은 로컬 체험판입니다. 미니미와 메시지는 이 브라우저에만 저장되며, 다른 기기와 공유되지 않아요."));
     const selectedGender: unknown = this.scene.registry.get(GAME_STATE_REGISTRY_KEYS.guestGender);
     const gameAvatar: MinimiProfile | undefined = selectedGender === "male" || selectedGender === "female" ? {
       gender: readGuestGender(this.scene.registry), outfit: readGuestOutfit(this.scene.registry), hair: readGuestHair(this.scene.registry), face: readGuestFace(this.scene.registry),
@@ -293,8 +299,9 @@ export class InvitationView {
     }
     const submit = element("button", "invitation-primary", "미니미와 메시지 남기기"); submit.type = "submit";
     form.append(error, submit);
-    form.onsubmit = event => {
+    form.onsubmit = async event => {
       event.preventDefault();
+      if (submit.disabled) return;
       const avatar = gameAvatar ?? this.picker?.value;
       if (!name.value.trim() || !message.value.trim()) {
         const field = !name.value.trim() ? name : message;
@@ -304,16 +311,27 @@ export class InvitationView {
         return;
       }
       if (!avatar) { error.textContent = "성별과 의상을 골라 나만의 미니미를 만들어 주세요."; return; }
+      submit.disabled = true;
+      name.readOnly = true; message.readOnly = true; side.disabled = true;
+      submit.textContent = "보내는 중…";
+      form.setAttribute("aria-busy", "true");
       try {
-        saveGuestMessage(name.value, side.value === "bride" ? "bride" : "groom", message.value, avatar);
+        await saveGuestMessage(name.value, side.value === "bride" ? "bride" : "groom", message.value, avatar);
         this.arrivingGuestId = readGuestMessages().at(-1)?.id;
         this.guestPage = Math.floor((readGuestMessages().length - 1) / GUEST_PHOTO_PAGE_SIZE);
         message.value = "";
         error.textContent = "";
         this.renderGuests();
-        this.notify("미니미와 메시지를 이 브라우저에 남겼어요.");
+        this.notify(cloudEnabled ? "방명록에 미니미와 메시지를 남겼어요." : "미니미와 메시지를 이 브라우저에 남겼어요.");
         this.wall.scrollIntoView({ block: "center", behavior: "auto" });
-      } catch { error.textContent = "브라우저에 저장하지 못했어요. 저장 공간을 확인한 뒤 다시 시도해 주세요."; }
+      } catch (failure) {
+        error.textContent = failure instanceof CloudSaveError ? failure.message : "저장하지 못했어요. 다시 시도해 주세요.";
+      } finally {
+        submit.disabled = false;
+        name.readOnly = false; message.readOnly = false; side.disabled = false;
+        submit.textContent = "미니미와 메시지 남기기";
+        form.removeAttribute("aria-busy");
+      }
     };
     section.append(form, element("h3", "invitation-guestbook-title", "메시지"), this.messages);
     return section;

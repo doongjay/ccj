@@ -153,7 +153,7 @@
 .invitation-guest-form .invitation-primary { width: 100%; background: #7e916a; color: white; border-color: #7e916a; margin-top: 10px; }
 .invitation-saved-minimi { display: flex; align-items: center; gap: 16px; margin: 18px 0; font: 12px/1.8 Galmuri11, monospace; color: #677c56; }
 .invitation-saved-minimi canvas { flex: 0 0 64px; width: 64px; height: 96px; image-rendering: pixelated; }
-.invitation-form-error { color: #a84a4a; font-size: 13px; }
+.invitation-form-error { word-break: keep-all; overflow-wrap: anywhere; color: #a84a4a; font-size: 13px; }
 .invitation-form-error:empty { display: none; }
 .invitation-guestbook-title { margin-top: 40px; font-size: 18px; font-weight: 500; }
 .invitation-empty { font-size: 14px; color: #92968b; }

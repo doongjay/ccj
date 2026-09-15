@@ -203,6 +203,8 @@ body {
 .story-info-notebook .info-actions .story-choice { width: 100%; }
 .keepsake { margin: 10px 0 0; padding: 6px; border: 2px solid #c8a24b; background: #fff9ef; color: #26332a; }
 .keepsake canvas { display: block; width: 100%; height: auto; image-rendering: pixelated; }
+.photo-upload-status { word-break: keep-all; overflow-wrap: anywhere; }
+.keepsake-group canvas { max-height: calc(var(--scene-height, 700px) * 0.4); object-fit: contain; }
 .notebook-keepsakes { display: flex; gap: 12px; margin-top: 8px; }
 .notebook-keepsakes .keepsake { width: 100px; margin: 0; }
 .notebook-keepsakes figcaption { margin-top: 4px; font-size: 14px; line-height: 1.5; white-space: normal; }
