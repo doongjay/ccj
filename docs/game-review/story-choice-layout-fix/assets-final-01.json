@@ -1,0 +1,933 @@
+{
+  "mode": "shipping",
+  "timeUTC": "2026-09-14T17:21:07.200Z",
+  "catalogVersion": 1,
+  "decoded": 100,
+  "registered": 101,
+  "checked": 101,
+  "runtimeKeys": 35,
+  "publicRoot": "/Users/user/wedding/ccj/game/public",
+  "productionRoot": "/Users/user/wedding/ccj/game/dist",
+  "totalBytes": 76842937,
+  "openingAssetBytes": 3093352,
+  "networkTotalMustBeMeasuredSeparately": true,
+  "preservedSources": 56,
+  "old40Tracked": 40,
+  "errors": [],
+  "assets": [
+    {
+      "key": "file:assets/invitation/calendar.jpg",
+      "url": "/assets/invitation/calendar.jpg",
+      "bytes": 1754806,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "4d457946a70544364f7414615fe5bdfb8a74fe429d5929fc9f78dc71dd65c049"
+    },
+    {
+      "key": "file:assets/invitation/chrysanthemum.png",
+      "url": "/assets/invitation/chrysanthemum.png",
+      "bytes": 62429,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "ca1c5b322753942b76f246eea9f28b5564ba1aa6d646eb7cbeac58013db280ef"
+    },
+    {
+      "key": "file:assets/invitation/gallery-01.jpg",
+      "url": "/assets/invitation/gallery-01.jpg",
+      "bytes": 1762581,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "0b4c5fe5d0e86b3c7af9ad2c6bf506650856fa78ac1e710449d12e102bdd05b3"
+    },
+    {
+      "key": "file:assets/invitation/gallery-02.jpg",
+      "url": "/assets/invitation/gallery-02.jpg",
+      "bytes": 1769276,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "b2f25bfb811b254f461c0059d0c10ab934fe16d7f9a8e9c52354bbcef67b50d9"
+    },
+    {
+      "key": "file:assets/invitation/gallery-03.jpg",
+      "url": "/assets/invitation/gallery-03.jpg",
+      "bytes": 1672652,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "ffc8a90dff4b04d4dbca4720491e85e8e95e6e56460ff78e79628ef65b839dbb"
+    },
+    {
+      "key": "file:assets/invitation/gallery-04.jpg",
+      "url": "/assets/invitation/gallery-04.jpg",
+      "bytes": 534590,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "a294fc8e2e12d39f043a809bb5ecf7cad0da6708f704b316ac65eb407df75c89"
+    },
+    {
+      "key": "file:assets/invitation/gallery-05.jpg",
+      "url": "/assets/invitation/gallery-05.jpg",
+      "bytes": 1538660,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "f0c2982f12ece1de85fd85b6d3dd3f2e25fa126153a5257216385396bcde0b80"
+    },
+    {
+      "key": "file:assets/invitation/gallery-06.jpg",
+      "url": "/assets/invitation/gallery-06.jpg",
+      "bytes": 2032593,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "dad92b1062c09ae70db38f644128d5622f7fdef622b4cb076f80953de335f5c1"
+    },
+    {
+      "key": "file:assets/invitation/gallery-07.jpg",
+      "url": "/assets/invitation/gallery-07.jpg",
+      "bytes": 1286022,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "41986f7404605ef71d8ad2eb7d525df0698ff051ebc7a953d72885b8adda6b8f"
+    },
+    {
+      "key": "file:assets/invitation/gallery-08.jpg",
+      "url": "/assets/invitation/gallery-08.jpg",
+      "bytes": 391257,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "8ecbe39c62f6ebb5b7a359d9f01b8b8685431994c40dc931419c6167531dc601"
+    },
+    {
+      "key": "file:assets/invitation/gallery-09.jpg",
+      "url": "/assets/invitation/gallery-09.jpg",
+      "bytes": 890082,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "04466428a65f75a33c1f8894594305ada81c8f8a7934cceceeea21f5fd0f1378"
+    },
+    {
+      "key": "file:assets/invitation/gallery-10.jpg",
+      "url": "/assets/invitation/gallery-10.jpg",
+      "bytes": 1602044,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "0b5469c9350bf9e28b0ce06c951fe5be2eab4632ea07b0bc85a98e8f88de4fa9"
+    },
+    {
+      "key": "file:assets/invitation/gallery-11.jpg",
+      "url": "/assets/invitation/gallery-11.jpg",
+      "bytes": 948412,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "8f51860e940db61b4f1b4314d234dfa6ab7f8b07f49e0c2a547675574d953662"
+    },
+    {
+      "key": "file:assets/invitation/gallery-12.jpg",
+      "url": "/assets/invitation/gallery-12.jpg",
+      "bytes": 1104858,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "a27289b446e67eca62bc20f1861aebf2ecf0cdc4acc2eb5b5751e65009f8deef"
+    },
+    {
+      "key": "file:assets/invitation/gallery-13.jpg",
+      "url": "/assets/invitation/gallery-13.jpg",
+      "bytes": 308008,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "7a87c9dd4d6407b0de4db88bd1cb8a824032d183e0fde3192f074367eb4fa7aa"
+    },
+    {
+      "key": "file:assets/invitation/gallery-14.jpg",
+      "url": "/assets/invitation/gallery-14.jpg",
+      "bytes": 1186337,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "7d7c13e30996532ee53ec6b516eb08da90e591afbd1a0507cae532b43b0ef0e5"
+    },
+    {
+      "key": "file:assets/invitation/gallery-15.jpg",
+      "url": "/assets/invitation/gallery-15.jpg",
+      "bytes": 530100,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "c18335f559214563b2fb8fcf557b97db01ab40b685b91f81dcc6ef89b4b09cc4"
+    },
+    {
+      "key": "file:assets/invitation/gallery-16.jpg",
+      "url": "/assets/invitation/gallery-16.jpg",
+      "bytes": 1747188,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "c5909247ec6f49d99dd0cc3ae1e22e620863617b9c851b2aedfcbc100faf6c1b"
+    },
+    {
+      "key": "file:assets/invitation/gallery-17.jpg",
+      "url": "/assets/invitation/gallery-17.jpg",
+      "bytes": 571287,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "c7613d4987322c3d3897e1cce8de0c056e3b5d1c3b2b8f7cb25ab86ea8e89f5c"
+    },
+    {
+      "key": "file:assets/invitation/gallery-18.jpg",
+      "url": "/assets/invitation/gallery-18.jpg",
+      "bytes": 1645254,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "65958b6cfb4dc992b227a2490a899cc01a9104c6524e1337f718c59ad9d17f9a"
+    },
+    {
+      "key": "file:assets/invitation/gallery-19.jpg",
+      "url": "/assets/invitation/gallery-19.jpg",
+      "bytes": 352665,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "67901055e3682cae4e9e2f15216f4059cc0bd9a3fd46c45aefd9c0f8dedf6acb"
+    },
+    {
+      "key": "file:assets/invitation/gallery-20.jpg",
+      "url": "/assets/invitation/gallery-20.jpg",
+      "bytes": 1870622,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "0b47d0755d38ade93a4751012674a4e53c2ab851a596d6ab6b840c1df6c2392c"
+    },
+    {
+      "key": "file:assets/invitation/gallery-21.jpg",
+      "url": "/assets/invitation/gallery-21.jpg",
+      "bytes": 530770,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "a31e910e9558c1e33342ade2235e6369926633ff844610902957dbd3151d7ea6"
+    },
+    {
+      "key": "file:assets/invitation/gallery-22.jpg",
+      "url": "/assets/invitation/gallery-22.jpg",
+      "bytes": 408211,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "983ba6ff510968d9912e1a07c65efaecfd94f02d477ee7d7efd7ca6218af5eaa"
+    },
+    {
+      "key": "file:assets/invitation/information.png",
+      "url": "/assets/invitation/information.png",
+      "bytes": 857550,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "f07eaf393761f5ce8101f78d3daa40a6a1d60db3c43c78b79383ee822eaed83d"
+    },
+    {
+      "key": "file:assets/invitation/intro.jpg",
+      "url": "/assets/invitation/intro.jpg",
+      "bytes": 1936245,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "a4c5be47d495a44ad22bb49be4ef7c62998aa6c6da4dcf4c51f3c3c41f8fe1d6"
+    },
+    {
+      "key": "file:assets/invitation/notice-atm.jpg",
+      "url": "/assets/invitation/notice-atm.jpg",
+      "bytes": 321891,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "575081529fc274d76d0ddaa05b5b19cf2e88c3b11399b1e13a77269a9d86270b"
+    },
+    {
+      "key": "file:assets/invitation/notice-banquet.jpg",
+      "url": "/assets/invitation/notice-banquet.jpg",
+      "bytes": 303035,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "27beeae3a580455e57d794a224e365b88e29d9ace390888c794aa655138ea8f4"
+    },
+    {
+      "key": "file:assets/invitation/notice-photo-booth.jpg",
+      "url": "/assets/invitation/notice-photo-booth.jpg",
+      "bytes": 400637,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "93a3865896dbee914091454817e9792f731e9cad7647a68402088f047e8b2aa7"
+    },
+    {
+      "key": "file:assets/invitation/notice-welcome.jpg",
+      "url": "/assets/invitation/notice-welcome.jpg",
+      "bytes": 366806,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "4ce7c87fe2f43ff286d8f7d253ce5bdecf01a2bc1c711feea5bc6a22a8b7a755"
+    },
+    {
+      "key": "file:assets/invitation/share-pixel-square-v2.png",
+      "url": "/assets/invitation/share-pixel-square-v2.png",
+      "bytes": 1658479,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "bd7f383e058c4457475ada4abcdb3eec73cb06c3a19948e25e2131a2a21579d9"
+    },
+    {
+      "key": "file:assets/invitation/share-pixel-wide-v2.png",
+      "url": "/assets/invitation/share-pixel-wide-v2.png",
+      "bytes": 1505049,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "553e95770f50a88125856b5d8562ead34827c1b7729e65620003b9ef556df748"
+    },
+    {
+      "key": "file:assets/invitation/shuttle-pixel-matte.png",
+      "url": "/assets/invitation/shuttle-pixel-matte.png",
+      "bytes": 1210558,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "de922e356be0a4a83980cb3a7fa51d8b4647c5fa20b8bd976256f9d029a7ff85"
+    },
+    {
+      "key": "file:assets/invitation/timer.jpg",
+      "url": "/assets/invitation/timer.jpg",
+      "bytes": 1007795,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "03817e97d9bf7f7412d05de1d573dedb6533edb8c94463057a464bbb5080ab95"
+    },
+    {
+      "key": "file:assets/invitation/venue-directions.jpg",
+      "url": "/assets/invitation/venue-directions.jpg",
+      "bytes": 45677,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "0db6e293c57f770ce0511696fa6ed21e296bf90ded324eae149dc655050b601e"
+    },
+    {
+      "key": "file:assets/lacitta/characters/npc-bride.png",
+      "url": "/assets/lacitta/characters/npc-bride.png",
+      "bytes": 6208,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "7d7ea5964b8a982f101487f6dc429ff9d7ef1706760f08ae6256d40b192d32ea"
+    },
+    {
+      "key": "file:assets/lacitta/characters/npc-groom.png",
+      "url": "/assets/lacitta/characters/npc-groom.png",
+      "bytes": 4983,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "414b2837d7fe7f4e086e2ed22f8baa926bac6f63c924a67b317353dbc78bf0af"
+    },
+    {
+      "key": "file:assets/lacitta/characters/npc-guide.png",
+      "url": "/assets/lacitta/characters/npc-guide.png",
+      "bytes": 4991,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "c0d4f8e3a9825e9b3ae8f50d8c6f436b540e573e10e9bd8b98a4a7562f7cb51f"
+    },
+    {
+      "key": "npc-reception",
+      "url": "/assets/lacitta/characters/npc-reception.png",
+      "bytes": 4592,
+      "stages": [
+        "lobby"
+      ],
+      "sha256": "f430bb6a6aa4c38fd5005984a1dbf3ad1a0ee5705a921adeeb3a0d20f5606f7e"
+    },
+    {
+      "key": "file:assets/lacitta/characters/player-guest.png",
+      "url": "/assets/lacitta/characters/player-guest.png",
+      "bytes": 4650,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "8083a16f51ad2c9762c23097939ce064973c29e53b3677b04ca8c51a76f533d0"
+    },
+    {
+      "key": "file:assets/lacitta/fonts/Galmuri11.woff2",
+      "url": "/assets/lacitta/fonts/Galmuri11.woff2",
+      "bytes": 155300,
+      "stages": [
+        "opening"
+      ],
+      "sha256": "51a59c70b4b0ac05c6f6a8a53181e0d1b1f2ccd227ebfb829500670a2e2b45e3"
+    },
+    {
+      "key": "file:assets/lacitta/photos/bridal-room.jpeg",
+      "url": "/assets/lacitta/photos/bridal-room.jpeg",
+      "bytes": 60197,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "acb8e9ec4bcfecd559f1be95b43c6d2350392e3cfe91f15aa851ca2d9bfae69d"
+    },
+    {
+      "key": "file:assets/lacitta/routes/car-background.png",
+      "url": "/assets/lacitta/routes/car-background.png",
+      "bytes": 158843,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "749143eb351aba67b46401d63cd53bf5fa89b2a7fa67f6d5cad31ea6823d12c5"
+    },
+    {
+      "key": "file:assets/lacitta/routes/car-choice.png",
+      "url": "/assets/lacitta/routes/car-choice.png",
+      "bytes": 13970,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "4da339daa6b16a84cd5297c0c6d209f36410d18a8366b9b0429e2c63ea527d08"
+    },
+    {
+      "key": "file:assets/lacitta/routes/exit-sign.png",
+      "url": "/assets/lacitta/routes/exit-sign.png",
+      "bytes": 3192,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "39dddc783b7fdeb63c764d0ceb62f523dee1e2789df53ce2bd28849758d52d6d"
+    },
+    {
+      "key": "file:assets/lacitta/routes/home-background.png",
+      "url": "/assets/lacitta/routes/home-background.png",
+      "bytes": 160871,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "aa985d20424b40124291c839d244b1c4ab2885b62252038f58600c4e12f8f8b4"
+    },
+    {
+      "key": "file:assets/lacitta/routes/shuttle-bus.png",
+      "url": "/assets/lacitta/routes/shuttle-bus.png",
+      "bytes": 13168,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "d308444673010a6ca051913e1c69058ac8ba2fb25adcf219ac7ff225b12a8110"
+    },
+    {
+      "key": "subway-background",
+      "url": "/assets/lacitta/routes/subway-background.png",
+      "bytes": 178638,
+      "stages": [
+        "subway"
+      ],
+      "sha256": "e55056a0429d2582da74f4a4cba7f6e113dbe75d63bcec1c9c94ff24b36cf43f"
+    },
+    {
+      "key": "file:assets/lacitta/routes/subway-choice.png",
+      "url": "/assets/lacitta/routes/subway-choice.png",
+      "bytes": 13779,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "315c3b83fa6d1b2745577529bd76713aa6460689095d53519cbe113aec5e7f64"
+    },
+    {
+      "key": "file:assets/lacitta/share/og-lacitta-wedding.png",
+      "url": "/assets/lacitta/share/og-lacitta-wedding.png",
+      "bytes": 542783,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "1e18dd59da0e7829c119fe25b1c1ba7672e45164a576f39787bce13c41176a07"
+    },
+    {
+      "key": "file:assets/lacitta/ui/arrow-marker.png",
+      "url": "/assets/lacitta/ui/arrow-marker.png",
+      "bytes": 244,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "415329bf3aa0ea9ee681ad5ac7678344138e9f66f6fe7d6b27e61818acd57cb7"
+    },
+    {
+      "key": "dialog-panel",
+      "url": "/assets/lacitta/ui/dialog-panel.png",
+      "bytes": 328,
+      "stages": [
+        "opening"
+      ],
+      "sha256": "e25f3453d4c816bb446b382a87bc3d8034c34aac3655f43f5804b6ab72ccea3a"
+    },
+    {
+      "key": "file:assets/lacitta/ui/guide-marker.png",
+      "url": "/assets/lacitta/ui/guide-marker.png",
+      "bytes": 270,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "4f52d4a095916792caeeb3529bf10ff8864343c8d9068f9026d6192eb02a1685"
+    },
+    {
+      "key": "file:assets/lacitta/ui/hint-button.png",
+      "url": "/assets/lacitta/ui/hint-button.png",
+      "bytes": 216,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "23427a4bb80c987a83dd6446c9baf1505fcc9085e2161efef27346ad6daccf27"
+    },
+    {
+      "key": "file:assets/lacitta/ui/loading-accent.png",
+      "url": "/assets/lacitta/ui/loading-accent.png",
+      "bytes": 261,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "735a248b20157d959c7e8ec3554afd7c469938b456dd2d30405f62aeb019b46a"
+    },
+    {
+      "key": "quiz-frame",
+      "url": "/assets/lacitta/ui/quiz-frame.png",
+      "bytes": 324,
+      "stages": [
+        "lobby"
+      ],
+      "sha256": "fbd648b4a02bec64f90fd41867944f7b779b88e864d9044b7cca72813809062d"
+    },
+    {
+      "key": "file:assets/lacitta/ui/route-sign.png",
+      "url": "/assets/lacitta/ui/route-sign.png",
+      "bytes": 245,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "e84d0862e2b1e1ff2775db8387779b23b2ca14d7478da32a2854caa209383dea"
+    },
+    {
+      "key": "touch-button",
+      "url": "/assets/lacitta/ui/touch-button.png",
+      "bytes": 274,
+      "stages": [
+        "opening"
+      ],
+      "sha256": "f4707c831d57342524829d69907759869005a5e00e5d18c69b390a49a30884b9"
+    },
+    {
+      "key": "file:assets/lacitta/venue/banquet-background.png",
+      "url": "/assets/lacitta/venue/banquet-background.png",
+      "bytes": 184598,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "227044c5955040e77b50b18357136adf83185728f5b1bd75ef799e2ea010ba82"
+    },
+    {
+      "key": "file:assets/lacitta/venue/bridal-room-background.png",
+      "url": "/assets/lacitta/venue/bridal-room-background.png",
+      "bytes": 159952,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "3ef5b0969acafa41fd91767d58ebe1bd84a256137788c1029bbd4c1b9b0013d6"
+    },
+    {
+      "key": "file:assets/lacitta/venue/buffet-island.png",
+      "url": "/assets/lacitta/venue/buffet-island.png",
+      "bytes": 17497,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "1eb27f1bec736bc0c87b3627e94129993b3179dc07a8950fc48b7c230f8febd1"
+    },
+    {
+      "key": "file:assets/lacitta/venue/drinks-station.png",
+      "url": "/assets/lacitta/venue/drinks-station.png",
+      "bytes": 13600,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "11001eeaed8517ed871d7e5737d347ef789edb696dde91eabe954f15a05d1ee9"
+    },
+    {
+      "key": "file:assets/lacitta/venue/ending-background.png",
+      "url": "/assets/lacitta/venue/ending-background.png",
+      "bytes": 179478,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "33ab091ff2b5f1f1527df0b631610b180009cb068c1a05d83a508a6fb3fc3577"
+    },
+    {
+      "key": "file:assets/lacitta/venue/greenery-corridor-background.png",
+      "url": "/assets/lacitta/venue/greenery-corridor-background.png",
+      "bytes": 164839,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "7c88a0c62b23485ff5214b28502cdd5e1178d28f00c2dc82ca481ed501ae631c"
+    },
+    {
+      "key": "file:assets/lacitta/venue/hall-background.png",
+      "url": "/assets/lacitta/venue/hall-background.png",
+      "bytes": 203661,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "07a8fb4fa49b69e7795e2fbe089f7693733e45c6f7b5117f82b6b670972bf1d6"
+    },
+    {
+      "key": "file:assets/lacitta/venue/lobby-background.png",
+      "url": "/assets/lacitta/venue/lobby-background.png",
+      "bytes": 193257,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "5b54ff149737876b3da66a332de768bf2b6eb397837147af1e99a1bf3c08341f"
+    },
+    {
+      "key": "file:assets/lacitta/venue/photo-booth.png",
+      "url": "/assets/lacitta/venue/photo-booth.png",
+      "bytes": 11874,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "6661d21b1142a9ecb963a5414f747188513fdb5667b4f08a9e3dd7e19b6fb5f0"
+    },
+    {
+      "key": "file:assets/lacitta/venue/photo-room-background.png",
+      "url": "/assets/lacitta/venue/photo-room-background.png",
+      "bytes": 164962,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "5901ba24e9ecbea19ad53771eafa896175a6c4899c841475b24c45a619b0cdcb"
+    },
+    {
+      "key": "file:assets/lacitta/venue/photo-table.png",
+      "url": "/assets/lacitta/venue/photo-table.png",
+      "bytes": 11409,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "c795a902f5279882269d2916808f9d10c8371cad5e72545ae81e24dad3442d3a"
+    },
+    {
+      "key": "file:assets/lacitta/venue/reception-desk.png",
+      "url": "/assets/lacitta/venue/reception-desk.png",
+      "bytes": 12180,
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "sha256": "c56f293589ded64617e869d348ce7484acb714db53fbc4bf535a0e591ed91a4f"
+    },
+    {
+      "key": "waiting-room-background",
+      "url": "/assets/lacitta/venue/waiting-room-background.png",
+      "bytes": 182357,
+      "stages": [
+        "waiting"
+      ],
+      "sha256": "d8054aa3cbf879f59941b1eb14d99b39e8e375d6a6b7fc98ab37f6781dcd1e9e"
+    },
+    {
+      "key": "wedding-photo-1",
+      "url": "/assets/optimized/gallery-01-game.jpg",
+      "bytes": 292503,
+      "stages": [
+        "lobby"
+      ],
+      "sha256": "d1a2bb9b6b8779591287f07f034fe78a465e0dc331f54bd405eb0fa2085ea20d"
+    },
+    {
+      "key": "wedding-photo-2",
+      "url": "/assets/optimized/gallery-02-game.jpg",
+      "bytes": 186487,
+      "stages": [
+        "lobby"
+      ],
+      "sha256": "b1a7d654b1c06c5cd70f2bc7f16eb04570cc05a70a3a5b0ba32388c1fdbee75e"
+    },
+    {
+      "key": "wedding-photo-3",
+      "url": "/assets/optimized/gallery-03-game.jpg",
+      "bytes": 158096,
+      "stages": [
+        "lobby"
+      ],
+      "sha256": "27067642bbe13723f2bc2fe19857643f8b8fe580514314a920704cb914a86ba7"
+    },
+    {
+      "key": "extra-outfits-female",
+      "url": "/assets/optimized/lacitta-characters-extra-outfits-female.webp",
+      "bytes": 964358,
+      "stages": [
+        "avatar-female"
+      ],
+      "sha256": "de7ad8f64ad714f3c86ed2dd27f4ac9650332d98cf94a43ad958c99d849b1f81"
+    },
+    {
+      "key": "extra-outfits-male",
+      "url": "/assets/optimized/lacitta-characters-extra-outfits-male.webp",
+      "bytes": 934718,
+      "stages": [
+        "avatar-male"
+      ],
+      "sha256": "074d76607b3669502b4476188774f092a9a16e33d69294a374fc46d81bbde819"
+    },
+    {
+      "key": "formal-guests",
+      "url": "/assets/optimized/lacitta-characters-formal-guests.webp",
+      "bytes": 717224,
+      "stages": [
+        "hall"
+      ],
+      "sha256": "218ae9da932b9ca6dff9335be5b131bea71eec833f5676c3cb7c9d0f0016297f"
+    },
+    {
+      "key": "minimi-hair",
+      "url": "/assets/optimized/lacitta-characters-minimi-hair.webp",
+      "bytes": 577366,
+      "stages": [
+        "avatar-male",
+        "avatar-female"
+      ],
+      "sha256": "14b027836aa7982021da7b1a4a3a4738f31a4d2e8dc4c7c39d595e397af3797a"
+    },
+    {
+      "key": "outfits-female",
+      "url": "/assets/optimized/lacitta-characters-outfits-female.webp",
+      "bytes": 437910,
+      "stages": [
+        "avatar-female"
+      ],
+      "sha256": "cf7181d2df8805a8ef237149ddc0d81f032d9564d053fb8184cf0548b21963fe"
+    },
+    {
+      "key": "outfits-male",
+      "url": "/assets/optimized/lacitta-characters-outfits-male.webp",
+      "bytes": 478730,
+      "stages": [
+        "avatar-male"
+      ],
+      "sha256": "8b29dab1449f7bb8e35ec07205690193d1537a84784c4f5c37e87c4fe0f5e339"
+    },
+    {
+      "key": "parents",
+      "url": "/assets/optimized/lacitta-characters-parents.webp",
+      "bytes": 645280,
+      "stages": [
+        "lobby"
+      ],
+      "sha256": "0cb96e7828cc9845881d8f91b409ce6e47865160be9726b557a7cc2406cb9dc0"
+    },
+    {
+      "key": "wedding-couple-sheet",
+      "url": "/assets/optimized/lacitta-characters-wedding-couple.webp",
+      "bytes": 1005110,
+      "stages": [
+        "opening",
+        "hall"
+      ],
+      "sha256": "9708fe5124abe1fe4787812f4217797f734609feb55610e354e5cd004b4760fb"
+    },
+    {
+      "key": "white-car",
+      "url": "/assets/optimized/lacitta-characters-white-car.webp",
+      "bytes": 566574,
+      "stages": [
+        "car"
+      ],
+      "sha256": "39fec34862d811404632a803a0bc944e6d626b066a104ae63e314c95d7790023"
+    },
+    {
+      "key": "buffet-left",
+      "url": "/assets/optimized/lacitta-food-buffet-left.webp",
+      "bytes": 2415184,
+      "stages": [
+        "dinner"
+      ],
+      "sha256": "b3f3b9a8fdb043a123866e0c498a10337296baf537e415af105aa2b15550096c"
+    },
+    {
+      "key": "buffet-right",
+      "url": "/assets/optimized/lacitta-food-buffet-right.webp",
+      "bytes": 2432444,
+      "stages": [
+        "dinner"
+      ],
+      "sha256": "69a7841a5d87fbe425ae6d50ed003222f302588799d7c6bb15b11f52909ebf2d"
+    },
+    {
+      "key": "venue-banquet-corridor",
+      "url": "/assets/optimized/lacitta-pixel-venue-banquet-corridor.webp",
+      "bytes": 1735644,
+      "stages": [
+        "dinner"
+      ],
+      "sha256": "c88787a3899583a3767f7b426ca2211b06690e67160e90818b49696d3b5a5b06"
+    },
+    {
+      "key": "venue-banquet",
+      "url": "/assets/optimized/lacitta-pixel-venue-banquet.webp",
+      "bytes": 1842640,
+      "stages": [
+        "dinner"
+      ],
+      "sha256": "5b22d1c51deb101876e17d18d266f82914e21e986b6b1c84474eadefbc462b66"
+    },
+    {
+      "key": "venue-bridal-room",
+      "url": "/assets/optimized/lacitta-pixel-venue-bridal-room-white.webp",
+      "bytes": 1459164,
+      "stages": [
+        "bridal"
+      ],
+      "sha256": "2083f480501eb8358cbd8eeb82632100bb9a3d9b55915a37dcdbb20f9ddafc27"
+    },
+    {
+      "key": "venue-garden",
+      "url": "/assets/optimized/lacitta-pixel-venue-garden.webp",
+      "bytes": 1989228,
+      "stages": [
+        "garden"
+      ],
+      "sha256": "bad2c802bdd0a448b6cdb5c42db4cba7e597deaaab7775375a6893d814e70b5f"
+    },
+    {
+      "key": "wedding-group-portrait",
+      "url": "/assets/optimized/lacitta-pixel-venue-group-photo-portrait-v3.webp",
+      "bytes": 1939604,
+      "stages": [
+        "hall"
+      ],
+      "sha256": "bf8cb787027ec2a1008b3a465c49bad219fbbf17a5eaa5207c8fc5f22604ce8a"
+    },
+    {
+      "key": "file:assets/optimized/lacitta-pixel-venue-group-photo-stage-v4.webp",
+      "url": "/assets/optimized/lacitta-pixel-venue-group-photo-stage-v4.webp",
+      "bytes": 1732484,
+      "stages": [
+        "invitation"
+      ],
+      "sha256": "0143a96ef5c789fa8289c1900aafb6e09b462a29ccdd7d0938415dccb6f9fd10"
+    },
+    {
+      "key": "venue-hall",
+      "url": "/assets/optimized/lacitta-pixel-venue-hall.webp",
+      "bytes": 1932340,
+      "stages": [
+        "opening",
+        "hall",
+        "dinner"
+      ],
+      "sha256": "77b090421b5ce80c267b3dc9589c6c204566ebb2abb82aea5f27dfd3aaef2d1d"
+    },
+    {
+      "key": "venue-lobby",
+      "url": "/assets/optimized/lacitta-pixel-venue-lobby.webp",
+      "bytes": 1883948,
+      "stages": [
+        "lobby"
+      ],
+      "sha256": "2732407e880fb1b8d4c561cbab62268f20e1818268e6b6922b426e3c9ff50b21"
+    },
+    {
+      "key": "venue-photo-booth",
+      "url": "/assets/optimized/lacitta-pixel-venue-photo-booth.webp",
+      "bytes": 1790850,
+      "stages": [
+        "photo"
+      ],
+      "sha256": "5d2f01ad9ae4039744c4abd731ebfdf694b1c3dbd833980302a281c7dfb0c24e"
+    },
+    {
+      "key": "reception-family",
+      "url": "/assets/optimized/lacitta-pixel-venue-reception-family.webp",
+      "bytes": 1757236,
+      "stages": [
+        "reception"
+      ],
+      "sha256": "f83c6807d1cfb2b2dfe0ad6d86fd828a5fc45805e1bd894f429f5c3e96a8921f"
+    },
+    {
+      "key": "venue-shuttle",
+      "url": "/assets/optimized/lacitta-pixel-venue-shuttle.webp",
+      "bytes": 1607896,
+      "stages": [
+        "subway"
+      ],
+      "sha256": "90a756ecca831d705649b976d37f1f3c51cd9cadf0a7bfc814746caed2c229fd"
+    },
+    {
+      "key": "car-background",
+      "url": "/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+      "bytes": 1532440,
+      "stages": [
+        "car"
+      ],
+      "sha256": "9370f0ab3fd565924666d306832efb42be04cbe2e0c814ac2e5426b36a6083ea"
+    },
+    {
+      "key": "home-background",
+      "url": "/assets/optimized/lacitta-routes-home-ground-v2.webp",
+      "bytes": 1921334,
+      "stages": [
+        "setup"
+      ],
+      "sha256": "cee866980842605860fc6311ab9c5edbea49bd6e83ace93d3394bc059934dabc"
+    },
+    {
+      "key": "sixth-outfits",
+      "url": "/assets/optimized/lacitta-characters-sixth-outfits.webp",
+      "bytes": 999294,
+      "stages": [
+        "avatar-male"
+      ],
+      "sha256": "43e28c2ddca373be3497e88e586ff9dbe7783773c51c422c66daa3bca94e6578"
+    },
+    {
+      "key": "gray-tweed",
+      "url": "/assets/optimized/lacitta-characters-extra-outfits-female-gray.webp",
+      "bytes": 971850,
+      "stages": [
+        "avatar-female"
+      ],
+      "sha256": "4e2b7ea395aa1ea97c1fbca8496c9adc390c62e86f4c3dca91b76671f77fc4dd"
+    },
+    {
+      "key": "sixth-outfits-female",
+      "url": "/assets/optimized/lacitta-characters-sixth-outfits-female-black.webp",
+      "bytes": 992584,
+      "stages": [
+        "avatar-female"
+      ],
+      "sha256": "f131a8b4dc681898ac699ca786a8c83e5f231d734e14b063efa4d9a6795a0799"
+    }
+  ],
+  "exitCode": 0
+}

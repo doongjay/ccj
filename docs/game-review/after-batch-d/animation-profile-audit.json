@@ -1,0 +1,2982 @@
+{
+  "isolatedArtFixture": true,
+  "generatedParkingContract": {
+    "width": 38,
+    "height": 52,
+    "nearest": true,
+    "reused": true
+  },
+  "count": 90,
+  "results": [
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 0,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 0,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 0,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 0,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 0,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 1,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 1,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 1,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 1,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 1,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 2,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 2,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 2,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 2,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 0,
+        "hair": 2,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 0,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 0,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 0,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 0,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 0,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 1,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 1,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 1,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 1,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 1,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 2,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 2,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 2,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 2,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 1,
+        "hair": 2,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 0,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 0,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 0,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 0,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 0,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 1,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 1,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 1,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 1,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 1,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 2,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 2,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 2,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 2,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "male",
+        "face": 2,
+        "hair": 2,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 0,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 0,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 0,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 0,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 0,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 1,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 1,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 1,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 1,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 1,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 2,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 2,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 2,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 2,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 0,
+        "hair": 2,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 0,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 0,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 0,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 0,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 0,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 1,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 1,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 1,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 1,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 1,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 2,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 2,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 2,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 2,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 1,
+        "hair": 2,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 0,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 0,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 0,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 0,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 0,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 1,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 1,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 1,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 1,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 1,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 2,
+        "outfit": 0
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 2,
+        "outfit": 1
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 2,
+        "outfit": 2
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 2,
+        "outfit": 3
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    },
+    {
+      "profile": {
+        "gender": "female",
+        "face": 2,
+        "hair": 2,
+        "outfit": 4
+      },
+      "observations": [
+        {
+          "pose": "down",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "left",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "right",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        },
+        {
+          "pose": "up",
+          "headAndBodyStable": true,
+          "actualLegChange": true
+        }
+      ],
+      "clapHeadStable": true,
+      "clapFeetStable": true,
+      "handsChange": true
+    }
+  ]
+}

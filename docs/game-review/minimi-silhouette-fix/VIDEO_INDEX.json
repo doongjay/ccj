@@ -1,0 +1,518 @@
+{
+  "note": "Temporary video paths in observations.json are relocated by Playwright. Final reporter attachment paths and byte-identical readable copies are recorded here. No acceleration, cuts, interpolation or re-encoding.",
+  "videos": [
+    {
+      "test": "M05 actual 01-face3-hair3-blue-shirt: blink, A-B-A, walking, photos, resume and reaction",
+      "reporter": "logs/before-flows.json",
+      "source": "runs/before-flows/review-minimi-flow-M05-act-f1dd2--photos-resume-and-reaction/video.webm",
+      "reviewFile": "videos/before-01-face3-hair3-blue-shirt.webm",
+      "sha256": "c2a0b22cd45fb2b8c0fc2dc9326eabbd7894e75a35993f57471d50fcd67dd17d",
+      "bytes": 6137179,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "60.560000",
+          "size": "6137179"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "M05 actual 02-face3-hair1-blue-shirt: blink, A-B-A, walking, photos, resume and reaction",
+      "reporter": "logs/before-flows.json",
+      "source": "runs/before-flows/review-minimi-flow-M05-act-c4a50--photos-resume-and-reaction/video.webm",
+      "reviewFile": "videos/before-02-face3-hair1-blue-shirt.webm",
+      "sha256": "ee2d11161bbf0cd8ad9b1c74ba7ec32600d76e2d4df69f03d91c6a0a2258d850",
+      "bytes": 6165196,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "58.720000",
+          "size": "6165196"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "M05 actual 03-face2-glasses-hair1-ivory-top: blink, A-B-A, walking, photos, resume and reaction",
+      "reporter": "logs/before-flows.json",
+      "source": "runs/before-flows/review-minimi-flow-M05-act-3d583--photos-resume-and-reaction/video.webm",
+      "reviewFile": "videos/before-03-face2-glasses-hair1-ivory-top.webm",
+      "sha256": "49babe21f98192dc7bb95d3803fb62baabefb68b7eb06db5dd7f77cec92b85ba",
+      "bytes": 6214290,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "60.880000",
+          "size": "6214290"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "M05 actual 01-face3-hair3-blue-shirt: blink, A-B-A, walking, photos, resume and reaction",
+      "reporter": "logs/capture-final-02.json",
+      "source": "runs/capture-final-02/review-minimi-flow-M05-act-f1dd2--photos-resume-and-reaction/video.webm",
+      "reviewFile": "videos/after-01-face3-hair3-blue-shirt.webm",
+      "sha256": "eeb44e95fd66e2dfb6dc9d0958b86421e5de993bcb62421ee178854e2f270c26",
+      "bytes": 7344983,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "74.080000",
+          "size": "7344983"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "M05 actual 02-face3-hair1-blue-shirt: blink, A-B-A, walking, photos, resume and reaction",
+      "reporter": "logs/capture-final-02.json",
+      "source": "runs/capture-final-02/review-minimi-flow-M05-act-c4a50--photos-resume-and-reaction/video.webm",
+      "reviewFile": "videos/after-02-face3-hair1-blue-shirt.webm",
+      "sha256": "4209fd514463f588bc8e04f286dc29fa66a61b34ef5d166c31bf724eda3345b7",
+      "bytes": 7306183,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "72.000000",
+          "size": "7306183"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "M05 actual 03-face2-glasses-hair1-ivory-top: blink, A-B-A, walking, photos, resume and reaction",
+      "reporter": "logs/capture-final-02.json",
+      "source": "runs/capture-final-02/review-minimi-flow-M05-act-3d583--photos-resume-and-reaction/video.webm",
+      "reviewFile": "videos/after-03-face2-glasses-hair1-ivory-top.webm",
+      "sha256": "804ee8f254c121cfa81bb5c2d2b7984ea4d42cfdc4f1938271647568f4e761e7",
+      "bytes": 7009830,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "70.280000",
+          "size": "7009830"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "M05 actual 04-female-face1-hair1-white-shirt: blink, A-B-A, walking, photos, resume and reaction",
+      "reporter": "logs/capture-final-02.json",
+      "source": "runs/capture-final-02/review-minimi-flow-M05-act-43d7d--photos-resume-and-reaction/video.webm",
+      "reviewFile": "videos/after-04-female-face1-hair1-white-shirt.webm",
+      "sha256": "7cd3822f34617cb0a6b5f91f2955b220a2387a7224727b52537999173f08a8f9",
+      "bytes": 6353050,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "63.120000",
+          "size": "6353050"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "M05 actual 05-female-round-glasses-gray-tweed: blink, A-B-A, walking, photos, resume and reaction",
+      "reporter": "logs/capture-final-02.json",
+      "source": "runs/capture-final-02/review-minimi-flow-M05-act-48cc7--photos-resume-and-reaction/video.webm",
+      "reviewFile": "videos/after-05-female-round-glasses-gray-tweed.webm",
+      "sha256": "e4af45bc2d14b61a4202de062f9c42ff79dac08aa7af4e23bff3da478098a202",
+      "bytes": 7056222,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "68.560000",
+          "size": "7056222"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "M05 actual 06-female-round-glasses-black-mini-boots: blink, A-B-A, walking, photos, resume and reaction",
+      "reporter": "logs/capture-final-02.json",
+      "source": "runs/capture-final-02/review-minimi-flow-M05-act-98c53--photos-resume-and-reaction/video.webm",
+      "reviewFile": "videos/after-06-female-round-glasses-black-mini-boots.webm",
+      "sha256": "8f85d60e00d96e4875321a2e4ba8ba504e83dc85229307b5d6b9097cec1d9b8b",
+      "bytes": 7346093,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "74.080000",
+          "size": "7346093"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "M05 actual 07-male-round-glasses-check-jacket: blink, A-B-A, walking, photos, resume and reaction",
+      "reporter": "logs/capture-final-02.json",
+      "source": "runs/capture-final-02/review-minimi-flow-M05-act-8ec07--photos-resume-and-reaction/video.webm",
+      "reviewFile": "videos/after-07-male-round-glasses-check-jacket.webm",
+      "sha256": "80583599d57f42fd59a8f3615fd59bb26461ef1aa1251a09a9e83112fa1f07cb",
+      "bytes": 6765811,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "67.560000",
+          "size": "6765811"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "Restored station and touch continuation at 320x568",
+      "reporter": "logs/capture-final-02.json",
+      "source": "runs/capture-final-02/review-silhouette-ux-Resto-12ab3-uch-continuation-at-320x568/video.webm",
+      "reviewFile": "videos/station-touch-320x568.webm",
+      "sha256": "bee96c56cfb5f1cb5be0edad35fe0beebd57e1ffcc7e7dd98e0926f82c3deecd",
+      "bytes": 2182605,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "23.320000",
+          "size": "2182605"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "Restored station and touch continuation at 393x852",
+      "reporter": "logs/capture-final-02.json",
+      "source": "runs/capture-final-02/review-silhouette-ux-Resto-0cc75-uch-continuation-at-393x852/video.webm",
+      "reviewFile": "videos/station-touch-393x852.webm",
+      "sha256": "ad062e7f7a0b333375a96ee4322eb17d834e8822a919b1f040450424defb8945",
+      "bytes": 2219034,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "21.760000",
+          "size": "2219034"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "Restored station and touch continuation at 430x932",
+      "reporter": "logs/capture-final-02.json",
+      "source": "runs/capture-final-02/review-silhouette-ux-Resto-ca966-uch-continuation-at-430x932/video.webm",
+      "reviewFile": "videos/station-touch-430x932.webm",
+      "sha256": "33e5190d80e424c95e9cd32d1b55ea9dde2a671076ace74087a560eb2a2d0f95",
+      "bytes": 2191260,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 392,
+            "height": 852,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "22.080000",
+          "size": "2191260"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "first notebook and hall frame at three mobile widths",
+      "reporter": "logs/preserved-ux-rerun-01.json",
+      "source": "runs/preserved-ux-rerun-01/review-neck-loading-first--96763-rame-at-three-mobile-widths-chromium/video.webm",
+      "reviewFile": "videos/notebook-hall-three-widths.webm",
+      "sha256": "e3d34aa2935ab1e1142fa200b695f01ecf8cd6f95a4432b59623154292ef8f9d",
+      "bytes": 8089982,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 430,
+            "height": 932,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "75.760000",
+          "size": "8089982"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "separated route 노란색: visible lines and actual drive 320",
+      "reporter": "logs/preserved-ux-rerun-01.json",
+      "source": "runs/preserved-ux-rerun-01/review-neck-loading-separa-5dbb7--lines-and-actual-drive-320-chromium/video.webm",
+      "reviewFile": "videos/car-320.webm",
+      "sha256": "7cd9ba918d3d6b95d9a1212abd494a8f7a132a7c958441369d86598bf407b063",
+      "bytes": 1800131,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 430,
+            "height": 932,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "23.400000",
+          "size": "1800131"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "separated route 분홍색: visible lines and actual drive 393",
+      "reporter": "logs/preserved-ux-rerun-01.json",
+      "source": "runs/preserved-ux-rerun-01/review-neck-loading-separa-f9547--lines-and-actual-drive-393-chromium/video.webm",
+      "reviewFile": "videos/car-393.webm",
+      "sha256": "19c9979f6bbee301a0e06ccda2a774c798315233a6af393920a6eabcc4bafc08",
+      "bytes": 1544989,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 430,
+            "height": 932,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "15.600000",
+          "size": "1544989"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "separated route 파란색: visible lines and actual drive 430",
+      "reporter": "logs/preserved-ux-rerun-01.json",
+      "source": "runs/preserved-ux-rerun-01/review-neck-loading-separa-30e9c--lines-and-actual-drive-430-chromium/video.webm",
+      "reviewFile": "videos/car-430.webm",
+      "sha256": "13c1b30eeb1e1ca4c8544eed16dd3322e5229192b4b3c796428ee01227faed26",
+      "bytes": 1713738,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 430,
+            "height": 932,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "15.920000",
+          "size": "1713738"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "loading policy actual car journey through ending",
+      "reporter": "logs/preserved-ux-rerun-01.json",
+      "source": "runs/preserved-ux-rerun-01/review-neck-loading-loadin-f5066--car-journey-through-ending-chromium/video.webm",
+      "reviewFile": "videos/journey-car.webm",
+      "sha256": "9bcb92872300967ca854b702ee6b27abdfcc16a9db61474b955f4417ff0236b4",
+      "bytes": 6949099,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 430,
+            "height": 932,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "66.320000",
+          "size": "6949099"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    },
+    {
+      "test": "loading policy actual subway journey through ending",
+      "reporter": "logs/preserved-ux-rerun-01.json",
+      "source": "runs/preserved-ux-rerun-01/review-neck-loading-loadin-ded51-bway-journey-through-ending-chromium/video.webm",
+      "reviewFile": "videos/journey-subway.webm",
+      "sha256": "bfc166df7fb9e16ae8f9ea456c82fef282f739c45b21db93d04e3e7df2bc4d03",
+      "bytes": 7040719,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "vp8",
+            "width": 430,
+            "height": 932,
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "63.640000",
+          "size": "7040719"
+        }
+      },
+      "editing": "none; byte-identical original real-time recording",
+      "testResult": "passed"
+    }
+  ]
+}

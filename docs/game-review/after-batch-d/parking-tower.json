@@ -1,0 +1,15 @@
+{
+  "start": 1789370521910,
+  "clips": [
+    {
+      "type": "wrong-map",
+      "at": 5857
+    },
+    {
+      "type": "tower",
+      "at": 12374
+    }
+  ],
+  "errors": [],
+  "video": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/.playwright-artifacts-6/page@d6618197eef9439fb6d07d751580960e.webm"
+}

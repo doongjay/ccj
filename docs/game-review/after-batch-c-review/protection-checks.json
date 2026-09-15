@@ -1,0 +1,47 @@
+{
+  "art-assets": {
+    "checked": 159,
+    "changed": []
+  },
+  "approved-evidence": {
+    "checked": 89,
+    "changed": []
+  },
+  "game/src/ui/TextEntryDialog.ts": {
+    "unchanged": true
+  },
+  "game/src/scenes/CarRouteScene.ts": {
+    "unchanged": true
+  },
+  "game/src/ui/PortraitNotice.ts": {
+    "unchanged": true
+  },
+  "game/src/data/lobbyFloor.ts": {
+    "unchanged": true
+  },
+  "game/src/systems/walkPath.ts": {
+    "unchanged": true
+  },
+  "game/src/objects/Player.ts": {
+    "unchanged": true
+  },
+  "game/src/systems/stageAssets.ts": {
+    "unchanged": true
+  },
+  "game/src/data/weddingMetadata.ts": {
+    "unchanged": true
+  },
+  "game/src/state/gameState.ts": {
+    "unchanged": true
+  },
+  "environment": {
+    "platform": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+    "node": "v23.11.0",
+    "packages": {
+      "@playwright/test": "1.62.1",
+      "phaser": "4.2.1",
+      "vite": "8.2.1",
+      "typescript": "6.0.3"
+    }
+  }
+}

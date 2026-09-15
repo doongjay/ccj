@@ -1,0 +1,291 @@
+{
+  "source": "docs/game-review/after-batch-c/logs/refinement-02.json",
+  "reported": {
+    "startTime": "2026-09-13T16:13:09.831Z",
+    "duration": 158074.396,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "detailed": {
+    "expected": 10,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0
+  },
+  "totalProjectCases": 10,
+  "uniqueSpecIds": 10,
+  "totalAttempts": 10,
+  "retriedCases": 0,
+  "projectCounts": {
+    "chromium": 10
+  },
+  "matches": true,
+  "globalErrors": [],
+  "cases": [
+    {
+      "id": "0ab05d2fb8ca6fef5dc5-bd415472cf13ebeaea24",
+      "file": "reception-only.spec.ts",
+      "line": 7,
+      "title": "reception-only.spec.ts › single reception desk: photo and navigation stay inert, desk groom pauses movement and completes once",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:13:10.582Z",
+          "duration": 31981,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "photo-table",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 316172
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0ab05d2fb8ca6fef5dc5-2fa87734442251c5d573",
+      "file": "reception-only.spec.ts",
+      "line": 7,
+      "title": "reception-only.spec.ts › single reception desk: photo and navigation stay inert, desk bride pauses movement and completes once",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:13:10.581Z",
+          "duration": 38755,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "photo-table",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 316092
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-294970d6e47e1b3a2814",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 7,
+      "title": "review-batch-c-ceremony.spec.ts › F14: deterministic full candidate cycle, player exclusion and short-list reuse",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:13:10.582Z",
+          "duration": 5,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-6747d8266ad1a4f80315",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: applause visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:13:10.604Z",
+          "duration": 71111,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-7eb7568f6f0679f896fa",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: cheer visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:13:43.196Z",
+          "duration": 70438,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-7fa7b8e614cf74838b34",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: reduced visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:13:49.733Z",
+          "duration": 54254,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-24fe260fd58bea6df027",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: compact visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:14:22.563Z",
+          "duration": 63228,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "9b44bad5f9e10d4e14d6-fdea4608d3accbf7adac",
+      "file": "review-batch-c-photos.spec.ts",
+      "line": 16,
+      "title": "review-batch-c-photos.spec.ts › F12/F13/B-V01: actual photos persist, explicit returns, finite notebook keepsakes and clean controls",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:14:45.221Z",
+          "duration": 59975,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "photo-events",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 14024
+            },
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6857659465e21c3093a2-796ecf4ee45d1d76577b",
+      "file": "review-batch-c-reception.spec.ts",
+      "line": 7,
+      "title": "review-batch-c-reception.spec.ts › F15: first completion notice expires while walking; invitation and room revisits do not repeat it",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:14:54.416Z",
+          "duration": 27035,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "reception-timing",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 1568
+            },
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6857659465e21c3093a2-17f66317f720cdb829fa",
+      "file": "review-batch-c-reception.spec.ts",
+      "line": 46,
+      "title": "review-batch-c-reception.spec.ts › F15: invitation pauses the first notice and resumes it once",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:15:21.672Z",
+          "duration": 26041,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

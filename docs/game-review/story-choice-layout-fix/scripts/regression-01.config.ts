@@ -1,0 +1,3 @@
+import { defineConfig } from "../../../../game/node_modules/@playwright/test/index.mjs";
+process.env.REVIEW_EVIDENCE = "/Users/user/wedding/ccj/docs/game-review/story-choice-layout-fix/regression-screenshots";
+export default defineConfig({ testDir: "../../../../game/e2e", testMatch: ["story-routes.spec.ts", "story-choice-width.spec.ts", "tap-pacing.spec.ts", "current-journey.spec.ts", "review-batch-b-access.spec.ts"], workers: 2, retries: 0, reporter: [["list"], ["json", { outputFile: "../logs/regression-01.json" }]], outputDir: "../runs/regression-01", use: { baseURL: "http://127.0.0.1:5174", screenshot: "only-on-failure", trace: "off", video: { mode: "on", size: { width: 393, height: 852 } } } });

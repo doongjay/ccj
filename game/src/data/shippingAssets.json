@@ -1,0 +1,3943 @@
+{
+  "version": 1,
+  "budgets": {
+    "legacy-image": 512000,
+    "legacy-share": 1000000,
+    "font": 500000,
+    "stage-image": 3000000,
+    "character-atlas": 1500000,
+    "photograph": 3000000,
+    "initialAssetBytes": 4000000,
+    "shippingTotalBytes": 110000000
+  },
+  "assets": [
+    {
+      "key": "file:assets/invitation/calendar.jpg",
+      "url": "/assets/invitation/calendar.jpg",
+      "kind": "image",
+      "width": 2918,
+      "height": 3628,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/calendar.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-supplied",
+      "runtimeKey": null,
+      "sourceSHA256": "4d457946a70544364f7414615fe5bdfb8a74fe429d5929fc9f78dc71dd65c049",
+      "sha256": "4d457946a70544364f7414615fe5bdfb8a74fe429d5929fc9f78dc71dd65c049"
+    },
+    {
+      "key": "file:assets/invitation/chrysanthemum.png",
+      "url": "/assets/invitation/chrysanthemum.png",
+      "kind": "image",
+      "width": 1200,
+      "height": 1200,
+      "alpha": "mixed",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/chrysanthemum.png",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-supplied",
+      "runtimeKey": null,
+      "sourceSHA256": "ca1c5b322753942b76f246eea9f28b5564ba1aa6d646eb7cbeac58013db280ef",
+      "sha256": "ca1c5b322753942b76f246eea9f28b5564ba1aa6d646eb7cbeac58013db280ef"
+    },
+    {
+      "key": "file:assets/invitation/information.png",
+      "url": "/assets/invitation/information.png",
+      "kind": "image",
+      "width": 794,
+      "height": 398,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/information.png",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-supplied",
+      "runtimeKey": null,
+      "sourceSHA256": "f07eaf393761f5ce8101f78d3daa40a6a1d60db3c43c78b79383ee822eaed83d",
+      "sha256": "f07eaf393761f5ce8101f78d3daa40a6a1d60db3c43c78b79383ee822eaed83d"
+    },
+    {
+      "key": "file:assets/invitation/intro.jpg",
+      "url": "/assets/invitation/intro.jpg",
+      "kind": "image",
+      "width": 2918,
+      "height": 4377,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/intro.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-supplied",
+      "runtimeKey": null,
+      "sourceSHA256": "a4c5be47d495a44ad22bb49be4ef7c62998aa6c6da4dcf4c51f3c3c41f8fe1d6",
+      "sha256": "a4c5be47d495a44ad22bb49be4ef7c62998aa6c6da4dcf4c51f3c3c41f8fe1d6"
+    },
+    {
+      "key": "file:assets/invitation/notice-atm.jpg",
+      "url": "/assets/invitation/notice-atm.jpg",
+      "kind": "image",
+      "width": 1200,
+      "height": 900,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/notice-atm.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "notice-retouch",
+      "runtimeKey": null,
+      "sourceSHA256": "575081529fc274d76d0ddaa05b5b19cf2e88c3b11399b1e13a77269a9d86270b",
+      "sha256": "575081529fc274d76d0ddaa05b5b19cf2e88c3b11399b1e13a77269a9d86270b"
+    },
+    {
+      "key": "file:assets/invitation/notice-banquet.jpg",
+      "url": "/assets/invitation/notice-banquet.jpg",
+      "kind": "image",
+      "width": 1200,
+      "height": 674,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/notice-banquet.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "notice-retouch",
+      "runtimeKey": null,
+      "sourceSHA256": "27beeae3a580455e57d794a224e365b88e29d9ace390888c794aa655138ea8f4",
+      "sha256": "27beeae3a580455e57d794a224e365b88e29d9ace390888c794aa655138ea8f4"
+    },
+    {
+      "key": "file:assets/invitation/notice-photo-booth.jpg",
+      "url": "/assets/invitation/notice-photo-booth.jpg",
+      "kind": "image",
+      "width": 1200,
+      "height": 1200,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/notice-photo-booth.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "notice-retouch",
+      "runtimeKey": null,
+      "sourceSHA256": "93a3865896dbee914091454817e9792f731e9cad7647a68402088f047e8b2aa7",
+      "sha256": "93a3865896dbee914091454817e9792f731e9cad7647a68402088f047e8b2aa7"
+    },
+    {
+      "key": "file:assets/invitation/notice-welcome.jpg",
+      "url": "/assets/invitation/notice-welcome.jpg",
+      "kind": "image",
+      "width": 1200,
+      "height": 1200,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/notice-welcome.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "notice-retouch",
+      "runtimeKey": null,
+      "sourceSHA256": "4ce7c87fe2f43ff286d8f7d253ce5bdecf01a2bc1c711feea5bc6a22a8b7a755",
+      "sha256": "4ce7c87fe2f43ff286d8f7d253ce5bdecf01a2bc1c711feea5bc6a22a8b7a755"
+    },
+    {
+      "key": "file:assets/invitation/share-pixel-square-v2.png",
+      "url": "/assets/invitation/share-pixel-square-v2.png",
+      "kind": "image",
+      "width": 1254,
+      "height": 1254,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/share-pixel-square-v2.png",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "share-art",
+      "runtimeKey": null,
+      "sourceSHA256": "bd7f383e058c4457475ada4abcdb3eec73cb06c3a19948e25e2131a2a21579d9",
+      "sha256": "bd7f383e058c4457475ada4abcdb3eec73cb06c3a19948e25e2131a2a21579d9"
+    },
+    {
+      "key": "file:assets/invitation/share-pixel-wide-v2.png",
+      "url": "/assets/invitation/share-pixel-wide-v2.png",
+      "kind": "image",
+      "width": 1774,
+      "height": 887,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/share-pixel-wide-v2.png",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "share-art",
+      "runtimeKey": null,
+      "sourceSHA256": "553e95770f50a88125856b5d8562ead34827c1b7729e65620003b9ef556df748",
+      "sha256": "553e95770f50a88125856b5d8562ead34827c1b7729e65620003b9ef556df748"
+    },
+    {
+      "key": "file:assets/invitation/shuttle-pixel-matte.png",
+      "url": "/assets/invitation/shuttle-pixel-matte.png",
+      "kind": "image",
+      "width": 1536,
+      "height": 1024,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/shuttle-pixel-matte.png",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "shuttle-art",
+      "runtimeKey": null,
+      "sourceSHA256": "de922e356be0a4a83980cb3a7fa51d8b4647c5fa20b8bd976256f9d029a7ff85",
+      "sha256": "de922e356be0a4a83980cb3a7fa51d8b4647c5fa20b8bd976256f9d029a7ff85"
+    },
+    {
+      "key": "file:assets/invitation/timer.jpg",
+      "url": "/assets/invitation/timer.jpg",
+      "kind": "image",
+      "width": 2772,
+      "height": 4158,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/timer.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-supplied",
+      "runtimeKey": null,
+      "sourceSHA256": "03817e97d9bf7f7412d05de1d573dedb6533edb8c94463057a464bbb5080ab95",
+      "sha256": "03817e97d9bf7f7412d05de1d573dedb6533edb8c94463057a464bbb5080ab95"
+    },
+    {
+      "key": "file:assets/invitation/venue-directions.jpg",
+      "url": "/assets/invitation/venue-directions.jpg",
+      "kind": "image",
+      "width": 800,
+      "height": 600,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/invitation/venue-directions.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "share-art",
+      "runtimeKey": null,
+      "sourceSHA256": "0db6e293c57f770ce0511696fa6ed21e296bf90ded324eae149dc655050b601e",
+      "sha256": "0db6e293c57f770ce0511696fa6ed21e296bf90ded324eae149dc655050b601e"
+    },
+    {
+      "key": "file:assets/lacitta/characters/npc-bride.png",
+      "url": "/assets/lacitta/characters/npc-bride.png",
+      "kind": "spritesheet",
+      "width": 128,
+      "height": 192,
+      "frameWidth": 32,
+      "frameHeight": 48,
+      "columns": 4,
+      "rows": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "margin": 0,
+      "spacing": 0,
+      "runtimeScale": 2,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "npc-bride",
+      "sceneConsumers": [
+        "Npc",
+        "BridalRoomScene",
+        "EndingScene"
+      ],
+      "legacyKey": "npc-bride",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/characters/npc-bride.png",
+      "contract": "legacy-32x48",
+      "runtimeKey": null,
+      "sourceSHA256": "7d7ea5964b8a982f101487f6dc429ff9d7ef1706760f08ae6256d40b192d32ea",
+      "sha256": "7d7ea5964b8a982f101487f6dc429ff9d7ef1706760f08ae6256d40b192d32ea"
+    },
+    {
+      "key": "file:assets/lacitta/characters/npc-groom.png",
+      "url": "/assets/lacitta/characters/npc-groom.png",
+      "kind": "spritesheet",
+      "width": 128,
+      "height": 192,
+      "frameWidth": 32,
+      "frameHeight": 48,
+      "columns": 4,
+      "rows": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "margin": 0,
+      "spacing": 0,
+      "runtimeScale": 2,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "npc-groom",
+      "sceneConsumers": [
+        "Npc",
+        "EndingScene"
+      ],
+      "legacyKey": "npc-groom",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/characters/npc-groom.png",
+      "contract": "legacy-32x48",
+      "runtimeKey": null,
+      "sourceSHA256": "414b2837d7fe7f4e086e2ed22f8baa926bac6f63c924a67b317353dbc78bf0af",
+      "sha256": "414b2837d7fe7f4e086e2ed22f8baa926bac6f63c924a67b317353dbc78bf0af"
+    },
+    {
+      "key": "file:assets/lacitta/characters/npc-guide.png",
+      "url": "/assets/lacitta/characters/npc-guide.png",
+      "kind": "spritesheet",
+      "width": 128,
+      "height": 192,
+      "frameWidth": 32,
+      "frameHeight": 48,
+      "columns": 4,
+      "rows": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "margin": 0,
+      "spacing": 0,
+      "runtimeScale": 2,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "npc-guide",
+      "sceneConsumers": [
+        "Npc",
+        "VenueHallScene"
+      ],
+      "legacyKey": "npc-guide",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/characters/npc-guide.png",
+      "contract": "legacy-32x48",
+      "runtimeKey": null,
+      "sourceSHA256": "c0d4f8e3a9825e9b3ae8f50d8c6f436b540e573e10e9bd8b98a4a7562f7cb51f",
+      "sha256": "c0d4f8e3a9825e9b3ae8f50d8c6f436b540e573e10e9bd8b98a4a7562f7cb51f"
+    },
+    {
+      "key": "npc-reception",
+      "url": "/assets/lacitta/characters/npc-reception.png",
+      "kind": "spritesheet",
+      "width": 128,
+      "height": 192,
+      "frameWidth": 32,
+      "frameHeight": 48,
+      "columns": 4,
+      "rows": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "margin": 0,
+      "spacing": 0,
+      "runtimeScale": 2,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "npc-reception",
+      "sceneConsumers": [
+        "Npc",
+        "VenueLobbyScene"
+      ],
+      "legacyKey": "npc-reception",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "lobby"
+      ],
+      "source": "game/public/assets/lacitta/characters/npc-reception.png",
+      "contract": "legacy-32x48",
+      "runtimeKey": "npc-reception",
+      "sourceSHA256": "f430bb6a6aa4c38fd5005984a1dbf3ad1a0ee5705a921adeeb3a0d20f5606f7e",
+      "sha256": "f430bb6a6aa4c38fd5005984a1dbf3ad1a0ee5705a921adeeb3a0d20f5606f7e"
+    },
+    {
+      "key": "file:assets/lacitta/characters/player-guest.png",
+      "url": "/assets/lacitta/characters/player-guest.png",
+      "kind": "spritesheet",
+      "width": 128,
+      "height": 192,
+      "frameWidth": 32,
+      "frameHeight": 48,
+      "columns": 4,
+      "rows": [
+        "down",
+        "left",
+        "right",
+        "up"
+      ],
+      "margin": 0,
+      "spacing": 0,
+      "runtimeScale": 2,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "player-guest",
+      "sceneConsumers": [
+        "Player"
+      ],
+      "legacyKey": "player-guest",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/characters/player-guest.png",
+      "contract": "legacy-32x48",
+      "runtimeKey": null,
+      "sourceSHA256": "8083a16f51ad2c9762c23097939ce064973c29e53b3677b04ca8c51a76f533d0",
+      "sha256": "8083a16f51ad2c9762c23097939ce064973c29e53b3677b04ca8c51a76f533d0"
+    },
+    {
+      "key": "file:assets/lacitta/fonts/Galmuri11.woff2",
+      "url": "/assets/lacitta/fonts/Galmuri11.woff2",
+      "kind": "font",
+      "family": "Galmuri11",
+      "width": 0,
+      "height": 0,
+      "byteLimit": 500000,
+      "preloadGroup": "initial",
+      "provenanceId": "galmuri11",
+      "sceneConsumers": [
+        "sceneUi",
+        "Player",
+        "Npc",
+        "BootScene"
+      ],
+      "legacyKey": "galmuri11",
+      "budgetClass": "font",
+      "stages": [
+        "opening"
+      ],
+      "source": "game/public/assets/lacitta/fonts/Galmuri11.woff2",
+      "contract": "font",
+      "runtimeKey": null,
+      "sourceSHA256": "51a59c70b4b0ac05c6f6a8a53181e0d1b1f2ccd227ebfb829500670a2e2b45e3",
+      "sha256": "51a59c70b4b0ac05c6f6a8a53181e0d1b1f2ccd227ebfb829500670a2e2b45e3"
+    },
+    {
+      "key": "file:assets/lacitta/photos/bridal-room.jpeg",
+      "url": "/assets/lacitta/photos/bridal-room.jpeg",
+      "kind": "image",
+      "width": 765,
+      "height": 512,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/public/assets/lacitta/photos/bridal-room.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "notice-retouch",
+      "runtimeKey": null,
+      "sourceSHA256": "acb8e9ec4bcfecd559f1be95b43c6d2350392e3cfe91f15aa851ca2d9bfae69d",
+      "sha256": "acb8e9ec4bcfecd559f1be95b43c6d2350392e3cfe91f15aa851ca2d9bfae69d"
+    },
+    {
+      "key": "file:assets/lacitta/routes/car-background.png",
+      "url": "/assets/lacitta/routes/car-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "car-background",
+      "sceneConsumers": [
+        "CarRouteScene"
+      ],
+      "legacyKey": "car-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/routes/car-background.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "749143eb351aba67b46401d63cd53bf5fa89b2a7fa67f6d5cad31ea6823d12c5",
+      "sha256": "749143eb351aba67b46401d63cd53bf5fa89b2a7fa67f6d5cad31ea6823d12c5"
+    },
+    {
+      "key": "file:assets/lacitta/routes/car-choice.png",
+      "url": "/assets/lacitta/routes/car-choice.png",
+      "kind": "image",
+      "width": 96,
+      "height": 64,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "car-choice",
+      "sceneConsumers": [
+        "HomeSelectScene"
+      ],
+      "legacyKey": "car-choice",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/routes/car-choice.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "4da339daa6b16a84cd5297c0c6d209f36410d18a8366b9b0429e2c63ea527d08",
+      "sha256": "4da339daa6b16a84cd5297c0c6d209f36410d18a8366b9b0429e2c63ea527d08"
+    },
+    {
+      "key": "file:assets/lacitta/routes/exit-sign.png",
+      "url": "/assets/lacitta/routes/exit-sign.png",
+      "kind": "image",
+      "width": 64,
+      "height": 64,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "exit-sign",
+      "sceneConsumers": [
+        "SubwayRouteScene"
+      ],
+      "legacyKey": "exit-sign",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/routes/exit-sign.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "39dddc783b7fdeb63c764d0ceb62f523dee1e2789df53ce2bd28849758d52d6d",
+      "sha256": "39dddc783b7fdeb63c764d0ceb62f523dee1e2789df53ce2bd28849758d52d6d"
+    },
+    {
+      "key": "file:assets/lacitta/routes/home-background.png",
+      "url": "/assets/lacitta/routes/home-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "home-background",
+      "sceneConsumers": [
+        "HomeSelectScene"
+      ],
+      "legacyKey": "home-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/routes/home-background.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "aa985d20424b40124291c839d244b1c4ab2885b62252038f58600c4e12f8f8b4",
+      "sha256": "aa985d20424b40124291c839d244b1c4ab2885b62252038f58600c4e12f8f8b4"
+    },
+    {
+      "key": "file:assets/lacitta/routes/shuttle-bus.png",
+      "url": "/assets/lacitta/routes/shuttle-bus.png",
+      "kind": "image",
+      "width": 128,
+      "height": 80,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "shuttle-bus",
+      "sceneConsumers": [
+        "SubwayRouteScene"
+      ],
+      "legacyKey": "shuttle-bus",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/routes/shuttle-bus.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "d308444673010a6ca051913e1c69058ac8ba2fb25adcf219ac7ff225b12a8110",
+      "sha256": "d308444673010a6ca051913e1c69058ac8ba2fb25adcf219ac7ff225b12a8110"
+    },
+    {
+      "key": "subway-background",
+      "url": "/assets/lacitta/routes/subway-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "subway-background",
+      "sceneConsumers": [
+        "SubwayRouteScene"
+      ],
+      "legacyKey": "subway-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "subway"
+      ],
+      "source": "game/public/assets/lacitta/routes/subway-background.png",
+      "contract": "image",
+      "runtimeKey": "subway-background",
+      "sourceSHA256": "e55056a0429d2582da74f4a4cba7f6e113dbe75d63bcec1c9c94ff24b36cf43f",
+      "sha256": "e55056a0429d2582da74f4a4cba7f6e113dbe75d63bcec1c9c94ff24b36cf43f"
+    },
+    {
+      "key": "file:assets/lacitta/routes/subway-choice.png",
+      "url": "/assets/lacitta/routes/subway-choice.png",
+      "kind": "image",
+      "width": 96,
+      "height": 64,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "subway-choice",
+      "sceneConsumers": [
+        "HomeSelectScene"
+      ],
+      "legacyKey": "subway-choice",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/routes/subway-choice.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "315c3b83fa6d1b2745577529bd76713aa6460689095d53519cbe113aec5e7f64",
+      "sha256": "315c3b83fa6d1b2745577529bd76713aa6460689095d53519cbe113aec5e7f64"
+    },
+    {
+      "key": "file:assets/lacitta/share/og-lacitta-wedding.png",
+      "url": "/assets/lacitta/share/og-lacitta-wedding.png",
+      "kind": "image",
+      "width": 1200,
+      "height": 630,
+      "alpha": "opaque",
+      "byteLimit": 1000000,
+      "preloadGroup": "share",
+      "provenanceId": "og-lacitta-wedding",
+      "sceneConsumers": [
+        "index.html"
+      ],
+      "legacyKey": "og-lacitta-wedding",
+      "budgetClass": "legacy-share",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/share/og-lacitta-wedding.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "1e18dd59da0e7829c119fe25b1c1ba7672e45164a576f39787bce13c41176a07",
+      "sha256": "1e18dd59da0e7829c119fe25b1c1ba7672e45164a576f39787bce13c41176a07"
+    },
+    {
+      "key": "file:assets/lacitta/ui/arrow-marker.png",
+      "url": "/assets/lacitta/ui/arrow-marker.png",
+      "kind": "image",
+      "width": 32,
+      "height": 32,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "arrow-marker",
+      "sceneConsumers": [
+        "ArrowGuide"
+      ],
+      "legacyKey": "arrow-marker",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/ui/arrow-marker.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "415329bf3aa0ea9ee681ad5ac7678344138e9f66f6fe7d6b27e61818acd57cb7",
+      "sha256": "415329bf3aa0ea9ee681ad5ac7678344138e9f66f6fe7d6b27e61818acd57cb7"
+    },
+    {
+      "key": "dialog-panel",
+      "url": "/assets/lacitta/ui/dialog-panel.png",
+      "kind": "image",
+      "width": 64,
+      "height": 64,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "dialog-panel",
+      "sceneConsumers": [
+        "sceneUi"
+      ],
+      "legacyKey": "dialog-panel",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "opening"
+      ],
+      "source": "game/public/assets/lacitta/ui/dialog-panel.png",
+      "contract": "image",
+      "runtimeKey": "dialog-panel",
+      "sourceSHA256": "e25f3453d4c816bb446b382a87bc3d8034c34aac3655f43f5804b6ab72ccea3a",
+      "sha256": "e25f3453d4c816bb446b382a87bc3d8034c34aac3655f43f5804b6ab72ccea3a"
+    },
+    {
+      "key": "file:assets/lacitta/ui/guide-marker.png",
+      "url": "/assets/lacitta/ui/guide-marker.png",
+      "kind": "image",
+      "width": 32,
+      "height": 32,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "guide-marker",
+      "sceneConsumers": [
+        "ArrowGuide"
+      ],
+      "legacyKey": "guide-marker",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/ui/guide-marker.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "4f52d4a095916792caeeb3529bf10ff8864343c8d9068f9026d6192eb02a1685",
+      "sha256": "4f52d4a095916792caeeb3529bf10ff8864343c8d9068f9026d6192eb02a1685"
+    },
+    {
+      "key": "file:assets/lacitta/ui/hint-button.png",
+      "url": "/assets/lacitta/ui/hint-button.png",
+      "kind": "image",
+      "width": 32,
+      "height": 32,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "hint-button",
+      "sceneConsumers": [
+        "QuizModal"
+      ],
+      "legacyKey": "hint-button",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/ui/hint-button.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "23427a4bb80c987a83dd6446c9baf1505fcc9085e2161efef27346ad6daccf27",
+      "sha256": "23427a4bb80c987a83dd6446c9baf1505fcc9085e2161efef27346ad6daccf27"
+    },
+    {
+      "key": "file:assets/lacitta/ui/loading-accent.png",
+      "url": "/assets/lacitta/ui/loading-accent.png",
+      "kind": "image",
+      "width": 64,
+      "height": 32,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "loading-accent",
+      "sceneConsumers": [
+        "BootScene"
+      ],
+      "legacyKey": "loading-accent",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/ui/loading-accent.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "735a248b20157d959c7e8ec3554afd7c469938b456dd2d30405f62aeb019b46a",
+      "sha256": "735a248b20157d959c7e8ec3554afd7c469938b456dd2d30405f62aeb019b46a"
+    },
+    {
+      "key": "quiz-frame",
+      "url": "/assets/lacitta/ui/quiz-frame.png",
+      "kind": "image",
+      "width": 64,
+      "height": 64,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "quiz-frame",
+      "sceneConsumers": [
+        "QuizModal"
+      ],
+      "legacyKey": "quiz-frame",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "lobby"
+      ],
+      "source": "game/public/assets/lacitta/ui/quiz-frame.png",
+      "contract": "image",
+      "runtimeKey": "quiz-frame",
+      "sourceSHA256": "fbd648b4a02bec64f90fd41867944f7b779b88e864d9044b7cca72813809062d",
+      "sha256": "fbd648b4a02bec64f90fd41867944f7b779b88e864d9044b7cca72813809062d"
+    },
+    {
+      "key": "file:assets/lacitta/ui/route-sign.png",
+      "url": "/assets/lacitta/ui/route-sign.png",
+      "kind": "image",
+      "width": 64,
+      "height": 32,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "route-sign",
+      "sceneConsumers": [
+        "CarRouteScene",
+        "SubwayRouteScene"
+      ],
+      "legacyKey": "route-sign",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/ui/route-sign.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "e84d0862e2b1e1ff2775db8387779b23b2ca14d7478da32a2854caa209383dea",
+      "sha256": "e84d0862e2b1e1ff2775db8387779b23b2ca14d7478da32a2854caa209383dea"
+    },
+    {
+      "key": "touch-button",
+      "url": "/assets/lacitta/ui/touch-button.png",
+      "kind": "image",
+      "width": 96,
+      "height": 32,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "touch-button",
+      "sceneConsumers": [
+        "sceneUi",
+        "QuizModal"
+      ],
+      "legacyKey": "touch-button",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "opening"
+      ],
+      "source": "game/public/assets/lacitta/ui/touch-button.png",
+      "contract": "image",
+      "runtimeKey": "touch-button",
+      "sourceSHA256": "f4707c831d57342524829d69907759869005a5e00e5d18c69b390a49a30884b9",
+      "sha256": "f4707c831d57342524829d69907759869005a5e00e5d18c69b390a49a30884b9"
+    },
+    {
+      "key": "file:assets/lacitta/venue/banquet-background.png",
+      "url": "/assets/lacitta/venue/banquet-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "banquet-background",
+      "sceneConsumers": [
+        "BanquetScene"
+      ],
+      "legacyKey": "banquet-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/banquet-background.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "227044c5955040e77b50b18357136adf83185728f5b1bd75ef799e2ea010ba82",
+      "sha256": "227044c5955040e77b50b18357136adf83185728f5b1bd75ef799e2ea010ba82"
+    },
+    {
+      "key": "file:assets/lacitta/venue/bridal-room-background.png",
+      "url": "/assets/lacitta/venue/bridal-room-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "bridal-room-background",
+      "sceneConsumers": [
+        "BridalRoomScene"
+      ],
+      "legacyKey": "bridal-room-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/bridal-room-background.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "3ef5b0969acafa41fd91767d58ebe1bd84a256137788c1029bbd4c1b9b0013d6",
+      "sha256": "3ef5b0969acafa41fd91767d58ebe1bd84a256137788c1029bbd4c1b9b0013d6"
+    },
+    {
+      "key": "file:assets/lacitta/venue/buffet-island.png",
+      "url": "/assets/lacitta/venue/buffet-island.png",
+      "kind": "image",
+      "width": 128,
+      "height": 80,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "buffet-island",
+      "sceneConsumers": [
+        "BanquetScene"
+      ],
+      "legacyKey": "buffet-island",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/buffet-island.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "1eb27f1bec736bc0c87b3627e94129993b3179dc07a8950fc48b7c230f8febd1",
+      "sha256": "1eb27f1bec736bc0c87b3627e94129993b3179dc07a8950fc48b7c230f8febd1"
+    },
+    {
+      "key": "file:assets/lacitta/venue/drinks-station.png",
+      "url": "/assets/lacitta/venue/drinks-station.png",
+      "kind": "image",
+      "width": 96,
+      "height": 64,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "drinks-station",
+      "sceneConsumers": [
+        "BanquetScene",
+        "VenueLobbyScene"
+      ],
+      "legacyKey": "drinks-station",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/drinks-station.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "11001eeaed8517ed871d7e5737d347ef789edb696dde91eabe954f15a05d1ee9",
+      "sha256": "11001eeaed8517ed871d7e5737d347ef789edb696dde91eabe954f15a05d1ee9"
+    },
+    {
+      "key": "file:assets/lacitta/venue/ending-background.png",
+      "url": "/assets/lacitta/venue/ending-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "ending-background",
+      "sceneConsumers": [
+        "IntroScene",
+        "EndingScene"
+      ],
+      "legacyKey": "ending-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/ending-background.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "33ab091ff2b5f1f1527df0b631610b180009cb068c1a05d83a508a6fb3fc3577",
+      "sha256": "33ab091ff2b5f1f1527df0b631610b180009cb068c1a05d83a508a6fb3fc3577"
+    },
+    {
+      "key": "file:assets/lacitta/venue/greenery-corridor-background.png",
+      "url": "/assets/lacitta/venue/greenery-corridor-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "greenery-corridor-background",
+      "sceneConsumers": [
+        "GreeneryCorridorScene"
+      ],
+      "legacyKey": "greenery-corridor-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/greenery-corridor-background.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "7c88a0c62b23485ff5214b28502cdd5e1178d28f00c2dc82ca481ed501ae631c",
+      "sha256": "7c88a0c62b23485ff5214b28502cdd5e1178d28f00c2dc82ca481ed501ae631c"
+    },
+    {
+      "key": "file:assets/lacitta/venue/hall-background.png",
+      "url": "/assets/lacitta/venue/hall-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "hall-background",
+      "sceneConsumers": [
+        "VenueHallScene"
+      ],
+      "legacyKey": "hall-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/hall-background.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "07a8fb4fa49b69e7795e2fbe089f7693733e45c6f7b5117f82b6b670972bf1d6",
+      "sha256": "07a8fb4fa49b69e7795e2fbe089f7693733e45c6f7b5117f82b6b670972bf1d6"
+    },
+    {
+      "key": "file:assets/lacitta/venue/lobby-background.png",
+      "url": "/assets/lacitta/venue/lobby-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "lobby-background",
+      "sceneConsumers": [
+        "VenueLobbyScene"
+      ],
+      "legacyKey": "lobby-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/lobby-background.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "5b54ff149737876b3da66a332de768bf2b6eb397837147af1e99a1bf3c08341f",
+      "sha256": "5b54ff149737876b3da66a332de768bf2b6eb397837147af1e99a1bf3c08341f"
+    },
+    {
+      "key": "file:assets/lacitta/venue/photo-booth.png",
+      "url": "/assets/lacitta/venue/photo-booth.png",
+      "kind": "image",
+      "width": 96,
+      "height": 96,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "photo-booth",
+      "sceneConsumers": [
+        "PhotoBoothScene",
+        "EndingScene"
+      ],
+      "legacyKey": "photo-booth",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/photo-booth.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "6661d21b1142a9ecb963a5414f747188513fdb5667b4f08a9e3dd7e19b6fb5f0",
+      "sha256": "6661d21b1142a9ecb963a5414f747188513fdb5667b4f08a9e3dd7e19b6fb5f0"
+    },
+    {
+      "key": "file:assets/lacitta/venue/photo-room-background.png",
+      "url": "/assets/lacitta/venue/photo-room-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "photo-room-background",
+      "sceneConsumers": [
+        "PhotoBoothScene"
+      ],
+      "legacyKey": "photo-room-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/photo-room-background.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "5901ba24e9ecbea19ad53771eafa896175a6c4899c841475b24c45a619b0cdcb",
+      "sha256": "5901ba24e9ecbea19ad53771eafa896175a6c4899c841475b24c45a619b0cdcb"
+    },
+    {
+      "key": "file:assets/lacitta/venue/photo-table.png",
+      "url": "/assets/lacitta/venue/photo-table.png",
+      "kind": "image",
+      "width": 112,
+      "height": 64,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "photo-table",
+      "sceneConsumers": [
+        "VenueLobbyScene"
+      ],
+      "legacyKey": "photo-table",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/photo-table.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "c795a902f5279882269d2916808f9d10c8371cad5e72545ae81e24dad3442d3a",
+      "sha256": "c795a902f5279882269d2916808f9d10c8371cad5e72545ae81e24dad3442d3a"
+    },
+    {
+      "key": "file:assets/lacitta/venue/reception-desk.png",
+      "url": "/assets/lacitta/venue/reception-desk.png",
+      "kind": "image",
+      "width": 96,
+      "height": 64,
+      "alpha": "mixed",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "reception-desk",
+      "sceneConsumers": [
+        "VenueLobbyScene"
+      ],
+      "legacyKey": "reception-desk",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "legacy-compatibility"
+      ],
+      "source": "game/public/assets/lacitta/venue/reception-desk.png",
+      "contract": "image",
+      "runtimeKey": null,
+      "sourceSHA256": "c56f293589ded64617e869d348ce7484acb714db53fbc4bf535a0e591ed91a4f",
+      "sha256": "c56f293589ded64617e869d348ce7484acb714db53fbc4bf535a0e591ed91a4f"
+    },
+    {
+      "key": "waiting-room-background",
+      "url": "/assets/lacitta/venue/waiting-room-background.png",
+      "kind": "image",
+      "width": 360,
+      "height": 640,
+      "alpha": "opaque",
+      "byteLimit": 512000,
+      "preloadGroup": "initial",
+      "provenanceId": "waiting-room-background",
+      "sceneConsumers": [
+        "WaitingRoomScene"
+      ],
+      "legacyKey": "waiting-room-background",
+      "budgetClass": "legacy-image",
+      "stages": [
+        "waiting"
+      ],
+      "source": "game/public/assets/lacitta/venue/waiting-room-background.png",
+      "contract": "image",
+      "runtimeKey": "waiting-room-background",
+      "sourceSHA256": "d8054aa3cbf879f59941b1eb14d99b39e8e375d6a6b7fc98ab37f6781dcd1e9e",
+      "sha256": "d8054aa3cbf879f59941b1eb14d99b39e8e375d6a6b7fc98ab37f6781dcd1e9e"
+    },
+    {
+      "key": "wedding-photo-1",
+      "url": "/assets/optimized/gallery-01-game.jpg",
+      "kind": "image",
+      "width": 1044,
+      "height": 1600,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-photo-table"
+      ],
+      "source": "game/artwork/sources/retired-invitation-gallery/gallery-01.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-supplied",
+      "derivation": "photo-1200x1600-q92",
+      "sourceSHA256": "0b4c5fe5d0e86b3c7af9ad2c6bf506650856fa78ac1e710449d12e102bdd05b3",
+      "sha256": "d1a2bb9b6b8779591287f07f034fe78a465e0dc331f54bd405eb0fa2085ea20d",
+      "retiredRuntimeKey": "wedding-photo-1"
+    },
+    {
+      "key": "wedding-photo-2",
+      "url": "/assets/optimized/gallery-02-game.jpg",
+      "kind": "image",
+      "width": 1200,
+      "height": 800,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-photo-table"
+      ],
+      "source": "game/artwork/sources/retired-invitation-gallery/gallery-02.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-supplied",
+      "derivation": "photo-1200x1600-q92",
+      "sourceSHA256": "b2f25bfb811b254f461c0059d0c10ab934fe16d7f9a8e9c52354bbcef67b50d9",
+      "sha256": "b1a7d654b1c06c5cd70f2bc7f16eb04570cc05a70a3a5b0ba32388c1fdbee75e",
+      "retiredRuntimeKey": "wedding-photo-2"
+    },
+    {
+      "key": "wedding-photo-3",
+      "url": "/assets/optimized/gallery-03-game.jpg",
+      "kind": "image",
+      "width": 1200,
+      "height": 800,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-photo-table"
+      ],
+      "source": "game/artwork/sources/retired-invitation-gallery/gallery-03.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "invitation-supplied",
+      "derivation": "photo-1200x1600-q92",
+      "sourceSHA256": "ffc8a90dff4b04d4dbca4720491e85e8e95e6e56460ff78e79628ef65b839dbb",
+      "sha256": "27067642bbe13723f2bc2fe19857643f8b8fe580514314a920704cb914a86ba7",
+      "retiredRuntimeKey": "wedding-photo-3"
+    },
+    {
+      "key": "extra-outfits-female",
+      "url": "/assets/optimized/lacitta-characters-extra-outfits-female.webp",
+      "kind": "image",
+      "width": 1024,
+      "height": 1536,
+      "alpha": "opaque",
+      "stages": [
+        "avatar-female"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/extra-outfits-female.png",
+      "contract": "region-atlas",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "outfit-art",
+      "columns": 2,
+      "rowEdges": [
+        0,
+        0.1836,
+        0.3418,
+        0.5,
+        0.6634,
+        0.832,
+        1
+      ],
+      "effectiveAlpha": "mixed",
+      "matte": "minimi-green",
+      "runtimeKey": "extra-outfits-female",
+      "sourceSHA256": "5cb153627ad8746bc4026b1f71f4da50de35bd3c1deb50dbda8171e8234a2f6c",
+      "sha256": "de7ad8f64ad714f3c86ed2dd27f4ac9650332d98cf94a43ad958c99d849b1f81"
+    },
+    {
+      "key": "extra-outfits-male",
+      "url": "/assets/optimized/lacitta-characters-extra-outfits-male.webp",
+      "kind": "image",
+      "width": 1024,
+      "height": 1536,
+      "alpha": "opaque",
+      "stages": [
+        "avatar-male"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/extra-outfits-male.png",
+      "contract": "region-atlas",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "outfit-art",
+      "columns": 2,
+      "rowEdges": [
+        0,
+        0.1836,
+        0.3418,
+        0.5,
+        0.6634,
+        0.832,
+        1
+      ],
+      "effectiveAlpha": "mixed",
+      "matte": "minimi-green",
+      "runtimeKey": "extra-outfits-male",
+      "sourceSHA256": "6967e4ca06ab030e95ed3a596acafe9665c700ff928d507088c4b47c7190ba54",
+      "sha256": "074d76607b3669502b4476188774f092a9a16e33d69294a374fc46d81bbde819"
+    },
+    {
+      "key": "formal-guests",
+      "url": "/assets/optimized/lacitta-characters-formal-guests.webp",
+      "kind": "image",
+      "width": 1182,
+      "height": 1330,
+      "alpha": "mixed",
+      "stages": [
+        "hall"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/formal-guests.png",
+      "contract": "region-atlas",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "stage-art",
+      "columns": 4,
+      "rowEdges": [
+        0,
+        0.352,
+        0.668,
+        1
+      ],
+      "effectiveAlpha": "mixed",
+      "runtimeKey": "formal-guests",
+      "sourceSHA256": "5ab7a3f1e70cc28570eb5a916cea6b600ac1fd682e106870c42b306a1065adb5",
+      "sha256": "218ae9da932b9ca6dff9335be5b131bea71eec833f5676c3cb7c9d0f0016297f"
+    },
+    {
+      "key": "minimi-hair",
+      "url": "/assets/optimized/lacitta-characters-minimi-hair.webp",
+      "kind": "image",
+      "width": 1536,
+      "height": 1024,
+      "alpha": "mixed",
+      "stages": [
+        "avatar-male",
+        "avatar-female"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/minimi-hair.png",
+      "contract": "region-atlas",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "outfit-art",
+      "columns": 6,
+      "rowEdges": [
+        0,
+        0.285,
+        0.515,
+        0.745,
+        1
+      ],
+      "effectiveAlpha": "mixed",
+      "matte": "minimi-green",
+      "runtimeKey": "minimi-hair",
+      "sourceSHA256": "b0c9e826c83376802cdb62129d1ad23b30feded0d86ac0d6eeb6a39b38b517ce",
+      "sha256": "14b027836aa7982021da7b1a4a3a4738f31a4d2e8dc4c7c39d595e397af3797a"
+    },
+    {
+      "key": "outfits-female",
+      "url": "/assets/optimized/lacitta-characters-outfits-female.webp",
+      "kind": "image",
+      "width": 1024,
+      "height": 1536,
+      "alpha": "mixed",
+      "stages": [
+        "avatar-female"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/outfits-female.png",
+      "contract": "outfit-atlas",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "outfit-art",
+      "gender": "female",
+      "effectiveAlpha": "mixed",
+      "runtimeKey": "outfits-female",
+      "sourceSHA256": "2e5f5609188424b458b8dcba7442a6cab8e0ce6ee959823b66a4d0a7d97a540a",
+      "sha256": "cf7181d2df8805a8ef237149ddc0d81f032d9564d053fb8184cf0548b21963fe"
+    },
+    {
+      "key": "outfits-male",
+      "url": "/assets/optimized/lacitta-characters-outfits-male.webp",
+      "kind": "image",
+      "width": 1024,
+      "height": 1536,
+      "alpha": "mixed",
+      "stages": [
+        "avatar-male"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/outfits-male.png",
+      "contract": "outfit-atlas",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "outfit-art",
+      "gender": "male",
+      "effectiveAlpha": "mixed",
+      "runtimeKey": "outfits-male",
+      "sourceSHA256": "0256a87dc584b87157ebc7e4a83ee8ebd16e37b14b98d880bd4f15a5cac87b21",
+      "sha256": "8b29dab1449f7bb8e35ec07205690193d1537a84784c4f5c37e87c4fe0f5e339"
+    },
+    {
+      "key": "parents",
+      "url": "/assets/optimized/lacitta-characters-parents.webp",
+      "kind": "image",
+      "width": 1774,
+      "height": 887,
+      "alpha": "mixed",
+      "stages": [
+        "lobby"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/parents.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "stage-art",
+      "runtimeKey": "parents",
+      "sourceSHA256": "c82d4d6a260deb2e4957e9fcc608ad85af85f80555d5589c40bd0fdc03ac68e3",
+      "sha256": "0cb96e7828cc9845881d8f91b409ce6e47865160be9726b557a7cc2406cb9dc0"
+    },
+    {
+      "key": "wedding-couple-sheet",
+      "url": "/assets/optimized/lacitta-characters-wedding-couple.webp",
+      "kind": "image",
+      "width": 1536,
+      "height": 1024,
+      "alpha": "opaque",
+      "stages": [
+        "opening",
+        "hall"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/wedding-couple.png",
+      "contract": "region-atlas",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "couple-art",
+      "columnEdges": [
+        0,
+        0.44,
+        1
+      ],
+      "rowEdges": [
+        0,
+        1
+      ],
+      "effectiveAlpha": "mixed",
+      "matte": "couple-green",
+      "runtimeKey": "wedding-couple-sheet",
+      "sourceSHA256": "84b330dbe6e23ddf231e25c0fba430c6dc486df4c8a50e7158f729984ae83826",
+      "sha256": "9708fe5124abe1fe4787812f4217797f734609feb55610e354e5cd004b4760fb"
+    },
+    {
+      "key": "white-car",
+      "url": "/assets/optimized/lacitta-characters-white-car.webp",
+      "kind": "image",
+      "width": 1448,
+      "height": 1086,
+      "alpha": "mixed",
+      "stages": [
+        "car"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/white-car.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "outfit-art",
+      "runtimeKey": "white-car",
+      "sourceSHA256": "68f61287cca3648c23607fd4e259738268ce0e4599cc4e8b0f5bb1586b2a20a8",
+      "sha256": "39fec34862d811404632a803a0bc944e6d626b066a104ae63e314c95d7790023"
+    },
+    {
+      "key": "buffet-left",
+      "url": "/assets/optimized/lacitta-food-buffet-left.webp",
+      "kind": "image",
+      "width": 724,
+      "height": 2172,
+      "alpha": "opaque",
+      "stages": [
+        "dinner"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/food/buffet-left.png",
+      "contract": "food-strip",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "food-art",
+      "rowEdges": [
+        0,
+        0.378,
+        0.683,
+        1
+      ],
+      "runtimeKey": "buffet-left",
+      "sourceSHA256": "9ace171232c3052f889df9b8ad2ab3bccac5553bd9440a8b041d02e8033b77a0",
+      "sha256": "b3f3b9a8fdb043a123866e0c498a10337296baf537e415af105aa2b15550096c"
+    },
+    {
+      "key": "buffet-right",
+      "url": "/assets/optimized/lacitta-food-buffet-right.webp",
+      "kind": "image",
+      "width": 724,
+      "height": 2172,
+      "alpha": "opaque",
+      "stages": [
+        "dinner"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/food/buffet-right.png",
+      "contract": "food-strip",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "food-art",
+      "rowEdges": [
+        0,
+        0.33,
+        0.628,
+        1
+      ],
+      "runtimeKey": "buffet-right",
+      "sourceSHA256": "f64c1cbf363ca5dbec884c368d58f01eeae7fcc1df19f16da49121715081ecd8",
+      "sha256": "69a7841a5d87fbe425ae6d50ed003222f302588799d7c6bb15b11f52909ebf2d"
+    },
+    {
+      "key": "venue-banquet-corridor",
+      "url": "/assets/optimized/lacitta-pixel-venue-banquet-corridor.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "dinner"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/banquet-corridor.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "stage-art",
+      "runtimeKey": "venue-banquet-corridor",
+      "sourceSHA256": "a3d386b254ea4300e40e5c19c5a7f629b8c4be3dd7c1a04913a71c056a0f580b",
+      "sha256": "c88787a3899583a3767f7b426ca2211b06690e67160e90818b49696d3b5a5b06"
+    },
+    {
+      "key": "venue-banquet",
+      "url": "/assets/optimized/lacitta-pixel-venue-banquet.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "dinner"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/banquet.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "stage-art",
+      "runtimeKey": "venue-banquet",
+      "sourceSHA256": "4ebe86561e8ed63def42feba97054ff767db7e33d41f20c2da08be4cb96d7332",
+      "sha256": "5b22d1c51deb101876e17d18d266f82914e21e986b6b1c84474eadefbc462b66"
+    },
+    {
+      "key": "retained-bridal-room-baked-bride",
+      "url": "/assets/optimized/lacitta-pixel-venue-bridal-room-white.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-bridal-room"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/bridal-room-white.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "stage-art",
+      "sourceSHA256": "38bf5c6f4ca765edee01414f633f779929e051deb395823b967d7349bb3dc5dd",
+      "sha256": "2083f480501eb8358cbd8eeb82632100bb9a3d9b55915a37dcdbb20f9ddafc27",
+      "retiredRuntimeKey": "venue-bridal-room"
+    },
+    {
+      "key": "venue-garden",
+      "url": "/assets/optimized/lacitta-pixel-venue-garden.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "garden"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/garden.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "stage-art",
+      "runtimeKey": "venue-garden",
+      "sourceSHA256": "7642506691bf98d0fe41c319fe53a0e4a11fd785a5adcfc15e7e34c40480c1d9",
+      "sha256": "bad2c802bdd0a448b6cdb5c42db4cba7e597deaaab7775375a6893d814e70b5f"
+    },
+    {
+      "key": "wedding-group-portrait",
+      "url": "/assets/optimized/lacitta-pixel-venue-group-photo-portrait-v3.webp",
+      "kind": "image",
+      "width": 940,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "hall"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-portrait-v3.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "group-art",
+      "runtimeKey": "wedding-group-portrait",
+      "sourceSHA256": "a2779430320a6f5a3bfce69d1cc4af2e89d6efc4c2411755a6b2e810ed0e2b52",
+      "sha256": "bf8cb787027ec2a1008b3a465c49bad219fbbf17a5eaa5207c8fc5f22604ce8a"
+    },
+    {
+      "key": "file:assets/optimized/lacitta-pixel-venue-group-photo-stage-v4.webp",
+      "url": "/assets/optimized/lacitta-pixel-venue-group-photo-stage-v4.webp",
+      "kind": "image",
+      "width": 1448,
+      "height": 1086,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-stage-v4.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "group-art",
+      "runtimeKey": null,
+      "sourceSHA256": "88c593e5d7919efdb1ce7b25faf57723828c6c818336cf0a3b393af509e488b3",
+      "sha256": "0143a96ef5c789fa8289c1900aafb6e09b462a29ccdd7d0938415dccb6f9fd10"
+    },
+    {
+      "key": "venue-hall",
+      "url": "/assets/optimized/lacitta-pixel-venue-hall.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "opening",
+        "hall",
+        "dinner"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/hall.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "stage-art",
+      "runtimeKey": "venue-hall",
+      "sourceSHA256": "b8f14ea2af1c0e2c78425354af87def7848a8a5614ab5f2f175a446726c5764f",
+      "sha256": "77b090421b5ce80c267b3dc9589c6c204566ebb2abb82aea5f27dfd3aaef2d1d"
+    },
+    {
+      "key": "venue-lobby",
+      "url": "/assets/optimized/lacitta-pixel-venue-lobby.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1671,
+      "alpha": "opaque",
+      "stages": [
+        "lobby"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/lobby.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "stage-art",
+      "runtimeKey": "venue-lobby",
+      "sourceSHA256": "89a5175ec68d04885730d5e3bf534f9459328add15e7877d1782814c663bc3b7",
+      "sha256": "2732407e880fb1b8d4c561cbab62268f20e1818268e6b6922b426e3c9ff50b21"
+    },
+    {
+      "key": "venue-photo-booth",
+      "url": "/assets/optimized/lacitta-pixel-venue-photo-booth.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "photo"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/photo-booth.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "stage-art",
+      "runtimeKey": "venue-photo-booth",
+      "sourceSHA256": "b1bcca45bce98884c9c89b2b5e2af17e715a7c6e3b265e86a5beca29bb1afbc0",
+      "sha256": "5d2f01ad9ae4039744c4abd731ebfdf694b1c3dbd833980302a281c7dfb0c24e"
+    },
+    {
+      "key": "reception-family",
+      "url": "/assets/optimized/lacitta-pixel-venue-reception-family.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "reception"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/reception-family.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "stage-art",
+      "runtimeKey": "reception-family",
+      "sourceSHA256": "0d770d77c3163341db0c73b6521cb9dec0e357a1c85917892f534bcc02388f7c",
+      "sha256": "f83c6807d1cfb2b2dfe0ad6d86fd828a5fc45805e1bd894f429f5c3e96a8921f"
+    },
+    {
+      "key": "venue-shuttle",
+      "url": "/assets/optimized/lacitta-pixel-venue-shuttle.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "subway"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/shuttle.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "stage-art",
+      "runtimeKey": "venue-shuttle",
+      "sourceSHA256": "e8363cd0b5ba6de169183eb5c4083680f7371246f4a3a99ed186fe25ca60eb3a",
+      "sha256": "90a756ecca831d705649b976d37f1f3c51cd9cadf0a7bfc814746caed2c229fd"
+    },
+    {
+      "key": "car-background",
+      "url": "/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1670,
+      "alpha": "opaque",
+      "stages": [
+        "car"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/routes/car-guidance-tower-open.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "neck-loading-refinement-art",
+      "runtimeKey": "car-background",
+      "sourceSHA256": "7d5a1086276d49e79ed2cd18c458879495515891c388437cfe105049966aefa1",
+      "sha256": "b86da40f26958b5532e2da69674a8a8754a03f4de62563bbba1aca9b34edc89a"
+    },
+    {
+      "key": "home-background",
+      "url": "/assets/optimized/lacitta-routes-home-ground-v2.webp",
+      "kind": "image",
+      "width": 941,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "setup"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/routes/home-ground-v2.png",
+      "contract": "image",
+      "derivation": "lossless-webp",
+      "budgetClass": "stage-image",
+      "byteLimit": 3000000,
+      "provenanceId": "group-art",
+      "runtimeKey": "home-background",
+      "sourceSHA256": "fee9f4b9121a8761e0cc7066599eb41f04499068c2971d1506efb0ff85f89d58",
+      "sha256": "cee866980842605860fc6311ab9c5edbea49bd6e83ace93d3394bc059934dabc"
+    },
+    {
+      "key": "sixth-outfits",
+      "url": "/assets/optimized/lacitta-characters-sixth-outfits.webp",
+      "kind": "image",
+      "width": 1024,
+      "height": 1536,
+      "alpha": "opaque",
+      "stages": [
+        "avatar-male"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/sixth-outfits.png",
+      "contract": "region-atlas",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "neck-loading-refinement-art",
+      "columns": 2,
+      "rowEdges": [
+        0,
+        0.1836,
+        0.3418,
+        0.5,
+        0.6634,
+        0.832,
+        1
+      ],
+      "effectiveAlpha": "mixed",
+      "matte": "minimi-green",
+      "runtimeKey": "sixth-outfits",
+      "sourceSHA256": "fa96c8b8cf4fb2717655f00fbc8d980930d0cea1544aebf8fb2b2551dc9ce5e9",
+      "sha256": "43e28c2ddca373be3497e88e586ff9dbe7783773c51c422c66daa3bca94e6578"
+    },
+    {
+      "key": "gray-tweed",
+      "url": "/assets/optimized/lacitta-characters-extra-outfits-female-gray.webp",
+      "kind": "image",
+      "width": 1024,
+      "height": 1536,
+      "alpha": "opaque",
+      "stages": [
+        "avatar-female"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/extra-outfits-female-gray.png",
+      "contract": "region-atlas",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "neck-loading-refinement-art",
+      "columns": 2,
+      "rowEdges": [
+        0,
+        0.1836,
+        0.3418,
+        0.5,
+        0.6634,
+        0.832,
+        1
+      ],
+      "effectiveAlpha": "mixed",
+      "matte": "minimi-green",
+      "runtimeKey": "gray-tweed",
+      "sourceSHA256": "7b62706791a092ccbf617253b91ceacf89317366f55d4dab56d84412d9f632e3",
+      "sha256": "4e2b7ea395aa1ea97c1fbca8496c9adc390c62e86f4c3dca91b76671f77fc4dd"
+    },
+    {
+      "key": "sixth-outfits-female",
+      "url": "/assets/optimized/lacitta-characters-sixth-outfits-female-black.webp",
+      "kind": "image",
+      "width": 1024,
+      "height": 1536,
+      "alpha": "opaque",
+      "stages": [
+        "avatar-female"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/characters/sixth-outfits-female-black.png",
+      "contract": "region-atlas",
+      "derivation": "lossless-webp",
+      "budgetClass": "character-atlas",
+      "byteLimit": 1500000,
+      "provenanceId": "minimi-black-dress",
+      "columns": 2,
+      "rowEdges": [
+        0,
+        0.1836,
+        0.3418,
+        0.5,
+        0.6634,
+        0.832,
+        1
+      ],
+      "effectiveAlpha": "mixed",
+      "matte": "minimi-green",
+      "runtimeKey": "sixth-outfits-female",
+      "sourceSHA256": "d116287cfd4636c099e372738501dd0bb8feca4d71ea0f519a2245d01415023f",
+      "sha256": "f131a8b4dc681898ac699ca786a8c83e5f231d734e14b063efa4d9a6795a0799"
+    },
+    {
+      "key": "retained-recompressed-wedding-photo-groom-1",
+      "url": "/assets/optimized/photo-table-groom-01.jpg",
+      "kind": "image",
+      "width": 1200,
+      "height": 1600,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-photo-table"
+      ],
+      "source": "game/artwork/sources/photo-table/groom-01.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "photo-table-user-portraits-20260916",
+      "derivation": "photo-srgb-max1600-q92",
+      "sourceSHA256": "60dd6aad30a0b9d20efc4aa8cca1272ffcbfcc1019d9c2fe3d0727ef9eed6d48",
+      "sha256": "7d1a66e2bcd49384b4bb987f3c54ea62331e3c13899cc503c856345fafc15bc3",
+      "retiredRuntimeKey": "wedding-photo-groom-1"
+    },
+    {
+      "key": "retained-recompressed-wedding-photo-groom-2",
+      "url": "/assets/optimized/photo-table-groom-02.jpg",
+      "kind": "image",
+      "width": 1067,
+      "height": 1600,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-photo-table"
+      ],
+      "source": "game/artwork/sources/photo-table/groom-02.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "photo-table-user-portraits-20260916",
+      "derivation": "photo-srgb-max1600-q92",
+      "sourceSHA256": "17602e0a4be65c7864891706013995b6aff676b27e2a04742dcbc0138bd20661",
+      "sha256": "c19a6c518ea428bb62db94c89410dc6b0125d99ae34cd7890a0d85f7846598f2",
+      "retiredRuntimeKey": "wedding-photo-groom-2"
+    },
+    {
+      "key": "retained-recompressed-wedding-photo-groom-3",
+      "url": "/assets/optimized/photo-table-groom-03.jpg",
+      "kind": "image",
+      "width": 1051,
+      "height": 1600,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-photo-table"
+      ],
+      "source": "game/artwork/sources/photo-table/groom-03.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "photo-table-user-portraits-20260916",
+      "derivation": "photo-srgb-max1600-q92",
+      "sourceSHA256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+      "sha256": "f00f027176898d5f53d66c5f1cc7b8c9e5eaf601ee670012104acdb0682dc618",
+      "retiredRuntimeKey": "wedding-photo-groom-3"
+    },
+    {
+      "key": "retained-recompressed-wedding-photo-bride-1",
+      "url": "/assets/optimized/photo-table-bride-01.jpg",
+      "kind": "image",
+      "width": 1067,
+      "height": 1600,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-photo-table"
+      ],
+      "source": "game/artwork/sources/photo-table/bride-01.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "photo-table-user-portraits-20260916",
+      "derivation": "photo-srgb-max1600-q92",
+      "sourceSHA256": "cd27675b88fe789df95147d04051e951da3a5dcc79546a73a9dbd5cedc01f087",
+      "sha256": "460253260ae16104ba0edb88d2dadb644306b235c48beb286cd9595e877ddf6d",
+      "retiredRuntimeKey": "wedding-photo-bride-1"
+    },
+    {
+      "key": "retained-recompressed-wedding-photo-bride-2",
+      "url": "/assets/optimized/photo-table-bride-02.jpg",
+      "kind": "image",
+      "width": 1067,
+      "height": 1600,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-photo-table"
+      ],
+      "source": "game/artwork/sources/photo-table/bride-02.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "photo-table-user-portraits-20260916",
+      "derivation": "photo-srgb-max1600-q92",
+      "sourceSHA256": "67e78068c58bc850f36678b4264c73caa3ba4b1a8f856b72f647fc7129df17bf",
+      "sha256": "751631796b4a6ccc0704e12c146c25d42221a87a71b43bb5bc7bf957b33b9517",
+      "retiredRuntimeKey": "wedding-photo-bride-2"
+    },
+    {
+      "key": "retained-recompressed-wedding-photo-bride-3",
+      "url": "/assets/optimized/photo-table-bride-03.jpg",
+      "kind": "image",
+      "width": 1067,
+      "height": 1600,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-photo-table"
+      ],
+      "source": "game/artwork/sources/photo-table/bride-03.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "photo-table-user-portraits-20260916",
+      "derivation": "photo-srgb-max1600-q92",
+      "sourceSHA256": "b01896b02aa14b753966b58932745589ab3befb559d57d1b7ff78f869fba0892",
+      "sha256": "77c90c158a0ed6ec6d2037c3f689c1fb2fd5e164c950297357d6a0b7b95e7e6a",
+      "retiredRuntimeKey": "wedding-photo-bride-3"
+    },
+    {
+      "key": "file:assets/invitation/gallery/1.jpg",
+      "url": "/assets/invitation/gallery/1.jpg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4705,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/1.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "7709559186d717c330df95568ae89195b65e08f46cdd22756207dffbde2fda1f",
+      "sha256": "7709559186d717c330df95568ae89195b65e08f46cdd22756207dffbde2fda1f",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/2.jpg",
+      "url": "/assets/invitation/gallery/2.jpg",
+      "kind": "image",
+      "width": 4608,
+      "height": 3072,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/2.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "9869f9700865d4fb6bb2b9d21c7cd7a43c2774e283440947521fa36f96741808",
+      "sha256": "9869f9700865d4fb6bb2b9d21c7cd7a43c2774e283440947521fa36f96741808",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/3.jpg",
+      "url": "/assets/invitation/gallery/3.jpg",
+      "kind": "image",
+      "width": 4608,
+      "height": 3072,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/3.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "1ab59f79deaef2bbe2f86dc623725d09b8029197d56c73ca00dfdc116787a7f0",
+      "sha256": "1ab59f79deaef2bbe2f86dc623725d09b8029197d56c73ca00dfdc116787a7f0",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/4.jpg",
+      "url": "/assets/invitation/gallery/4.jpg",
+      "kind": "image",
+      "width": 3067,
+      "height": 4495,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/4.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "684b5415533e2aad852fb070ca057446afd66c87ad4fb1cc00e455d41a8f9f0b",
+      "sha256": "684b5415533e2aad852fb070ca057446afd66c87ad4fb1cc00e455d41a8f9f0b",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/5.jpg",
+      "url": "/assets/invitation/gallery/5.jpg",
+      "kind": "image",
+      "width": 3840,
+      "height": 4927,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/5.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "310a9f0e634315b8cc3eeb09878ef4da7582ab423227d82d80f2fa19512c7ca0",
+      "sha256": "310a9f0e634315b8cc3eeb09878ef4da7582ab423227d82d80f2fa19512c7ca0",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/6.jpg",
+      "url": "/assets/invitation/gallery/6.jpg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/6.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "a9bd6ef65144be86977043b6af91660531f907ac02304e6dac7ea81a5781ba4f",
+      "sha256": "a9bd6ef65144be86977043b6af91660531f907ac02304e6dac7ea81a5781ba4f",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/11.jpg",
+      "url": "/assets/invitation/gallery/11.jpg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/11.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "5517896c284057d9fe891f4f9368233e0dfb74615934667b2edaaf50c7ed84f1",
+      "sha256": "5517896c284057d9fe891f4f9368233e0dfb74615934667b2edaaf50c7ed84f1",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/12.jpg",
+      "url": "/assets/invitation/gallery/12.jpg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/12.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "5b32077c4695ae8ab13f0aaeb8284126ed20c33ebb24423b20e4ad0ad6905357",
+      "sha256": "5b32077c4695ae8ab13f0aaeb8284126ed20c33ebb24423b20e4ad0ad6905357",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/13.jpg",
+      "url": "/assets/invitation/gallery/13.jpg",
+      "kind": "image",
+      "width": 2851,
+      "height": 4276,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/13.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "c70623d4c51276345cabfdd88162be8862ab56cf3e856cf03a6e0153eb6e514b",
+      "sha256": "c70623d4c51276345cabfdd88162be8862ab56cf3e856cf03a6e0153eb6e514b",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/21.jpg",
+      "url": "/assets/invitation/gallery/21.jpg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4639,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/21.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "78bd30cc3cdbf62c0a327f93b9332cb568a032474c7577c1ab227674000552e2",
+      "sha256": "78bd30cc3cdbf62c0a327f93b9332cb568a032474c7577c1ab227674000552e2",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/22.jpg",
+      "url": "/assets/invitation/gallery/22.jpg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/22.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "704cb282e5dfe86f6f9328429a000069126510d68aa462b0dda8b469417672bb",
+      "sha256": "704cb282e5dfe86f6f9328429a000069126510d68aa462b0dda8b469417672bb",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/23.jpg",
+      "url": "/assets/invitation/gallery/23.jpg",
+      "kind": "image",
+      "width": 2730,
+      "height": 4095,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/23.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "abcdf50190bdbeca5f7008d1b1c32d6a07ddc38fc9689dfd9441860e530fadfa",
+      "sha256": "abcdf50190bdbeca5f7008d1b1c32d6a07ddc38fc9689dfd9441860e530fadfa",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/24.jpg",
+      "url": "/assets/invitation/gallery/24.jpg",
+      "kind": "image",
+      "width": 4608,
+      "height": 3072,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/24.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "2669e58203b7df08ccf07c5e0e02300a60bd111df663290b02d0684fff4e21c0",
+      "sha256": "2669e58203b7df08ccf07c5e0e02300a60bd111df663290b02d0684fff4e21c0",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/25.jpg",
+      "url": "/assets/invitation/gallery/25.jpg",
+      "kind": "image",
+      "width": 2836,
+      "height": 4254,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/25.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "16b40823a4d1fd7cf4ac09dd016be9f20dcfbf352f9a234d2eaef8363c1c50aa",
+      "sha256": "16b40823a4d1fd7cf4ac09dd016be9f20dcfbf352f9a234d2eaef8363c1c50aa",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/26.jpg",
+      "url": "/assets/invitation/gallery/26.jpg",
+      "kind": "image",
+      "width": 2859,
+      "height": 4282,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/26.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "b93fa9e1833a83c2540569f7a6b4dfbee9b715e425e41391ff192d982f9ad22d",
+      "sha256": "b93fa9e1833a83c2540569f7a6b4dfbee9b715e425e41391ff192d982f9ad22d",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/31.jpg",
+      "url": "/assets/invitation/gallery/31.jpg",
+      "kind": "image",
+      "width": 4605,
+      "height": 3107,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/31.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "258999f552461b6c57cee711e1dff84bbc6f70573b519218f724b78a76cae2e9",
+      "sha256": "258999f552461b6c57cee711e1dff84bbc6f70573b519218f724b78a76cae2e9",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/32.jpg",
+      "url": "/assets/invitation/gallery/32.jpg",
+      "kind": "image",
+      "width": 2875,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/32.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "374b50bac7b38d7788f6fae8deae7906ab9e28006d27d66baf3884e49f3787ce",
+      "sha256": "374b50bac7b38d7788f6fae8deae7906ab9e28006d27d66baf3884e49f3787ce",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/33.jpg",
+      "url": "/assets/invitation/gallery/33.jpg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4252,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/33.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "2267b3e74f7052ce348961d19e55acf4763c403ad00e191de3b0d334a8cbaae1",
+      "sha256": "2267b3e74f7052ce348961d19e55acf4763c403ad00e191de3b0d334a8cbaae1",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/41.png",
+      "url": "/assets/invitation/gallery/41.png",
+      "kind": "image",
+      "width": 1023,
+      "height": 1537,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/41.png",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "9baa859da2b70e9bcedd812ffb4b780c8ddb6682c034333dea055017772fe0c3",
+      "sha256": "9baa859da2b70e9bcedd812ffb4b780c8ddb6682c034333dea055017772fe0c3",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/42.jpg",
+      "url": "/assets/invitation/gallery/42.jpg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/42.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "52c32afb9ab0faddbebc8957fe0217e3ab26b26a48f1865528397283e3df3d88",
+      "sha256": "52c32afb9ab0faddbebc8957fe0217e3ab26b26a48f1865528397283e3df3d88",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/43.jpg",
+      "url": "/assets/invitation/gallery/43.jpg",
+      "kind": "image",
+      "width": 2951,
+      "height": 4491,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/43.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+      "sha256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/44.jpg",
+      "url": "/assets/invitation/gallery/44.jpg",
+      "kind": "image",
+      "width": 2983,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/44.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "c1cfcb39c8a63b648f58d8c114fd964b30b0b3f0f2dab295348b333c9f295570",
+      "sha256": "c1cfcb39c8a63b648f58d8c114fd964b30b0b3f0f2dab295348b333c9f295570",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/gallery/45.jpg",
+      "url": "/assets/invitation/gallery/45.jpg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/invitation-originals/45.jpg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "runtimeKey": null,
+      "sourceSHA256": "e664f05bf902c489bd6a42316e706978c815dfce417ada562c3216d6f528ed88",
+      "sha256": "e664f05bf902c489bd6a42316e706978c815dfce417ada562c3216d6f528ed88",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "wedding-photo-bride-1",
+      "runtimeKey": "wedding-photo-bride-1",
+      "url": "/assets/photo-table/bride-01.jpeg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "photo-table-bride"
+      ],
+      "source": "game/artwork/sources/photo-table/bride-01.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "sourceSHA256": "cd27675b88fe789df95147d04051e951da3a5dcc79546a73a9dbd5cedc01f087",
+      "sha256": "cd27675b88fe789df95147d04051e951da3a5dcc79546a73a9dbd5cedc01f087",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "wedding-photo-bride-2",
+      "runtimeKey": "wedding-photo-bride-2",
+      "url": "/assets/photo-table/bride-02.jpeg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "photo-table-bride"
+      ],
+      "source": "game/artwork/sources/photo-table/bride-02.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "sourceSHA256": "67e78068c58bc850f36678b4264c73caa3ba4b1a8f856b72f647fc7129df17bf",
+      "sha256": "67e78068c58bc850f36678b4264c73caa3ba4b1a8f856b72f647fc7129df17bf",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "wedding-photo-bride-3",
+      "runtimeKey": "wedding-photo-bride-3",
+      "url": "/assets/photo-table/bride-03.jpeg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "photo-table-bride"
+      ],
+      "source": "game/artwork/sources/photo-table/bride-03.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "sourceSHA256": "b01896b02aa14b753966b58932745589ab3befb559d57d1b7ff78f869fba0892",
+      "sha256": "b01896b02aa14b753966b58932745589ab3befb559d57d1b7ff78f869fba0892",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "wedding-photo-groom-1",
+      "runtimeKey": "wedding-photo-groom-1",
+      "url": "/assets/photo-table/groom-01.jpeg",
+      "kind": "image",
+      "width": 2852,
+      "height": 3803,
+      "alpha": "opaque",
+      "stages": [
+        "photo-table-groom"
+      ],
+      "source": "game/artwork/sources/photo-table/groom-01.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "sourceSHA256": "60dd6aad30a0b9d20efc4aa8cca1272ffcbfcc1019d9c2fe3d0727ef9eed6d48",
+      "sha256": "60dd6aad30a0b9d20efc4aa8cca1272ffcbfcc1019d9c2fe3d0727ef9eed6d48",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "wedding-photo-groom-2",
+      "runtimeKey": "wedding-photo-groom-2",
+      "url": "/assets/photo-table/groom-02.jpeg",
+      "kind": "image",
+      "width": 3072,
+      "height": 4608,
+      "alpha": "opaque",
+      "stages": [
+        "photo-table-groom"
+      ],
+      "source": "game/artwork/sources/photo-table/groom-02.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "sourceSHA256": "17602e0a4be65c7864891706013995b6aff676b27e2a04742dcbc0138bd20661",
+      "sha256": "17602e0a4be65c7864891706013995b6aff676b27e2a04742dcbc0138bd20661",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "wedding-photo-groom-3",
+      "runtimeKey": "wedding-photo-groom-3",
+      "url": "/assets/photo-table/groom-03.jpeg",
+      "kind": "image",
+      "width": 2951,
+      "height": 4491,
+      "alpha": "opaque",
+      "stages": [
+        "photo-table-groom"
+      ],
+      "source": "game/artwork/sources/photo-table/groom-03.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "sourceSHA256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+      "sha256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "venue-bridal-room",
+      "runtimeKey": "venue-bridal-room",
+      "url": "/assets/optimized/lacitta-pixel-venue-bridal-room-empty-v2.png",
+      "kind": "image",
+      "width": 941,
+      "height": 1672,
+      "alpha": "opaque",
+      "stages": [
+        "bridal"
+      ],
+      "source": "game/artwork/sources/assets/lacitta/pixel-venue/bridal-room-empty-v2.png",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "stage-image",
+      "provenanceId": "bridal-room-local-bride-removal-20260916",
+      "derivation": "imagegen-local-patch-lossless-png",
+      "sourceSHA256": "8850122af5d9f3939df49020f64051c738aa6663980a5cbf21d83660d30214a6",
+      "sha256": "8850122af5d9f3939df49020f64051c738aa6663980a5cbf21d83660d30214a6"
+    }
+  ],
+  "provenance": [
+    {
+      "id": "home-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-c10c1169-a345-4077-bbc3-a3905a0c5fa3.png; nearest-neighbor resize to 360x640; 256-color indexed PNG encoding without dithering; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "car-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-fe0a95d4-4df3-473d-9c76-7ca5e016c746.png; nearest-neighbor resize to 360x640; 256-color indexed PNG encoding without dithering; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "subway-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-ef8336ba-0ff9-4775-842d-57d8307774d2.png; nearest-neighbor resize to 360x640; 256-color indexed PNG encoding without dithering; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "lobby-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/lobby-layout-prompts.md",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-17d5845b-b38f-4917-ab43-0392984d9c06.png; nearest-neighbor resize to 360x640; 256-color indexed PNG without dithering; 193257 disk bytes. Imagegen edit removes all baked desks/photo tables/drinks and replaces old symmetrical layout with central escalator and lower side doors; live fixtures and people supplied by scene. Source/final hashes: .omo/evidence/lacitta-asset-production/artwork/lobby-layout-metadata.json.",
+      "rejectionStatus": "accepted",
+      "sha256": "5b54ff149737876b3da66a332de768bf2b6eb397837147af1e99a1bf3c08341f",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "hall-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/separate-room-prompts.md",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-54c7a827-5ab2-4946-a486-b351357e7715.png; nearest-neighbor resize to 360x640; indexed PNG 256 colors without dithering; 203661 disk bytes. Built-in edit removes buffet, photo booth, bar and dining tables; ceremony-only chairs/aisle remain. Metadata: .omo/evidence/lacitta-asset-production/artwork/separate-room-metadata.json.",
+      "rejectionStatus": "accepted",
+      "sha256": "07a8fb4fa49b69e7795e2fbe089f7693733e45c6f7b5117f82b6b670972bf1d6",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "ending-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-676f8f69-55f7-4b16-8950-4ce310c3f11d.png; nearest-neighbor resize to 360x640; 256-color indexed PNG encoding without dithering; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "player-guest",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/character-sources/exec-ac8551c7-019b-4e41-9e8b-c281e88a9831.png",
+      "license": "Original AI-generated artwork; no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Edge-connected checkerboard alpha removal, nearest resize, quantize. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "npc-bride",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/character-sources/exec-6414c028-5a10-4b25-b657-27c669d55c24.png",
+      "license": "Original AI-generated artwork; no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Chroma-key alpha removal, nearest resize, quantize. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "npc-groom",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/character-sources/exec-174a379a-797f-4502-bf79-3ee28c511dde.png",
+      "license": "Original AI-generated artwork; no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Chroma-key alpha removal, nearest resize, quantize. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "npc-reception",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/character-sources/exec-955087fe-035c-4919-95ab-821125cff009.png",
+      "license": "Original AI-generated artwork; no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Chroma-key alpha removal, nearest resize, quantize. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "npc-guide",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/character-sources/exec-37864d65-029a-4208-9507-9b2a64d545af.png",
+      "license": "Original AI-generated artwork; no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Chroma-key alpha removal, nearest resize, quantize. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "car-choice",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-859b221d-9790-44ec-90b5-f1555f4cd152.png; nearest-neighbor resize to 96x64; generated RGBA alpha preserved; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "subway-choice",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-929b55d5-cb57-4d83-9ab8-c706458e1458.png; nearest-neighbor resize to 96x64; generated RGBA alpha preserved; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "shuttle-bus",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-2e353284-983d-4f41-8b4b-b7c3775c4b4e.png; nearest-neighbor resize to 128x80; generated RGBA alpha preserved; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "exit-sign",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-47259657-305a-447a-90d6-bdb6d2744b47.png; nearest-neighbor resize to 64x64; generated RGBA alpha preserved; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "reception-desk",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-7f9ec1f4-ee6c-46ff-8dfd-6b806617014a.png; nearest-neighbor resize to 96x64; generated RGBA alpha preserved; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "photo-table",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-b4cd9e09-0caf-4f5a-bcd3-fd5406cc3175.png; nearest-neighbor resize to 112x64; generated RGBA alpha preserved; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "buffet-island",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-b6a5e6ec-7f06-498a-9539-834a0e002132.png; nearest-neighbor resize to 128x80; generated RGBA alpha preserved; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "photo-booth",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/prompts.json",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-761ef38d-9c30-49a8-89a4-113306f0383d.png; nearest-neighbor resize to 96x96; generated RGBA alpha preserved; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "dialog-panel",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/package-character-ui.mjs",
+      "license": "Original code-native artwork; no third-party art reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "SVG native geometry rasterized to 64x64 PNG. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "quiz-frame",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/package-character-ui.mjs",
+      "license": "Original code-native artwork; no third-party art reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "SVG native geometry rasterized to 64x64 PNG. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "touch-button",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/package-character-ui.mjs",
+      "license": "Original code-native artwork; no third-party art reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "SVG native geometry rasterized to 96x32 PNG. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "hint-button",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/package-character-ui.mjs",
+      "license": "Original code-native artwork; no third-party art reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Original lamp icon rasterized to 32x32 PNG. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "arrow-marker",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/package-character-ui.mjs",
+      "license": "Original code-native artwork; no third-party art reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Original right-pointing arrow rasterized to 32x32 PNG. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "guide-marker",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/package-character-ui.mjs",
+      "license": "Original code-native artwork; no third-party art reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Original route diamond rasterized to 32x32 PNG. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "loading-accent",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/package-character-ui.mjs",
+      "license": "Original code-native artwork; no third-party art reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Original interlocking wedding diamonds rasterized to 64x32 PNG. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "route-sign",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/package-character-ui.mjs",
+      "license": "Original code-native artwork; no third-party art reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Original directional sign blank rasterized to 64x32 PNG. Producer evidence: .omo/evidence/lacitta-asset-production/character-ui-provenance.md; frame/alpha validation: character-ui-packaging.json. Selected artwork accepted; runtime visual QA is separate.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "og-lacitta-wedding",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/og-korean-refinement.md",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-507d1c05-b572-4cb6-b55e-8d4ac5fc92c2.png; nearest-neighbor resize to 1200x630; 256-color indexed PNG encoding without dithering; metadata and SHA-256 in .omo/evidence/lacitta-asset-production/artwork/final-metadata.json. ",
+      "rejectionStatus": "accepted",
+      "sha256": "1e18dd59da0e7829c119fe25b1c1ba7672e45164a576f39787bce13c41176a07",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "drinks-station",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/drinks-station-production.md",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Generated source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-bf94ff99-f3f8-4b72-91e9-8b98111eee21.png; nearest-neighbor resize from 1536x1024 to 96x64; generated RGBA alpha preserved; no creative postprocessing. SHA-256 11001eeaed8517ed871d7e5737d347ef789edb696dde91eabe954f15a05d1ee9. Metadata: .omo/evidence/lacitta-asset-production/artwork/drinks-station-metadata.json.",
+      "rejectionStatus": "accepted",
+      "sha256": "11001eeaed8517ed871d7e5737d347ef789edb696dde91eabe954f15a05d1ee9",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "galmuri11",
+      "sourceUrl": "https://github.com/quiple/galmuri/tree/71e1cacf1437a11220307120e63e30bc275312d4",
+      "license": "SIL-OFL-1.1",
+      "licenseFile": "game/public/assets/lacitta/licenses/Galmuri-OFL.txt",
+      "mode": "reused",
+      "transformationNotes": "Subset retains Latin, Hangul syllables/jamo and punctuation. No reserved font name declared in upstream license.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "banquet-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/separate-room-prompts.md",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-6edb6313-7323-437d-a5f9-566c956849dd.png; nearest-neighbor resize to 360x640; indexed PNG 256 colors without dithering; 184598 disk bytes. Separate banquet room; additional imagegen spacing edit recorded in artwork/banquet-spacing-prompt.md clears live fixtures and queue area. Metadata: .omo/evidence/lacitta-asset-production/artwork/separate-room-metadata.json.",
+      "rejectionStatus": "accepted",
+      "sha256": "227044c5955040e77b50b18357136adf83185728f5b1bd75ef799e2ea010ba82",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "photo-room-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/separate-room-prompts.md",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-aeff1ea5-d4a8-43b7-a29e-32b5f45ecdd3.png; nearest-neighbor resize to 360x640; indexed PNG 256 colors without dithering; 164962 disk bytes. Original dedicated room, no people or baked live fixtures. Metadata: .omo/evidence/lacitta-asset-production/artwork/separate-room-metadata.json.",
+      "rejectionStatus": "accepted",
+      "sha256": "5901ba24e9ecbea19ad53771eafa896175a6c4899c841475b24c45a619b0cdcb",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "bridal-room-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/separate-room-prompts.md",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-f9b9ae9d-e546-412b-b72d-96365d88183e.png; nearest-neighbor resize to 360x640; indexed PNG 256 colors without dithering; 159952 disk bytes. Original dedicated room, no people or baked live fixtures. Metadata: .omo/evidence/lacitta-asset-production/artwork/separate-room-metadata.json.",
+      "rejectionStatus": "accepted",
+      "sha256": "3ef5b0969acafa41fd91767d58ebe1bd84a256137788c1029bbd4c1b9b0013d6",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "waiting-room-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/lobby-layout-prompts.md",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-bb35b1b5-0e3f-4573-822c-d3ee2874da5e.png; nearest-neighbor resize to 360x640; 256-color indexed PNG without dithering; 182357 disk bytes. Original dedicated guest waiting lounge with sofas and clear central floor; no bride or people. Source/final hashes: .omo/evidence/lacitta-asset-production/artwork/lobby-layout-metadata.json.",
+      "rejectionStatus": "accepted",
+      "sha256": "d8054aa3cbf879f59941b1eb14d99b39e8e375d6a6b7fc98ab37f6781dcd1e9e",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "greenery-corridor-background",
+      "sourceUrl": ".omo/evidence/lacitta-asset-production/artwork/corridor-prompt.md",
+      "license": "Original AI-generated artwork (built-in OpenAI image_gen); no third-party source pixels reused",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Source /Users/user/.codex/generated_images/01a07c0d-3e58-7180-8d26-09f8da483bf6/exec-fbf322f3-36a6-406e-b913-cd56ef96096e.png; nearest-neighbor resize to 360x640; indexed PNG 256 colors without dithering; 164839 disk bytes. Left lush greenery/right full-height glass, no people, text, camera marker or photography set. Metadata: .omo/evidence/lacitta-asset-production/artwork/corridor-metadata.json.",
+      "rejectionStatus": "accepted",
+      "sha256": "7c88a0c62b23485ff5214b28502cdd5e1178d28f00c2dc82ca481ed501ae631c",
+      "evidence": [
+        "docs/asset-provenance.md"
+      ]
+    },
+    {
+      "id": "stage-art",
+      "sourceUrl": "docs/venue-correction-prompts.md",
+      "license": "Existing built-in image_gen production records; preserved for this wedding game, no newly asserted third-party license.",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Existing project artwork/content; D preserves decoded assets. Optimized derivatives recorded in docs/game-review/after-batch-b/asset-optimization.json.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/venue-correction-prompts.md",
+        "docs/pixel-venue-prompts.md",
+        "docs/latest-scene-asset-prompts.md"
+      ]
+    },
+    {
+      "id": "group-art",
+      "sourceUrl": "docs/final-photo-and-shuttle-art.md",
+      "license": "Built-in image_gen output and supplied venue architecture references documented in these production records.",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Existing project artwork/content; D preserves decoded assets. Optimized derivatives recorded in docs/game-review/after-batch-b/asset-optimization.json.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/final-photo-and-shuttle-art.md",
+        "docs/group-stage-and-route-prompts.md"
+      ]
+    },
+    {
+      "id": "outfit-art",
+      "sourceUrl": "docs/minimi-customization.md",
+      "license": "Built-in image_gen original minimi/outfit production recorded in the project.",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Existing project artwork/content; D preserves decoded assets. Optimized derivatives recorded in docs/game-review/after-batch-b/asset-optimization.json.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/minimi-customization.md",
+        "docs/minimi-customization.md"
+      ]
+    },
+    {
+      "id": "couple-art",
+      "sourceUrl": "docs/invitation-photo-retouch.md",
+      "license": "Built-in image_gen wedding-couple master and runtime chroma removal documented in the project.",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Existing project artwork/content; D preserves decoded assets. Optimized derivatives recorded in docs/game-review/after-batch-b/asset-optimization.json.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/invitation-photo-retouch.md"
+      ]
+    },
+    {
+      "id": "food-art",
+      "sourceUrl": "docs/buffet-image-prompts.md",
+      "license": "Built-in image_gen illustrations derived from the six user-supplied food photographs, as documented; existing art preserved.",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Existing project artwork/content; D preserves decoded assets. Optimized derivatives recorded in docs/game-review/after-batch-b/asset-optimization.json.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/buffet-image-prompts.md",
+        "docs/venue-reference-map.md"
+      ]
+    },
+    {
+      "id": "invitation-supplied",
+      "sourceUrl": "game/src/data/invitationSource.json",
+      "license": "Existing supplied wedding invitation content preserved at the user instruction in Batch D section 1; no external stock/redistribution license is asserted.",
+      "licenseFile": null,
+      "mode": "provided",
+      "transformationNotes": "Existing project artwork/content; D preserves decoded assets. Optimized derivatives recorded in docs/game-review/after-batch-b/asset-optimization.json.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "game/src/data/invitationSource.json",
+        "game/src/ui/InvitationView.ts",
+        "BATCH_D_IMPLEMENTATION.md"
+      ]
+    },
+    {
+      "id": "notice-retouch",
+      "sourceUrl": "docs/invitation-photo-retouch.md",
+      "license": "User-supplied venue photography and the documented built-in image_gen people-removal edits; preserved for the specified invitation.",
+      "licenseFile": null,
+      "mode": "provided",
+      "transformationNotes": "Existing project artwork/content; D preserves decoded assets. Optimized derivatives recorded in docs/game-review/after-batch-b/asset-optimization.json.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/invitation-photo-retouch.md",
+        "docs/venue-reference-map.md"
+      ]
+    },
+    {
+      "id": "share-art",
+      "sourceUrl": "docs/invitation-sharing-and-directions.md",
+      "license": "Built-in image_gen share artwork and user-supplied directions, documented for this invitation.",
+      "licenseFile": null,
+      "mode": "provided",
+      "transformationNotes": "Existing project artwork/content; D preserves decoded assets. Optimized derivatives recorded in docs/game-review/after-batch-b/asset-optimization.json.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/invitation-sharing-and-directions.md"
+      ]
+    },
+    {
+      "id": "shuttle-art",
+      "sourceUrl": "docs/final-photo-and-shuttle-art.md",
+      "license": "Built-in image_gen shuttle/exit 5 decorative master documented in the project.",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Existing project artwork/content; D preserves decoded assets. Optimized derivatives recorded in docs/game-review/after-batch-b/asset-optimization.json.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/final-photo-and-shuttle-art.md"
+      ]
+    },
+    {
+      "id": "neck-loading-refinement-art",
+      "sourceUrl": "docs/game-review/neck-loading-fix/ARTWORK.md",
+      "license": "Generated with the built-in OpenAI image_gen tool for this user-authorized project refinement.",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Only selected road guidance, female gray tweed and added sixth outfits are consumed. Original D masters retained. PNG to WebP lossless conversion, decoded RGBA equality checked.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/game-review/neck-loading-fix/ARTWORK.md",
+        "docs/game-review/neck-loading-fix/asset-edits.json"
+      ]
+    },
+    {
+      "id": "minimi-black-dress",
+      "sourceUrl": "docs/game-review/minimi-silhouette-fix/ARTWORK.md",
+      "license": "Built-in OpenAI image_gen output for the user-requested black mini dress and long boots.",
+      "licenseFile": null,
+      "mode": "generated",
+      "transformationNotes": "Only the right female column is used. Male sixth outfit continues using the preserved prior source. Lossless WebP; decoded RGBA equal to PNG.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/game-review/minimi-silhouette-fix/ARTWORK.md"
+      ]
+    },
+    {
+      "id": "photo-table-user-portraits-20260916",
+      "sourceUrl": "docs/game-review/photo-table-personalized/ARTWORK.md",
+      "license": "Photographs supplied by the user for the explicitly requested use in this local wedding project. No broader license asserted.",
+      "licenseFile": null,
+      "mode": "provided",
+      "transformationNotes": "Exact supplied JPEG masters retained. Browser-decoded sRGB JPEG copies, max edge 1600 at quality 0.92. Full image retained, no crop, generative edit or retouch. Only the selected guest side is prefetched.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/game-review/photo-table-personalized/ARTWORK.md",
+        "docs/game-review/photo-table-personalized/asset-import-final.json"
+      ]
+    },
+    {
+      "id": "user-original-photographs-20260916",
+      "mode": "provided",
+      "sourceUrl": "User-supplied local photo-table JPEGs and 셀프 모청.zip",
+      "license": "User supplied these photos and explicitly authorized their use without quality reduction in this wedding invitation/game.",
+      "transformationNotes": "Byte-identical file copies only. No resizing, recompression, colour conversion, crop, retouch, or metadata removal. Lobby frames apply a display-only cover crop; large viewers contain the full original.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/game-review/original-photo-quality/README.md",
+        "docs/game-review/original-photo-quality/original-import.json"
+      ]
+    },
+    {
+      "id": "bridal-room-local-bride-removal-20260916",
+      "mode": "generated",
+      "sourceUrl": "Local existing bridal-room-white.png; built-in image_gen precise-object-edit",
+      "license": "Project-owned wedding game artwork; user explicitly requested replacing the baked bride with the existing bride minimi.",
+      "transformationNotes": "Imagegen removed only the baked bride; generated 128x126 patch inserted into original 941x1672 background. Every pixel outside patch is unchanged. Existing npc-bride is rendered by code in scene and photo; no character artwork modified.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/game-review/bridal-minimi-reuse/ARTWORK.md",
+        "docs/game-review/bridal-minimi-reuse/artwork/patch-proof.json"
+      ]
+    }
+  ],
+  "nonMediaFiles": [
+    "assets/lacitta/licenses/Galmuri-OFL.txt",
+    "assets/ui/.gitkeep",
+    "assets/tiles/.gitkeep",
+    "assets/sprites/.gitkeep",
+    "share-preview.html"
+  ],
+  "preservedSources": [
+    {
+      "previousPath": "game/public/assets/lacitta/routes/car-background-pink.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/routes/car-background-pink.png",
+      "sha256": "3da44158d370ec99e29f674e7c53753363cc620bd552f8a39f79a91ac5968ce4",
+      "bytes": 1997343,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/routes/car-guidance-v2.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/routes/car-guidance-v2.png",
+      "sha256": "7b66d596d1b86823d8cd2e1f6549f670388bdd09d234fc7eb3c2e5c559d0b965",
+      "bytes": 1954785,
+      "runtimeVariant": "/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+      "reason": "Original pre-refinement master remains byte-identical here. Earlier separated master is also preserved. Current runtime derives from game/artwork/sources/assets/lacitta/routes/car-guidance-tower-open.png (reference colors, open tower entrance and continuous blue entrance).",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/routes/home-ground-v2.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/routes/home-ground-v2.png",
+      "sha256": "fee9f4b9121a8761e0cc7066599eb41f04499068c2971d1506efb0ff85f89d58",
+      "bytes": 2434866,
+      "runtimeVariant": "/assets/optimized/lacitta-routes-home-ground-v2.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/routes/home-sky.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/routes/home-sky.png",
+      "sha256": "0df5c3ba2d22bf1129a7f54c485873ea9efab994ca072ee5148f78728501c07f",
+      "bytes": 2492215,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/banquet-corridor.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/banquet-corridor.png",
+      "sha256": "a3d386b254ea4300e40e5c19c5a7f629b8c4be3dd7c1a04913a71c056a0f580b",
+      "bytes": 2209044,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-banquet-corridor.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/banquet.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/banquet.png",
+      "sha256": "4ebe86561e8ed63def42feba97054ff767db7e33d41f20c2da08be4cb96d7332",
+      "bytes": 2342381,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-banquet.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/bridal-room-white.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/bridal-room-white.png",
+      "sha256": "38bf5c6f4ca765edee01414f633f779929e051deb395823b967d7349bb3dc5dd",
+      "bytes": 1896236,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-bridal-room-white.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/bridal-room.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/bridal-room.png",
+      "sha256": "7e0da709ad2d96d2f5b22f5977715d8788409c168c5fb96fb49a34f2d07eea57",
+      "bytes": 1899908,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/garden.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/garden.png",
+      "sha256": "7642506691bf98d0fe41c319fe53a0e4a11fd785a5adcfc15e7e34c40480c1d9",
+      "bytes": 2551900,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-garden.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/group-photo-hall.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-hall.png",
+      "sha256": "ca1f5ff97003e0625632032fcb0b445a29cc30249f442f0cfc9d5007453f5718",
+      "bytes": 2393693,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/group-photo-portrait-v3.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-portrait-v3.png",
+      "sha256": "a2779430320a6f5a3bfce69d1cc4af2e89d6efc4c2411755a6b2e810ed0e2b52",
+      "bytes": 2464285,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-group-photo-portrait-v3.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/group-photo-stage-v2.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-stage-v2.png",
+      "sha256": "1d04a67a112ddbad3caf45d10f625ce2f144db5a5f24045f7a2e75cfb6976eca",
+      "bytes": 1379177,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/group-photo-stage-v3.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-stage-v3.png",
+      "sha256": "f3795fe3ace1cf417743ee7563cdd4a50326b4206f507d959720137305c3af53",
+      "bytes": 1917074,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/group-photo-stage-v4.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-stage-v4.png",
+      "sha256": "88c593e5d7919efdb1ce7b25faf57723828c6c818336cf0a3b393af509e488b3",
+      "bytes": 2157553,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-group-photo-stage-v4.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/hall-v2.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/hall-v2.png",
+      "sha256": "564901450febd022a1a2ce776ba83b32639c1386fd5ea0709a5f9cc0702dda66",
+      "bytes": 2407284,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/hall.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/hall.png",
+      "sha256": "b8f14ea2af1c0e2c78425354af87def7848a8a5614ab5f2f175a446726c5764f",
+      "bytes": 2418536,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-hall.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/lobby-heart-panels.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/lobby-heart-panels.png",
+      "sha256": "7671cae0a9d789b8d5da808036203996ceba54195a82524b3c8fcc1a84bc8c13",
+      "bytes": 2291534,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/lobby-no-posters.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/lobby-no-posters.png",
+      "sha256": "fc256ccc0c91806b4bcffa3cf680fc3d71a48c8cf6b1e9840018017abc67e584",
+      "bytes": 2374511,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/lobby.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/lobby.png",
+      "sha256": "89a5175ec68d04885730d5e3bf534f9459328add15e7877d1782814c663bc3b7",
+      "bytes": 2486649,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-lobby.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/photo-booth.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/photo-booth.png",
+      "sha256": "b1bcca45bce98884c9c89b2b5e2af17e715a7c6e3b265e86a5beca29bb1afbc0",
+      "bytes": 2300918,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-photo-booth.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/reception-family.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/reception-family.png",
+      "sha256": "0d770d77c3163341db0c73b6521cb9dec0e357a1c85917892f534bcc02388f7c",
+      "bytes": 2211387,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-reception-family.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/pixel-venue/shuttle.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/pixel-venue/shuttle.png",
+      "sha256": "e8363cd0b5ba6de169183eb5c4083680f7371246f4a3a99ed186fe25ca60eb3a",
+      "bytes": 1998569,
+      "runtimeVariant": "/assets/optimized/lacitta-pixel-venue-shuttle.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/garden.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/garden.png",
+      "sha256": "9851789d6ebee7016c2e7d9778bf2efb2bd233177b02c5207da9961bb03c87ca",
+      "bytes": 1504375,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/food/buffet-left.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/food/buffet-left.png",
+      "sha256": "9ace171232c3052f889df9b8ad2ab3bccac5553bd9440a8b041d02e8033b77a0",
+      "bytes": 3035429,
+      "runtimeVariant": "/assets/optimized/lacitta-food-buffet-left.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/food/buffet-right.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/food/buffet-right.png",
+      "sha256": "f64c1cbf363ca5dbec884c368d58f01eeae7fcc1df19f16da49121715081ecd8",
+      "bytes": 3168097,
+      "runtimeVariant": "/assets/optimized/lacitta-food-buffet-right.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/extra-outfits-female.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/extra-outfits-female.png",
+      "sha256": "5cb153627ad8746bc4026b1f71f4da50de35bd3c1deb50dbda8171e8234a2f6c",
+      "bytes": 1391996,
+      "runtimeVariant": "/assets/optimized/lacitta-characters-extra-outfits-female.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/extra-outfits-male.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/extra-outfits-male.png",
+      "sha256": "6967e4ca06ab030e95ed3a596acafe9665c700ff928d507088c4b47c7190ba54",
+      "bytes": 1394777,
+      "runtimeVariant": "/assets/optimized/lacitta-characters-extra-outfits-male.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/formal-guests.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/formal-guests.png",
+      "sha256": "5ab7a3f1e70cc28570eb5a916cea6b600ac1fd682e106870c42b306a1065adb5",
+      "bytes": 1079756,
+      "runtimeVariant": "/assets/optimized/lacitta-characters-formal-guests.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/guest-poses.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/guest-poses.png",
+      "sha256": "f586ffe6590b1bd2de850ece28dec865478c1c2665a8a13f89d98e9b7f6feda8",
+      "bytes": 1433481,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/minimi-faces-v2.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/minimi-faces-v2.png",
+      "sha256": "9e27c7efdbbbf48331dc5088727bd1cd98573f1e376f7374c7a084c3115161a4",
+      "bytes": 1252731,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/minimi-hair.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/minimi-hair.png",
+      "sha256": "b0c9e826c83376802cdb62129d1ad23b30feded0d86ac0d6eeb6a39b38b517ce",
+      "bytes": 861524,
+      "runtimeVariant": "/assets/optimized/lacitta-characters-minimi-hair.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/minimi-hairstyles-v2.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/minimi-hairstyles-v2.png",
+      "sha256": "5eb0df5fe5af7459956952ebf219fe75f627d67157b0804c22d8e82eb51fe7ff",
+      "bytes": 1508192,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/npc-bride-white.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/npc-bride-white.png",
+      "sha256": "e3f88b89aabb23c090475df5782a307c1b3b1847fd1415deb0c453703a87b08a",
+      "bytes": 1933746,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/outfits-female.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/outfits-female.png",
+      "sha256": "2e5f5609188424b458b8dcba7442a6cab8e0ce6ee959823b66a4d0a7d97a540a",
+      "bytes": 682792,
+      "runtimeVariant": "/assets/optimized/lacitta-characters-outfits-female.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/outfits-male.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/outfits-male.png",
+      "sha256": "0256a87dc584b87157ebc7e4a83ee8ebd16e37b14b98d880bd4f15a5cac87b21",
+      "bytes": 733814,
+      "runtimeVariant": "/assets/optimized/lacitta-characters-outfits-male.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/parents.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/parents.png",
+      "sha256": "c82d4d6a260deb2e4957e9fcc608ad85af85f80555d5589c40bd0fdc03ac68e3",
+      "bytes": 908105,
+      "runtimeVariant": "/assets/optimized/lacitta-characters-parents.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/player-guest-female.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/player-guest-female.png",
+      "sha256": "4dc22b81bcdda46f9790e5f0030ec6a33573a97fc099c28d888fabe57204e319",
+      "bytes": 2010932,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/seated-guest.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/seated-guest.png",
+      "sha256": "1e6268337f77525af1a9aafc493eee9774ce6991373c4555fb3daf995f9ea343",
+      "bytes": 665229,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/wedding-couple.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/wedding-couple.png",
+      "sha256": "84b330dbe6e23ddf231e25c0fba430c6dc486df4c8a50e7158f729984ae83826",
+      "bytes": 1445477,
+      "runtimeVariant": "/assets/optimized/lacitta-characters-wedding-couple.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/characters/white-car.png",
+      "preservedPath": "game/artwork/sources/assets/lacitta/characters/white-car.png",
+      "sha256": "68f61287cca3648c23607fd4e259738268ce0e4599cc4e8b0f5bb1586b2a20a8",
+      "bytes": 850628,
+      "runtimeVariant": "/assets/optimized/lacitta-characters-white-car.webp",
+      "reason": "Authored PNG master; byte-identical optimized WebP remains shipping. Production tool reads preserved source here.",
+      "old40Item": true
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/welcome.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/welcome.jpeg",
+      "sha256": "97cfa649d5642535517f453efcf98082fad134468fea76fe6000b9ab1fbe709d",
+      "bytes": 63235,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/banquet.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/banquet.jpeg",
+      "sha256": "5194be1fbf160859ea3b037e79352ac0ec2b6590d72a3da2743b67e24abb502e",
+      "bytes": 105264,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/photo-booth.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/photo-booth.jpeg",
+      "sha256": "6f429e229080060424ff3163a407b73a41542fc4b446c53043bc86db7c401684",
+      "bytes": 65086,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/shuttle.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/shuttle.jpeg",
+      "sha256": "d335facdf49f0e67b5cd2cb6915027649b133f87089fd53847f63580f308e4e2",
+      "bytes": 112233,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/hall.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/hall.jpeg",
+      "sha256": "3995b1bc415ce23e00d40f40c428b3ea98947e28867590ae7de23c15803e07c6",
+      "bytes": 606109,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/lounge.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/lounge.jpeg",
+      "sha256": "391a90d93bebdddf4821609ced32cc8f5005c5ce76d4b0342591a5f4407d621f",
+      "bytes": 119675,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/bridal-curtains.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/bridal-curtains.jpeg",
+      "sha256": "6af1a7a143f85667577b72630fefe1091ad7cab7ef2933d8838bda3f7df5d90c",
+      "bytes": 52884,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/junction.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/junction.jpeg",
+      "sha256": "1ba7bc37bc8cdd24870b3cc4ba0294b41933fd354759a78e3c46b77bcfb5a636",
+      "bytes": 83343,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/photo-zone.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/photo-zone.jpeg",
+      "sha256": "1502a4ff69bc6d2eaa12246395cee09255cf3ed950a0dfd703c646a42913fd5b",
+      "bytes": 82528,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/bridal-entry.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/bridal-entry.jpeg",
+      "sha256": "423df0e872c4e95b6fca4f08e2077cceb1d8ce676c3eceaebecb7faabc06e217",
+      "bytes": 47322,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/banquet-corridor.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/banquet-corridor.jpeg",
+      "sha256": "61bb3f7efb3116bbbdce6fa070319a72213d11398a45270a973c9ba90d02a5e6",
+      "bytes": 218649,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/atm.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/atm.jpeg",
+      "sha256": "d15fe8db121e3dc79812dd4436d8f2d6a34bffc41d457a6e7a5ae25430bb56ad",
+      "bytes": 518393,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/lacitta/photos/exterior.jpeg",
+      "preservedPath": "game/artwork/sources/assets/lacitta/photos/exterior.jpeg",
+      "sha256": "fba38dc1d59d3ec679d7d84d1d8084abc41d0842c52498a33322db8d4207be3c",
+      "bytes": 129427,
+      "runtimeVariant": null,
+      "reason": "Supplied venue reference/master; active invitation uses separately documented notice retouch (bridal-room.jpeg is intentionally still shipped).",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/og-placeholder.png",
+      "preservedPath": "game/artwork/sources/og-placeholder.png",
+      "sha256": "e94cf8fd4d28e9e396b916b6046a824f42f9fc430c551f9b5b24be7c4ff27e03",
+      "bytes": 8833,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/share.jpg",
+      "preservedPath": "game/artwork/sources/assets/invitation/share.jpg",
+      "sha256": "89b1ac13ca4f5254a744dcb97209d66a34c4c07d54244757b43c67044a0081ca",
+      "bytes": 1480974,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/shuttle-exit-5.png",
+      "preservedPath": "game/artwork/sources/assets/invitation/shuttle-exit-5.png",
+      "sha256": "e510d4395ed984b1ae91c569f3b3227228e92219a78763b120c656720eac257a",
+      "bytes": 1009141,
+      "runtimeVariant": null,
+      "reason": "Previous proposal/reference without direct or indirect runtime URL in src/index/share preview/stage registry; preserved outside Vite public copy.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-01.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-01.jpg",
+      "sha256": "0b4c5fe5d0e86b3c7af9ad2c6bf506650856fa78ac1e710449d12e102bdd05b3",
+      "bytes": 1762581,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-02.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-02.jpg",
+      "sha256": "b2f25bfb811b254f461c0059d0c10ab934fe16d7f9a8e9c52354bbcef67b50d9",
+      "bytes": 1769276,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-03.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-03.jpg",
+      "sha256": "ffc8a90dff4b04d4dbca4720491e85e8e95e6e56460ff78e79628ef65b839dbb",
+      "bytes": 1672652,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-04.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-04.jpg",
+      "sha256": "a294fc8e2e12d39f043a809bb5ecf7cad0da6708f704b316ac65eb407df75c89",
+      "bytes": 534590,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-05.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-05.jpg",
+      "sha256": "f0c2982f12ece1de85fd85b6d3dd3f2e25fa126153a5257216385396bcde0b80",
+      "bytes": 1538660,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-06.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-06.jpg",
+      "sha256": "dad92b1062c09ae70db38f644128d5622f7fdef622b4cb076f80953de335f5c1",
+      "bytes": 2032593,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-07.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-07.jpg",
+      "sha256": "41986f7404605ef71d8ad2eb7d525df0698ff051ebc7a953d72885b8adda6b8f",
+      "bytes": 1286022,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-08.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-08.jpg",
+      "sha256": "8ecbe39c62f6ebb5b7a359d9f01b8b8685431994c40dc931419c6167531dc601",
+      "bytes": 391257,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-09.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-09.jpg",
+      "sha256": "04466428a65f75a33c1f8894594305ada81c8f8a7934cceceeea21f5fd0f1378",
+      "bytes": 890082,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-10.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-10.jpg",
+      "sha256": "0b5469c9350bf9e28b0ce06c951fe5be2eab4632ea07b0bc85a98e8f88de4fa9",
+      "bytes": 1602044,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-11.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-11.jpg",
+      "sha256": "8f51860e940db61b4f1b4314d234dfa6ab7f8b07f49e0c2a547675574d953662",
+      "bytes": 948412,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-12.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-12.jpg",
+      "sha256": "a27289b446e67eca62bc20f1861aebf2ecf0cdc4acc2eb5b5751e65009f8deef",
+      "bytes": 1104858,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-13.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-13.jpg",
+      "sha256": "7a87c9dd4d6407b0de4db88bd1cb8a824032d183e0fde3192f074367eb4fa7aa",
+      "bytes": 308008,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-14.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-14.jpg",
+      "sha256": "7d7c13e30996532ee53ec6b516eb08da90e591afbd1a0507cae532b43b0ef0e5",
+      "bytes": 1186337,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-15.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-15.jpg",
+      "sha256": "c18335f559214563b2fb8fcf557b97db01ab40b685b91f81dcc6ef89b4b09cc4",
+      "bytes": 530100,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-16.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-16.jpg",
+      "sha256": "c5909247ec6f49d99dd0cc3ae1e22e620863617b9c851b2aedfcbc100faf6c1b",
+      "bytes": 1747188,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-17.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-17.jpg",
+      "sha256": "c7613d4987322c3d3897e1cce8de0c056e3b5d1c3b2b8f7cb25ab86ea8e89f5c",
+      "bytes": 571287,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-18.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-18.jpg",
+      "sha256": "65958b6cfb4dc992b227a2490a899cc01a9104c6524e1337f718c59ad9d17f9a",
+      "bytes": 1645254,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-19.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-19.jpg",
+      "sha256": "67901055e3682cae4e9e2f15216f4059cc0bd9a3fd46c45aefd9c0f8dedf6acb",
+      "bytes": 352665,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-20.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-20.jpg",
+      "sha256": "0b47d0755d38ade93a4751012674a4e53c2ab851a596d6ab6b840c1df6c2392c",
+      "bytes": 1870622,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-21.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-21.jpg",
+      "sha256": "a31e910e9558c1e33342ade2235e6369926633ff844610902957dbd3151d7ea6",
+      "bytes": 530770,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/gallery-22.jpg",
+      "preservedPath": "game/artwork/sources/retired-invitation-gallery/gallery-22.jpg",
+      "sha256": "983ba6ff510968d9912e1a07c65efaecfd94f02d477ee7d7efd7ca6218af5eaa",
+      "bytes": 408211,
+      "runtimeVariant": null,
+      "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    }
+  ]
+}

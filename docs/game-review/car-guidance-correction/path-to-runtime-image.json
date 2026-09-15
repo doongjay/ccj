@@ -1,0 +1,154 @@
+{
+  "runtimeImage": "game/public/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+  "imageSize": [
+    941,
+    1672
+  ],
+  "sha256": "cf6931548aec4e9cde6a7b8a202235dda1ac580d5a2123548dc2850a849b4421",
+  "method": "Actual recorded drive path sampled every <=4 game px; nearest corresponding lane-colour pixel in current runtime image. Read-only QA, image unmodified.",
+  "results": [
+    {
+      "lane": "노란색",
+      "width": 320,
+      "samples": 151,
+      "maxDistanceToPaintedLaneNativePx": 1.0342868021141158,
+      "samplesWithoutPaintWithin12px": 0,
+      "path": [
+        {
+          "x": 226,
+          "y": 1180
+        },
+        {
+          "x": 233,
+          "y": 1040
+        },
+        {
+          "x": 241,
+          "y": 920
+        },
+        {
+          "x": 240,
+          "y": 889
+        },
+        {
+          "x": 229,
+          "y": 862
+        },
+        {
+          "x": 208,
+          "y": 843
+        },
+        {
+          "x": 161,
+          "y": 824
+        },
+        {
+          "x": 80,
+          "y": 806
+        },
+        {
+          "x": 12,
+          "y": 794
+        }
+      ]
+    },
+    {
+      "lane": "분홍색",
+      "width": 393,
+      "samples": 141,
+      "maxDistanceToPaintedLaneNativePx": 0.6686827460441434,
+      "samplesWithoutPaintWithin12px": 0,
+      "path": [
+        {
+          "x": 353,
+          "y": 1180
+        },
+        {
+          "x": 352,
+          "y": 1040
+        },
+        {
+          "x": 348,
+          "y": 920
+        },
+        {
+          "x": 337,
+          "y": 827
+        },
+        {
+          "x": 328,
+          "y": 781
+        },
+        {
+          "x": 318,
+          "y": 755
+        },
+        {
+          "x": 305,
+          "y": 734
+        },
+        {
+          "x": 282,
+          "y": 716
+        },
+        {
+          "x": 257,
+          "y": 703
+        }
+      ]
+    },
+    {
+      "lane": "파란색",
+      "width": 430,
+      "samples": 166,
+      "maxDistanceToPaintedLaneNativePx": 2.340529451701847,
+      "samplesWithoutPaintWithin12px": 0,
+      "path": [
+        {
+          "x": 477,
+          "y": 1180
+        },
+        {
+          "x": 469,
+          "y": 1040
+        },
+        {
+          "x": 460,
+          "y": 932
+        },
+        {
+          "x": 448,
+          "y": 834
+        },
+        {
+          "x": 436,
+          "y": 783
+        },
+        {
+          "x": 437,
+          "y": 759
+        },
+        {
+          "x": 448,
+          "y": 736
+        },
+        {
+          "x": 469,
+          "y": 718
+        },
+        {
+          "x": 509,
+          "y": 699
+        },
+        {
+          "x": 549,
+          "y": 679
+        },
+        {
+          "x": 574,
+          "y": 663
+        }
+      ]
+    }
+  ]
+}

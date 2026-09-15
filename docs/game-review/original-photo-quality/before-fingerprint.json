@@ -1,0 +1,57 @@
+{
+  "head": "a2a31405940560e169c819ee0f2677f073ccba40",
+  "files": [
+    {
+      "path": "game/src/data/photoGallery.ts",
+      "sha256": "fe3b2fd3dae627f05652048ce04ccd4e2058560fa53dc26c51f8fac8863691ff"
+    },
+    {
+      "path": "game/src/data/invitationSource.json",
+      "sha256": "f7edb070c079ac13b9b83b4cced6147168190a24a91d19ecc48f70164f948e5c"
+    },
+    {
+      "path": "game/src/data/shippingAssets.json",
+      "sha256": "817db30144844c45056258e8a7194af57f5faecd47e9906715d1317704709c0b"
+    },
+    {
+      "path": "game/src/ui/InvitationView.ts",
+      "sha256": "3a1e6e1d84f65f4c4d4c468554b438c0355af974c56e783bb8ebe78c2e0fa9f2"
+    },
+    {
+      "path": "game/src/scenes/lobbyPhotoWall.ts",
+      "sha256": "123756feeb964182d3f5ce8df04c4a898864f44a20fc1db8af191dfd75f83d22"
+    },
+    {
+      "path": "game/src/systems/PhotoGalleryModal.ts",
+      "sha256": "3a456ec6081223c6cbc810a0ab862a2caf4e74ed4306691f5d1cb66b66801493"
+    },
+    {
+      "path": "game/src/style.css",
+      "sha256": "a338531e64ab7dcfaa370f2b3d8d2eec21b518692798423fae95fde30d0c500a"
+    },
+    {
+      "path": "game/scripts/verify-shipping-assets.mjs",
+      "sha256": "0992050ffc37df5aba636b81aef33ed5526ad356797f9fb3faf226002c832905"
+    },
+    {
+      "path": "game/e2e/photo-gallery.spec.ts",
+      "sha256": "cd090c8d249e9a19523c4af6e11cefb9d94fb3981e3cb3e4d3e6dc5614cd9467"
+    },
+    {
+      "path": "game/e2e/photo-table-personalized.spec.ts",
+      "sha256": "1e06ca584a7f9a6b95cd77fbd542dc04290889909ceb77f7fa29c20f30b6c3ec"
+    },
+    {
+      "path": "game/e2e/invitation.spec.ts",
+      "sha256": "fb4aed47af90ac8ed34378944f7ee46e418aefb99ef8310fa8096dc3fc885001"
+    },
+    {
+      "path": "game/e2e/invitation-redesign.spec.ts",
+      "sha256": "aabf6386dfbfcecd104b6fa3754e597768128b4da4ef8833027ffbd9b4d9b56f"
+    },
+    {
+      "path": "game/e2e/review-batch-b-performance.spec.ts",
+      "sha256": "b3b98b7dcd60e00a75a8f080544de3309db444ceb8b9b635530ca531cde579ee"
+    }
+  ]
+}

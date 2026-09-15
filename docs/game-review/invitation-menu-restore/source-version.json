@@ -1,0 +1,66 @@
+{
+  "head": "a2a31405940560e169c819ee0f2677f073ccba40",
+  "changedFiles": [
+    {
+      "path": "game/e2e/current-journey.spec.ts",
+      "before": "f446390b46ff08f1bdf32ef2256ef4fd4a8504ba75c249237c39f0858b74e4c3",
+      "after": "714737e8f3f5b0041e811acb28a2f0d4db80879b4ee8db91242e17e00852a51b"
+    },
+    {
+      "path": "game/e2e/invitation-sharing.spec.ts",
+      "before": "116e3bcc52412e56379d74e01645b801bba5984780348038ba6c267a2eeac2f5",
+      "after": "88aa31dd28069a1a5ae9c6e6bf531b19e6f24ca25ff970940704d69a8b004fbc"
+    },
+    {
+      "path": "game/e2e/invitation.spec.ts",
+      "before": "a95dc116758a641a5e78d78008860f79e1de47979f295c2afb981bcb26b8c4b2",
+      "after": "64a28a3cc9160aa3b67b16a2825fa62d0bbffefb23ce127d955488fe3788b3c1"
+    },
+    {
+      "path": "game/e2e/review-batch-b-access.spec.ts",
+      "before": "93766ca2e608b02b6d57b5c8434d15ec8b223def46d8e0cbca7a654388af4fb0",
+      "after": "42ab90c24ae230adef4a53d639251204aa3d81df08905e76d435795e357b5cf9"
+    },
+    {
+      "path": "game/e2e/smoke.spec.ts",
+      "before": "f857823fe42c91357b7e36b3c8da4b2479aa92f1d12c2133ca28e5da2579e5e7",
+      "after": "3b75c9667e6414ed5f324cf91de413f215f02a3c679152c451827ea5bf91b4f8"
+    },
+    {
+      "path": "game/e2e/wedding-group.spec.ts",
+      "before": "84d602226ae39cead6245258d32f4fb881faa3c9c62783c1bbd70bad81a692a6",
+      "after": "457b527b248c27ef55ba03921c9cafca86b54533beb81a965d67954d8fc0e2bc"
+    },
+    {
+      "path": "game/index.html",
+      "before": "f22a5c24156643e000569fc931044063df4817afd6770f32cae9c9dc16031d7c",
+      "after": "b094acfb8bc814a8c95232027ce6fc9876adc3542a81b39bdb472e3dc6f8c578"
+    },
+    {
+      "path": "game/src/data/weddingMetadata.ts",
+      "before": "aa0270f16f070262aba0dde9caecc712bbe6726ba1e584172b7347aed4324fd1",
+      "after": "f1a2655f1148948cb195d5f7847b2ac2f151e19b40577533c7517c76bc8d7282"
+    },
+    {
+      "path": "game/src/invitation.css",
+      "before": "cbb8aad97443699ce13409b779ddfb26f94e31791b7188594a65f4357a84f764",
+      "after": "2c7f9dbda803f31235cba7143bcf389cff8cecd70ae7e6b9da0e9bb981a7983c"
+    },
+    {
+      "path": "game/src/scenes/InvitationScene.ts",
+      "before": "d50163c55f61907794d542a48125a033b87631c34741523cdb207591e630b45f",
+      "after": "9d88163dfb50aa00de84270fe3939b549a0194fc2ffa820a3768596615c8168f"
+    },
+    {
+      "path": "game/src/ui/GameAccess.ts",
+      "before": "6abf46b9dac87a2b7d0a9b0250dbcc10e4f800d9c4f450d937ffcf5ad5e46454",
+      "after": "dc0b33113e3bb8737d9545b5b9273aed8c174a3a9989c5ed7ed0fd77f5990bf3"
+    },
+    {
+      "path": "game/src/ui/InvitationView.ts",
+      "before": "7edaff9dbebaa85a2c22ddfae1b7e915b54b0ea98822e08a4fc8f8f0fe2a0d50",
+      "after": "106c114937d4ad384e647d6d21a4a87ac03c0561c6c5ff8897dee0ea73ae5d1f"
+    }
+  ],
+  "thirdPhotoOriginalSha256": "1ab59f79deaef2bbe2f86dc623725d09b8029197d56c73ca00dfdc116787a7f0"
+}

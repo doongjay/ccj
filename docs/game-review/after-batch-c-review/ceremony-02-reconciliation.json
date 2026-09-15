@@ -1,0 +1,164 @@
+{
+  "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/ceremony-02.json",
+  "reported": {
+    "startTime": "2026-09-13T15:51:26.596Z",
+    "duration": 63509.717,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  },
+  "detailed": {
+    "expected": 1,
+    "unexpected": 3,
+    "flaky": 0,
+    "skipped": 0
+  },
+  "totalProjectCases": 4,
+  "uniqueSpecIds": 4,
+  "totalAttempts": 4,
+  "retriedCases": 0,
+  "projectCounts": {
+    "chromium": 4
+  },
+  "matches": true,
+  "globalErrors": [],
+  "cases": [
+    {
+      "id": "eacd9f2c4395bdfdd5f5-294970d6e47e1b3a2814",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 7,
+      "title": "review-batch-c-ceremony.spec.ts › F14: deterministic full candidate cycle, player exclusion and short-list reuse",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T15:51:27.317Z",
+          "duration": 4,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-6747d8266ad1a4f80315",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: applause visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "unexpected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "failed",
+          "startTime": "2026-09-13T15:51:27.312Z",
+          "duration": 40796,
+          "errors": [
+            {
+              "location": {
+                "file": "/Users/user/wedding/ccj/game/e2e/review-batch-c-ceremony.spec.ts",
+                "column": 26,
+                "line": 50
+              },
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#app canvas')\nExpected: \u001b[32m\"group-photo\"\u001b[39m\nReceived: \u001b[31m\"reaction\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#app canvas')\u001b[22m\n\u001b[2m    14 × locator resolved to <canvas width=\"720\" height=\"1280\" data-lobby-info=\"\" data-guest-face=\"0\" data-guest-hair=\"0\" data-active-quiz=\"\" data-guest-outfit=\"0\" data-venue-room=\"hall\" data-route-choice=\"car\" data-guest-name=\"테스트하객\" data-guest-side=\"bride\" data-lobby-ready=\"true\" data-room-ready=\"false\" data-guest-gender=\"male\" data-story-state=\"moving\" data-reception-warning=\"\" data-parents-side=\"bride\" data-lobby-progress=\"4/4\" data-q3-modal-open=\"false\" data-reception-desk=\"bride\" data-asset-load-progress=\"1\" data-photo-gall…></canvas>\u001b[22m\n\u001b[2m       - unexpected value \"reaction\"\u001b[22m\n\n\n  48 |     await clickGame(page, 360, 1100);\n  49 |     for (let i = 0; i < 8; i++) await page.keyboard.press(\"Enter\");\n> 50 |     await expect(canvas).toHaveAttribute(\"data-ceremony-stage\", \"group-photo\");\n     |                          ^\n  51 |     await expect(canvas).toHaveAttribute(\"data-ceremony-reaction-count\", \"1\");\n  52 |     await expect(canvas).toHaveAttribute(\"data-group-photo-entry-count\", \"1\");\n  53 |     const data = await canvas.evaluate(el => ({ ...el.dataset }));\n    at /Users/user/wedding/ccj/game/e2e/review-batch-c-ceremony.spec.ts:50:26"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-7eb7568f6f0679f896fa",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: cheer visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "unexpected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "failed",
+          "startTime": "2026-09-13T15:51:27.337Z",
+          "duration": 31764,
+          "errors": [
+            {
+              "location": {
+                "file": "/Users/user/wedding/ccj/game/e2e/review-batch-c-ceremony.spec.ts",
+                "column": 26,
+                "line": 50
+              },
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#app canvas')\nExpected: \u001b[32m\"group-photo\"\u001b[39m\nReceived: \u001b[31m\"reaction\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#app canvas')\u001b[22m\n\u001b[2m    14 × locator resolved to <canvas width=\"720\" height=\"1280\" data-lobby-info=\"\" data-guest-face=\"0\" data-guest-hair=\"0\" data-active-quiz=\"\" data-guest-outfit=\"0\" data-venue-room=\"hall\" data-guest-name=\"테스트하객\" data-guest-side=\"groom\" data-lobby-ready=\"true\" data-room-ready=\"false\" data-guest-gender=\"male\" data-story-state=\"moving\" data-reception-warning=\"\" data-parents-side=\"groom\" data-lobby-progress=\"3/3\" data-route-choice=\"subway\" data-q3-modal-open=\"false\" data-reception-desk=\"groom\" data-asset-load-progress=\"1\" data-photo-g…></canvas>\u001b[22m\n\u001b[2m       - unexpected value \"reaction\"\u001b[22m\n\n\n  48 |     await clickGame(page, 360, 1100);\n  49 |     for (let i = 0; i < 8; i++) await page.keyboard.press(\"Enter\");\n> 50 |     await expect(canvas).toHaveAttribute(\"data-ceremony-stage\", \"group-photo\");\n     |                          ^\n  51 |     await expect(canvas).toHaveAttribute(\"data-ceremony-reaction-count\", \"1\");\n  52 |     await expect(canvas).toHaveAttribute(\"data-group-photo-entry-count\", \"1\");\n  53 |     const data = await canvas.evaluate(el => ({ ...el.dataset }));\n    at /Users/user/wedding/ccj/game/e2e/review-batch-c-ceremony.spec.ts:50:26"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-7fa7b8e614cf74838b34",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: reduced visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "unexpected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "failed",
+          "startTime": "2026-09-13T15:52:00.312Z",
+          "duration": 29570,
+          "errors": [
+            {
+              "location": {
+                "file": "/Users/user/wedding/ccj/game/e2e/review-batch-c-ceremony.spec.ts",
+                "column": 26,
+                "line": 50
+              },
+              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('#app canvas')\nExpected: \u001b[32m\"group-photo\"\u001b[39m\nReceived: \u001b[31m\"reaction\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveAttribute\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('#app canvas')\u001b[22m\n\u001b[2m    14 × locator resolved to <canvas width=\"720\" height=\"1280\" data-lobby-info=\"\" data-guest-face=\"0\" data-guest-hair=\"0\" data-active-quiz=\"\" data-guest-outfit=\"0\" data-venue-room=\"hall\" data-guest-name=\"테스트하객\" data-guest-side=\"groom\" data-lobby-ready=\"true\" data-room-ready=\"false\" data-guest-gender=\"male\" data-story-state=\"moving\" data-reception-warning=\"\" data-parents-side=\"groom\" data-lobby-progress=\"3/3\" data-route-choice=\"subway\" data-q3-modal-open=\"false\" data-reception-desk=\"groom\" data-asset-load-progress=\"1\" data-photo-g…></canvas>\u001b[22m\n\u001b[2m       - unexpected value \"reaction\"\u001b[22m\n\n\n  48 |     await clickGame(page, 360, 1100);\n  49 |     for (let i = 0; i < 8; i++) await page.keyboard.press(\"Enter\");\n> 50 |     await expect(canvas).toHaveAttribute(\"data-ceremony-stage\", \"group-photo\");\n     |                          ^\n  51 |     await expect(canvas).toHaveAttribute(\"data-ceremony-reaction-count\", \"1\");\n  52 |     await expect(canvas).toHaveAttribute(\"data-group-photo-entry-count\", \"1\");\n  53 |     const data = await canvas.evaluate(el => ({ ...el.dataset }));\n    at /Users/user/wedding/ccj/game/e2e/review-batch-c-ceremony.spec.ts:50:26"
+            }
+          ],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "error-context",
+              "contentType": "text/markdown",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2643 @@
+{
+  "timeUTC": "2026-09-13T17:29:41.710150+00:00",
+  "sourceFingerprint": "87a0fbfaf3e1c9c0e99c35a6ac132245855c494a0d58c3e653714f7bcb93d287",
+  "runtimeFingerprint": "79e097b53690a3d7bf20b1630aafa029f57ca0c1a10cc12dfee2e1b665c74b6d",
+  "sourceStillMatches": true,
+  "logicalTests": 91,
+  "allLogicalTestsPassedInAtLeastOneApplicableProject": true,
+  "projectCases": 105,
+  "statuses": {
+    "expected": 102,
+    "skipped": 3
+  },
+  "attempts": 105,
+  "runs": [
+    {
+      "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json",
+      "reported": {
+        "startTime": "2026-09-13T16:23:25.808Z",
+        "duration": 672267.1819999999,
+        "expected": 88,
+        "skipped": 3,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "details": {
+        "expected": 88,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 3
+      },
+      "projectCases": 91,
+      "attempts": 91,
+      "matches": true
+    },
+    {
+      "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json",
+      "reported": {
+        "startTime": "2026-09-13T17:22:34.759Z",
+        "duration": 409311.503,
+        "expected": 14,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "details": {
+        "expected": 14,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0
+      },
+      "projectCases": 14,
+      "attempts": 14,
+      "matches": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "9234c2eff4f9ea47f734-029c5340646fe5512e29",
+      "file": "avatar-alpha.spec.ts",
+      "line": 4,
+      "title": "avatar-alpha.spec.ts \u203a outfits-male has a transparent background",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:26.668Z",
+          "duration": 2873,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "9234c2eff4f9ea47f734-a40ded001d4688472e4b",
+      "file": "avatar-alpha.spec.ts",
+      "line": 4,
+      "title": "avatar-alpha.spec.ts \u203a outfits-female has a transparent background",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:26.666Z",
+          "duration": 3183,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "9234c2eff4f9ea47f734-7811364c0eefcaeb8ed0",
+      "file": "avatar-alpha.spec.ts",
+      "line": 4,
+      "title": "avatar-alpha.spec.ts \u203a white-car has a transparent background",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:26.661Z",
+          "duration": 2764,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "9234c2eff4f9ea47f734-6b9f8a832f8a0c92ddad",
+      "file": "avatar-alpha.spec.ts",
+      "line": 4,
+      "title": "avatar-alpha.spec.ts \u203a minimi-hair has a transparent background",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:29.794Z",
+          "duration": 1570,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "9234c2eff4f9ea47f734-51868170dd789e09a197",
+      "file": "avatar-alpha.spec.ts",
+      "line": 4,
+      "title": "avatar-alpha.spec.ts \u203a formal-guests has a transparent background",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:30.373Z",
+          "duration": 1333,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "9234c2eff4f9ea47f734-79d8d5aa377da0612359",
+      "file": "avatar-alpha.spec.ts",
+      "line": 4,
+      "title": "avatar-alpha.spec.ts \u203a npc-bride-white has a transparent background",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:30.440Z",
+          "duration": 1401,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "ac8ed5ffb318b5cd0f4c-2021872e3559a6ea2569",
+      "file": "canvas-centering.spec.ts",
+      "line": 3,
+      "title": "canvas-centering.spec.ts \u203a game canvas stays centered and proportional on viewport resize",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:31.373Z",
+          "duration": 2652,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "cc128f7803b1f07d03eb-0015ec0e655e8deec1b5",
+      "file": "current-journey.spec.ts",
+      "line": 5,
+      "title": "current-journey.spec.ts \u203a profile, reception, photo poses, meal first and save/skip local message: bride",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:31.725Z",
+          "duration": 72089,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "cc128f7803b1f07d03eb-818d215c6b29052a670f",
+      "file": "current-journey.spec.ts",
+      "line": 5,
+      "title": "current-journey.spec.ts \u203a profile, reception, photo poses, ceremony first and save/skip local message: groom",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:31.854Z",
+          "duration": 60259,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "dba2a99c3f87592ccbe3-059c058320778846b163",
+      "file": "dinner-pacing.spec.ts",
+      "line": 8,
+      "title": "dinner-pacing.spec.ts \u203a banquet travel follows the corridor floor promptly and departure stays at the buffet",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:34.059Z",
+          "duration": 21059,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "ddd8ad20aaadf6214423-6a49ccbba1b2c40a124b",
+      "file": "invitation-details.spec.ts",
+      "line": 4,
+      "title": "invitation-details.spec.ts \u203a family names align and the original-photo countdown ticks at 320px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:55.136Z",
+          "duration": 4445,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "ddd8ad20aaadf6214423-9dd012acdb9a3f3c59b6",
+      "file": "invitation-details.spec.ts",
+      "line": 4,
+      "title": "invitation-details.spec.ts \u203a family names align and the original-photo countdown ticks at 393px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:23:59.592Z",
+          "duration": 4290,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "0a665ffb492434d18d93-ca9ed31520464fe6b897",
+      "file": "invitation-notices.spec.ts",
+      "line": 16,
+      "title": "invitation-notices.spec.ts \u203a notice menus show each venue's photo and original copy without page jumps at 320px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:03.892Z",
+          "duration": 2273,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "0a665ffb492434d18d93-756e53a1caa946864a37",
+      "file": "invitation-notices.spec.ts",
+      "line": 16,
+      "title": "invitation-notices.spec.ts \u203a notice menus show each venue's photo and original copy without page jumps at 393px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:06.172Z",
+          "duration": 2455,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "0a665ffb492434d18d93-458766ae510d14ddfd54",
+      "file": "invitation-notices.spec.ts",
+      "line": 68,
+      "title": "invitation-notices.spec.ts \u203a touch navigation \u203a swiping photos changes notices while vertical swipes still scroll the invitation",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:08.633Z",
+          "duration": 2114,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "caca7fcb3a9527201a21-795ce6a5d04c9be158d7",
+      "file": "invitation-redesign.spec.ts",
+      "line": 6,
+      "title": "invitation-redesign.spec.ts \u203a separate face art and wigs render with their own transparent silhouettes",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:10.767Z",
+          "duration": 2574,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "caca7fcb3a9527201a21-2aad06ad9f16e8b9e8da",
+      "file": "invitation-redesign.spec.ts",
+      "line": 32,
+      "title": "invitation-redesign.spec.ts \u203a character thumbnails and invitation photo frames at 320px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:13.348Z",
+          "duration": 4577,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "caca7fcb3a9527201a21-567661aaccb95b7173bb",
+      "file": "invitation-redesign.spec.ts",
+      "line": 32,
+      "title": "invitation-redesign.spec.ts \u203a character thumbnails and invitation photo frames at 393px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:17.932Z",
+          "duration": 4821,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "caca7fcb3a9527201a21-acdce4300ea060d2725e",
+      "file": "invitation-redesign.spec.ts",
+      "line": 65,
+      "title": "invitation-redesign.spec.ts \u203a a message opens its author's exact minimi and keeps avatar and text together while paging",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:22.777Z",
+          "duration": 2779,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "caca7fcb3a9527201a21-32840c21456c1e0dfb9c",
+      "file": "invitation-redesign.spec.ts",
+      "line": 97,
+      "title": "invitation-redesign.spec.ts \u203a venue directions and side colors stay readable at 320px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:25.566Z",
+          "duration": 1878,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "caca7fcb3a9527201a21-4df972b00f0c4bce267d",
+      "file": "invitation-redesign.spec.ts",
+      "line": 97,
+      "title": "invitation-redesign.spec.ts \u203a venue directions and side colors stay readable at 393px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:27.450Z",
+          "duration": 1789,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "99c1c8e926bfc82a15e5-e6dadfaf10c23b5bc9ee",
+      "file": "invitation-sharing.spec.ts",
+      "line": 3,
+      "title": "invitation-sharing.spec.ts \u203a share crawlers receive the wide pixel image in the original HTML",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:29.251Z",
+          "duration": 167,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "99c1c8e926bfc82a15e5-70244ebd4ef3cea81c3f",
+      "file": "invitation-sharing.spec.ts",
+      "line": 16,
+      "title": "invitation-sharing.spec.ts \u203a native sharing and the Kakao card use matching invitation URLs and the correct image shape",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:29.425Z",
+          "duration": 1528,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "94030e3a77a8b296006f-0fc40a1293eb9edec931",
+      "file": "invitation.spec.ts",
+      "line": 7,
+      "title": "invitation.spec.ts \u203a game guest keeps female outfit 2 and hair in the invitation without another picker",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:30.967Z",
+          "duration": 11710,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "94030e3a77a8b296006f-48319f0a389170e405c4",
+      "file": "invitation.spec.ts",
+      "line": 7,
+      "title": "invitation.spec.ts \u203a game guest keeps female outfit 3 and hair in the invitation without another picker",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:32.123Z",
+          "duration": 11531,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "94030e3a77a8b296006f-d98aa5c8af4d9f9bcad2",
+      "file": "invitation.spec.ts",
+      "line": 60,
+      "title": "invitation.spec.ts \u203a skip opens original-content invitation with original photos and local minimi guestbook",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:42.685Z",
+          "duration": 3202,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "94030e3a77a8b296006f-76f810d2bb38712bdff9",
+      "file": "invitation.spec.ts",
+      "line": 105,
+      "title": "invitation.spec.ts \u203a profile cards stay inside the game at 320px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:43.661Z",
+          "duration": 2691,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "94030e3a77a8b296006f-95e5a709c8053e0ac6c5",
+      "file": "invitation.spec.ts",
+      "line": 105,
+      "title": "invitation.spec.ts \u203a profile cards stay inside the game at 1440px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:43.826Z",
+          "duration": 2680,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "94030e3a77a8b296006f-33d2866002e306436f22",
+      "file": "invitation.spec.ts",
+      "line": 119,
+      "title": "invitation.spec.ts \u203a minimi group pages keep every guest selectable without covering the couple",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:45.893Z",
+          "duration": 2828,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "d4ec7dd7f573bfd2d608-6b41b205a1666f4cc6e7",
+      "file": "lobby-info.spec.ts",
+      "line": 7,
+      "title": "lobby-info.spec.ts \u203a lobby items pause movement and dismiss explicitly",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:46.363Z",
+          "duration": 23172,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "e1a88830d69a769054a7-cab49728f26e0d0c86de",
+      "file": "lobby-required.spec.ts",
+      "line": 4,
+      "title": "lobby-required.spec.ts \u203a only unfinished lobby activities are listed; normal visits unlock the ceremony and dinner",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:46.516Z",
+          "duration": 66510,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "b705ab038b0e4f349e48-f0825599f5d918cc7818",
+      "file": "lobby-return.spec.ts",
+      "line": 6,
+      "title": "lobby-return.spec.ts \u203a groom explores facilities normally after dismissing the hall reminder",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:24:48.731Z",
+          "duration": 35469,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "b705ab038b0e4f349e48-6f5f8362e4c856db592e",
+      "file": "lobby-return.spec.ts",
+      "line": 6,
+      "title": "lobby-return.spec.ts \u203a bride explores facilities normally after dismissing the hall reminder",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:25:09.547Z",
+          "duration": 47533,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "63c3e1d50807f28c9c28-543af71834fac9e9edc8",
+      "file": "minimi-customization.spec.ts",
+      "line": 7,
+      "title": "minimi-customization.spec.ts \u203a original minimi artwork and five outfits preserve a shared head and continuous neck",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:25:24.212Z",
+          "duration": 3930,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "original-art-registration",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 168
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "63c3e1d50807f28c9c28-6ece6d70d81325eeafe5",
+      "file": "minimi-customization.spec.ts",
+      "line": 41,
+      "title": "minimi-customization.spec.ts \u203a direct thumbnails preserve independent selections and all five outfits at 320px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:25:28.148Z",
+          "duration": 6369,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "63c3e1d50807f28c9c28-35431faada6f12a27721",
+      "file": "minimi-customization.spec.ts",
+      "line": 41,
+      "title": "minimi-customization.spec.ts \u203a direct thumbnails preserve independent selections and all five outfits at 393px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:25:34.521Z",
+          "duration": 5655,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "4db875b0acea966d0905-843f1b9c78cf97e8eda2",
+      "file": "minimi-jaw.spec.ts",
+      "line": 6,
+      "title": "minimi-jaw.spec.ts \u203a finished minimi keep face outlines while face thumbnails have no jaw or neck seams",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:25:40.190Z",
+          "duration": 4123,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "8c3bbf67808c0d45151d-f2ea157bc5285dd319dc",
+      "file": "minimi-neck.spec.ts",
+      "line": 6,
+      "title": "minimi-neck.spec.ts \u203a heads and outfits stay connected in every minimi pose",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:25:44.335Z",
+          "duration": 4765,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "male-components",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 36584
+            },
+            {
+              "name": "female-components",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 37036
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "1c5fb8f9ed159f062096-8824dd564ada558d8ef6",
+      "file": "minimi-visual.spec.ts",
+      "line": 7,
+      "title": "minimi-visual.spec.ts \u203a all minimi hairstyles, outfits and poses render on transparent tiles",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:25:49.114Z",
+          "duration": 19406,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "905e4312f0b9be050d86-03187ea6cb77efda8bf7",
+      "file": "photo-gallery.spec.ts",
+      "line": 8,
+      "title": "photo-gallery.spec.ts \u203a replacing registered photos updates all three framed screens",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:25:53.045Z",
+          "duration": 3313,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "905e4312f0b9be050d86-ebddbdecc261cbe1da51",
+      "file": "photo-gallery.spec.ts",
+      "line": 35,
+      "title": "photo-gallery.spec.ts \u203a lobby photo-wall panels use registered photos and the gallery shows photos at 390x844",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:25:56.364Z",
+          "duration": 27676,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "gallery-first",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 316176
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "905e4312f0b9be050d86-27617b8681d4a6562d39",
+      "file": "photo-gallery.spec.ts",
+      "line": 35,
+      "title": "photo-gallery.spec.ts \u203a lobby photo-wall panels use registered photos and the gallery shows photos at 430x932",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:25:57.104Z",
+          "duration": 27468,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "gallery-first",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 369544
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "905e4312f0b9be050d86-eff366d59c61affd501c",
+      "file": "photo-gallery.spec.ts",
+      "line": 35,
+      "title": "photo-gallery.spec.ts \u203a lobby photo-wall panels use registered photos and the gallery shows photos at 720x1280",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:26:08.535Z",
+          "duration": 27551,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "gallery-first",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 862168
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "905e4312f0b9be050d86-f5829f914be41a201920",
+      "file": "photo-gallery.spec.ts",
+      "line": 35,
+      "title": "photo-gallery.spec.ts \u203a lobby photo-wall panels use registered photos and the gallery shows photos at 1440x1000",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:26:24.048Z",
+          "duration": 29573,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "gallery-first",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 1049680
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "0ab05d2fb8ca6fef5dc5-bd415472cf13ebeaea24",
+      "file": "reception-only.spec.ts",
+      "line": 7,
+      "title": "reception-only.spec.ts \u203a single reception desk: photo and navigation stay inert, desk groom pauses movement and completes once",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:26:24.582Z",
+          "duration": 31060,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "photo-table",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 316184
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "0ab05d2fb8ca6fef5dc5-2fa87734442251c5d573",
+      "file": "reception-only.spec.ts",
+      "line": 7,
+      "title": "reception-only.spec.ts \u203a single reception desk: photo and navigation stay inert, desk bride pauses movement and completes once",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:26:36.104Z",
+          "duration": 37402,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "photo-table",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 316124
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "32bb86e62910f29bf1b0-75c2cb28301e3b848066",
+      "file": "review-batch-a.spec.ts",
+      "line": 17,
+      "title": "review-batch-a.spec.ts \u203a F03: inline validation replaces browser bubbles in setup and invitation",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:26:53.638Z",
+          "duration": 5957,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "32bb86e62910f29bf1b0-6d5c399c55795527ddf0",
+      "file": "review-batch-a.spec.ts",
+      "line": 55,
+      "title": "review-batch-a.spec.ts \u203a F04 F05: safe scene subjects, explicit information dismissal and one ceremony transition",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:26:55.654Z",
+          "duration": 47043,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "32bb86e62910f29bf1b0-a1bfc440a0791455e35c",
+      "file": "review-batch-a.spec.ts",
+      "line": 123,
+      "title": "review-batch-a.spec.ts \u203a F01/A1: bride itinerary is discoverable in the notebook and progress updates after every required visit",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:26:59.613Z",
+          "duration": 50141,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "32bb86e62910f29bf1b0-0ff88672ac6108040e19",
+      "file": "review-batch-a.spec.ts",
+      "line": 185,
+      "title": "review-batch-a.spec.ts \u203a F06: portrait labels and controls retain displayed minimum sizes, with a landscape alternative",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:27:13.531Z",
+          "duration": 20844,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "576e6652b4a0a09f6f44-5ff5713055565452ea7d",
+      "file": "review-batch-a1.spec.ts",
+      "line": 17,
+      "title": "review-batch-a1.spec.ts \u203a A1-01/02/03: compact arrival and gate keep the bride itinerary in an informational notebook",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:27:34.388Z",
+          "duration": 44295,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "panel-coverage",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 312
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "576e6652b4a0a09f6f44-656849ffd1510715d0b9",
+      "file": "review-batch-a1.spec.ts",
+      "line": 87,
+      "title": "review-batch-a1.spec.ts \u203a A1-04: compact in-panel close retains touch size, focus, Escape and input blocking",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:27:42.712Z",
+          "duration": 18263,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "info-panel-checks",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 1252
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "9ecde7723c811a214900-1fcf52b5db815c753d70",
+      "file": "review-batch-b-access.spec.ts",
+      "line": 54,
+      "title": "review-batch-b-access.spec.ts \u203a F08: lobby invitation returns to the same notebook and progress; stable refresh starts safely",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:27:49.774Z",
+          "duration": 16627,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "9ecde7723c811a214900-63ecc2942447414e806a",
+      "file": "review-batch-b-access.spec.ts",
+      "line": 77,
+      "title": "review-batch-b-access.spec.ts \u203a F08/F10: keyboard-only bride completes car, meal first, save",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:28:00.991Z",
+          "duration": 110257,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "9ecde7723c811a214900-858950ec173baeea42b7",
+      "file": "review-batch-b-access.spec.ts",
+      "line": 77,
+      "title": "review-batch-b-access.spec.ts \u203a F08/F10: keyboard-only groom completes subway, ceremony first, skip",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:28:06.409Z",
+          "duration": 97092,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "405a857427cc5c5f0a3f-6afb59888f260c050341",
+      "file": "review-batch-b-floor.spec.ts",
+      "line": 7,
+      "title": "review-batch-b-floor.spec.ts \u203a F02: reject wall/glass taps and keep the complete walk on the lobby floor",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:28:18.698Z",
+          "duration": 21138,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "405a857427cc5c5f0a3f-80f200ed6ff1337b2fd4",
+      "file": "review-batch-b-floor.spec.ts",
+      "line": 44,
+      "title": "review-batch-b-floor.spec.ts \u203a F02: concave entrance boundary cannot be cut across glass",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:28:39.840Z",
+          "duration": 59,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "56b392b6273def9fc737-2d99530aae25d44e8230",
+      "file": "review-batch-b-guidance.spec.ts",
+      "line": 5,
+      "title": "review-batch-b-guidance.spec.ts \u203a F07: car guidance precedes choices and wrong attempts remain recognizable",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:28:39.918Z",
+          "duration": 22697,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "56b392b6273def9fc737-3505e0e29e923a096c17",
+      "file": "review-batch-b-guidance.spec.ts",
+      "line": 5,
+      "title": "review-batch-b-guidance.spec.ts \u203a F07: subway guidance precedes choices and wrong attempts remain recognizable",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:29:02.620Z",
+          "duration": 19451,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "524cd45fbb457ad92d5f-fc2a85f344ee66629912",
+      "file": "review-batch-b-performance.spec.ts",
+      "line": 45,
+      "title": "review-batch-b-performance.spec.ts \u203a F09 production cold cache: opening and first car lobby transfer",
+      "project": "chromium",
+      "expectedStatus": "skipped",
+      "status": "skipped",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Transfer evidence requires the production preview config.",
+          "location": {
+            "file": "/Users/user/wedding/ccj/game/e2e/review-batch-b-performance.spec.ts",
+            "line": 46,
+            "column": 10
+          }
+        }
+      ],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "skipped",
+          "startTime": "2026-09-13T16:29:22.089Z",
+          "duration": 179,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "524cd45fbb457ad92d5f-b01302aaf1aa929257ec",
+      "file": "review-batch-b-performance.spec.ts",
+      "line": 45,
+      "title": "review-batch-b-performance.spec.ts \u203a F09 production cold cache: opening and first subway lobby transfer",
+      "project": "chromium",
+      "expectedStatus": "skipped",
+      "status": "skipped",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Transfer evidence requires the production preview config.",
+          "location": {
+            "file": "/Users/user/wedding/ccj/game/e2e/review-batch-b-performance.spec.ts",
+            "line": 46,
+            "column": 10
+          }
+        }
+      ],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "skipped",
+          "startTime": "2026-09-13T16:29:22.275Z",
+          "duration": 71,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "524cd45fbb457ad92d5f-cb1b4b79758947c85f18",
+      "file": "review-batch-b-performance.spec.ts",
+      "line": 82,
+      "title": "review-batch-b-performance.spec.ts \u203a F09 production: branded opening and retry after one deliberately failed later asset",
+      "project": "chromium",
+      "expectedStatus": "skipped",
+      "status": "skipped",
+      "annotations": [
+        {
+          "type": "skip",
+          "description": "Recovery evidence uses the production build.",
+          "location": {
+            "file": "/Users/user/wedding/ccj/game/e2e/review-batch-b-performance.spec.ts",
+            "line": 83,
+            "column": 8
+          }
+        }
+      ],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "skipped",
+          "startTime": "2026-09-13T16:29:22.358Z",
+          "duration": 54,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-294970d6e47e1b3a2814",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 7,
+      "title": "review-batch-c-ceremony.spec.ts \u203a F14: deterministic full candidate cycle, player exclusion and short-list reuse",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:29:22.429Z",
+          "duration": 1,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-6747d8266ad1a4f80315",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts \u203a F11/F14: applause visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:29:22.439Z",
+          "duration": 69311,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-7eb7568f6f0679f896fa",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts \u203a F11/F14: cheer visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:29:43.519Z",
+          "duration": 60249,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-7fa7b8e614cf74838b34",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts \u203a F11/F14: reduced visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:29:51.266Z",
+          "duration": 55360,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-24fe260fd58bea6df027",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts \u203a F11/F14: compact visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:30:31.754Z",
+          "duration": 53243,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "9b44bad5f9e10d4e14d6-fdea4608d3accbf7adac",
+      "file": "review-batch-c-photos.spec.ts",
+      "line": 16,
+      "title": "review-batch-c-photos.spec.ts \u203a F12/F13/B-V01: actual photos persist, explicit returns, finite notebook keepsakes and clean controls",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:33:34.341Z",
+          "duration": 63059,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "photo-events",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 13484
+            },
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/regression-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "6857659465e21c3093a2-796ecf4ee45d1d76577b",
+      "file": "review-batch-c-reception.spec.ts",
+      "line": 7,
+      "title": "review-batch-c-reception.spec.ts \u203a F15: first completion notice expires while walking; invitation and room revisits do not repeat it",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:33:40.606Z",
+          "duration": 28456,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "reception-timing",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 1568
+            },
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/regression-final/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "6857659465e21c3093a2-17f66317f720cdb829fa",
+      "file": "review-batch-c-reception.spec.ts",
+      "line": 46,
+      "title": "review-batch-c-reception.spec.ts \u203a F15: invitation pauses the first notice and resumes it once",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:34:09.321Z",
+          "duration": 28040,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/regression-final/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "4219922fea2e2bd3c691-01647ecded0fa7c1d26e",
+      "file": "smoke.spec.ts",
+      "line": 5,
+      "title": "smoke.spec.ts \u203a Given the Vite app When the home page loads Then the wedding game title is visible",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:30:43.791Z",
+          "duration": 1346,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "4219922fea2e2bd3c691-f9f3f5f716d59859cb3c",
+      "file": "smoke.spec.ts",
+      "line": 13,
+      "title": "smoke.spec.ts \u203a Given the car route When the guest makes mistakes then finishes Then the game reaches ending and replay resets",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:30:45.144Z",
+          "duration": 69199,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "4219922fea2e2bd3c691-13e5663e7b73fb0327db",
+      "file": "smoke.spec.ts",
+      "line": 38,
+      "title": "smoke.spec.ts \u203a Given the subway route When the guest chooses wrong exits then bride side Then the game completes",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:30:46.644Z",
+          "duration": 81011,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "fb6bf26d52ac0f05f80f-2045eca4e2a41b8f12a6",
+      "file": "story-choice-width.spec.ts",
+      "line": 6,
+      "title": "story-choice-width.spec.ts \u203a all story choice placements use the same readable width at 320px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:31:25.005Z",
+          "duration": 2568,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "fb6bf26d52ac0f05f80f-c1155304e7b829e2c15e",
+      "file": "story-choice-width.spec.ts",
+      "line": 6,
+      "title": "story-choice-width.spec.ts \u203a all story choice placements use the same readable width at 393px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:31:27.578Z",
+          "duration": 2113,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "a4f033a54e36188d61e0-62b78e8d65721eab9130",
+      "file": "story-routes.spec.ts",
+      "line": 10,
+      "title": "story-routes.spec.ts \u203a iPhone 15 Pro story: pink",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:31:29.703Z",
+          "duration": 14162,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "intro-iphone15pro",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 2488356
+            },
+            {
+              "name": "choices-iphone15pro",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 1944360
+            },
+            {
+              "name": "lobby-iphone15pro",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 2501016
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "a4f033a54e36188d61e0-aac9080c30aa630cdf71",
+      "file": "story-routes.spec.ts",
+      "line": 10,
+      "title": "story-routes.spec.ts \u203a iPhone 15 Pro story: subway",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:31:43.886Z",
+          "duration": 26876,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "intro-iphone15pro",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 2488372
+            },
+            {
+              "name": "choices-iphone15pro",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 1944360
+            },
+            {
+              "name": "lobby-iphone15pro",
+              "contentType": "image/png",
+              "omittedEmbeddedBytes": 2501072
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "a4f033a54e36188d61e0-dc0fa0cd2bc075716661",
+      "file": "story-routes.spec.ts",
+      "line": 72,
+      "title": "story-routes.spec.ts \u203a station choices leave the numbered circles visible at 320px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:31:54.362Z",
+          "duration": 4423,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "e98ba98217b33a6cd02e-680f84556ee4674da6cd",
+      "file": "tap-pacing.spec.ts",
+      "line": 15,
+      "title": "tap-pacing.spec.ts \u203a taps finish food reveals and narration without selecting a meal or replaying old timers",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:31:58.811Z",
+          "duration": 12338,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "e98ba98217b33a6cd02e-00138eca7ffc186b4a8c",
+      "file": "tap-pacing.spec.ts",
+      "line": 55,
+      "title": "tap-pacing.spec.ts \u203a tapping envelope writing completes it and returns once",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:32:07.670Z",
+          "duration": 3780,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "e98ba98217b33a6cd02e-3d93cc1a6196877b19b3",
+      "file": "tap-pacing.spec.ts",
+      "line": 69,
+      "title": "tap-pacing.spec.ts \u203a group photo countdown and photo hold can be skipped with separate taps",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:32:10.792Z",
+          "duration": 8367,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "6d7cbf83c78701ded93e-896fca91f577290d5b4e",
+      "file": "venue-rooms.spec.ts",
+      "line": 6,
+      "title": "venue-rooms.spec.ts \u203a room navigation preserves reception and selected side at 390px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:32:11.170Z",
+          "duration": 61817,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "6d7cbf83c78701ded93e-6a1ec07ecfa3cc3f1faf",
+      "file": "venue-rooms.spec.ts",
+      "line": 6,
+      "title": "venue-rooms.spec.ts \u203a room navigation preserves reception and selected side at 430px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:32:11.462Z",
+          "duration": 69098,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "6d7cbf83c78701ded93e-d89f9448686d5f5bfdfb",
+      "file": "venue-rooms.spec.ts",
+      "line": 6,
+      "title": "venue-rooms.spec.ts \u203a room navigation preserves reception and selected side at 720px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:32:19.167Z",
+          "duration": 62671,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "6d7cbf83c78701ded93e-13154705daa770b613d9",
+      "file": "venue-rooms.spec.ts",
+      "line": 6,
+      "title": "venue-rooms.spec.ts \u203a room navigation preserves reception and selected side at 1440px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:33:12.992Z",
+          "duration": 71521,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "c1f2da4197c583300fd3-8b23064e49c6a8362007",
+      "file": "walk-path.spec.ts",
+      "line": 4,
+      "title": "walk-path.spec.ts \u203a walk path follows open floor instead of crossing the escalator",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:33:20.580Z",
+          "duration": 2,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "c1f2da4197c583300fd3-c073cbe13895e1272db8",
+      "file": "walk-path.spec.ts",
+      "line": 19,
+      "title": "walk-path.spec.ts \u203a unreachable destinations do not produce a route through walls",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:33:20.591Z",
+          "duration": 0,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "adb6c33ad3cc9c0f5d81-ca5b48af1716dbbfbcef",
+      "file": "wedding-group.spec.ts",
+      "line": 8,
+      "title": "wedding-group.spec.ts \u203a 100 guests remain reachable in uncrowded photos and a new friend appears immediately at 320px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:33:20.606Z",
+          "duration": 4606,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "adb6c33ad3cc9c0f5d81-0fbf832e19a5ab6033ce",
+      "file": "wedding-group.spec.ts",
+      "line": 8,
+      "title": "wedding-group.spec.ts \u203a 100 guests remain reachable in uncrowded photos and a new friend appears immediately at 393px",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:33:21.850Z",
+          "duration": 4428,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "adb6c33ad3cc9c0f5d81-27ad5d528dec04d064e5",
+      "file": "wedding-group.spec.ts",
+      "line": 61,
+      "title": "wedding-group.spec.ts \u203a couple faces retain full sprite detail and transparent edges in the invitation and ceremony",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:33:25.222Z",
+          "duration": 7187,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "adb6c33ad3cc9c0f5d81-a4cd336762287cfe1967",
+      "file": "wedding-group.spec.ts",
+      "line": 99,
+      "title": "wedding-group.spec.ts \u203a hearts cover the photo evenly without intercepting invitation taps",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T16:33:26.287Z",
+          "duration": 1940,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/regression-final.json"
+    },
+    {
+      "id": "9ecde7723c811a214900-c609df87aabc950c468f",
+      "file": "review-batch-b-access.spec.ts",
+      "line": 54,
+      "title": "review-batch-b-access.spec.ts \u203a F08: lobby invitation returns to the same notebook and progress; stable refresh starts safely",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:22:35.442Z",
+          "duration": 12786,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "9ecde7723c811a214900-248dc9ccc73bb58b3078",
+      "file": "review-batch-b-access.spec.ts",
+      "line": 77,
+      "title": "review-batch-b-access.spec.ts \u203a F08/F10: keyboard-only bride completes car, meal first, save",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:22:48.603Z",
+          "duration": 68186,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "9ecde7723c811a214900-9bfa4824cca22f7763a8",
+      "file": "review-batch-b-access.spec.ts",
+      "line": 77,
+      "title": "review-batch-b-access.spec.ts \u203a F08/F10: keyboard-only groom completes subway, ceremony first, skip",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:23:56.795Z",
+          "duration": 58621,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "56b392b6273def9fc737-526475a5ef09f11342a9",
+      "file": "review-batch-b-guidance.spec.ts",
+      "line": 5,
+      "title": "review-batch-b-guidance.spec.ts \u203a F07: car guidance precedes choices and wrong attempts remain recognizable",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:24:55.427Z",
+          "duration": 19194,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "56b392b6273def9fc737-1f5f40f8e7109062a2ff",
+      "file": "review-batch-b-guidance.spec.ts",
+      "line": 5,
+      "title": "review-batch-b-guidance.spec.ts \u203a F07: subway guidance precedes choices and wrong attempts remain recognizable",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:25:14.630Z",
+          "duration": 16767,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "524cd45fbb457ad92d5f-9620beb31ecb00012873",
+      "file": "review-batch-b-performance.spec.ts",
+      "line": 45,
+      "title": "review-batch-b-performance.spec.ts \u203a F09 production cold cache: opening and first car lobby transfer",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:25:31.407Z",
+          "duration": 10651,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "524cd45fbb457ad92d5f-868d767135eab609551e",
+      "file": "review-batch-b-performance.spec.ts",
+      "line": 45,
+      "title": "review-batch-b-performance.spec.ts \u203a F09 production cold cache: opening and first subway lobby transfer",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:25:42.064Z",
+          "duration": 9794,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "524cd45fbb457ad92d5f-0a4c56f8c47be7c040f4",
+      "file": "review-batch-b-performance.spec.ts",
+      "line": 82,
+      "title": "review-batch-b-performance.spec.ts \u203a F09 production: branded opening and retry after one deliberately failed later asset",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:25:51.864Z",
+          "duration": 10501,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-a7d146aa79b0fdbd80fe",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 7,
+      "title": "review-batch-c-ceremony.spec.ts \u203a F14: deterministic full candidate cycle, player exclusion and short-list reuse",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:26:02.377Z",
+          "duration": 1,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-407aad387c3356b07138",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts \u203a F11/F14: applause visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:26:02.382Z",
+          "duration": 45777,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-0c77cbabfdb6a8d64019",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts \u203a F11/F14: cheer visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:26:48.166Z",
+          "duration": 35536,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-3449cb84ee40a97e2ed8",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts \u203a F11/F14: reduced visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:27:23.710Z",
+          "duration": 35015,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-b932d1de060ba2e66fa6",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts \u203a F11/F14: compact visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:27:58.730Z",
+          "duration": 34395,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    },
+    {
+      "id": "9b44bad5f9e10d4e14d6-205366e687e98217a25b",
+      "file": "review-batch-c-photos.spec.ts",
+      "line": 16,
+      "title": "review-batch-c-photos.spec.ts \u203a F12/F13/B-V01: actual photos persist, explicit returns, finite notebook keepsakes and clean controls",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:28:34.436Z",
+          "duration": 49404,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "photo-events",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 15208
+            },
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/production-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium-production/video.webm",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ],
+      "run": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json"
+    }
+  ]
+}

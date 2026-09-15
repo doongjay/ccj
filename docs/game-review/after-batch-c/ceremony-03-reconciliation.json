@@ -1,0 +1,116 @@
+{
+  "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/ceremony-03.json",
+  "reported": {
+    "startTime": "2026-09-13T15:53:11.813Z",
+    "duration": 82685.325,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "detailed": {
+    "expected": 4,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0
+  },
+  "totalProjectCases": 4,
+  "uniqueSpecIds": 4,
+  "totalAttempts": 4,
+  "retriedCases": 0,
+  "projectCounts": {
+    "chromium": 4
+  },
+  "matches": true,
+  "globalErrors": [],
+  "cases": [
+    {
+      "id": "eacd9f2c4395bdfdd5f5-294970d6e47e1b3a2814",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 7,
+      "title": "review-batch-c-ceremony.spec.ts › F14: deterministic full candidate cycle, player exclusion and short-list reuse",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T15:53:12.494Z",
+          "duration": 5,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-6747d8266ad1a4f80315",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: applause visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T15:53:12.495Z",
+          "duration": 60149,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-7eb7568f6f0679f896fa",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: cheer visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T15:53:12.516Z",
+          "duration": 44698,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-7fa7b8e614cf74838b34",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: reduced visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T15:53:57.782Z",
+          "duration": 36535,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    }
+  ]
+}

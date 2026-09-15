@@ -1,0 +1,3389 @@
+{
+  "checkedUTC": "2026-09-13T17:47:12.294978+00:00",
+  "originalZIP": {
+    "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c.zip",
+    "bytes": 1039572809,
+    "sha256": "e1066bbff4da9677454dadd3d34c375d56fd1c7043f5c7c34ea772cd3c0ee0a1",
+    "mtimeNs": 1789320745917875869
+  },
+  "originalFiles": [
+    {
+      "path": "README.md",
+      "bytes": 19948,
+      "sha256": "059d007f2c8fca34f6951f4521508fa22927a6a0cbb4858e0720feee7c0df98f",
+      "mtimeNs": 1789320662772648500
+    },
+    {
+      "path": "acceptance-checks.json",
+      "bytes": 6519,
+      "sha256": "3afd6b97c578875a7775f4af6ec9ba23c419ce8165e90309e840f6d85fadb475",
+      "mtimeNs": 1789320662765986867
+    },
+    {
+      "path": "artifact-manifest.json",
+      "bytes": 137081,
+      "sha256": "7df00990c2dfc1cad8509362ccdb910c4da1f33153335fe41fb688807f3121d2",
+      "mtimeNs": 1789320729548813515
+    },
+    {
+      "path": "b-e01/audit.json",
+      "bytes": 1006,
+      "sha256": "faa9ed03cc46e40e1a1b571c24db039f13f5c8b6cef8571ba35389c50e442769",
+      "mtimeNs": 1789315778736070965
+    },
+    {
+      "path": "b-e01/original-b-regression-results.json",
+      "bytes": 10822,
+      "sha256": "07243d2d314b18563e0ba208bd8751de4a9a05a890cfa7fe95f51ab8e9ff172d",
+      "mtimeNs": 1789309795110864178
+    },
+    {
+      "path": "before/attempt-1-timeout.md",
+      "bytes": 7310,
+      "sha256": "d4035920b939f3d8b7f203fe727142d965aef8120769d4f38af5856619d1c1fa",
+      "mtimeNs": 1789312952006389223
+    },
+    {
+      "path": "before/b-booth-controls-overlap-393.png",
+      "bytes": 465000,
+      "sha256": "d0f6409afe2805aecdd33db27bb72400d0bca617328d58689315cafd9a7773ab",
+      "mtimeNs": 1789313021936133368
+    },
+    {
+      "path": "before/b-booth-post-capture-320.png",
+      "bytes": 316217,
+      "sha256": "5fdbc8340a58524d7bbbc90ac23d4317d8a9f244d8063e3e3d37ad4f5c4098fb",
+      "mtimeNs": 1789313023185746762
+    },
+    {
+      "path": "before/b-booth-post-capture-393.png",
+      "bytes": 465010,
+      "sha256": "374be95a7a3f5c9e88d95a564fc60a3595bb71e5d57ce153e75688685fd0d2df",
+      "mtimeNs": 1789313023142901111
+    },
+    {
+      "path": "before/b-booth-post-capture-430.png",
+      "bytes": 541443,
+      "sha256": "4015e3966b29723eecfad955e41ac38fe9477684453604e67566d9fd8a87f4b3",
+      "mtimeNs": 1789313023260454911
+    },
+    {
+      "path": "before/b-bridal-post-capture-320.png",
+      "bytes": 286929,
+      "sha256": "b51474c6b922b5b7f8b1092d10c86daa4e3d8d38788fd0491fdf2c9904a17cad",
+      "mtimeNs": 1789313033681021955
+    },
+    {
+      "path": "before/b-bridal-post-capture-393.png",
+      "bytes": 419147,
+      "sha256": "6224524462dff92a28ee720ed284801777206279e218924709800fb4c730009e",
+      "mtimeNs": 1789313033615155148
+    },
+    {
+      "path": "before/b-bridal-post-capture-430.png",
+      "bytes": 518357,
+      "sha256": "16af4c28d89ee4dd0674a353078ee1487712cbd12740a9e45138030c6074f99b",
+      "mtimeNs": 1789313033773779248
+    },
+    {
+      "path": "before/b-ceremony-choice-393.png",
+      "bytes": 478499,
+      "sha256": "89ef25985cb707eddffe82fa74251ec7fc5d580b07d023e6fb57cbe1af76878e",
+      "mtimeNs": 1789313038801790342
+    },
+    {
+      "path": "before/b-group-bride-393.png",
+      "bytes": 497090,
+      "sha256": "43239ee64f2e40bee28c26996de5021558ceebf7368620c7fe9b726232008d64",
+      "mtimeNs": 1789313038941179326
+    },
+    {
+      "path": "before/b-reception-persistent-393.png",
+      "bytes": 489273,
+      "sha256": "93d97eff4ccfeff75b28a135800b9439c62585bf975c52a71c86af1f17a0fcf5",
+      "mtimeNs": 1789313020211356054
+    },
+    {
+      "path": "before/capture-results.json",
+      "bytes": 3128,
+      "sha256": "c46b5657dc85ff025ddfc30bee033ca753f8d1031c7984bcadf2fda0c21b4d5d",
+      "mtimeNs": 1789313038989073197
+    },
+    {
+      "path": "before/capture.json",
+      "bytes": 279,
+      "sha256": "7efd63a8e7caf075acfb0244862a2820db89f6c44e0c7e1d8208b05ff54ec075",
+      "mtimeNs": 1789313038941863792
+    },
+    {
+      "path": "before/source-metadata.json",
+      "bytes": 5632,
+      "sha256": "79a208a44632433037cde20f4136cd15d1bef3d95904bbd4585d72053be9f913",
+      "mtimeNs": 1789312571600439383
+    },
+    {
+      "path": "ceremony-01-reconciliation.json",
+      "bytes": 10187,
+      "sha256": "6a8f2e2b595cb64ee35375b409d854ceedcef00ee6e7a6e2f0bbe70f798cac88",
+      "mtimeNs": 1789320582004820165
+    },
+    {
+      "path": "ceremony-01-reporter.json",
+      "bytes": 24069,
+      "sha256": "17df97563af33f3c432c00be278d0bcd893048fbf2488eb64ffd790f8eca89f4",
+      "mtimeNs": 1789320582004523163
+    },
+    {
+      "path": "ceremony-02-reconciliation.json",
+      "bytes": 10259,
+      "sha256": "c0ee81ed330e5b21efd013967873a759ea38b532da94c6fed909c05b22c0f72e",
+      "mtimeNs": 1789320582087889033
+    },
+    {
+      "path": "ceremony-02-reporter.json",
+      "bytes": 24212,
+      "sha256": "3a62e4ca645d7aa8b230c0fac477ff95d4d2c036540a039f41046da68f071313",
+      "mtimeNs": 1789320582087487697
+    },
+    {
+      "path": "ceremony-03-reconciliation.json",
+      "bytes": 3233,
+      "sha256": "7a4e3c9801c81cb50ed19153bee86e6e9720b8435b7f5c7a1599da99dd115b6f",
+      "mtimeNs": 1789320582115622364
+    },
+    {
+      "path": "ceremony-03-reporter.json",
+      "bytes": 6635,
+      "sha256": "c9fb03c7b2a31e3d9b319299b828c6b145cf2bf127843c8e3b9f52485213c068",
+      "mtimeNs": 1789320582115377071
+    },
+    {
+      "path": "ceremony-applause-events.json",
+      "bytes": 3445,
+      "sha256": "66c3ce7a4b250fa959fc65dc924bb625f86cd0b285c2347855c039eff8fae9b5",
+      "mtimeNs": 1789320408161088320
+    },
+    {
+      "path": "ceremony-cheer-events.json",
+      "bytes": 3374,
+      "sha256": "c2b92302f2adb114380c45b9964b1a0a8fdc4e7dee65a9f6409889bf43cba916",
+      "mtimeNs": 1789320443705099825
+    },
+    {
+      "path": "ceremony-compact-events.json",
+      "bytes": 3403,
+      "sha256": "c90fff10d88b91f606c97497ffe7067b905fb58344d6a3c0401f6fc4ed5f98b6",
+      "mtimeNs": 1789320513127293105
+    },
+    {
+      "path": "ceremony-reduced-events.json",
+      "bytes": 3402,
+      "sha256": "059422cc46bbefb860cc8ca27024f915aea115a5e93f931a8ee65bf500e10505",
+      "mtimeNs": 1789320478727462115
+    },
+    {
+      "path": "f11-applause-response-393.png",
+      "bytes": 534335,
+      "sha256": "65484752c18228cc8849c3f5094fd403e79cabd1f527434f81dddc76d0251079",
+      "mtimeNs": 1789320394231896831
+    },
+    {
+      "path": "f11-applause.webm",
+      "bytes": 4967380,
+      "sha256": "3772410bebe6e5223800cd82c0dea3371be4be3ba9bc46dc0f0cb541ee78fc51",
+      "mtimeNs": 1789316730630756675
+    },
+    {
+      "path": "f11-cheer-response-393.png",
+      "bytes": 531196,
+      "sha256": "e05b0c5043f6cf6af4d249ced914121f06d5120939e75d841822e7e55086ae2b",
+      "mtimeNs": 1789320430404024302
+    },
+    {
+      "path": "f11-cheer.webm",
+      "bytes": 5420198,
+      "sha256": "51ed6618b10f8bbd307085b0c5ba5301ef4d8133d62bf7e32250ba0d15525102",
+      "mtimeNs": 1789316742965326134
+    },
+    {
+      "path": "f11-compact-response-320.png",
+      "bytes": 363753,
+      "sha256": "674fc73c17d6f8bbfb59de7a72e1366793f789dbacb1c3a2263d7e97bbe6c3bc",
+      "mtimeNs": 1789320500570533954
+    },
+    {
+      "path": "f11-keyboard-bride-desktop.png",
+      "bytes": 1165601,
+      "sha256": "14e3d14ce9f402fe063f1b4988f81cb34acab5abdd7346cd31516f53a120f627",
+      "mtimeNs": 1789320221759424190
+    },
+    {
+      "path": "f11-keyboard-groom-desktop.png",
+      "bytes": 1170252,
+      "sha256": "5c4df40b379036f8a713b40e3c8c5fecfa729401bb2a3938dc910fe550d5bff7",
+      "mtimeNs": 1789320266701081962
+    },
+    {
+      "path": "f12-booth-controls-no-overlap-393.png",
+      "bytes": 474630,
+      "sha256": "ce4bb8d2db0af650ce1280d0f82f2dbcf2bff6278fb55d8a2a04bbf698e10149",
+      "mtimeNs": 1789320528494356878
+    },
+    {
+      "path": "f12-booth-result-393.png",
+      "bytes": 300879,
+      "sha256": "167073466e56d4dc4f56b00fd98ba402a7e39f9026421fbe4a0ecf8f278e53c0",
+      "mtimeNs": 1789320529868735438
+    },
+    {
+      "path": "f12-booth.webm",
+      "bytes": 9212460,
+      "sha256": "60b35bb2f194b44144d2009827460b469802d4c52321d8d2bfa87ffea07553e1",
+      "mtimeNs": 1789316707984949522
+    },
+    {
+      "path": "f12-bridal-result-393.png",
+      "bytes": 282528,
+      "sha256": "2b5eb5579cd73c67a6ad50037ad7b6ea91770d2a8b38c534b5f5d9497e170ec1",
+      "mtimeNs": 1789320550030791476
+    },
+    {
+      "path": "f12-bridal.webm",
+      "bytes": 7618128,
+      "sha256": "b1e620bacb90b24ef72966628abae7f9c92b95d89f5dcd3d57143e585939f27a",
+      "mtimeNs": 1789316721326288598
+    },
+    {
+      "path": "f12-notebook-keepsakes-393.png",
+      "bytes": 359208,
+      "sha256": "7a7a56cf4ce24fe09508bbacd84a6974e510110a556ecf43d6e28863e1ab5f33",
+      "mtimeNs": 1789320556640321037
+    },
+    {
+      "path": "f13-booth-result-320.png",
+      "bytes": 211811,
+      "sha256": "7912d75b59193e7621421ed89b2363e387c2b1bb98d9013ed3cd6a63af3c585d",
+      "mtimeNs": 1789320539264060313
+    },
+    {
+      "path": "f13-bridal-result-320.png",
+      "bytes": 196994,
+      "sha256": "0656d94bb6e5dd51e54f6e8fdb4759a72fb7d232f801d139248a3d22437ae380",
+      "mtimeNs": 1789320563018560376
+    },
+    {
+      "path": "f13-bridal-result-430.png",
+      "bytes": 318988,
+      "sha256": "11b291538c4e939d35bbafab9d0a478bcbc764960b155faebf22c4b263273f18",
+      "mtimeNs": 1789320563091423502
+    },
+    {
+      "path": "f13-photo-result-430.png",
+      "bytes": 343268,
+      "sha256": "1c38b8f228485130a43dac109b659df80b1da25239d09f7175b0e413124fe1c0",
+      "mtimeNs": 1789320539348043813
+    },
+    {
+      "path": "f14-group-bride-393.png",
+      "bytes": 466495,
+      "sha256": "5940c1b099463d55a0d709fcc5efbb107b6c1287c22faf9c96e1a10ce773f824",
+      "mtimeNs": 1789320397981359899
+    },
+    {
+      "path": "f14-group-groom-393.png",
+      "bytes": 466722,
+      "sha256": "a9cb467e44fdd33827c94b8dcac511db722c603a6442be5e914ff7f879a4ae33",
+      "mtimeNs": 1789320434285150308
+    },
+    {
+      "path": "f14-group-reduced-320.png",
+      "bytes": 1437294,
+      "sha256": "328fb9821f3569b48fe86ca0dd2c4b568c031cfbf1461a33a934465807c64119",
+      "mtimeNs": 1789320469738457680
+    },
+    {
+      "path": "f15-lobby-revisit-no-banner-393.png",
+      "bytes": 516358,
+      "sha256": "3124f03c32a7215d7f4e254968b37fc293f2570f375f07b029ee0450d92c3537",
+      "mtimeNs": 1789317248750312369
+    },
+    {
+      "path": "f15-reception-acknowledged-393.png",
+      "bytes": 492152,
+      "sha256": "9c3d2a57972a023809d246fa1599b8fba9311669b630c6b2d7e3842b382cbb84",
+      "mtimeNs": 1789317240919195881
+    },
+    {
+      "path": "f15-reception.webm",
+      "bytes": 10893132,
+      "sha256": "11eaf366c8e1c855286d4066601fbf0123add5bf3baa684ea793fdcf505bf98e",
+      "mtimeNs": 1789316924943814930
+    },
+    {
+      "path": "final-verification.json",
+      "bytes": 85803,
+      "sha256": "8fd296abb93681dbff59985a944e5eeabbf2c6d85d9bfd8d3d7f31b87767052c",
+      "mtimeNs": 1789320581711050813
+    },
+    {
+      "path": "keyboard-photo-result-desktop.png",
+      "bytes": 830010,
+      "sha256": "42b8c5f5b9d1c4f58626fe48436cd6565b057b7df7c86962e272394d8a8fc4e9",
+      "mtimeNs": 1789320188180754394
+    },
+    {
+      "path": "legacy-asset-check.json",
+      "bytes": 486,
+      "sha256": "2bb07d6d3ba46e50d62ba5a0a2363535708e8d3f13be268a74ac33b9d359403d",
+      "mtimeNs": 1789315838339970367
+    },
+    {
+      "path": "logs/assets-01.log",
+      "bytes": 9518,
+      "sha256": "f932a7f72a79401b1e50d9c5915d4767baa6d90049ed59bb64999406055f929a",
+      "mtimeNs": 1789315074603444562
+    },
+    {
+      "path": "logs/assets-02.log",
+      "bytes": 3253,
+      "sha256": "d08262e463a4164120644cb8efae4bd536d6d4755aeebef8ecf03955249013de",
+      "mtimeNs": 1789315207374396130
+    },
+    {
+      "path": "logs/build-01.log",
+      "bytes": 843,
+      "sha256": "0e63aa9d64280620cff41d0b65de92cbde0df81805cdb3c4bde61717ca3fbc1a",
+      "mtimeNs": 1789315073389591184
+    },
+    {
+      "path": "logs/build-final.log",
+      "bytes": 843,
+      "sha256": "f15e5a3fa256432fb69da6cb2c9e028a2100aae129eeca6718ddd87aaf7f9799",
+      "mtimeNs": 1789315962228633122
+    },
+    {
+      "path": "logs/ceremony-01.json",
+      "bytes": 24068,
+      "sha256": "b56f544b8ec00e09de154c8ed6c7df22a69f2233d946ae7365a8da014190ebc2",
+      "mtimeNs": 1789314471066259908
+    },
+    {
+      "path": "logs/ceremony-01.log",
+      "bytes": 7349,
+      "sha256": "f23e320d09cd44691810c9469cc636f619dc2dd2c05a42682c227d32df1c2177",
+      "mtimeNs": 1789314471064491254
+    },
+    {
+      "path": "logs/ceremony-02.json",
+      "bytes": 24211,
+      "sha256": "0f5bf14890f0314f9b5637ec4436984a5a26024ca0ed239a4da891d580bc6450",
+      "mtimeNs": 1789314750107090177
+    },
+    {
+      "path": "logs/ceremony-02.log",
+      "bytes": 7423,
+      "sha256": "32f8fac328b311eb24aebdc768b4dc4436d474785b20cf7fa13464bc0dcb105d",
+      "mtimeNs": 1789314750105055657
+    },
+    {
+      "path": "logs/ceremony-03.json",
+      "bytes": 6634,
+      "sha256": "acaa55d6a0ae90d2c524e6dae1a4349d481672be047f7d1693893905ccd85c29",
+      "mtimeNs": 1789314874497214813
+    },
+    {
+      "path": "logs/exploratory-photos.md",
+      "bytes": 1278,
+      "sha256": "d92bc65b2ed49624a4014e9dc819e5b5481420097d7bd68d5eeeb0e3e00be7e0",
+      "mtimeNs": 1789315347595404595
+    },
+    {
+      "path": "logs/finalize.log",
+      "bytes": 2189,
+      "sha256": "8d3615f888d21e2ffbdd6e286a88f8fa23be5b19521c60db1328723f1dde27ea",
+      "mtimeNs": 1789320582148934362
+    },
+    {
+      "path": "logs/production-final.json",
+      "bytes": 34471,
+      "sha256": "f835d2618f528da2eafe63160e413d2b6e2501236fe760dba78f7530c5987b36",
+      "mtimeNs": 1789320564076347165
+    },
+    {
+      "path": "logs/production-final.log",
+      "bytes": 3021,
+      "sha256": "ba543a8143b9624353361e5026b524a1c6455de9b439ee38c8293addceef1c08",
+      "mtimeNs": 1789320564074583152
+    },
+    {
+      "path": "logs/reception-01.json",
+      "bytes": 5443,
+      "sha256": "180b3d975063c0619dc76d3b65f5b51eee14e9bbf32d6c5ee480d5d71fa4a8ad",
+      "mtimeNs": 1789314967982352929
+    },
+    {
+      "path": "logs/refinement-02.json",
+      "bytes": 663455,
+      "sha256": "db9c074148e4d792917287a624a0c2696663218279154c0a2634e7f0b0edcca6",
+      "mtimeNs": 1789316147905413731
+    },
+    {
+      "path": "logs/regression-all-01.json",
+      "bytes": 17286858,
+      "sha256": "c379427af49a4d22f4b56a563bd861e76476989a76f75d643b0543a5101f3b92",
+      "mtimeNs": 1789315900783238461
+    },
+    {
+      "path": "logs/regression-final.json",
+      "bytes": 17300989,
+      "sha256": "1659a7042d1b9641787bff011dae5d6ea50e2b49c0108d22a14d6a8e770ce5e6",
+      "mtimeNs": 1789317278115039966
+    },
+    {
+      "path": "logs/regression-final.log",
+      "bytes": 14130,
+      "sha256": "6bbce2eff29c76e2007d310e80228145a26d46857cb5ba3155d7f84dc8e76a67",
+      "mtimeNs": 1789317278054768580
+    },
+    {
+      "path": "logs/video-export-02.log",
+      "bytes": 441,
+      "sha256": "8f28d241476c380202e6c14cfbdac2d0629871a73bd15de1ae9555d2191a3521",
+      "mtimeNs": 1789316755207215720
+    },
+    {
+      "path": "logs/video-export.log",
+      "bytes": 1636,
+      "sha256": "3c0d1510e22ab7f6b95174daf022645f34d0951e0693040a12317049cb0d3010",
+      "mtimeNs": 1789316647905177182
+    },
+    {
+      "path": "logs/video-final.log",
+      "bytes": 1310,
+      "sha256": "26d6cb5e4833ce87ff03e6849a4960da0ef937922c2535a801ba0936c69db809",
+      "mtimeNs": 1789320448844847864
+    },
+    {
+      "path": "performance-summary.json",
+      "bytes": 367,
+      "sha256": "054db458273513be85be30b48f70d2fb9a735012d14e97f1176dca9ef40a7c4f",
+      "mtimeNs": 1789320582147247558
+    },
+    {
+      "path": "photo-events.json",
+      "bytes": 16779,
+      "sha256": "e03ecb91e6d6f076f5f2b531f1781b0f1cc09c3ce60d50ad1ab221a3de86b7e8",
+      "mtimeNs": 1789320563859167673
+    },
+    {
+      "path": "production-final-reconciliation.json",
+      "bytes": 10564,
+      "sha256": "76901d031a57eeec797b5d49a3eb28767fba8af19aa35c2bd07f7ab37bf58e95",
+      "mtimeNs": 1789320581707073533
+    },
+    {
+      "path": "production-final-reporter.json",
+      "bytes": 34472,
+      "sha256": "43ce096d3240c10751b50764b29cae4d06b0ff98f553ba5a6d0a93537c4deae0",
+      "mtimeNs": 1789320581706659072
+    },
+    {
+      "path": "protection-checks.json",
+      "bytes": 946,
+      "sha256": "aed81ded3a33555ac1f6668acf653f1cf9d8645a06575c3e1e34da673ccff152",
+      "mtimeNs": 1789315427916654099
+    },
+    {
+      "path": "reception-01-reconciliation.json",
+      "bytes": 1734,
+      "sha256": "e8072813eda6c6545782ff14bdf48a1387a7c6552829a9a2e0b26898adaaaa79",
+      "mtimeNs": 1789320582143793991
+    },
+    {
+      "path": "reception-01-reporter.json",
+      "bytes": 5444,
+      "sha256": "7ca13e3f08f646b48d5297c9392e4c9047a62588345bece39264a2fe0b330783",
+      "mtimeNs": 1789320582143506405
+    },
+    {
+      "path": "reception-events.json",
+      "bytes": 1693,
+      "sha256": "07dff12cd268747035b8cdbba223816bc09c7c25fe51253bdd63b296457f22dc",
+      "mtimeNs": 1789317249237542884
+    },
+    {
+      "path": "reception-pause-events.json",
+      "bytes": 1318,
+      "sha256": "36389a53da1117c6f478e344586057c5b375d887c0e8e6cf02bb7476f710d088",
+      "mtimeNs": 1789317277308610113
+    },
+    {
+      "path": "reduced-motion-response-393.png",
+      "bytes": 1927562,
+      "sha256": "40f95fea0693ff37ff078780e4988d7ff762952486940c85fc6ada676a00276f",
+      "mtimeNs": 1789320465953887308
+    },
+    {
+      "path": "refinement-02-reconciliation.json",
+      "bytes": 8900,
+      "sha256": "b26dacd3b0370e1ffe6b4327a9e87c76000ccbaa1711baf9343397457b94eb4a",
+      "mtimeNs": 1789316168968256440
+    },
+    {
+      "path": "refinement-02-reporter.json",
+      "bytes": 31254,
+      "sha256": "350f8218485f9e940ae3830121088c3aa3e49074005cb8564febfe239f5e80f4",
+      "mtimeNs": 1789316168967946242
+    },
+    {
+      "path": "regression-all-01-reconciliation.json",
+      "bytes": 75217,
+      "sha256": "7938f0df86e46f5b46a9a9fa495b01a7d710e6c4c7086954e52fae00e1c40744",
+      "mtimeNs": 1789315959169721594
+    },
+    {
+      "path": "regression-all-01-reporter.json",
+      "bytes": 213618,
+      "sha256": "13593cba6c2fcedb87137ed216e401087acdfabfb3fcf20034284ba1f28ae7c9",
+      "mtimeNs": 1789315959161899253
+    },
+    {
+      "path": "regression-final-reconciliation.json",
+      "bytes": 64276,
+      "sha256": "aa09998ad23ebb62c8965d48c38327217640167d2262c1e2883ccd27e2d5c321",
+      "mtimeNs": 1789320581400218416
+    },
+    {
+      "path": "regression-final-reporter.json",
+      "bytes": 203957,
+      "sha256": "88a7c81504b0a54624a7e991ffe7659958f013d8e9721976cd250914ad572ce9",
+      "mtimeNs": 1789320581399498119
+    },
+    {
+      "path": "regressions/f02-invalid-wall-tap-393.png",
+      "bytes": 516404,
+      "sha256": "ee7dd47eda0d27d587b882ea82cfae833935714d5356ebaa1db536f5d9586f88",
+      "mtimeNs": 1789316915679067860
+    },
+    {
+      "path": "regressions/f02-valid-edge-route-393.png",
+      "bytes": 515910,
+      "sha256": "99d4c02df2ddaf3b10a1da1f474415136af6b2c8d06c08428e5192225b2c9cb8",
+      "mtimeNs": 1789316917254044612
+    },
+    {
+      "path": "regressions/f07-car-guidance-393.png",
+      "bytes": 400145,
+      "sha256": "c7f5cc8df6c53d79522c781e01817108e67212fd6ab75379094c4ddd9501112c",
+      "mtimeNs": 1789320300725116948
+    },
+    {
+      "path": "regressions/f07-car-wrong-retry-393.png",
+      "bytes": 392042,
+      "sha256": "0a026d5e106fa703615a6d02f7f0acc03de6c2f72d0264acc781f886cd3f88f8",
+      "mtimeNs": 1789320308780084848
+    },
+    {
+      "path": "regressions/f07-subway-guidance-393.png",
+      "bytes": 317646,
+      "sha256": "81d358abcb364639ece657530c4a702d2f968d7e6b52a9cd1e3443793a811c55",
+      "mtimeNs": 1789320319326190161
+    },
+    {
+      "path": "regressions/f07-subway-wrong-retry-393.png",
+      "bytes": 318416,
+      "sha256": "d8136b0ae0687831a4663af8002d4a9c0329c3375039d300995d02f454d260af",
+      "mtimeNs": 1789320326051320749
+    },
+    {
+      "path": "regressions/f08-ending-skip-message-393.png",
+      "bytes": 206408,
+      "sha256": "873fb619437aa7f74df1e8623637dff565312cbb1a99f9877d2efa5b0f82b8e4",
+      "mtimeNs": 1789320294300052343
+    },
+    {
+      "path": "regressions/f08-invitation-access-lobby-393.png",
+      "bytes": 516318,
+      "sha256": "03445769250483cd7feb20173205203b0ab52f472c250d9c1028efe17c6625f8",
+      "mtimeNs": 1789320167531550439
+    },
+    {
+      "path": "regressions/f09-later-load-retry-393.png",
+      "bytes": 10093,
+      "sha256": "875872bb61d681ff14406f06c9dabba90534e80fe67b7e1a64e998d131ce56a4",
+      "mtimeNs": 1789320355872756960
+    },
+    {
+      "path": "regressions/f09-opening-loading-state-393.png",
+      "bytes": 7192,
+      "sha256": "010800279208cc8f65a29be3824bd0c2f37b31e66b4c5ee59d73fdd26833d531",
+      "mtimeNs": 1789320352137785332
+    },
+    {
+      "path": "regressions/f10-intro-keyboard-focus-desktop.png",
+      "bytes": 1143341,
+      "sha256": "1cfcfa308e3fb8530b6515a3fa6546a7099b0498938d9a7a182970f34e9e9a54",
+      "mtimeNs": 1789320169478122216
+    },
+    {
+      "path": "regressions/f10-lobby-keyboard-destinations-desktop.png",
+      "bytes": 922514,
+      "sha256": "16509c1f4bebb852db686d6c163ca8b63da65a2b97a201210cfc6571094c56cc",
+      "mtimeNs": 1789320181125648142
+    },
+    {
+      "path": "regressions/load-recovery.json",
+      "bytes": 379,
+      "sha256": "433bd07d92830d1a0926e2ddda7465aa300f22bbbd4f04baa9d3d0021bb167a2",
+      "mtimeNs": 1789320362363188218
+    },
+    {
+      "path": "regressions/performance-car.json",
+      "bytes": 7342,
+      "sha256": "083727c54c9b74993f51c591031b06d168f471280a7a50b091aea7c29b664e36",
+      "mtimeNs": 1789320342050487683
+    },
+    {
+      "path": "regressions/performance-subway.json",
+      "bytes": 7331,
+      "sha256": "3f63c5b6dee114c545d0b7dceca3a8ddc706f4d10b3564c1a870eb51da25c423",
+      "mtimeNs": 1789320351848137635
+    },
+    {
+      "path": "runs/ceremony-01/.last-run.json",
+      "bytes": 194,
+      "sha256": "5f1ad4d84e3aa8b6a37d062635df70aadb96508290b3ff5502c1e1c176348af7",
+      "mtimeNs": 1789314471066734102
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15260,
+      "sha256": "9f247cea94035417d6de97e0c5ff0c5b406bcbcea5f62c2f46c1848b061a628a",
+      "mtimeNs": 1789314471007801174
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@d8012043ca2f8b0a867f03532f2a31dc.webm",
+      "bytes": 2097152,
+      "sha256": "084f0bc12a47ebbd835093a5381f5946c3658ce881ec5ca2745c181b0ce0739a",
+      "mtimeNs": 1789314463468344932
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15142,
+      "sha256": "ceacd15336840ee8c7f2279f24e6135afc4387d8754d763089ff706a5617367b",
+      "mtimeNs": 1789314410872628969
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@13319a38c81dcdce33a0c48e1993d8dc.webm",
+      "bytes": 4077173,
+      "sha256": "72664e5e917541a960f19e7eb313bf3c409723f02fe0a5a976a16ec1a02ccf47",
+      "mtimeNs": 1789314410902901745
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15258,
+      "sha256": "e7831ffc55d30382043f6b1a33a96fb1fda481202babd494b832eaa18460daa5",
+      "mtimeNs": 1789314441984508250
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@344cc163bba3f107a6caea73f014c378.webm",
+      "bytes": 2863215,
+      "sha256": "00ac1459c8b006c686919b5841010f6c81757f4338f00b9686f33dc55a0f804b",
+      "mtimeNs": 1789314442012487427
+    },
+    {
+      "path": "runs/ceremony-02/.last-run.json",
+      "bytes": 194,
+      "sha256": "5f1ad4d84e3aa8b6a37d062635df70aadb96508290b3ff5502c1e1c176348af7",
+      "mtimeNs": 1789314750107903277
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15260,
+      "sha256": "157893fb0c36a46d100ffc26bf1d38bb912a1d80b6b05d8c11dbb5284e71d208",
+      "mtimeNs": 1789314750026649623
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@d04b655bd6167b451c21e9f718dcf056.webm",
+      "bytes": 2097152,
+      "sha256": "d07ea51ce36294db09468636182b64082ecb00b5ee00a63a04fa4154aad5f88e",
+      "mtimeNs": 1789314741031834455
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15261,
+      "sha256": "019c21a4b89e99c88933ebfda9c79d2433b40fe55203a8f42785c4b2fd3495ac",
+      "mtimeNs": 1789314728472586975
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@feaa78437c33e5daf5205d4eacc77fb8.webm",
+      "bytes": 4052700,
+      "sha256": "c35fc8f6ae2e3bd6b5cd37c3898b007f65ff7bee9ea48f85f60cd83e2a00da88",
+      "mtimeNs": 1789314728506623839
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15258,
+      "sha256": "42717e9d38c63568d069e1a2654928f497b454ce61c7b1b3bca65618239c0e1d",
+      "mtimeNs": 1789314719667355736
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@2168d48127d5e9b2cf8a2400cb7ac7b1.webm",
+      "bytes": 3066445,
+      "sha256": "23aea05c0f198aee08c78f1eca3b7fa05038fc9ff5c533604eddc5739dab435a",
+      "mtimeNs": 1789314719704442423
+    },
+    {
+      "path": "runs/photos-01/.last-run.json",
+      "bytes": 96,
+      "sha256": "6819c2b8e9e376acaa82272ecb0d8878766914c1819444c778749d23b8bc60d0",
+      "mtimeNs": 1789313444780781383
+    },
+    {
+      "path": "runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/error-context.md",
+      "bytes": 10172,
+      "sha256": "e3ccca2c9803d3e64fbe71f4eb7133611baa571563d5000dd0597e1d02e10d7e",
+      "mtimeNs": 1789313444735867626
+    },
+    {
+      "path": "runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 2644502,
+      "sha256": "dfaddf0d21b69df38a2f29be2632b62162f54625bd65359a54cde03d2575544c",
+      "mtimeNs": 1789313444734111483
+    },
+    {
+      "path": "runs/photos-02/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "mtimeNs": 1789313800293600189
+    },
+    {
+      "path": "runs/photos-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 5332114,
+      "sha256": "28aeea33b02c2860fb20920a545cac11a6b199dfa9e78126b85e02937bbe988c",
+      "mtimeNs": 1789313800245468982
+    },
+    {
+      "path": "runs/production-final/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "mtimeNs": 1789320564076736001
+    },
+    {
+      "path": "runs/production-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium-production/video/page@e2a3774ba028db7ab5c3e506bd446624.webm",
+      "bytes": 3617933,
+      "sha256": "ca28c818cae4d826908f41e7f7a4eb57ff9e52c3695004f24f49466ec95ece2d",
+      "mtimeNs": 1789320478721087401
+    },
+    {
+      "path": "runs/production-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium-production/video/page@991b393e8f92797facf02ca902c4efa3.webm",
+      "bytes": 5069063,
+      "sha256": "bf597715bbb365d2b6b8131709830c67730df6ee2f6cfd743ea4dd7439092546",
+      "mtimeNs": 1789320408157232499
+    },
+    {
+      "path": "runs/production-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium-production/video/page@9ff15cb6915638b3e33363d5119047fb.webm",
+      "bytes": 3648875,
+      "sha256": "0d9731226ac946d359ea6086ced30cc6e183d4c41bb5f150524c5cba98d04436",
+      "mtimeNs": 1789320513121490562
+    },
+    {
+      "path": "runs/production-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium-production/video/page@7659c9232747feb45f29610b7c61316e.webm",
+      "bytes": 3904454,
+      "sha256": "8f23f23ef81da38e4af49d5e15b55fc5da3d5bf6eecd3cdff449426a2b60be80",
+      "mtimeNs": 1789320443701284213
+    },
+    {
+      "path": "runs/production-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium-production/video.webm",
+      "bytes": 5220234,
+      "sha256": "854a95a1c290a5d94be28a748309595c7c2382eb044ec77104f235d18657590f",
+      "mtimeNs": 1789320563935811952
+    },
+    {
+      "path": "runs/refinement-02/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "mtimeNs": 1789316147905676264
+    },
+    {
+      "path": "runs/refinement-02/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/groom-reception.png",
+      "bytes": 486437,
+      "sha256": "69c3de3c8ad43eea497f7b9be19558b79b05316aedc48e5fdb942cc62fb390d3",
+      "mtimeNs": 1789316017940142396
+    },
+    {
+      "path": "runs/refinement-02/reception-only-single-rece-6f818-movement-and-completes-once-chromium/bride-reception.png",
+      "bytes": 486306,
+      "sha256": "48f9f5e5bb12f75a2e8248aefa575aa33100fcde1d8796b41fc729bf3ff9536c",
+      "mtimeNs": 1789316024145623865
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@f170e480bc3d1ebeacb6e52af1759af5.webm",
+      "bytes": 5228328,
+      "sha256": "94c6d1a83c80dee2f9847a6c43805098bb4687bffdc695b0a16bd6bc3b5a25d9",
+      "mtimeNs": 1789316083971563775
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@7624ddfd2d7e9dc41cb8af42bf87eb40.webm",
+      "bytes": 6808324,
+      "sha256": "e55501e53aaf1e63faa10b7f8582cc6edfe0bd89e1f09fe32032e0c353ff3482",
+      "mtimeNs": 1789316062552563913
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium/video/page@bd266f5d6a376f598815bbe87e7859a9.webm",
+      "bytes": 5493605,
+      "sha256": "bec7ee06ffd69b054b0c6af187a04f53c6ca9eb5c4e20e9c881a4fc575a2023e",
+      "mtimeNs": 1789316125783847762
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@feac90e2fe35c66f7e50fc81109106c7.webm",
+      "bytes": 6092688,
+      "sha256": "92c5fb8a1566df9b3e95b941a2eb516c44b283bc14fbac6e6f9bc912de5fbfe3",
+      "mtimeNs": 1789316093614626395
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 6196228,
+      "sha256": "de3a10a1631557e515d1d806d78be91a3958af173f4338aee5a9d28ddf374c1c",
+      "mtimeNs": 1789316145625368617
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+      "bytes": 2540527,
+      "sha256": "f5261f0bcba3e3677e681b1adfcbb81685b93c763bcf38e9ce7b274d197adf41",
+      "mtimeNs": 1789316147715713264
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+      "bytes": 2964607,
+      "sha256": "17f4429f875209b986d4de594e3a4dffe613fcc43d7026b3e34433af85a4fd71",
+      "mtimeNs": 1789316121668595111
+    },
+    {
+      "path": "runs/regression-all-01/.last-run.json",
+      "bytes": 341,
+      "sha256": "98aebe86c6af2f7b1b792f64567a55a87d2a4ca4b777ada75864086eaac1e8a1",
+      "mtimeNs": 1789315900784433882
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/bridal-seated.png",
+      "bytes": 419007,
+      "sha256": "ead706d41cb9514493c165a0c8a25e22e068d15833dcaf11aa5041848bc41f32",
+      "mtimeNs": 1789315110683301909
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/car.png",
+      "bytes": 408930,
+      "sha256": "c6d77b4b530dc7f61a888fb123cbe2d639b658bb93666ba755ba00b2c83c320a",
+      "mtimeNs": 1789315084718325341
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/group-photo.png",
+      "bytes": 496894,
+      "sha256": "6ee649921e7652d21aaf36b820066add04ebabc6d0520a495742fba45fd6e8b6",
+      "mtimeNs": 1789315132631596361
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/lobby.png",
+      "bytes": 516277,
+      "sha256": "665c952c96b394df359bf043c879475afce52b4d3af493d6cde8684f7e16d3c6",
+      "mtimeNs": 1789315091054974128
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/parents.png",
+      "bytes": 401374,
+      "sha256": "87f64ad3337c2d86b3be78d7e10a1e53599af7a3441cfcfddefa23bd31d92561",
+      "mtimeNs": 1789315095114252635
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/v-pose.png",
+      "bytes": 474636,
+      "sha256": "3a5d0749fabca12ec819aa4b94343260669e3d6934d4fd06328ed9f493a3097f",
+      "mtimeNs": 1789315100427269704
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/car.png",
+      "bytes": 329808,
+      "sha256": "a1b8fb63fa11d39bcbb3432b8f49e0a14810624b93954dace1b442e12024713a",
+      "mtimeNs": 1789315085324370390
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/group-photo.png",
+      "bytes": 497480,
+      "sha256": "d3beb99a0e10d7b6ef3ea13669610945ec9ff02f3736b15ba902267d2fa01ab9",
+      "mtimeNs": 1789315108336649438
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/lobby.png",
+      "bytes": 516339,
+      "sha256": "7bb64229457a61d624b82257a060c3d485d728a046be7d07bbd0be9e6cce0df1",
+      "mtimeNs": 1789315091006491002
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/parents.png",
+      "bytes": 394746,
+      "sha256": "18ccd7ac5d82cc9be3429a54971668fa4088ae53836717c74131dccceab1750c",
+      "mtimeNs": 1789315095042454731
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/v-pose.png",
+      "bytes": 474625,
+      "sha256": "91c56054e96e2454a8a5a84d09b8090c481f76e82c000cd5c4a5dffeb43f0323",
+      "mtimeNs": 1789315100312226887
+    },
+    {
+      "path": "runs/regression-all-01/dinner-pacing-banquet-trav-8409b-parture-stays-at-the-buffet-chromium/departure-at-buffet.png",
+      "bytes": 483177,
+      "sha256": "30d4e28a2560759f08fd5b14d703f4eb21347520162cd24ceedb9dc2345867db",
+      "mtimeNs": 1789315158543393074
+    },
+    {
+      "path": "runs/regression-all-01/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/family-chrysanthemum.png",
+      "bytes": 39725,
+      "sha256": "86abf046d4208ae853f3a4501a092f14845b9451f010a3042c979a8bc3dc27d1",
+      "mtimeNs": 1789315150359310835
+    },
+    {
+      "path": "runs/regression-all-01/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/original-photo-countdown.png",
+      "bytes": 199470,
+      "sha256": "1e0b7e97f07c3d968744763cae5aeac3fefc8c3be3a03703de860297bac07cae",
+      "mtimeNs": 1789315151275590624
+    },
+    {
+      "path": "runs/regression-all-01/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/family-chrysanthemum.png",
+      "bytes": 54414,
+      "sha256": "eb1e61813a0f7f12a226b17cf6de66b4a24b9b1a2f08205c3ea65542047cd73f",
+      "mtimeNs": 1789315154787746552
+    },
+    {
+      "path": "runs/regression-all-01/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/original-photo-countdown.png",
+      "bytes": 239862,
+      "sha256": "2d78bf566e7bd14d299290d362c551493f5fdc99ff55a248b01c6b4357d218ea",
+      "mtimeNs": 1789315155699535813
+    },
+    {
+      "path": "runs/regression-all-01/invitation-game-guest-keep-be038-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 34075,
+      "sha256": "20a78c9085d34c3632901aa5bd5fbd5994028be119bd6d499fabb23c0038a51c",
+      "mtimeNs": 1789315178156686278
+    },
+    {
+      "path": "runs/regression-all-01/invitation-game-guest-keep-cf9e3-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 33829,
+      "sha256": "1a01632708092996c9f3ad7297d581c4ca0f96b4645eeff80aa3fbe42bed58a5",
+      "mtimeNs": 1789315178198792143
+    },
+    {
+      "path": "runs/regression-all-01/invitation-minimi-group-pa-52609-without-covering-the-couple-chromium/minimi-full-group.png",
+      "bytes": 187125,
+      "sha256": "8a58d0a8130b0dcc3e93bc378ac7a5a91ec61a511cb7a3b59c17be00b4a93e04",
+      "mtimeNs": 1789315183381933686
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-bridal-room.jpeg.png",
+      "bytes": 139020,
+      "sha256": "ce74e408a70f70c5a9270a44cf90938c110e48b78c639b215ed14fcf0f4f4152",
+      "mtimeNs": 1789315160403717251
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-atm.jpg.png",
+      "bytes": 164273,
+      "sha256": "c5c877f621409b429f63c39f275ddf287f8bed4e065cda7702b89b7980f405b7",
+      "mtimeNs": 1789315160250294621
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-banquet.jpg.png",
+      "bytes": 175744,
+      "sha256": "703db01a0f2ec5de69f1fad037016e56a002b856021d5c8a708d83cb74d5c210",
+      "mtimeNs": 1789315160324615239
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-photo-booth.jpg.png",
+      "bytes": 174240,
+      "sha256": "516c6672ead9ace4cd56a06cac203cbdc7f0afc4c351d074713c4ded994308ea",
+      "mtimeNs": 1789315160176370824
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-welcome.jpg.png",
+      "bytes": 169189,
+      "sha256": "65e32dd3f6c1934d0dad5acd6bebc333871c6d03d5e6c919f754cc69a10bc63a",
+      "mtimeNs": 1789315160092530875
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-bridal-room.jpeg.png",
+      "bytes": 109305,
+      "sha256": "08492e77fc645e04cae5ab5deb7ac439db9b0b212f2fab8f1fc433bfea6c09c5",
+      "mtimeNs": 1789315159513590029
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-atm.jpg.png",
+      "bytes": 118477,
+      "sha256": "bc0ce1e128f28c61464b770ff46df23cbf8a9300e22fdaf981c361c70c0b77d8",
+      "mtimeNs": 1789315159371828538
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-banquet.jpg.png",
+      "bytes": 136043,
+      "sha256": "cfceb0b6fafa11131f6239140a77de0a3f62c7dc444fb5ceb6fa2409a8437b9f",
+      "mtimeNs": 1789315159446321234
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-photo-booth.jpg.png",
+      "bytes": 122497,
+      "sha256": "1bb9c09d689dd91ffe62075a5ab57e32886a5c43b010f85777917e5f03ad46ef",
+      "mtimeNs": 1789315159304920065
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-welcome.jpg.png",
+      "bytes": 117664,
+      "sha256": "698710c4d3d97ad3d5597f7f6d74e1eea46a8c807b4958186093eabe4d505250",
+      "mtimeNs": 1789315159231041558
+    },
+    {
+      "path": "runs/regression-all-01/invitation-profile-cards-stay-inside-the-game-at-1440px-chromium/profile.png",
+      "bytes": 627350,
+      "sha256": "82648f39ce5eb20181d5c55e3e88666328e4a725cd9372606df0b68b75a13c0d",
+      "mtimeNs": 1789315183033288926
+    },
+    {
+      "path": "runs/regression-all-01/invitation-profile-cards-stay-inside-the-game-at-320px-chromium/profile.png",
+      "bytes": 128210,
+      "sha256": "57e03e157af4c7a22e6d34188e6e12d5a524a70184e63d64926257e5bc52bd16",
+      "mtimeNs": 1789315180852969686
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/message-postcard.png",
+      "bytes": 35412,
+      "sha256": "e3b57a29a502928bd627b8e0b5b8c3d5ef791185f93fc1afb329f3353c7d11cb",
+      "mtimeNs": 1789315167199259098
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/thirty-friends.png",
+      "bytes": 194517,
+      "sha256": "308fc853aa4e8871308ee1987647f85f6b28afb428059c4988728dc4c924d675",
+      "mtimeNs": 1789315167105028053
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/character-selection.png",
+      "bytes": 148694,
+      "sha256": "a61c8112695fa5efabeb30d8f8f4900dfc7c4e7b210bd929ffa8884b0b3e6ae4",
+      "mtimeNs": 1789315163442870723
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/gallery-carousel.png",
+      "bytes": 117534,
+      "sha256": "f003c898e2f6c7fb186b8e230e8d68eaad56b88a9db922ad63655d9f9fa900e3",
+      "mtimeNs": 1789315165020102447
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/invitation-cover.png",
+      "bytes": 146118,
+      "sha256": "960eab7de1d5124c2d95c6ed924248ffa78c4bbc0f2334df8e31807c167fb641",
+      "mtimeNs": 1789315164898354170
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/character-selection.png",
+      "bytes": 213869,
+      "sha256": "49d6adb75a72ff49d393cfb5bdd1b257d6a77765218185e61a926473e418a7b7",
+      "mtimeNs": 1789315164298419182
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/gallery-carousel.png",
+      "bytes": 161061,
+      "sha256": "dc23e892f293350d4ba847b70060e1540cb5fda3845d7061054d40d5ec5d1174",
+      "mtimeNs": 1789315165909658062
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/invitation-cover.png",
+      "bytes": 169424,
+      "sha256": "2e295d09ee3e6e63331f927e407ad4de56b25424d56eddf19830201c5e238ab2",
+      "mtimeNs": 1789315165736242342
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/female-independent-faces.png",
+      "bytes": 6852,
+      "sha256": "c4bf6bf120b03a27fb7e0ef8444dbbb51037415f7d394f6687889127583c26c0",
+      "mtimeNs": 1789315162201346701
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/male-independent-faces.png",
+      "bytes": 6852,
+      "sha256": "c4bf6bf120b03a27fb7e0ef8444dbbb51037415f7d394f6687889127583c26c0",
+      "mtimeNs": 1789315162103392897
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/blue-pink-accounts.png",
+      "bytes": 34910,
+      "sha256": "2337b6b9597cd90e714c0de13216bb9e0f45271ce7e13bae5050562549a4826c",
+      "mtimeNs": 1789315167540337508
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/parking-shuttle.png",
+      "bytes": 45356,
+      "sha256": "ed3ad6f1cb2b4b606b0ce4809d1f61a4d312899e313cdbbd2dd3b045f21ee2cb",
+      "mtimeNs": 1789315167432778918
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/venue-map.png",
+      "bytes": 57702,
+      "sha256": "a9be46caad55c8bfc30eaf4359fcae67d43a91e59fde51cd4894d81c38eeb4f0",
+      "mtimeNs": 1789315167375351902
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/blue-pink-accounts.png",
+      "bytes": 34445,
+      "sha256": "d8a20af5ceb696c8f9c162a299117be138c719a01e7ab34f9f8c6c7582f0cebb",
+      "mtimeNs": 1789315168890196097
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/parking-shuttle.png",
+      "bytes": 46713,
+      "sha256": "72b0d900ac93af7e15bd1ba4f96b392d5210f08388564bad0f601a829a3764d4",
+      "mtimeNs": 1789315168783033869
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/venue-map.png",
+      "bytes": 65506,
+      "sha256": "cd55cf0675613c94868ea4c5e4a9210780b2e67f752add044015743fbe95a121",
+      "mtimeNs": 1789315168726701611
+    },
+    {
+      "path": "runs/regression-all-01/invitation-sharing-share-c-ae8d8--image-in-the-original-HTML-chromium/share-card-formats.png",
+      "bytes": 198803,
+      "sha256": "c25a6b54d8d2e3203d95f77d49fdc7f5246e2b26c0cb49a73645d15ac37b92e6",
+      "mtimeNs": 1789315167680150934
+    },
+    {
+      "path": "runs/regression-all-01/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-main.png",
+      "bytes": 170009,
+      "sha256": "18c1623c09e957b2ad844ce75c0c21f64b83ebcf250138859670d2c6881b7920",
+      "mtimeNs": 1789315180668491850
+    },
+    {
+      "path": "runs/regression-all-01/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-minimi.png",
+      "bytes": 206942,
+      "sha256": "907242f7d4dbd3ce5b992b6dbb1cabb6cf06e23e73eb3c6e799df6c229861638",
+      "mtimeNs": 1789315181241018269
+    },
+    {
+      "path": "runs/regression-all-01/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/garden.png",
+      "bytes": 1547796,
+      "sha256": "259ba4608fad03a36b28cde286755f29fddabd6ac72c1874548c0ada1338271c",
+      "mtimeNs": 1789315198041545959
+    },
+    {
+      "path": "runs/regression-all-01/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/lobby.png",
+      "bytes": 1875466,
+      "sha256": "947c868011d126b903c3a80659d7ea9490c9d5f45cab487e2e8d6eb8a133dc54",
+      "mtimeNs": 1789315195211940465
+    },
+    {
+      "path": "runs/regression-all-01/lobby-required-only-unfini-03ac7-ock-the-ceremony-and-dinner-chromium/buffet-mobile.png",
+      "bytes": 473208,
+      "sha256": "9e59006e43145cb5792373a7b147a62e4c2b602d05cb128e0664ecdd48743bf1",
+      "mtimeNs": 1789315224704194285
+    },
+    {
+      "path": "runs/regression-all-01/lobby-return-bride-explore-711ad-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 516311,
+      "sha256": "51cc12ecbc98867f376378ae15dbe81019df459fc1447cbab31314bae7fbc459",
+      "mtimeNs": 1789315273815345470
+    },
+    {
+      "path": "runs/regression-all-01/lobby-return-groom-explore-7f5d0-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 492203,
+      "sha256": "5686f731c70906732ae1f4e668e285fd3ebf89b54368d674616a353fadfa896e",
+      "mtimeNs": 1789315232754309959
+    },
+    {
+      "path": "runs/regression-all-01/minimi-customization-direc-57186-d-all-five-outfits-at-320px-chromium/original-panel-independent-parts.png",
+      "bytes": 163763,
+      "sha256": "26ec299a0cb9f681d69157ac64a2fd8b7917bd174975d582b8efddcf3adca6fa",
+      "mtimeNs": 1789315251898133639
+    },
+    {
+      "path": "runs/regression-all-01/minimi-customization-direc-b8329-d-all-five-outfits-at-393px-chromium/original-panel-independent-parts.png",
+      "bytes": 247060,
+      "sha256": "3bccdcdfd74ba62262dc62e8590262b093d2058f4a50951d5e339d0dbbfc3279",
+      "mtimeNs": 1789315254849568740
+    },
+    {
+      "path": "runs/regression-all-01/minimi-jaw-finished-minimi-a874a-s-have-no-jaw-or-neck-seams-chromium/chin-closeup.png",
+      "bytes": 32889,
+      "sha256": "b9957ae44ba2f8ccdb423f88ca8f21c91237b76b5467bba3c453badc2da150c5",
+      "mtimeNs": 1789315258758043495
+    },
+    {
+      "path": "runs/regression-all-01/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/female-neck.png",
+      "bytes": 249784,
+      "sha256": "f1ff7301b2f7906a2abadb197fedc00ed258905ea35a6293350e042053b4afaf",
+      "mtimeNs": 1789315262683204317
+    },
+    {
+      "path": "runs/regression-all-01/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/male-neck.png",
+      "bytes": 206228,
+      "sha256": "364ee98d30a30e01db55b04cda087b06f6a1612e2357e1771e7062cfe58d1f31",
+      "mtimeNs": 1789315262401574776
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-all-poses.png",
+      "bytes": 499677,
+      "sha256": "60a66decb8291ae9397bc5174c1e080889942692944858bcb955f117e5c5f8c6",
+      "mtimeNs": 1789315267573510875
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-blink.png",
+      "bytes": 260286,
+      "sha256": "8243bcc9db08267c3ba2b6f4a269498895f3f77c5c253daa994e6e55bbe1b191",
+      "mtimeNs": 1789315267742614312
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-source.png",
+      "bytes": 315875,
+      "sha256": "ff05b69576b3d2e2fe6d8d90279ec39891f5817c515547e7d065b1a1df389b8b",
+      "mtimeNs": 1789315267225875125
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-all-poses.png",
+      "bytes": 477575,
+      "sha256": "e4840b9475c7041529d617743d9e14cfe368e7bd08f65e2f94b1aedf05c8fa9d",
+      "mtimeNs": 1789315266823866891
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-blink.png",
+      "bytes": 239284,
+      "sha256": "4c196ca12bc51c51cb58b54b1a74dcd51d5025d4ff0cb8818646195bec338a56",
+      "mtimeNs": 1789315267051540892
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-source.png",
+      "bytes": 334642,
+      "sha256": "e4989ce7d5c2e36e34bbcf05f66043f4f65fea2dd924eb3e3f640ba35dcd0b60",
+      "mtimeNs": 1789315266488105733
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-0-profile.png",
+      "bytes": 234293,
+      "sha256": "d8581d0395e9867626b2473f2c813641c73d0a728e398cbe4d995638a88f0985",
+      "mtimeNs": 1789315270213210491
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-1-profile.png",
+      "bytes": 242903,
+      "sha256": "2b630680b65cb0f8ce55720a5f4644d23be285452168027c901f3239f8485eb9",
+      "mtimeNs": 1789315270366368546
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-2-profile.png",
+      "bytes": 241729,
+      "sha256": "0eddacb3995cbd56d2e14835dd0069ae14921c1658c4a2620e1bcb2549594558",
+      "mtimeNs": 1789315270614194841
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-3-profile.png",
+      "bytes": 244136,
+      "sha256": "56294d0673753c3701a097aa58bec6b31b6f468271be729a1c29ace89698d218",
+      "mtimeNs": 1789315270824925115
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-4-profile.png",
+      "bytes": 244339,
+      "sha256": "42f2d6cfef9614764d304655115fa9129fda7ee2efce34f3e065048cecc939d5",
+      "mtimeNs": 1789315270997917141
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-0-profile.png",
+      "bytes": 242473,
+      "sha256": "0121bfc9c16e952aa93baa5e0ba550f3e1a243b592f59f23b253db3c6e33455b",
+      "mtimeNs": 1789315271258487999
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-1-profile.png",
+      "bytes": 243134,
+      "sha256": "028d405875788b3f8be2554b799487feccb16f12cf95de050832e99635291182",
+      "mtimeNs": 1789315271398507169
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-2-profile.png",
+      "bytes": 241905,
+      "sha256": "1e7731443cb3e64fb678580d6850b76e8415b9a62ec71c258099802ffd9d64e9",
+      "mtimeNs": 1789315271509661815
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-3-profile.png",
+      "bytes": 244334,
+      "sha256": "2a091e4c4b966ad1c46286dc08c2a94d86546976fa047f935d5f49c6ec2f5955",
+      "mtimeNs": 1789315271700863819
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-4-profile.png",
+      "bytes": 244567,
+      "sha256": "4cfcef64d6f983a016d103f1c30c16bf1245e3a74c2f731b4e860e2bf4b08c04",
+      "mtimeNs": 1789315271842616268
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-0-profile.png",
+      "bytes": 242863,
+      "sha256": "05f51f98eb2b9b765ad2d1f25a051411644768fcdd408efddc44e38cec67dc53",
+      "mtimeNs": 1789315272099533115
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-1-profile.png",
+      "bytes": 243562,
+      "sha256": "77c87a788ec866fbf6ca3bcab19dc3fa77897345d3e612425ad519f850b35c78",
+      "mtimeNs": 1789315272217653628
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-2-profile.png",
+      "bytes": 242367,
+      "sha256": "4b4266a8defd37d3192085819639b3c04244ef65f6589600c6f9cd01ec7c0138",
+      "mtimeNs": 1789315272347104375
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-3-profile.png",
+      "bytes": 244756,
+      "sha256": "e989ed1147952caa3a2f8b062d0270b064e1b6bbe0cc3ff7bc2ce65e1ee768d5",
+      "mtimeNs": 1789315272509443355
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-4-profile.png",
+      "bytes": 244919,
+      "sha256": "73192960514652ab52dcbbbb05ac7a09da74f6bec1714aa7966115cf768fa49d",
+      "mtimeNs": 1789315272650853565
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-0-profile.png",
+      "bytes": 243911,
+      "sha256": "0599616c3c37e8c779eefff49bcbe8b670e1a75c75fe8e874f712b78a2a64904",
+      "mtimeNs": 1789315273246685847
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-1-profile.png",
+      "bytes": 244416,
+      "sha256": "36d27457fbf3c4e47faacb11ec52947d454448679fd15244914cc91014fb94fc",
+      "mtimeNs": 1789315273409099366
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-2-profile.png",
+      "bytes": 244172,
+      "sha256": "39b44055f5e69e9efcc6ed3e09e2c2018062dc553ac956a5b230fa9c0581a6a3",
+      "mtimeNs": 1789315273641846835
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-3-profile.png",
+      "bytes": 246250,
+      "sha256": "39258cd97e605e6112f0afcf00baf8fd86ebf828e910287e953c7f801fc459f1",
+      "mtimeNs": 1789315273866644383
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-4-profile.png",
+      "bytes": 246332,
+      "sha256": "e49a80a2f3ea45a1f1c4802ea4c8a287509f670e3a6b1879cd1f3ae5ee5c8ff3",
+      "mtimeNs": 1789315274109892027
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-0-profile.png",
+      "bytes": 244159,
+      "sha256": "ba9af8f90221f57f46bd3fa30837f39625d460ccd45bd564f2349baa802f8e03",
+      "mtimeNs": 1789315274398870007
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-1-profile.png",
+      "bytes": 244627,
+      "sha256": "f0ffbc7d257e5bb745ca1879ef45a5aa971db31eca45391f1be9873e23897a0b",
+      "mtimeNs": 1789315274579774996
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-2-profile.png",
+      "bytes": 244413,
+      "sha256": "7732c0564524af1a0478335121215036f94a4bc1a7d52bb7f1297c4465d23c39",
+      "mtimeNs": 1789315274756428658
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-3-profile.png",
+      "bytes": 246372,
+      "sha256": "c640c8b5bf3d4b659fc9a2d5c9461a1348756c0e93da947dc6db048ac27f56f1",
+      "mtimeNs": 1789315275008277369
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-4-profile.png",
+      "bytes": 246472,
+      "sha256": "4d04a1a665f32a9a99afdddc432b0a1cfbd13ccf567ef9424e8d4ec2140b7620",
+      "mtimeNs": 1789315275241521406
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-0-profile.png",
+      "bytes": 243964,
+      "sha256": "86e1c41ccd8cda2ecc7f66a288ead51dd9769861530b8e57edf55a3e177a3d2e",
+      "mtimeNs": 1789315275530294351
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-1-profile.png",
+      "bytes": 244452,
+      "sha256": "bbfb6fa7497ec0560a9e1fc4ac62e1a7e9ca1093941e63737a673ebfb0e96c1f",
+      "mtimeNs": 1789315275741750062
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-2-profile.png",
+      "bytes": 244248,
+      "sha256": "a269b87f272cb72de6b47de08ffe5d43c46875c71763719438c1f8aca1235ee3",
+      "mtimeNs": 1789315275907620015
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-3-profile.png",
+      "bytes": 246275,
+      "sha256": "d49311de248194e9dc833073eafd09328915ef6d68472b1d599af1e94bd65af5",
+      "mtimeNs": 1789315276119388091
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-4-profile.png",
+      "bytes": 246340,
+      "sha256": "2fd74ddd7957ff4df5d10f1cc14c17ccf2e22679ca90daa89533d80577c2c8ea",
+      "mtimeNs": 1789315276275694841
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/lobby-registered-photos.png",
+      "bytes": 601060,
+      "sha256": "69ac9ac0dbf53bd61a898c3a1f94bbf0639bea8013840f5d2b0374d338fd3026",
+      "mtimeNs": 1789315290995733162
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/photo-gallery-restored.png",
+      "bytes": 277085,
+      "sha256": "99f2fc27f99b6e6f6711b94c656f7a11d8a37820f012a4756320b5c7465648b3",
+      "mtimeNs": 1789315293213324290
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/lobby-registered-photos.png",
+      "bytes": 510580,
+      "sha256": "d80a427142cc1dfc458d884779a1d9171170024273cc75f7630520ff90d6289b",
+      "mtimeNs": 1789315289767651516
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/photo-gallery-restored.png",
+      "bytes": 237090,
+      "sha256": "e267997e2da40223c6b295778ca0f2984d52aeb147cbbe9ea5d5c069f13af2c9",
+      "mtimeNs": 1789315292082229686
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/lobby-registered-photos.png",
+      "bytes": 1329361,
+      "sha256": "a1173f807771f585621eda1a8b979969d03d7f20088a54df55f38aeaa817adbc",
+      "mtimeNs": 1789315314794413640
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/photo-gallery-restored.png",
+      "bytes": 787153,
+      "sha256": "a644e034d6d4bb5b42e218428d6fa570f5f05d3bc6c70f0bd385c83d44e15187",
+      "mtimeNs": 1789315317178863234
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/lobby-registered-photos.png",
+      "bytes": 1453468,
+      "sha256": "f5126cded8694a64dd22bde5f96d1ae2f27b9e4c08e594c32e92cb54487241e1",
+      "mtimeNs": 1789315314121270999
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/photo-gallery-restored.png",
+      "bytes": 646626,
+      "sha256": "0a788b6de6ed026283fd851d7d6528e8dc84df8bec0738ea52c3e8ebd6b65143",
+      "mtimeNs": 1789315316451127406
+    },
+    {
+      "path": "runs/regression-all-01/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/error-context.md",
+      "bytes": 6632,
+      "sha256": "972b8795b36108a89bb352f02fe94ac43bc23eebbbbd1a6e34362d4da7787189",
+      "mtimeNs": 1789315351500644616
+    },
+    {
+      "path": "runs/regression-all-01/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/trace.zip",
+      "bytes": 42056967,
+      "sha256": "55a8b97ca0fdd96b067c911268e40521b3860e6ded93ca421feb18e0df30ddda",
+      "mtimeNs": 1789315352921386471
+    },
+    {
+      "path": "runs/regression-all-01/reception-only-single-rece-6f818-movement-and-completes-once-chromium/error-context.md",
+      "bytes": 6685,
+      "sha256": "4a70d94b0266b39903a4063326a83aac4e99dbbf905d26e6d147cc2a2cd2677a",
+      "mtimeNs": 1789315357558241617
+    },
+    {
+      "path": "runs/regression-all-01/reception-only-single-rece-6f818-movement-and-completes-once-chromium/trace.zip",
+      "bytes": 53098694,
+      "sha256": "4551ba6e5a05bc3e2af4fcb7d18911e7a2b62cd7c85e6b834de1bd20cf83c570",
+      "mtimeNs": 1789315358795203489
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-first-lobby-arrival-393.png",
+      "bytes": 458063,
+      "sha256": "a0b8a433ff16acd8f75c2e0cb74dc7c7456c7b0dae45a3f6574d6327c6f43978",
+      "mtimeNs": 1789315370465889278
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-hall-requirements-393.png",
+      "bytes": 421172,
+      "sha256": "b5a82b55731e827dd827bcab661a8d61db6c1ac47bb929ec45bf417f4b4d0321",
+      "mtimeNs": 1789315373964802281
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-notebook-progress-393.png",
+      "bytes": 350779,
+      "sha256": "3dd1f47dcd6097626c43433464a23e16e8601cdb85e7a1d10ea2161e850748b5",
+      "mtimeNs": 1789315378921018759
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F03-inline--65ff3-les-in-setup-and-invitation-chromium/f03-avatar-validation-393.png",
+      "bytes": 350387,
+      "sha256": "be3292b4ec4cc42856c496c875ce3ad0793a40c98675ad2648f433f385b7e994",
+      "mtimeNs": 1789315357056164060
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-320.png",
+      "bytes": 268713,
+      "sha256": "835df26968783e572ef948fc26073a409ebf8f276ec64f3f53ad4c88d3729248",
+      "mtimeNs": 1789315366212167992
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-393.png",
+      "bytes": 400133,
+      "sha256": "05779824b61714a2a2b7a22cdfa43c6b50b6c1576f640627fc20d0334213521c",
+      "mtimeNs": 1789315366812546758
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-430.png",
+      "bytes": 462698,
+      "sha256": "82b3b94f362e4f1d16f09cdeb830cd638ae6a85993e3fd647b3ed2719cf9c94d",
+      "mtimeNs": 1789315367392202457
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-320.png",
+      "bytes": 325897,
+      "sha256": "85fff58abac0a23ebd2e21b63d19a180fe5280ea0d4720259839d61b30eed7a4",
+      "mtimeNs": 1789315389892167349
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-393.png",
+      "bytes": 483862,
+      "sha256": "7afeadeee245e63b2e9b80988466dd8860d052e46a07150a26845cc966e5ea72",
+      "mtimeNs": 1789315390841875812
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-430.png",
+      "bytes": 564537,
+      "sha256": "de8bf59eef293bfb60a243f06c512708df10c7039ebb1293360ff55e5a88bc48",
+      "mtimeNs": 1789315391526065028
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-atm.png",
+      "bytes": 549804,
+      "sha256": "82ec3c9d07b302ef56ea720ee5cbb5bf6e745331042cba3d94177412c48c1468",
+      "mtimeNs": 1789315374286259840
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-bridal-restricted.png",
+      "bytes": 548906,
+      "sha256": "6445811c2b16faac887a56037063082d37a8f7aac1739362916771d2b74bb4aa",
+      "mtimeNs": 1789315376282705641
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-drinks.png",
+      "bytes": 555976,
+      "sha256": "ada277b78694bd568c32887b35c2aa6702dbf1586d7b866e1dd2be100e30a488",
+      "mtimeNs": 1789315375713877191
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-320.png",
+      "bytes": 142867,
+      "sha256": "0527a77ddf0971924d9fa69e3528925c76d188239cf364fb7241b33b87f1a52d",
+      "mtimeNs": 1789315401660210711
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-393.png",
+      "bytes": 244956,
+      "sha256": "87e398df794029db8a947f732aaca06d34300702cff6a4ae221c8b14e18d8e0f",
+      "mtimeNs": 1789315401977923885
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-430.png",
+      "bytes": 295823,
+      "sha256": "e4c3948363b09f5a1faf25973fccbd61fef99d1b20b0c421d7bce1c6b8ff2c40",
+      "mtimeNs": 1789315402236970583
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-landscape-852x393.png",
+      "bytes": 7114,
+      "sha256": "6830866c0bc0d64d826bc047e3af1b996eeed2a94a97038ace98f05c967e8ea4",
+      "mtimeNs": 1789315413985838121
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-1440x900.png",
+      "bytes": 1160836,
+      "sha256": "4354b40791e393ef4fb35cfc868bef23e7e0350efea79defced1589b119d14d5",
+      "mtimeNs": 1789315413815423683
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-320x568.png",
+      "bytes": 342904,
+      "sha256": "ab4c1a6899dcfbb7dc9a594bd00a6841ea9e112d56bb1cce48d6e79927f4ce15",
+      "mtimeNs": 1789315412185736665
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-393x852.png",
+      "bytes": 516358,
+      "sha256": "1a3578fa0d04e5d052c1da0bddd00a68f801c1258bc9be926903577f0c0bd603",
+      "mtimeNs": 1789315412827060915
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-430x932.png",
+      "bytes": 601109,
+      "sha256": "5608f88a2c0e8044bc01f4e021e8cc708b00c762dbb97d8277a052dae50d2bc5",
+      "mtimeNs": 1789315413258125668
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-first-lobby-arrival-393x852.png",
+      "bytes": 458085,
+      "sha256": "08a25f6716113e69afe2be48e821ee0d511662f5de29ee7cfcfb38dda6c74694",
+      "mtimeNs": 1789315417228662628
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-hall-requirements-393x852.png",
+      "bytes": 419621,
+      "sha256": "8f4bb4980b79e3e4b9ba558917032bbe11c6a05758782d1c9ca6db9b9ba90fab",
+      "mtimeNs": 1789315421104109737
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-393x852.png",
+      "bytes": 374151,
+      "sha256": "bc973c7b24ab39368df432ea6c0dc6b17a592b656d49a9f0dd3b7c145d3f3d7a",
+      "mtimeNs": 1789315418382324617
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-completed-393x852.png",
+      "bytes": 348984,
+      "sha256": "0d54659df4c2e471837e06a0b05cbd735d18c9431ae966fdf294d986577d61ca",
+      "mtimeNs": 1789315425869042297
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-atm-430x932.png",
+      "bytes": 548819,
+      "sha256": "7688932fdb42bd48265cf9b9139a2cfec3ff7ee1cd90aefbe07b74e05889758d",
+      "mtimeNs": 1789315426924986392
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-bridal-restriction-430x932.png",
+      "bytes": 547885,
+      "sha256": "7a71d5b33d2d92d4ff6a4cf94bc2d35436d2e07e0733e73122d370401f25171e",
+      "mtimeNs": 1789315429649979829
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-welcome-drink-430x932.png",
+      "bytes": 554987,
+      "sha256": "e93c0ea484930a253292a2b0813461421da7c1856a55e88da8e56125ded9c574",
+      "mtimeNs": 1789315428426036555
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 6482,
+      "sha256": "0c62d3afe73f5e7bdb47fb18010e38395800acb60dc3c3638400f4bfd7cb7d94",
+      "mtimeNs": 1789315624563922818
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 126975824,
+      "sha256": "ec76c248a0c5d9dbe661c6646477ba9b95fb42899bdf4d1f39f139cb2fa6eb2d",
+      "mtimeNs": 1789315628285950922
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@ecc59c89abd190064543dbf4788fbc42.webm",
+      "bytes": 3387651,
+      "sha256": "47e957b824aa0b29838195ff2876de0ac7ae19635a95e0e6f2a98d98033fa5e2",
+      "mtimeNs": 1789315624595156894
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 6483,
+      "sha256": "f10785152193d718fdb22544429fd5509aa34b9fa5410671c045cb243f20fef2",
+      "mtimeNs": 1789315592630025757
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 164795787,
+      "sha256": "6cdc8fe1e4551415c6c1eaec684c263739d8710d19c08881e3db5dfebbc96f44",
+      "mtimeNs": 1789315596582045206
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@159551f6393fb42cf52ea01497959a21.webm",
+      "bytes": 4545167,
+      "sha256": "1c743a6f30fa88a76ecb0b90f6d460777d3d590b4d42c933d10206fa84c573e2",
+      "mtimeNs": 1789315592665697654
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 6480,
+      "sha256": "c752c44d54bbb1f9a242d296d0b1ff6b97c9d759deb463599ac51b90c836f604",
+      "mtimeNs": 1789315584932315476
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 145265850,
+      "sha256": "a3f08eff9314061380f386d46fca50ed7bce2819707bc2daca8df778d7d55bbe",
+      "mtimeNs": 1789315589217532455
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@62b7299c4d0aaaffa7ca27e6a34836e4.webm",
+      "bytes": 3435411,
+      "sha256": "8db15b34e49a9e2677d8091609b97b7a4a1b383e1c3d93bc0afd8fc1afa1a9c5",
+      "mtimeNs": 1789315584959657423
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/error-context.md",
+      "bytes": 11850,
+      "sha256": "a2cc83f88b3be08f634ddbe9fa078bb51ef081a8947165fa59d608dc65d23f1a",
+      "mtimeNs": 1789315892760554689
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/trace.zip",
+      "bytes": 151149775,
+      "sha256": "fff704043689117ece5314b9db3841c414b9f63c28269f869293b4a0217e878b",
+      "mtimeNs": 1789315897573348352
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 3692093,
+      "sha256": "f4572ed8cae337c287fb06205099f5df4f2f4c1ed58e16726a421941c925eb20",
+      "mtimeNs": 1789315892757855397
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+      "bytes": 2253141,
+      "sha256": "43a25d4d3e0605cbeb1fbc4f4e1213d1944e088772d9379ab0b806a50c6ba41b",
+      "mtimeNs": 1789315900540091605
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+      "bytes": 2817176,
+      "sha256": "8f9d14a2ff7c609c1e5e6447c79359b789c397f6e90526ec26809e02dfb48e08",
+      "mtimeNs": 1789315877080986917
+    },
+    {
+      "path": "runs/regression-all-01/story-choice-width-all-sto-9f739-ame-readable-width-at-320px-chromium/equal-choice-width.png",
+      "bytes": 222986,
+      "sha256": "32fbcf2e87dc279822bc0c7fd28c0c4e131f102c7f8f8bbba87874e99b404887",
+      "mtimeNs": 1789315665602561730
+    },
+    {
+      "path": "runs/regression-all-01/story-choice-width-all-sto-e2bf4-ame-readable-width-at-393px-chromium/equal-choice-width.png",
+      "bytes": 331597,
+      "sha256": "35c79df5a0f304f4f4fa539670867ee819cff7084cac84aaf429808d9b52b0da",
+      "mtimeNs": 1789315667465719028
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/choices.png",
+      "bytes": 1458349,
+      "sha256": "b9ce50c9a52ea388e5408a50083d14681ca6d6b20ad2a97b0e7d93e6de52d9ee",
+      "mtimeNs": 1789315670890984184
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/home-sky.png",
+      "bytes": 1738694,
+      "sha256": "702f769c48195ab418a29282c89e2f1a1e4d38dd32f138988de4d455b0a1fa01",
+      "mtimeNs": 1789315671398489031
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/intro.png",
+      "bytes": 1866242,
+      "sha256": "646ea595cb8cc5f82c7ed3f7e9b61a9480ff4a9400adaf656dea34aded4cbd66",
+      "mtimeNs": 1789315669476010359
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/pixel-parking.png",
+      "bytes": 71731,
+      "sha256": "ee02bb76e08f3a73232ce702ff503ddb511af6016097733faa176fde452c1a51",
+      "mtimeNs": 1789315675859725191
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/choices.png",
+      "bytes": 1440848,
+      "sha256": "53e8646ef70aa6231f2542ddd524a41d96549876b2797265a450062c1dc47013",
+      "mtimeNs": 1789315683991412425
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/home-sky.png",
+      "bytes": 1738747,
+      "sha256": "d0dd03a1314246711cfc56999cda27af66ddecc6ec8c7bf5fe20b909bc6fc672",
+      "mtimeNs": 1789315684418666504
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/intro.png",
+      "bytes": 1866239,
+      "sha256": "d5d3cbc291584c27b9966d8fe532af8a5a62b0a6159fba6c217319790860c139",
+      "mtimeNs": 1789315682702357415
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/numbered-exits.png",
+      "bytes": 1023805,
+      "sha256": "14f77fd6df6f9a7afaa8c3dc280d1b586fcb30cef79060f7292b0631021807ad",
+      "mtimeNs": 1789315687309807428
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-station-choic-5c7c3-ed-circles-visible-at-320px-chromium/numbered-exits-small.png",
+      "bytes": 823982,
+      "sha256": "6ea324c5c41c137f17b71bde0457f9e15a8fd27020b06b58c2639637bba8780d",
+      "mtimeNs": 1789315708297126348
+    },
+    {
+      "path": "runs/regression-all-01/tap-pacing-group-photo-cou-7898c--skipped-with-separate-taps-chromium/white-bride-group-photo.png",
+      "bytes": 505091,
+      "sha256": "a63a8f5b990719b9cfd54c06e6f7806f1d22c12ad663ac4e24cfc9b4696e43b9",
+      "mtimeNs": 1789315716702576866
+    },
+    {
+      "path": "runs/regression-all-01/tap-pacing-taps-finish-foo-14d3c-eal-or-replaying-old-timers-chromium/food-reveal-complete.png",
+      "bytes": 506960,
+      "sha256": "8cb5f7e78fe37c8b360039b44b9ebdabb6e4b1b5e5e0aef4db3561cc38d4a74d",
+      "mtimeNs": 1789315717430948966
+    },
+    {
+      "path": "runs/regression-all-01/venue-rooms-room-navigatio-6bf3d--and-selected-side-at-720px-chromium/hall.png",
+      "bytes": 1403355,
+      "sha256": "c01377ac8755f56f616a6a89c0fb27f610b8b146faeea189b09e18f74c15eff3",
+      "mtimeNs": 1789315802140973288
+    },
+    {
+      "path": "runs/regression-all-01/venue-rooms-room-navigatio-7f39e-and-selected-side-at-1440px-chromium/hall.png",
+      "bytes": 1284719,
+      "sha256": "5df25b6707761053e7c0a0e80604b6bf9155aec85c1aa5817855b38e8bd2414c",
+      "mtimeNs": 1789315816594313440
+    },
+    {
+      "path": "runs/regression-all-01/venue-rooms-room-navigatio-835f5--and-selected-side-at-430px-chromium/hall.png",
+      "bytes": 578913,
+      "sha256": "940d71325e81a8937ad6adc93be1722875408056c9b60a283b43f0a9da07bc32",
+      "mtimeNs": 1789315750425573391
+    },
+    {
+      "path": "runs/regression-all-01/venue-rooms-room-navigatio-a86b4--and-selected-side-at-390px-chromium/hall.png",
+      "bytes": 493086,
+      "sha256": "850b21e6fd546684bb2fe5e3a2ce2a12b529367bf1eecef6504d0e1a37153b1c",
+      "mtimeNs": 1789315742963200791
+    },
+    {
+      "path": "runs/regression-all-01/wedding-group-100-guests-r-675c5-ppears-immediately-at-320px-chromium/100-friends.png",
+      "bytes": 146512,
+      "sha256": "232d710cd462b5c801b3bd28d717ced6b4802832587bce1579992670e5b1c730",
+      "mtimeNs": 1789315838570461031
+    },
+    {
+      "path": "runs/regression-all-01/wedding-group-100-guests-r-89a7e-ppears-immediately-at-393px-chromium/100-friends.png",
+      "bytes": 196486,
+      "sha256": "5bac986ae202ca7aab1fb71ce58ef7d2da79d1e5bb3950d5e3f9edeb53140b92",
+      "mtimeNs": 1789315842513482217
+    },
+    {
+      "path": "runs/regression-all-01/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-group-photo.png",
+      "bytes": 469849,
+      "sha256": "1588a25afdbcc24f0a85da8ebd9b096bbfa2a559b68c4e9e192a311299aa9278",
+      "mtimeNs": 1789315849210580690
+    },
+    {
+      "path": "runs/regression-all-01/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-invitation.png",
+      "bytes": 169970,
+      "sha256": "6e143028c81581b564648104990723b681d0b9de34d4165201032ab5d97130af",
+      "mtimeNs": 1789315845739779235
+    },
+    {
+      "path": "runs/regression-all-01/wedding-group-hearts-cover-cd7b1-ntercepting-invitation-taps-chromium/even-hearts-over-photo.png",
+      "bytes": 170011,
+      "sha256": "17536971c2e14bc6714a5a2fdd43a8193abdedf911fe71a69dd40275844a5f93",
+      "mtimeNs": 1789315850631850446
+    },
+    {
+      "path": "runs/regression-final/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "mtimeNs": 1789317278115650988
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/bridal-seated.png",
+      "bytes": 419013,
+      "sha256": "f32eee3d28bd022911dee224bb3c2c5f669bdf9851dc1deee9c027869c8d3a75",
+      "mtimeNs": 1789316643888355559
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/car.png",
+      "bytes": 409139,
+      "sha256": "49ff387892ce0b1d597d3f172f748388033ab86c5e0916fa22fb95f2a79f4c71",
+      "mtimeNs": 1789316618070994788
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/group-photo.png",
+      "bytes": 498244,
+      "sha256": "c221e978a7fe72771123f5629ea853027f4d5dd8d22d65abf0e4be640083d7e2",
+      "mtimeNs": 1789316667106387266
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/lobby.png",
+      "bytes": 516292,
+      "sha256": "8c0bf7de0120ea5be6a9e65e0c0df5b2b2daab1f8d22029c410c49ce31e9247c",
+      "mtimeNs": 1789316624451664959
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/parents.png",
+      "bytes": 338366,
+      "sha256": "28c951bc9031d5c27bfa71314f8fb52e13b40df2561378ca05b8bd04997754c6",
+      "mtimeNs": 1789316628002991934
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/v-pose.png",
+      "bytes": 474654,
+      "sha256": "f3e77b2518293bad7f2f90d947d0c2a6b08d6aad048cc378b3cbc20135d2ada2",
+      "mtimeNs": 1789316633997864729
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/car.png",
+      "bytes": 368518,
+      "sha256": "c7b685a1ca2a3f3265104b5efa51c0b5d32b7cfbdb6308484588305d796daeed",
+      "mtimeNs": 1789316617844199718
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/group-photo.png",
+      "bytes": 497666,
+      "sha256": "ef6c1b7b153335afb20c2cd97b07dd61785aa116d71218c709527938c3425f46",
+      "mtimeNs": 1789316641528720414
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/lobby.png",
+      "bytes": 516384,
+      "sha256": "9fb1ffd293387934a73e2f77a42f8b5f7f571681928f2f77d5e8d7d2a9485b4e",
+      "mtimeNs": 1789316623752696538
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/parents.png",
+      "bytes": 326088,
+      "sha256": "51ff2c4fd4cd40170236adfc494e15d8ecec56e9c3738a437198ca3000c666aa",
+      "mtimeNs": 1789316627621375045
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/v-pose.png",
+      "bytes": 474604,
+      "sha256": "cf398c50d040ce4db6bff96f507c07fd3226c757f777583bb0e28f3603493840",
+      "mtimeNs": 1789316633631383860
+    },
+    {
+      "path": "runs/regression-final/dinner-pacing-banquet-trav-8409b-parture-stays-at-the-buffet-chromium/departure-at-buffet.png",
+      "bytes": 482309,
+      "sha256": "759c2760f0b0522c0cba023a885a92bc18a76834cb7584e4189593e5ec90d36f",
+      "mtimeNs": 1789316635107242060
+    },
+    {
+      "path": "runs/regression-final/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/family-chrysanthemum.png",
+      "bytes": 57189,
+      "sha256": "dd54e1618eaf08eddbe6fb3e5f42c7dfea9414b043e4dac167ab27cf2968ca97",
+      "mtimeNs": 1789316636940041405
+    },
+    {
+      "path": "runs/regression-final/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/original-photo-countdown.png",
+      "bytes": 199390,
+      "sha256": "a3d5910be41aadc88b0f6a597eae7b3a50b2d0a5536efc505fd5c93b9401dc86",
+      "mtimeNs": 1789316637940157094
+    },
+    {
+      "path": "runs/regression-final/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/family-chrysanthemum.png",
+      "bytes": 54129,
+      "sha256": "4852a9dd2a7f5f8a79394ed1e9509ba1574a178f92e2bd1e96aaa2eebbe2e207",
+      "mtimeNs": 1789316641317517742
+    },
+    {
+      "path": "runs/regression-final/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/original-photo-countdown.png",
+      "bytes": 238348,
+      "sha256": "d0c78726f3e71cbe32895c24c177adb29f4f4f6f8375f0a393a6a566784236e7",
+      "mtimeNs": 1789316642283765376
+    },
+    {
+      "path": "runs/regression-final/invitation-game-guest-keep-be038-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 33912,
+      "sha256": "419a2e8ab60803e7bd3475099086340da2e21af02d29ea529ceef27b45b71850",
+      "mtimeNs": 1789316681952186098
+    },
+    {
+      "path": "runs/regression-final/invitation-game-guest-keep-cf9e3-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 33630,
+      "sha256": "d0718242fbea5294168fb3797c5e4f0808f0bdec025315d0a4e00e9766d15c14",
+      "mtimeNs": 1789316682862746454
+    },
+    {
+      "path": "runs/regression-final/invitation-minimi-group-pa-52609-without-covering-the-couple-chromium/minimi-full-group.png",
+      "bytes": 187050,
+      "sha256": "e3c51de26899d07b4166d66987d4d7bb0416d61d76e1f115dcf3da68e5b1b4b5",
+      "mtimeNs": 1789316688558376885
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-bridal-room.jpeg.png",
+      "bytes": 138877,
+      "sha256": "d2451ad762f580a899489d1d6a9e105f3c8f968a6a038028010a7ad028751ab3",
+      "mtimeNs": 1789316648450678996
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-atm.jpg.png",
+      "bytes": 164310,
+      "sha256": "57200957b8fe2b4a741381ac940d053817607337d1c6759d5d723195b4775b3c",
+      "mtimeNs": 1789316648204494009
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-banquet.jpg.png",
+      "bytes": 175513,
+      "sha256": "eada9f8beb20b6e70cb52303ff5ee07654882d34332eb46092cbb39f4666c1b9",
+      "mtimeNs": 1789316648328755883
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-photo-booth.jpg.png",
+      "bytes": 174460,
+      "sha256": "c9d680c86f9da5073c847068837c4676affe634c1711b06917cdf87687866cd1",
+      "mtimeNs": 1789316648103665196
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-welcome.jpg.png",
+      "bytes": 169299,
+      "sha256": "0385ef12069c404de411183024a6761573b59c800984bbdba8c3103d8db22c33",
+      "mtimeNs": 1789316647971150748
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-bridal-room.jpeg.png",
+      "bytes": 109287,
+      "sha256": "ba3b2e1a7cc8bd7e1d36701839067fd0bb2a62c3314b7746e8a2322aee33a0bd",
+      "mtimeNs": 1789316646036301865
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-atm.jpg.png",
+      "bytes": 118480,
+      "sha256": "cbc8844a1d19d36f604f661d470bff354c289f291cf6e31be685e06a2d6c869a",
+      "mtimeNs": 1789316645812992968
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-banquet.jpg.png",
+      "bytes": 136124,
+      "sha256": "5c3f5df9aa441638c51d8d641e34f784924bcdc07d547a2c746500f4efd7ddaa",
+      "mtimeNs": 1789316645918409008
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-photo-booth.jpg.png",
+      "bytes": 122444,
+      "sha256": "7460d4fd8ca83d9217ed56cad2009c6bd87073d03b1e25bbe2f8d2c0bf7fa208",
+      "mtimeNs": 1789316645717936939
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-welcome.jpg.png",
+      "bytes": 117571,
+      "sha256": "cb6c1d049632f4a3e412a5d6c6afed7f804f31bf4fb8db43dbd85c958e969b5b",
+      "mtimeNs": 1789316645611001155
+    },
+    {
+      "path": "runs/regression-final/invitation-profile-cards-stay-inside-the-game-at-1440px-chromium/profile.png",
+      "bytes": 676129,
+      "sha256": "1ecff847f3af1d4e0323060914561ca1dd475952df4879676ab430fdac458d9e",
+      "mtimeNs": 1789316686483304102
+    },
+    {
+      "path": "runs/regression-final/invitation-profile-cards-stay-inside-the-game-at-320px-chromium/profile.png",
+      "bytes": 140896,
+      "sha256": "c04be1e580f62b3fa5b74bc8a73630bb1f8b6a370e37397799a0be963a45aed1",
+      "mtimeNs": 1789316686301815760
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/message-postcard.png",
+      "bytes": 35418,
+      "sha256": "bd5158d3de521b3541f4a0fe1e312e470d6644af58109251dc1f3898a34ab308",
+      "mtimeNs": 1789316665399195500
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/thirty-friends.png",
+      "bytes": 194536,
+      "sha256": "862a452922d25aef3302e07c157cd800cc1224874999525feee69a614c1981f6",
+      "mtimeNs": 1789316665274194335
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/character-selection.png",
+      "bytes": 161521,
+      "sha256": "77cca12eeb6ce069c537f4c712d1f21fd8359c9369f46467f05c00952b7f072e",
+      "mtimeNs": 1789316656186971400
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/gallery-carousel.png",
+      "bytes": 117534,
+      "sha256": "f003c898e2f6c7fb186b8e230e8d68eaad56b88a9db922ad63655d9f9fa900e3",
+      "mtimeNs": 1789316657847333921
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/invitation-cover.png",
+      "bytes": 146118,
+      "sha256": "960eab7de1d5124c2d95c6ed924248ffa78c4bbc0f2334df8e31807c167fb641",
+      "mtimeNs": 1789316657669944600
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/character-selection.png",
+      "bytes": 243887,
+      "sha256": "368e0823eebe9f10bfbf02cc659e23f9670a2d45d78a736a4d80a7a0714ec345",
+      "mtimeNs": 1789316660578734710
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/gallery-carousel.png",
+      "bytes": 174452,
+      "sha256": "007a2459cfa7b1d827dd8300b3aa96909c9c546ae5d2b8cb4949685a8bad1369",
+      "mtimeNs": 1789316662633036318
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/invitation-cover.png",
+      "bytes": 169424,
+      "sha256": "2e295d09ee3e6e63331f927e407ad4de56b25424d56eddf19830201c5e238ab2",
+      "mtimeNs": 1789316662359528972
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/female-independent-faces.png",
+      "bytes": 6852,
+      "sha256": "c4bf6bf120b03a27fb7e0ef8444dbbb51037415f7d394f6687889127583c26c0",
+      "mtimeNs": 1789316653271056474
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/male-independent-faces.png",
+      "bytes": 6852,
+      "sha256": "c4bf6bf120b03a27fb7e0ef8444dbbb51037415f7d394f6687889127583c26c0",
+      "mtimeNs": 1789316652935870907
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/blue-pink-accounts.png",
+      "bytes": 35106,
+      "sha256": "da2f24c6421eb038e4fe93dba8e756b297e3322899c0c13bf64f67ceb0a14dc2",
+      "mtimeNs": 1789316667434707587
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/parking-shuttle.png",
+      "bytes": 45218,
+      "sha256": "1b87b521678ce13b585d26eb6bf13b686c1ec37b0a61bd31a76fb1a31dd71df8",
+      "mtimeNs": 1789316667318596854
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/venue-map.png",
+      "bytes": 57619,
+      "sha256": "a05a6d386ccb5e470cb69935f2cb4a153ee57dba0aba4e8d0508271025491366",
+      "mtimeNs": 1789316667245335666
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/blue-pink-accounts.png",
+      "bytes": 34592,
+      "sha256": "78bf06958462e72db91510dd9cf515534907e671bcca4cc7198ce118b0b72587",
+      "mtimeNs": 1789316669226261340
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/parking-shuttle.png",
+      "bytes": 46524,
+      "sha256": "c9af37eb4befb2860a7fe15aa368a8e8748d0fdc6009cbdadd59b3349e822547",
+      "mtimeNs": 1789316669111983549
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/venue-map.png",
+      "bytes": 65435,
+      "sha256": "4f56e2ddb7078de19ac3550bbefc9b1b18a86ca29479c670ebfc8f9bccf22197",
+      "mtimeNs": 1789316669048502850
+    },
+    {
+      "path": "runs/regression-final/invitation-sharing-share-c-ae8d8--image-in-the-original-HTML-chromium/share-card-formats.png",
+      "bytes": 198803,
+      "sha256": "c25a6b54d8d2e3203d95f77d49fdc7f5246e2b26c0cb49a73645d15ac37b92e6",
+      "mtimeNs": 1789316669416479611
+    },
+    {
+      "path": "runs/regression-final/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-main.png",
+      "bytes": 170029,
+      "sha256": "e1326deebedbaeb7fd6f84d1838897dcd9c40469dc8f6ccc93d22aafbc2ff2b1",
+      "mtimeNs": 1789316685027319205
+    },
+    {
+      "path": "runs/regression-final/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-minimi.png",
+      "bytes": 206746,
+      "sha256": "c69b1556e23d9d0c8a7ac8b6e80cc92d247118b0a8db65ae20b072feceb91085",
+      "mtimeNs": 1789316685838733509
+    },
+    {
+      "path": "runs/regression-final/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/garden.png",
+      "bytes": 1950030,
+      "sha256": "1e4132a1db09277e32b04d3f7d0363f7fb504a6ce87a5b595d31b14cae0a2bbe",
+      "mtimeNs": 1789316703070322123
+    },
+    {
+      "path": "runs/regression-final/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/lobby.png",
+      "bytes": 1875415,
+      "sha256": "927c0e420eb8a7af0feab8b51ae50c4d8a0e90ada62a76a7fa86cad1ef8502d4",
+      "mtimeNs": 1789316699254105048
+    },
+    {
+      "path": "runs/regression-final/lobby-required-only-unfini-03ac7-ock-the-ceremony-and-dinner-chromium/buffet-mobile.png",
+      "bytes": 491601,
+      "sha256": "2fac37ee3d2a9a35cbe9034cfbc2430ad911267cf04f6cadee48b1f9faea7423",
+      "mtimeNs": 1789316732590521151
+    },
+    {
+      "path": "runs/regression-final/lobby-return-bride-explore-711ad-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 516293,
+      "sha256": "e6fad7a3d6bd55736d604e4b07ddec5ec40a3ea619948c55e94eb4ee9d9c21a0",
+      "mtimeNs": 1789316751848886118
+    },
+    {
+      "path": "runs/regression-final/lobby-return-groom-explore-7f5d0-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 492187,
+      "sha256": "74c13a21491ea6faf723aace1a25f1e46aa1e3a116aaafba4424d9b7cb7a8257",
+      "mtimeNs": 1789316719731246428
+    },
+    {
+      "path": "runs/regression-final/minimi-customization-direc-57186-d-all-five-outfits-at-320px-chromium/original-panel-independent-parts.png",
+      "bytes": 163763,
+      "sha256": "26ec299a0cb9f681d69157ac64a2fd8b7917bd174975d582b8efddcf3adca6fa",
+      "mtimeNs": 1789316732773608322
+    },
+    {
+      "path": "runs/regression-final/minimi-customization-direc-b8329-d-all-five-outfits-at-393px-chromium/original-panel-independent-parts.png",
+      "bytes": 247060,
+      "sha256": "3bccdcdfd74ba62262dc62e8590262b093d2058f4a50951d5e339d0dbbfc3279",
+      "mtimeNs": 1789316738334454430
+    },
+    {
+      "path": "runs/regression-final/minimi-jaw-finished-minimi-a874a-s-have-no-jaw-or-neck-seams-chromium/chin-closeup.png",
+      "bytes": 32889,
+      "sha256": "b9957ae44ba2f8ccdb423f88ca8f21c91237b76b5467bba3c453badc2da150c5",
+      "mtimeNs": 1789316744282844807
+    },
+    {
+      "path": "runs/regression-final/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/female-neck.png",
+      "bytes": 249784,
+      "sha256": "f1ff7301b2f7906a2abadb197fedc00ed258905ea35a6293350e042053b4afaf",
+      "mtimeNs": 1789316748976874643
+    },
+    {
+      "path": "runs/regression-final/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/male-neck.png",
+      "bytes": 206228,
+      "sha256": "364ee98d30a30e01db55b04cda087b06f6a1612e2357e1771e7062cfe58d1f31",
+      "mtimeNs": 1789316748479270448
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-all-poses.png",
+      "bytes": 499677,
+      "sha256": "60a66decb8291ae9397bc5174c1e080889942692944858bcb955f117e5c5f8c6",
+      "mtimeNs": 1789316754959923784
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-blink.png",
+      "bytes": 260286,
+      "sha256": "8243bcc9db08267c3ba2b6f4a269498895f3f77c5c253daa994e6e55bbe1b191",
+      "mtimeNs": 1789316755338236835
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-source.png",
+      "bytes": 315875,
+      "sha256": "ff05b69576b3d2e2fe6d8d90279ec39891f5817c515547e7d065b1a1df389b8b",
+      "mtimeNs": 1789316754575805538
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-all-poses.png",
+      "bytes": 477575,
+      "sha256": "e4840b9475c7041529d617743d9e14cfe368e7bd08f65e2f94b1aedf05c8fa9d",
+      "mtimeNs": 1789316753644789580
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-blink.png",
+      "bytes": 239284,
+      "sha256": "4c196ca12bc51c51cb58b54b1a74dcd51d5025d4ff0cb8818646195bec338a56",
+      "mtimeNs": 1789316754160164642
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-source.png",
+      "bytes": 334642,
+      "sha256": "e4989ce7d5c2e36e34bbcf05f66043f4f65fea2dd924eb3e3f640ba35dcd0b60",
+      "mtimeNs": 1789316753355242409
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-0-profile.png",
+      "bytes": 242169,
+      "sha256": "d488f1f7b5541b34284060d163b3525102b61a46e5babe79d61dfb1b3f856884",
+      "mtimeNs": 1789316758354619220
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-1-profile.png",
+      "bytes": 242907,
+      "sha256": "dc6b0a8178bf4c80fd9a77bb29201f20cd37ed71d80b6612febba56fd1aeb4f9",
+      "mtimeNs": 1789316758573089506
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-2-profile.png",
+      "bytes": 241723,
+      "sha256": "a1571927f8fc956d6cf8dac4ac1a57d4ee7c71fbf139085ae55f45ccc118509b",
+      "mtimeNs": 1789316758856427202
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-3-profile.png",
+      "bytes": 244083,
+      "sha256": "5029570379a71bd3c146ec9825d80b42b78656b2360e49852ae80e2d94a05c55",
+      "mtimeNs": 1789316759257286889
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-4-profile.png",
+      "bytes": 244326,
+      "sha256": "55a55971f15ec1a4acd22fd3a1002edb9555e2a8a74943f5ed25b889da19e6a5",
+      "mtimeNs": 1789316759662638353
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-0-profile.png",
+      "bytes": 242494,
+      "sha256": "8fb01f3c901e6c3e6d4e9b6ae8f98e31c997cc0df4aa8b5e79ade9b2f02f88fa",
+      "mtimeNs": 1789316760270547303
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-1-profile.png",
+      "bytes": 243163,
+      "sha256": "96bff4f132df4fd8ed91c7e01e1b56e66f898a94de352a3cb5eba1afb42e6f46",
+      "mtimeNs": 1789316760624758807
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-2-profile.png",
+      "bytes": 241979,
+      "sha256": "786fdbd97f399ddd3900bdd567f5b2c9fb499ac826769f70ea77b733acbae035",
+      "mtimeNs": 1789316760994116301
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-3-profile.png",
+      "bytes": 244368,
+      "sha256": "d8465cf5cb9587d1f79aeae131044a725a4647ba0dd9980435bb15d901362d99",
+      "mtimeNs": 1789316761494367497
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-4-profile.png",
+      "bytes": 244573,
+      "sha256": "97d4a199c649ef4ef0abb4edc4bf658b7600579e250b342265db6c596572436a",
+      "mtimeNs": 1789316761927444563
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-0-profile.png",
+      "bytes": 242846,
+      "sha256": "1810533a63cbf797d68cd14e894d1e38d35bbba46045a578d4b31b1afda6d5d1",
+      "mtimeNs": 1789316762559833548
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-1-profile.png",
+      "bytes": 243458,
+      "sha256": "785879b4a82ba91f4279cc41e902518573f6901f1df9d88d86cc398fadbd24f1",
+      "mtimeNs": 1789316762777870222
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-2-profile.png",
+      "bytes": 242345,
+      "sha256": "b12fe28d6b817cafb876015282f51482fdd373d4d67e2f6dd394be920753bd62",
+      "mtimeNs": 1789316763098005905
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-3-profile.png",
+      "bytes": 244751,
+      "sha256": "4041f1583f1d4fd7bc546b5993c6c761b9187b2a9301614b78a4c6cffdbbcf3e",
+      "mtimeNs": 1789316763440788262
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-4-profile.png",
+      "bytes": 244943,
+      "sha256": "665213599602bc731d20e330edb3fa5214b5c97150a54a02a3c46856aa6ac8f9",
+      "mtimeNs": 1789316763878628514
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-0-profile.png",
+      "bytes": 243901,
+      "sha256": "683b76cdf42ef9f6204b87d20728fb1978ebbd888a23bf730817838a5651878d",
+      "mtimeNs": 1789316764789091024
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-1-profile.png",
+      "bytes": 244408,
+      "sha256": "991a00dc37e568e8ec9c62bd02a4115a36ff5508ba454cd658bde8886cbfdeb9",
+      "mtimeNs": 1789316765106680036
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-2-profile.png",
+      "bytes": 244167,
+      "sha256": "f29e632de2f3ea75cdcd1a5ef2cd8598a77242ef21c652909540d8e4dfc66ff5",
+      "mtimeNs": 1789316765295574361
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-3-profile.png",
+      "bytes": 246267,
+      "sha256": "d0bd6e9664a8438c675ec494878099b5711b6ae41296df5456eb31edb3212752",
+      "mtimeNs": 1789316765605972720
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-4-profile.png",
+      "bytes": 246338,
+      "sha256": "c4855e03804722458bbca8a21f2c1cb5f7bb5b43f9b9c9c4cfd9cd786d8e9a34",
+      "mtimeNs": 1789316765849633185
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-0-profile.png",
+      "bytes": 244127,
+      "sha256": "9f7592773ecc29743ae76126cae9dab41c6d3efdd4e74188a5f7581c31b44368",
+      "mtimeNs": 1789316766226432907
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-1-profile.png",
+      "bytes": 244595,
+      "sha256": "2110d04821e56994d858e39476d328b07f89ccc28f7e74cf47947588be1fae22",
+      "mtimeNs": 1789316766412135956
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-2-profile.png",
+      "bytes": 244422,
+      "sha256": "c43050a1cfb6ee09aa994bc260331ba58d72766e8f1d43c752b30bd546f954a8",
+      "mtimeNs": 1789316766631039103
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-3-profile.png",
+      "bytes": 246494,
+      "sha256": "e841fbb777a38812f9f6aa603ef68dcf7b066fd04c231ff6354a0bea621713eb",
+      "mtimeNs": 1789316766950263106
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-4-profile.png",
+      "bytes": 246530,
+      "sha256": "a00e30c1d40d34a5efe373efa04f292c130f88554fd14f44be660b13901d3e71",
+      "mtimeNs": 1789316767199413276
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-0-profile.png",
+      "bytes": 243952,
+      "sha256": "b89c09679184785bc03fafe97bd239610ced80a2abe12590e8a8fd6903e812a3",
+      "mtimeNs": 1789316767539605088
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-1-profile.png",
+      "bytes": 244461,
+      "sha256": "0aa6785b486f72d31f5cef36f9e501c7dc0420e87ab13104aa6f9d0de2d2c3c6",
+      "mtimeNs": 1789316767738126533
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-2-profile.png",
+      "bytes": 244258,
+      "sha256": "529c4467e68a3364ef6b7972092e52cd9d077d6d7b2e87b771198c2c07836b6d",
+      "mtimeNs": 1789316767964121044
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-3-profile.png",
+      "bytes": 246302,
+      "sha256": "187c958d09aeaa46c5c47a36e37515a7532e76ab4aea72eb91a7e16240f4b4e0",
+      "mtimeNs": 1789316768219233279
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-4-profile.png",
+      "bytes": 246365,
+      "sha256": "a46a28ea55b524a029dedbe2b96e01c4c6d7ece6c5dc984cfb78176fe5a98da8",
+      "mtimeNs": 1789316768506859885
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/lobby-registered-photos.png",
+      "bytes": 601041,
+      "sha256": "40075d7cfc83784c25b56953c671e881806ef9f2c234de14dff28aaaa509237f",
+      "mtimeNs": 1789316770089073246
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/photo-gallery-restored.png",
+      "bytes": 277157,
+      "sha256": "f80f7655a095e9d303905525ea1d38dbeeec953d3d9e3b645c882c147306d585",
+      "mtimeNs": 1789316772958157686
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/lobby-registered-photos.png",
+      "bytes": 510475,
+      "sha256": "c004acae6b6e192a296516639d557c9e5097be034031f62876006dc74524450d",
+      "mtimeNs": 1789316768745866535
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/photo-gallery-restored.png",
+      "bytes": 237132,
+      "sha256": "adb9ea04aff82d789f9e98dfe33d4933624f9e53024b30bd7fab264fe10d0d7f",
+      "mtimeNs": 1789316771396563312
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/lobby-registered-photos.png",
+      "bytes": 1328957,
+      "sha256": "c99d5e9e910a9ae020a94d9582f63dbd11ce6756a9bb8d426505632b67f3b949",
+      "mtimeNs": 1789316798120826652
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/photo-gallery-restored.png",
+      "bytes": 787260,
+      "sha256": "664d422e12430b64089e015c395cb8b376ba5a999518dd3c0dcbe7ed083e27c8",
+      "mtimeNs": 1789316800956442543
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/lobby-registered-photos.png",
+      "bytes": 1453468,
+      "sha256": "f5126cded8694a64dd22bde5f96d1ae2f27b9e4c08e594c32e92cb54487241e1",
+      "mtimeNs": 1789316782701215297
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/photo-gallery-restored.png",
+      "bytes": 646626,
+      "sha256": "0a788b6de6ed026283fd851d7d6528e8dc84df8bec0738ea52c3e8ebd6b65143",
+      "mtimeNs": 1789316785251874084
+    },
+    {
+      "path": "runs/regression-final/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/groom-reception.png",
+      "bytes": 486338,
+      "sha256": "e1a444f85137a982c4b0fcb47cb93e25e9b8be295c0f0bdd8a1050d7343b8ac5",
+      "mtimeNs": 1789316810414866998
+    },
+    {
+      "path": "runs/regression-final/reception-only-single-rece-6f818-movement-and-completes-once-chromium/bride-reception.png",
+      "bytes": 486335,
+      "sha256": "1832a671aec35530030fee0000707ea33c51259680517d8b8f7df6d9a43d354a",
+      "mtimeNs": 1789316828470323382
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-first-lobby-arrival-393.png",
+      "bytes": 458141,
+      "sha256": "c009560eba5ef77633f1936bcb782a5d0d2307a29f2eccb7d29fbd29c80088da",
+      "mtimeNs": 1789316831680300613
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-hall-requirements-393.png",
+      "bytes": 421253,
+      "sha256": "d7b899f6cb1dafa0036416cd308f25946590a0363b4a05be18741891992fe206",
+      "mtimeNs": 1789316835561799744
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-notebook-progress-393.png",
+      "bytes": 350755,
+      "sha256": "3e11c4955116cc2d26cdbd8e84f0090849ac0b76501013f24065333915ec2dea",
+      "mtimeNs": 1789316840837178478
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F03-inline--65ff3-les-in-setup-and-invitation-chromium/f03-avatar-validation-393.png",
+      "bytes": 341957,
+      "sha256": "c60b0bffcb455773d1ec4e845ca79b74b9fd96cf5891483b4d1fe8c01c813866",
+      "mtimeNs": 1789316816087194165
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-320.png",
+      "bytes": 268713,
+      "sha256": "835df26968783e572ef948fc26073a409ebf8f276ec64f3f53ad4c88d3729248",
+      "mtimeNs": 1789316823632458827
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-393.png",
+      "bytes": 400139,
+      "sha256": "fadba9bc1175ce03d865a72c63342085de09a80a4a4024114af2c9420cb5a98b",
+      "mtimeNs": 1789316824985659979
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-430.png",
+      "bytes": 462842,
+      "sha256": "29d4531325418d65dadf6bd7bd52d38256a5878aa840346cf59a02bb58988f77",
+      "mtimeNs": 1789316826004664716
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-320.png",
+      "bytes": 325897,
+      "sha256": "85fff58abac0a23ebd2e21b63d19a180fe5280ea0d4720259839d61b30eed7a4",
+      "mtimeNs": 1789316851476469790
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-393.png",
+      "bytes": 483892,
+      "sha256": "3652f4b36ded770494eb0676d410ad1985b3d99b566d163f2459b93065af3764",
+      "mtimeNs": 1789316852824916547
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-430.png",
+      "bytes": 564516,
+      "sha256": "d0ac564ac79f9164f730ad5e64cac2698f7cdea8a7cf386ec62ba23c111099cc",
+      "mtimeNs": 1789316854068039603
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-atm.png",
+      "bytes": 549747,
+      "sha256": "2582cb48b3789c0922bba2d29896982976638c3b7b9c48967a1566965747e653",
+      "mtimeNs": 1789316833574150796
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-bridal-restricted.png",
+      "bytes": 548843,
+      "sha256": "2e0e7f436cdc96d868f69c80a910641f4ee003bf674d60c9bc35b0c7b1ce3b14",
+      "mtimeNs": 1789316835852447964
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-drinks.png",
+      "bytes": 555983,
+      "sha256": "0914aa3d8ab8e0febc74061ef5aa45b98cddf5735c76816723894d2ff8d744ad",
+      "mtimeNs": 1789316834821193731
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-320.png",
+      "bytes": 142867,
+      "sha256": "0527a77ddf0971924d9fa69e3528925c76d188239cf364fb7241b33b87f1a52d",
+      "mtimeNs": 1789316838339976829
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-393.png",
+      "bytes": 244940,
+      "sha256": "046d1ae97dd830c63bf7ad92900f533cc0d2b4798e1f77f8d6dff6122a1ec4b4",
+      "mtimeNs": 1789316839775356439
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-430.png",
+      "bytes": 295796,
+      "sha256": "6c09aca251aa38d5bf9ef2e939f90a3644bb70d02abe9e9bb5ab19e4d211d679",
+      "mtimeNs": 1789316841327401526
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-landscape-852x393.png",
+      "bytes": 7114,
+      "sha256": "6830866c0bc0d64d826bc047e3af1b996eeed2a94a97038ace98f05c967e8ea4",
+      "mtimeNs": 1789316853967879409
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-1440x900.png",
+      "bytes": 1161083,
+      "sha256": "35745ca03774df1a674fe4cb4dfaf7b193129f7c190ca7f68d532d94d607951a",
+      "mtimeNs": 1789316853698558779
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-320x568.png",
+      "bytes": 342904,
+      "sha256": "ab4c1a6899dcfbb7dc9a594bd00a6841ea9e112d56bb1cce48d6e79927f4ce15",
+      "mtimeNs": 1789316851909354736
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-393x852.png",
+      "bytes": 516376,
+      "sha256": "9cfc4fa747f387bff2e5e341dc55db777b623f05f7c566ca21c305d1ebc5fbe3",
+      "mtimeNs": 1789316852483368526
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-430x932.png",
+      "bytes": 601160,
+      "sha256": "c00bc9e8246e87d1d62a3b7ceb545bb803297b83d5d264499bd4e978878f1b92",
+      "mtimeNs": 1789316853078990398
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-first-lobby-arrival-393x852.png",
+      "bytes": 458145,
+      "sha256": "4efdde8682d7a52801ca00b6d0a10833ed833e4a60b68530e6b4ae3dbab2d61e",
+      "mtimeNs": 1789316867763855767
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-hall-requirements-393x852.png",
+      "bytes": 419633,
+      "sha256": "548e8efe9cc3cb1dd9b5f055aa98d595b44e104969ea6e87458b0d9464a0bef2",
+      "mtimeNs": 1789316872354845623
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-393x852.png",
+      "bytes": 374111,
+      "sha256": "03ee11ad226e42c17f4758753ce352b7daed966d43a50ef37111f6d0ea89bf94",
+      "mtimeNs": 1789316869076228057
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-completed-393x852.png",
+      "bytes": 348948,
+      "sha256": "42f242d611bed2e58ddffb6df1ec59e053aac40fbbf89c1cd5053abeaa05a8b6",
+      "mtimeNs": 1789316878244165912
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-atm-430x932.png",
+      "bytes": 548834,
+      "sha256": "51860a972f343d4228f764cc377b73d44fa146b2eeb390e6bfc7d61e2d12f549",
+      "mtimeNs": 1789316876416636846
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-bridal-restriction-430x932.png",
+      "bytes": 547871,
+      "sha256": "0640095f8616e75bfa8a1569fd9882ce8e9c980738aeb11c566f049b27197931",
+      "mtimeNs": 1789316879857553018
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-welcome-drink-430x932.png",
+      "bytes": 554991,
+      "sha256": "11053fb82024611ea0bd8042d65511bc186b45bdd31ae7ffcc8eaac60baeefd1",
+      "mtimeNs": 1789316878197170949
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@a91a73ccb584a4dd691e9d8db7881bb3.webm",
+      "bytes": 5509957,
+      "sha256": "80454b909e868028e11e407008a76a10072b6fdea489e4a470341d59dd708ae0",
+      "mtimeNs": 1789317046622920158
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@e968ca655db2fedf0dcb64e685cdff34.webm",
+      "bytes": 7014488,
+      "sha256": "8b901be56237121a634cd7a08e52e67ef8f45cbbd296e229c83e67e4995d67fa",
+      "mtimeNs": 1789317031744448234
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium/video/page@2d7a44f7c9c016edc28f4d05d44fa466.webm",
+      "bytes": 5242157,
+      "sha256": "3b75b7a39b75e4d9b962fba8ec77408ad7704c2130f1e2afe4c609a5f6ac1ec8",
+      "mtimeNs": 1789317084991837014
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@be17605dea316a17ab8aabecea73386f.webm",
+      "bytes": 5791968,
+      "sha256": "8974a6c608536132c8b1ae57d1521d56c0ad13fd4f8032fad615aac4bded066b",
+      "mtimeNs": 1789317043770538618
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 6671025,
+      "sha256": "42424ae1985966c2a677b1bee3e78cbffefa767cc0aa1a9761f174292d86835a",
+      "mtimeNs": 1789317277546314678
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+      "bytes": 2595969,
+      "sha256": "f1f7e94d6053bf3b9fb718b12585df61887a18be47e581a0a854db766cbfa83f",
+      "mtimeNs": 1789317277365347900
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+      "bytes": 2992665,
+      "sha256": "c114334c9f315270da1685d40333497412ebee32a1c839e81fc69a2bcf5a7c52",
+      "mtimeNs": 1789317249317793236
+    },
+    {
+      "path": "runs/regression-final/story-choice-width-all-sto-9f739-ame-readable-width-at-320px-chromium/equal-choice-width.png",
+      "bytes": 222986,
+      "sha256": "32fbcf2e87dc279822bc0c7fd28c0c4e131f102c7f8f8bbba87874e99b404887",
+      "mtimeNs": 1789317087288508280
+    },
+    {
+      "path": "runs/regression-final/story-choice-width-all-sto-e2bf4-ame-readable-width-at-393px-chromium/equal-choice-width.png",
+      "bytes": 331597,
+      "sha256": "35c79df5a0f304f4f4fa539670867ee819cff7084cac84aaf429808d9b52b0da",
+      "mtimeNs": 1789317089322539294
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/choices.png",
+      "bytes": 1458268,
+      "sha256": "f3290b0858f12ac8ce081f37ba9c914aef932e20a1d38aea9ef2e28d5a5ea369",
+      "mtimeNs": 1789317093677869688
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/home-sky.png",
+      "bytes": 1739368,
+      "sha256": "e80b8ddb1f4705128a720a72ec8ba4e604ae1122874be4e305afa7b3929439cc",
+      "mtimeNs": 1789317094190370589
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/intro.png",
+      "bytes": 1866265,
+      "sha256": "dd2e1734fe74864e59a8dfddff595e6a3621577744691b5af6551089478fcd55",
+      "mtimeNs": 1789317091812612205
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/pixel-parking.png",
+      "bytes": 71836,
+      "sha256": "939abd4c0cff2a850034652b7d4df6a76c9e5ef3cf1e1977714c952b2c9f23f7",
+      "mtimeNs": 1789317098845098807
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/choices.png",
+      "bytes": 1458269,
+      "sha256": "df11a473d18daa9a037cf8b2cba6295bc63fa756ebb62956976b1473ccba4853",
+      "mtimeNs": 1789317108210250645
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/home-sky.png",
+      "bytes": 1739011,
+      "sha256": "0d2724fc7b5e312e455b6c7200be83395b0cfb27082a27f5a3003e221a825e86",
+      "mtimeNs": 1789317108837933401
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/intro.png",
+      "bytes": 1866277,
+      "sha256": "35068a33747e4cb7c7effc8b9c2043f0b0578ea5e6e3d7cd375a82f4177e8593",
+      "mtimeNs": 1789317106061657258
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/numbered-exits.png",
+      "bytes": 1023817,
+      "sha256": "c186fa88151541944591161218b62ae72e6a2a86dedaeb4ca091f9f0b64c67d2",
+      "mtimeNs": 1789317112128086152
+    },
+    {
+      "path": "runs/regression-final/story-routes-station-choic-5c7c3-ed-circles-visible-at-320px-chromium/numbered-exits-small.png",
+      "bytes": 823982,
+      "sha256": "6ea324c5c41c137f17b71bde0457f9e15a8fd27020b06b58c2639637bba8780d",
+      "mtimeNs": 1789317118767359456
+    },
+    {
+      "path": "runs/regression-final/tap-pacing-group-photo-cou-7898c--skipped-with-separate-taps-chromium/white-bride-group-photo.png",
+      "bytes": 505868,
+      "sha256": "3409ba82b66a08334faa5ec36014bf1247b41cb1a40d682bffd48118ea755904",
+      "mtimeNs": 1789317137613090772
+    },
+    {
+      "path": "runs/regression-final/tap-pacing-taps-finish-foo-14d3c-eal-or-replaying-old-timers-chromium/food-reveal-complete.png",
+      "bytes": 506971,
+      "sha256": "3775d08891c16754e4a32e8f8c47ea54c7f358a71c5a2d33aedcee76e57f65ce",
+      "mtimeNs": 1789317129768716070
+    },
+    {
+      "path": "runs/regression-final/venue-rooms-room-navigatio-6bf3d--and-selected-side-at-720px-chromium/hall.png",
+      "bytes": 1403773,
+      "sha256": "79fdc33a9118263cbb323e8207e207ccdce8839fd4b335f15a105aeab3746cd1",
+      "mtimeNs": 1789317166736216174
+    },
+    {
+      "path": "runs/regression-final/venue-rooms-room-navigatio-7f39e-and-selected-side-at-1440px-chromium/hall.png",
+      "bytes": 1286069,
+      "sha256": "3502b0ebf466f23c42e5b2d751deef5d8b53e192c46f30e1ddb7a9759f8df51f",
+      "mtimeNs": 1789317228717334727
+    },
+    {
+      "path": "runs/regression-final/venue-rooms-room-navigatio-835f5--and-selected-side-at-430px-chromium/hall.png",
+      "bytes": 579403,
+      "sha256": "98a029a3769431d04977cffc865d5cade0fb8a69207593bbc20d115a11d07144",
+      "mtimeNs": 1789317166562467673
+    },
+    {
+      "path": "runs/regression-final/venue-rooms-room-navigatio-a86b4--and-selected-side-at-390px-chromium/hall.png",
+      "bytes": 493250,
+      "sha256": "51945d2fd3fb0ff9a6bccc4b165dc5fa4c527d500147217f449822dc6b6ae53d",
+      "mtimeNs": 1789317157977541497
+    },
+    {
+      "path": "runs/regression-final/wedding-group-100-guests-r-675c5-ppears-immediately-at-320px-chromium/100-friends.png",
+      "bytes": 146517,
+      "sha256": "cede7e4788a5a7a8067f1bb148200a5a2726ca98bfb31e49ed2d48e871e2d07d",
+      "mtimeNs": 1789317203532275497
+    },
+    {
+      "path": "runs/regression-final/wedding-group-100-guests-r-89a7e-ppears-immediately-at-393px-chromium/100-friends.png",
+      "bytes": 196338,
+      "sha256": "dd923e190769884811aeffc719f2faa621121c7795bdf220c9ac39f979351523",
+      "mtimeNs": 1789317204680303536
+    },
+    {
+      "path": "runs/regression-final/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-group-photo.png",
+      "bytes": 469785,
+      "sha256": "c918d091e68979150594627baf43ba629cb17af53429f9005092e8b44b7de60e",
+      "mtimeNs": 1789317212404982648
+    },
+    {
+      "path": "runs/regression-final/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-invitation.png",
+      "bytes": 169973,
+      "sha256": "6e820e91ba0b3d25746cdd0b3a9e9d96a2b94a60a3fb53548aee0a70e5b9ff05",
+      "mtimeNs": 1789317207489243294
+    },
+    {
+      "path": "runs/regression-final/wedding-group-hearts-cover-cd7b1-ntercepting-invitation-taps-chromium/even-hearts-over-photo.png",
+      "bytes": 169960,
+      "sha256": "0fd9b23fe9582fa1582c6c7a8b604395f7acad2b9fc7a5c8c161ff353347a28c",
+      "mtimeNs": 1789317208065344811
+    },
+    {
+      "path": "source-final.json",
+      "bytes": 34360,
+      "sha256": "22d6ca898f6eb27c40d82ba0a19f90c9e93e561e355a829093d98f1309a7507b",
+      "mtimeNs": 1789315989275115286
+    },
+    {
+      "path": "source-frozen-01.json",
+      "bytes": 34297,
+      "sha256": "94308d98cc4ae3bc44de2bff73fe2780c7eaf33d81641cc074e5d12fd78ba376",
+      "mtimeNs": 1789315071077571101
+    },
+    {
+      "path": "timing-and-resources.json",
+      "bytes": 7291,
+      "sha256": "f69183d13d3292aa5c9b8075eb6031532ec3894a0c91d78b439d2ec8319cfe27",
+      "mtimeNs": 1789320662772250247
+    },
+    {
+      "path": "tools/acceptance-content.json",
+      "bytes": 2979,
+      "sha256": "22a699ce5854d5cc528b65a7e9552860602e8c8074288fc0a34a5608d244d101",
+      "mtimeNs": 1789320514987897367
+    },
+    {
+      "path": "tools/finalize-evidence.py",
+      "bytes": 6978,
+      "sha256": "1dbb3a2763a56f89c56b1f085e2e3769d42dd07f2e5a97189a6ce5844c7febca",
+      "mtimeNs": 1789317236597371285
+    },
+    {
+      "path": "tools/make-clips.py",
+      "bytes": 2905,
+      "sha256": "861c8eb05ad0dbd1de80ff579e3b41d39cf4f396e3038c3abe3b80e853b9f027",
+      "mtimeNs": 1789316925619315248
+    },
+    {
+      "path": "tools/package-evidence.py",
+      "bytes": 1948,
+      "sha256": "8d177b855c19b02438f5da92402c0ad0e85a97909d8afe65e6452940368a0cda",
+      "mtimeNs": 1789320728719001666
+    },
+    {
+      "path": "video-frames/f11-applause-1.0s.png",
+      "bytes": 461337,
+      "sha256": "103091fa0e325542790adb2aadf7c232ed8f06bdf9025ce7a992a9ba477d9173",
+      "mtimeNs": 1789316731031371161
+    },
+    {
+      "path": "video-frames/f11-applause-1.8s.png",
+      "bytes": 483892,
+      "sha256": "9241cac40c5c78f8b20f29d9b3a919f65d5579712d3731683bd439439ae3f0c5",
+      "mtimeNs": 1789316820224293933
+    },
+    {
+      "path": "video-frames/f11-applause-10.3s.png",
+      "bytes": 506362,
+      "sha256": "fba6733abea1168158f75d5fe2871c2939c18eec8b22193e215350e3903619cb",
+      "mtimeNs": 1789316731313989754
+    },
+    {
+      "path": "video-frames/f11-applause-5.6s.png",
+      "bytes": 247973,
+      "sha256": "ee65527abf001a64dbcbb670cde9af6f1f4b4c845e68bf889c233230cb3c578b",
+      "mtimeNs": 1789316731139611438
+    },
+    {
+      "path": "video-frames/f11-cheer-1.0s.png",
+      "bytes": 410968,
+      "sha256": "93200668b213bcd6de5ee8cd2fe1f505c712e0524934cf6aa9e4595f66ff8b21",
+      "mtimeNs": 1789316743391421916
+    },
+    {
+      "path": "video-frames/f11-cheer-1.8s.png",
+      "bytes": 505474,
+      "sha256": "1e21e51e6af632176b3df89514f79c5017e0a583014e16a9febef2c2cc8c69a5",
+      "mtimeNs": 1789316820465199691
+    },
+    {
+      "path": "video-frames/f11-cheer-13.7s.png",
+      "bytes": 513244,
+      "sha256": "140a1a240ec850a79f7080335485650cff7994a321cd7b28ee5c5825c8426b3b",
+      "mtimeNs": 1789316743902466987
+    },
+    {
+      "path": "video-frames/f11-cheer-7.3s.png",
+      "bytes": 495440,
+      "sha256": "7243332338102945fced3deb0bed083b02fb9593d5810d41b10be3a8ad6e78e7",
+      "mtimeNs": 1789316743638514316
+    },
+    {
+      "path": "video-frames/f12-booth-1.0s.png",
+      "bytes": 364155,
+      "sha256": "68bb50e01f9e528ff451c401d9b7d45a5a6c292135bf69a01ed7103ea79ca736",
+      "mtimeNs": 1789316708258637265
+    },
+    {
+      "path": "video-frames/f12-booth-10.7s.png",
+      "bytes": 349191,
+      "sha256": "f1abbc5d8929260f093b31e35d761d87c5ad7e10c5367df553bbb17ed74e8da5",
+      "mtimeNs": 1789316708650482311
+    },
+    {
+      "path": "video-frames/f12-booth-5.9s.png",
+      "bytes": 358862,
+      "sha256": "00513da979e26c305ca785cf496652337e6b60cb093282b4a118a83a24fb4b4b",
+      "mtimeNs": 1789316708454708117
+    },
+    {
+      "path": "video-frames/f12-bridal-1.0s.png",
+      "bytes": 407000,
+      "sha256": "f60b9d44eb3ae800ab4a13eae8f555330a44c8a62a8b5dd300c3fdd8dd6d9fb2",
+      "mtimeNs": 1789316721542070174
+    },
+    {
+      "path": "video-frames/f12-bridal-12.0s.png",
+      "bytes": 417825,
+      "sha256": "124dd7c7da864caa9ba1a18b989f0f2d586dcd49736b977d4da866981ab545f6",
+      "mtimeNs": 1789316721890806639
+    },
+    {
+      "path": "video-frames/f12-bridal-6.5s.png",
+      "bytes": 343891,
+      "sha256": "6a93b6ae539a36c153ce0e02a3eb6af8cd04256c265e37d7b3e1d1ca55978ab6",
+      "mtimeNs": 1789316721656651714
+    },
+    {
+      "path": "video-frames/f15-reception-1.0s.png",
+      "bytes": 474892,
+      "sha256": "6378df6b43eaa125fc55a80adb5a4294234309a6f014d64b8dd247daf9058df1",
+      "mtimeNs": 1789316754864150079
+    },
+    {
+      "path": "video-frames/f15-reception-14.3s.png",
+      "bytes": 471691,
+      "sha256": "12c7dfcf77d74062c5a150c29f38bc35e39297f3dab1a520ea2033e7b7d6c2e9",
+      "mtimeNs": 1789316925610231404
+    },
+    {
+      "path": "video-frames/f15-reception-5.4s.png",
+      "bytes": 218190,
+      "sha256": "090d6cd18ef15e5ac0f1c4d6aad80f9c322c5ffdc2d4436c8ca81a6ade4fa152",
+      "mtimeNs": 1789316754971570424
+    },
+    {
+      "path": "video-frames/f15-reception-7.2s.png",
+      "bytes": 488191,
+      "sha256": "f2cb0513a53c25fbd3647ab48703aee13dfb23c5342bff5c3ec260809524e974",
+      "mtimeNs": 1789316820692654324
+    },
+    {
+      "path": "video-frames/f15-reception-8.6s.png",
+      "bytes": 506130,
+      "sha256": "575df9cb145a211812a92dcf2a1d741f95531627a694002a670427a525d0fbce",
+      "mtimeNs": 1789316925267178971
+    },
+    {
+      "path": "video-frames/f15-reception-9.8s.png",
+      "bytes": 18594,
+      "sha256": "292dc2f71f4655731be2b691da9491e0b5c5cc475b5793d577ad403114e2ab1d",
+      "mtimeNs": 1789316820931903884
+    },
+    {
+      "path": "video-frames/f15-reception-9.9s.png",
+      "bytes": 99548,
+      "sha256": "9db6c36deba07ecbcc218a2aa4ba4a02faed06c164df1b9c28b3b40214a82c6c",
+      "mtimeNs": 1789316755173413432
+    },
+    {
+      "path": "video-inputs/ceremony-applause-events.json",
+      "bytes": 3405,
+      "sha256": "46a03f079d1bab51af2acc9e5183275e87a4af4900e1f03cdd676a7a50c74e0d",
+      "mtimeNs": 1789316647603150275
+    },
+    {
+      "path": "video-inputs/ceremony-cheer-events.json",
+      "bytes": 3382,
+      "sha256": "3ea1b5002ddecd525aa0b48ed7797cb03f69af057a2b420fdbe9e5daa4702a31",
+      "mtimeNs": 1789316647595758880
+    },
+    {
+      "path": "video-inputs/ceremony-compact-events.json",
+      "bytes": 3375,
+      "sha256": "ddee95b035fe6a01dc924bd04eb6c2fdefe5adb6fe07a149390685594174b7c7",
+      "mtimeNs": 1789316647594517794
+    },
+    {
+      "path": "video-inputs/ceremony-reduced-events.json",
+      "bytes": 3388,
+      "sha256": "891dfc8fe3f2bf1ee4677e3ae89a4154ad415e12eb5ab4befb3d41308f9b53b2",
+      "mtimeNs": 1789316647596744558
+    },
+    {
+      "path": "video-inputs/photo-events.json",
+      "bytes": 15481,
+      "sha256": "ca4b1c19f7571e358b420e9017e73901314ac1a221c9061efbe319dd83162f1a",
+      "mtimeNs": 1789316647593781192
+    },
+    {
+      "path": "video-inputs/reception-events.json",
+      "bytes": 1691,
+      "sha256": "c9ae92314e7f895f06be8a161a2facb6f8a9a40cae15741098aea7c60ce33de6",
+      "mtimeNs": 1789316647599606844
+    },
+    {
+      "path": "video-inputs/reception-pause-events.json",
+      "bytes": 1318,
+      "sha256": "a5dd28e7004d186637f7a78e5562f36c6beb97a01e71932f7cf7900cfe0b39aa",
+      "mtimeNs": 1789316647602585459
+    },
+    {
+      "path": "video-manifest.json",
+      "bytes": 13808,
+      "sha256": "fa44179e643cc53188dc56ace4b660b763c6b9fb86ec9518437f650109085b75",
+      "mtimeNs": 1789316925021944097
+    }
+  ],
+  "sourceAndSpecHashes": {
+    "BATCH_C_IMPLEMENTATION.md": "eb000941259898dc1b1a9cb922cdc85bc38d243b88e589eb8707028dd300f059",
+    "GAME_REVIEW.md": "abaca69edccd5d07050872b711e619ceeb228d955a8c6f7f41048703243833fa",
+    "GAME_REVIEW_FINAL.md": "3bcb46bc63ef921826fd28dca582c9db0dc7371ff727764e3b705dd3b52e3848",
+    "game/.env.example": "6149bfb8dc9f8694001cd37ad77e4d81adf4d53802edaedc117eaeeb90ae9492",
+    "game/.gitignore": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8",
+    "game/README.md": "93d0a2312c2fce27c3c2e74ba779464de07d9c186c7ca2a9eb374cbf80277a55",
+    "game/e2e/avatar-alpha.spec.ts": "3ed1a094d8bc53e0a08aac7d2f73a608182e70e27a375eea46d024b22068d40a",
+    "game/e2e/canvas-centering.spec.ts": "76d964d5586d15fedad26d611c666791d5700b11735e35678a807732314e9ed1",
+    "game/e2e/corridor-observables.ts": "05b6a017405fb4eb65aa35e6ace1ca21859a67218f4ade4a4d523eb61c785d94",
+    "game/e2e/current-journey.spec.ts": "4559fe4a6c7030b60b54a05f94c529345b742cd4a7cbbbf7a900bfdb42d597aa",
+    "game/e2e/dinner-pacing.spec.ts": "8e9632c400769f9b025c0ce3865f498bc25f82b100571aa4eb36e2363e6fe4d6",
+    "game/e2e/invitation-details.spec.ts": "e551f3650b56589a8d52e1bdf31f01d188cc18beb4c5d1c0474dc8075e4ed20c",
+    "game/e2e/invitation-notices.spec.ts": "bef6ef7773e49910f1a47fa575855461fffdc040e1db318a33a92983336f3a10",
+    "game/e2e/invitation-redesign.spec.ts": "0fdbcc78602bb0478423125ac978081c9412ae25363be201722606ae11b02302",
+    "game/e2e/invitation-sharing.spec.ts": "c1f5b45f69bf16bb5f45b250027a79367a95cb4547c9c44519be57ef90342633",
+    "game/e2e/invitation.spec.ts": "544c28551482d8b56ec83997b33a3e98ba23f9506143e135a0e6b6b0f60820cc",
+    "game/e2e/lobby-info.spec.ts": "b54e3e8d236179a41fee4398a2a26ae6f972a9d62a9c8682406168f6a40cb1bc",
+    "game/e2e/lobby-required.spec.ts": "92c558a610a61f9d2f3a60de85c2d8d0a67843a6ab31add36acd0877e8b0056d",
+    "game/e2e/lobby-return.spec.ts": "6a203510fa1af109bd8be1476043054def4c3a05dd8489d4d28775ef4d037b0d",
+    "game/e2e/minimi-customization.spec.ts": "809fa4956ca27ad585d465ed47523081363f233fd5d99f2f5297385624c97bb3",
+    "game/e2e/minimi-jaw.spec.ts": "68fc54875768ef4025a06339d9f3cbc0b0e6f131e94e910288fa05772797bda5",
+    "game/e2e/minimi-neck.spec.ts": "1e24251b7eb682f6dd16168c1ed6a9f0fbdbe85b50d48060b8ecb2363ad9050d",
+    "game/e2e/minimi-visual.spec.ts": "477ff892e7b48c9abbe20fa02bcb521d00cd36bfcf3c0dd2fb135a8a79317a00",
+    "game/e2e/photo-gallery.spec.ts": "1845659f875405753b1f440db2f30fecbc4a4e47dfec4fa479aa9fc934732169",
+    "game/e2e/reception-only.spec.ts": "a776f593bf3433ea6e62d17a37c0fa597ad979c400971f333622ca2829f72cac",
+    "game/e2e/review-batch-a.spec.ts": "d6571b7b0aeeb74dbeec26c70f386f551135aa53d4b8f387db52caeeb24e0cdd",
+    "game/e2e/review-batch-a1.spec.ts": "65865681bdf0a5011ddac5229ae56daf2524df1851bdd24d5f0fddb4ad111f1b",
+    "game/e2e/review-batch-b-access.spec.ts": "9b4649ce408632891c59040baaee001e5ec0e2a0f8fa3cbc29785d611095a143",
+    "game/e2e/review-batch-b-floor.spec.ts": "299225525c22a063bd86dc435fe1adf5a2417b55a9b1e54b39081c390027b250",
+    "game/e2e/review-batch-b-guidance.spec.ts": "92ef4ddeb6611f7af5aa60a6aedad0dfcc47b125f18d2bd8dffbd56939745169",
+    "game/e2e/review-batch-b-performance.spec.ts": "5d3e0b012b34af3fa57e61b69172566f846211f1dd1934c91d7970c618c63687",
+    "game/e2e/review-batch-c-ceremony.spec.ts": "6ef612ab5696fa3cb85216540faccb5339b7cd3b6d82d0f9e88255a601fb4970",
+    "game/e2e/review-batch-c-photos.spec.ts": "6e8b2a1b43112b46f040490493f91e3f07e022216f7ea88a14a6e01b7c72eebf",
+    "game/e2e/review-batch-c-reception.spec.ts": "c7c684e15699217bd968b4d4278df5d8afd5ec4d87eab459c089660492821f7c",
+    "game/e2e/smoke.spec.ts": "f5ab719ac59580b69dee3ff204609284b183ebd20fb0e0dad63d6c5ae70274c0",
+    "game/e2e/stage-fixtures.ts": "bbcbb177d574d30edfa07b4a7eaf41d2cd84ca5369657153d77e4410d2bad73b",
+    "game/e2e/story-choice-width.spec.ts": "c46ddeb424335fa049e97693a7b832ab0ac96852d9dc763446b71db89357c071",
+    "game/e2e/story-helpers.ts": "6f1e5c76bce3af95b31c0ea9cf239a0133df33ba733ea4dfe25d766324666ec8",
+    "game/e2e/story-routes.spec.ts": "5104d6b8a7e20705df58dc75b957cf1b0c153596380f69ed1e3a871367f9f8b9",
+    "game/e2e/tap-pacing.spec.ts": "0896bcc0de81257ff74af5ca6e65eabda884fe2c35e9d80122ee7b9cdfc532fd",
+    "game/e2e/venue-rooms.spec.ts": "9337e7dff12de901c4061a319432785c987e29c6ef3910cff68474cc7881eb87",
+    "game/e2e/walk-path.spec.ts": "bed2cb557db8b9e7797cca2344ab07ba8a7f8376f97ee66c002ce44171fcb3d7",
+    "game/e2e/wedding-group.spec.ts": "20b8676725b2e0cbb5b827ba2c0bdbee90739e4a20d2ad4f5b7c0716bd4864a8",
+    "game/index.html": "50d0b26b4ddbbb2dfd35f1e2813f3ac923a6dd73c1d5c864aa500f3721949c2e",
+    "game/package-lock.json": "e123564ba3bb5d721f0de7b3e2447d8956f8a242739ad6a797787c7b462a1df8",
+    "game/package.json": "e09bb00d44908956b24ee6fab2d2990585a5f4c18f91b50ebad734d8e6da7ea6",
+    "game/playwright.config.ts": "162908c43a9620719095e3a07cfbb4d8b1e6668a3de1c48fb8ab702631f4fd20",
+    "game/playwright.production.config.ts": "2ebde30d5870fb3f876c7ae39226d4e64bb5907cd942d2601f98273e3c22d75f",
+    "game/playwright.review.config.ts": "d3661b52661aa95eb620bf2bca76ba4f75254d1b5335b95518516970fd294518",
+    "game/public/assets/invitation/calendar.jpg": "4d457946a70544364f7414615fe5bdfb8a74fe429d5929fc9f78dc71dd65c049",
+    "game/public/assets/invitation/chrysanthemum.png": "ca1c5b322753942b76f246eea9f28b5564ba1aa6d646eb7cbeac58013db280ef",
+    "game/public/assets/invitation/gallery-01.jpg": "0b4c5fe5d0e86b3c7af9ad2c6bf506650856fa78ac1e710449d12e102bdd05b3",
+    "game/public/assets/invitation/gallery-02.jpg": "b2f25bfb811b254f461c0059d0c10ab934fe16d7f9a8e9c52354bbcef67b50d9",
+    "game/public/assets/invitation/gallery-03.jpg": "ffc8a90dff4b04d4dbca4720491e85e8e95e6e56460ff78e79628ef65b839dbb",
+    "game/public/assets/invitation/gallery-04.jpg": "a294fc8e2e12d39f043a809bb5ecf7cad0da6708f704b316ac65eb407df75c89",
+    "game/public/assets/invitation/gallery-05.jpg": "f0c2982f12ece1de85fd85b6d3dd3f2e25fa126153a5257216385396bcde0b80",
+    "game/public/assets/invitation/gallery-06.jpg": "dad92b1062c09ae70db38f644128d5622f7fdef622b4cb076f80953de335f5c1",
+    "game/public/assets/invitation/gallery-07.jpg": "41986f7404605ef71d8ad2eb7d525df0698ff051ebc7a953d72885b8adda6b8f",
+    "game/public/assets/invitation/gallery-08.jpg": "8ecbe39c62f6ebb5b7a359d9f01b8b8685431994c40dc931419c6167531dc601",
+    "game/public/assets/invitation/gallery-09.jpg": "04466428a65f75a33c1f8894594305ada81c8f8a7934cceceeea21f5fd0f1378",
+    "game/public/assets/invitation/gallery-10.jpg": "0b5469c9350bf9e28b0ce06c951fe5be2eab4632ea07b0bc85a98e8f88de4fa9",
+    "game/public/assets/invitation/gallery-11.jpg": "8f51860e940db61b4f1b4314d234dfa6ab7f8b07f49e0c2a547675574d953662",
+    "game/public/assets/invitation/gallery-12.jpg": "a27289b446e67eca62bc20f1861aebf2ecf0cdc4acc2eb5b5751e65009f8deef",
+    "game/public/assets/invitation/gallery-13.jpg": "7a87c9dd4d6407b0de4db88bd1cb8a824032d183e0fde3192f074367eb4fa7aa",
+    "game/public/assets/invitation/gallery-14.jpg": "7d7c13e30996532ee53ec6b516eb08da90e591afbd1a0507cae532b43b0ef0e5",
+    "game/public/assets/invitation/gallery-15.jpg": "c18335f559214563b2fb8fcf557b97db01ab40b685b91f81dcc6ef89b4b09cc4",
+    "game/public/assets/invitation/gallery-16.jpg": "c5909247ec6f49d99dd0cc3ae1e22e620863617b9c851b2aedfcbc100faf6c1b",
+    "game/public/assets/invitation/gallery-17.jpg": "c7613d4987322c3d3897e1cce8de0c056e3b5d1c3b2b8f7cb25ab86ea8e89f5c",
+    "game/public/assets/invitation/gallery-18.jpg": "65958b6cfb4dc992b227a2490a899cc01a9104c6524e1337f718c59ad9d17f9a",
+    "game/public/assets/invitation/gallery-19.jpg": "67901055e3682cae4e9e2f15216f4059cc0bd9a3fd46c45aefd9c0f8dedf6acb",
+    "game/public/assets/invitation/gallery-20.jpg": "0b47d0755d38ade93a4751012674a4e53c2ab851a596d6ab6b840c1df6c2392c",
+    "game/public/assets/invitation/gallery-21.jpg": "a31e910e9558c1e33342ade2235e6369926633ff844610902957dbd3151d7ea6",
+    "game/public/assets/invitation/gallery-22.jpg": "983ba6ff510968d9912e1a07c65efaecfd94f02d477ee7d7efd7ca6218af5eaa",
+    "game/public/assets/invitation/information.png": "f07eaf393761f5ce8101f78d3daa40a6a1d60db3c43c78b79383ee822eaed83d",
+    "game/public/assets/invitation/intro.jpg": "a4c5be47d495a44ad22bb49be4ef7c62998aa6c6da4dcf4c51f3c3c41f8fe1d6",
+    "game/public/assets/invitation/notice-atm.jpg": "575081529fc274d76d0ddaa05b5b19cf2e88c3b11399b1e13a77269a9d86270b",
+    "game/public/assets/invitation/notice-banquet.jpg": "27beeae3a580455e57d794a224e365b88e29d9ace390888c794aa655138ea8f4",
+    "game/public/assets/invitation/notice-photo-booth.jpg": "93a3865896dbee914091454817e9792f731e9cad7647a68402088f047e8b2aa7",
+    "game/public/assets/invitation/notice-welcome.jpg": "4ce7c87fe2f43ff286d8f7d253ce5bdecf01a2bc1c711feea5bc6a22a8b7a755",
+    "game/public/assets/invitation/share-pixel-square-v2.png": "bd7f383e058c4457475ada4abcdb3eec73cb06c3a19948e25e2131a2a21579d9",
+    "game/public/assets/invitation/share-pixel-wide-v2.png": "553e95770f50a88125856b5d8562ead34827c1b7729e65620003b9ef556df748",
+    "game/public/assets/invitation/share.jpg": "89b1ac13ca4f5254a744dcb97209d66a34c4c07d54244757b43c67044a0081ca",
+    "game/public/assets/invitation/shuttle-exit-5.png": "e510d4395ed984b1ae91c569f3b3227228e92219a78763b120c656720eac257a",
+    "game/public/assets/invitation/shuttle-pixel-matte.png": "de922e356be0a4a83980cb3a7fa51d8b4647c5fa20b8bd976256f9d029a7ff85",
+    "game/public/assets/invitation/timer.jpg": "03817e97d9bf7f7412d05de1d573dedb6533edb8c94463057a464bbb5080ab95",
+    "game/public/assets/invitation/venue-directions.jpg": "0db6e293c57f770ce0511696fa6ed21e296bf90ded324eae149dc655050b601e",
+    "game/public/assets/lacitta/characters/extra-outfits-female.png": "5cb153627ad8746bc4026b1f71f4da50de35bd3c1deb50dbda8171e8234a2f6c",
+    "game/public/assets/lacitta/characters/extra-outfits-male.png": "6967e4ca06ab030e95ed3a596acafe9665c700ff928d507088c4b47c7190ba54",
+    "game/public/assets/lacitta/characters/formal-guests.png": "5ab7a3f1e70cc28570eb5a916cea6b600ac1fd682e106870c42b306a1065adb5",
+    "game/public/assets/lacitta/characters/guest-poses.png": "f586ffe6590b1bd2de850ece28dec865478c1c2665a8a13f89d98e9b7f6feda8",
+    "game/public/assets/lacitta/characters/minimi-faces-v2.png": "9e27c7efdbbbf48331dc5088727bd1cd98573f1e376f7374c7a084c3115161a4",
+    "game/public/assets/lacitta/characters/minimi-hair.png": "b0c9e826c83376802cdb62129d1ad23b30feded0d86ac0d6eeb6a39b38b517ce",
+    "game/public/assets/lacitta/characters/minimi-hairstyles-v2.png": "5eb0df5fe5af7459956952ebf219fe75f627d67157b0804c22d8e82eb51fe7ff",
+    "game/public/assets/lacitta/characters/npc-bride-white.png": "e3f88b89aabb23c090475df5782a307c1b3b1847fd1415deb0c453703a87b08a",
+    "game/public/assets/lacitta/characters/npc-bride.png": "7d7ea5964b8a982f101487f6dc429ff9d7ef1706760f08ae6256d40b192d32ea",
+    "game/public/assets/lacitta/characters/npc-groom.png": "414b2837d7fe7f4e086e2ed22f8baa926bac6f63c924a67b317353dbc78bf0af",
+    "game/public/assets/lacitta/characters/npc-guide.png": "c0d4f8e3a9825e9b3ae8f50d8c6f436b540e573e10e9bd8b98a4a7562f7cb51f",
+    "game/public/assets/lacitta/characters/npc-reception.png": "f430bb6a6aa4c38fd5005984a1dbf3ad1a0ee5705a921adeeb3a0d20f5606f7e",
+    "game/public/assets/lacitta/characters/outfits-female.png": "2e5f5609188424b458b8dcba7442a6cab8e0ce6ee959823b66a4d0a7d97a540a",
+    "game/public/assets/lacitta/characters/outfits-male.png": "0256a87dc584b87157ebc7e4a83ee8ebd16e37b14b98d880bd4f15a5cac87b21",
+    "game/public/assets/lacitta/characters/parents.png": "c82d4d6a260deb2e4957e9fcc608ad85af85f80555d5589c40bd0fdc03ac68e3",
+    "game/public/assets/lacitta/characters/player-guest-female.png": "4dc22b81bcdda46f9790e5f0030ec6a33573a97fc099c28d888fabe57204e319",
+    "game/public/assets/lacitta/characters/player-guest.png": "8083a16f51ad2c9762c23097939ce064973c29e53b3677b04ca8c51a76f533d0",
+    "game/public/assets/lacitta/characters/seated-guest.png": "1e6268337f77525af1a9aafc493eee9774ce6991373c4555fb3daf995f9ea343",
+    "game/public/assets/lacitta/characters/wedding-couple.png": "84b330dbe6e23ddf231e25c0fba430c6dc486df4c8a50e7158f729984ae83826",
+    "game/public/assets/lacitta/characters/white-car.png": "68f61287cca3648c23607fd4e259738268ce0e4599cc4e8b0f5bb1586b2a20a8",
+    "game/public/assets/lacitta/fonts/Galmuri11.woff2": "51a59c70b4b0ac05c6f6a8a53181e0d1b1f2ccd227ebfb829500670a2e2b45e3",
+    "game/public/assets/lacitta/food/buffet-left.png": "9ace171232c3052f889df9b8ad2ab3bccac5553bd9440a8b041d02e8033b77a0",
+    "game/public/assets/lacitta/food/buffet-right.png": "f64c1cbf363ca5dbec884c368d58f01eeae7fcc1df19f16da49121715081ecd8",
+    "game/public/assets/lacitta/licenses/Galmuri-OFL.txt": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1",
+    "game/public/assets/lacitta/photos/atm.jpeg": "d15fe8db121e3dc79812dd4436d8f2d6a34bffc41d457a6e7a5ae25430bb56ad",
+    "game/public/assets/lacitta/photos/banquet-corridor.jpeg": "61bb3f7efb3116bbbdce6fa070319a72213d11398a45270a973c9ba90d02a5e6",
+    "game/public/assets/lacitta/photos/banquet.jpeg": "5194be1fbf160859ea3b037e79352ac0ec2b6590d72a3da2743b67e24abb502e",
+    "game/public/assets/lacitta/photos/bridal-curtains.jpeg": "6af1a7a143f85667577b72630fefe1091ad7cab7ef2933d8838bda3f7df5d90c",
+    "game/public/assets/lacitta/photos/bridal-entry.jpeg": "423df0e872c4e95b6fca4f08e2077cceb1d8ce676c3eceaebecb7faabc06e217",
+    "game/public/assets/lacitta/photos/bridal-room.jpeg": "acb8e9ec4bcfecd559f1be95b43c6d2350392e3cfe91f15aa851ca2d9bfae69d",
+    "game/public/assets/lacitta/photos/exterior.jpeg": "fba38dc1d59d3ec679d7d84d1d8084abc41d0842c52498a33322db8d4207be3c",
+    "game/public/assets/lacitta/photos/garden.png": "9851789d6ebee7016c2e7d9778bf2efb2bd233177b02c5207da9961bb03c87ca",
+    "game/public/assets/lacitta/photos/hall.jpeg": "3995b1bc415ce23e00d40f40c428b3ea98947e28867590ae7de23c15803e07c6",
+    "game/public/assets/lacitta/photos/junction.jpeg": "1ba7bc37bc8cdd24870b3cc4ba0294b41933fd354759a78e3c46b77bcfb5a636",
+    "game/public/assets/lacitta/photos/lounge.jpeg": "391a90d93bebdddf4821609ced32cc8f5005c5ce76d4b0342591a5f4407d621f",
+    "game/public/assets/lacitta/photos/photo-booth.jpeg": "6f429e229080060424ff3163a407b73a41542fc4b446c53043bc86db7c401684",
+    "game/public/assets/lacitta/photos/photo-zone.jpeg": "1502a4ff69bc6d2eaa12246395cee09255cf3ed950a0dfd703c646a42913fd5b",
+    "game/public/assets/lacitta/photos/shuttle.jpeg": "d335facdf49f0e67b5cd2cb6915027649b133f87089fd53847f63580f308e4e2",
+    "game/public/assets/lacitta/photos/welcome.jpeg": "97cfa649d5642535517f453efcf98082fad134468fea76fe6000b9ab1fbe709d",
+    "game/public/assets/lacitta/pixel-venue/banquet-corridor.png": "a3d386b254ea4300e40e5c19c5a7f629b8c4be3dd7c1a04913a71c056a0f580b",
+    "game/public/assets/lacitta/pixel-venue/banquet.png": "4ebe86561e8ed63def42feba97054ff767db7e33d41f20c2da08be4cb96d7332",
+    "game/public/assets/lacitta/pixel-venue/bridal-room-white.png": "38bf5c6f4ca765edee01414f633f779929e051deb395823b967d7349bb3dc5dd",
+    "game/public/assets/lacitta/pixel-venue/bridal-room.png": "7e0da709ad2d96d2f5b22f5977715d8788409c168c5fb96fb49a34f2d07eea57",
+    "game/public/assets/lacitta/pixel-venue/garden.png": "7642506691bf98d0fe41c319fe53a0e4a11fd785a5adcfc15e7e34c40480c1d9",
+    "game/public/assets/lacitta/pixel-venue/group-photo-hall.png": "ca1f5ff97003e0625632032fcb0b445a29cc30249f442f0cfc9d5007453f5718",
+    "game/public/assets/lacitta/pixel-venue/group-photo-portrait-v3.png": "a2779430320a6f5a3bfce69d1cc4af2e89d6efc4c2411755a6b2e810ed0e2b52",
+    "game/public/assets/lacitta/pixel-venue/group-photo-stage-v2.png": "1d04a67a112ddbad3caf45d10f625ce2f144db5a5f24045f7a2e75cfb6976eca",
+    "game/public/assets/lacitta/pixel-venue/group-photo-stage-v3.png": "f3795fe3ace1cf417743ee7563cdd4a50326b4206f507d959720137305c3af53",
+    "game/public/assets/lacitta/pixel-venue/group-photo-stage-v4.png": "88c593e5d7919efdb1ce7b25faf57723828c6c818336cf0a3b393af509e488b3",
+    "game/public/assets/lacitta/pixel-venue/hall-v2.png": "564901450febd022a1a2ce776ba83b32639c1386fd5ea0709a5f9cc0702dda66",
+    "game/public/assets/lacitta/pixel-venue/hall.png": "b8f14ea2af1c0e2c78425354af87def7848a8a5614ab5f2f175a446726c5764f",
+    "game/public/assets/lacitta/pixel-venue/lobby-heart-panels.png": "7671cae0a9d789b8d5da808036203996ceba54195a82524b3c8fcc1a84bc8c13",
+    "game/public/assets/lacitta/pixel-venue/lobby-no-posters.png": "fc256ccc0c91806b4bcffa3cf680fc3d71a48c8cf6b1e9840018017abc67e584",
+    "game/public/assets/lacitta/pixel-venue/lobby.png": "89a5175ec68d04885730d5e3bf534f9459328add15e7877d1782814c663bc3b7",
+    "game/public/assets/lacitta/pixel-venue/photo-booth.png": "b1bcca45bce98884c9c89b2b5e2af17e715a7c6e3b265e86a5beca29bb1afbc0",
+    "game/public/assets/lacitta/pixel-venue/reception-family.png": "0d770d77c3163341db0c73b6521cb9dec0e357a1c85917892f534bcc02388f7c",
+    "game/public/assets/lacitta/pixel-venue/shuttle.png": "e8363cd0b5ba6de169183eb5c4083680f7371246f4a3a99ed186fe25ca60eb3a",
+    "game/public/assets/lacitta/routes/car-background-pink.png": "3da44158d370ec99e29f674e7c53753363cc620bd552f8a39f79a91ac5968ce4",
+    "game/public/assets/lacitta/routes/car-background.png": "749143eb351aba67b46401d63cd53bf5fa89b2a7fa67f6d5cad31ea6823d12c5",
+    "game/public/assets/lacitta/routes/car-choice.png": "4da339daa6b16a84cd5297c0c6d209f36410d18a8366b9b0429e2c63ea527d08",
+    "game/public/assets/lacitta/routes/car-guidance-v2.png": "7b66d596d1b86823d8cd2e1f6549f670388bdd09d234fc7eb3c2e5c559d0b965",
+    "game/public/assets/lacitta/routes/exit-sign.png": "39dddc783b7fdeb63c764d0ceb62f523dee1e2789df53ce2bd28849758d52d6d",
+    "game/public/assets/lacitta/routes/home-background.png": "aa985d20424b40124291c839d244b1c4ab2885b62252038f58600c4e12f8f8b4",
+    "game/public/assets/lacitta/routes/home-ground-v2.png": "fee9f4b9121a8761e0cc7066599eb41f04499068c2971d1506efb0ff85f89d58",
+    "game/public/assets/lacitta/routes/home-sky.png": "0df5c3ba2d22bf1129a7f54c485873ea9efab994ca072ee5148f78728501c07f",
+    "game/public/assets/lacitta/routes/shuttle-bus.png": "d308444673010a6ca051913e1c69058ac8ba2fb25adcf219ac7ff225b12a8110",
+    "game/public/assets/lacitta/routes/subway-background.png": "e55056a0429d2582da74f4a4cba7f6e113dbe75d63bcec1c9c94ff24b36cf43f",
+    "game/public/assets/lacitta/routes/subway-choice.png": "315c3b83fa6d1b2745577529bd76713aa6460689095d53519cbe113aec5e7f64",
+    "game/public/assets/lacitta/share/og-lacitta-wedding.png": "1e18dd59da0e7829c119fe25b1c1ba7672e45164a576f39787bce13c41176a07",
+    "game/public/assets/lacitta/ui/arrow-marker.png": "415329bf3aa0ea9ee681ad5ac7678344138e9f66f6fe7d6b27e61818acd57cb7",
+    "game/public/assets/lacitta/ui/dialog-panel.png": "e25f3453d4c816bb446b382a87bc3d8034c34aac3655f43f5804b6ab72ccea3a",
+    "game/public/assets/lacitta/ui/guide-marker.png": "4f52d4a095916792caeeb3529bf10ff8864343c8d9068f9026d6192eb02a1685",
+    "game/public/assets/lacitta/ui/hint-button.png": "23427a4bb80c987a83dd6446c9baf1505fcc9085e2161efef27346ad6daccf27",
+    "game/public/assets/lacitta/ui/loading-accent.png": "735a248b20157d959c7e8ec3554afd7c469938b456dd2d30405f62aeb019b46a",
+    "game/public/assets/lacitta/ui/quiz-frame.png": "fbd648b4a02bec64f90fd41867944f7b779b88e864d9044b7cca72813809062d",
+    "game/public/assets/lacitta/ui/route-sign.png": "e84d0862e2b1e1ff2775db8387779b23b2ca14d7478da32a2854caa209383dea",
+    "game/public/assets/lacitta/ui/touch-button.png": "f4707c831d57342524829d69907759869005a5e00e5d18c69b390a49a30884b9",
+    "game/public/assets/lacitta/venue/banquet-background.png": "227044c5955040e77b50b18357136adf83185728f5b1bd75ef799e2ea010ba82",
+    "game/public/assets/lacitta/venue/bridal-room-background.png": "3ef5b0969acafa41fd91767d58ebe1bd84a256137788c1029bbd4c1b9b0013d6",
+    "game/public/assets/lacitta/venue/buffet-island.png": "1eb27f1bec736bc0c87b3627e94129993b3179dc07a8950fc48b7c230f8febd1",
+    "game/public/assets/lacitta/venue/drinks-station.png": "11001eeaed8517ed871d7e5737d347ef789edb696dde91eabe954f15a05d1ee9",
+    "game/public/assets/lacitta/venue/ending-background.png": "33ab091ff2b5f1f1527df0b631610b180009cb068c1a05d83a508a6fb3fc3577",
+    "game/public/assets/lacitta/venue/greenery-corridor-background.png": "7c88a0c62b23485ff5214b28502cdd5e1178d28f00c2dc82ca481ed501ae631c",
+    "game/public/assets/lacitta/venue/hall-background.png": "07a8fb4fa49b69e7795e2fbe089f7693733e45c6f7b5117f82b6b670972bf1d6",
+    "game/public/assets/lacitta/venue/lobby-background.png": "5b54ff149737876b3da66a332de768bf2b6eb397837147af1e99a1bf3c08341f",
+    "game/public/assets/lacitta/venue/photo-booth.png": "6661d21b1142a9ecb963a5414f747188513fdb5667b4f08a9e3dd7e19b6fb5f0",
+    "game/public/assets/lacitta/venue/photo-room-background.png": "5901ba24e9ecbea19ad53771eafa896175a6c4899c841475b24c45a619b0cdcb",
+    "game/public/assets/lacitta/venue/photo-table.png": "c795a902f5279882269d2916808f9d10c8371cad5e72545ae81e24dad3442d3a",
+    "game/public/assets/lacitta/venue/reception-desk.png": "c56f293589ded64617e869d348ce7484acb714db53fbc4bf535a0e591ed91a4f",
+    "game/public/assets/lacitta/venue/waiting-room-background.png": "d8054aa3cbf879f59941b1eb14d99b39e8e375d6a6b7fc98ab37f6781dcd1e9e",
+    "game/public/assets/optimized/gallery-01-game.jpg": "d1a2bb9b6b8779591287f07f034fe78a465e0dc331f54bd405eb0fa2085ea20d",
+    "game/public/assets/optimized/gallery-02-game.jpg": "b1a7d654b1c06c5cd70f2bc7f16eb04570cc05a70a3a5b0ba32388c1fdbee75e",
+    "game/public/assets/optimized/gallery-03-game.jpg": "27067642bbe13723f2bc2fe19857643f8b8fe580514314a920704cb914a86ba7",
+    "game/public/assets/optimized/lacitta-characters-extra-outfits-female.webp": "de7ad8f64ad714f3c86ed2dd27f4ac9650332d98cf94a43ad958c99d849b1f81",
+    "game/public/assets/optimized/lacitta-characters-extra-outfits-male.webp": "074d76607b3669502b4476188774f092a9a16e33d69294a374fc46d81bbde819",
+    "game/public/assets/optimized/lacitta-characters-formal-guests.webp": "218ae9da932b9ca6dff9335be5b131bea71eec833f5676c3cb7c9d0f0016297f",
+    "game/public/assets/optimized/lacitta-characters-minimi-hair.webp": "14b027836aa7982021da7b1a4a3a4738f31a4d2e8dc4c7c39d595e397af3797a",
+    "game/public/assets/optimized/lacitta-characters-outfits-female.webp": "cf7181d2df8805a8ef237149ddc0d81f032d9564d053fb8184cf0548b21963fe",
+    "game/public/assets/optimized/lacitta-characters-outfits-male.webp": "8b29dab1449f7bb8e35ec07205690193d1537a84784c4f5c37e87c4fe0f5e339",
+    "game/public/assets/optimized/lacitta-characters-parents.webp": "0cb96e7828cc9845881d8f91b409ce6e47865160be9726b557a7cc2406cb9dc0",
+    "game/public/assets/optimized/lacitta-characters-wedding-couple.webp": "9708fe5124abe1fe4787812f4217797f734609feb55610e354e5cd004b4760fb",
+    "game/public/assets/optimized/lacitta-characters-white-car.webp": "39fec34862d811404632a803a0bc944e6d626b066a104ae63e314c95d7790023",
+    "game/public/assets/optimized/lacitta-food-buffet-left.webp": "b3f3b9a8fdb043a123866e0c498a10337296baf537e415af105aa2b15550096c",
+    "game/public/assets/optimized/lacitta-food-buffet-right.webp": "69a7841a5d87fbe425ae6d50ed003222f302588799d7c6bb15b11f52909ebf2d",
+    "game/public/assets/optimized/lacitta-pixel-venue-banquet-corridor.webp": "c88787a3899583a3767f7b426ca2211b06690e67160e90818b49696d3b5a5b06",
+    "game/public/assets/optimized/lacitta-pixel-venue-banquet.webp": "5b22d1c51deb101876e17d18d266f82914e21e986b6b1c84474eadefbc462b66",
+    "game/public/assets/optimized/lacitta-pixel-venue-bridal-room-white.webp": "2083f480501eb8358cbd8eeb82632100bb9a3d9b55915a37dcdbb20f9ddafc27",
+    "game/public/assets/optimized/lacitta-pixel-venue-garden.webp": "bad2c802bdd0a448b6cdb5c42db4cba7e597deaaab7775375a6893d814e70b5f",
+    "game/public/assets/optimized/lacitta-pixel-venue-group-photo-portrait-v3.webp": "bf8cb787027ec2a1008b3a465c49bad219fbbf17a5eaa5207c8fc5f22604ce8a",
+    "game/public/assets/optimized/lacitta-pixel-venue-group-photo-stage-v4.webp": "0143a96ef5c789fa8289c1900aafb6e09b462a29ccdd7d0938415dccb6f9fd10",
+    "game/public/assets/optimized/lacitta-pixel-venue-hall.webp": "77b090421b5ce80c267b3dc9589c6c204566ebb2abb82aea5f27dfd3aaef2d1d",
+    "game/public/assets/optimized/lacitta-pixel-venue-lobby.webp": "2732407e880fb1b8d4c561cbab62268f20e1818268e6b6922b426e3c9ff50b21",
+    "game/public/assets/optimized/lacitta-pixel-venue-photo-booth.webp": "5d2f01ad9ae4039744c4abd731ebfdf694b1c3dbd833980302a281c7dfb0c24e",
+    "game/public/assets/optimized/lacitta-pixel-venue-reception-family.webp": "f83c6807d1cfb2b2dfe0ad6d86fd828a5fc45805e1bd894f429f5c3e96a8921f",
+    "game/public/assets/optimized/lacitta-pixel-venue-shuttle.webp": "90a756ecca831d705649b976d37f1f3c51cd9cadf0a7bfc814746caed2c229fd",
+    "game/public/assets/optimized/lacitta-routes-car-guidance-v2.webp": "9089e743e84449401c6fcc244dedb26a24485f36a707752e9ae8156e13133682",
+    "game/public/assets/optimized/lacitta-routes-home-ground-v2.webp": "cee866980842605860fc6311ab9c5edbea49bd6e83ace93d3394bc059934dabc",
+    "game/public/assets/sprites/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "game/public/assets/tiles/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "game/public/assets/ui/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "game/public/og-placeholder.png": "e94cf8fd4d28e9e396b916b6046a824f42f9fc430c551f9b5b24be7c4ff27e03",
+    "game/public/share-preview.html": "690bff32fb901b1733782209d6b9d7e8685086ec277613f652810be7c9e95dae",
+    "game/scripts/optimize-stage-assets.py": "55f2bcdd4605ad500363974a01628721067cf6696858db57d944d8ffcdcdc4c5",
+    "game/scripts/prepare-minimi.mjs": "95ef09d76faa8038740eeb1f9091565bfee367e714d443ed9aa48830d0734cea",
+    "game/scripts/qa-asset-loading.mjs": "952cc3f2b3b6afc6b175ac0af8fad63da22a4f4f103b4829a1dfde3d19dfb321",
+    "game/scripts/reconcile-review-tests.mjs": "583e20d43ba8e8a530b0f5115534553fd397cceea6d9a3b4ffe482a310fa0ecb",
+    "game/scripts/verify-assets.mjs": "415ca36acaad0c3d89318b3c51c44db19ea64569a4048805fba227b987ac0b26",
+    "game/scripts/verify-assets.test.mjs": "fccc7167a1db6446fdba04d839cd98124db4c0e3e38b0d0f877913a5f2bee71a",
+    "game/src/config.ts": "724ed18b2fe6c1b7915e37506983ef297649d08abab64fcdea95af5d3b9f8bfa",
+    "game/src/data/assetManifest.ts": "563ee2725e8d37f135271d5927bd1f81f92cb7c80ea275bd6ce1ba9956f243f8",
+    "game/src/data/guestOutfits.ts": "5846a9c44802fd2bcd652d723afead3f431d496016d28157afedf53d75ffd0a8",
+    "game/src/data/invitationSource.json": "f7edb070c079ac13b9b83b4cced6147168190a24a91d19ecc48f70164f948e5c",
+    "game/src/data/layout.ts": "8aab7f3455e73f7313ab7665c2de879cd2bcbdcf076ba20c399fa2c4bec14f68",
+    "game/src/data/lobbyFloor.ts": "b2c0afa34b313c9f8fc22d1e1a3c9f518fb433f06bff3b3da38c5dcd4f8c32f9",
+    "game/src/data/photoGallery.ts": "5571bb135e9023c3ac69a75a537427e753849346c75c09bbf7ab6c31e9cb3c5a",
+    "game/src/data/scenario.ts": "d578ee23115d9ddd5cb0dc0450093f918b3dc2212e66f29b9ce1220a3644d8f6",
+    "game/src/data/weddingMetadata.ts": "56e1b5091a41f377bd3f64da2c361f89a33ec3d7109165911ddf338df8bfb263",
+    "game/src/invitation.css": "897349cb0670261659cd1c7e474fd94ca8c6baf39aa18ee1e092980c2f60cad3",
+    "game/src/main.ts": "dfc049ba89fa8792207268d7384ef6dff3966c5811b95cdb011f049752acda83",
+    "game/src/objects/Npc.ts": "47105677219e34ccc1563416c4c09dbfbf708963ea160c226a894ac776c5c886",
+    "game/src/objects/Player.ts": "1538ca97a95071ddcdbdbe910343edb0c7fd79cf81a7d334792694c7391194da",
+    "game/src/scenes/BootScene.ts": "ed8831a958e309be64fd79b6de60c1577624dc9b43dd331d4adcecb1adf8b8d0",
+    "game/src/scenes/CarRouteScene.ts": "f53cb958ef6d079e3a8e7b2aa3bd417260103241f95aa8d2cee21783890f231a",
+    "game/src/scenes/DinnerJourneyScene.ts": "f9184136d136ac281b8654cedf8a62a2c61a93758dc7378f1a074e22f2a4cab9",
+    "game/src/scenes/EndingScene.ts": "53211279d2f1030bd2814e55fe066bd77ffed9ed2c7edefbd42540546b80b6f5",
+    "game/src/scenes/GreeneryCorridorScene.ts": "c668c84c6fc16605f02aecd1bc59c7690add16c28ec15ac23fd17d4afb78fa45",
+    "game/src/scenes/HomeSelectScene.ts": "dec9edb686fc99303c1cf5e3363a01281f3737eb10fd7a9a7a03aba8090a2299",
+    "game/src/scenes/IntroScene.ts": "eb105596846a550d311ca75d6980282be39fe09bc8811bfddb5c88451a5751bc",
+    "game/src/scenes/InvitationScene.ts": "a87bcc3643dc502add3a35da52cbdc9166ccb5003a3ab2a295aa63a6db23ba74",
+    "game/src/scenes/ReceptionScene.ts": "515f6777dc9892df13a783b4317723643cb62b784defa258c95986f42cee9044",
+    "game/src/scenes/SubwayRouteScene.ts": "9f28d11dfe7a5aeeb041c494a7740afb01a613b30e87224ad177e325af6c0347",
+    "game/src/scenes/VenueHallScene.ts": "065fab7df2eb6e56ce32213e791a7a0dfbff7279330a2a97d59b73592acee21c",
+    "game/src/scenes/VenueLobbyScene.ts": "2a6a8086d576ff1a3590b2d4e71b9ba40fd5a958c7d01b0b19491a9b72a49f7d",
+    "game/src/scenes/VenueRoomScene.ts": "52a2c67da961b8a0612a63b201841735d022e3060b6d2078bbda9d4fa0b7284c",
+    "game/src/scenes/lobbyArt.ts": "e258296daaf49a806bc8faf03d3a09cacc6cdecbd6c4201bb37c62fab6732139",
+    "game/src/scenes/lobbyPhotoWall.ts": "e3d5142f59660dcb103a8e8246dfdbf311a97c1d1060940583a2cf8a89c71fa6",
+    "game/src/scenes/parkingArt.ts": "a03f34121cbc688917085baf740e313e2796a6b58c8b79909a1bac0670e81e18",
+    "game/src/scenes/photoArt.ts": "2bc7f743191083b95b0128c987661c7db4765d96b4ece7c9599eb8263a3857b6",
+    "game/src/scenes/sceneArt.ts": "36e732ce32f8f5dd54743984a338f44a438e6d8abc1b01516049001ab13401b4",
+    "game/src/state/gameState.ts": "9b3000e8fa9d7fb58097aec08c42c30ef2eb52a6fda6733e2fd4d1ad8218a92c",
+    "game/src/state/guestMessages.ts": "da15b96f0e55370462030305572f2984d0fb83d2766f785b5a85bec52a53f76a",
+    "game/src/style.css": "e2efec2c8ed156d92f64213fcdb7bf37f692a88126beaf16f7f4ae2ff05b5b7b",
+    "game/src/systems/ArrowGuide.ts": "4790f5c0d7bf7502771e82a4f6368e1c8058f23b4f791d3918f1089b376537c8",
+    "game/src/systems/PhotoGalleryModal.ts": "aa8c738b74e0ec4e3e4b6c6e32d796f9381e8002f953db6c58841490484e54c2",
+    "game/src/systems/QuizModal.ts": "71204c41a0fee9567471c1baab856cee5437e081b8004b77fecc820f39770254",
+    "game/src/systems/TapToMove.ts": "2a09d1a9d0202edbb2ee0a0e4c130227d31387fd78d61f67dace222f67a610b7",
+    "game/src/systems/TriggerZone.ts": "1bf58d147497f6a653954e31df0493f20cd5806fd296fd27807338d75c35a585",
+    "game/src/systems/stageAssets.ts": "ab4be718fe7d50819f5b5b3642c9732dc3801cdd20f2d6fce05e081000615b2f",
+    "game/src/systems/walkPath.ts": "ae91e269a838fad6b34100d0ca7d625eaa6dfb322c43e56fce918c203375eb54",
+    "game/src/ui/GameAccess.ts": "f9d71a96642ee4efa3ce8c9a18ff61d156cd8c7256fc179f160317efce313ee1",
+    "game/src/ui/InvitationInformation.ts": "8d958649d311e656b204295ab32cf5efce2233fc60a54760ecf9e167e96bd036",
+    "game/src/ui/InvitationView.ts": "ca8e247c8bcf75be81eed103365016463c226875891ca2d39b0ad92c9d5f565e",
+    "game/src/ui/MinimiPicker.ts": "9e9bf46834b56d82407ce1d6d05d37df85e0327c84058ce2808c5cdb3f9481ea",
+    "game/src/ui/PixelPanel.ts": "fc05ce7cf371ce9013b25788eb3a0a635d3687f19ea0a0339cf722c728897b20",
+    "game/src/ui/PortraitNotice.ts": "ea39fde08e68edf32ff7a5d6f301cb0876a8bfb4b4d7fa83bec25a4405bfcd39",
+    "game/src/ui/SceneFeedback.ts": "26ad82cda63ff86445d72b2c1364238a1edb5f833411022884b9b7fce593b8f4",
+    "game/src/ui/StoryDialog.ts": "386b76877cd561959c189c220af8ab8fd72ddb3fef94066d8a641b9c1bdbe819",
+    "game/src/ui/TextEntryDialog.ts": "7933e2910eda49f631d30cab9cd5a22ccf4e48c4416a1481ad238be6f94706c3",
+    "game/src/ui/WeddingCountdown.ts": "7a33d0c1f000f8d00d8ad1dead45fa1019d9e1cc8174cc3a5e9485507765c073",
+    "game/src/ui/assetHelpers.ts": "caaac17059daa855cdcdffad9429ae1975ae00e33a88f9db3aa2118bb96d5eca",
+    "game/src/ui/ceremonyGuests.ts": "f4ef5360cdb8bd184e9cdbeef74b193ccce37fe750a6fb95c805ae2cd21035ed",
+    "game/src/ui/classicMinimi.ts": "424eaab6440e5c8975a94faab0a0ba8e45af33263ebcdf9bd0d3fc8eb2d3217f",
+    "game/src/ui/guestPhotoLayout.ts": "f2ca2850fe375b6c08c3329e3b67440e68733891a012804530e11f8ea1c0f81f",
+    "game/src/ui/invitationShare.ts": "fad167405a68aa9e0051291d805b4465feb316ded464f0c1008af15703cb274e",
+    "game/src/ui/keyboardAccess.ts": "742e6a8ca46275ea43bfba88f2963449d7a60c2d2b3973a92813dcbe5263fb5b",
+    "game/src/ui/minimi.ts": "d34897fd35721446860af8d84cfd9537867727b49714c0ad8f9116e01f3ad63e",
+    "game/src/ui/minimiArt.ts": "220142b6470d40b45f68a53ea696359c70a57f80efade0dace01a19c38356073",
+    "game/src/ui/minimiParts.ts": "7c94f347bdc300483d2d94ef544f1db2ec26cc73f3d5944fb9d75c160af7c6d8",
+    "game/src/ui/pixelFeedback.ts": "9bdd4acd6c98bceeb0cfa2c506d7dfa411b7af38a81c5a55f3fe449db84748fb",
+    "game/src/ui/sceneUi.ts": "473ad1da23d7875cc3acd5f2ee33883bfd27e042c3522bb4187a134e3ae3510c",
+    "game/src/ui/sessionMemories.ts": "6c4b91aa312a0222e957baa6a8feb0f0cbe8e456b6c2e968f8d2afa9e44a18fa",
+    "game/src/ui/shuttleDecoration.ts": "ba403d7983e2a0931bb15e96343a1e13b3d13a1bb7cb61be8235b124f6f38530",
+    "game/src/ui/waitForTap.ts": "12b972d99d88e073bec9314b0a189ea6421a1105e8d8f97ccbced546e8bfbd4d",
+    "game/src/ui/weddingAmbience.ts": "d7a4526204b5921064a60587df05ef1898c3f5aa711bab8a0f1edd62320c5f57",
+    "game/src/ui/weddingCouple.ts": "49253a1b55bbb9a226433dcfae714411a65c46146629e4f8ec76b390e2fd69ec",
+    "game/tsconfig.e2e.json": "b1e6388cfdc704ae6c2624cb6f970ba92ae2090c3a954fc22d335531045fdfa7",
+    "game/tsconfig.json": "e225aa385dd4df671d3a6affcb726ad25cf413f188b6a5d7c11174ca581a2131",
+    "game/vite.config.ts": "61f1ee6c018224b7d12abd3eb526843aac5ac4b7b2e751f7a2d8f770682ec73a"
+  },
+  "sourceScope": "game/src, game/e2e, game/public, game/scripts, game top-level files, three review specifications",
+  "originalManifestMatches": true
+}

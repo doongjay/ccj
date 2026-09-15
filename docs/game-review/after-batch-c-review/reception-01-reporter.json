@@ -1,0 +1,138 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=playwright.review.config.ts",
+      "e2e/review-batch-c-reception.spec.ts",
+      "--workers=1"
+    ],
+    "configFile": "/Users/user/wedding/ccj/game/playwright.review.config.ts",
+    "rootDir": "/Users/user/wedding/ccj/game/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/regression-final",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/user/wedding/ccj/game/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../docs/game-review/after-batch-c/logs/regression-final.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --host 127.0.0.1 --port 5198 --strictPort",
+      "url": "http://127.0.0.1:5198",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "review-batch-c-reception.spec.ts",
+      "file": "review-batch-c-reception.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F15: first completion notice expires while walking; invitation and room revisits do not repeat it",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24545,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T15:55:42.975Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "reception-timing",
+                      "contentType": "application/json",
+                      "body": "eyJkdXJhdGlvbiI6MjIwNy42OTk5OTk4MDkyNjUsImZpcnN0Ijp7ImFjdGl2ZVNjZW5lIjoiVmVudWVMb2JieVNjZW5lIiwiYXNzZXRMb2FkU3RhZ2UiOiJhdmF0YXItbWFsZSxjYXIiLCJhc3NldExvYWRTdGF0ZSI6ImNvbXBsZXRlIiwiYXNzZXRMb2FkUHJvZ3Jlc3MiOiIxIiwiZm9udExvYWRTdGF0ZSI6ImNvbXBsZXRlIiwic2Vzc2lvbktlZXBzYWtlQ291bnQiOiIwIiwic2Vzc2lvbktlZXBzYWtlQnVpbGRzIjoiMCIsInBob3RvQm9vdGhDb21wbGV0aW9uQ291bnQiOiIwIiwiYnJpZGFsUGhvdG9Db21wbGV0aW9uQ291bnQiOiIwIiwicmVjZXB0aW9uTm90aWNlQ291bnQiOiIxIiwicm91dGVDaG9pY2UiOiJjYXIiLCJyb3V0ZVRyYW5zaXRpb25Db3VudCI6IjEiLCJndWVzdEZhY2UiOiIwIiwiZ3Vlc3RIYWlyIjoiMCIsImd1ZXN0T3V0Zml0IjoiMCIsImd1ZXN0TmFtZSI6Iu2FjOyKpO2KuO2VmOqwnSIsImd1ZXN0R2VuZGVyIjoibWFsZSIsInN0b3J5U3RhdGUiOiJtb3ZpbmciLCJndWVzdFNpZGUiOiJncm9vbSIsInJvdXRlUXVpelNvbHZlZCI6InRydWUiLCJyb3V0ZVF1aXpXcm9uZ0NvdW50IjoiMCIsImxvYmJ5UmVhZHkiOiJ0cnVlIiwibG9iYnlJbmZvIjoiIiwiYnJpZGFsUm9vbVZpc2l0ZWQiOiJmYWxzZSIsInBob3RvQm9vdGhWaXNpdGVkIjoiZmFsc2UiLCJwaG90b1RhYmxlVmlzaXRlZCI6ImZhbHNlIiwiYWN0aXZlUXVpeiI6IiIsInEzTW9kYWxPcGVuIjoiZmFsc2UiLCJwaG90b0dhbGxlcnlPcGVuIjoiZmFsc2UiLCJwaG90b0dhbGxlcnlJbmRleCI6IjAiLCJyZWNlcHRpb25Db21wbGV0ZSI6InRydWUiLCJyZWNlcHRpb25EZXNrIjoiZ3Jvb20iLCJyZWNlcHRpb25FeHBlY3RlZERlc2siOiJncm9vbSIsInJvb21CcmlkZVByZXNlbnQiOiJmYWxzZSIsInZlbnVlUm9vbSI6ImxvYmJ5Iiwicm9vbVJlYWR5IjoiZmFsc2UiLCJyZWNlcHRpb25XYXJuaW5nIjoiIiwibG9iYnlUcmFuc2l0aW9uQ291bnQiOiIwIiwicGFyZW50c1NpZGUiOiJncm9vbSIsImxvYmJ5UHJvZ3Jlc3MiOiIxLzMiLCJyZWNlcHRpb25GYW1pbHkiOiJwYXJlbnRzIiwicmVjZXB0aW9uU3RhZ2UiOiJjb21wbGV0ZSIsInJlY2VwdGlvbk5vdGljZVN0YXJ0ZWRBdCI6IjE2OTMwLjQwMDAwMDA5NTM2NyIsInJlY2VwdGlvbk5vdGljZUVuZGVkQXQiOiIxOTEzOC4wOTk5OTk5MDQ2MzMifX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/regression-final/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6857659465e21c3093a2-796ecf4ee45d1d76577b",
+          "file": "review-batch-c-reception.spec.ts",
+          "line": 7,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-13T15:55:42.276Z",
+    "duration": 25705.444,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

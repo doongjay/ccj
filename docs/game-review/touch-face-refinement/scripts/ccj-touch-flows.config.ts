@@ -1,0 +1,4 @@
+import {defineConfig} from "/Users/user/wedding/ccj/game/node_modules/@playwright/test/index.mjs";
+process.env.MINIMI_EVIDENCE="/Users/user/wedding/ccj/docs/game-review/touch-face-refinement";process.env.MINIMI_PHASE="after";process.env.REVIEW_EVIDENCE="/Users/user/wedding/ccj/docs/game-review/touch-face-refinement/regressions";
+const config={"testDir":"/Users/user/wedding/ccj/game/e2e","testMatch":["review-minimi-flow.spec.ts","minimi-jaw.spec.ts"],"workers":2,"retries":0,"reporter":[["list"],["json",{"outputFile":"/Users/user/wedding/ccj/docs/game-review/touch-face-refinement/logs/flows-01.json"}]],"outputDir":"/Users/user/wedding/ccj/docs/game-review/touch-face-refinement/runs/flows-01","use":{"baseURL":"http://127.0.0.1:5174","viewport":{"width":393,"height":852},"trace":"retain-on-failure"}};
+export default defineConfig({...config,grep:/03-face2|04-female|06-female|finished minimi/});

@@ -1,0 +1,499 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=playwright.review.config.ts",
+      "review-batch-c",
+      "reception-only",
+      "--workers=3",
+      "--output=../docs/game-review/after-batch-c/runs/refinement-02"
+    ],
+    "configFile": "/Users/user/wedding/ccj/game/playwright.review.config.ts",
+    "rootDir": "/Users/user/wedding/ccj/game/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/user/wedding/ccj/game/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../docs/game-review/after-batch-c/logs/regression-final.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 3,
+    "webServer": {
+      "command": "npm run dev -- --host 127.0.0.1 --port 5198 --strictPort",
+      "url": "http://127.0.0.1:5198",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "reception-only.spec.ts",
+      "file": "reception-only.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "single reception desk: photo and navigation stay inert, desk groom pauses movement and completes once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 31981,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T16:13:10.582Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "photo-table",
+                      "contentType": "image/png",
+                      "omittedEmbeddedBase64Characters": 316172
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0ab05d2fb8ca6fef5dc5-bd415472cf13ebeaea24",
+          "file": "reception-only.spec.ts",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "single reception desk: photo and navigation stay inert, desk bride pauses movement and completes once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 38755,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T16:13:10.581Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "photo-table",
+                      "contentType": "image/png",
+                      "omittedEmbeddedBase64Characters": 316092
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0ab05d2fb8ca6fef5dc5-2fa87734442251c5d573",
+          "file": "reception-only.spec.ts",
+          "line": 7,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "review-batch-c-ceremony.spec.ts",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F14: deterministic full candidate cycle, player exclusion and short-list reuse",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T16:13:10.582Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eacd9f2c4395bdfdd5f5-294970d6e47e1b3a2814",
+          "file": "review-batch-c-ceremony.spec.ts",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "F11/F14: applause visible response, invitation pause, one group entry and diverse guests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 71111,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T16:13:10.604Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eacd9f2c4395bdfdd5f5-6747d8266ad1a4f80315",
+          "file": "review-batch-c-ceremony.spec.ts",
+          "line": 21,
+          "column": 3
+        },
+        {
+          "title": "F11/F14: cheer visible response, invitation pause, one group entry and diverse guests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 70438,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T16:13:43.196Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eacd9f2c4395bdfdd5f5-7eb7568f6f0679f896fa",
+          "file": "review-batch-c-ceremony.spec.ts",
+          "line": 21,
+          "column": 3
+        },
+        {
+          "title": "F11/F14: reduced visible response, invitation pause, one group entry and diverse guests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 54254,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T16:13:49.733Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eacd9f2c4395bdfdd5f5-7fa7b8e614cf74838b34",
+          "file": "review-batch-c-ceremony.spec.ts",
+          "line": 21,
+          "column": 3
+        },
+        {
+          "title": "F11/F14: compact visible response, invitation pause, one group entry and diverse guests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 63228,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T16:14:22.563Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eacd9f2c4395bdfdd5f5-24fe260fd58bea6df027",
+          "file": "review-batch-c-ceremony.spec.ts",
+          "line": 21,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "review-batch-c-photos.spec.ts",
+      "file": "review-batch-c-photos.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F12/F13/B-V01: actual photos persist, explicit returns, finite notebook keepsakes and clean controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 59975,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T16:14:45.221Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "photo-events",
+                      "contentType": "application/json",
+                      "body": "W3siYXQiOjExMzguMjk5OTk5NzEzODk3NywiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwIn0seyJhdCI6MTM0My4wOTk5OTk5MDQ2MzI2LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuMjUifSx7ImF0IjoxMzQzLjQwMDAwMDA5NTM2NzQsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC41In0seyJhdCI6MTM0My41OTk5OTk5MDQ2MzI2LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuNzUifSx7ImF0IjoxNDMzLjI5OTk5OTcxMzg5NzcsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMSJ9LHsiYXQiOjE1MjYuMDk5OTk5OTA0NjMyNiwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6MTU1OS4wOTk5OTk5MDQ2MzI2LCJhdHRyaWJ1dGUiOiJkYXRhLXNlc3Npb24ta2VlcHNha2UtY291bnQiLCJ2YWx1ZSI6IjAifSx7ImF0IjoxNTU5LjA5OTk5OTkwNDYzMjYsImF0dHJpYnV0ZSI6ImRhdGEtc2Vzc2lvbi1rZWVwc2FrZS1idWlsZHMiLCJ2YWx1ZSI6IjAifSx7ImF0IjoxNTU5LjA5OTk5OTkwNDYzMjYsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtY29tcGxldGlvbi1jb3VudCIsInZhbHVlIjoiMCJ9LHsiYXQiOjE1NTkuMDk5OTk5OTA0NjMyNiwiYXR0cmlidXRlIjoiZGF0YS1icmlkYWwtcGhvdG8tY29tcGxldGlvbi1jb3VudCIsInZhbHVlIjoiMCJ9LHsiYXQiOjIxNzksImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMCJ9LHsiYXQiOjIzNDIuMDk5OTk5OTA0NjMyNiwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6MjM0Mi4yOTk5OTk3MTM4OTc3LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjEifSx7ImF0IjoyNzYwLjE5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwIn0seyJhdCI6Mjg0Ny4yOTk5OTk3MTM4OTc3LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuMzMzMzMzMzMzMzMzMzMzMyJ9LHsiYXQiOjI4NzkuNDAwMDAwMDk1MzY3NCwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwLjY2NjY2NjY2NjY2NjY2NjYifSx7ImF0IjoyOTI4LjUsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMSJ9LHsiYXQiOjI5MjguNzk5OTk5NzEzODk3NywiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6NjMzMywiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwIn0seyJhdCI6NjMzMy4wOTk5OTk5MDQ2MzMsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC42In0seyJhdCI6NjMzMy4wOTk5OTk5MDQ2MzMsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC42In0seyJhdCI6NjMzMy4wOTk5OTk5MDQ2MzMsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC42In0seyJhdCI6NjQxNCwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwLjgifSx7ImF0Ijo2NTAzLCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjEifSx7ImF0Ijo2NTAzLjE5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6MTI0MzEuNjk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXZpc2l0ZWQiLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTI0MzEuNjk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXRhYmxlLXZpc2l0ZWQiLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTI0MzEuNjk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjoxMjQzMS42OTk5OTk4MDkyNjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tZ2FsbGVyeS1pbmRleCIsInZhbHVlIjoiMCJ9LHsiYXQiOjEyNDMxLjY5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1sb2JieS1wcm9ncmVzcyIsInZhbHVlIjoiMC80In0seyJhdCI6MTMyODMuNTk5OTk5OTA0NjMzLCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAifSx7ImF0IjoxMzI4My42OTk5OTk4MDkyNjUsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC43NSJ9LHsiYXQiOjEzMjgzLjY5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwLjc1In0seyJhdCI6MTMyODMuNjk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuNzUifSx7ImF0IjoxMzQyMi4wOTk5OTk5MDQ2MzMsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMSJ9LHsiYXQiOjEzNDIyLjI5OTk5OTcxMzg5OCwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6MTM1ODQuMjk5OTk5NzEzODk4LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjEzNTg0LjI5OTk5OTcxMzg5OCwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC1zdGFnZSIsInZhbHVlIjoicmVhZHkifSx7ImF0IjoxMzk1OS41OTk5OTk5MDQ2MzMsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmVzdWx0LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTM5NTkuNTk5OTk5OTA0NjMzLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJldHVybmVkLWF0IiwidmFsdWUiOiIxMzk1OS41OTk5OTk5MDQ2MzMifSx7ImF0IjoxNDE4OS40MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmVzdWx0LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTQxODkuNDAwMDAwMDk1MzY3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXZpc2l0ZWQiLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTQxODkuNDAwMDAwMDk1MzY3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXRhYmxlLXZpc2l0ZWQiLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTQxODkuNDAwMDAwMDk1MzY3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjoxNDE4OS40MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tZ2FsbGVyeS1pbmRleCIsInZhbHVlIjoiMCJ9LHsiYXQiOjE0MTg5LjQwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1sb2JieS1wcm9ncmVzcyIsInZhbHVlIjoiMC80In0seyJhdCI6MTUxMzguNTk5OTk5OTA0NjMzLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjE1MTM4LjU5OTk5OTkwNDYzMywiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC1zdGFnZSIsInZhbHVlIjoicmVhZHkifSx7ImF0IjoxNTM1MS42OTk5OTk4MDkyNjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtc3RhZ2UiLCJ2YWx1ZSI6ImFwcHJvYWNoaW5nIn0seyJhdCI6MTY1MDIuNjk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXN0YWdlIiwidmFsdWUiOiJwb3NpbmcifSx7ImF0IjoxNzQxMC40MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtc2Vzc2lvbi1rZWVwc2FrZS1jb3VudCIsInZhbHVlIjoiMSJ9LHsiYXQiOjE3NDEwLjQwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1zZXNzaW9uLWtlZXBzYWtlLWJ1aWxkcyIsInZhbHVlIjoiMSJ9LHsiYXQiOjE3NDEwLjQwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1waG90by1jaGFyYWN0ZXItdGV4dHVyZS1jb3VudCIsInZhbHVlIjoiNCJ9LHsiYXQiOjE3NDEwLjQwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC1jb21wbGV0aW9uLWNvdW50IiwidmFsdWUiOiIxIn0seyJhdCI6MTc0MTAuNDAwMDAwMDk1MzY3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXZpc2l0ZWQiLCJ2YWx1ZSI6InRydWUifSx7ImF0IjoxNzQxMC40MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tY2FwdHVyZWQtYXQiLCJ2YWx1ZSI6IjE3NDEwLjE5OTk5OTgwOTI2NSJ9LHsiYXQiOjE3NjM1LjY5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC1zdGFnZSIsInZhbHVlIjoicmVzdWx0In0seyJhdCI6MTc2MzUuNjk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJ0cnVlIn0seyJhdCI6MTc2MzUuNjk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1hdCIsInZhbHVlIjoiMTc2MzQuNTk5OTk5OTA0NjMzIn0seyJhdCI6MjM3MTguMDk5OTk5OTA0NjMzLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjIzNzE4LjA5OTk5OTkwNDYzMywiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXR1cm5lZC1hdCIsInZhbHVlIjoiMjM3MTguMDk5OTk5OTA0NjMzIn0seyJhdCI6MjM5ODQuMTk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjIzOTg0LjE5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC12aXNpdGVkIiwidmFsdWUiOiJ0cnVlIn0seyJhdCI6MjM5ODQuMTk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXRhYmxlLXZpc2l0ZWQiLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MjM5ODQuMTk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjoyMzk4NC4xOTk5OTk4MDkyNjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tZ2FsbGVyeS1pbmRleCIsInZhbHVlIjoiMCJ9LHsiYXQiOjIzOTg0LjE5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1sb2JieS1wcm9ncmVzcyIsInZhbHVlIjoiMS80In0seyJhdCI6MjU2NjQuNTk5OTk5OTA0NjMzLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjI1NjY0LjU5OTk5OTkwNDYzMywiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC1zdGFnZSIsInZhbHVlIjoicmVhZHkifSx7ImF0IjoyNTkxNS40MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtc3RhZ2UiLCJ2YWx1ZSI6ImFwcHJvYWNoaW5nIn0seyJhdCI6MjcwNDMsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtc3RhZ2UiLCJ2YWx1ZSI6InBvc2luZyJ9LHsiYXQiOjI3OTQ5Ljc5OTk5OTcxMzg5OCwiYXR0cmlidXRlIjoiZGF0YS1waG90by1jaGFyYWN0ZXItdGV4dHVyZS1jb3VudCIsInZhbHVlIjoiNCJ9LHsiYXQiOjI3OTQ5Ljc5OTk5OTcxMzg5OCwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC12aXNpdGVkIiwidmFsdWUiOiJ0cnVlIn0seyJhdCI6Mjc5NDkuNzk5OTk5NzEzODk4LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWNhcHR1cmVkLWF0IiwidmFsdWUiOiIyNzk0OS41OTk5OTk5MDQ2MzMifSx7ImF0IjoyODE3MS41OTk5OTk5MDQ2MzMsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtc3RhZ2UiLCJ2YWx1ZSI6InJlc3VsdCJ9LHsiYXQiOjI4MTcxLjU5OTk5OTkwNDYzMywiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoidHJ1ZSJ9LHsiYXQiOjI4MTcxLjU5OTk5OTkwNDYzMywiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtYXQiLCJ2YWx1ZSI6IjI4MTcxIn0seyJhdCI6Mjg1NjMuNjk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAifSx7ImF0IjoyODU2My43OTk5OTk3MTM4OTgsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC43Nzc3Nzc3Nzc3Nzc3Nzc4In0seyJhdCI6Mjg1NjMuNzk5OTk5NzEzODk4LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuNzc3Nzc3Nzc3Nzc3Nzc3OCJ9LHsiYXQiOjI4NTYzLjc5OTk5OTcxMzg5OCwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwLjc3Nzc3Nzc3Nzc3Nzc3NzgifSx7ImF0IjoyODU2My43OTk5OTk3MTM4OTgsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC43Nzc3Nzc3Nzc3Nzc3Nzc4In0seyJhdCI6Mjg1NjMuNzk5OTk5NzEzODk4LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuNzc3Nzc3Nzc3Nzc3Nzc3OCJ9LHsiYXQiOjI4NTYzLjc5OTk5OTcxMzg5OCwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwLjc3Nzc3Nzc3Nzc3Nzc3NzgifSx7ImF0IjoyODU2My43OTk5OTk3MTM4OTgsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC43Nzc3Nzc3Nzc3Nzc3Nzc4In0seyJhdCI6Mjg2NDIuMTk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuODg4ODg4ODg4ODg4ODg4OCJ9LHsiYXQiOjI4NzA2LjU5OTk5OTkwNDYzMywiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6Mjg3MDYuNzk5OTk5NzEzODk4LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjEifSx7ImF0IjozMDYzNS4wOTk5OTk5MDQ2MzMsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmVzdWx0LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MzA2MzUuMDk5OTk5OTA0NjMzLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJldHVybmVkLWF0IiwidmFsdWUiOiIzMDYzNS4wOTk5OTk5MDQ2MzMifSx7ImF0IjozMDg4OCwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjozMDg4OCwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC12aXNpdGVkIiwidmFsdWUiOiJ0cnVlIn0seyJhdCI6MzA4ODgsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tdGFibGUtdmlzaXRlZCIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjozMDg4OCwiYXR0cmlidXRlIjoiZGF0YS1waG90by1nYWxsZXJ5LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MzA4ODgsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tZ2FsbGVyeS1pbmRleCIsInZhbHVlIjoiMCJ9LHsiYXQiOjMwODg4LCJhdHRyaWJ1dGUiOiJkYXRhLWxvYmJ5LXByb2dyZXNzIiwidmFsdWUiOiIxLzQifSx7ImF0IjozNDQyOC40MDAwMDAwOTUzNywiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjozNTExMS41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjM1MTExLjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmV0dXJuZWQtYXQiLCJ2YWx1ZSI6IjM1MTExLjUifSx7ImF0IjozNTMyNS41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjM1MzI1LjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtdmlzaXRlZCIsInZhbHVlIjoidHJ1ZSJ9LHsiYXQiOjM1MzI1LjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tdGFibGUtdmlzaXRlZCIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjozNTMyNS41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjozNTMyNS41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktaW5kZXgiLCJ2YWx1ZSI6IjAifSx7ImF0IjozNTMyNS41LCJhdHRyaWJ1dGUiOiJkYXRhLWxvYmJ5LXByb2dyZXNzIiwidmFsdWUiOiIxLzQifSx7ImF0IjozODk4NywiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo0MzE2Ni41LCJhdHRyaWJ1dGUiOiJkYXRhLXNlc3Npb24ta2VlcHNha2UtY291bnQiLCJ2YWx1ZSI6IjIifSx7ImF0Ijo0MzE2Ni41LCJhdHRyaWJ1dGUiOiJkYXRhLXNlc3Npb24ta2VlcHNha2UtYnVpbGRzIiwidmFsdWUiOiIyIn0seyJhdCI6NDMxNjYuNSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1jaGFyYWN0ZXItdGV4dHVyZS1jb3VudCIsInZhbHVlIjoiNCJ9LHsiYXQiOjQzMTY2LjUsImF0dHJpYnV0ZSI6ImRhdGEtYnJpZGFsLXBob3RvLWNvbXBsZXRpb24tY291bnQiLCJ2YWx1ZSI6IjEifSx7ImF0Ijo0MzE2Ni41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWNhcHR1cmVkLWF0IiwidmFsdWUiOiI0MzE2Ni40MDAwMDAwOTUzNyJ9LHsiYXQiOjQzMzg1LjA5OTk5OTkwNDYzLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJ0cnVlIn0seyJhdCI6NDMzODUuMDk5OTk5OTA0NjMsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmVzdWx0LWF0IiwidmFsdWUiOiI0MzM4NC40MDAwMDAwOTUzNyJ9LHsiYXQiOjQ5OTUzLjE5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo0OTk1My4xOTk5OTk4MDkyNjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmV0dXJuZWQtYXQiLCJ2YWx1ZSI6IjQ5OTUzLjE5OTk5OTgwOTI2NSJ9LHsiYXQiOjUwMjAwLjE5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo1MDIwMC4xOTk5OTk4MDkyNjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtdmlzaXRlZCIsInZhbHVlIjoidHJ1ZSJ9LHsiYXQiOjUwMjAwLjE5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1waG90by10YWJsZS12aXNpdGVkIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjUwMjAwLjE5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1nYWxsZXJ5LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6NTAyMDAuMTk5OTk5ODA5MjY1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktaW5kZXgiLCJ2YWx1ZSI6IjAifSx7ImF0Ijo1MDIwMC4xOTk5OTk4MDkyNjUsImF0dHJpYnV0ZSI6ImRhdGEtbG9iYnktcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjIvNCJ9LHsiYXQiOjUzNTE5LjY5OTk5OTgwOTI2NSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo1NzA0Ni43OTk5OTk3MTM5LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWNoYXJhY3Rlci10ZXh0dXJlLWNvdW50IiwidmFsdWUiOiI0In0seyJhdCI6NTcwNDYuNzk5OTk5NzEzOSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1jYXB0dXJlZC1hdCIsInZhbHVlIjoiNTcwNDYuNTk5OTk5OTA0NjMifSx7ImF0Ijo1NzI2MC43OTk5OTk3MTM5LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJ0cnVlIn0seyJhdCI6NTcyNjAuNzk5OTk5NzEzOSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtYXQiLCJ2YWx1ZSI6IjU3MjYwLjA5OTk5OTkwNDYzIn0seyJhdCI6NTc4OTcuMjk5OTk5NzEzOSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo1Nzg5Ny4yOTk5OTk3MTM5LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJldHVybmVkLWF0IiwidmFsdWUiOiI1Nzg5Ny4xOTk5OTk4MDkyNjUifSx7ImF0Ijo1ODE0Mi41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjU4MTQyLjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtdmlzaXRlZCIsInZhbHVlIjoidHJ1ZSJ9LHsiYXQiOjU4MTQyLjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tdGFibGUtdmlzaXRlZCIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo1ODE0Mi41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo1ODE0Mi41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktaW5kZXgiLCJ2YWx1ZSI6IjAifSx7ImF0Ijo1ODE0Mi41LCJhdHRyaWJ1dGUiOiJkYXRhLWxvYmJ5LXByb2dyZXNzIiwidmFsdWUiOiIyLzQifV0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9b44bad5f9e10d4e14d6-fdea4608d3accbf7adac",
+          "file": "review-batch-c-photos.spec.ts",
+          "line": 16,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "review-batch-c-reception.spec.ts",
+      "file": "review-batch-c-reception.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F15: first completion notice expires while walking; invitation and room revisits do not repeat it",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 27035,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T16:14:54.416Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "reception-timing",
+                      "contentType": "application/json",
+                      "body": "eyJkdXJhdGlvbiI6MjIxMi4xMDAwMDAzODE0Njk3LCJmaXJzdCI6eyJhY3RpdmVTY2VuZSI6IlZlbnVlTG9iYnlTY2VuZSIsImFzc2V0TG9hZFN0YWdlIjoiYXZhdGFyLW1hbGUsY2FyIiwiYXNzZXRMb2FkU3RhdGUiOiJjb21wbGV0ZSIsImFzc2V0TG9hZFByb2dyZXNzIjoiMSIsImZvbnRMb2FkU3RhdGUiOiJjb21wbGV0ZSIsInNlc3Npb25LZWVwc2FrZUNvdW50IjoiMCIsInNlc3Npb25LZWVwc2FrZUJ1aWxkcyI6IjAiLCJwaG90b0Jvb3RoQ29tcGxldGlvbkNvdW50IjoiMCIsImJyaWRhbFBob3RvQ29tcGxldGlvbkNvdW50IjoiMCIsInJlY2VwdGlvbk5vdGljZUNvdW50IjoiMSIsInJvdXRlQ2hvaWNlIjoiY2FyIiwicm91dGVUcmFuc2l0aW9uQ291bnQiOiIxIiwiZ3Vlc3RGYWNlIjoiMCIsImd1ZXN0SGFpciI6IjAiLCJndWVzdE91dGZpdCI6IjAiLCJndWVzdE5hbWUiOiLthYzsiqTtirjtlZjqsJ0iLCJndWVzdEdlbmRlciI6Im1hbGUiLCJzdG9yeVN0YXRlIjoibW92aW5nIiwiZ3Vlc3RTaWRlIjoiZ3Jvb20iLCJyb3V0ZVF1aXpTb2x2ZWQiOiJ0cnVlIiwicm91dGVRdWl6V3JvbmdDb3VudCI6IjAiLCJsb2JieVJlYWR5IjoidHJ1ZSIsImxvYmJ5SW5mbyI6IiIsImJyaWRhbFJvb21WaXNpdGVkIjoiZmFsc2UiLCJwaG90b0Jvb3RoVmlzaXRlZCI6ImZhbHNlIiwicGhvdG9UYWJsZVZpc2l0ZWQiOiJmYWxzZSIsImFjdGl2ZVF1aXoiOiIiLCJxM01vZGFsT3BlbiI6ImZhbHNlIiwicGhvdG9HYWxsZXJ5T3BlbiI6ImZhbHNlIiwicGhvdG9HYWxsZXJ5SW5kZXgiOiIwIiwicmVjZXB0aW9uQ29tcGxldGUiOiJ0cnVlIiwicmVjZXB0aW9uRGVzayI6Imdyb29tIiwicmVjZXB0aW9uRXhwZWN0ZWREZXNrIjoiZ3Jvb20iLCJyb29tQnJpZGVQcmVzZW50IjoiZmFsc2UiLCJ2ZW51ZVJvb20iOiJsb2JieSIsInJvb21SZWFkeSI6ImZhbHNlIiwicmVjZXB0aW9uV2FybmluZyI6IiIsImxvYmJ5VHJhbnNpdGlvbkNvdW50IjoiMCIsInBhcmVudHNTaWRlIjoiZ3Jvb20iLCJsb2JieVByb2dyZXNzIjoiMS8zIiwicmVjZXB0aW9uRmFtaWx5IjoicGFyZW50cyIsInJlY2VwdGlvblN0YWdlIjoiY29tcGxldGUiLCJyZWNlcHRpb25Ob3RpY2VTdGFydGVkQXQiOiIxODExMC41OTk5OTk5MDQ2MzMiLCJyZWNlcHRpb25Ob3RpY2VFbmRlZEF0IjoiMjAzMjIuNzAwMDAwMjg2MTAyIn19"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6857659465e21c3093a2-796ecf4ee45d1d76577b",
+          "file": "review-batch-c-reception.spec.ts",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "F15: invitation pauses the first notice and resumes it once",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26041,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-13T16:15:21.672Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6857659465e21c3093a2-17f66317f720cdb829fa",
+          "file": "review-batch-c-reception.spec.ts",
+          "line": 46,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-13T16:13:09.831Z",
+    "duration": 158074.396,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

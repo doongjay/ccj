@@ -1,0 +1,455 @@
+{
+  "stats": {
+    "startTime": "2026-09-12T04:49:58.112Z",
+    "duration": 276922.619,
+    "expected": 40,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "configFile": "/Users/user/wedding/ccj/game/playwright.config.ts",
+  "tests": [
+    {
+      "file": "current-journey.spec.ts",
+      "title": "profile, reception, photo poses, meal first and named local message: bride",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 74209,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "current-journey.spec.ts",
+      "title": "profile, reception, photo poses, ceremony first and named local message: groom",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 60602,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "dinner-pacing.spec.ts",
+      "title": "banquet travel follows the corridor floor promptly and departure stays at the buffet",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 19920,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "invitation.spec.ts",
+      "title": "game guest keeps female outfit 2 and hair in the invitation without another picker",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 10089,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "invitation.spec.ts",
+      "title": "game guest keeps female outfit 3 and hair in the invitation without another picker",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 10203,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "invitation.spec.ts",
+      "title": "skip opens original-content invitation with original photos and local minimi guestbook",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2156,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "invitation.spec.ts",
+      "title": "profile cards stay inside the game at 320px",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2419,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "invitation.spec.ts",
+      "title": "profile cards stay inside the game at 1440px",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2544,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "invitation.spec.ts",
+      "title": "minimi group pages keep every guest selectable without covering the couple",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2161,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "minimi-customization.spec.ts",
+      "title": "original minimi artwork and five outfits preserve a shared head and continuous neck",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2867,
+              "errors": [],
+              "attachments": [
+                {
+                  "name": "original-art-registration",
+                  "contentType": "application/json"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "minimi-customization.spec.ts",
+      "title": "direct thumbnails preserve independent selections and all five outfits at 320px",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 3716,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "minimi-customization.spec.ts",
+      "title": "direct thumbnails preserve independent selections and all five outfits at 393px",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 4039,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "minimi-jaw.spec.ts",
+      "title": "finished minimi keep face outlines while face thumbnails have no jaw or neck seams",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 3216,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "minimi-neck.spec.ts",
+      "title": "heads and outfits stay connected in every minimi pose",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 3401,
+              "errors": [],
+              "attachments": [
+                {
+                  "name": "male-components",
+                  "contentType": "application/json"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "minimi-neck.spec.ts",
+      "title": "station choices leave the numbered circles visible at 320px",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2277,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tap-pacing.spec.ts",
+      "title": "taps finish food reveals and narration without selecting a meal or replaying old timers",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 10254,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tap-pacing.spec.ts",
+      "title": "tapping envelope writing completes it and returns once",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2356,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "tap-pacing.spec.ts",
+      "title": "group photo countdown and photo hold can be skipped with separate taps",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 4118,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "walk-path.spec.ts",
+      "title": "walk path follows open floor instead of crossing the escalator",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 1,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "walk-path.spec.ts",
+      "title": "unreachable destinations do not produce a route through walls",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 0,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "wedding-group.spec.ts",
+      "title": "100 guests remain reachable in uncrowded photos and a new friend appears immediately at 320px",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2934,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "wedding-group.spec.ts",
+      "title": "100 guests remain reachable in uncrowded photos and a new friend appears immediately at 393px",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2953,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "wedding-group.spec.ts",
+      "title": "couple faces retain full sprite detail and transparent edges in the invitation and ceremony",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 2870,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "wedding-group.spec.ts",
+      "title": "hearts cover the photo evenly without intercepting invitation taps",
+      "ok": true,
+      "tests": [
+        {
+          "status": "expected",
+          "results": [
+            {
+              "status": "passed",
+              "duration": 1016,
+              "errors": [],
+              "attachments": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

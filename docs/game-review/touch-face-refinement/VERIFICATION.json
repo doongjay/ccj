@@ -1,0 +1,76 @@
+{
+  "countsDoNotIncludeRepeatedEarlierRuns": true,
+  "verificationScope": "38 relevant final tests; not a rerun of every repository test",
+  "final": [
+    {
+      "report": "logs/regression-02.json",
+      "startTime": "2026-09-14T15:58:26.620Z",
+      "duration": 417775.114,
+      "expected": 19,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    {
+      "report": "logs/after-04.json",
+      "startTime": "2026-09-14T16:06:12.145Z",
+      "duration": 111367.708,
+      "expected": 4,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    {
+      "report": "logs/art-03.json",
+      "startTime": "2026-09-14T16:06:12.144Z",
+      "duration": 31873.328999999998,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    {
+      "report": "logs/flows-01.json",
+      "startTime": "2026-09-14T16:07:11.736Z",
+      "duration": 211446.019,
+      "expected": 4,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    {
+      "report": "production/logs/production-01.json",
+      "startTime": "2026-09-14T16:07:12.012Z",
+      "duration": 215184.446,
+      "expected": 8,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  ],
+  "passed": 38,
+  "failed": 0,
+  "skipped": 0,
+  "assets": {
+    "command": "npm run verify:assets -- --report ../docs/game-review/touch-face-refinement/assets-final-01.json",
+    "exitCode": 0,
+    "registered": 101,
+    "checked": 101,
+    "decoded": 100,
+    "errors": 0
+  },
+  "productionOpening": [
+    {
+      "route": "car",
+      "totalResponseBytes": 3515662,
+      "gameAssetBytes": 3094744,
+      "elapsedMs": 918
+    },
+    {
+      "route": "subway",
+      "totalResponseBytes": 3515662,
+      "gameAssetBytes": 3094744,
+      "elapsedMs": 879
+    }
+  ]
+}

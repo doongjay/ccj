@@ -1,0 +1,16 @@
+{
+  "head": "a2a31405940560e169c819ee0f2677f073ccba40",
+  "files": {
+    "game/src/ui/classicMinimi.ts": "37770348fad342a4436df025fef95054d8755bdb71ef08a24df4ca5cdd65b3e2",
+    "game/src/ui/minimi.ts": "15d329b72c7b9e5a9f022a60c3c58cb4621e45880f0f0b806bfa3e39a77bdc27",
+    "game/src/ui/minimiParts.ts": "0dadb13641996a38170ec97d1cebef4df10ac1bc42290d100208d886ff5a07b2",
+    "game/src/ui/StoryDialog.ts": "acfc19491fbc9c50b3c0d5d3d70d0323ae46333df0a730d6004ffdb1bf2f04f4",
+    "game/src/scenes/VenueLobbyScene.ts": "e3ceb9660fd2f8dc053f42d4416762b2228bb2f231ee6f86c75d848d2748a876",
+    "game/src/scenes/SubwayRouteScene.ts": "d5f02bf15cf600a89574e056d181589c7bfee45d75be1d2772a1089a6d326d98",
+    "game/src/style.css": "33bf6522b5630a335ca3e9fc74af2aa51359ceed7f3b57649eccec953f12bcee"
+  },
+  "prior_package": {
+    "path": "docs/game-review/minimi-silhouette-fix-review.zip",
+    "bytes": 363418026
+  }
+}

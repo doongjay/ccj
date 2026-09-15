@@ -1,0 +1,17 @@
+[
+  "game/src/ui/TextEntryDialog.ts",
+  "game/e2e/minimi-visual.spec.ts",
+  "game/e2e/review-batch-b-access.spec.ts",
+  "game/e2e/review-minimi-fix.spec.ts",
+  "game/e2e/review-minimi-flow.spec.ts",
+  "game/e2e/review-batch-a.spec.ts",
+  "game/e2e/story-helpers.ts",
+  "game/e2e/review-neck-loading.spec.ts",
+  "game/e2e/invitation.spec.ts",
+  "game/e2e/review-touch-refinement.spec.ts",
+  "game/e2e/invitation-redesign.spec.ts",
+  "game/e2e/review-batch-c-photos.spec.ts",
+  "game/e2e/review-silhouette-ux.spec.ts",
+  "game/e2e/minimi-customization.spec.ts",
+  "game/e2e/wedding-group.spec.ts"
+]

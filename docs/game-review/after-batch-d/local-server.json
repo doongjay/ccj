@@ -1,0 +1,34 @@
+{
+  "timeUTC": "2026-09-14T07:23:36.705Z",
+  "url": "http://127.0.0.1:5174",
+  "title": "이재준 ♥ 김현서 결혼식으로 가는 길",
+  "scene": "IntroScene",
+  "browser": "151.0.7922.34",
+  "viewport": {
+    "width": 393,
+    "height": 852
+  },
+  "sourceFingerprint": "1402719dd9a38740f9b3955698e0ca61dd028dbfb2467650529ac2f33bf1858e",
+  "sources": [
+    {
+      "file": "src/objects/Player.ts",
+      "sha256": "7a48fc908e271ed4bbaf2005ac7edd1c7db3073faa9ee06ebd79b2c6fefa7f89"
+    },
+    {
+      "file": "src/scenes/IntroScene.ts",
+      "sha256": "2316001435c0c814883511ae28cf79e1b2c89ce6016f8c77091ff1f9275d9e11"
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "process": {
+    "pid": 14340,
+    "cwd": "/Users/user/wedding/ccj/game",
+    "ownershipCheck": "lsof -nP -iTCP:5174 -sTCP:LISTEN; lsof -a -p 14340 -d cwd -Fn",
+    "portBeforeStart": "no listener",
+    "command": "npm run dev -- --host 127.0.0.1 --port 5174 --strictPort",
+    "packageScript": "dev: vite",
+    "otherProcessesTerminated": false,
+    "leaveRunning": true
+  }
+}

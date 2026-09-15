@@ -139,16 +139,14 @@ export const GAMEPLAY_LAYOUTS = {
     style: { background: 'ivory', roles: ['glass-lobby', 'greenery-corridor', 'photo-table', 'reception-desks'] },
     spawns: [{ id: 'lobby-entry', label: 'Venue lobby entry', point: { x: 360, y: 1060 } }],
     anchors: [
-      { id: 'photo-table', label: 'Guest reception photo table', kind: 'interaction', point: { x: 550, y: 500 } },
-      { id: 'groom-reception', label: 'Groom reception desk', kind: 'interaction', point: { x: 110, y: 500 } },
-      { id: 'bride-reception', label: 'Bride reception desk', kind: 'interaction', point: { x: 260, y: 500 } },
-      { id: 'hall-door', label: 'Wedding hall door', kind: 'destination', point: { x: 360, y: 150 } },
+      { id: 'photo-table', label: 'Guest reception photo table', kind: 'interaction', point: { x: 550, y: 450 } },
+      { id: 'reception', label: 'Reception desk', kind: 'interaction', point: { x: 360, y: 460 } },
+      { id: 'hall-door', label: 'Wedding hall door', kind: 'destination', point: { x: 590, y: 150 } },
     ],
     triggers: [
-      { id: 'visit-photo-table', label: 'Visit photo table', anchorId: 'photo-table', shape: { kind: 'rectangle', bounds: { x: 480, y: 440, width: 140, height: 104 } } },
-      { id: 'groom-desk', label: 'Use groom reception desk', anchorId: 'groom-reception', shape: { kind: 'rectangle', bounds: { x: 60, y: 440, width: 100, height: 104 } } },
-      { id: 'bride-desk', label: 'Use bride reception desk', anchorId: 'bride-reception', shape: { kind: 'rectangle', bounds: { x: 210, y: 440, width: 100, height: 104 } } },
-      { id: 'enter-hall', label: 'Enter wedding hall', anchorId: 'hall-door', shape: { kind: 'rectangle', bounds: { x: 250, y: 96, width: 220, height: 96 } } },
+      { id: 'visit-photo-table', label: 'Visit photo table', anchorId: 'photo-table', shape: { kind: 'rectangle', bounds: { x: 480, y: 420, width: 140, height: 64 } } },
+      { id: 'reception-desk', label: 'Use reception desk', anchorId: 'reception', shape: { kind: 'rectangle', bounds: { x: 270, y: 330, width: 180, height: 160 } } },
+      { id: 'enter-hall', label: 'Enter wedding hall', anchorId: 'hall-door', shape: { kind: 'rectangle', bounds: { x: 510, y: 96, width: 160, height: 96 } } },
     ],
   },
   'venue-hall': {

@@ -1,0 +1,19 @@
+{
+  "comparedAgainst": "Completed D working tree frozen at task start, not git HEAD",
+  "implementation": [
+    "game/src/ui/classicMinimi.ts",
+    "game/src/ui/minimi.ts",
+    "game/src/ui/minimiParts.ts"
+  ],
+  "verification": [
+    "game/e2e/review-minimi-fix.spec.ts",
+    "game/e2e/review-minimi-flow.spec.ts",
+    "game/e2e/review-minimi-motion.spec.ts",
+    "game/playwright.minimi-before.config.ts",
+    "game/playwright.minimi-flow.config.ts",
+    "game/playwright.minimi-motion.config.ts",
+    "game/playwright.minimi-production.config.ts",
+    "game/playwright.minimi-regression.config.ts",
+    "game/playwright.minimi.config.ts"
+  ]
+}

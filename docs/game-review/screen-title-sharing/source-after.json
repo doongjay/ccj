@@ -1,0 +1,119 @@
+{
+  "time": "2026-09-16T01:49:59.080742+09:00",
+  "gitHead": "a2a31405940560e169c819ee0f2677f073ccba40",
+  "scope": "Files changed or explicitly preserved in this task; not a claim of clean working tree.",
+  "files": [
+    {
+      "path": "game/src/ui/InvitationView.ts",
+      "bytes": 32120,
+      "sha256": "7edaff9dbebaa85a2c22ddfae1b7e915b54b0ea98822e08a4fc8f8f0fe2a0d50",
+      "beforeSha256": "e2eef4301c0b6a44e07e641dc018d8b6eb9513f576699ca28145d6654609ce77",
+      "changed": true
+    },
+    {
+      "path": "game/src/data/weddingMetadata.ts",
+      "bytes": 1303,
+      "sha256": "aa0270f16f070262aba0dde9caecc712bbe6726ba1e584172b7347aed4324fd1",
+      "beforeSha256": "56e1b5091a41f377bd3f64da2c361f89a33ec3d7109165911ddf338df8bfb263",
+      "changed": true
+    },
+    {
+      "path": "game/index.html",
+      "bytes": 2233,
+      "sha256": "f22a5c24156643e000569fc931044063df4817afd6770f32cae9c9dc16031d7c",
+      "beforeSha256": "50d0b26b4ddbbb2dfd35f1e2813f3ac923a6dd73c1d5c864aa500f3721949c2e",
+      "changed": true
+    },
+    {
+      "path": "game/public/share-preview.html",
+      "bytes": 2426,
+      "sha256": "5782ceea9903f478074e14948b5ab5307d663a25628c34c2cff289639070b78e",
+      "beforeSha256": "690bff32fb901b1733782209d6b9d7e8685086ec277613f652810be7c9e95dae",
+      "changed": true
+    },
+    {
+      "path": "game/src/scenes/IntroScene.ts",
+      "bytes": 3375,
+      "sha256": "17b96c85bece39aa1c09ea8afc31768e570e5489790456e89953a709d56d7c24",
+      "beforeSha256": "0bb5c6c5447c73fecfa251ab99c31b42559afb2009e6681458cf5eb40cb48e6a",
+      "changed": true
+    },
+    {
+      "path": "game/src/scenes/VenueHallScene.ts",
+      "bytes": 12141,
+      "sha256": "e23a536516c03a036fbe47e45babb848d6ca44f1fd71c15e37330a847de40d0d",
+      "beforeSha256": "3d6f4642924ce39155565c588ecfccc17db018abe67e89b8dbf642a51dc1b963",
+      "changed": true
+    },
+    {
+      "path": "game/e2e/invitation-sharing.spec.ts",
+      "bytes": 6542,
+      "sha256": "116e3bcc52412e56379d74e01645b801bba5984780348038ba6c267a2eeac2f5",
+      "beforeSha256": "c1f5b45f69bf16bb5f45b250027a79367a95cb4547c9c44519be57ef90342633",
+      "changed": true
+    },
+    {
+      "path": "game/e2e/group-screen-reuse.spec.ts",
+      "bytes": 4327,
+      "sha256": "a11a724e6e2b7d51dee36c5cf4f79dddf5cf2d896d285b7339ab0adac16dda0d",
+      "beforeSha256": "e19897b2d0147f18c1f8621367353be8a88dd94b742846d81d13b866e17b8708",
+      "changed": true
+    },
+    {
+      "path": "game/e2e/smoke.spec.ts",
+      "bytes": 5240,
+      "sha256": "f857823fe42c91357b7e36b3c8da4b2479aa92f1d12c2133ca28e5da2579e5e7",
+      "beforeSha256": "dbe48b897525ca0f5c1c0d5a3a4d2502ca84583fda2365cf1ca7255a503b4ac3",
+      "changed": true
+    },
+    {
+      "path": "game/e2e/invitation.spec.ts",
+      "bytes": 10052,
+      "sha256": "a95dc116758a641a5e78d78008860f79e1de47979f295c2afb981bcb26b8c4b2",
+      "beforeSha256": "c3348929c2d621a91e6e00c4e6758d5f38e4a473528a8bfde92af95d763d600a",
+      "changed": true
+    },
+    {
+      "path": "game/e2e/wedding-group.spec.ts",
+      "bytes": 8045,
+      "sha256": "84d602226ae39cead6245258d32f4fb881faa3c9c62783c1bbd70bad81a692a6",
+      "beforeSha256": "b458b1525227adcf049dd8b28db5fa351e118c494bbe80327f4122bcfa095360",
+      "changed": true
+    },
+    {
+      "path": "game/e2e/current-journey.spec.ts",
+      "bytes": 7475,
+      "sha256": "f446390b46ff08f1bdf32ef2256ef4fd4a8504ba75c249237c39f0858b74e4c3",
+      "beforeSha256": "edc188c26ee20a9928ec85587a6b31d576ae41c0669ae87a09a457357c22f921",
+      "changed": true
+    },
+    {
+      "path": "game/e2e/review-batch-b-access.spec.ts",
+      "bytes": 11793,
+      "sha256": "93766ca2e608b02b6d57b5c8434d15ec8b223def46d8e0cbca7a654388af4fb0",
+      "beforeSha256": "234c5a044b02b423a39aec0805aaa5625faa4bcc33c291f5128bac4fddff1d52",
+      "changed": true
+    },
+    {
+      "path": "game/e2e/review-batch-d-resources.spec.ts",
+      "bytes": 5564,
+      "sha256": "bbff716fa46fd2745311638f485c3593e7c495d08ac553b499470f4ae2431aec",
+      "beforeSha256": "4b94f309a55209fc8707c857f5f48dd8f9c0b327f6d54b739ac4389fca69d289",
+      "changed": true
+    },
+    {
+      "path": "game/src/invitation.css",
+      "bytes": 26927,
+      "sha256": "cbb8aad97443699ce13409b779ddfb26f94e31791b7188594a65f4357a84f764",
+      "beforeSha256": "897349cb0670261659cd1c7e474fd94ca8c6baf39aa18ee1e092980c2f60cad3",
+      "changed": true
+    },
+    {
+      "path": "game/src/ui/weddingScreen.ts",
+      "bytes": 610,
+      "sha256": "0304d1efc9089ecdfa6553a0f62e8d616e18036c8e707355bb051c72badfdfa1",
+      "beforeSha256": null,
+      "changed": true
+    }
+  ]
+}

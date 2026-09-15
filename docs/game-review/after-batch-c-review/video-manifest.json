@@ -1,0 +1,418 @@
+[
+  {
+    "name": "f12-booth",
+    "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+    "reportedTemporarySource": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/.playwright-artifacts-3/page@7f84ba6b5cf5f240d9e027528694d598.webm",
+    "output": "f12-booth.webm",
+    "sourceStartSeconds": 14.206,
+    "requestedDurationSeconds": 11.737000000000002,
+    "speed": 1,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "vp9",
+          "codec_long_name": "Google VP9",
+          "profile": "Profile 0",
+          "codec_type": "video",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "vp09.00.30.08",
+          "width": 392,
+          "height": 852,
+          "coded_width": 392,
+          "coded_height": 852,
+          "has_b_frames": 0,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "98:213",
+          "pix_fmt": "yuv420p",
+          "level": -99,
+          "color_range": "tv",
+          "color_space": "bt470bg",
+          "chroma_location": "center",
+          "field_order": "progressive",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "time_base": "1/1000",
+          "start_pts": 40,
+          "start_time": "0.040000",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "eng",
+            "ENCODER": "Lavc62.28.102 libvpx-vp9",
+            "DURATION": "00:00:11.760000000"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/f12-booth.webm",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "matroska,webm",
+        "format_long_name": "Matroska / WebM",
+        "start_time": "0.040000",
+        "duration": "11.760000",
+        "size": "9212460",
+        "bit_rate": "6266979",
+        "probe_score": 100,
+        "tags": {
+          "ENCODER": "Lavf62.12.102"
+        }
+      }
+    }
+  },
+  {
+    "name": "f12-bridal",
+    "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+    "reportedTemporarySource": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/.playwright-artifacts-3/page@7f84ba6b5cf5f240d9e027528694d598.webm",
+    "output": "f12-bridal.webm",
+    "sourceStartSeconds": 39.191,
+    "requestedDurationSeconds": 12.955999999999996,
+    "speed": 1,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "vp9",
+          "codec_long_name": "Google VP9",
+          "profile": "Profile 0",
+          "codec_type": "video",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "vp09.00.30.08",
+          "width": 392,
+          "height": 852,
+          "coded_width": 392,
+          "coded_height": 852,
+          "has_b_frames": 0,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "98:213",
+          "pix_fmt": "yuv420p",
+          "level": -99,
+          "color_range": "tv",
+          "color_space": "bt470bg",
+          "chroma_location": "center",
+          "field_order": "progressive",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "time_base": "1/1000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "eng",
+            "ENCODER": "Lavc62.28.102 libvpx-vp9",
+            "DURATION": "00:00:12.960000000"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/f12-bridal.webm",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "matroska,webm",
+        "format_long_name": "Matroska / WebM",
+        "start_time": "0.000000",
+        "duration": "12.960000",
+        "size": "7618128",
+        "bit_rate": "4702548",
+        "probe_score": 100,
+        "tags": {
+          "ENCODER": "Lavf62.12.102"
+        }
+      }
+    }
+  },
+  {
+    "name": "f11-applause",
+    "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@7624ddfd2d7e9dc41cb8af42bf87eb40.webm",
+    "reportedTemporarySource": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@7624ddfd2d7e9dc41cb8af42bf87eb40.webm",
+    "output": "f11-applause.webm",
+    "sourceStartSeconds": 34.372,
+    "requestedDurationSeconds": 11.286000000000001,
+    "speed": 1,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "vp9",
+          "codec_long_name": "Google VP9",
+          "profile": "Profile 0",
+          "codec_type": "video",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "vp09.00.30.08",
+          "width": 392,
+          "height": 852,
+          "coded_width": 392,
+          "coded_height": 852,
+          "has_b_frames": 0,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "98:213",
+          "pix_fmt": "yuv420p",
+          "level": -99,
+          "color_range": "tv",
+          "color_space": "bt470bg",
+          "chroma_location": "center",
+          "field_order": "progressive",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "time_base": "1/1000",
+          "start_pts": 40,
+          "start_time": "0.040000",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "eng",
+            "ENCODER": "Lavc62.28.102 libvpx-vp9",
+            "DURATION": "00:00:11.320000000"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/f11-applause.webm",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "matroska,webm",
+        "format_long_name": "Matroska / WebM",
+        "start_time": "0.040000",
+        "duration": "11.320000",
+        "size": "4967380",
+        "bit_rate": "3510515",
+        "probe_score": 100,
+        "tags": {
+          "ENCODER": "Lavf62.12.102"
+        }
+      }
+    }
+  },
+  {
+    "name": "f11-cheer",
+    "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@feac90e2fe35c66f7e50fc81109106c7.webm",
+    "reportedTemporarySource": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@feac90e2fe35c66f7e50fc81109106c7.webm",
+    "output": "f11-cheer.webm",
+    "sourceStartSeconds": 24.614,
+    "requestedDurationSeconds": 14.670999999999996,
+    "speed": 1,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "vp9",
+          "codec_long_name": "Google VP9",
+          "profile": "Profile 0",
+          "codec_type": "video",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "vp09.00.30.08",
+          "width": 392,
+          "height": 852,
+          "coded_width": 392,
+          "coded_height": 852,
+          "has_b_frames": 0,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "98:213",
+          "pix_fmt": "yuv420p",
+          "level": -99,
+          "color_range": "tv",
+          "color_space": "bt470bg",
+          "chroma_location": "center",
+          "field_order": "progressive",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "time_base": "1/1000",
+          "start_pts": 40,
+          "start_time": "0.040000",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "eng",
+            "ENCODER": "Lavc62.28.102 libvpx-vp9",
+            "DURATION": "00:00:14.680000000"
+          }
+        }
+      ],
+      "format": {
+        "filename": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/f11-cheer.webm",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "matroska,webm",
+        "format_long_name": "Matroska / WebM",
+        "start_time": "0.040000",
+        "duration": "14.680000",
+        "size": "5420198",
+        "bit_rate": "2953786",
+        "probe_score": 100,
+        "tags": {
+          "ENCODER": "Lavf62.12.102"
+        }
+      }
+    }
+  },
+  {
+    "name": "f15-reception",
+    "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+    "reportedTemporarySource": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/refinement-02/.playwright-artifacts-4/page@8ddfc9a47a6e4036f5f3a4f0de7ac9e3.webm",
+    "output": "f15-reception.webm",
+    "sourceStartSeconds": 11.476,
+    "requestedDurationSeconds": 16.323999999999998,
+    "speed": 1,
+    "probe": {
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "vp9",
+          "codec_long_name": "Google VP9",
+          "profile": "Profile 0",
+          "codec_type": "video",
+          "codec_tag_string": "[0][0][0][0]",
+          "codec_tag": "0x0000",
+          "mime_codec_string": "vp09.00.30.08",
+          "width": 392,
+          "height": 852,
+          "coded_width": 392,
+          "coded_height": 852,
+          "has_b_frames": 0,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "98:213",
+          "pix_fmt": "yuv420p",
+          "level": -99,
+          "color_range": "tv",
+          "color_space": "bt470bg",
+          "chroma_location": "center",
+          "field_order": "progressive",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "time_base": "1/1000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "eng",
+            "ENCODER": "Lavc62.28.102 libvpx-vp9",
+            "DURATION": "00:00:16.320000000"
+          }
+        }
+      ],
+      "format": {
+        "filename": "docs/game-review/after-batch-c/f15-reception.webm",
+        "nb_streams": 1,
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "format_name": "matroska,webm",
+        "format_long_name": "Matroska / WebM",
+        "start_time": "0.000000",
+        "duration": "16.320000",
+        "size": "10893132",
+        "bit_rate": "5339770",
+        "probe_score": 100,
+        "tags": {
+          "ENCODER": "Lavf62.12.102"
+        }
+      }
+    },
+    "includesInvitationAndLobbyRevisit": true
+  }
+]

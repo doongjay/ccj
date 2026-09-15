@@ -1,0 +1,194 @@
+{
+  "observations": [
+    {
+      "checkpoint": {
+        "version": 1,
+        "assets": 1,
+        "name": "테스트하객",
+        "profile": {
+          "gender": "male",
+          "outfit": 0,
+          "hair": 0,
+          "face": 0
+        },
+        "side": "bride",
+        "route": "car",
+        "validRoute": "b3",
+        "progression": {
+          "routeChosen": true,
+          "routeQuizSolved": true,
+          "photoTableVisited": false,
+          "photoBoothVisited": true,
+          "guestSideChosen": true,
+          "receptionComplete": false,
+          "bridalRoomVisited": false,
+          "banquetGuideComplete": false,
+          "mealComplete": false
+        },
+        "photos": [
+          {
+            "kind": "booth",
+            "profile": {
+              "gender": "male",
+              "outfit": 0,
+              "hair": 0,
+              "face": 0
+            },
+            "composition": 1
+          }
+        ],
+        "point": "lobby",
+        "mealOrder": "pending",
+        "ending": "pending"
+      },
+      "after": {
+        "version": 1,
+        "assets": 1,
+        "name": "테스트하객",
+        "profile": {
+          "gender": "male",
+          "outfit": 0,
+          "hair": 0,
+          "face": 0
+        },
+        "side": "bride",
+        "route": "car",
+        "validRoute": "b3",
+        "progression": {
+          "routeChosen": true,
+          "routeQuizSolved": true,
+          "photoTableVisited": false,
+          "photoBoothVisited": true,
+          "guestSideChosen": true,
+          "receptionComplete": false,
+          "bridalRoomVisited": false,
+          "banquetGuideComplete": false,
+          "mealComplete": false
+        },
+        "photos": [
+          {
+            "kind": "booth",
+            "profile": {
+              "gender": "male",
+              "outfit": 0,
+              "hair": 0,
+              "face": 0
+            },
+            "composition": 1
+          }
+        ],
+        "point": "lobby",
+        "mealOrder": "pending",
+        "ending": "pending"
+      },
+      "bytes": "545",
+      "restoreMs": "122"
+    },
+    {
+      "checkpoint": {
+        "version": 1,
+        "assets": 1,
+        "name": "테스트하객",
+        "profile": {
+          "gender": "male",
+          "outfit": 0,
+          "hair": 0,
+          "face": 0
+        },
+        "side": "bride",
+        "route": "car",
+        "validRoute": "b3",
+        "progression": {
+          "routeChosen": true,
+          "routeQuizSolved": true,
+          "photoTableVisited": false,
+          "photoBoothVisited": true,
+          "guestSideChosen": true,
+          "receptionComplete": false,
+          "bridalRoomVisited": true,
+          "banquetGuideComplete": false,
+          "mealComplete": false
+        },
+        "photos": [
+          {
+            "kind": "booth",
+            "profile": {
+              "gender": "male",
+              "outfit": 0,
+              "hair": 0,
+              "face": 0
+            },
+            "composition": 1
+          },
+          {
+            "kind": "bridal",
+            "profile": {
+              "gender": "male",
+              "outfit": 0,
+              "hair": 0,
+              "face": 0
+            },
+            "composition": 1
+          }
+        ],
+        "point": "lobby",
+        "mealOrder": "pending",
+        "ending": "pending"
+      },
+      "after": {
+        "version": 1,
+        "assets": 1,
+        "name": "테스트하객",
+        "profile": {
+          "gender": "male",
+          "outfit": 0,
+          "hair": 0,
+          "face": 0
+        },
+        "side": "bride",
+        "route": "car",
+        "validRoute": "b3",
+        "progression": {
+          "routeChosen": true,
+          "routeQuizSolved": true,
+          "photoTableVisited": false,
+          "photoBoothVisited": true,
+          "guestSideChosen": true,
+          "receptionComplete": false,
+          "bridalRoomVisited": true,
+          "banquetGuideComplete": false,
+          "mealComplete": false
+        },
+        "photos": [
+          {
+            "kind": "booth",
+            "profile": {
+              "gender": "male",
+              "outfit": 0,
+              "hair": 0,
+              "face": 0
+            },
+            "composition": 1
+          },
+          {
+            "kind": "bridal",
+            "profile": {
+              "gender": "male",
+              "outfit": 0,
+              "hair": 0,
+              "face": 0
+            },
+            "composition": 1
+          }
+        ],
+        "point": "lobby",
+        "mealOrder": "pending",
+        "ending": "pending"
+      },
+      "bytes": "635",
+      "restoreMs": "277"
+    }
+  ],
+  "errors": [],
+  "video": "/Users/user/wedding/ccj/docs/game-review/minimi-silhouette-fix/runs/production-01/.playwright-artifacts-4/page@30e0c9648eaf9fa26b58c524f997a517.webm"
+}

@@ -1,0 +1,45 @@
+{
+  "isolatedCopies": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb",
+  "results": [
+    {
+      "command": [
+        "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+        "scripts/verify-assets.mjs",
+        "--catalog",
+        "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb/decode.json",
+        "--public-root",
+        "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb/public",
+        "--production-root",
+        "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb/dist",
+        "--report",
+        "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb/decode-result.json"
+      ],
+      "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb/decode.json",
+      "exitCode": 1,
+      "errors": [
+        "file:assets/lacitta/characters/npc-bride.png: image decode failed"
+      ],
+      "decoded": 97
+    },
+    {
+      "command": [
+        "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+        "scripts/verify-assets.mjs",
+        "--catalog",
+        "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb/sheet.json",
+        "--public-root",
+        "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb/public",
+        "--production-root",
+        "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb/dist",
+        "--report",
+        "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb/sheet-result.json"
+      ],
+      "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-shipping-fixtures-9iXbHb/sheet.json",
+      "exitCode": 1,
+      "errors": [
+        "file:assets/lacitta/characters/npc-bride.png: invalid legacy sheet contract"
+      ],
+      "decoded": 97
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "time": "2026-09-16T01:49:59.046690+09:00",
+  "gitHead": "a2a31405940560e169c819ee0f2677f073ccba40",
+  "scope": "Files changed or explicitly preserved in this task; not a claim of clean working tree.",
+  "files": [
+    {
+      "path": "game/src/scenes/VenueRoomScene.ts",
+      "bytes": 10081,
+      "sha256": "3418fb5c0a1e05153e2d0e2f71142734c1a7406a9cbed5074fa822f351cf005d",
+      "beforeSha256": "a732c90aa094b4baa4d40dd229eadf5e6f582239fe5effde5ab8e992f6678040",
+      "changed": true
+    },
+    {
+      "path": "game/src/ui/sessionMemories.ts",
+      "bytes": 5529,
+      "sha256": "5d5690f15cff735c817d2c48a680121965ed8c380f7163e26d927d82e7ab9e2b",
+      "beforeSha256": "a2f0493fd2a38a1376a08837de1f092827f73a4bc72a33323c2828b6fa8abaf2",
+      "changed": true
+    },
+    {
+      "path": "game/src/data/runtimeAssets.ts",
+      "bytes": 3366,
+      "sha256": "6da15bbb36b54846353127e68a60568145ba6ce2cfd10835016ec7209272f7ce",
+      "beforeSha256": "0dccb367baf417006dd369d7dc6e59fbf5db6c27dac45d40f0940ab9afb9916f",
+      "changed": true
+    },
+    {
+      "path": "game/src/data/shippingAssets.json",
+      "bytes": 164114,
+      "sha256": "c28e92ec1905fd912fe0585da134c4eda0eb2dde0b18dbda955ca62856e7b21b",
+      "beforeSha256": "4e790a7b419848cb4c6c7f463d527aec59519cf47c16548cb55b1a8d0080aa51",
+      "changed": true
+    },
+    {
+      "path": "game/src/ui/weddingCouple.ts",
+      "bytes": 2199,
+      "sha256": "49253a1b55bbb9a226433dcfae714411a65c46146629e4f8ec76b390e2fd69ec",
+      "beforeSha256": "49253a1b55bbb9a226433dcfae714411a65c46146629e4f8ec76b390e2fd69ec",
+      "changed": false
+    },
+    {
+      "path": "game/src/ui/bridalRoomBride.ts",
+      "bytes": 1027,
+      "sha256": "b70e8ec2ad32dfc6a059210f8249e5cb48f70393e9b5e400b1e638b5dd0d07b9",
+      "beforeSha256": null,
+      "changed": true
+    },
+    {
+      "path": "game/e2e/bridal-minimi-reuse.spec.ts",
+      "bytes": 3404,
+      "sha256": "8f7b56cfedd812f215839b339df5d4cc8975a69d7851678a312c044fa0433c95",
+      "beforeSha256": null,
+      "changed": true
+    },
+    {
+      "path": "game/artwork/sources/assets/lacitta/pixel-venue/bridal-room-empty-v2.png",
+      "bytes": 2914085,
+      "sha256": "8850122af5d9f3939df49020f64051c738aa6663980a5cbf21d83660d30214a6",
+      "beforeSha256": null,
+      "changed": true
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-bridal-room-empty-v2.png",
+      "bytes": 2914085,
+      "sha256": "8850122af5d9f3939df49020f64051c738aa6663980a5cbf21d83660d30214a6",
+      "beforeSha256": null,
+      "changed": true
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "viewport": [
+    852,
+    393
+  ],
+  "scroll": [
+    393,
+    393
+  ],
+  "nodes": [
+    {
+      "tag": "DIV",
+      "className": "",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 852,
+        "height": 393,
+        "top": 0,
+        "right": 852,
+        "bottom": 393,
+        "left": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "className": "",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "portrait-notice",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 852,
+        "height": 393,
+        "top": 0,
+        "right": 852,
+        "bottom": 393,
+        "left": 0
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "className": "game-access",
+      "bounds": {
+        "x": 544.0625,
+        "y": 8,
+        "width": 76,
+        "height": 44,
+        "top": 8,
+        "right": 620.0625,
+        "bottom": 52,
+        "left": 544.0625
+      }
+    },
+    {
+      "tag": "NAV",
+      "className": "keyboard-destinations",
+      "bounds": {
+        "x": 331,
+        "y": 84,
+        "width": 189.0625,
+        "height": 1,
+        "top": 84,
+        "right": 520.0625,
+        "bottom": 85,
+        "left": 331
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "className": "canvas-keyboard-button",
+      "bounds": {
+        "x": 319.90625,
+        "y": -3.671875,
+        "width": 68.765625,
+        "height": 44.203125,
+        "top": -3.671875,
+        "right": 388.671875,
+        "bottom": 40.53125,
+        "left": 319.90625
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "story-overlay story-tappable story-notebook",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    }
+  ]
+}

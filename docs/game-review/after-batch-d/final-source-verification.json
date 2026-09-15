@@ -1,0 +1,19 @@
+{
+  "timeUTC": "2026-09-14T07:36:10.220899+00:00",
+  "sourceFingerprint": "1402719dd9a38740f9b3955698e0ca61dd028dbfb2467650529ac2f33bf1858e",
+  "sourceFiles": 304,
+  "sourceMismatches": [],
+  "supplementalVerificationHashes": {
+    "docs/game-review/after-batch-d/verification-scripts/local-server.config.ts": "acc3b0eec28941fc7e38d78063f82f358d381fcd4946544a7aad9f802da16512",
+    "docs/game-review/after-batch-d/verification-scripts/local-server.spec.ts": "edd4477e947f492fe1a606a9b156d5faa38f1939e923440d549c28a0a4035bac",
+    "docs/game-review/after-batch-d/verification-scripts/package_review.py": "d161f56651686b47c819bb5ef54e6a301c351351036fa15790bee7142898a390",
+    "docs/game-review/after-batch-d/verification-scripts/preserve_originals.py": "24a8c6f32825fb6bc9db6c1371ef7d835877bd84cc212e13047723ec1362a6a3",
+    "docs/game-review/after-batch-d/verification-scripts/refresh-source-evidence.py": "59f5cd22317169a5b1ca3eb35d1c167134bb84dac0e75b46335f12791c820a3f",
+    "docs/game-review/after-batch-d/verification-scripts/resume-layout-01.config.ts": "7c74af5ad30c5fc34cf4782c5f0b38fd2fc91f1ba3448f36790a6a2ed7b73634",
+    "docs/game-review/after-batch-d/verification-scripts/resume-layout-before.ts": "5cc2a0d741fd2c50302a8efe50431cc3fd772759fcfea1a5e0b067d40c7c0155",
+    "docs/game-review/after-batch-d/verification-scripts/resume-layout.config.ts": "91a80a2f06158af5434ec1d29092eb3904db5c7a7dc757df3c578cc6accf9d39",
+    "docs/game-review/after-batch-d/verification-scripts/resume-layout.spec.ts": "3127d2f5cc15ceca4517e0d1e243df65c5ad5bf4326f3882ff3fe183aca70c0b",
+    "docs/game-review/after-batch-d/verification-scripts/summarize_verification.py": "0bc14024d70a67e26c754782e45363b913dcf8f8435dd2aa52d203085d894a3b"
+  },
+  "verificationFingerprint": "795aa839a999a9c477509b7b847cb8155bfac1a79996268b5f0f679bfbbd11d1"
+}

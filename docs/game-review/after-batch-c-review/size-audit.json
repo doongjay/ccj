@@ -1,0 +1,3544 @@
+{
+  "originalZIP": {
+    "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c.zip",
+    "bytes": 1039572809,
+    "sha256": "e1066bbff4da9677454dadd3d34c375d56fd1c7043f5c7c34ea772cd3c0ee0a1",
+    "mtimeNs": 1789320745917875869
+  },
+  "sourceTotalBytes": 1054563809,
+  "sourceFiles": 515,
+  "groups": {
+    "other-evidence": {
+      "count": 138,
+      "bytes": 31615938,
+      "compressedBytes": 30477800
+    },
+    "five-required-realtime-clips": {
+      "count": 5,
+      "bytes": 38111298,
+      "compressedBytes": 38027128
+    },
+    "execution-logs-and-raw-reporters": {
+      "count": 21,
+      "bytes": 35399363,
+      "compressedBytes": 26264322
+    },
+    "full-run-recordings": {
+      "count": 33,
+      "bytes": 138964187,
+      "compressedBytes": 138157695
+    },
+    "repeated-run-screenshots": {
+      "count": 312,
+      "bytes": 127130126,
+      "compressedBytes": 126472202
+    },
+    "failed-trace-archives": {
+      "count": 6,
+      "bytes": 683342897,
+      "compressedBytes": 680029096
+    }
+  },
+  "largestFiles": [
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 164795787,
+      "sha256": "6cdc8fe1e4551415c6c1eaec684c263739d8710d19c08881e3db5dfebbc96f44",
+      "mtimeNs": 1789315596582045206
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/trace.zip",
+      "bytes": 151149775,
+      "sha256": "fff704043689117ece5314b9db3841c414b9f63c28269f869293b4a0217e878b",
+      "mtimeNs": 1789315897573348352
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 145265850,
+      "sha256": "a3f08eff9314061380f386d46fca50ed7bce2819707bc2daca8df778d7d55bbe",
+      "mtimeNs": 1789315589217532455
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 126975824,
+      "sha256": "ec76c248a0c5d9dbe661c6646477ba9b95fb42899bdf4d1f39f139cb2fa6eb2d",
+      "mtimeNs": 1789315628285950922
+    },
+    {
+      "path": "runs/regression-all-01/reception-only-single-rece-6f818-movement-and-completes-once-chromium/trace.zip",
+      "bytes": 53098694,
+      "sha256": "4551ba6e5a05bc3e2af4fcb7d18911e7a2b62cd7c85e6b834de1bd20cf83c570",
+      "mtimeNs": 1789315358795203489
+    },
+    {
+      "path": "runs/regression-all-01/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/trace.zip",
+      "bytes": 42056967,
+      "sha256": "55a8b97ca0fdd96b067c911268e40521b3860e6ded93ca421feb18e0df30ddda",
+      "mtimeNs": 1789315352921386471
+    },
+    {
+      "path": "logs/regression-final.json",
+      "bytes": 17300989,
+      "sha256": "1659a7042d1b9641787bff011dae5d6ea50e2b49c0108d22a14d6a8e770ce5e6",
+      "mtimeNs": 1789317278115039966
+    },
+    {
+      "path": "logs/regression-all-01.json",
+      "bytes": 17286858,
+      "sha256": "c379427af49a4d22f4b56a563bd861e76476989a76f75d643b0543a5101f3b92",
+      "mtimeNs": 1789315900783238461
+    },
+    {
+      "path": "f15-reception.webm",
+      "bytes": 10893132,
+      "sha256": "11eaf366c8e1c855286d4066601fbf0123add5bf3baa684ea793fdcf505bf98e",
+      "mtimeNs": 1789316924943814930
+    },
+    {
+      "path": "f12-booth.webm",
+      "bytes": 9212460,
+      "sha256": "60b35bb2f194b44144d2009827460b469802d4c52321d8d2bfa87ffea07553e1",
+      "mtimeNs": 1789316707984949522
+    },
+    {
+      "path": "f12-bridal.webm",
+      "bytes": 7618128,
+      "sha256": "b1e620bacb90b24ef72966628abae7f9c92b95d89f5dcd3d57143e585939f27a",
+      "mtimeNs": 1789316721326288598
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@e968ca655db2fedf0dcb64e685cdff34.webm",
+      "bytes": 7014488,
+      "sha256": "8b901be56237121a634cd7a08e52e67ef8f45cbbd296e229c83e67e4995d67fa",
+      "mtimeNs": 1789317031744448234
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@7624ddfd2d7e9dc41cb8af42bf87eb40.webm",
+      "bytes": 6808324,
+      "sha256": "e55501e53aaf1e63faa10b7f8582cc6edfe0bd89e1f09fe32032e0c353ff3482",
+      "mtimeNs": 1789316062552563913
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 6671025,
+      "sha256": "42424ae1985966c2a677b1bee3e78cbffefa767cc0aa1a9761f174292d86835a",
+      "mtimeNs": 1789317277546314678
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 6196228,
+      "sha256": "de3a10a1631557e515d1d806d78be91a3958af173f4338aee5a9d28ddf374c1c",
+      "mtimeNs": 1789316145625368617
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@feac90e2fe35c66f7e50fc81109106c7.webm",
+      "bytes": 6092688,
+      "sha256": "92c5fb8a1566df9b3e95b941a2eb516c44b283bc14fbac6e6f9bc912de5fbfe3",
+      "mtimeNs": 1789316093614626395
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@be17605dea316a17ab8aabecea73386f.webm",
+      "bytes": 5791968,
+      "sha256": "8974a6c608536132c8b1ae57d1521d56c0ad13fd4f8032fad615aac4bded066b",
+      "mtimeNs": 1789317043770538618
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@a91a73ccb584a4dd691e9d8db7881bb3.webm",
+      "bytes": 5509957,
+      "sha256": "80454b909e868028e11e407008a76a10072b6fdea489e4a470341d59dd708ae0",
+      "mtimeNs": 1789317046622920158
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium/video/page@bd266f5d6a376f598815bbe87e7859a9.webm",
+      "bytes": 5493605,
+      "sha256": "bec7ee06ffd69b054b0c6af187a04f53c6ca9eb5c4e20e9c881a4fc575a2023e",
+      "mtimeNs": 1789316125783847762
+    },
+    {
+      "path": "f11-cheer.webm",
+      "bytes": 5420198,
+      "sha256": "51ed6618b10f8bbd307085b0c5ba5301ef4d8133d62bf7e32250ba0d15525102",
+      "mtimeNs": 1789316742965326134
+    },
+    {
+      "path": "runs/photos-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 5332114,
+      "sha256": "28aeea33b02c2860fb20920a545cac11a6b199dfa9e78126b85e02937bbe988c",
+      "mtimeNs": 1789313800245468982
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium/video/page@2d7a44f7c9c016edc28f4d05d44fa466.webm",
+      "bytes": 5242157,
+      "sha256": "3b75b7a39b75e4d9b962fba8ec77408ad7704c2130f1e2afe4c609a5f6ac1ec8",
+      "mtimeNs": 1789317084991837014
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@f170e480bc3d1ebeacb6e52af1759af5.webm",
+      "bytes": 5228328,
+      "sha256": "94c6d1a83c80dee2f9847a6c43805098bb4687bffdc695b0a16bd6bc3b5a25d9",
+      "mtimeNs": 1789316083971563775
+    },
+    {
+      "path": "runs/production-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium-production/video.webm",
+      "bytes": 5220234,
+      "sha256": "854a95a1c290a5d94be28a748309595c7c2382eb044ec77104f235d18657590f",
+      "mtimeNs": 1789320563935811952
+    },
+    {
+      "path": "runs/production-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium-production/video/page@991b393e8f92797facf02ca902c4efa3.webm",
+      "bytes": 5069063,
+      "sha256": "bf597715bbb365d2b6b8131709830c67730df6ee2f6cfd743ea4dd7439092546",
+      "mtimeNs": 1789320408157232499
+    },
+    {
+      "path": "f11-applause.webm",
+      "bytes": 4967380,
+      "sha256": "3772410bebe6e5223800cd82c0dea3371be4be3ba9bc46dc0f0cb541ee78fc51",
+      "mtimeNs": 1789316730630756675
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@159551f6393fb42cf52ea01497959a21.webm",
+      "bytes": 4545167,
+      "sha256": "1c743a6f30fa88a76ecb0b90f6d460777d3d590b4d42c933d10206fa84c573e2",
+      "mtimeNs": 1789315592665697654
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@13319a38c81dcdce33a0c48e1993d8dc.webm",
+      "bytes": 4077173,
+      "sha256": "72664e5e917541a960f19e7eb313bf3c409723f02fe0a5a976a16ec1a02ccf47",
+      "mtimeNs": 1789314410902901745
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@feaa78437c33e5daf5205d4eacc77fb8.webm",
+      "bytes": 4052700,
+      "sha256": "c35fc8f6ae2e3bd6b5cd37c3898b007f65ff7bee9ea48f85f60cd83e2a00da88",
+      "mtimeNs": 1789314728506623839
+    },
+    {
+      "path": "runs/production-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium-production/video/page@7659c9232747feb45f29610b7c61316e.webm",
+      "bytes": 3904454,
+      "sha256": "8f23f23ef81da38e4af49d5e15b55fc5da3d5bf6eecd3cdff449426a2b60be80",
+      "mtimeNs": 1789320443701284213
+    }
+  ],
+  "folders": {
+    "runs": {
+      "count": 372,
+      "bytes": 949584438
+    },
+    "runs/regression-all-01": {
+      "count": 173,
+      "bytes": 765869764
+    },
+    "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium": {
+      "count": 3,
+      "bytes": 169347437
+    },
+    "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium": {
+      "count": 3,
+      "bytes": 154853718
+    },
+    "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium": {
+      "count": 3,
+      "bytes": 148707741
+    },
+    "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium": {
+      "count": 3,
+      "bytes": 130369957
+    },
+    "runs/regression-final": {
+      "count": 164,
+      "bytes": 99624382
+    },
+    "runs/regression-all-01/reception-only-single-rece-6f818-movement-and-completes-once-chromium": {
+      "count": 2,
+      "bytes": 53105379
+    },
+    "runs/regression-all-01/reception-only-single-rece-12ee6-movement-and-completes-once-chromium": {
+      "count": 2,
+      "bytes": 42063599
+    },
+    "runs/refinement-02": {
+      "count": 10,
+      "bytes": 36297095
+    },
+    "logs": {
+      "count": 21,
+      "bytes": 35399363
+    },
+    "runs/production-final": {
+      "count": 6,
+      "bytes": 21460604
+    },
+    "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium": {
+      "count": 36,
+      "bytes": 9454054
+    },
+    "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium": {
+      "count": 36,
+      "bytes": 9446022
+    },
+    "runs/ceremony-02": {
+      "count": 7,
+      "bytes": 9262270
+    },
+    "runs/ceremony-01": {
+      "count": 7,
+      "bytes": 9083394
+    },
+    "video-frames": {
+      "count": 21,
+      "bytes": 8142850
+    },
+    "runs/regression-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium": {
+      "count": 1,
+      "bytes": 7014488
+    },
+    "runs/regression-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 7014488
+    },
+    "runs/refinement-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium": {
+      "count": 1,
+      "bytes": 6808324
+    },
+    "runs/refinement-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 6808324
+    },
+    "runs/regression-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium": {
+      "count": 1,
+      "bytes": 6671025
+    },
+    "runs/refinement-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium": {
+      "count": 1,
+      "bytes": 6196228
+    },
+    "runs/refinement-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium": {
+      "count": 1,
+      "bytes": 6092688
+    },
+    "runs/refinement-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 6092688
+    },
+    "runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium": {
+      "count": 4,
+      "bytes": 6087374
+    },
+    "runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium": {
+      "count": 4,
+      "bytes": 6069639
+    },
+    "runs/regression-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium": {
+      "count": 1,
+      "bytes": 5791968
+    },
+    "runs/regression-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 5791968
+    },
+    "runs/regression-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium": {
+      "count": 1,
+      "bytes": 5509957
+    },
+    "runs/regression-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 5509957
+    },
+    "runs/refinement-02/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium": {
+      "count": 1,
+      "bytes": 5493605
+    },
+    "runs/refinement-02/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 5493605
+    },
+    "runs/photos-02": {
+      "count": 2,
+      "bytes": 5332159
+    },
+    "runs/photos-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium": {
+      "count": 1,
+      "bytes": 5332114
+    },
+    "regressions": {
+      "count": 15,
+      "bytes": 5281481
+    },
+    "runs/regression-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium": {
+      "count": 1,
+      "bytes": 5242157
+    },
+    "runs/regression-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 5242157
+    },
+    "runs/refinement-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium": {
+      "count": 1,
+      "bytes": 5228328
+    },
+    "runs/refinement-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 5228328
+    },
+    "runs/production-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium-production": {
+      "count": 1,
+      "bytes": 5220234
+    },
+    "runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium": {
+      "count": 4,
+      "bytes": 5135737
+    },
+    "runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium": {
+      "count": 4,
+      "bytes": 5135016
+    },
+    "runs/production-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium-production": {
+      "count": 1,
+      "bytes": 5069063
+    },
+    "runs/production-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium-production/video": {
+      "count": 1,
+      "bytes": 5069063
+    },
+    "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 4545167
+    },
+    "before": {
+      "count": 14,
+      "bytes": 4493314
+    },
+    "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium": {
+      "count": 9,
+      "bytes": 4160572
+    },
+    "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium": {
+      "count": 9,
+      "bytes": 4160526
+    },
+    "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium": {
+      "count": 2,
+      "bytes": 4092315
+    },
+    "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 4077173
+    },
+    "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium": {
+      "count": 2,
+      "bytes": 4067961
+    },
+    "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 4052700
+    },
+    "runs/production-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium-production": {
+      "count": 1,
+      "bytes": 3904454
+    },
+    "runs/production-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium-production/video": {
+      "count": 1,
+      "bytes": 3904454
+    },
+    "runs/regression-final/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium": {
+      "count": 2,
+      "bytes": 3825445
+    },
+    "runs/production-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium-production": {
+      "count": 1,
+      "bytes": 3648875
+    },
+    "runs/production-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium-production/video": {
+      "count": 1,
+      "bytes": 3648875
+    },
+    "runs/production-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium-production": {
+      "count": 1,
+      "bytes": 3617933
+    },
+    "runs/production-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium-production/video": {
+      "count": 1,
+      "bytes": 3617933
+    },
+    "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 3435411
+    },
+    "runs/regression-all-01/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium": {
+      "count": 2,
+      "bytes": 3423262
+    },
+    "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 3387651
+    },
+    "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium": {
+      "count": 8,
+      "bytes": 3312240
+    },
+    "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium": {
+      "count": 8,
+      "bytes": 3311967
+    },
+    "runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium": {
+      "count": 2,
+      "bytes": 3081703
+    },
+    "runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 3066445
+    },
+    "runs/regression-final/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium": {
+      "count": 1,
+      "bytes": 2992665
+    },
+    "runs/refinement-02/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium": {
+      "count": 1,
+      "bytes": 2964607
+    },
+    "runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium": {
+      "count": 2,
+      "bytes": 2878473
+    },
+    "runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 2863215
+    },
+    "runs/regression-all-01/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium": {
+      "count": 1,
+      "bytes": 2817176
+    },
+    "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium": {
+      "count": 6,
+      "bytes": 2717118
+    },
+    "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium": {
+      "count": 6,
+      "bytes": 2655708
+    },
+    "runs/photos-01": {
+      "count": 3,
+      "bytes": 2654770
+    },
+    "runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium": {
+      "count": 2,
+      "bytes": 2654674
+    },
+    "runs/regression-final/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium": {
+      "count": 1,
+      "bytes": 2595969
+    },
+    "runs/refinement-02/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium": {
+      "count": 1,
+      "bytes": 2540527
+    },
+    "runs/regression-all-01/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium": {
+      "count": 1,
+      "bytes": 2253141
+    },
+    "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium": {
+      "count": 5,
+      "bytes": 2212998
+    },
+    "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium": {
+      "count": 5,
+      "bytes": 2183260
+    },
+    "runs/regression-all-01/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium": {
+      "count": 2,
+      "bytes": 2116514
+    },
+    "runs/regression-final/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium": {
+      "count": 2,
+      "bytes": 2116217
+    },
+    "runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium": {
+      "count": 2,
+      "bytes": 2112412
+    },
+    "runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium": {
+      "count": 2,
+      "bytes": 2112412
+    },
+    "runs/regression-all-01/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium": {
+      "count": 2,
+      "bytes": 2100094
+    },
+    "runs/regression-final/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium": {
+      "count": 2,
+      "bytes": 2100094
+    },
+    "runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 2097152
+    },
+    "runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video": {
+      "count": 1,
+      "bytes": 2097152
+    },
+    "runs/regression-final/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium": {
+      "count": 3,
+      "bytes": 1651696
+    },
+    "runs/regression-all-01/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium": {
+      "count": 3,
+      "bytes": 1651691
+    },
+    "runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium": {
+      "count": 4,
+      "bytes": 1600841
+    },
+    "runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium": {
+      "count": 4,
+      "bytes": 1600837
+    },
+    "runs/regression-final/venue-rooms-room-navigatio-6bf3d--and-selected-side-at-720px-chromium": {
+      "count": 1,
+      "bytes": 1403773
+    },
+    "runs/regression-all-01/venue-rooms-room-navigatio-6bf3d--and-selected-side-at-720px-chromium": {
+      "count": 1,
+      "bytes": 1403355
+    },
+    "runs/regression-final/venue-rooms-room-navigatio-7f39e-and-selected-side-at-1440px-chromium": {
+      "count": 1,
+      "bytes": 1286069
+    },
+    "runs/regression-all-01/venue-rooms-room-navigatio-7f39e-and-selected-side-at-1440px-chromium": {
+      "count": 1,
+      "bytes": 1284719
+    },
+    "runs/regression-final/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium": {
+      "count": 3,
+      "bytes": 1230149
+    },
+    "runs/regression-all-01/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium": {
+      "count": 3,
+      "bytes": 1230014
+    },
+    "runs/regression-final/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium": {
+      "count": 2,
+      "bytes": 878198
+    },
+    "runs/regression-all-01/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium": {
+      "count": 2,
+      "bytes": 878145
+    },
+    "runs/regression-all-01/story-routes-station-choic-5c7c3-ed-circles-visible-at-320px-chromium": {
+      "count": 1,
+      "bytes": 823982
+    },
+    "runs/regression-final/story-routes-station-choic-5c7c3-ed-circles-visible-at-320px-chromium": {
+      "count": 1,
+      "bytes": 823982
+    },
+    "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium": {
+      "count": 5,
+      "bytes": 822466
+    },
+    "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium": {
+      "count": 5,
+      "bytes": 822459
+    },
+    "runs/regression-all-01/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium": {
+      "count": 2,
+      "bytes": 747670
+    },
+    "runs/regression-final/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium": {
+      "count": 2,
+      "bytes": 747607
+    },
+    "runs/regression-final/invitation-profile-cards-stay-inside-the-game-at-1440px-chromium": {
+      "count": 1,
+      "bytes": 676129
+    },
+    "runs/regression-all-01/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium": {
+      "count": 2,
+      "bytes": 639819
+    },
+    "runs/regression-final/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium": {
+      "count": 2,
+      "bytes": 639758
+    },
+    "runs/regression-all-01/invitation-profile-cards-stay-inside-the-game-at-1440px-chromium": {
+      "count": 1,
+      "bytes": 627350
+    },
+    "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium": {
+      "count": 5,
+      "bytes": 603986
+    },
+    "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium": {
+      "count": 5,
+      "bytes": 603906
+    },
+    "runs/regression-final/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium": {
+      "count": 3,
+      "bytes": 587763
+    },
+    "runs/regression-final/venue-rooms-room-navigatio-835f5--and-selected-side-at-430px-chromium": {
+      "count": 1,
+      "bytes": 579403
+    },
+    "runs/regression-all-01/venue-rooms-room-navigatio-835f5--and-selected-side-at-430px-chromium": {
+      "count": 1,
+      "bytes": 578913
+    },
+    "runs/regression-all-01/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium": {
+      "count": 3,
+      "bytes": 544354
+    },
+    "runs/regression-all-01/lobby-return-bride-explore-711ad-ismissing-the-hall-reminder-chromium": {
+      "count": 1,
+      "bytes": 516311
+    },
+    "runs/regression-final/lobby-return-bride-explore-711ad-ismissing-the-hall-reminder-chromium": {
+      "count": 1,
+      "bytes": 516293
+    },
+    "runs/regression-final/tap-pacing-taps-finish-foo-14d3c-eal-or-replaying-old-timers-chromium": {
+      "count": 1,
+      "bytes": 506971
+    },
+    "runs/regression-all-01/tap-pacing-taps-finish-foo-14d3c-eal-or-replaying-old-timers-chromium": {
+      "count": 1,
+      "bytes": 506960
+    },
+    "runs/regression-final/tap-pacing-group-photo-cou-7898c--skipped-with-separate-taps-chromium": {
+      "count": 1,
+      "bytes": 505868
+    },
+    "runs/regression-all-01/tap-pacing-group-photo-cou-7898c--skipped-with-separate-taps-chromium": {
+      "count": 1,
+      "bytes": 505091
+    },
+    "runs/regression-final/venue-rooms-room-navigatio-a86b4--and-selected-side-at-390px-chromium": {
+      "count": 1,
+      "bytes": 493250
+    },
+    "runs/regression-all-01/venue-rooms-room-navigatio-a86b4--and-selected-side-at-390px-chromium": {
+      "count": 1,
+      "bytes": 493086
+    },
+    "runs/regression-all-01/lobby-return-groom-explore-7f5d0-ismissing-the-hall-reminder-chromium": {
+      "count": 1,
+      "bytes": 492203
+    },
+    "runs/regression-final/lobby-return-groom-explore-7f5d0-ismissing-the-hall-reminder-chromium": {
+      "count": 1,
+      "bytes": 492187
+    },
+    "runs/regression-final/lobby-required-only-unfini-03ac7-ock-the-ceremony-and-dinner-chromium": {
+      "count": 1,
+      "bytes": 491601
+    },
+    "runs/refinement-02/reception-only-single-rece-12ee6-movement-and-completes-once-chromium": {
+      "count": 1,
+      "bytes": 486437
+    },
+    "runs/regression-final/reception-only-single-rece-12ee6-movement-and-completes-once-chromium": {
+      "count": 1,
+      "bytes": 486338
+    },
+    "runs/regression-final/reception-only-single-rece-6f818-movement-and-completes-once-chromium": {
+      "count": 1,
+      "bytes": 486335
+    },
+    "runs/refinement-02/reception-only-single-rece-6f818-movement-and-completes-once-chromium": {
+      "count": 1,
+      "bytes": 486306
+    },
+    "runs/regression-all-01/dinner-pacing-banquet-trav-8409b-parture-stays-at-the-buffet-chromium": {
+      "count": 1,
+      "bytes": 483177
+    },
+    "runs/regression-final/dinner-pacing-banquet-trav-8409b-parture-stays-at-the-buffet-chromium": {
+      "count": 1,
+      "bytes": 482309
+    },
+    "runs/regression-all-01/lobby-required-only-unfini-03ac7-ock-the-ceremony-and-dinner-chromium": {
+      "count": 1,
+      "bytes": 473208
+    },
+    "runs/regression-all-01/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium": {
+      "count": 2,
+      "bytes": 456012
+    },
+    "runs/regression-final/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium": {
+      "count": 2,
+      "bytes": 456012
+    },
+    "runs/regression-final/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium": {
+      "count": 3,
+      "bytes": 425173
+    },
+    "runs/regression-all-01/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium": {
+      "count": 3,
+      "bytes": 412346
+    },
+    "runs/regression-all-01/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium": {
+      "count": 2,
+      "bytes": 376951
+    },
+    "runs/regression-final/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium": {
+      "count": 2,
+      "bytes": 376775
+    },
+    "runs/regression-all-01/review-batch-a-F03-inline--65ff3-les-in-setup-and-invitation-chromium": {
+      "count": 1,
+      "bytes": 350387
+    },
+    "runs/regression-final/review-batch-a-F03-inline--65ff3-les-in-setup-and-invitation-chromium": {
+      "count": 1,
+      "bytes": 341957
+    },
+    "runs/regression-all-01/story-choice-width-all-sto-e2bf4-ame-readable-width-at-393px-chromium": {
+      "count": 1,
+      "bytes": 331597
+    },
+    "runs/regression-final/story-choice-width-all-sto-e2bf4-ame-readable-width-at-393px-chromium": {
+      "count": 1,
+      "bytes": 331597
+    },
+    "runs/regression-all-01/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium": {
+      "count": 2,
+      "bytes": 294276
+    },
+    "runs/regression-final/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium": {
+      "count": 2,
+      "bytes": 292477
+    },
+    "runs/regression-final/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium": {
+      "count": 2,
+      "bytes": 256579
+    },
+    "runs/regression-all-01/minimi-customization-direc-b8329-d-all-five-outfits-at-393px-chromium": {
+      "count": 1,
+      "bytes": 247060
+    },
+    "runs/regression-final/minimi-customization-direc-b8329-d-all-five-outfits-at-393px-chromium": {
+      "count": 1,
+      "bytes": 247060
+    },
+    "runs/regression-all-01/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium": {
+      "count": 2,
+      "bytes": 239195
+    },
+    "runs/regression-final/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium": {
+      "count": 2,
+      "bytes": 229954
+    },
+    "runs/regression-all-01/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium": {
+      "count": 2,
+      "bytes": 229929
+    },
+    "runs/regression-all-01/story-choice-width-all-sto-9f739-ame-readable-width-at-320px-chromium": {
+      "count": 1,
+      "bytes": 222986
+    },
+    "runs/regression-final/story-choice-width-all-sto-9f739-ame-readable-width-at-320px-chromium": {
+      "count": 1,
+      "bytes": 222986
+    },
+    "runs/regression-all-01/invitation-sharing-share-c-ae8d8--image-in-the-original-HTML-chromium": {
+      "count": 1,
+      "bytes": 198803
+    },
+    "runs/regression-final/invitation-sharing-share-c-ae8d8--image-in-the-original-HTML-chromium": {
+      "count": 1,
+      "bytes": 198803
+    },
+    "runs/regression-all-01/wedding-group-100-guests-r-89a7e-ppears-immediately-at-393px-chromium": {
+      "count": 1,
+      "bytes": 196486
+    },
+    "runs/regression-final/wedding-group-100-guests-r-89a7e-ppears-immediately-at-393px-chromium": {
+      "count": 1,
+      "bytes": 196338
+    },
+    "runs/regression-all-01/invitation-minimi-group-pa-52609-without-covering-the-couple-chromium": {
+      "count": 1,
+      "bytes": 187125
+    },
+    "runs/regression-final/invitation-minimi-group-pa-52609-without-covering-the-couple-chromium": {
+      "count": 1,
+      "bytes": 187050
+    },
+    "runs/regression-all-01/wedding-group-hearts-cover-cd7b1-ntercepting-invitation-taps-chromium": {
+      "count": 1,
+      "bytes": 170011
+    },
+    "runs/regression-final/wedding-group-hearts-cover-cd7b1-ntercepting-invitation-taps-chromium": {
+      "count": 1,
+      "bytes": 169960
+    },
+    "runs/regression-all-01/minimi-customization-direc-57186-d-all-five-outfits-at-320px-chromium": {
+      "count": 1,
+      "bytes": 163763
+    },
+    "runs/regression-final/minimi-customization-direc-57186-d-all-five-outfits-at-320px-chromium": {
+      "count": 1,
+      "bytes": 163763
+    },
+    "runs/regression-all-01/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium": {
+      "count": 3,
+      "bytes": 146664
+    },
+    "runs/regression-final/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium": {
+      "count": 3,
+      "bytes": 146551
+    },
+    "runs/regression-final/wedding-group-100-guests-r-675c5-ppears-immediately-at-320px-chromium": {
+      "count": 1,
+      "bytes": 146517
+    },
+    "runs/regression-all-01/wedding-group-100-guests-r-675c5-ppears-immediately-at-320px-chromium": {
+      "count": 1,
+      "bytes": 146512
+    },
+    "runs/regression-final/invitation-profile-cards-stay-inside-the-game-at-320px-chromium": {
+      "count": 1,
+      "bytes": 140896
+    },
+    "runs/regression-all-01/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium": {
+      "count": 3,
+      "bytes": 137968
+    },
+    "runs/regression-final/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium": {
+      "count": 3,
+      "bytes": 137943
+    },
+    "runs/regression-all-01/invitation-profile-cards-stay-inside-the-game-at-320px-chromium": {
+      "count": 1,
+      "bytes": 128210
+    },
+    "runs/regression-all-01/invitation-game-guest-keep-be038-tion-without-another-picker-chromium": {
+      "count": 1,
+      "bytes": 34075
+    },
+    "runs/regression-final/invitation-game-guest-keep-be038-tion-without-another-picker-chromium": {
+      "count": 1,
+      "bytes": 33912
+    },
+    "runs/regression-all-01/invitation-game-guest-keep-cf9e3-tion-without-another-picker-chromium": {
+      "count": 1,
+      "bytes": 33829
+    },
+    "runs/regression-final/invitation-game-guest-keep-cf9e3-tion-without-another-picker-chromium": {
+      "count": 1,
+      "bytes": 33630
+    },
+    "runs/regression-all-01/minimi-jaw-finished-minimi-a874a-s-have-no-jaw-or-neck-seams-chromium": {
+      "count": 1,
+      "bytes": 32889
+    },
+    "runs/regression-final/minimi-jaw-finished-minimi-a874a-s-have-no-jaw-or-neck-seams-chromium": {
+      "count": 1,
+      "bytes": 32889
+    },
+    "video-inputs": {
+      "count": 7,
+      "bytes": 32040
+    },
+    "tools": {
+      "count": 4,
+      "bytes": 14810
+    },
+    "runs/regression-all-01/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium": {
+      "count": 2,
+      "bytes": 13704
+    },
+    "runs/regression-final/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium": {
+      "count": 2,
+      "bytes": 13704
+    },
+    "b-e01": {
+      "count": 2,
+      "bytes": 11828
+    }
+  },
+  "archiveEntries": [
+    {
+      "path": "after-batch-c/README.md",
+      "bytes": 19948,
+      "compressedBytes": 8401
+    },
+    {
+      "path": "after-batch-c/acceptance-checks.json",
+      "bytes": 6519,
+      "compressedBytes": 2136
+    },
+    {
+      "path": "after-batch-c/b-e01/audit.json",
+      "bytes": 1006,
+      "compressedBytes": 515
+    },
+    {
+      "path": "after-batch-c/b-e01/original-b-regression-results.json",
+      "bytes": 10822,
+      "compressedBytes": 1356
+    },
+    {
+      "path": "after-batch-c/before/attempt-1-timeout.md",
+      "bytes": 7310,
+      "compressedBytes": 2014
+    },
+    {
+      "path": "after-batch-c/before/b-booth-controls-overlap-393.png",
+      "bytes": 465000,
+      "compressedBytes": 464689
+    },
+    {
+      "path": "after-batch-c/before/b-booth-post-capture-320.png",
+      "bytes": 316217,
+      "compressedBytes": 316317
+    },
+    {
+      "path": "after-batch-c/before/b-booth-post-capture-393.png",
+      "bytes": 465010,
+      "compressedBytes": 464749
+    },
+    {
+      "path": "after-batch-c/before/b-booth-post-capture-430.png",
+      "bytes": 541443,
+      "compressedBytes": 541105
+    },
+    {
+      "path": "after-batch-c/before/b-bridal-post-capture-320.png",
+      "bytes": 286929,
+      "compressedBytes": 286965
+    },
+    {
+      "path": "after-batch-c/before/b-bridal-post-capture-393.png",
+      "bytes": 419147,
+      "compressedBytes": 418846
+    },
+    {
+      "path": "after-batch-c/before/b-bridal-post-capture-430.png",
+      "bytes": 518357,
+      "compressedBytes": 517608
+    },
+    {
+      "path": "after-batch-c/before/b-ceremony-choice-393.png",
+      "bytes": 478499,
+      "compressedBytes": 478261
+    },
+    {
+      "path": "after-batch-c/before/b-group-bride-393.png",
+      "bytes": 497090,
+      "compressedBytes": 496811
+    },
+    {
+      "path": "after-batch-c/before/b-reception-persistent-393.png",
+      "bytes": 489273,
+      "compressedBytes": 489014
+    },
+    {
+      "path": "after-batch-c/before/capture-results.json",
+      "bytes": 3128,
+      "compressedBytes": 1090
+    },
+    {
+      "path": "after-batch-c/before/capture.json",
+      "bytes": 279,
+      "compressedBytes": 180
+    },
+    {
+      "path": "after-batch-c/before/source-metadata.json",
+      "bytes": 5632,
+      "compressedBytes": 1536
+    },
+    {
+      "path": "after-batch-c/ceremony-01-reconciliation.json",
+      "bytes": 10187,
+      "compressedBytes": 1730
+    },
+    {
+      "path": "after-batch-c/ceremony-01-reporter.json",
+      "bytes": 24069,
+      "compressedBytes": 2542
+    },
+    {
+      "path": "after-batch-c/ceremony-02-reconciliation.json",
+      "bytes": 10259,
+      "compressedBytes": 1683
+    },
+    {
+      "path": "after-batch-c/ceremony-02-reporter.json",
+      "bytes": 24212,
+      "compressedBytes": 2490
+    },
+    {
+      "path": "after-batch-c/ceremony-03-reconciliation.json",
+      "bytes": 3233,
+      "compressedBytes": 721
+    },
+    {
+      "path": "after-batch-c/ceremony-03-reporter.json",
+      "bytes": 6635,
+      "compressedBytes": 1359
+    },
+    {
+      "path": "after-batch-c/ceremony-applause-events.json",
+      "bytes": 3445,
+      "compressedBytes": 1246
+    },
+    {
+      "path": "after-batch-c/ceremony-cheer-events.json",
+      "bytes": 3374,
+      "compressedBytes": 1226
+    },
+    {
+      "path": "after-batch-c/ceremony-compact-events.json",
+      "bytes": 3403,
+      "compressedBytes": 1230
+    },
+    {
+      "path": "after-batch-c/ceremony-reduced-events.json",
+      "bytes": 3402,
+      "compressedBytes": 1232
+    },
+    {
+      "path": "after-batch-c/f11-applause-response-393.png",
+      "bytes": 534335,
+      "compressedBytes": 534114
+    },
+    {
+      "path": "after-batch-c/f11-applause.webm",
+      "bytes": 4967380,
+      "compressedBytes": 4951395
+    },
+    {
+      "path": "after-batch-c/f11-cheer-response-393.png",
+      "bytes": 531196,
+      "compressedBytes": 530980
+    },
+    {
+      "path": "after-batch-c/f11-cheer.webm",
+      "bytes": 5420198,
+      "compressedBytes": 5405304
+    },
+    {
+      "path": "after-batch-c/f11-compact-response-320.png",
+      "bytes": 363753,
+      "compressedBytes": 363868
+    },
+    {
+      "path": "after-batch-c/f11-keyboard-bride-desktop.png",
+      "bytes": 1165601,
+      "compressedBytes": 1165513
+    },
+    {
+      "path": "after-batch-c/f11-keyboard-groom-desktop.png",
+      "bytes": 1170252,
+      "compressedBytes": 1170193
+    },
+    {
+      "path": "after-batch-c/f12-booth-controls-no-overlap-393.png",
+      "bytes": 474630,
+      "compressedBytes": 474316
+    },
+    {
+      "path": "after-batch-c/f12-booth-result-393.png",
+      "bytes": 300879,
+      "compressedBytes": 300170
+    },
+    {
+      "path": "after-batch-c/f12-booth.webm",
+      "bytes": 9212460,
+      "compressedBytes": 9195595
+    },
+    {
+      "path": "after-batch-c/f12-bridal-result-393.png",
+      "bytes": 282528,
+      "compressedBytes": 281942
+    },
+    {
+      "path": "after-batch-c/f12-bridal.webm",
+      "bytes": 7618128,
+      "compressedBytes": 7601998
+    },
+    {
+      "path": "after-batch-c/f12-notebook-keepsakes-393.png",
+      "bytes": 359208,
+      "compressedBytes": 358871
+    },
+    {
+      "path": "after-batch-c/f13-booth-result-320.png",
+      "bytes": 211811,
+      "compressedBytes": 211793
+    },
+    {
+      "path": "after-batch-c/f13-bridal-result-320.png",
+      "bytes": 196994,
+      "compressedBytes": 196908
+    },
+    {
+      "path": "after-batch-c/f13-bridal-result-430.png",
+      "bytes": 318988,
+      "compressedBytes": 318278
+    },
+    {
+      "path": "after-batch-c/f13-photo-result-430.png",
+      "bytes": 343268,
+      "compressedBytes": 342544
+    },
+    {
+      "path": "after-batch-c/f14-group-bride-393.png",
+      "bytes": 466495,
+      "compressedBytes": 466157
+    },
+    {
+      "path": "after-batch-c/f14-group-groom-393.png",
+      "bytes": 466722,
+      "compressedBytes": 466377
+    },
+    {
+      "path": "after-batch-c/f14-group-reduced-320.png",
+      "bytes": 1437294,
+      "compressedBytes": 1433736
+    },
+    {
+      "path": "after-batch-c/f15-lobby-revisit-no-banner-393.png",
+      "bytes": 516358,
+      "compressedBytes": 516006
+    },
+    {
+      "path": "after-batch-c/f15-reception-acknowledged-393.png",
+      "bytes": 492152,
+      "compressedBytes": 491851
+    },
+    {
+      "path": "after-batch-c/f15-reception.webm",
+      "bytes": 10893132,
+      "compressedBytes": 10872836
+    },
+    {
+      "path": "after-batch-c/final-verification.json",
+      "bytes": 85803,
+      "compressedBytes": 8385
+    },
+    {
+      "path": "after-batch-c/keyboard-photo-result-desktop.png",
+      "bytes": 830010,
+      "compressedBytes": 829103
+    },
+    {
+      "path": "after-batch-c/legacy-asset-check.json",
+      "bytes": 486,
+      "compressedBytes": 222
+    },
+    {
+      "path": "after-batch-c/logs/assets-01.log",
+      "bytes": 9518,
+      "compressedBytes": 2158
+    },
+    {
+      "path": "after-batch-c/logs/assets-02.log",
+      "bytes": 3253,
+      "compressedBytes": 814
+    },
+    {
+      "path": "after-batch-c/logs/build-01.log",
+      "bytes": 843,
+      "compressedBytes": 492
+    },
+    {
+      "path": "after-batch-c/logs/build-final.log",
+      "bytes": 843,
+      "compressedBytes": 490
+    },
+    {
+      "path": "after-batch-c/logs/ceremony-01.json",
+      "bytes": 24068,
+      "compressedBytes": 2541
+    },
+    {
+      "path": "after-batch-c/logs/ceremony-01.log",
+      "bytes": 7349,
+      "compressedBytes": 1366
+    },
+    {
+      "path": "after-batch-c/logs/ceremony-02.json",
+      "bytes": 24211,
+      "compressedBytes": 2489
+    },
+    {
+      "path": "after-batch-c/logs/ceremony-02.log",
+      "bytes": 7423,
+      "compressedBytes": 1324
+    },
+    {
+      "path": "after-batch-c/logs/ceremony-03.json",
+      "bytes": 6634,
+      "compressedBytes": 1358
+    },
+    {
+      "path": "after-batch-c/logs/exploratory-photos.md",
+      "bytes": 1278,
+      "compressedBytes": 709
+    },
+    {
+      "path": "after-batch-c/logs/finalize.log",
+      "bytes": 2189,
+      "compressedBytes": 532
+    },
+    {
+      "path": "after-batch-c/logs/production-final.json",
+      "bytes": 34471,
+      "compressedBytes": 4657
+    },
+    {
+      "path": "after-batch-c/logs/production-final.log",
+      "bytes": 3021,
+      "compressedBytes": 906
+    },
+    {
+      "path": "after-batch-c/logs/reception-01.json",
+      "bytes": 5443,
+      "compressedBytes": 2068
+    },
+    {
+      "path": "after-batch-c/logs/refinement-02.json",
+      "bytes": 663455,
+      "compressedBytes": 483828
+    },
+    {
+      "path": "after-batch-c/logs/regression-all-01.json",
+      "bytes": 17286858,
+      "compressedBytes": 12868272
+    },
+    {
+      "path": "after-batch-c/logs/regression-final.json",
+      "bytes": 17300989,
+      "compressedBytes": 12885290
+    },
+    {
+      "path": "after-batch-c/logs/regression-final.log",
+      "bytes": 14130,
+      "compressedBytes": 3824
+    },
+    {
+      "path": "after-batch-c/logs/video-export-02.log",
+      "bytes": 441,
+      "compressedBytes": 160
+    },
+    {
+      "path": "after-batch-c/logs/video-export.log",
+      "bytes": 1636,
+      "compressedBytes": 650
+    },
+    {
+      "path": "after-batch-c/logs/video-final.log",
+      "bytes": 1310,
+      "compressedBytes": 394
+    },
+    {
+      "path": "after-batch-c/performance-summary.json",
+      "bytes": 367,
+      "compressedBytes": 154
+    },
+    {
+      "path": "after-batch-c/photo-events.json",
+      "bytes": 16779,
+      "compressedBytes": 1380
+    },
+    {
+      "path": "after-batch-c/production-final-reconciliation.json",
+      "bytes": 10564,
+      "compressedBytes": 1646
+    },
+    {
+      "path": "after-batch-c/production-final-reporter.json",
+      "bytes": 34472,
+      "compressedBytes": 4658
+    },
+    {
+      "path": "after-batch-c/protection-checks.json",
+      "bytes": 946,
+      "compressedBytes": 343
+    },
+    {
+      "path": "after-batch-c/reception-01-reconciliation.json",
+      "bytes": 1734,
+      "compressedBytes": 683
+    },
+    {
+      "path": "after-batch-c/reception-01-reporter.json",
+      "bytes": 5444,
+      "compressedBytes": 2070
+    },
+    {
+      "path": "after-batch-c/reception-events.json",
+      "bytes": 1693,
+      "compressedBytes": 699
+    },
+    {
+      "path": "after-batch-c/reception-pause-events.json",
+      "bytes": 1318,
+      "compressedBytes": 502
+    },
+    {
+      "path": "after-batch-c/reduced-motion-response-393.png",
+      "bytes": 1927562,
+      "compressedBytes": 1915281
+    },
+    {
+      "path": "after-batch-c/refinement-02-reconciliation.json",
+      "bytes": 8900,
+      "compressedBytes": 1462
+    },
+    {
+      "path": "after-batch-c/refinement-02-reporter.json",
+      "bytes": 31254,
+      "compressedBytes": 5053
+    },
+    {
+      "path": "after-batch-c/regression-all-01-reconciliation.json",
+      "bytes": 75217,
+      "compressedBytes": 9220
+    },
+    {
+      "path": "after-batch-c/regression-all-01-reporter.json",
+      "bytes": 213618,
+      "compressedBytes": 17838
+    },
+    {
+      "path": "after-batch-c/regression-final-reconciliation.json",
+      "bytes": 64276,
+      "compressedBytes": 7562
+    },
+    {
+      "path": "after-batch-c/regression-final-reporter.json",
+      "bytes": 203957,
+      "compressedBytes": 17774
+    },
+    {
+      "path": "after-batch-c/regressions/f02-invalid-wall-tap-393.png",
+      "bytes": 516404,
+      "compressedBytes": 516043
+    },
+    {
+      "path": "after-batch-c/regressions/f02-valid-edge-route-393.png",
+      "bytes": 515910,
+      "compressedBytes": 515572
+    },
+    {
+      "path": "after-batch-c/regressions/f07-car-guidance-393.png",
+      "bytes": 400145,
+      "compressedBytes": 399762
+    },
+    {
+      "path": "after-batch-c/regressions/f07-car-wrong-retry-393.png",
+      "bytes": 392042,
+      "compressedBytes": 391782
+    },
+    {
+      "path": "after-batch-c/regressions/f07-subway-guidance-393.png",
+      "bytes": 317646,
+      "compressedBytes": 316991
+    },
+    {
+      "path": "after-batch-c/regressions/f07-subway-wrong-retry-393.png",
+      "bytes": 318416,
+      "compressedBytes": 317814
+    },
+    {
+      "path": "after-batch-c/regressions/f08-ending-skip-message-393.png",
+      "bytes": 206408,
+      "compressedBytes": 205862
+    },
+    {
+      "path": "after-batch-c/regressions/f08-invitation-access-lobby-393.png",
+      "bytes": 516318,
+      "compressedBytes": 515996
+    },
+    {
+      "path": "after-batch-c/regressions/f09-later-load-retry-393.png",
+      "bytes": 10093,
+      "compressedBytes": 7431
+    },
+    {
+      "path": "after-batch-c/regressions/f09-opening-loading-state-393.png",
+      "bytes": 7192,
+      "compressedBytes": 4503
+    },
+    {
+      "path": "after-batch-c/regressions/f10-intro-keyboard-focus-desktop.png",
+      "bytes": 1143341,
+      "compressedBytes": 1143231
+    },
+    {
+      "path": "after-batch-c/regressions/f10-lobby-keyboard-destinations-desktop.png",
+      "bytes": 922514,
+      "compressedBytes": 921137
+    },
+    {
+      "path": "after-batch-c/regressions/load-recovery.json",
+      "bytes": 379,
+      "compressedBytes": 252
+    },
+    {
+      "path": "after-batch-c/regressions/performance-car.json",
+      "bytes": 7342,
+      "compressedBytes": 1009
+    },
+    {
+      "path": "after-batch-c/regressions/performance-subway.json",
+      "bytes": 7331,
+      "compressedBytes": 1013
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-01/.last-run.json",
+      "bytes": 194,
+      "compressedBytes": 120
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15260,
+      "compressedBytes": 5203
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@d8012043ca2f8b0a867f03532f2a31dc.webm",
+      "bytes": 2097152,
+      "compressedBytes": 2088173
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15142,
+      "compressedBytes": 5187
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@13319a38c81dcdce33a0c48e1993d8dc.webm",
+      "bytes": 4077173,
+      "compressedBytes": 4061610
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15258,
+      "compressedBytes": 5206
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@344cc163bba3f107a6caea73f014c378.webm",
+      "bytes": 2863215,
+      "compressedBytes": 2847428
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-02/.last-run.json",
+      "bytes": 194,
+      "compressedBytes": 120
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15260,
+      "compressedBytes": 5205
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@d04b655bd6167b451c21e9f718dcf056.webm",
+      "bytes": 2097152,
+      "compressedBytes": 2088095
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15261,
+      "compressedBytes": 5212
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@feaa78437c33e5daf5205d4eacc77fb8.webm",
+      "bytes": 4052700,
+      "compressedBytes": 4037291
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15258,
+      "compressedBytes": 5206
+    },
+    {
+      "path": "after-batch-c/runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@2168d48127d5e9b2cf8a2400cb7ac7b1.webm",
+      "bytes": 3066445,
+      "compressedBytes": 3050397
+    },
+    {
+      "path": "after-batch-c/runs/photos-01/.last-run.json",
+      "bytes": 96,
+      "compressedBytes": 86
+    },
+    {
+      "path": "after-batch-c/runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/error-context.md",
+      "bytes": 10172,
+      "compressedBytes": 3119
+    },
+    {
+      "path": "after-batch-c/runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 2644502,
+      "compressedBytes": 2633453
+    },
+    {
+      "path": "after-batch-c/runs/photos-02/.last-run.json",
+      "bytes": 45,
+      "compressedBytes": 42
+    },
+    {
+      "path": "after-batch-c/runs/photos-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 5332114,
+      "compressedBytes": 5315384
+    },
+    {
+      "path": "after-batch-c/runs/production-final/.last-run.json",
+      "bytes": 45,
+      "compressedBytes": 42
+    },
+    {
+      "path": "after-batch-c/runs/production-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium-production/video/page@e2a3774ba028db7ab5c3e506bd446624.webm",
+      "bytes": 3617933,
+      "compressedBytes": 3592926
+    },
+    {
+      "path": "after-batch-c/runs/production-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium-production/video/page@991b393e8f92797facf02ca902c4efa3.webm",
+      "bytes": 5069063,
+      "compressedBytes": 5052650
+    },
+    {
+      "path": "after-batch-c/runs/production-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium-production/video/page@9ff15cb6915638b3e33363d5119047fb.webm",
+      "bytes": 3648875,
+      "compressedBytes": 3609221
+    },
+    {
+      "path": "after-batch-c/runs/production-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium-production/video/page@7659c9232747feb45f29610b7c61316e.webm",
+      "bytes": 3904454,
+      "compressedBytes": 3885730
+    },
+    {
+      "path": "after-batch-c/runs/production-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium-production/video.webm",
+      "bytes": 5220234,
+      "compressedBytes": 5202943
+    },
+    {
+      "path": "after-batch-c/runs/refinement-02/.last-run.json",
+      "bytes": 45,
+      "compressedBytes": 42
+    },
+    {
+      "path": "after-batch-c/runs/refinement-02/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/groom-reception.png",
+      "bytes": 486437,
+      "compressedBytes": 486154
+    },
+    {
+      "path": "after-batch-c/runs/refinement-02/reception-only-single-rece-6f818-movement-and-completes-once-chromium/bride-reception.png",
+      "bytes": 486306,
+      "compressedBytes": 486023
+    },
+    {
+      "path": "after-batch-c/runs/refinement-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@f170e480bc3d1ebeacb6e52af1759af5.webm",
+      "bytes": 5228328,
+      "compressedBytes": 5173380
+    },
+    {
+      "path": "after-batch-c/runs/refinement-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@7624ddfd2d7e9dc41cb8af42bf87eb40.webm",
+      "bytes": 6808324,
+      "compressedBytes": 6777514
+    },
+    {
+      "path": "after-batch-c/runs/refinement-02/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium/video/page@bd266f5d6a376f598815bbe87e7859a9.webm",
+      "bytes": 5493605,
+      "compressedBytes": 5426947
+    },
+    {
+      "path": "after-batch-c/runs/refinement-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@feac90e2fe35c66f7e50fc81109106c7.webm",
+      "bytes": 6092688,
+      "compressedBytes": 6056894
+    },
+    {
+      "path": "after-batch-c/runs/refinement-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 6196228,
+      "compressedBytes": 6173766
+    },
+    {
+      "path": "after-batch-c/runs/refinement-02/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+      "bytes": 2540527,
+      "compressedBytes": 2525292
+    },
+    {
+      "path": "after-batch-c/runs/refinement-02/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+      "bytes": 2964607,
+      "compressedBytes": 2944817
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/.last-run.json",
+      "bytes": 341,
+      "compressedBytes": 186
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/bridal-seated.png",
+      "bytes": 419007,
+      "compressedBytes": 418743
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/car.png",
+      "bytes": 408930,
+      "compressedBytes": 408650
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/group-photo.png",
+      "bytes": 496894,
+      "compressedBytes": 496605
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/lobby.png",
+      "bytes": 516277,
+      "compressedBytes": 515922
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/parents.png",
+      "bytes": 401374,
+      "compressedBytes": 400976
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/v-pose.png",
+      "bytes": 474636,
+      "compressedBytes": 474333
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/car.png",
+      "bytes": 329808,
+      "compressedBytes": 329534
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/group-photo.png",
+      "bytes": 497480,
+      "compressedBytes": 497191
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/lobby.png",
+      "bytes": 516339,
+      "compressedBytes": 515987
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/parents.png",
+      "bytes": 394746,
+      "compressedBytes": 394428
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/v-pose.png",
+      "bytes": 474625,
+      "compressedBytes": 474287
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/dinner-pacing-banquet-trav-8409b-parture-stays-at-the-buffet-chromium/departure-at-buffet.png",
+      "bytes": 483177,
+      "compressedBytes": 482853
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/family-chrysanthemum.png",
+      "bytes": 39725,
+      "compressedBytes": 37380
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/original-photo-countdown.png",
+      "bytes": 199470,
+      "compressedBytes": 198988
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/family-chrysanthemum.png",
+      "bytes": 54414,
+      "compressedBytes": 51780
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/original-photo-countdown.png",
+      "bytes": 239862,
+      "compressedBytes": 239255
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-game-guest-keep-be038-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 34075,
+      "compressedBytes": 32052
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-game-guest-keep-cf9e3-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 33829,
+      "compressedBytes": 31838
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-minimi-group-pa-52609-without-covering-the-couple-chromium/minimi-full-group.png",
+      "bytes": 187125,
+      "compressedBytes": 185437
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-bridal-room.jpeg.png",
+      "bytes": 139020,
+      "compressedBytes": 136753
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-atm.jpg.png",
+      "bytes": 164273,
+      "compressedBytes": 162371
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-banquet.jpg.png",
+      "bytes": 175744,
+      "compressedBytes": 173691
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-photo-booth.jpg.png",
+      "bytes": 174240,
+      "compressedBytes": 172319
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-welcome.jpg.png",
+      "bytes": 169189,
+      "compressedBytes": 167324
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-bridal-room.jpeg.png",
+      "bytes": 109305,
+      "compressedBytes": 107559
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-atm.jpg.png",
+      "bytes": 118477,
+      "compressedBytes": 116649
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-banquet.jpg.png",
+      "bytes": 136043,
+      "compressedBytes": 134132
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-photo-booth.jpg.png",
+      "bytes": 122497,
+      "compressedBytes": 120739
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-welcome.jpg.png",
+      "bytes": 117664,
+      "compressedBytes": 115870
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-profile-cards-stay-inside-the-game-at-1440px-chromium/profile.png",
+      "bytes": 627350,
+      "compressedBytes": 626307
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-profile-cards-stay-inside-the-game-at-320px-chromium/profile.png",
+      "bytes": 128210,
+      "compressedBytes": 128250
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/message-postcard.png",
+      "bytes": 35412,
+      "compressedBytes": 33464
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/thirty-friends.png",
+      "bytes": 194517,
+      "compressedBytes": 192771
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/character-selection.png",
+      "bytes": 148694,
+      "compressedBytes": 148054
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/gallery-carousel.png",
+      "bytes": 117534,
+      "compressedBytes": 115945
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/invitation-cover.png",
+      "bytes": 146118,
+      "compressedBytes": 145109
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/character-selection.png",
+      "bytes": 213869,
+      "compressedBytes": 213534
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/gallery-carousel.png",
+      "bytes": 161061,
+      "compressedBytes": 159712
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/invitation-cover.png",
+      "bytes": 169424,
+      "compressedBytes": 168190
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/female-independent-faces.png",
+      "bytes": 6852,
+      "compressedBytes": 748
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/male-independent-faces.png",
+      "bytes": 6852,
+      "compressedBytes": 748
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/blue-pink-accounts.png",
+      "bytes": 34910,
+      "compressedBytes": 32733
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/parking-shuttle.png",
+      "bytes": 45356,
+      "compressedBytes": 43364
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/venue-map.png",
+      "bytes": 57702,
+      "compressedBytes": 56146
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/blue-pink-accounts.png",
+      "bytes": 34445,
+      "compressedBytes": 32204
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/parking-shuttle.png",
+      "bytes": 46713,
+      "compressedBytes": 44129
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/venue-map.png",
+      "bytes": 65506,
+      "compressedBytes": 63752
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-sharing-share-c-ae8d8--image-in-the-original-HTML-chromium/share-card-formats.png",
+      "bytes": 198803,
+      "compressedBytes": 193757
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-main.png",
+      "bytes": 170009,
+      "compressedBytes": 169001
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-minimi.png",
+      "bytes": 206942,
+      "compressedBytes": 205403
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/garden.png",
+      "bytes": 1547796,
+      "compressedBytes": 1535581
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/lobby.png",
+      "bytes": 1875466,
+      "compressedBytes": 1863183
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/lobby-required-only-unfini-03ac7-ock-the-ceremony-and-dinner-chromium/buffet-mobile.png",
+      "bytes": 473208,
+      "compressedBytes": 472910
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/lobby-return-bride-explore-711ad-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 516311,
+      "compressedBytes": 515945
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/lobby-return-groom-explore-7f5d0-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 492203,
+      "compressedBytes": 491897
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-customization-direc-57186-d-all-five-outfits-at-320px-chromium/original-panel-independent-parts.png",
+      "bytes": 163763,
+      "compressedBytes": 163137
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-customization-direc-b8329-d-all-five-outfits-at-393px-chromium/original-panel-independent-parts.png",
+      "bytes": 247060,
+      "compressedBytes": 246666
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-jaw-finished-minimi-a874a-s-have-no-jaw-or-neck-seams-chromium/chin-closeup.png",
+      "bytes": 32889,
+      "compressedBytes": 29468
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/female-neck.png",
+      "bytes": 249784,
+      "compressedBytes": 234849
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/male-neck.png",
+      "bytes": 206228,
+      "compressedBytes": 193574
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-all-poses.png",
+      "bytes": 499677,
+      "compressedBytes": 481729
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-blink.png",
+      "bytes": 260286,
+      "compressedBytes": 251548
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-source.png",
+      "bytes": 315875,
+      "compressedBytes": 315902
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-all-poses.png",
+      "bytes": 477575,
+      "compressedBytes": 457778
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-blink.png",
+      "bytes": 239284,
+      "compressedBytes": 229548
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-source.png",
+      "bytes": 334642,
+      "compressedBytes": 334528
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-0-profile.png",
+      "bytes": 234293,
+      "compressedBytes": 233951
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-1-profile.png",
+      "bytes": 242903,
+      "compressedBytes": 242499
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-2-profile.png",
+      "bytes": 241729,
+      "compressedBytes": 241323
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-3-profile.png",
+      "bytes": 244136,
+      "compressedBytes": 243751
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-4-profile.png",
+      "bytes": 244339,
+      "compressedBytes": 243936
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-0-profile.png",
+      "bytes": 242473,
+      "compressedBytes": 242067
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-1-profile.png",
+      "bytes": 243134,
+      "compressedBytes": 242732
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-2-profile.png",
+      "bytes": 241905,
+      "compressedBytes": 241501
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-3-profile.png",
+      "bytes": 244334,
+      "compressedBytes": 243924
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-4-profile.png",
+      "bytes": 244567,
+      "compressedBytes": 244172
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-0-profile.png",
+      "bytes": 242863,
+      "compressedBytes": 242462
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-1-profile.png",
+      "bytes": 243562,
+      "compressedBytes": 243194
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-2-profile.png",
+      "bytes": 242367,
+      "compressedBytes": 241961
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-3-profile.png",
+      "bytes": 244756,
+      "compressedBytes": 244388
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-4-profile.png",
+      "bytes": 244919,
+      "compressedBytes": 244534
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-0-profile.png",
+      "bytes": 243911,
+      "compressedBytes": 243511
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-1-profile.png",
+      "bytes": 244416,
+      "compressedBytes": 243988
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-2-profile.png",
+      "bytes": 244172,
+      "compressedBytes": 243766
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-3-profile.png",
+      "bytes": 246250,
+      "compressedBytes": 245851
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-4-profile.png",
+      "bytes": 246332,
+      "compressedBytes": 245952
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-0-profile.png",
+      "bytes": 244159,
+      "compressedBytes": 243766
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-1-profile.png",
+      "bytes": 244627,
+      "compressedBytes": 244228
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-2-profile.png",
+      "bytes": 244413,
+      "compressedBytes": 244005
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-3-profile.png",
+      "bytes": 246372,
+      "compressedBytes": 245994
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-4-profile.png",
+      "bytes": 246472,
+      "compressedBytes": 246098
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-0-profile.png",
+      "bytes": 243964,
+      "compressedBytes": 243586
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-1-profile.png",
+      "bytes": 244452,
+      "compressedBytes": 244051
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-2-profile.png",
+      "bytes": 244248,
+      "compressedBytes": 243855
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-3-profile.png",
+      "bytes": 246275,
+      "compressedBytes": 245891
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-4-profile.png",
+      "bytes": 246340,
+      "compressedBytes": 245950
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/lobby-registered-photos.png",
+      "bytes": 601060,
+      "compressedBytes": 600791
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/photo-gallery-restored.png",
+      "bytes": 277085,
+      "compressedBytes": 276525
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/lobby-registered-photos.png",
+      "bytes": 510580,
+      "compressedBytes": 510326
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/photo-gallery-restored.png",
+      "bytes": 237090,
+      "compressedBytes": 236656
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/lobby-registered-photos.png",
+      "bytes": 1329361,
+      "compressedBytes": 1329167
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/photo-gallery-restored.png",
+      "bytes": 787153,
+      "compressedBytes": 785703
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/lobby-registered-photos.png",
+      "bytes": 1453468,
+      "compressedBytes": 1453913
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/photo-gallery-restored.png",
+      "bytes": 646626,
+      "compressedBytes": 645337
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/error-context.md",
+      "bytes": 6632,
+      "compressedBytes": 2587
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/trace.zip",
+      "bytes": 42056967,
+      "compressedBytes": 41315531
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/reception-only-single-rece-6f818-movement-and-completes-once-chromium/error-context.md",
+      "bytes": 6685,
+      "compressedBytes": 2620
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/reception-only-single-rece-6f818-movement-and-completes-once-chromium/trace.zip",
+      "bytes": 53098694,
+      "compressedBytes": 52119858
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-first-lobby-arrival-393.png",
+      "bytes": 458063,
+      "compressedBytes": 457801
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-hall-requirements-393.png",
+      "bytes": 421172,
+      "compressedBytes": 420937
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-notebook-progress-393.png",
+      "bytes": 350779,
+      "compressedBytes": 350350
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F03-inline--65ff3-les-in-setup-and-invitation-chromium/f03-avatar-validation-393.png",
+      "bytes": 350387,
+      "compressedBytes": 350047
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-320.png",
+      "bytes": 268713,
+      "compressedBytes": 268798
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-393.png",
+      "bytes": 400133,
+      "compressedBytes": 399770
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-430.png",
+      "bytes": 462698,
+      "compressedBytes": 462434
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-320.png",
+      "bytes": 325897,
+      "compressedBytes": 325992
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-393.png",
+      "bytes": 483862,
+      "compressedBytes": 483635
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-430.png",
+      "bytes": 564537,
+      "compressedBytes": 564178
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-atm.png",
+      "bytes": 549804,
+      "compressedBytes": 549468
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-bridal-restricted.png",
+      "bytes": 548906,
+      "compressedBytes": 548489
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-drinks.png",
+      "bytes": 555976,
+      "compressedBytes": 555648
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-320.png",
+      "bytes": 142867,
+      "compressedBytes": 142912
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-393.png",
+      "bytes": 244956,
+      "compressedBytes": 244593
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-430.png",
+      "bytes": 295823,
+      "compressedBytes": 295413
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-landscape-852x393.png",
+      "bytes": 7114,
+      "compressedBytes": 5532
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-1440x900.png",
+      "bytes": 1160836,
+      "compressedBytes": 1160691
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-320x568.png",
+      "bytes": 342904,
+      "compressedBytes": 343009
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-393x852.png",
+      "bytes": 516358,
+      "compressedBytes": 515994
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-430x932.png",
+      "bytes": 601109,
+      "compressedBytes": 600840
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-first-lobby-arrival-393x852.png",
+      "bytes": 458085,
+      "compressedBytes": 457843
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-hall-requirements-393x852.png",
+      "bytes": 419621,
+      "compressedBytes": 419359
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-393x852.png",
+      "bytes": 374151,
+      "compressedBytes": 373890
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-completed-393x852.png",
+      "bytes": 348984,
+      "compressedBytes": 348639
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-atm-430x932.png",
+      "bytes": 548819,
+      "compressedBytes": 548469
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-bridal-restriction-430x932.png",
+      "bytes": 547885,
+      "compressedBytes": 547509
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-welcome-drink-430x932.png",
+      "bytes": 554987,
+      "compressedBytes": 554677
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 6482,
+      "compressedBytes": 2582
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 126975824,
+      "compressedBytes": 126878355
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@ecc59c89abd190064543dbf4788fbc42.webm",
+      "bytes": 3387651,
+      "compressedBytes": 3355743
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 6483,
+      "compressedBytes": 2586
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 164795787,
+      "compressedBytes": 164318900
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@159551f6393fb42cf52ea01497959a21.webm",
+      "bytes": 4545167,
+      "compressedBytes": 4524704
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 6480,
+      "compressedBytes": 2583
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 145265850,
+      "compressedBytes": 144806438
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@62b7299c4d0aaaffa7ca27e6a34836e4.webm",
+      "bytes": 3435411,
+      "compressedBytes": 3418137
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/error-context.md",
+      "bytes": 11850,
+      "compressedBytes": 3593
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/trace.zip",
+      "bytes": 151149775,
+      "compressedBytes": 150590014
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 3692093,
+      "compressedBytes": 3672553
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+      "bytes": 2253141,
+      "compressedBytes": 2238708
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+      "bytes": 2817176,
+      "compressedBytes": 2804684
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-choice-width-all-sto-9f739-ame-readable-width-at-320px-chromium/equal-choice-width.png",
+      "bytes": 222986,
+      "compressedBytes": 222239
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-choice-width-all-sto-e2bf4-ame-readable-width-at-393px-chromium/equal-choice-width.png",
+      "bytes": 331597,
+      "compressedBytes": 331067
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/choices.png",
+      "bytes": 1458349,
+      "compressedBytes": 1445496
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/home-sky.png",
+      "bytes": 1738694,
+      "compressedBytes": 1726838
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/intro.png",
+      "bytes": 1866242,
+      "compressedBytes": 1853931
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/pixel-parking.png",
+      "bytes": 71731,
+      "compressedBytes": 59275
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/choices.png",
+      "bytes": 1440848,
+      "compressedBytes": 1427917
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/home-sky.png",
+      "bytes": 1738747,
+      "compressedBytes": 1726880
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/intro.png",
+      "bytes": 1866239,
+      "compressedBytes": 1853856
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/numbered-exits.png",
+      "bytes": 1023805,
+      "compressedBytes": 1011037
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/story-routes-station-choic-5c7c3-ed-circles-visible-at-320px-chromium/numbered-exits-small.png",
+      "bytes": 823982,
+      "compressedBytes": 818822
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/tap-pacing-group-photo-cou-7898c--skipped-with-separate-taps-chromium/white-bride-group-photo.png",
+      "bytes": 505091,
+      "compressedBytes": 504799
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/tap-pacing-taps-finish-foo-14d3c-eal-or-replaying-old-timers-chromium/food-reveal-complete.png",
+      "bytes": 506960,
+      "compressedBytes": 506668
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/venue-rooms-room-navigatio-6bf3d--and-selected-side-at-720px-chromium/hall.png",
+      "bytes": 1403355,
+      "compressedBytes": 1403736
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/venue-rooms-room-navigatio-7f39e-and-selected-side-at-1440px-chromium/hall.png",
+      "bytes": 1284719,
+      "compressedBytes": 1284477
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/venue-rooms-room-navigatio-835f5--and-selected-side-at-430px-chromium/hall.png",
+      "bytes": 578913,
+      "compressedBytes": 578699
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/venue-rooms-room-navigatio-a86b4--and-selected-side-at-390px-chromium/hall.png",
+      "bytes": 493086,
+      "compressedBytes": 492822
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/wedding-group-100-guests-r-675c5-ppears-immediately-at-320px-chromium/100-friends.png",
+      "bytes": 146512,
+      "compressedBytes": 144821
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/wedding-group-100-guests-r-89a7e-ppears-immediately-at-393px-chromium/100-friends.png",
+      "bytes": 196486,
+      "compressedBytes": 194709
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-group-photo.png",
+      "bytes": 469849,
+      "compressedBytes": 469508
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-invitation.png",
+      "bytes": 169970,
+      "compressedBytes": 168965
+    },
+    {
+      "path": "after-batch-c/runs/regression-all-01/wedding-group-hearts-cover-cd7b1-ntercepting-invitation-taps-chromium/even-hearts-over-photo.png",
+      "bytes": 170011,
+      "compressedBytes": 168946
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/.last-run.json",
+      "bytes": 45,
+      "compressedBytes": 42
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/bridal-seated.png",
+      "bytes": 419013,
+      "compressedBytes": 418742
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/car.png",
+      "bytes": 409139,
+      "compressedBytes": 408846
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/group-photo.png",
+      "bytes": 498244,
+      "compressedBytes": 497925
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/lobby.png",
+      "bytes": 516292,
+      "compressedBytes": 515954
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/parents.png",
+      "bytes": 338366,
+      "compressedBytes": 338090
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/v-pose.png",
+      "bytes": 474654,
+      "compressedBytes": 474337
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/car.png",
+      "bytes": 368518,
+      "compressedBytes": 368199
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/group-photo.png",
+      "bytes": 497666,
+      "compressedBytes": 497353
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/lobby.png",
+      "bytes": 516384,
+      "compressedBytes": 516035
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/parents.png",
+      "bytes": 326088,
+      "compressedBytes": 325780
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/v-pose.png",
+      "bytes": 474604,
+      "compressedBytes": 474295
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/dinner-pacing-banquet-trav-8409b-parture-stays-at-the-buffet-chromium/departure-at-buffet.png",
+      "bytes": 482309,
+      "compressedBytes": 482004
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/family-chrysanthemum.png",
+      "bytes": 57189,
+      "compressedBytes": 55202
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/original-photo-countdown.png",
+      "bytes": 199390,
+      "compressedBytes": 198936
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/family-chrysanthemum.png",
+      "bytes": 54129,
+      "compressedBytes": 51420
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/original-photo-countdown.png",
+      "bytes": 238348,
+      "compressedBytes": 237768
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-game-guest-keep-be038-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 33912,
+      "compressedBytes": 31900
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-game-guest-keep-cf9e3-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 33630,
+      "compressedBytes": 31619
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-minimi-group-pa-52609-without-covering-the-couple-chromium/minimi-full-group.png",
+      "bytes": 187050,
+      "compressedBytes": 185364
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-bridal-room.jpeg.png",
+      "bytes": 138877,
+      "compressedBytes": 136625
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-atm.jpg.png",
+      "bytes": 164310,
+      "compressedBytes": 162368
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-banquet.jpg.png",
+      "bytes": 175513,
+      "compressedBytes": 173464
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-photo-booth.jpg.png",
+      "bytes": 174460,
+      "compressedBytes": 172561
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-welcome.jpg.png",
+      "bytes": 169299,
+      "compressedBytes": 167483
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-bridal-room.jpeg.png",
+      "bytes": 109287,
+      "compressedBytes": 107515
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-atm.jpg.png",
+      "bytes": 118480,
+      "compressedBytes": 116674
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-banquet.jpg.png",
+      "bytes": 136124,
+      "compressedBytes": 134217
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-photo-booth.jpg.png",
+      "bytes": 122444,
+      "compressedBytes": 120668
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-welcome.jpg.png",
+      "bytes": 117571,
+      "compressedBytes": 115764
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-profile-cards-stay-inside-the-game-at-1440px-chromium/profile.png",
+      "bytes": 676129,
+      "compressedBytes": 675119
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-profile-cards-stay-inside-the-game-at-320px-chromium/profile.png",
+      "bytes": 140896,
+      "compressedBytes": 140941
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/message-postcard.png",
+      "bytes": 35418,
+      "compressedBytes": 33443
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/thirty-friends.png",
+      "bytes": 194536,
+      "compressedBytes": 192788
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/character-selection.png",
+      "bytes": 161521,
+      "compressedBytes": 160903
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/gallery-carousel.png",
+      "bytes": 117534,
+      "compressedBytes": 115945
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/invitation-cover.png",
+      "bytes": 146118,
+      "compressedBytes": 145109
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/character-selection.png",
+      "bytes": 243887,
+      "compressedBytes": 243451
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/gallery-carousel.png",
+      "bytes": 174452,
+      "compressedBytes": 173387
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/invitation-cover.png",
+      "bytes": 169424,
+      "compressedBytes": 168190
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/female-independent-faces.png",
+      "bytes": 6852,
+      "compressedBytes": 748
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/male-independent-faces.png",
+      "bytes": 6852,
+      "compressedBytes": 748
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/blue-pink-accounts.png",
+      "bytes": 35106,
+      "compressedBytes": 32924
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/parking-shuttle.png",
+      "bytes": 45218,
+      "compressedBytes": 43195
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/venue-map.png",
+      "bytes": 57619,
+      "compressedBytes": 56060
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/blue-pink-accounts.png",
+      "bytes": 34592,
+      "compressedBytes": 32465
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/parking-shuttle.png",
+      "bytes": 46524,
+      "compressedBytes": 43938
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/venue-map.png",
+      "bytes": 65435,
+      "compressedBytes": 63652
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-sharing-share-c-ae8d8--image-in-the-original-HTML-chromium/share-card-formats.png",
+      "bytes": 198803,
+      "compressedBytes": 193757
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-main.png",
+      "bytes": 170029,
+      "compressedBytes": 169002
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-minimi.png",
+      "bytes": 206746,
+      "compressedBytes": 205224
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/garden.png",
+      "bytes": 1950030,
+      "compressedBytes": 1937184
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/lobby.png",
+      "bytes": 1875415,
+      "compressedBytes": 1863089
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/lobby-required-only-unfini-03ac7-ock-the-ceremony-and-dinner-chromium/buffet-mobile.png",
+      "bytes": 491601,
+      "compressedBytes": 491262
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/lobby-return-bride-explore-711ad-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 516293,
+      "compressedBytes": 515940
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/lobby-return-groom-explore-7f5d0-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 492187,
+      "compressedBytes": 491926
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-customization-direc-57186-d-all-five-outfits-at-320px-chromium/original-panel-independent-parts.png",
+      "bytes": 163763,
+      "compressedBytes": 163137
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-customization-direc-b8329-d-all-five-outfits-at-393px-chromium/original-panel-independent-parts.png",
+      "bytes": 247060,
+      "compressedBytes": 246666
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-jaw-finished-minimi-a874a-s-have-no-jaw-or-neck-seams-chromium/chin-closeup.png",
+      "bytes": 32889,
+      "compressedBytes": 29468
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/female-neck.png",
+      "bytes": 249784,
+      "compressedBytes": 234849
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/male-neck.png",
+      "bytes": 206228,
+      "compressedBytes": 193574
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-all-poses.png",
+      "bytes": 499677,
+      "compressedBytes": 481729
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-blink.png",
+      "bytes": 260286,
+      "compressedBytes": 251548
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-source.png",
+      "bytes": 315875,
+      "compressedBytes": 315902
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-all-poses.png",
+      "bytes": 477575,
+      "compressedBytes": 457778
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-blink.png",
+      "bytes": 239284,
+      "compressedBytes": 229548
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-source.png",
+      "bytes": 334642,
+      "compressedBytes": 334528
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-0-profile.png",
+      "bytes": 242169,
+      "compressedBytes": 241742
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-1-profile.png",
+      "bytes": 242907,
+      "compressedBytes": 242489
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-2-profile.png",
+      "bytes": 241723,
+      "compressedBytes": 241311
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-3-profile.png",
+      "bytes": 244083,
+      "compressedBytes": 243692
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-0-4-profile.png",
+      "bytes": 244326,
+      "compressedBytes": 243956
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-0-profile.png",
+      "bytes": 242494,
+      "compressedBytes": 242093
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-1-profile.png",
+      "bytes": 243163,
+      "compressedBytes": 242765
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-2-profile.png",
+      "bytes": 241979,
+      "compressedBytes": 241576
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-3-profile.png",
+      "bytes": 244368,
+      "compressedBytes": 243948
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-1-4-profile.png",
+      "bytes": 244573,
+      "compressedBytes": 244178
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-0-profile.png",
+      "bytes": 242846,
+      "compressedBytes": 242440
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-1-profile.png",
+      "bytes": 243458,
+      "compressedBytes": 243047
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-2-profile.png",
+      "bytes": 242345,
+      "compressedBytes": 241938
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-3-profile.png",
+      "bytes": 244751,
+      "compressedBytes": 244382
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/남성-2-4-profile.png",
+      "bytes": 244943,
+      "compressedBytes": 244534
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-0-profile.png",
+      "bytes": 243901,
+      "compressedBytes": 243523
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-1-profile.png",
+      "bytes": 244408,
+      "compressedBytes": 243997
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-2-profile.png",
+      "bytes": 244167,
+      "compressedBytes": 243752
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-3-profile.png",
+      "bytes": 246267,
+      "compressedBytes": 245900
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-0-4-profile.png",
+      "bytes": 246338,
+      "compressedBytes": 245971
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-0-profile.png",
+      "bytes": 244127,
+      "compressedBytes": 243737
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-1-profile.png",
+      "bytes": 244595,
+      "compressedBytes": 244208
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-2-profile.png",
+      "bytes": 244422,
+      "compressedBytes": 244015
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-3-profile.png",
+      "bytes": 246494,
+      "compressedBytes": 246120
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-1-4-profile.png",
+      "bytes": 246530,
+      "compressedBytes": 246185
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-0-profile.png",
+      "bytes": 243952,
+      "compressedBytes": 243561
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-1-profile.png",
+      "bytes": 244461,
+      "compressedBytes": 244067
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-2-profile.png",
+      "bytes": 244258,
+      "compressedBytes": 243851
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-3-profile.png",
+      "bytes": 246302,
+      "compressedBytes": 245911
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/여성-2-4-profile.png",
+      "bytes": 246365,
+      "compressedBytes": 245986
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/lobby-registered-photos.png",
+      "bytes": 601041,
+      "compressedBytes": 600766
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/photo-gallery-restored.png",
+      "bytes": 277157,
+      "compressedBytes": 276588
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/lobby-registered-photos.png",
+      "bytes": 510475,
+      "compressedBytes": 510213
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/photo-gallery-restored.png",
+      "bytes": 237132,
+      "compressedBytes": 236677
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/lobby-registered-photos.png",
+      "bytes": 1328957,
+      "compressedBytes": 1328802
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/photo-gallery-restored.png",
+      "bytes": 787260,
+      "compressedBytes": 785730
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/lobby-registered-photos.png",
+      "bytes": 1453468,
+      "compressedBytes": 1453913
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/photo-gallery-restored.png",
+      "bytes": 646626,
+      "compressedBytes": 645337
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/groom-reception.png",
+      "bytes": 486338,
+      "compressedBytes": 486055
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/reception-only-single-rece-6f818-movement-and-completes-once-chromium/bride-reception.png",
+      "bytes": 486335,
+      "compressedBytes": 486049
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-first-lobby-arrival-393.png",
+      "bytes": 458141,
+      "compressedBytes": 457852
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-hall-requirements-393.png",
+      "bytes": 421253,
+      "compressedBytes": 420973
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-notebook-progress-393.png",
+      "bytes": 350755,
+      "compressedBytes": 350346
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F03-inline--65ff3-les-in-setup-and-invitation-chromium/f03-avatar-validation-393.png",
+      "bytes": 341957,
+      "compressedBytes": 341626
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-320.png",
+      "bytes": 268713,
+      "compressedBytes": 268798
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-393.png",
+      "bytes": 400139,
+      "compressedBytes": 399760
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-430.png",
+      "bytes": 462842,
+      "compressedBytes": 462582
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-320.png",
+      "bytes": 325897,
+      "compressedBytes": 325992
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-393.png",
+      "bytes": 483892,
+      "compressedBytes": 483649
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-430.png",
+      "bytes": 564516,
+      "compressedBytes": 564156
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-atm.png",
+      "bytes": 549747,
+      "compressedBytes": 549415
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-bridal-restricted.png",
+      "bytes": 548843,
+      "compressedBytes": 548447
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-drinks.png",
+      "bytes": 555983,
+      "compressedBytes": 555695
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-320.png",
+      "bytes": 142867,
+      "compressedBytes": 142912
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-393.png",
+      "bytes": 244940,
+      "compressedBytes": 244538
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-430.png",
+      "bytes": 295796,
+      "compressedBytes": 295411
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-landscape-852x393.png",
+      "bytes": 7114,
+      "compressedBytes": 5532
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-1440x900.png",
+      "bytes": 1161083,
+      "compressedBytes": 1160987
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-320x568.png",
+      "bytes": 342904,
+      "compressedBytes": 343009
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-393x852.png",
+      "bytes": 516376,
+      "compressedBytes": 516037
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-430x932.png",
+      "bytes": 601160,
+      "compressedBytes": 600888
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-first-lobby-arrival-393x852.png",
+      "bytes": 458145,
+      "compressedBytes": 457891
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-hall-requirements-393x852.png",
+      "bytes": 419633,
+      "compressedBytes": 419388
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-393x852.png",
+      "bytes": 374111,
+      "compressedBytes": 373861
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-completed-393x852.png",
+      "bytes": 348948,
+      "compressedBytes": 348570
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-atm-430x932.png",
+      "bytes": 548834,
+      "compressedBytes": 548428
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-bridal-restriction-430x932.png",
+      "bytes": 547871,
+      "compressedBytes": 547507
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-welcome-drink-430x932.png",
+      "bytes": 554991,
+      "compressedBytes": 554673
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@a91a73ccb584a4dd691e9d8db7881bb3.webm",
+      "bytes": 5509957,
+      "compressedBytes": 5464764
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@e968ca655db2fedf0dcb64e685cdff34.webm",
+      "bytes": 7014488,
+      "compressedBytes": 6984926
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium/video/page@2d7a44f7c9c016edc28f4d05d44fa466.webm",
+      "bytes": 5242157,
+      "compressedBytes": 5183127
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@be17605dea316a17ab8aabecea73386f.webm",
+      "bytes": 5791968,
+      "compressedBytes": 5764747
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 6671025,
+      "compressedBytes": 6646874
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+      "bytes": 2595969,
+      "compressedBytes": 2579247
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+      "bytes": 2992665,
+      "compressedBytes": 2975570
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-choice-width-all-sto-9f739-ame-readable-width-at-320px-chromium/equal-choice-width.png",
+      "bytes": 222986,
+      "compressedBytes": 222239
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-choice-width-all-sto-e2bf4-ame-readable-width-at-393px-chromium/equal-choice-width.png",
+      "bytes": 331597,
+      "compressedBytes": 331067
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/choices.png",
+      "bytes": 1458268,
+      "compressedBytes": 1445452
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/home-sky.png",
+      "bytes": 1739368,
+      "compressedBytes": 1727552
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/intro.png",
+      "bytes": 1866265,
+      "compressedBytes": 1853951
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/pixel-parking.png",
+      "bytes": 71836,
+      "compressedBytes": 59270
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/choices.png",
+      "bytes": 1458269,
+      "compressedBytes": 1445375
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/home-sky.png",
+      "bytes": 1739011,
+      "compressedBytes": 1727176
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/intro.png",
+      "bytes": 1866277,
+      "compressedBytes": 1853869
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/numbered-exits.png",
+      "bytes": 1023817,
+      "compressedBytes": 1011048
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/story-routes-station-choic-5c7c3-ed-circles-visible-at-320px-chromium/numbered-exits-small.png",
+      "bytes": 823982,
+      "compressedBytes": 818822
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/tap-pacing-group-photo-cou-7898c--skipped-with-separate-taps-chromium/white-bride-group-photo.png",
+      "bytes": 505868,
+      "compressedBytes": 505598
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/tap-pacing-taps-finish-foo-14d3c-eal-or-replaying-old-timers-chromium/food-reveal-complete.png",
+      "bytes": 506971,
+      "compressedBytes": 506677
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/venue-rooms-room-navigatio-6bf3d--and-selected-side-at-720px-chromium/hall.png",
+      "bytes": 1403773,
+      "compressedBytes": 1404132
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/venue-rooms-room-navigatio-7f39e-and-selected-side-at-1440px-chromium/hall.png",
+      "bytes": 1286069,
+      "compressedBytes": 1285850
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/venue-rooms-room-navigatio-835f5--and-selected-side-at-430px-chromium/hall.png",
+      "bytes": 579403,
+      "compressedBytes": 579197
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/venue-rooms-room-navigatio-a86b4--and-selected-side-at-390px-chromium/hall.png",
+      "bytes": 493250,
+      "compressedBytes": 492985
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/wedding-group-100-guests-r-675c5-ppears-immediately-at-320px-chromium/100-friends.png",
+      "bytes": 146517,
+      "compressedBytes": 144760
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/wedding-group-100-guests-r-89a7e-ppears-immediately-at-393px-chromium/100-friends.png",
+      "bytes": 196338,
+      "compressedBytes": 194556
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-group-photo.png",
+      "bytes": 469785,
+      "compressedBytes": 469472
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-invitation.png",
+      "bytes": 169973,
+      "compressedBytes": 168949
+    },
+    {
+      "path": "after-batch-c/runs/regression-final/wedding-group-hearts-cover-cd7b1-ntercepting-invitation-taps-chromium/even-hearts-over-photo.png",
+      "bytes": 169960,
+      "compressedBytes": 168935
+    },
+    {
+      "path": "after-batch-c/source-final.json",
+      "bytes": 34360,
+      "compressedBytes": 14226
+    },
+    {
+      "path": "after-batch-c/source-frozen-01.json",
+      "bytes": 34297,
+      "compressedBytes": 14162
+    },
+    {
+      "path": "after-batch-c/timing-and-resources.json",
+      "bytes": 7291,
+      "compressedBytes": 1044
+    },
+    {
+      "path": "after-batch-c/tools/acceptance-content.json",
+      "bytes": 2979,
+      "compressedBytes": 1679
+    },
+    {
+      "path": "after-batch-c/tools/finalize-evidence.py",
+      "bytes": 6978,
+      "compressedBytes": 3253
+    },
+    {
+      "path": "after-batch-c/tools/make-clips.py",
+      "bytes": 2905,
+      "compressedBytes": 1190
+    },
+    {
+      "path": "after-batch-c/tools/package-evidence.py",
+      "bytes": 1948,
+      "compressedBytes": 993
+    },
+    {
+      "path": "after-batch-c/video-frames/f11-applause-1.0s.png",
+      "bytes": 461337,
+      "compressedBytes": 460962
+    },
+    {
+      "path": "after-batch-c/video-frames/f11-applause-1.8s.png",
+      "bytes": 483892,
+      "compressedBytes": 483659
+    },
+    {
+      "path": "after-batch-c/video-frames/f11-applause-10.3s.png",
+      "bytes": 506362,
+      "compressedBytes": 506309
+    },
+    {
+      "path": "after-batch-c/video-frames/f11-applause-5.6s.png",
+      "bytes": 247973,
+      "compressedBytes": 248028
+    },
+    {
+      "path": "after-batch-c/video-frames/f11-cheer-1.0s.png",
+      "bytes": 410968,
+      "compressedBytes": 410579
+    },
+    {
+      "path": "after-batch-c/video-frames/f11-cheer-1.8s.png",
+      "bytes": 505474,
+      "compressedBytes": 505368
+    },
+    {
+      "path": "after-batch-c/video-frames/f11-cheer-13.7s.png",
+      "bytes": 513244,
+      "compressedBytes": 513192
+    },
+    {
+      "path": "after-batch-c/video-frames/f11-cheer-7.3s.png",
+      "bytes": 495440,
+      "compressedBytes": 495265
+    },
+    {
+      "path": "after-batch-c/video-frames/f12-booth-1.0s.png",
+      "bytes": 364155,
+      "compressedBytes": 363978
+    },
+    {
+      "path": "after-batch-c/video-frames/f12-booth-10.7s.png",
+      "bytes": 349191,
+      "compressedBytes": 348844
+    },
+    {
+      "path": "after-batch-c/video-frames/f12-booth-5.9s.png",
+      "bytes": 358862,
+      "compressedBytes": 358602
+    },
+    {
+      "path": "after-batch-c/video-frames/f12-bridal-1.0s.png",
+      "bytes": 407000,
+      "compressedBytes": 406983
+    },
+    {
+      "path": "after-batch-c/video-frames/f12-bridal-12.0s.png",
+      "bytes": 417825,
+      "compressedBytes": 417532
+    },
+    {
+      "path": "after-batch-c/video-frames/f12-bridal-6.5s.png",
+      "bytes": 343891,
+      "compressedBytes": 343611
+    },
+    {
+      "path": "after-batch-c/video-frames/f15-reception-1.0s.png",
+      "bytes": 474892,
+      "compressedBytes": 474648
+    },
+    {
+      "path": "after-batch-c/video-frames/f15-reception-14.3s.png",
+      "bytes": 471691,
+      "compressedBytes": 471481
+    },
+    {
+      "path": "after-batch-c/video-frames/f15-reception-5.4s.png",
+      "bytes": 218190,
+      "compressedBytes": 217991
+    },
+    {
+      "path": "after-batch-c/video-frames/f15-reception-7.2s.png",
+      "bytes": 488191,
+      "compressedBytes": 487977
+    },
+    {
+      "path": "after-batch-c/video-frames/f15-reception-8.6s.png",
+      "bytes": 506130,
+      "compressedBytes": 505904
+    },
+    {
+      "path": "after-batch-c/video-frames/f15-reception-9.8s.png",
+      "bytes": 18594,
+      "compressedBytes": 15628
+    },
+    {
+      "path": "after-batch-c/video-frames/f15-reception-9.9s.png",
+      "bytes": 99548,
+      "compressedBytes": 98811
+    },
+    {
+      "path": "after-batch-c/video-inputs/ceremony-applause-events.json",
+      "bytes": 3405,
+      "compressedBytes": 1227
+    },
+    {
+      "path": "after-batch-c/video-inputs/ceremony-cheer-events.json",
+      "bytes": 3382,
+      "compressedBytes": 1225
+    },
+    {
+      "path": "after-batch-c/video-inputs/ceremony-compact-events.json",
+      "bytes": 3375,
+      "compressedBytes": 1227
+    },
+    {
+      "path": "after-batch-c/video-inputs/ceremony-reduced-events.json",
+      "bytes": 3388,
+      "compressedBytes": 1230
+    },
+    {
+      "path": "after-batch-c/video-inputs/photo-events.json",
+      "bytes": 15481,
+      "compressedBytes": 1306
+    },
+    {
+      "path": "after-batch-c/video-inputs/reception-events.json",
+      "bytes": 1691,
+      "compressedBytes": 700
+    },
+    {
+      "path": "after-batch-c/video-inputs/reception-pause-events.json",
+      "bytes": 1318,
+      "compressedBytes": 502
+    },
+    {
+      "path": "after-batch-c/video-manifest.json",
+      "bytes": 13808,
+      "compressedBytes": 1550
+    },
+    {
+      "path": "after-batch-c/artifact-manifest.json",
+      "bytes": 137081,
+      "compressedBytes": 32263
+    }
+  ],
+  "zipContainerOverheadBytes": 144566,
+  "excludedCount": 339,
+  "excludedBytes": 908146435,
+  "includedOriginalCount": 176,
+  "includedOriginalBytes": 146417374
+}

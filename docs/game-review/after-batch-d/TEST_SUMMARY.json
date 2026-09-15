@@ -1,0 +1,274 @@
+{
+  "regression-final": {
+    "reported": {
+      "startTime": "2026-09-14T06:59:06.549Z",
+      "duration": 910026.45,
+      "expected": 112,
+      "skipped": 3,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "detailed": {
+      "expected": 112,
+      "unexpected": 0,
+      "flaky": 0,
+      "skipped": 3
+    },
+    "cases": 115,
+    "retries": 0,
+    "summaryMatchesDetails": true,
+    "command": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=playwright.review.config.ts",
+      "--workers=3",
+      "--output=../docs/game-review/after-batch-d/runs/regression-03"
+    ],
+    "source": "logs/regression-final.json"
+  },
+  "production-final": {
+    "reported": {
+      "startTime": "2026-09-14T07:14:34.901Z",
+      "duration": 505853.347,
+      "expected": 32,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "detailed": {
+      "expected": 32,
+      "unexpected": 0,
+      "flaky": 0,
+      "skipped": 0
+    },
+    "cases": 32,
+    "retries": 0,
+    "summaryMatchesDetails": true,
+    "command": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=playwright.review-production.config.ts",
+      "--workers=2"
+    ],
+    "source": "logs/production-final.json"
+  },
+  "local-server": {
+    "reported": {
+      "startTime": "2026-09-14T07:23:33.643Z",
+      "duration": 26746.738,
+      "expected": 2,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "detailed": {
+      "expected": 2,
+      "unexpected": 0,
+      "flaky": 0,
+      "skipped": 0
+    },
+    "cases": 2,
+    "retries": 0,
+    "summaryMatchesDetails": true,
+    "command": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=../docs/game-review/after-batch-d/verification-scripts/local-server.config.ts"
+    ],
+    "source": "logs/local-server.json"
+  },
+  "combinedMain": {
+    "projectCases": 147,
+    "passed": 144,
+    "skipped": 3,
+    "failed": 0,
+    "uniqueLogicalTests": 116,
+    "note": "dev+production executions; common logical tests are not new tests. Supplemental local-server and resume-layout checks and Node asset fixtures are separate."
+  },
+  "skips": [
+    {
+      "test": "review-batch-b-performance.spec.ts › F09 production cold cache: opening and first car lobby transfer",
+      "project": "chromium",
+      "reason": [
+        {
+          "type": "skip",
+          "description": "Transfer evidence requires the production preview config.",
+          "location": {
+            "file": "/Users/user/wedding/ccj/game/e2e/review-batch-b-performance.spec.ts",
+            "line": 47,
+            "column": 10
+          }
+        }
+      ],
+      "unverifiedInDev": "Production encoded response-byte totals and build-only retry behavior; not inferred from dev server.",
+      "productionCounterpart": {
+        "file": "review-batch-b-performance.spec.ts",
+        "title": "review-batch-b-performance.spec.ts › F09 production cold cache: opening and first car lobby transfer",
+        "project": "chromium-production",
+        "status": "expected",
+        "annotations": [],
+        "attempts": [
+          {
+            "retry": 0,
+            "status": "passed",
+            "startTime": "2026-09-14T07:17:10.411Z",
+            "duration": 12415,
+            "errors": []
+          }
+        ]
+      }
+    },
+    {
+      "test": "review-batch-b-performance.spec.ts › F09 production cold cache: opening and first subway lobby transfer",
+      "project": "chromium",
+      "reason": [
+        {
+          "type": "skip",
+          "description": "Transfer evidence requires the production preview config.",
+          "location": {
+            "file": "/Users/user/wedding/ccj/game/e2e/review-batch-b-performance.spec.ts",
+            "line": 47,
+            "column": 10
+          }
+        }
+      ],
+      "unverifiedInDev": "Production encoded response-byte totals and build-only retry behavior; not inferred from dev server.",
+      "productionCounterpart": {
+        "file": "review-batch-b-performance.spec.ts",
+        "title": "review-batch-b-performance.spec.ts › F09 production cold cache: opening and first subway lobby transfer",
+        "project": "chromium-production",
+        "status": "expected",
+        "annotations": [],
+        "attempts": [
+          {
+            "retry": 0,
+            "status": "passed",
+            "startTime": "2026-09-14T07:17:20.530Z",
+            "duration": 10642,
+            "errors": []
+          }
+        ]
+      }
+    },
+    {
+      "test": "review-batch-b-performance.spec.ts › F09 production: branded opening and retry after one deliberately failed later asset",
+      "project": "chromium",
+      "reason": [
+        {
+          "type": "skip",
+          "description": "Recovery evidence uses the production build.",
+          "location": {
+            "file": "/Users/user/wedding/ccj/game/e2e/review-batch-b-performance.spec.ts",
+            "line": 84,
+            "column": 8
+          }
+        }
+      ],
+      "unverifiedInDev": "Production encoded response-byte totals and build-only retry behavior; not inferred from dev server.",
+      "productionCounterpart": {
+        "file": "review-batch-b-performance.spec.ts",
+        "title": "review-batch-b-performance.spec.ts › F09 production: branded opening and retry after one deliberately failed later asset",
+        "project": "chromium-production",
+        "status": "expected",
+        "annotations": [],
+        "attempts": [
+          {
+            "retry": 0,
+            "status": "passed",
+            "startTime": "2026-09-14T07:17:22.837Z",
+            "duration": 12393,
+            "errors": []
+          }
+        ]
+      }
+    }
+  ],
+  "supplementalResumeLayout": {
+    "source": "logs/resume-layout-03.json",
+    "stats": {
+      "startTime": "2026-09-14T07:00:10.875Z",
+      "duration": 21706.41,
+      "expected": 1,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "assetNegativeFixtures": {
+    "command": "node --test scripts/verify-shipping-assets.test.mjs",
+    "exitCode": 0,
+    "sourceFingerprint": "1402719dd9a38740f9b3955698e0ca61dd028dbfb2467650529ac2f33bf1858e",
+    "passed": 5,
+    "failed": 0,
+    "fixtures": [
+      {
+        "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-R2Keaj/catalog.json",
+        "report": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-R2Keaj/result.json",
+        "exitCode": 1,
+        "expected": "runtime optimized URL missing/mismatched",
+        "errors": [
+          "public: Unlisted shipping file: assets/optimized/lacitta-pixel-venue-lobby.webp",
+          "production: Unlisted shipping file: assets/optimized/lacitta-pixel-venue-lobby.webp",
+          "venue-lobby: runtime optimized URL missing/mismatched: /assets/optimized/lacitta-pixel-venue-lobby.webp",
+          "venue-lobby: unregistered stage lobby",
+          "game/public/assets/lacitta/pixel-venue/lobby.png: derivative URL missing from shipping catalog"
+        ]
+      },
+      {
+        "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-18cAoI/catalog.json",
+        "report": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-18cAoI/result.json",
+        "exitCode": 1,
+        "expected": "invalid/duplicate key",
+        "errors": [
+          "file:assets/invitation/calendar.jpg: invalid/duplicate key"
+        ]
+      },
+      {
+        "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-Zq2W32/catalog.json",
+        "report": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-Zq2W32/result.json",
+        "exitCode": 1,
+        "expected": "ENOENT",
+        "errors": [
+          "venue-lobby: Error: ENOENT: no such file or directory, open '/Users/user/wedding/ccj/game/public/assets/optimized/missing.webp'",
+          "public: Unlisted shipping file: assets/optimized/lacitta-pixel-venue-lobby.webp",
+          "production: Unlisted shipping file: assets/optimized/lacitta-pixel-venue-lobby.webp",
+          "venue-lobby: runtime optimized URL missing/mismatched: /assets/optimized/lacitta-pixel-venue-lobby.webp",
+          "game/public/assets/lacitta/pixel-venue/lobby.png: derivative URL missing from shipping catalog"
+        ]
+      },
+      {
+        "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-9vtSox/catalog.json",
+        "report": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-9vtSox/result.json",
+        "exitCode": 1,
+        "expected": "provenance not accepted",
+        "errors": [
+          "buffet-left: provenance not accepted for shipping",
+          "buffet-right: provenance not accepted for shipping"
+        ]
+      },
+      {
+        "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-E22Q4u/catalog.json",
+        "report": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-E22Q4u/result.json",
+        "exitCode": 1,
+        "expected": "unknown non-media shipping exception",
+        "errors": [
+          "assets/unknown.png: unknown non-media shipping exception"
+        ]
+      }
+    ]
+  },
+  "normalShipping": {
+    "source": "assets-final.json",
+    "command": "npm run verify:assets -- --report ../docs/game-review/after-batch-d/assets-final.json",
+    "exitCode": 0,
+    "registered": 98,
+    "checked": 98,
+    "decodedImages": 97,
+    "old40Tracked": 40,
+    "log": "logs/assets-final.log"
+  },
+  "sourceFingerprint": "1402719dd9a38740f9b3955698e0ca61dd028dbfb2467650529ac2f33bf1858e"
+}

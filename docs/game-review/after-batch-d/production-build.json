@@ -1,0 +1,24 @@
+{
+  "timeUTC": "2026-09-14T07:36:10.222149+00:00",
+  "command": "npm run build",
+  "log": "logs/build-final-04.log",
+  "exitCode": 0,
+  "sourceFingerprint": "1402719dd9a38740f9b3955698e0ca61dd028dbfb2467650529ac2f33bf1858e",
+  "files": [
+    {
+      "path": "game/dist/assets/index-CeqT_DQG.css",
+      "bytes": 38946,
+      "sha256": "98d3f4920672ffa60abd0cbaf70006f0f0c23c7c01b5321e85b15d707c51f2d3"
+    },
+    {
+      "path": "game/dist/assets/index-DFnWPnK5.js",
+      "bytes": 1545353,
+      "sha256": "5bee4985b8efb16f52ac1c983256fe801cb13981da64a837bf02855b536d7f15"
+    },
+    {
+      "path": "game/dist/index.html",
+      "bytes": 2336,
+      "sha256": "d11db8bfcad392faab17e4ec23367bf23e540671540c0f6dfcb680bfaf38790f"
+    }
+  ]
+}

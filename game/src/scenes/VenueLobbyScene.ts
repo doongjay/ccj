@@ -1,65 +1,69 @@
 import Phaser from "phaser";
-import { GAME_WIDTH } from "../config";
 import { GAMEPLAY_LAYOUTS } from "../data/layout";
+import { GUEST_GROUND_OFFSET_Y, LOBBY_FLOOR } from "../data/lobbyFloor";
+import { warmStage, warmSceneAssets } from "../systems/stageAssets";
+import { notebookKeepsakes, restoreNotebookPhotos } from "../ui/sessionMemories";
+import { saveCheckpoint } from "../state/checkpoint";
 import type { LayoutTrigger, TriggerShape } from "../data/layout";
-import { QUIZZES } from "../data/scenario";
-import type { CorrectQuizOption, QuizData } from "../data/scenario";
 import { Npc } from "../objects/Npc";
 import { Player } from "../objects/Player";
-import { sceneArt } from "./sceneArt";
-import { LOBBY_ROOM_ENTRANCES, renderLobbyLandmarks } from "./lobbyArt";
+import { LOBBY_OBSTACLES, LOBBY_ROOM_ENTRANCES, renderLobbyLandmarks, renderLobbyFloor } from "./lobbyArt";
 import {
   completeProgressionFlag,
   GUEST_SIDES,
+  GAME_STATE_REGISTRY_KEYS,
   isProgressionFlagComplete,
   PROGRESSION_FLAGS,
   readGuestSide,
   SCENE_KEYS,
-  setGuestSide,
 } from "../state/gameState";
-import type { GuestSide } from "../state/gameState";
-import { QuizModal } from "../systems/QuizModal";
 import { PhotoGalleryModal } from "../systems/PhotoGalleryModal";
+import { StoryDialog } from "../ui/StoryDialog";
+import type { StoryInfoOptions } from "../ui/StoryDialog";
+import type { SceneTransitionData } from "../ui/sceneUi";
 import { TapToMove } from "../systems/TapToMove";
 import { TriggerZone } from "../systems/TriggerZone";
 import type { TriggerZoneConfig } from "../systems/TriggerZone";
 import {
-  createKoreanText,
-  createSceneHeader,
   createTouchButton,
+  createSceneHotspot,
+  createSceneHeader,
   fadeToScene,
   markActiveScene,
   SCENE_UI_COLORS,
 } from "../ui/sceneUi";
 
-type ReceptionTarget = Readonly<{
-  side: GuestSide;
-  triggerId: "groom-desk" | "bride-desk";
-  datasetValue: "groom" | "bride";
-  label: "신랑측 축의대" | "신부측 축의대";
-}>;
-
-const RECEPTION_TARGETS = [
-  { side: GUEST_SIDES.groom, triggerId: "groom-desk", datasetValue: "groom", label: "신랑측 축의대" },
-  { side: GUEST_SIDES.bride, triggerId: "bride-desk", datasetValue: "bride", label: "신부측 축의대" },
-] as const satisfies readonly ReceptionTarget[];
+const HALL_RETURN_POINT = { x: 590, y: 230 } as const;
+// Standing points on the existing floor, outside furniture and the gallery
+// re-entry trigger. Facility clicks open immediately; these are return anchors.
+const FACILITY_RETURN_POINTS = {
+  "photo-booth": { x: 236, y: 610 },
+  // Between the reception and photo-table signs, above their text plates and
+  // outside both automatic-entry zones, including at the 320px text size.
+  reception: { x: 474, y: 360 },
+  "photo-table": { x: 474, y: 360 },
+  atm: { x: 470, y: 590 },
+  drinks: { x: 456, y: 970 },
+} as const;
 
 export class VenueLobbyScene extends Phaser.Scene {
   private player: Player | undefined;
   private tapToMove: TapToMove | undefined;
-  private quizModal: QuizModal | undefined;
   private photoGallery: PhotoGalleryModal | undefined;
   private readonly triggerZones: TriggerZone[] = [];
-  private statusText: Phaser.GameObjects.Text | undefined;
   private lobbyReady = false;
   private receptionComplete = false;
   private transitionRequested = false;
+  private infoDialog: StoryDialog | undefined;
+  private infoOpen = false;
+  private infoReturn: keyof typeof FACILITY_RETURN_POINTS | undefined;
+  private notebookLabel: Phaser.GameObjects.Text | undefined;
 
   constructor() {
     super(SCENE_KEYS.VenueLobby);
   }
 
-  create(): void {
+  create(data: SceneTransitionData = {}): void {
     const layout = GAMEPLAY_LAYOUTS["venue-lobby"];
     const spawn = layout.spawns[0];
 
@@ -68,11 +72,18 @@ export class VenueLobbyScene extends Phaser.Scene {
     }
 
     this.lobbyReady = false;
+    this.infoOpen = false;
+    this.infoReturn = undefined;
+    this.infoDialog = undefined;
     this.receptionComplete = isProgressionFlagComplete(this.registry, PROGRESSION_FLAGS.receptionComplete);
     this.transitionRequested = false;
     this.triggerZones.length = 0;
     markActiveScene(this, SCENE_KEYS.VenueLobby);
     this.game.canvas.dataset.lobbyReady = "false";
+    this.game.canvas.dataset.lobbyInfo = "";
+    this.game.canvas.dataset.bridalRoomVisited = String(isProgressionFlagComplete(this.registry, PROGRESSION_FLAGS.bridalRoomVisited));
+    this.game.canvas.dataset.photoBoothVisited = String(isProgressionFlagComplete(this.registry, PROGRESSION_FLAGS.photoBoothVisited));
+    this.game.canvas.dataset.photoTableVisited = String(isProgressionFlagComplete(this.registry, PROGRESSION_FLAGS.photoTableVisited));
     this.game.canvas.dataset.guestSide = readGuestSide(this.registry) ?? "";
     this.game.canvas.dataset.activeQuiz = "";
     this.game.canvas.dataset.q3ModalOpen = "false";
@@ -87,45 +98,59 @@ export class VenueLobbyScene extends Phaser.Scene {
     this.game.canvas.dataset.receptionWarning = "";
     this.game.canvas.dataset.lobbyTransitionCount = "0";
 
-    sceneArt(this, "lobby-background");
+    renderLobbyFloor(this);
+    this.cameras.main.fadeIn(350);
     const header = createSceneHeader(this, {
       title: "라시따시어터",
       y: 48,
     });
     header.title.setStroke(SCENE_UI_COLORS.ivory.text, 4);
-    this.statusText = createKoreanText(this, {
-      x: GAME_WIDTH / 2,
-      y: 98,
-      copy: "축의대에서 접수해 주세요",
-      width: 640,
-      maxCharactersPerLine: 32,
-      maxLines: 1,
-      fontSize: 18,
-      lineHeight: 24,
-      color: "labelText",
-    }).setBackgroundColor(SCENE_UI_COLORS.labelSurface.text);
 
-    renderLobbyLandmarks(this);
-    new Npc(this, { x: 110, y: 300, label: "접수", variant: "reception" });
-    new Npc(this, { x: 260, y: 300, label: "접수", variant: "reception" });
+    renderLobbyLandmarks(this, item => this.inspectItem(item));
+    new Npc(this, { x: 360, y: 288, label: "접수", variant: "reception", showLabel: false, cropHeight: 30 });
 
+    const arrival = data.entrance === "hall" ? HALL_RETURN_POINT
+      : data.entrance === "photo-booth" || data.entrance === "reception" ? FACILITY_RETURN_POINTS[data.entrance] : spawn.point;
     this.player = new Player(this, {
-      x: spawn.point.x,
-      y: spawn.point.y,
+      x: arrival.x,
+      y: arrival.y,
       label: "하객",
       speed: 640,
     });
     this.tapToMove = new TapToMove(this, this.player, {
       bounds: layout.worldBounds,
-      blockedAreas: LOBBY_ROOM_ENTRANCES.map(room => ({ x: room.x - 104, y: room.y - 44, width: 208, height: 88 })),
+      blockedAreas: LOBBY_OBSTACLES,
+      floor: LOBBY_FLOOR,
+      groundOffsetY: GUEST_GROUND_OFFSET_Y,
+      onInvalidTap: point => {
+        this.game.canvas.dataset.lobbyInvalidTap = "true";
+        const cue = this.add.text(point.x, point.y, "·", { fontFamily: "Galmuri11", fontSize: "24px", color: "#c8a24b" }).setOrigin(0.5).setDepth(21);
+        this.time.delayedCall(350, () => cue.destroy());
+      },
     });
     this.renderRoomNavigation();
-    const selectedSide = readGuestSide(this.registry);
-    if (this.receptionComplete) {
-      this.statusText.setText("접수 완료! 식장 입구로 이동해요");
-    } else if (selectedSide !== undefined) {
-      this.statusText.setText(`${findReceptionTarget(selectedSide).label}로 이동해 접수해요`);
-    }
+    for (const target of [
+      { name: "reception", x: 360, y: 420, width: 160, height: 100, destination: { x: 360, y: 420 } },
+      { name: "photo-table", x: 550, y: 440, width: 180, height: 100, destination: { x: 550, y: 450 } },
+      { name: "hall", x: 590, y: 150, width: 184, height: 100, destination: { x: 590, y: 150 } },
+    ]) createSceneHotspot(this, { ...target, onPress: () => {
+      if (!this.lobbyReady || this.transitionRequested || this.isModalOpen()) return;
+      if (target.name === "reception") this.handleReceptionDesk();
+      else if (target.name === "photo-table") this.openPhotoGallery(true);
+      else if (target.name === "hall" && (this.requiredVisits().some(({ flag }) => !isProgressionFlagComplete(this.registry, flag))
+        || this.player?.x === 590 && this.player.y === 150)) this.tryEnterHall();
+      else this.tapToMove?.moveTo(target.destination.x, target.destination.y);
+    } });
+    this.notebookLabel = createTouchButton(this, {
+      x: 128, y: 60, width: 224, height: 88, label: "수첩 0/0", depth: 15,
+      onPress: () => this.showNotebook(),
+    }).label;
+    this.updateNotebook();
+    this.add.rectangle(580, 360, 180, 160, 0xffffff, 0).setInteractive({ useHandCursor: true })
+      .on("pointerdown", (_pointer: Phaser.Input.Pointer, _x: number, _y: number, event: Phaser.Types.Input.EventData) => {
+        event.stopPropagation();
+        this.openPhotoGallery(true);
+      });
 
     this.triggerZones.push(
       new TriggerZone(this, {
@@ -135,15 +160,15 @@ export class VenueLobbyScene extends Phaser.Scene {
       }),
     );
 
-    for (const target of RECEPTION_TARGETS) {
-      this.triggerZones.push(
-        new TriggerZone(this, {
-          ...toTriggerZoneConfig(findTrigger(layout.triggers, target.triggerId).shape),
-          mode: "repeat",
-          onEnter: () => this.handleReceptionDesk(target),
-        }),
-      );
-    }
+    this.triggerZones.push(new TriggerZone(this, {
+      ...toTriggerZoneConfig(findTrigger(layout.triggers, "reception-desk").shape),
+      mode: "repeat",
+      onEnter: () => {
+        const target = this.tapToMove?.getDestination();
+        if (target && (target.x < 270 || target.x > 450 || target.y < 330 || target.y > 490)) return;
+        this.handleReceptionDesk();
+      },
+    }));
 
     this.triggerZones.push(
       new TriggerZone(this, {
@@ -165,82 +190,78 @@ export class VenueLobbyScene extends Phaser.Scene {
 
     this.tapToMove?.update(delta);
 
-    for (const zone of this.triggerZones) {
+    for (const zone of this.player?.isMoving() ? [] : this.triggerZones) {
       zone.update(player);
     }
   }
 
   private renderRoomNavigation(): void {
     for (const room of LOBBY_ROOM_ENTRANCES) {
-      createTouchButton(this, {
-        x: room.x, y: room.y, width: 208, height: 88,
-        label: room.label, depth: 10,
-        onPress: () => {
+      createSceneHotspot(this, { ...room, name: room.label, width: 208, onPress: () => {
           if (!this.lobbyReady || this.transitionRequested || this.isModalOpen()) return;
-          this.transitionRequested = true;
-          this.tapToMove?.setEnabled(false);
-          fadeToScene(this, room.scene);
-        },
-      });
+          if (room.scene === SCENE_KEYS.Banquet) {
+            this.tryEnterBanquet();
+            return;
+          }
+          if (room.scene === SCENE_KEYS.GreeneryCorridor && readGuestSide(this.registry) !== GUEST_SIDES.bride) {
+            this.showInfo("bridal-restricted", "신부대기실은 신부측 하객에게 양보하고, 나는 로비를 둘러보러 가야겠다.");
+            return;
+          }
+          this.enterRoom(room.scene);
+        } });
     }
   }
 
-  private openGuestSideQuiz(quiz: QuizData, receptionTarget: ReceptionTarget): void {
-    if (!this.lobbyReady || this.isModalOpen() || readGuestSide(this.registry) !== undefined) {
-      return;
-    }
-
-    this.tapToMove?.setEnabled(false);
+  private enterRoom(scene: (typeof LOBBY_ROOM_ENTRANCES)[number]["scene"]): void {
     this.player?.stop();
-    this.game.canvas.dataset.activeQuiz = quiz.id;
-    this.game.canvas.dataset.q3ModalOpen = "true";
-    this.quizModal = new QuizModal({
-      scene: this,
-      quiz,
-      onCorrect: (option) => this.chooseGuestSide(option, receptionTarget),
-    });
-    this.quizModal.open();
+    this.transitionRequested = true;
+    this.tapToMove?.setEnabled(false);
+    fadeToScene(this, scene, scene === SCENE_KEYS.PhotoBooth ? { lobbyReturn: "photo-booth" } : {});
   }
 
-  private chooseGuestSide(option: CorrectQuizOption, receptionTarget: ReceptionTarget): void {
-    const side = guestSideForOption(option);
-    const target = findReceptionTarget(side);
-    const state = setGuestSide(this.registry, side);
-    this.game.canvas.dataset.activeQuiz = "";
-    this.game.canvas.dataset.q3ModalOpen = "false";
-    this.game.canvas.dataset.guestSide = state.guestSide ?? "";
-    this.game.canvas.dataset.receptionExpectedDesk = target.datasetValue;
-    this.game.canvas.dataset.receptionWarning = "";
-    this.statusText?.setText(`${target.label}로 이동해 접수해요`);
-    this.tapToMove?.setEnabled(true);
-    this.handleReceptionDesk(receptionTarget);
-  }
-
-  private handleReceptionDesk(target: ReceptionTarget): void {
-    const selectedSide = readGuestSide(this.registry);
-
-    if (selectedSide === undefined) {
-      this.openGuestSideQuiz(findQuiz("Q3"), target);
-      return;
-    }
-
-    if (selectedSide !== target.side) {
-      this.statusText?.setText("어이쿠, 그쪽은 반대편 축의대예요!");
-      this.game.canvas.dataset.receptionWarning = "wrong-desk";
-      return;
-    }
-
-    this.receptionComplete = true;
-    completeProgressionFlag(this.registry, PROGRESSION_FLAGS.receptionComplete);
-    this.game.canvas.dataset.receptionComplete = "true";
-    this.game.canvas.dataset.receptionDesk = target.datasetValue;
-    this.game.canvas.dataset.receptionWarning = "";
-    this.statusText?.setText("접수 완료! 이제 식장 입구로 이동해요");
+  private handleReceptionDesk(lobbyReturn: SceneTransitionData["lobbyReturn"] = "reception"): void {
+    if (!this.lobbyReady || this.isModalOpen() || this.transitionRequested) return;
+    if (this.receptionComplete) return;
+    this.transitionRequested = true;
+    this.tapToMove?.setEnabled(false);
+    fadeToScene(this, SCENE_KEYS.Reception, { lobbyReturn });
   }
 
   private tryEnterHall(): void {
-    if (!this.receptionComplete || this.transitionRequested) {
-      this.statusText?.setText("접수를 마친 뒤 식장 입구로 갈 수 있어요");
+    if (this.transitionRequested || this.isModalOpen()) return;
+
+    const missing = this.requiredVisits().filter(({ flag }) => !isProgressionFlagComplete(this.registry, flag));
+    if (missing.length > 0) {
+      this.player?.stop();
+      this.tapToMove?.setEnabled(false);
+      this.infoOpen = true;
+      this.game.canvas.dataset.lobbyInfo = "explore-required";
+      this.infoDialog ??= new StoryDialog(this, "notebook");
+      const list = document.createElement("ul");
+      list.className = "hall-requirements";
+      for (const { label, flag } of missing) {
+        const row = document.createElement("li");
+        const text = document.createElement("span");
+        text.textContent = `♡  ${label}`;
+        const go = document.createElement("button");
+        go.type = "button";
+        go.className = "story-choice";
+        go.textContent = "GO!";
+        go.setAttribute("aria-label", `${label} GO!`);
+        go.onclick = () => {
+          this.infoDialog?.hide();
+          this.closeInfo();
+          if (flag === PROGRESSION_FLAGS.photoTableVisited) this.openPhotoGallery(true);
+          else if (flag === PROGRESSION_FLAGS.receptionComplete) this.handleReceptionDesk();
+          else this.enterRoom(flag === PROGRESSION_FLAGS.photoBoothVisited ? SCENE_KEYS.PhotoBooth : SCENE_KEYS.GreeneryCorridor);
+        };
+        row.append(text, go);
+        list.append(row);
+      }
+      this.infoDialog.setPlacement("notebook");
+      this.infoDialog.showInfo(`아직 ${missing.length}개의 추억이 남았어요.`, () => this.closeInfo(), {
+        variant: "reminder", closeLabel: null, content: list, dismissOnBackdrop: true,
+      });
       return;
     }
 
@@ -250,12 +271,39 @@ export class VenueLobbyScene extends Phaser.Scene {
     fadeToScene(this, SCENE_KEYS.VenueHall);
   }
 
+  private tryEnterBanquet(): void {
+    if (isProgressionFlagComplete(this.registry, PROGRESSION_FLAGS.mealComplete)) {
+      this.tryEnterHall();
+      return;
+    }
+    const enter = () => {
+      this.infoOpen = false;
+      this.transitionRequested = true;
+      fadeToScene(this, SCENE_KEYS.DinnerJourney);
+    };
+    this.player?.stop();
+    this.tapToMove?.setEnabled(false);
+    if (isProgressionFlagComplete(this.registry, PROGRESSION_FLAGS.banquetGuideComplete)) {
+      enter();
+      return;
+    }
+    this.infoOpen = true;
+    this.game.canvas.dataset.lobbyInfo = "meal-order";
+    this.infoDialog ??= new StoryDialog(this);
+    this.infoDialog.show("아직 결혼식 시작은 안했는데 밥을 어떡하지?", [
+      { label: "1시반부터 밥먹기", onSelect: enter },
+      { label: "결혼식 먼저 보기", onSelect: () => {
+        this.infoOpen = false;
+        this.tapToMove?.setEnabled(true);
+        this.tryEnterHall();
+      } },
+    ]);
+  }
+
   private shutdownLobby(): void {
     this.events.off(Phaser.Scenes.Events.POST_UPDATE, this.markLobbyReady, this);
     this.photoGallery?.destroy();
     this.photoGallery = undefined;
-    this.quizModal?.destroy();
-    this.quizModal = undefined;
     this.tapToMove?.destroy();
     this.tapToMove = undefined;
     this.player = undefined;
@@ -273,32 +321,107 @@ export class VenueLobbyScene extends Phaser.Scene {
     }
 
     this.lobbyReady = true;
+    saveCheckpoint(this, "lobby");
     this.game.canvas.dataset.lobbyReady = "true";
+    this.time.delayedCall(800, () => {
+      if (this.requiredVisits().some(({ flag }) => isProgressionFlagComplete(this.registry, flag))) warmSceneAssets(this, SCENE_KEYS.VenueHall);
+      warmStage(this, "photo");
+      warmStage(this, "reception");
+      if (readGuestSide(this.registry) === GUEST_SIDES.bride) { warmStage(this, "garden"); warmStage(this, "bridal"); }
+    });
     this.events.off(Phaser.Scenes.Events.POST_UPDATE, this.markLobbyReady, this);
+    if (!this.registry.get(GAME_STATE_REGISTRY_KEYS.lobbyIntroShown)) {
+      this.registry.set(GAME_STATE_REGISTRY_KEYS.lobbyIntroShown, true);
+      this.showInfo("arrival-guide", "도착! 로비가 넓군.\n어디부터 갈까?", { variant: "tutorial", tapToContinue: true });
+    }
+  }
+
+  private requiredVisits(): { label: string; location: string; flag: typeof PROGRESSION_FLAGS[keyof typeof PROGRESSION_FLAGS] }[] {
+    const visits: ReturnType<VenueLobbyScene["requiredVisits"]> = [
+      { label: "포토부스에서 사진 찍기", location: "로비 왼쪽", flag: PROGRESSION_FLAGS.photoBoothVisited },
+      { label: "포토테이블 구경하기", location: "로비 오른쪽 위", flag: PROGRESSION_FLAGS.photoTableVisited },
+      { label: "축의대에서 접수하기", location: "로비 정면", flag: PROGRESSION_FLAGS.receptionComplete },
+    ];
+    if (readGuestSide(this.registry) === GUEST_SIDES.bride) visits.push({ label: "현서와 사진 찍기", location: "오른쪽 아래 신부대기실 통로", flag: PROGRESSION_FLAGS.bridalRoomVisited });
+    return visits;
+  }
+
+  private notebookCopy(): string {
+    return `오늘의 추억 수첩\n식장 입장 전 필수 일정\n\n${this.requiredVisits().map(({ label, location, flag }) => `${isProgressionFlagComplete(this.registry, flag) ? "♥" : "♡"}  ${label}\n　 ${location}`).join("\n")}`;
+  }
+
+  private async showNotebook(): Promise<void> {
+    if (!this.lobbyReady || this.infoOpen || this.transitionRequested) return;
+    // Open the requested panel in the same input event. Restored photos hydrate
+    // this panel afterwards; no invisible asynchronous interval can accept a room tap.
+    const content = document.createElement("div");
+    this.showInfo("memory-book", this.notebookCopy(), { variant: "notebook", content });
+    await restoreNotebookPhotos(this);
+    if (content.isConnected && this.scene.isActive() && this.infoOpen
+      && this.game.canvas.dataset.lobbyInfo === "memory-book") {
+      const photos = notebookKeepsakes(this.game);
+      if (photos) content.replaceChildren(photos);
+    }
+  }
+
+  private updateNotebook(): void {
+    const visits = this.requiredVisits();
+    const completed = visits.filter(({ flag }) => isProgressionFlagComplete(this.registry, flag)).length;
+    this.notebookLabel?.setText(`수첩 ${completed}/${visits.length}`);
+    this.game.canvas.dataset.lobbyProgress = `${completed}/${visits.length}`;
+  }
+
+  private closeInfo(): void {
+    if (this.infoReturn) this.standAtFacility(this.infoReturn);
+    this.infoReturn = undefined;
+    this.infoOpen = false;
+    this.game.canvas.dataset.lobbyInfo = "";
+    this.tapToMove?.setEnabled(true);
   }
 
   private isModalOpen(): boolean {
-    return this.quizModal?.isOpen() === true || this.photoGallery?.isOpen() === true;
+    return this.infoOpen || this.photoGallery?.isOpen() === true;
   }
 
-  private openPhotoGallery(): void {
+  private inspectItem(item: "atm" | "drinks"): void {
+    if (!this.lobbyReady || this.transitionRequested || this.isModalOpen()) return;
+    this.infoReturn = item;
+    this.showInfo(item, item === "atm"
+      ? "지하1층으로 가면 은행 ATM(국민, 우리, 신한, SC제일은행)이 있다고 한다."
+      : "오 목좀 축이고 쉬고있을까.");
+  }
+
+  private showInfo(item: string, copy: string, options: StoryInfoOptions = {}): void {
     if (!this.lobbyReady || this.transitionRequested || this.isModalOpen()) return;
     this.player?.stop();
     this.tapToMove?.setEnabled(false);
+    this.infoOpen = true;
+    this.game.canvas.dataset.lobbyInfo = item;
+    this.infoDialog ??= new StoryDialog(this, "notebook");
+    this.infoDialog.showInfo(copy, () => this.closeInfo(), { tapToContinue: !options.variant || options.variant === "tutorial", ...options });
+  }
+
+  private standAtFacility(facility: keyof typeof FACILITY_RETURN_POINTS): void {
+    const point = FACILITY_RETURN_POINTS[facility];
+    this.player?.stop().setPosition(point.x, point.y);
+  }
+
+  private openPhotoGallery(immediate = false): void {
+    if (!this.lobbyReady || this.transitionRequested || this.isModalOpen()) return;
+    const destination = this.tapToMove?.getDestination();
+    if (!immediate && destination && (destination.x < 480 || destination.x > 620 || destination.y < 420 || destination.y > 484)) return;
+    this.player?.stop();
+    this.tapToMove?.setEnabled(false);
     completeProgressionFlag(this.registry, PROGRESSION_FLAGS.photoTableVisited);
-    this.photoGallery ??= new PhotoGalleryModal(this, () => this.tapToMove?.setEnabled(true));
+    saveCheckpoint(this, "lobby");
+    this.game.canvas.dataset.photoTableVisited = "true";
+    this.updateNotebook();
+    this.photoGallery ??= new PhotoGalleryModal(this, () => {
+      this.standAtFacility("photo-table");
+      this.tapToMove?.setEnabled(true);
+    });
     this.photoGallery.open();
   }
-}
-
-function findQuiz(quizId: "Q3"): QuizData {
-  const quiz = QUIZZES.find((candidate) => candidate.id === quizId);
-
-  if (quiz === undefined) {
-    throw new Error(`Missing quiz ${quizId}.`);
-  }
-
-  return quiz;
 }
 
 function findTrigger(triggers: readonly LayoutTrigger[], triggerId: string): LayoutTrigger {
@@ -329,25 +452,4 @@ function toTriggerZoneConfig(shape: TriggerShape): TriggerZoneConfig {
         radius: shape.radius,
       };
   }
-}
-
-function guestSideForOption(option: CorrectQuizOption): GuestSide {
-  switch (option.callbackIntent) {
-    case "guide-to-groom-reception":
-      return GUEST_SIDES.groom;
-    case "guide-to-bride-reception":
-      return GUEST_SIDES.bride;
-    case "advance-to-venue-lobby":
-      throw new Error("Q3 answer cannot advance directly to the venue lobby.");
-  }
-}
-
-function findReceptionTarget(side: GuestSide): ReceptionTarget {
-  const target = RECEPTION_TARGETS.find((candidate) => candidate.side === side);
-
-  if (target === undefined) {
-    throw new Error(`Missing reception target for guest side ${side}.`);
-  }
-
-  return target;
 }

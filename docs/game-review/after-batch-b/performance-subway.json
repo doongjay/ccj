@@ -1,0 +1,263 @@
+{
+  "production": true,
+  "coldCache": true,
+  "measurement": "CDP Network.loadingFinished encodedDataLength; includes response headers, production JS/CSS and HTML in totalResponseBytes",
+  "viewport": {
+    "width": 393,
+    "height": 852,
+    "deviceScaleFactor": 1
+  },
+  "route": "subway",
+  "opening": {
+    "totalResponseBytes": 3507312,
+    "gameAssetBytes": 3094744,
+    "gameAssetRequests": 5,
+    "pendingRequests": [],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:5199/",
+        "type": "Document",
+        "bytes": 1100,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/index-CShkv7LB.js",
+        "type": "Script",
+        "bytes": 402567,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/index-BXBTfDz_.css",
+        "type": "Stylesheet",
+        "bytes": 8901,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/fonts/Galmuri11.woff2",
+        "type": "Font",
+        "bytes": 155622,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-pixel-venue-hall.webp",
+        "type": "Image",
+        "bytes": 1932612,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-wedding-couple.webp",
+        "type": "Image",
+        "bytes": 1005382,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/ui/dialog-panel.png",
+        "type": "Image",
+        "bytes": 591,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/ui/touch-button.png",
+        "type": "Image",
+        "bytes": 537,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      }
+    ]
+  },
+  "firstLobby": {
+    "totalResponseBytes": 12380727,
+    "gameAssetBytes": 11968159,
+    "gameAssetRequests": 18,
+    "pendingRequests": [],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:5199/",
+        "type": "Document",
+        "bytes": 1100,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/index-CShkv7LB.js",
+        "type": "Script",
+        "bytes": 402567,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/index-BXBTfDz_.css",
+        "type": "Stylesheet",
+        "bytes": 8901,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/fonts/Galmuri11.woff2",
+        "type": "Font",
+        "bytes": 155622,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-pixel-venue-hall.webp",
+        "type": "Image",
+        "bytes": 1932612,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-wedding-couple.webp",
+        "type": "Image",
+        "bytes": 1005382,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/ui/dialog-panel.png",
+        "type": "Image",
+        "bytes": 591,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/ui/touch-button.png",
+        "type": "Image",
+        "bytes": 537,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-routes-home-ground-v2.webp",
+        "type": "Image",
+        "bytes": 1921606,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-minimi-hair.webp",
+        "type": "Image",
+        "bytes": 577636,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-outfits-male.webp",
+        "type": "Image",
+        "bytes": 479000,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-extra-outfits-male.webp",
+        "type": "Image",
+        "bytes": 934988,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/routes/subway-background.png",
+        "type": "Image",
+        "bytes": 178907,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-pixel-venue-shuttle.webp",
+        "type": "Image",
+        "bytes": 1608168,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-pixel-venue-lobby.webp",
+        "type": "Image",
+        "bytes": 1884220,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-parents.webp",
+        "type": "Image",
+        "bytes": 645550,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/characters/npc-reception.png",
+        "type": "Image",
+        "bytes": 4857,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/ui/quiz-frame.png",
+        "type": "Image",
+        "bytes": 587,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/gallery-01-game.jpg",
+        "type": "Image",
+        "bytes": 292773,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/gallery-02-game.jpg",
+        "type": "Image",
+        "bytes": 186757,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/gallery-03-game.jpg",
+        "type": "Image",
+        "bytes": 158366,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      }
+    ]
+  },
+  "lateAssetsBeforeOpening": [],
+  "unselectedRouteAssetsByFirstLobby": [],
+  "failures": [],
+  "errors": []
+}

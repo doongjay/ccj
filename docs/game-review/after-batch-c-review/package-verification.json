@@ -1,0 +1,547 @@
+{
+  "checkedUTC": "2026-09-13T17:54:28.600203+00:00",
+  "checksArePackagingOnly": true,
+  "requiredScreenshots": [
+    {
+      "path": "f11-applause-response-393.png",
+      "bytes": 534335,
+      "width": 393,
+      "height": 852,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f11-cheer-response-393.png",
+      "bytes": 531196,
+      "width": 393,
+      "height": 852,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f12-booth-result-393.png",
+      "bytes": 300879,
+      "width": 393,
+      "height": 852,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f12-bridal-result-393.png",
+      "bytes": 282528,
+      "width": 393,
+      "height": 852,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f12-notebook-keepsakes-393.png",
+      "bytes": 359208,
+      "width": 393,
+      "height": 852,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f12-booth-controls-no-overlap-393.png",
+      "bytes": 474630,
+      "width": 393,
+      "height": 852,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f13-booth-result-320.png",
+      "bytes": 211811,
+      "width": 320,
+      "height": 568,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f13-bridal-result-320.png",
+      "bytes": 196994,
+      "width": 320,
+      "height": 568,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f13-photo-result-430.png",
+      "bytes": 343268,
+      "width": 430,
+      "height": 932,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f14-group-bride-393.png",
+      "bytes": 466495,
+      "width": 393,
+      "height": 852,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f14-group-groom-393.png",
+      "bytes": 466722,
+      "width": 393,
+      "height": 852,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f15-reception-acknowledged-393.png",
+      "bytes": 492152,
+      "width": 393,
+      "height": 852,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "f15-lobby-revisit-no-banner-393.png",
+      "bytes": 516358,
+      "width": 393,
+      "height": 852,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "keyboard-photo-result-desktop.png",
+      "bytes": 830010,
+      "width": 1440,
+      "height": 900,
+      "originalBytesUnchanged": true
+    },
+    {
+      "path": "reduced-motion-response-393.png",
+      "bytes": 1927562,
+      "width": 1179,
+      "height": 2556,
+      "originalBytesUnchanged": true
+    }
+  ],
+  "requiredVideos": [
+    {
+      "path": "f12-booth.webm",
+      "bytes": 9212460,
+      "sha256": "60b35bb2f194b44144d2009827460b469802d4c52321d8d2bfa87ffea07553e1",
+      "originalBytesUnchanged": true,
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "vp9",
+            "codec_long_name": "Google VP9",
+            "profile": "Profile 0",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "vp09.00.30.08",
+            "width": 392,
+            "height": 852,
+            "coded_width": 392,
+            "coded_height": 852,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "98:213",
+            "pix_fmt": "yuv420p",
+            "level": -99,
+            "color_range": "tv",
+            "color_space": "bt470bg",
+            "chroma_location": "center",
+            "field_order": "progressive",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/1000",
+            "start_pts": 40,
+            "start_time": "0.040000",
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "eng",
+              "ENCODER": "Lavc62.28.102 libvpx-vp9",
+              "DURATION": "00:00:11.760000000"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/user/wedding/ccj/docs/game-review/after-batch-c-review/f12-booth.webm",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "matroska,webm",
+          "format_long_name": "Matroska / WebM",
+          "start_time": "0.040000",
+          "duration": "11.760000",
+          "size": "9212460",
+          "bit_rate": "6266979",
+          "probe_score": 100,
+          "tags": {
+            "ENCODER": "Lavf62.12.102"
+          }
+        }
+      },
+      "fullDecodeExitCode": 0,
+      "fullDecodeStderr": "",
+      "reencodedForReview": false,
+      "remuxedForReview": false,
+      "trimmedForReview": false
+    },
+    {
+      "path": "f12-bridal.webm",
+      "bytes": 7618128,
+      "sha256": "b1e620bacb90b24ef72966628abae7f9c92b95d89f5dcd3d57143e585939f27a",
+      "originalBytesUnchanged": true,
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "vp9",
+            "codec_long_name": "Google VP9",
+            "profile": "Profile 0",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "vp09.00.30.08",
+            "width": 392,
+            "height": 852,
+            "coded_width": 392,
+            "coded_height": 852,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "98:213",
+            "pix_fmt": "yuv420p",
+            "level": -99,
+            "color_range": "tv",
+            "color_space": "bt470bg",
+            "chroma_location": "center",
+            "field_order": "progressive",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/1000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "eng",
+              "ENCODER": "Lavc62.28.102 libvpx-vp9",
+              "DURATION": "00:00:12.960000000"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/user/wedding/ccj/docs/game-review/after-batch-c-review/f12-bridal.webm",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "matroska,webm",
+          "format_long_name": "Matroska / WebM",
+          "start_time": "0.000000",
+          "duration": "12.960000",
+          "size": "7618128",
+          "bit_rate": "4702548",
+          "probe_score": 100,
+          "tags": {
+            "ENCODER": "Lavf62.12.102"
+          }
+        }
+      },
+      "fullDecodeExitCode": 0,
+      "fullDecodeStderr": "",
+      "reencodedForReview": false,
+      "remuxedForReview": false,
+      "trimmedForReview": false
+    },
+    {
+      "path": "f11-applause.webm",
+      "bytes": 4967380,
+      "sha256": "3772410bebe6e5223800cd82c0dea3371be4be3ba9bc46dc0f0cb541ee78fc51",
+      "originalBytesUnchanged": true,
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "vp9",
+            "codec_long_name": "Google VP9",
+            "profile": "Profile 0",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "vp09.00.30.08",
+            "width": 392,
+            "height": 852,
+            "coded_width": 392,
+            "coded_height": 852,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "98:213",
+            "pix_fmt": "yuv420p",
+            "level": -99,
+            "color_range": "tv",
+            "color_space": "bt470bg",
+            "chroma_location": "center",
+            "field_order": "progressive",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/1000",
+            "start_pts": 40,
+            "start_time": "0.040000",
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "eng",
+              "ENCODER": "Lavc62.28.102 libvpx-vp9",
+              "DURATION": "00:00:11.320000000"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/user/wedding/ccj/docs/game-review/after-batch-c-review/f11-applause.webm",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "matroska,webm",
+          "format_long_name": "Matroska / WebM",
+          "start_time": "0.040000",
+          "duration": "11.320000",
+          "size": "4967380",
+          "bit_rate": "3510515",
+          "probe_score": 100,
+          "tags": {
+            "ENCODER": "Lavf62.12.102"
+          }
+        }
+      },
+      "fullDecodeExitCode": 0,
+      "fullDecodeStderr": "",
+      "reencodedForReview": false,
+      "remuxedForReview": false,
+      "trimmedForReview": false
+    },
+    {
+      "path": "f11-cheer.webm",
+      "bytes": 5420198,
+      "sha256": "51ed6618b10f8bbd307085b0c5ba5301ef4d8133d62bf7e32250ba0d15525102",
+      "originalBytesUnchanged": true,
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "vp9",
+            "codec_long_name": "Google VP9",
+            "profile": "Profile 0",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "vp09.00.30.08",
+            "width": 392,
+            "height": 852,
+            "coded_width": 392,
+            "coded_height": 852,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "98:213",
+            "pix_fmt": "yuv420p",
+            "level": -99,
+            "color_range": "tv",
+            "color_space": "bt470bg",
+            "chroma_location": "center",
+            "field_order": "progressive",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/1000",
+            "start_pts": 40,
+            "start_time": "0.040000",
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "eng",
+              "ENCODER": "Lavc62.28.102 libvpx-vp9",
+              "DURATION": "00:00:14.680000000"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/user/wedding/ccj/docs/game-review/after-batch-c-review/f11-cheer.webm",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "matroska,webm",
+          "format_long_name": "Matroska / WebM",
+          "start_time": "0.040000",
+          "duration": "14.680000",
+          "size": "5420198",
+          "bit_rate": "2953786",
+          "probe_score": 100,
+          "tags": {
+            "ENCODER": "Lavf62.12.102"
+          }
+        }
+      },
+      "fullDecodeExitCode": 0,
+      "fullDecodeStderr": "",
+      "reencodedForReview": false,
+      "remuxedForReview": false,
+      "trimmedForReview": false
+    },
+    {
+      "path": "f15-reception.webm",
+      "bytes": 10893132,
+      "sha256": "11eaf366c8e1c855286d4066601fbf0123add5bf3baa684ea793fdcf505bf98e",
+      "originalBytesUnchanged": true,
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "vp9",
+            "codec_long_name": "Google VP9",
+            "profile": "Profile 0",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "vp09.00.30.08",
+            "width": 392,
+            "height": 852,
+            "coded_width": 392,
+            "coded_height": 852,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "98:213",
+            "pix_fmt": "yuv420p",
+            "level": -99,
+            "color_range": "tv",
+            "color_space": "bt470bg",
+            "chroma_location": "center",
+            "field_order": "progressive",
+            "r_frame_rate": "25/1",
+            "avg_frame_rate": "25/1",
+            "time_base": "1/1000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "eng",
+              "ENCODER": "Lavc62.28.102 libvpx-vp9",
+              "DURATION": "00:00:16.320000000"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/Users/user/wedding/ccj/docs/game-review/after-batch-c-review/f15-reception.webm",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "matroska,webm",
+          "format_long_name": "Matroska / WebM",
+          "start_time": "0.000000",
+          "duration": "16.320000",
+          "size": "10893132",
+          "bit_rate": "5339770",
+          "probe_score": 100,
+          "tags": {
+            "ENCODER": "Lavf62.12.102"
+          }
+        }
+      },
+      "fullDecodeExitCode": 0,
+      "fullDecodeStderr": "",
+      "reencodedForReview": false,
+      "remuxedForReview": false,
+      "trimmedForReview": false
+    }
+  ],
+  "sourceRecorded278HashesMatch": true,
+  "rawReportSummaryReconciliation": "reporter-recheck.json",
+  "rawReportersUnmodified": true,
+  "all21OriginalExecutionLogsIncludedUnmodified": true,
+  "all13ErrorContextsIncludedUnmodified": true,
+  "traceDiagnosticsVerifiedAgainstOriginalZIPMembers": 61,
+  "parseableJSONFilesBeforeFinalManifests": 79,
+  "noMissingRequiredArtifacts": true,
+  "sourcePreservation": "preservation-check.json"
+}

@@ -1,0 +1,1018 @@
+{
+  "HEAD": "a2a31405940560e169c819ee0f2677f073ccba40",
+  "dirtyWorkingTree": true,
+  "previousReview": "hall-overlay-refinement/source-fingerprint.json",
+  "changedExistingFiles": [
+    "game/e2e/review-batch-b-guidance.spec.ts",
+    "game/e2e/story-choice-layout.spec.ts",
+    "game/src/scenes/SubwayRouteScene.ts",
+    "game/src/style.css",
+    "game/src/ui/StoryDialog.ts"
+  ],
+  "newSourceFiles": [
+    "game/e2e/route-tried-disabled.spec.ts"
+  ],
+  "files": [
+    {
+      "path": "game/e2e/avatar-alpha.spec.ts",
+      "sha256": "e198136b91505594062fc38bf34680d3b28c55d9f7704d2311fa5e84463577d0"
+    },
+    {
+      "path": "game/e2e/canvas-centering.spec.ts",
+      "sha256": "76d964d5586d15fedad26d611c666791d5700b11735e35678a807732314e9ed1"
+    },
+    {
+      "path": "game/e2e/car-guidance-reference.spec.ts",
+      "sha256": "7a1c2ee920f650e7db1910789b207c2a1017a901a50dfab444db07ba4d5cf4fe"
+    },
+    {
+      "path": "game/e2e/corridor-observables.ts",
+      "sha256": "05b6a017405fb4eb65aa35e6ace1ca21859a67218f4ade4a4d523eb61c785d94"
+    },
+    {
+      "path": "game/e2e/current-journey.spec.ts",
+      "sha256": "edc188c26ee20a9928ec85587a6b31d576ae41c0669ae87a09a457357c22f921"
+    },
+    {
+      "path": "game/e2e/dinner-pacing.spec.ts",
+      "sha256": "a7234be78198450b589e5adcc95a6a0d89039f3ccc8d504b94bfd5d80ff95a77"
+    },
+    {
+      "path": "game/e2e/hall-go-guidance.spec.ts",
+      "sha256": "52857eba6260331532836e311db4d035b4ad8894d233046a3573ad98c12c42fd"
+    },
+    {
+      "path": "game/e2e/hall-greeting-lifecycle.spec.ts",
+      "sha256": "28d4caddfcbe2dc36dfbe5c5e744a4ebad6a0ebc85caaba260bd864d10532c3c"
+    },
+    {
+      "path": "game/e2e/hall-overlay-layout.spec.ts",
+      "sha256": "1e8182d2d262fe7a828884068ff30dfc4a638f677ff5dbd1d8a3b07136e3afb5"
+    },
+    {
+      "path": "game/e2e/invitation-details.spec.ts",
+      "sha256": "e551f3650b56589a8d52e1bdf31f01d188cc18beb4c5d1c0474dc8075e4ed20c"
+    },
+    {
+      "path": "game/e2e/invitation-notices.spec.ts",
+      "sha256": "bef6ef7773e49910f1a47fa575855461fffdc040e1db318a33a92983336f3a10"
+    },
+    {
+      "path": "game/e2e/invitation-redesign.spec.ts",
+      "sha256": "aabf6386dfbfcecd104b6fa3754e597768128b4da4ef8833027ffbd9b4d9b56f"
+    },
+    {
+      "path": "game/e2e/invitation-sharing.spec.ts",
+      "sha256": "c1f5b45f69bf16bb5f45b250027a79367a95cb4547c9c44519be57ef90342633"
+    },
+    {
+      "path": "game/e2e/invitation.spec.ts",
+      "sha256": "fb4aed47af90ac8ed34378944f7ee46e418aefb99ef8310fa8096dc3fc885001"
+    },
+    {
+      "path": "game/e2e/lobby-info.spec.ts",
+      "sha256": "6eb55d3031face1d40c9c723b6dbe935bcb6eab8fb339d4e4e0982aa77194c8a"
+    },
+    {
+      "path": "game/e2e/lobby-required.spec.ts",
+      "sha256": "8e3c9b14447f743a36b180e56de1f3ab5dda94b065ca6a8499bed80849809c9e"
+    },
+    {
+      "path": "game/e2e/lobby-return.spec.ts",
+      "sha256": "fdc0ec8f98c3e7cd284f364eaa6c57adf94af88da895dd7181810f6a68c39f59"
+    },
+    {
+      "path": "game/e2e/minimi-customization.spec.ts",
+      "sha256": "c3fb5cf672003514eeda9122adc44975a9ecff43d3067c0b7263e1447dcf5abd"
+    },
+    {
+      "path": "game/e2e/minimi-jaw.spec.ts",
+      "sha256": "668009050c04f9ea8b18bdf7d6ec1916a9426e2d12ea49804b2ecf7112da6334"
+    },
+    {
+      "path": "game/e2e/minimi-neck.spec.ts",
+      "sha256": "b165be1143353c94070a9ab9c287dc026fbbd682ba4d99aaf982cd97a9d2d343"
+    },
+    {
+      "path": "game/e2e/minimi-visual.spec.ts",
+      "sha256": "ac2277ea65e68d54eaa0148eb1d8108c7ed5b0417003a13f0db6407f5674cef7"
+    },
+    {
+      "path": "game/e2e/photo-gallery.spec.ts",
+      "sha256": "1845659f875405753b1f440db2f30fecbc4a4e47dfec4fa479aa9fc934732169"
+    },
+    {
+      "path": "game/e2e/reception-only.spec.ts",
+      "sha256": "70947b18f357ced189e1063d884f1e4f8f218b96c500d871788d0334f50842ad"
+    },
+    {
+      "path": "game/e2e/review-batch-a.spec.ts",
+      "sha256": "74d64065b3c922f5172a863ce48451cae230fbab5a5e9975a8a587403e0609b9"
+    },
+    {
+      "path": "game/e2e/review-batch-a1.spec.ts",
+      "sha256": "d8dea7efed8b9fd09ea9188626983b64a72da1a27306d0efc15041a353e4ab41"
+    },
+    {
+      "path": "game/e2e/review-batch-b-access.spec.ts",
+      "sha256": "234c5a044b02b423a39aec0805aaa5625faa4bcc33c291f5128bac4fddff1d52"
+    },
+    {
+      "path": "game/e2e/review-batch-b-floor.spec.ts",
+      "sha256": "a57c132b0942f726bf4f12a0f22abb97bc7340c0eccebaf1ddd33ed8b990024d"
+    },
+    {
+      "path": "game/e2e/review-batch-b-guidance.spec.ts",
+      "sha256": "cacf1f8eae698bcdf5bb520df685cc93eb47fdc14bcadffb37e10c06871ff35e"
+    },
+    {
+      "path": "game/e2e/review-batch-b-performance.spec.ts",
+      "sha256": "b3b98b7dcd60e00a75a8f080544de3309db444ceb8b9b635530ca531cde579ee"
+    },
+    {
+      "path": "game/e2e/review-batch-c-ceremony.spec.ts",
+      "sha256": "3ac58a615223597e4abc10153f2ab668954735d5a38021bbefadd98a87a0d53f"
+    },
+    {
+      "path": "game/e2e/review-batch-c-photos.spec.ts",
+      "sha256": "09b629bca6387260d8058e8b516411f600bfa1ca95ca643ff938616a788fc7b9"
+    },
+    {
+      "path": "game/e2e/review-batch-c-reception.spec.ts",
+      "sha256": "82d7bd9e28ee13b7becb13619bb265664e6d3c4b71e8ac05cb2c03ff10882ce4"
+    },
+    {
+      "path": "game/e2e/review-batch-d-animation.spec.ts",
+      "sha256": "306d7c6a417629ae4a90bc8476a6e4f620cbeaa1ec88d3e6b616df499e3e03b5"
+    },
+    {
+      "path": "game/e2e/review-batch-d-assets.spec.ts",
+      "sha256": "63eef5631c04d8b13ad8ace3c615fc9fbd285510009b3638eba478b8e53aace3"
+    },
+    {
+      "path": "game/e2e/review-batch-d-checkpoint.spec.ts",
+      "sha256": "5653716d75edf61b636f86a29dc5c7fb7df50f0d65908edd99426a0246500504"
+    },
+    {
+      "path": "game/e2e/review-batch-d-frame.spec.ts",
+      "sha256": "9d884bf0d597a220732b0862632bdea0f315de2af16a4649debf566d276e4f84"
+    },
+    {
+      "path": "game/e2e/review-batch-d-input-motion.spec.ts",
+      "sha256": "79fe55dd2e98009a33d0fb4f32576a3ccee9c4108b4b4c33c906449dc24d3a62"
+    },
+    {
+      "path": "game/e2e/review-batch-d-production.spec.ts",
+      "sha256": "9c4be718570c0cd48dce369b31dafebd134bc47510689ffd4833353ea22eb948"
+    },
+    {
+      "path": "game/e2e/review-batch-d-resources.spec.ts",
+      "sha256": "4b94f309a55209fc8707c857f5f48dd8f9c0b327f6d54b739ac4389fca69d289"
+    },
+    {
+      "path": "game/e2e/review-batch-d-venue.spec.ts",
+      "sha256": "39860c751a87b95e6bd4a923af53140d4ae82fb06b1c64b02f588bd3e9b41618"
+    },
+    {
+      "path": "game/e2e/review-evidence.ts",
+      "sha256": "2a51b465e2497d7649fb43a3e0a95582f1f42b3e6494e1d06089f6659b4b066f"
+    },
+    {
+      "path": "game/e2e/review-minimi-fix.spec.ts",
+      "sha256": "c095510f7642426761639b1f620b445477fa1006980c7eb4ede1dade7d030d9a"
+    },
+    {
+      "path": "game/e2e/review-minimi-flow.spec.ts",
+      "sha256": "62ba4aca551a091642fb5e30d053a9498304207a8d2a82d1686f115473c5b041"
+    },
+    {
+      "path": "game/e2e/review-minimi-motion.spec.ts",
+      "sha256": "2a5c6058b87ce2e8638320931d5279b1226fad134252d9ad711e19db97b37bfb"
+    },
+    {
+      "path": "game/e2e/review-neck-loading.spec.ts",
+      "sha256": "ae124d2d7e7638d009fafc93d05c21028de786f0063d4a6fd5c7b8b023f7c4ed"
+    },
+    {
+      "path": "game/e2e/review-silhouette-ux.spec.ts",
+      "sha256": "ddce546ae7ec429357d315cdf4b42e851bcf939c687ba6c8d25fdcb07703cfc6"
+    },
+    {
+      "path": "game/e2e/review-touch-refinement.spec.ts",
+      "sha256": "403430d5ff5ca8cc6257b5977aaa3c8fec72e58acde92494c50aed8866b7dc1a"
+    },
+    {
+      "path": "game/e2e/route-tried-disabled.spec.ts",
+      "sha256": "5b613456a2fdf5e1ca89d7c61855edf0937539106a5189aac776014458afef18"
+    },
+    {
+      "path": "game/e2e/smoke.spec.ts",
+      "sha256": "dbe48b897525ca0f5c1c0d5a3a4d2502ca84583fda2365cf1ca7255a503b4ac3"
+    },
+    {
+      "path": "game/e2e/stage-fixtures.ts",
+      "sha256": "9a4cdb77d2b9888d3a988ee0600c7b6c8947e267367376c633706f8a8748655f"
+    },
+    {
+      "path": "game/e2e/story-choice-layout.spec.ts",
+      "sha256": "2ddeeb443c861fa45a40e5de0f6b7b03805e2b0c95db34adcc06493b546ccd9b"
+    },
+    {
+      "path": "game/e2e/story-choice-width.spec.ts",
+      "sha256": "ed530f4a402233cb7e708a46c5ef1f528879f181a8dbc851d1f71e9e7eb7220f"
+    },
+    {
+      "path": "game/e2e/story-helpers.ts",
+      "sha256": "f6741306b712148d19974dc6c9bac1d12cc80a11b26660cbef4863a8d51684be"
+    },
+    {
+      "path": "game/e2e/story-routes.spec.ts",
+      "sha256": "2bd4d14c8177464c6c5ae18b3032e660ddc622e99967d8a88b370a4012fbaeb1"
+    },
+    {
+      "path": "game/e2e/tap-pacing.spec.ts",
+      "sha256": "9eb02c72a625ec75641affb27c77fcb5c2a93f0560bd905f8df9224d580f9db0"
+    },
+    {
+      "path": "game/e2e/venue-rooms.spec.ts",
+      "sha256": "f2f5ffc71a6b4ad7f2858361bf2fa12d2e05e8373be6fffa2f62cb6b90dee6b3"
+    },
+    {
+      "path": "game/e2e/walk-path.spec.ts",
+      "sha256": "bed2cb557db8b9e7797cca2344ab07ba8a7f8376f97ee66c002ce44171fcb3d7"
+    },
+    {
+      "path": "game/e2e/wedding-group.spec.ts",
+      "sha256": "b458b1525227adcf049dd8b28db5fa351e118c494bbe80327f4122bcfa095360"
+    },
+    {
+      "path": "game/public/assets/invitation/calendar.jpg",
+      "sha256": "4d457946a70544364f7414615fe5bdfb8a74fe429d5929fc9f78dc71dd65c049"
+    },
+    {
+      "path": "game/public/assets/invitation/chrysanthemum.png",
+      "sha256": "ca1c5b322753942b76f246eea9f28b5564ba1aa6d646eb7cbeac58013db280ef"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-01.jpg",
+      "sha256": "0b4c5fe5d0e86b3c7af9ad2c6bf506650856fa78ac1e710449d12e102bdd05b3"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-02.jpg",
+      "sha256": "b2f25bfb811b254f461c0059d0c10ab934fe16d7f9a8e9c52354bbcef67b50d9"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-03.jpg",
+      "sha256": "ffc8a90dff4b04d4dbca4720491e85e8e95e6e56460ff78e79628ef65b839dbb"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-04.jpg",
+      "sha256": "a294fc8e2e12d39f043a809bb5ecf7cad0da6708f704b316ac65eb407df75c89"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-05.jpg",
+      "sha256": "f0c2982f12ece1de85fd85b6d3dd3f2e25fa126153a5257216385396bcde0b80"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-06.jpg",
+      "sha256": "dad92b1062c09ae70db38f644128d5622f7fdef622b4cb076f80953de335f5c1"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-07.jpg",
+      "sha256": "41986f7404605ef71d8ad2eb7d525df0698ff051ebc7a953d72885b8adda6b8f"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-08.jpg",
+      "sha256": "8ecbe39c62f6ebb5b7a359d9f01b8b8685431994c40dc931419c6167531dc601"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-09.jpg",
+      "sha256": "04466428a65f75a33c1f8894594305ada81c8f8a7934cceceeea21f5fd0f1378"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-10.jpg",
+      "sha256": "0b5469c9350bf9e28b0ce06c951fe5be2eab4632ea07b0bc85a98e8f88de4fa9"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-11.jpg",
+      "sha256": "8f51860e940db61b4f1b4314d234dfa6ab7f8b07f49e0c2a547675574d953662"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-12.jpg",
+      "sha256": "a27289b446e67eca62bc20f1861aebf2ecf0cdc4acc2eb5b5751e65009f8deef"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-13.jpg",
+      "sha256": "7a87c9dd4d6407b0de4db88bd1cb8a824032d183e0fde3192f074367eb4fa7aa"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-14.jpg",
+      "sha256": "7d7c13e30996532ee53ec6b516eb08da90e591afbd1a0507cae532b43b0ef0e5"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-15.jpg",
+      "sha256": "c18335f559214563b2fb8fcf557b97db01ab40b685b91f81dcc6ef89b4b09cc4"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-16.jpg",
+      "sha256": "c5909247ec6f49d99dd0cc3ae1e22e620863617b9c851b2aedfcbc100faf6c1b"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-17.jpg",
+      "sha256": "c7613d4987322c3d3897e1cce8de0c056e3b5d1c3b2b8f7cb25ab86ea8e89f5c"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-18.jpg",
+      "sha256": "65958b6cfb4dc992b227a2490a899cc01a9104c6524e1337f718c59ad9d17f9a"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-19.jpg",
+      "sha256": "67901055e3682cae4e9e2f15216f4059cc0bd9a3fd46c45aefd9c0f8dedf6acb"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-20.jpg",
+      "sha256": "0b47d0755d38ade93a4751012674a4e53c2ab851a596d6ab6b840c1df6c2392c"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-21.jpg",
+      "sha256": "a31e910e9558c1e33342ade2235e6369926633ff844610902957dbd3151d7ea6"
+    },
+    {
+      "path": "game/public/assets/invitation/gallery-22.jpg",
+      "sha256": "983ba6ff510968d9912e1a07c65efaecfd94f02d477ee7d7efd7ca6218af5eaa"
+    },
+    {
+      "path": "game/public/assets/invitation/information.png",
+      "sha256": "f07eaf393761f5ce8101f78d3daa40a6a1d60db3c43c78b79383ee822eaed83d"
+    },
+    {
+      "path": "game/public/assets/invitation/intro.jpg",
+      "sha256": "a4c5be47d495a44ad22bb49be4ef7c62998aa6c6da4dcf4c51f3c3c41f8fe1d6"
+    },
+    {
+      "path": "game/public/assets/invitation/notice-atm.jpg",
+      "sha256": "575081529fc274d76d0ddaa05b5b19cf2e88c3b11399b1e13a77269a9d86270b"
+    },
+    {
+      "path": "game/public/assets/invitation/notice-banquet.jpg",
+      "sha256": "27beeae3a580455e57d794a224e365b88e29d9ace390888c794aa655138ea8f4"
+    },
+    {
+      "path": "game/public/assets/invitation/notice-photo-booth.jpg",
+      "sha256": "93a3865896dbee914091454817e9792f731e9cad7647a68402088f047e8b2aa7"
+    },
+    {
+      "path": "game/public/assets/invitation/notice-welcome.jpg",
+      "sha256": "4ce7c87fe2f43ff286d8f7d253ce5bdecf01a2bc1c711feea5bc6a22a8b7a755"
+    },
+    {
+      "path": "game/public/assets/invitation/share-pixel-square-v2.png",
+      "sha256": "bd7f383e058c4457475ada4abcdb3eec73cb06c3a19948e25e2131a2a21579d9"
+    },
+    {
+      "path": "game/public/assets/invitation/share-pixel-wide-v2.png",
+      "sha256": "553e95770f50a88125856b5d8562ead34827c1b7729e65620003b9ef556df748"
+    },
+    {
+      "path": "game/public/assets/invitation/shuttle-pixel-matte.png",
+      "sha256": "de922e356be0a4a83980cb3a7fa51d8b4647c5fa20b8bd976256f9d029a7ff85"
+    },
+    {
+      "path": "game/public/assets/invitation/timer.jpg",
+      "sha256": "03817e97d9bf7f7412d05de1d573dedb6533edb8c94463057a464bbb5080ab95"
+    },
+    {
+      "path": "game/public/assets/invitation/venue-directions.jpg",
+      "sha256": "0db6e293c57f770ce0511696fa6ed21e296bf90ded324eae149dc655050b601e"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/npc-bride.png",
+      "sha256": "7d7ea5964b8a982f101487f6dc429ff9d7ef1706760f08ae6256d40b192d32ea"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/npc-groom.png",
+      "sha256": "414b2837d7fe7f4e086e2ed22f8baa926bac6f63c924a67b317353dbc78bf0af"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/npc-guide.png",
+      "sha256": "c0d4f8e3a9825e9b3ae8f50d8c6f436b540e573e10e9bd8b98a4a7562f7cb51f"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/npc-reception.png",
+      "sha256": "f430bb6a6aa4c38fd5005984a1dbf3ad1a0ee5705a921adeeb3a0d20f5606f7e"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/player-guest.png",
+      "sha256": "8083a16f51ad2c9762c23097939ce064973c29e53b3677b04ca8c51a76f533d0"
+    },
+    {
+      "path": "game/public/assets/lacitta/fonts/Galmuri11.woff2",
+      "sha256": "51a59c70b4b0ac05c6f6a8a53181e0d1b1f2ccd227ebfb829500670a2e2b45e3"
+    },
+    {
+      "path": "game/public/assets/lacitta/licenses/Galmuri-OFL.txt",
+      "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/bridal-room.jpeg",
+      "sha256": "acb8e9ec4bcfecd559f1be95b43c6d2350392e3cfe91f15aa851ca2d9bfae69d"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/car-background.png",
+      "sha256": "749143eb351aba67b46401d63cd53bf5fa89b2a7fa67f6d5cad31ea6823d12c5"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/car-choice.png",
+      "sha256": "4da339daa6b16a84cd5297c0c6d209f36410d18a8366b9b0429e2c63ea527d08"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/exit-sign.png",
+      "sha256": "39dddc783b7fdeb63c764d0ceb62f523dee1e2789df53ce2bd28849758d52d6d"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/home-background.png",
+      "sha256": "aa985d20424b40124291c839d244b1c4ab2885b62252038f58600c4e12f8f8b4"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/shuttle-bus.png",
+      "sha256": "d308444673010a6ca051913e1c69058ac8ba2fb25adcf219ac7ff225b12a8110"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/subway-background.png",
+      "sha256": "e55056a0429d2582da74f4a4cba7f6e113dbe75d63bcec1c9c94ff24b36cf43f"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/subway-choice.png",
+      "sha256": "315c3b83fa6d1b2745577529bd76713aa6460689095d53519cbe113aec5e7f64"
+    },
+    {
+      "path": "game/public/assets/lacitta/share/og-lacitta-wedding.png",
+      "sha256": "1e18dd59da0e7829c119fe25b1c1ba7672e45164a576f39787bce13c41176a07"
+    },
+    {
+      "path": "game/public/assets/lacitta/ui/arrow-marker.png",
+      "sha256": "415329bf3aa0ea9ee681ad5ac7678344138e9f66f6fe7d6b27e61818acd57cb7"
+    },
+    {
+      "path": "game/public/assets/lacitta/ui/dialog-panel.png",
+      "sha256": "e25f3453d4c816bb446b382a87bc3d8034c34aac3655f43f5804b6ab72ccea3a"
+    },
+    {
+      "path": "game/public/assets/lacitta/ui/guide-marker.png",
+      "sha256": "4f52d4a095916792caeeb3529bf10ff8864343c8d9068f9026d6192eb02a1685"
+    },
+    {
+      "path": "game/public/assets/lacitta/ui/hint-button.png",
+      "sha256": "23427a4bb80c987a83dd6446c9baf1505fcc9085e2161efef27346ad6daccf27"
+    },
+    {
+      "path": "game/public/assets/lacitta/ui/loading-accent.png",
+      "sha256": "735a248b20157d959c7e8ec3554afd7c469938b456dd2d30405f62aeb019b46a"
+    },
+    {
+      "path": "game/public/assets/lacitta/ui/quiz-frame.png",
+      "sha256": "fbd648b4a02bec64f90fd41867944f7b779b88e864d9044b7cca72813809062d"
+    },
+    {
+      "path": "game/public/assets/lacitta/ui/route-sign.png",
+      "sha256": "e84d0862e2b1e1ff2775db8387779b23b2ca14d7478da32a2854caa209383dea"
+    },
+    {
+      "path": "game/public/assets/lacitta/ui/touch-button.png",
+      "sha256": "f4707c831d57342524829d69907759869005a5e00e5d18c69b390a49a30884b9"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/banquet-background.png",
+      "sha256": "227044c5955040e77b50b18357136adf83185728f5b1bd75ef799e2ea010ba82"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/bridal-room-background.png",
+      "sha256": "3ef5b0969acafa41fd91767d58ebe1bd84a256137788c1029bbd4c1b9b0013d6"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/buffet-island.png",
+      "sha256": "1eb27f1bec736bc0c87b3627e94129993b3179dc07a8950fc48b7c230f8febd1"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/drinks-station.png",
+      "sha256": "11001eeaed8517ed871d7e5737d347ef789edb696dde91eabe954f15a05d1ee9"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/ending-background.png",
+      "sha256": "33ab091ff2b5f1f1527df0b631610b180009cb068c1a05d83a508a6fb3fc3577"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/greenery-corridor-background.png",
+      "sha256": "7c88a0c62b23485ff5214b28502cdd5e1178d28f00c2dc82ca481ed501ae631c"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/hall-background.png",
+      "sha256": "07a8fb4fa49b69e7795e2fbe089f7693733e45c6f7b5117f82b6b670972bf1d6"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/lobby-background.png",
+      "sha256": "5b54ff149737876b3da66a332de768bf2b6eb397837147af1e99a1bf3c08341f"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/photo-booth.png",
+      "sha256": "6661d21b1142a9ecb963a5414f747188513fdb5667b4f08a9e3dd7e19b6fb5f0"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/photo-room-background.png",
+      "sha256": "5901ba24e9ecbea19ad53771eafa896175a6c4899c841475b24c45a619b0cdcb"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/photo-table.png",
+      "sha256": "c795a902f5279882269d2916808f9d10c8371cad5e72545ae81e24dad3442d3a"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/reception-desk.png",
+      "sha256": "c56f293589ded64617e869d348ce7484acb714db53fbc4bf535a0e591ed91a4f"
+    },
+    {
+      "path": "game/public/assets/lacitta/venue/waiting-room-background.png",
+      "sha256": "d8054aa3cbf879f59941b1eb14d99b39e8e375d6a6b7fc98ab37f6781dcd1e9e"
+    },
+    {
+      "path": "game/public/assets/optimized/gallery-01-game.jpg",
+      "sha256": "d1a2bb9b6b8779591287f07f034fe78a465e0dc331f54bd405eb0fa2085ea20d"
+    },
+    {
+      "path": "game/public/assets/optimized/gallery-02-game.jpg",
+      "sha256": "b1a7d654b1c06c5cd70f2bc7f16eb04570cc05a70a3a5b0ba32388c1fdbee75e"
+    },
+    {
+      "path": "game/public/assets/optimized/gallery-03-game.jpg",
+      "sha256": "27067642bbe13723f2bc2fe19857643f8b8fe580514314a920704cb914a86ba7"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-extra-outfits-female-gray.webp",
+      "sha256": "4e2b7ea395aa1ea97c1fbca8496c9adc390c62e86f4c3dca91b76671f77fc4dd"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-extra-outfits-female.webp",
+      "sha256": "de7ad8f64ad714f3c86ed2dd27f4ac9650332d98cf94a43ad958c99d849b1f81"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-extra-outfits-male.webp",
+      "sha256": "074d76607b3669502b4476188774f092a9a16e33d69294a374fc46d81bbde819"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-formal-guests.webp",
+      "sha256": "218ae9da932b9ca6dff9335be5b131bea71eec833f5676c3cb7c9d0f0016297f"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-minimi-hair.webp",
+      "sha256": "14b027836aa7982021da7b1a4a3a4738f31a4d2e8dc4c7c39d595e397af3797a"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-outfits-female.webp",
+      "sha256": "cf7181d2df8805a8ef237149ddc0d81f032d9564d053fb8184cf0548b21963fe"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-outfits-male.webp",
+      "sha256": "8b29dab1449f7bb8e35ec07205690193d1537a84784c4f5c37e87c4fe0f5e339"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-parents.webp",
+      "sha256": "0cb96e7828cc9845881d8f91b409ce6e47865160be9726b557a7cc2406cb9dc0"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-sixth-outfits-female-black.webp",
+      "sha256": "f131a8b4dc681898ac699ca786a8c83e5f231d734e14b063efa4d9a6795a0799"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-sixth-outfits.webp",
+      "sha256": "43e28c2ddca373be3497e88e586ff9dbe7783773c51c422c66daa3bca94e6578"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-wedding-couple.webp",
+      "sha256": "9708fe5124abe1fe4787812f4217797f734609feb55610e354e5cd004b4760fb"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-characters-white-car.webp",
+      "sha256": "39fec34862d811404632a803a0bc944e6d626b066a104ae63e314c95d7790023"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-food-buffet-left.webp",
+      "sha256": "b3f3b9a8fdb043a123866e0c498a10337296baf537e415af105aa2b15550096c"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-food-buffet-right.webp",
+      "sha256": "69a7841a5d87fbe425ae6d50ed003222f302588799d7c6bb15b11f52909ebf2d"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-banquet-corridor.webp",
+      "sha256": "c88787a3899583a3767f7b426ca2211b06690e67160e90818b49696d3b5a5b06"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-banquet.webp",
+      "sha256": "5b22d1c51deb101876e17d18d266f82914e21e986b6b1c84474eadefbc462b66"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-bridal-room-white.webp",
+      "sha256": "2083f480501eb8358cbd8eeb82632100bb9a3d9b55915a37dcdbb20f9ddafc27"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-garden.webp",
+      "sha256": "bad2c802bdd0a448b6cdb5c42db4cba7e597deaaab7775375a6893d814e70b5f"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-group-photo-portrait-v3.webp",
+      "sha256": "bf8cb787027ec2a1008b3a465c49bad219fbbf17a5eaa5207c8fc5f22604ce8a"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-group-photo-stage-v4.webp",
+      "sha256": "0143a96ef5c789fa8289c1900aafb6e09b462a29ccdd7d0938415dccb6f9fd10"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-hall.webp",
+      "sha256": "77b090421b5ce80c267b3dc9589c6c204566ebb2abb82aea5f27dfd3aaef2d1d"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-lobby.webp",
+      "sha256": "2732407e880fb1b8d4c561cbab62268f20e1818268e6b6922b426e3c9ff50b21"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-photo-booth.webp",
+      "sha256": "5d2f01ad9ae4039744c4abd731ebfdf694b1c3dbd833980302a281c7dfb0c24e"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-reception-family.webp",
+      "sha256": "f83c6807d1cfb2b2dfe0ad6d86fd828a5fc45805e1bd894f429f5c3e96a8921f"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-pixel-venue-shuttle.webp",
+      "sha256": "90a756ecca831d705649b976d37f1f3c51cd9cadf0a7bfc814746caed2c229fd"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+      "sha256": "b86da40f26958b5532e2da69674a8a8754a03f4de62563bbba1aca9b34edc89a"
+    },
+    {
+      "path": "game/public/assets/optimized/lacitta-routes-home-ground-v2.webp",
+      "sha256": "cee866980842605860fc6311ab9c5edbea49bd6e83ace93d3394bc059934dabc"
+    },
+    {
+      "path": "game/public/assets/sprites/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "game/public/assets/tiles/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "game/public/assets/ui/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "game/public/share-preview.html",
+      "sha256": "690bff32fb901b1733782209d6b9d7e8685086ec277613f652810be7c9e95dae"
+    },
+    {
+      "path": "game/scripts/import-source.mjs",
+      "sha256": "72aed5e17854e66bb94881d6f1eb3a5d0658b0fade882c133c079a3a12aba800"
+    },
+    {
+      "path": "game/scripts/optimize-stage-assets.py",
+      "sha256": "e6600e1aebdc388bed9d6c080de157564ba9aa3d962f1a2e7112d96e93a4b08e"
+    },
+    {
+      "path": "game/scripts/prepare-minimi.mjs",
+      "sha256": "95ef09d76faa8038740eeb1f9091565bfee367e714d443ed9aa48830d0734cea"
+    },
+    {
+      "path": "game/scripts/qa-asset-loading.mjs",
+      "sha256": "952cc3f2b3b6afc6b175ac0af8fad63da22a4f4f103b4829a1dfde3d19dfb321"
+    },
+    {
+      "path": "game/scripts/reconcile-review-tests.mjs",
+      "sha256": "583e20d43ba8e8a530b0f5115534553fd397cceea6d9a3b4ffe482a310fa0ecb"
+    },
+    {
+      "path": "game/scripts/verify-assets.mjs",
+      "sha256": "2f35d3b5c568795f4b26303f42aefb63035bf53bf6a9d65f589f53b27f3e05ee"
+    },
+    {
+      "path": "game/scripts/verify-assets.test.mjs",
+      "sha256": "fccc7167a1db6446fdba04d839cd98124db4c0e3e38b0d0f877913a5f2bee71a"
+    },
+    {
+      "path": "game/scripts/verify-shipping-assets.mjs",
+      "sha256": "0992050ffc37df5aba636b81aef33ed5526ad356797f9fb3faf226002c832905"
+    },
+    {
+      "path": "game/scripts/verify-shipping-assets.test.mjs",
+      "sha256": "a8ff2ce6b3dc23147f896d32386f9da0981375b753020527a6f8f570cd11be4e"
+    },
+    {
+      "path": "game/src/config.ts",
+      "sha256": "724ed18b2fe6c1b7915e37506983ef297649d08abab64fcdea95af5d3b9f8bfa"
+    },
+    {
+      "path": "game/src/data/assetManifest.ts",
+      "sha256": "c255d9db549cc16a50acb354352c18e4008352a826d6fc5fa5ece4951f375328"
+    },
+    {
+      "path": "game/src/data/guestOutfits.ts",
+      "sha256": "f6c843d27614fdf1f3407bcac34c68f3acb371ecede74c22d95bc0384a9b28f1"
+    },
+    {
+      "path": "game/src/data/invitationSource.json",
+      "sha256": "f7edb070c079ac13b9b83b4cced6147168190a24a91d19ecc48f70164f948e5c"
+    },
+    {
+      "path": "game/src/data/layout.ts",
+      "sha256": "8aab7f3455e73f7313ab7665c2de879cd2bcbdcf076ba20c399fa2c4bec14f68"
+    },
+    {
+      "path": "game/src/data/lobbyFloor.ts",
+      "sha256": "b2c0afa34b313c9f8fc22d1e1a3c9f518fb433f06bff3b3da38c5dcd4f8c32f9"
+    },
+    {
+      "path": "game/src/data/photoGallery.ts",
+      "sha256": "69dba0a54bf04d981e2f892ab49459b75d8707c2c08fc4b2b267c18649a1b8a5"
+    },
+    {
+      "path": "game/src/data/runtimeAssets.ts",
+      "sha256": "e661e3b1a7d8bd8b8bfdbf50c743f144214fd02f938e65f93614aef12cf8700e"
+    },
+    {
+      "path": "game/src/data/scenario.ts",
+      "sha256": "d578ee23115d9ddd5cb0dc0450093f918b3dc2212e66f29b9ce1220a3644d8f6"
+    },
+    {
+      "path": "game/src/data/shippingAssets.json",
+      "sha256": "5776824259ba349652d512e7c050b369e90c59dba33033b1d64e1045735d9b24"
+    },
+    {
+      "path": "game/src/data/weddingMetadata.ts",
+      "sha256": "56e1b5091a41f377bd3f64da2c361f89a33ec3d7109165911ddf338df8bfb263"
+    },
+    {
+      "path": "game/src/invitation.css",
+      "sha256": "897349cb0670261659cd1c7e474fd94ca8c6baf39aa18ee1e092980c2f60cad3"
+    },
+    {
+      "path": "game/src/main.ts",
+      "sha256": "dfc049ba89fa8792207268d7384ef6dff3966c5811b95cdb011f049752acda83"
+    },
+    {
+      "path": "game/src/objects/Npc.ts",
+      "sha256": "47105677219e34ccc1563416c4c09dbfbf708963ea160c226a894ac776c5c886"
+    },
+    {
+      "path": "game/src/objects/Player.ts",
+      "sha256": "7a48fc908e271ed4bbaf2005ac7edd1c7db3073faa9ee06ebd79b2c6fefa7f89"
+    },
+    {
+      "path": "game/src/scenes/BootScene.ts",
+      "sha256": "be949b88b7a7d62b6b5ba24595915b82e703a16f49dc198d9642101a75359cd9"
+    },
+    {
+      "path": "game/src/scenes/CarRouteScene.ts",
+      "sha256": "9d57bf8351f82c34d25ef7295b501953e9d77aac72d76d3d136a62c3a727289b"
+    },
+    {
+      "path": "game/src/scenes/DinnerJourneyScene.ts",
+      "sha256": "6eddab0e767fca5156e00896935abb20f2004977c69ab2054c8e69f4be21967e"
+    },
+    {
+      "path": "game/src/scenes/EndingScene.ts",
+      "sha256": "6f88b9f15ac38a66d3179e3dea312f5a8da138f1f243e6210895e4dca8144697"
+    },
+    {
+      "path": "game/src/scenes/GreeneryCorridorScene.ts",
+      "sha256": "d04a04a0a6f3558cf70ebe88d0a6a54576be3213012f11ba1e339cff31bf9c09"
+    },
+    {
+      "path": "game/src/scenes/HomeSelectScene.ts",
+      "sha256": "d8c8ae5ab651621f80a9dec86fafb0031f097230e57b1d68d1f71c38e21b5829"
+    },
+    {
+      "path": "game/src/scenes/IntroScene.ts",
+      "sha256": "0bb5c6c5447c73fecfa251ab99c31b42559afb2009e6681458cf5eb40cb48e6a"
+    },
+    {
+      "path": "game/src/scenes/InvitationScene.ts",
+      "sha256": "d50163c55f61907794d542a48125a033b87631c34741523cdb207591e630b45f"
+    },
+    {
+      "path": "game/src/scenes/ReceptionScene.ts",
+      "sha256": "07c9dd8f32db0d823506091b709e8fd5a170e4fe1a87382ed77514787e8d9afe"
+    },
+    {
+      "path": "game/src/scenes/SubwayRouteScene.ts",
+      "sha256": "ca1d145f1948841bbd3b7467b7668b358a7fcb0fe95ef250daf07baeafd7f7c2"
+    },
+    {
+      "path": "game/src/scenes/VenueHallScene.ts",
+      "sha256": "90c4f6ede83c5030cb48beea135bfddaeae4086d1c39c82a0c750a6a0acf3a6c"
+    },
+    {
+      "path": "game/src/scenes/VenueLobbyScene.ts",
+      "sha256": "d25897d267c972f45ec580159c1df1c76eddf314bc325d3eba2b0ca5fa229897"
+    },
+    {
+      "path": "game/src/scenes/VenueRoomScene.ts",
+      "sha256": "d03fb40fdbda608017f76d6b37a1b9c055941cfd6b4957ab2f1a58752b89e777"
+    },
+    {
+      "path": "game/src/scenes/lobbyArt.ts",
+      "sha256": "e725a4393f99bce4a13853cc50ce2dfa3f82f1932abda0511ac3bdfa0d112ccf"
+    },
+    {
+      "path": "game/src/scenes/lobbyPhotoWall.ts",
+      "sha256": "e3d5142f59660dcb103a8e8246dfdbf311a97c1d1060940583a2cf8a89c71fa6"
+    },
+    {
+      "path": "game/src/scenes/parkingArt.ts",
+      "sha256": "3a06260d33aaa75218d89f7cc401f84812c818d93ad1e0c21a141762c1159db6"
+    },
+    {
+      "path": "game/src/scenes/photoArt.ts",
+      "sha256": "2bc7f743191083b95b0128c987661c7db4765d96b4ece7c9599eb8263a3857b6"
+    },
+    {
+      "path": "game/src/scenes/sceneArt.ts",
+      "sha256": "36e732ce32f8f5dd54743984a338f44a438e6d8abc1b01516049001ab13401b4"
+    },
+    {
+      "path": "game/src/state/checkpoint.ts",
+      "sha256": "768d46e9fd69eb2358cc654507bdb5b9badfcfb1edf9d4fe9124d1edc67c2c78"
+    },
+    {
+      "path": "game/src/state/checkpointData.ts",
+      "sha256": "9f7d00101211ba5d36dc7f159ac33788ccb2227cd2acf184cadc154381bb7baa"
+    },
+    {
+      "path": "game/src/state/gameState.ts",
+      "sha256": "9b3000e8fa9d7fb58097aec08c42c30ef2eb52a6fda6733e2fd4d1ad8218a92c"
+    },
+    {
+      "path": "game/src/state/guestMessages.ts",
+      "sha256": "da15b96f0e55370462030305572f2984d0fb83d2766f785b5a85bec52a53f76a"
+    },
+    {
+      "path": "game/src/style.css",
+      "sha256": "e3d570de4b46cb3aa5663cb03f08be2350561334deef96552d8be495caeb8400"
+    },
+    {
+      "path": "game/src/systems/ArrowGuide.ts",
+      "sha256": "4790f5c0d7bf7502771e82a4f6368e1c8058f23b4f791d3918f1089b376537c8"
+    },
+    {
+      "path": "game/src/systems/PhotoGalleryModal.ts",
+      "sha256": "aa8c738b74e0ec4e3e4b6c6e32d796f9381e8002f953db6c58841490484e54c2"
+    },
+    {
+      "path": "game/src/systems/QuizModal.ts",
+      "sha256": "71204c41a0fee9567471c1baab856cee5437e081b8004b77fecc820f39770254"
+    },
+    {
+      "path": "game/src/systems/TapToMove.ts",
+      "sha256": "2a09d1a9d0202edbb2ee0a0e4c130227d31387fd78d61f67dace222f67a610b7"
+    },
+    {
+      "path": "game/src/systems/TriggerZone.ts",
+      "sha256": "1bf58d147497f6a653954e31df0493f20cd5806fd296fd27807338d75c35a585"
+    },
+    {
+      "path": "game/src/systems/stageAssets.ts",
+      "sha256": "4d7dfcbb8430b9937e5320fc7bf24fb92670d19702bc86e8e26b5026b0a9fedd"
+    },
+    {
+      "path": "game/src/systems/walkPath.ts",
+      "sha256": "ae91e269a838fad6b34100d0ca7d625eaa6dfb322c43e56fce918c203375eb54"
+    },
+    {
+      "path": "game/src/ui/BuffetPreview.ts",
+      "sha256": "28f257cb8f5096b7fd8ca1b449ccc48ba5049aa5b6ed496fcafb3e909e3cce43"
+    },
+    {
+      "path": "game/src/ui/GameAccess.ts",
+      "sha256": "6abf46b9dac87a2b7d0a9b0250dbcc10e4f800d9c4f450d937ffcf5ad5e46454"
+    },
+    {
+      "path": "game/src/ui/InvitationInformation.ts",
+      "sha256": "8d958649d311e656b204295ab32cf5efce2233fc60a54760ecf9e167e96bd036"
+    },
+    {
+      "path": "game/src/ui/InvitationView.ts",
+      "sha256": "3a1e6e1d84f65f4c4d4c468554b438c0355af974c56e783bb8ebe78c2e0fa9f2"
+    },
+    {
+      "path": "game/src/ui/MinimiPicker.ts",
+      "sha256": "9bc7c75f6a5b35d1dba7368ad75293e1a6770c6dfa2ad4f83c8d4c411801eb2d"
+    },
+    {
+      "path": "game/src/ui/PixelPanel.ts",
+      "sha256": "fc05ce7cf371ce9013b25788eb3a0a635d3687f19ea0a0339cf722c728897b20"
+    },
+    {
+      "path": "game/src/ui/PortraitNotice.ts",
+      "sha256": "ea39fde08e68edf32ff7a5d6f301cb0876a8bfb4b4d7fa83bec25a4405bfcd39"
+    },
+    {
+      "path": "game/src/ui/SceneFeedback.ts",
+      "sha256": "26ad82cda63ff86445d72b2c1364238a1edb5f833411022884b9b7fce593b8f4"
+    },
+    {
+      "path": "game/src/ui/StoryDialog.ts",
+      "sha256": "a0ccc2dc34a77958c020ccbd62b8290c405f28b04b43875d7945f2a050d472d0"
+    },
+    {
+      "path": "game/src/ui/TextEntryDialog.ts",
+      "sha256": "d462776c4c479e0d3a7e078a7b37dcfd62505491b22b2b5983596791e2eb9df8"
+    },
+    {
+      "path": "game/src/ui/WeddingCountdown.ts",
+      "sha256": "780392d2ad4aae97ecee41131284229eece4206225e359c162b316a1d9f5afe7"
+    },
+    {
+      "path": "game/src/ui/assetHelpers.ts",
+      "sha256": "caaac17059daa855cdcdffad9429ae1975ae00e33a88f9db3aa2118bb96d5eca"
+    },
+    {
+      "path": "game/src/ui/buttonInteraction.ts",
+      "sha256": "e227437262939448a98deb1ab25394d05184c32d436e991c5350198314df473b"
+    },
+    {
+      "path": "game/src/ui/ceremonyGuests.ts",
+      "sha256": "8e3b9e7789cdfa86261a56aa22f8faeaafd5acfc560ed005c401645268d6808d"
+    },
+    {
+      "path": "game/src/ui/classicMinimi.ts",
+      "sha256": "91fed89ff0f3c22f58f1b97c5e292ea9e155ac80ae485f2348cd4ae6b86a1862"
+    },
+    {
+      "path": "game/src/ui/guestPhotoLayout.ts",
+      "sha256": "f2ca2850fe375b6c08c3329e3b67440e68733891a012804530e11f8ea1c0f81f"
+    },
+    {
+      "path": "game/src/ui/invitationShare.ts",
+      "sha256": "fad167405a68aa9e0051291d805b4465feb316ded464f0c1008af15703cb274e"
+    },
+    {
+      "path": "game/src/ui/keyboardAccess.ts",
+      "sha256": "4692b8265f86fe5d0ec50da1fabdfc6e88e4522ebeb0969eebb839d2e5897d5b"
+    },
+    {
+      "path": "game/src/ui/minimi.ts",
+      "sha256": "6e817945a46cf47835a0bcd944b37d15d908501725b7428cbe39ff286c8dbf7a"
+    },
+    {
+      "path": "game/src/ui/minimiArt.ts",
+      "sha256": "220142b6470d40b45f68a53ea696359c70a57f80efade0dace01a19c38356073"
+    },
+    {
+      "path": "game/src/ui/minimiMotion.ts",
+      "sha256": "de7a58616404752e1ea7571c14efaf44ce5a870b1c1a57fea3f03c15f55e2d54"
+    },
+    {
+      "path": "game/src/ui/minimiParts.ts",
+      "sha256": "16e925c83a415c49799b902692da3fa34031aeebfc09885d97f7e1c5ebb37ca2"
+    },
+    {
+      "path": "game/src/ui/motionPreference.ts",
+      "sha256": "915a9c682296b9cfd2bae4ac8bd9f8a755f9539d97a058ef2d0bbec41d42e3a6"
+    },
+    {
+      "path": "game/src/ui/parkingCar.ts",
+      "sha256": "518c6a08183cbedffd4c76ab87d50cbcc40e8800ee83fb9adbeed87b6af06042"
+    },
+    {
+      "path": "game/src/ui/pixelFeedback.ts",
+      "sha256": "76011ef74637f1da88776b55e4c05404de90b9dad1ad1e085cec05229b7db05a"
+    },
+    {
+      "path": "game/src/ui/sceneUi.ts",
+      "sha256": "057a4dc653ed2296002f60e3cb4b5b73b81d040d19fbea4e71c8cc12e5f49762"
+    },
+    {
+      "path": "game/src/ui/sessionMemories.ts",
+      "sha256": "8774cb5f23b8a1f55376e4abee38576969ff6f9d5d59de9bbd8cb7c8a1b2978a"
+    },
+    {
+      "path": "game/src/ui/shuttleDecoration.ts",
+      "sha256": "ba403d7983e2a0931bb15e96343a1e13b3d13a1bb7cb61be8235b124f6f38530"
+    },
+    {
+      "path": "game/src/ui/speechBubble.ts",
+      "sha256": "0766ba2e86911e7ba7c79850dc10bb273c26413d1bb6db60932eebfecffa376d"
+    },
+    {
+      "path": "game/src/ui/waitForTap.ts",
+      "sha256": "ef1c539989430d2c1e8cb99575fb0122b6a1527cc541ac5cec330c53b9ddb32f"
+    },
+    {
+      "path": "game/src/ui/weddingAmbience.ts",
+      "sha256": "d7a4526204b5921064a60587df05ef1898c3f5aa711bab8a0f1edd62320c5f57"
+    },
+    {
+      "path": "game/src/ui/weddingCouple.ts",
+      "sha256": "49253a1b55bbb9a226433dcfae714411a65c46146629e4f8ec76b390e2fd69ec"
+    }
+  ],
+  "workingTreeSHA256": "61a2d0c5a5fb62438da5e34e93e970a65724b1d7981fd08f81abce64d764c2e2"
+}

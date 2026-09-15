@@ -1,0 +1,15 @@
+{
+  "start": 1789399417453,
+  "clips": [
+    {
+      "type": "wrong-map",
+      "at": 5930
+    },
+    {
+      "type": "tower",
+      "at": 11869
+    }
+  ],
+  "errors": [],
+  "video": "/Users/user/wedding/ccj/docs/game-review/minimi-silhouette-fix/runs/production-01/.playwright-artifacts-6/page@887908b5b6bd6d4c49b6901b072c20cd.webm"
+}

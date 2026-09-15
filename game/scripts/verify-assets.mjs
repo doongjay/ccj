@@ -10,7 +10,12 @@ const { values } = parseArgs({ options: {
   manifest: { type: "string" }, provenance: { type: "string" },
   "public-root": { type: "string" }, "base-url": { type: "string" },
   "contract-only": { type: "boolean", default: false }, help: { type: "boolean" },
+  catalog: { type: "string" }, report: { type: "string" }, "production-root": { type: "string" },
 } });
+if (!values.manifest && !values["contract-only"] && !values.help) {
+  await import("./verify-shipping-assets.mjs");
+  process.exit(process.exitCode ?? 0);
+}
 if (values.help) {
   console.log("verify-assets [--manifest fixture.json] [--provenance ledger.md] [--public-root public] [--base-url http://127.0.0.1:5173] [--contract-only]");
   process.exit(0);

@@ -1,0 +1,314 @@
+[
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/hall.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-hall.webp",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "sourceBytes": 2418536,
+    "variantBytes": 1932340,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/lobby.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-lobby.webp",
+    "dimensions": [
+      941,
+      1671
+    ],
+    "sourceBytes": 2486649,
+    "variantBytes": 1883948,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/shuttle.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-shuttle.webp",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "sourceBytes": 1998569,
+    "variantBytes": 1607896,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/garden.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-garden.webp",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "sourceBytes": 2551900,
+    "variantBytes": 1989228,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/bridal-room-white.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-bridal-room-white.webp",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "sourceBytes": 1896236,
+    "variantBytes": 1459164,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/photo-booth.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-photo-booth.webp",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "sourceBytes": 2300918,
+    "variantBytes": 1790850,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/banquet.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-banquet.webp",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "sourceBytes": 2342381,
+    "variantBytes": 1842640,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/banquet-corridor.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-banquet-corridor.webp",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "sourceBytes": 2209044,
+    "variantBytes": 1735644,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/reception-family.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-reception-family.webp",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "sourceBytes": 2211387,
+    "variantBytes": 1757236,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/group-photo-portrait-v3.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-group-photo-portrait-v3.webp",
+    "dimensions": [
+      940,
+      1672
+    ],
+    "sourceBytes": 2464285,
+    "variantBytes": 1939604,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/pixel-venue/group-photo-stage-v4.png",
+    "variant": "game/public/assets/optimized/lacitta-pixel-venue-group-photo-stage-v4.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "sourceBytes": 2157553,
+    "variantBytes": 1732484,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/routes/home-ground-v2.png",
+    "variant": "game/public/assets/optimized/lacitta-routes-home-ground-v2.webp",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "sourceBytes": 2434866,
+    "variantBytes": 1921334,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/routes/car-guidance-v2.png",
+    "variant": "game/public/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+    "dimensions": [
+      941,
+      1672
+    ],
+    "sourceBytes": 1954785,
+    "variantBytes": 1517304,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/characters/wedding-couple.png",
+    "variant": "game/public/assets/optimized/lacitta-characters-wedding-couple.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sourceBytes": 1445477,
+    "variantBytes": 1005110,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/characters/parents.png",
+    "variant": "game/public/assets/optimized/lacitta-characters-parents.webp",
+    "dimensions": [
+      1774,
+      887
+    ],
+    "sourceBytes": 908105,
+    "variantBytes": 645280,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/characters/white-car.png",
+    "variant": "game/public/assets/optimized/lacitta-characters-white-car.webp",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "sourceBytes": 850628,
+    "variantBytes": 566574,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/characters/minimi-hair.png",
+    "variant": "game/public/assets/optimized/lacitta-characters-minimi-hair.webp",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sourceBytes": 861524,
+    "variantBytes": 577366,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/characters/formal-guests.png",
+    "variant": "game/public/assets/optimized/lacitta-characters-formal-guests.webp",
+    "dimensions": [
+      1182,
+      1330
+    ],
+    "sourceBytes": 1079756,
+    "variantBytes": 717224,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/characters/outfits-male.png",
+    "variant": "game/public/assets/optimized/lacitta-characters-outfits-male.webp",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 733814,
+    "variantBytes": 478730,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/characters/outfits-female.png",
+    "variant": "game/public/assets/optimized/lacitta-characters-outfits-female.webp",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 682792,
+    "variantBytes": 437910,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/characters/extra-outfits-male.png",
+    "variant": "game/public/assets/optimized/lacitta-characters-extra-outfits-male.webp",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1394777,
+    "variantBytes": 934718,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/characters/extra-outfits-female.png",
+    "variant": "game/public/assets/optimized/lacitta-characters-extra-outfits-female.webp",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "sourceBytes": 1391996,
+    "variantBytes": 964358,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/food/buffet-left.png",
+    "variant": "game/public/assets/optimized/lacitta-food-buffet-left.webp",
+    "dimensions": [
+      724,
+      2172
+    ],
+    "sourceBytes": 3035429,
+    "variantBytes": 2415184,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/lacitta/food/buffet-right.png",
+    "variant": "game/public/assets/optimized/lacitta-food-buffet-right.webp",
+    "dimensions": [
+      724,
+      2172
+    ],
+    "sourceBytes": 3168097,
+    "variantBytes": 2432444,
+    "decodedPixelsIdentical": true
+  },
+  {
+    "source": "game/public/assets/invitation/gallery-01.jpg",
+    "variant": "game/public/assets/optimized/gallery-01-game.jpg",
+    "sourceDimensions": [
+      1253,
+      1920
+    ],
+    "dimensions": [
+      1044,
+      1600
+    ],
+    "sourceBytes": 1762581,
+    "variantBytes": 292503,
+    "photographic": true,
+    "quality": 92
+  },
+  {
+    "source": "game/public/assets/invitation/gallery-02.jpg",
+    "variant": "game/public/assets/optimized/gallery-02-game.jpg",
+    "sourceDimensions": [
+      1920,
+      1280
+    ],
+    "dimensions": [
+      1200,
+      800
+    ],
+    "sourceBytes": 1769276,
+    "variantBytes": 186487,
+    "photographic": true,
+    "quality": 92
+  },
+  {
+    "source": "game/public/assets/invitation/gallery-03.jpg",
+    "variant": "game/public/assets/optimized/gallery-03-game.jpg",
+    "sourceDimensions": [
+      1920,
+      1280
+    ],
+    "dimensions": [
+      1200,
+      800
+    ],
+    "sourceBytes": 1672652,
+    "variantBytes": 158096,
+    "photographic": true,
+    "quality": 92
+  }
+]

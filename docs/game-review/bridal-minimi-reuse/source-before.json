@@ -1,0 +1,22 @@
+[
+  {
+    "path": "game/src/scenes/VenueRoomScene.ts",
+    "sha256": "a732c90aa094b4baa4d40dd229eadf5e6f582239fe5effde5ab8e992f6678040"
+  },
+  {
+    "path": "game/src/ui/sessionMemories.ts",
+    "sha256": "a2f0493fd2a38a1376a08837de1f092827f73a4bc72a33323c2828b6fa8abaf2"
+  },
+  {
+    "path": "game/src/data/runtimeAssets.ts",
+    "sha256": "0dccb367baf417006dd369d7dc6e59fbf5db6c27dac45d40f0940ab9afb9916f"
+  },
+  {
+    "path": "game/src/data/shippingAssets.json",
+    "sha256": "4e790a7b419848cb4c6c7f463d527aec59519cf47c16548cb55b1a8d0080aa51"
+  },
+  {
+    "path": "game/src/ui/weddingCouple.ts",
+    "sha256": "49253a1b55bbb9a226433dcfae714411a65c46146629e4f8ec76b390e2fd69ec"
+  }
+]

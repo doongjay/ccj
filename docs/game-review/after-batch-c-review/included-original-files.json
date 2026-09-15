@@ -1,0 +1,1058 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 19948,
+    "sha256": "059d007f2c8fca34f6951f4521508fa22927a6a0cbb4858e0720feee7c0df98f",
+    "reviewPath": "BATCH_C_REPORT_ORIGINAL.md"
+  },
+  {
+    "path": "acceptance-checks.json",
+    "bytes": 6519,
+    "sha256": "3afd6b97c578875a7775f4af6ec9ba23c419ce8165e90309e840f6d85fadb475",
+    "reviewPath": "acceptance-checks.json"
+  },
+  {
+    "path": "artifact-manifest.json",
+    "bytes": 137081,
+    "sha256": "7df00990c2dfc1cad8509362ccdb910c4da1f33153335fe41fb688807f3121d2",
+    "reviewPath": "original-artifact-manifest.json"
+  },
+  {
+    "path": "b-e01/audit.json",
+    "bytes": 1006,
+    "sha256": "faa9ed03cc46e40e1a1b571c24db039f13f5c8b6cef8571ba35389c50e442769",
+    "reviewPath": "b-e01/audit.json"
+  },
+  {
+    "path": "b-e01/original-b-regression-results.json",
+    "bytes": 10822,
+    "sha256": "07243d2d314b18563e0ba208bd8751de4a9a05a890cfa7fe95f51ab8e9ff172d",
+    "reviewPath": "b-e01/original-b-regression-results.json"
+  },
+  {
+    "path": "before/attempt-1-timeout.md",
+    "bytes": 7310,
+    "sha256": "d4035920b939f3d8b7f203fe727142d965aef8120769d4f38af5856619d1c1fa",
+    "reviewPath": "before/attempt-1-timeout.md"
+  },
+  {
+    "path": "before/b-booth-controls-overlap-393.png",
+    "bytes": 465000,
+    "sha256": "d0f6409afe2805aecdd33db27bb72400d0bca617328d58689315cafd9a7773ab",
+    "reviewPath": "before/b-booth-controls-overlap-393.png"
+  },
+  {
+    "path": "before/b-booth-post-capture-320.png",
+    "bytes": 316217,
+    "sha256": "5fdbc8340a58524d7bbbc90ac23d4317d8a9f244d8063e3e3d37ad4f5c4098fb",
+    "reviewPath": "before/b-booth-post-capture-320.png"
+  },
+  {
+    "path": "before/b-booth-post-capture-393.png",
+    "bytes": 465010,
+    "sha256": "374be95a7a3f5c9e88d95a564fc60a3595bb71e5d57ce153e75688685fd0d2df",
+    "reviewPath": "before/b-booth-post-capture-393.png"
+  },
+  {
+    "path": "before/b-booth-post-capture-430.png",
+    "bytes": 541443,
+    "sha256": "4015e3966b29723eecfad955e41ac38fe9477684453604e67566d9fd8a87f4b3",
+    "reviewPath": "before/b-booth-post-capture-430.png"
+  },
+  {
+    "path": "before/b-bridal-post-capture-320.png",
+    "bytes": 286929,
+    "sha256": "b51474c6b922b5b7f8b1092d10c86daa4e3d8d38788fd0491fdf2c9904a17cad",
+    "reviewPath": "before/b-bridal-post-capture-320.png"
+  },
+  {
+    "path": "before/b-bridal-post-capture-393.png",
+    "bytes": 419147,
+    "sha256": "6224524462dff92a28ee720ed284801777206279e218924709800fb4c730009e",
+    "reviewPath": "before/b-bridal-post-capture-393.png"
+  },
+  {
+    "path": "before/b-bridal-post-capture-430.png",
+    "bytes": 518357,
+    "sha256": "16af4c28d89ee4dd0674a353078ee1487712cbd12740a9e45138030c6074f99b",
+    "reviewPath": "before/b-bridal-post-capture-430.png"
+  },
+  {
+    "path": "before/b-ceremony-choice-393.png",
+    "bytes": 478499,
+    "sha256": "89ef25985cb707eddffe82fa74251ec7fc5d580b07d023e6fb57cbe1af76878e",
+    "reviewPath": "before/b-ceremony-choice-393.png"
+  },
+  {
+    "path": "before/b-group-bride-393.png",
+    "bytes": 497090,
+    "sha256": "43239ee64f2e40bee28c26996de5021558ceebf7368620c7fe9b726232008d64",
+    "reviewPath": "before/b-group-bride-393.png"
+  },
+  {
+    "path": "before/b-reception-persistent-393.png",
+    "bytes": 489273,
+    "sha256": "93d97eff4ccfeff75b28a135800b9439c62585bf975c52a71c86af1f17a0fcf5",
+    "reviewPath": "before/b-reception-persistent-393.png"
+  },
+  {
+    "path": "before/capture-results.json",
+    "bytes": 3128,
+    "sha256": "c46b5657dc85ff025ddfc30bee033ca753f8d1031c7984bcadf2fda0c21b4d5d",
+    "reviewPath": "before/capture-results.json"
+  },
+  {
+    "path": "before/capture.json",
+    "bytes": 279,
+    "sha256": "7efd63a8e7caf075acfb0244862a2820db89f6c44e0c7e1d8208b05ff54ec075",
+    "reviewPath": "before/capture.json"
+  },
+  {
+    "path": "before/source-metadata.json",
+    "bytes": 5632,
+    "sha256": "79a208a44632433037cde20f4136cd15d1bef3d95904bbd4585d72053be9f913",
+    "reviewPath": "before/source-metadata.json"
+  },
+  {
+    "path": "ceremony-01-reconciliation.json",
+    "bytes": 10187,
+    "sha256": "6a8f2e2b595cb64ee35375b409d854ceedcef00ee6e7a6e2f0bbe70f798cac88",
+    "reviewPath": "ceremony-01-reconciliation.json"
+  },
+  {
+    "path": "ceremony-01-reporter.json",
+    "bytes": 24069,
+    "sha256": "17df97563af33f3c432c00be278d0bcd893048fbf2488eb64ffd790f8eca89f4",
+    "reviewPath": "ceremony-01-reporter.json"
+  },
+  {
+    "path": "ceremony-02-reconciliation.json",
+    "bytes": 10259,
+    "sha256": "c0ee81ed330e5b21efd013967873a759ea38b532da94c6fed909c05b22c0f72e",
+    "reviewPath": "ceremony-02-reconciliation.json"
+  },
+  {
+    "path": "ceremony-02-reporter.json",
+    "bytes": 24212,
+    "sha256": "3a62e4ca645d7aa8b230c0fac477ff95d4d2c036540a039f41046da68f071313",
+    "reviewPath": "ceremony-02-reporter.json"
+  },
+  {
+    "path": "ceremony-03-reconciliation.json",
+    "bytes": 3233,
+    "sha256": "7a4e3c9801c81cb50ed19153bee86e6e9720b8435b7f5c7a1599da99dd115b6f",
+    "reviewPath": "ceremony-03-reconciliation.json"
+  },
+  {
+    "path": "ceremony-03-reporter.json",
+    "bytes": 6635,
+    "sha256": "c9fb03c7b2a31e3d9b319299b828c6b145cf2bf127843c8e3b9f52485213c068",
+    "reviewPath": "ceremony-03-reporter.json"
+  },
+  {
+    "path": "ceremony-applause-events.json",
+    "bytes": 3445,
+    "sha256": "66c3ce7a4b250fa959fc65dc924bb625f86cd0b285c2347855c039eff8fae9b5",
+    "reviewPath": "ceremony-applause-events.json"
+  },
+  {
+    "path": "ceremony-cheer-events.json",
+    "bytes": 3374,
+    "sha256": "c2b92302f2adb114380c45b9964b1a0a8fdc4e7dee65a9f6409889bf43cba916",
+    "reviewPath": "ceremony-cheer-events.json"
+  },
+  {
+    "path": "ceremony-compact-events.json",
+    "bytes": 3403,
+    "sha256": "c90fff10d88b91f606c97497ffe7067b905fb58344d6a3c0401f6fc4ed5f98b6",
+    "reviewPath": "ceremony-compact-events.json"
+  },
+  {
+    "path": "ceremony-reduced-events.json",
+    "bytes": 3402,
+    "sha256": "059422cc46bbefb860cc8ca27024f915aea115a5e93f931a8ee65bf500e10505",
+    "reviewPath": "ceremony-reduced-events.json"
+  },
+  {
+    "path": "f11-applause-response-393.png",
+    "bytes": 534335,
+    "sha256": "65484752c18228cc8849c3f5094fd403e79cabd1f527434f81dddc76d0251079",
+    "reviewPath": "f11-applause-response-393.png"
+  },
+  {
+    "path": "f11-applause.webm",
+    "bytes": 4967380,
+    "sha256": "3772410bebe6e5223800cd82c0dea3371be4be3ba9bc46dc0f0cb541ee78fc51",
+    "reviewPath": "f11-applause.webm"
+  },
+  {
+    "path": "f11-cheer-response-393.png",
+    "bytes": 531196,
+    "sha256": "e05b0c5043f6cf6af4d249ced914121f06d5120939e75d841822e7e55086ae2b",
+    "reviewPath": "f11-cheer-response-393.png"
+  },
+  {
+    "path": "f11-cheer.webm",
+    "bytes": 5420198,
+    "sha256": "51ed6618b10f8bbd307085b0c5ba5301ef4d8133d62bf7e32250ba0d15525102",
+    "reviewPath": "f11-cheer.webm"
+  },
+  {
+    "path": "f11-compact-response-320.png",
+    "bytes": 363753,
+    "sha256": "674fc73c17d6f8bbfb59de7a72e1366793f789dbacb1c3a2263d7e97bbe6c3bc",
+    "reviewPath": "f11-compact-response-320.png"
+  },
+  {
+    "path": "f11-keyboard-bride-desktop.png",
+    "bytes": 1165601,
+    "sha256": "14e3d14ce9f402fe063f1b4988f81cb34acab5abdd7346cd31516f53a120f627",
+    "reviewPath": "f11-keyboard-bride-desktop.png"
+  },
+  {
+    "path": "f11-keyboard-groom-desktop.png",
+    "bytes": 1170252,
+    "sha256": "5c4df40b379036f8a713b40e3c8c5fecfa729401bb2a3938dc910fe550d5bff7",
+    "reviewPath": "f11-keyboard-groom-desktop.png"
+  },
+  {
+    "path": "f12-booth-controls-no-overlap-393.png",
+    "bytes": 474630,
+    "sha256": "ce4bb8d2db0af650ce1280d0f82f2dbcf2bff6278fb55d8a2a04bbf698e10149",
+    "reviewPath": "f12-booth-controls-no-overlap-393.png"
+  },
+  {
+    "path": "f12-booth-result-393.png",
+    "bytes": 300879,
+    "sha256": "167073466e56d4dc4f56b00fd98ba402a7e39f9026421fbe4a0ecf8f278e53c0",
+    "reviewPath": "f12-booth-result-393.png"
+  },
+  {
+    "path": "f12-booth.webm",
+    "bytes": 9212460,
+    "sha256": "60b35bb2f194b44144d2009827460b469802d4c52321d8d2bfa87ffea07553e1",
+    "reviewPath": "f12-booth.webm"
+  },
+  {
+    "path": "f12-bridal-result-393.png",
+    "bytes": 282528,
+    "sha256": "2b5eb5579cd73c67a6ad50037ad7b6ea91770d2a8b38c534b5f5d9497e170ec1",
+    "reviewPath": "f12-bridal-result-393.png"
+  },
+  {
+    "path": "f12-bridal.webm",
+    "bytes": 7618128,
+    "sha256": "b1e620bacb90b24ef72966628abae7f9c92b95d89f5dcd3d57143e585939f27a",
+    "reviewPath": "f12-bridal.webm"
+  },
+  {
+    "path": "f12-notebook-keepsakes-393.png",
+    "bytes": 359208,
+    "sha256": "7a7a56cf4ce24fe09508bbacd84a6974e510110a556ecf43d6e28863e1ab5f33",
+    "reviewPath": "f12-notebook-keepsakes-393.png"
+  },
+  {
+    "path": "f13-booth-result-320.png",
+    "bytes": 211811,
+    "sha256": "7912d75b59193e7621421ed89b2363e387c2b1bb98d9013ed3cd6a63af3c585d",
+    "reviewPath": "f13-booth-result-320.png"
+  },
+  {
+    "path": "f13-bridal-result-320.png",
+    "bytes": 196994,
+    "sha256": "0656d94bb6e5dd51e54f6e8fdb4759a72fb7d232f801d139248a3d22437ae380",
+    "reviewPath": "f13-bridal-result-320.png"
+  },
+  {
+    "path": "f13-bridal-result-430.png",
+    "bytes": 318988,
+    "sha256": "11b291538c4e939d35bbafab9d0a478bcbc764960b155faebf22c4b263273f18",
+    "reviewPath": "f13-bridal-result-430.png"
+  },
+  {
+    "path": "f13-photo-result-430.png",
+    "bytes": 343268,
+    "sha256": "1c38b8f228485130a43dac109b659df80b1da25239d09f7175b0e413124fe1c0",
+    "reviewPath": "f13-photo-result-430.png"
+  },
+  {
+    "path": "f14-group-bride-393.png",
+    "bytes": 466495,
+    "sha256": "5940c1b099463d55a0d709fcc5efbb107b6c1287c22faf9c96e1a10ce773f824",
+    "reviewPath": "f14-group-bride-393.png"
+  },
+  {
+    "path": "f14-group-groom-393.png",
+    "bytes": 466722,
+    "sha256": "a9cb467e44fdd33827c94b8dcac511db722c603a6442be5e914ff7f879a4ae33",
+    "reviewPath": "f14-group-groom-393.png"
+  },
+  {
+    "path": "f14-group-reduced-320.png",
+    "bytes": 1437294,
+    "sha256": "328fb9821f3569b48fe86ca0dd2c4b568c031cfbf1461a33a934465807c64119",
+    "reviewPath": "f14-group-reduced-320.png"
+  },
+  {
+    "path": "f15-lobby-revisit-no-banner-393.png",
+    "bytes": 516358,
+    "sha256": "3124f03c32a7215d7f4e254968b37fc293f2570f375f07b029ee0450d92c3537",
+    "reviewPath": "f15-lobby-revisit-no-banner-393.png"
+  },
+  {
+    "path": "f15-reception-acknowledged-393.png",
+    "bytes": 492152,
+    "sha256": "9c3d2a57972a023809d246fa1599b8fba9311669b630c6b2d7e3842b382cbb84",
+    "reviewPath": "f15-reception-acknowledged-393.png"
+  },
+  {
+    "path": "f15-reception.webm",
+    "bytes": 10893132,
+    "sha256": "11eaf366c8e1c855286d4066601fbf0123add5bf3baa684ea793fdcf505bf98e",
+    "reviewPath": "f15-reception.webm"
+  },
+  {
+    "path": "final-verification.json",
+    "bytes": 85803,
+    "sha256": "8fd296abb93681dbff59985a944e5eeabbf2c6d85d9bfd8d3d7f31b87767052c",
+    "reviewPath": "final-verification.json"
+  },
+  {
+    "path": "keyboard-photo-result-desktop.png",
+    "bytes": 830010,
+    "sha256": "42b8c5f5b9d1c4f58626fe48436cd6565b057b7df7c86962e272394d8a8fc4e9",
+    "reviewPath": "keyboard-photo-result-desktop.png"
+  },
+  {
+    "path": "legacy-asset-check.json",
+    "bytes": 486,
+    "sha256": "2bb07d6d3ba46e50d62ba5a0a2363535708e8d3f13be268a74ac33b9d359403d",
+    "reviewPath": "legacy-asset-check.json"
+  },
+  {
+    "path": "logs/assets-01.log",
+    "bytes": 9518,
+    "sha256": "f932a7f72a79401b1e50d9c5915d4767baa6d90049ed59bb64999406055f929a",
+    "reviewPath": "logs/assets-01.log"
+  },
+  {
+    "path": "logs/assets-02.log",
+    "bytes": 3253,
+    "sha256": "d08262e463a4164120644cb8efae4bd536d6d4755aeebef8ecf03955249013de",
+    "reviewPath": "logs/assets-02.log"
+  },
+  {
+    "path": "logs/build-01.log",
+    "bytes": 843,
+    "sha256": "0e63aa9d64280620cff41d0b65de92cbde0df81805cdb3c4bde61717ca3fbc1a",
+    "reviewPath": "logs/build-01.log"
+  },
+  {
+    "path": "logs/build-final.log",
+    "bytes": 843,
+    "sha256": "f15e5a3fa256432fb69da6cb2c9e028a2100aae129eeca6718ddd87aaf7f9799",
+    "reviewPath": "logs/build-final.log"
+  },
+  {
+    "path": "logs/ceremony-01.json",
+    "bytes": 24068,
+    "sha256": "b56f544b8ec00e09de154c8ed6c7df22a69f2233d946ae7365a8da014190ebc2",
+    "reviewPath": "logs/ceremony-01.json"
+  },
+  {
+    "path": "logs/ceremony-01.log",
+    "bytes": 7349,
+    "sha256": "f23e320d09cd44691810c9469cc636f619dc2dd2c05a42682c227d32df1c2177",
+    "reviewPath": "logs/ceremony-01.log"
+  },
+  {
+    "path": "logs/ceremony-02.json",
+    "bytes": 24211,
+    "sha256": "0f5bf14890f0314f9b5637ec4436984a5a26024ca0ed239a4da891d580bc6450",
+    "reviewPath": "logs/ceremony-02.json"
+  },
+  {
+    "path": "logs/ceremony-02.log",
+    "bytes": 7423,
+    "sha256": "32f8fac328b311eb24aebdc768b4dc4436d474785b20cf7fa13464bc0dcb105d",
+    "reviewPath": "logs/ceremony-02.log"
+  },
+  {
+    "path": "logs/ceremony-03.json",
+    "bytes": 6634,
+    "sha256": "acaa55d6a0ae90d2c524e6dae1a4349d481672be047f7d1693893905ccd85c29",
+    "reviewPath": "logs/ceremony-03.json"
+  },
+  {
+    "path": "logs/exploratory-photos.md",
+    "bytes": 1278,
+    "sha256": "d92bc65b2ed49624a4014e9dc819e5b5481420097d7bd68d5eeeb0e3e00be7e0",
+    "reviewPath": "logs/exploratory-photos.md"
+  },
+  {
+    "path": "logs/finalize.log",
+    "bytes": 2189,
+    "sha256": "8d3615f888d21e2ffbdd6e286a88f8fa23be5b19521c60db1328723f1dde27ea",
+    "reviewPath": "logs/finalize.log"
+  },
+  {
+    "path": "logs/production-final.json",
+    "bytes": 34471,
+    "sha256": "f835d2618f528da2eafe63160e413d2b6e2501236fe760dba78f7530c5987b36",
+    "reviewPath": "logs/production-final.json"
+  },
+  {
+    "path": "logs/production-final.log",
+    "bytes": 3021,
+    "sha256": "ba543a8143b9624353361e5026b524a1c6455de9b439ee38c8293addceef1c08",
+    "reviewPath": "logs/production-final.log"
+  },
+  {
+    "path": "logs/reception-01.json",
+    "bytes": 5443,
+    "sha256": "180b3d975063c0619dc76d3b65f5b51eee14e9bbf32d6c5ee480d5d71fa4a8ad",
+    "reviewPath": "logs/reception-01.json"
+  },
+  {
+    "path": "logs/refinement-02.json",
+    "bytes": 663455,
+    "sha256": "db9c074148e4d792917287a624a0c2696663218279154c0a2634e7f0b0edcca6",
+    "reviewPath": "logs/refinement-02.json"
+  },
+  {
+    "path": "logs/regression-all-01.json",
+    "bytes": 17286858,
+    "sha256": "c379427af49a4d22f4b56a563bd861e76476989a76f75d643b0543a5101f3b92",
+    "reviewPath": "logs/regression-all-01.json"
+  },
+  {
+    "path": "logs/regression-final.json",
+    "bytes": 17300989,
+    "sha256": "1659a7042d1b9641787bff011dae5d6ea50e2b49c0108d22a14d6a8e770ce5e6",
+    "reviewPath": "logs/regression-final.json"
+  },
+  {
+    "path": "logs/regression-final.log",
+    "bytes": 14130,
+    "sha256": "6bbce2eff29c76e2007d310e80228145a26d46857cb5ba3155d7f84dc8e76a67",
+    "reviewPath": "logs/regression-final.log"
+  },
+  {
+    "path": "logs/video-export-02.log",
+    "bytes": 441,
+    "sha256": "8f28d241476c380202e6c14cfbdac2d0629871a73bd15de1ae9555d2191a3521",
+    "reviewPath": "logs/video-export-02.log"
+  },
+  {
+    "path": "logs/video-export.log",
+    "bytes": 1636,
+    "sha256": "3c0d1510e22ab7f6b95174daf022645f34d0951e0693040a12317049cb0d3010",
+    "reviewPath": "logs/video-export.log"
+  },
+  {
+    "path": "logs/video-final.log",
+    "bytes": 1310,
+    "sha256": "26d6cb5e4833ce87ff03e6849a4960da0ef937922c2535a801ba0936c69db809",
+    "reviewPath": "logs/video-final.log"
+  },
+  {
+    "path": "performance-summary.json",
+    "bytes": 367,
+    "sha256": "054db458273513be85be30b48f70d2fb9a735012d14e97f1176dca9ef40a7c4f",
+    "reviewPath": "performance-summary.json"
+  },
+  {
+    "path": "photo-events.json",
+    "bytes": 16779,
+    "sha256": "e03ecb91e6d6f076f5f2b531f1781b0f1cc09c3ce60d50ad1ab221a3de86b7e8",
+    "reviewPath": "photo-events.json"
+  },
+  {
+    "path": "production-final-reconciliation.json",
+    "bytes": 10564,
+    "sha256": "76901d031a57eeec797b5d49a3eb28767fba8af19aa35c2bd07f7ab37bf58e95",
+    "reviewPath": "production-final-reconciliation.json"
+  },
+  {
+    "path": "production-final-reporter.json",
+    "bytes": 34472,
+    "sha256": "43ce096d3240c10751b50764b29cae4d06b0ff98f553ba5a6d0a93537c4deae0",
+    "reviewPath": "production-final-reporter.json"
+  },
+  {
+    "path": "protection-checks.json",
+    "bytes": 946,
+    "sha256": "aed81ded3a33555ac1f6668acf653f1cf9d8645a06575c3e1e34da673ccff152",
+    "reviewPath": "protection-checks.json"
+  },
+  {
+    "path": "reception-01-reconciliation.json",
+    "bytes": 1734,
+    "sha256": "e8072813eda6c6545782ff14bdf48a1387a7c6552829a9a2e0b26898adaaaa79",
+    "reviewPath": "reception-01-reconciliation.json"
+  },
+  {
+    "path": "reception-01-reporter.json",
+    "bytes": 5444,
+    "sha256": "7ca13e3f08f646b48d5297c9392e4c9047a62588345bece39264a2fe0b330783",
+    "reviewPath": "reception-01-reporter.json"
+  },
+  {
+    "path": "reception-events.json",
+    "bytes": 1693,
+    "sha256": "07dff12cd268747035b8cdbba223816bc09c7c25fe51253bdd63b296457f22dc",
+    "reviewPath": "reception-events.json"
+  },
+  {
+    "path": "reception-pause-events.json",
+    "bytes": 1318,
+    "sha256": "36389a53da1117c6f478e344586057c5b375d887c0e8e6cf02bb7476f710d088",
+    "reviewPath": "reception-pause-events.json"
+  },
+  {
+    "path": "reduced-motion-response-393.png",
+    "bytes": 1927562,
+    "sha256": "40f95fea0693ff37ff078780e4988d7ff762952486940c85fc6ada676a00276f",
+    "reviewPath": "reduced-motion-response-393.png"
+  },
+  {
+    "path": "refinement-02-reconciliation.json",
+    "bytes": 8900,
+    "sha256": "b26dacd3b0370e1ffe6b4327a9e87c76000ccbaa1711baf9343397457b94eb4a",
+    "reviewPath": "refinement-02-reconciliation.json"
+  },
+  {
+    "path": "refinement-02-reporter.json",
+    "bytes": 31254,
+    "sha256": "350f8218485f9e940ae3830121088c3aa3e49074005cb8564febfe239f5e80f4",
+    "reviewPath": "refinement-02-reporter.json"
+  },
+  {
+    "path": "regression-all-01-reconciliation.json",
+    "bytes": 75217,
+    "sha256": "7938f0df86e46f5b46a9a9fa495b01a7d710e6c4c7086954e52fae00e1c40744",
+    "reviewPath": "regression-all-01-reconciliation.json"
+  },
+  {
+    "path": "regression-all-01-reporter.json",
+    "bytes": 213618,
+    "sha256": "13593cba6c2fcedb87137ed216e401087acdfabfb3fcf20034284ba1f28ae7c9",
+    "reviewPath": "regression-all-01-reporter.json"
+  },
+  {
+    "path": "regression-final-reconciliation.json",
+    "bytes": 64276,
+    "sha256": "aa09998ad23ebb62c8965d48c38327217640167d2262c1e2883ccd27e2d5c321",
+    "reviewPath": "regression-final-reconciliation.json"
+  },
+  {
+    "path": "regression-final-reporter.json",
+    "bytes": 203957,
+    "sha256": "88a7c81504b0a54624a7e991ffe7659958f013d8e9721976cd250914ad572ce9",
+    "reviewPath": "regression-final-reporter.json"
+  },
+  {
+    "path": "regressions/f02-invalid-wall-tap-393.png",
+    "bytes": 516404,
+    "sha256": "ee7dd47eda0d27d587b882ea82cfae833935714d5356ebaa1db536f5d9586f88",
+    "reviewPath": "regressions/f02-invalid-wall-tap-393.png"
+  },
+  {
+    "path": "regressions/f02-valid-edge-route-393.png",
+    "bytes": 515910,
+    "sha256": "99d4c02df2ddaf3b10a1da1f474415136af6b2c8d06c08428e5192225b2c9cb8",
+    "reviewPath": "regressions/f02-valid-edge-route-393.png"
+  },
+  {
+    "path": "regressions/f07-car-guidance-393.png",
+    "bytes": 400145,
+    "sha256": "c7f5cc8df6c53d79522c781e01817108e67212fd6ab75379094c4ddd9501112c",
+    "reviewPath": "regressions/f07-car-guidance-393.png"
+  },
+  {
+    "path": "regressions/f07-car-wrong-retry-393.png",
+    "bytes": 392042,
+    "sha256": "0a026d5e106fa703615a6d02f7f0acc03de6c2f72d0264acc781f886cd3f88f8",
+    "reviewPath": "regressions/f07-car-wrong-retry-393.png"
+  },
+  {
+    "path": "regressions/f07-subway-guidance-393.png",
+    "bytes": 317646,
+    "sha256": "81d358abcb364639ece657530c4a702d2f968d7e6b52a9cd1e3443793a811c55",
+    "reviewPath": "regressions/f07-subway-guidance-393.png"
+  },
+  {
+    "path": "regressions/f07-subway-wrong-retry-393.png",
+    "bytes": 318416,
+    "sha256": "d8136b0ae0687831a4663af8002d4a9c0329c3375039d300995d02f454d260af",
+    "reviewPath": "regressions/f07-subway-wrong-retry-393.png"
+  },
+  {
+    "path": "regressions/f08-ending-skip-message-393.png",
+    "bytes": 206408,
+    "sha256": "873fb619437aa7f74df1e8623637dff565312cbb1a99f9877d2efa5b0f82b8e4",
+    "reviewPath": "regressions/f08-ending-skip-message-393.png"
+  },
+  {
+    "path": "regressions/f08-invitation-access-lobby-393.png",
+    "bytes": 516318,
+    "sha256": "03445769250483cd7feb20173205203b0ab52f472c250d9c1028efe17c6625f8",
+    "reviewPath": "regressions/f08-invitation-access-lobby-393.png"
+  },
+  {
+    "path": "regressions/f09-later-load-retry-393.png",
+    "bytes": 10093,
+    "sha256": "875872bb61d681ff14406f06c9dabba90534e80fe67b7e1a64e998d131ce56a4",
+    "reviewPath": "regressions/f09-later-load-retry-393.png"
+  },
+  {
+    "path": "regressions/f09-opening-loading-state-393.png",
+    "bytes": 7192,
+    "sha256": "010800279208cc8f65a29be3824bd0c2f37b31e66b4c5ee59d73fdd26833d531",
+    "reviewPath": "regressions/f09-opening-loading-state-393.png"
+  },
+  {
+    "path": "regressions/f10-intro-keyboard-focus-desktop.png",
+    "bytes": 1143341,
+    "sha256": "1cfcfa308e3fb8530b6515a3fa6546a7099b0498938d9a7a182970f34e9e9a54",
+    "reviewPath": "regressions/f10-intro-keyboard-focus-desktop.png"
+  },
+  {
+    "path": "regressions/f10-lobby-keyboard-destinations-desktop.png",
+    "bytes": 922514,
+    "sha256": "16509c1f4bebb852db686d6c163ca8b63da65a2b97a201210cfc6571094c56cc",
+    "reviewPath": "regressions/f10-lobby-keyboard-destinations-desktop.png"
+  },
+  {
+    "path": "regressions/load-recovery.json",
+    "bytes": 379,
+    "sha256": "433bd07d92830d1a0926e2ddda7465aa300f22bbbd4f04baa9d3d0021bb167a2",
+    "reviewPath": "regressions/load-recovery.json"
+  },
+  {
+    "path": "regressions/performance-car.json",
+    "bytes": 7342,
+    "sha256": "083727c54c9b74993f51c591031b06d168f471280a7a50b091aea7c29b664e36",
+    "reviewPath": "regressions/performance-car.json"
+  },
+  {
+    "path": "regressions/performance-subway.json",
+    "bytes": 7331,
+    "sha256": "3f63c5b6dee114c545d0b7dceca3a8ddc706f4d10b3564c1a870eb51da25c423",
+    "reviewPath": "regressions/performance-subway.json"
+  },
+  {
+    "path": "runs/ceremony-01/.last-run.json",
+    "bytes": 194,
+    "sha256": "5f1ad4d84e3aa8b6a37d062635df70aadb96508290b3ff5502c1e1c176348af7",
+    "reviewPath": "runs/ceremony-01/.last-run.json"
+  },
+  {
+    "path": "runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+    "bytes": 15260,
+    "sha256": "9f247cea94035417d6de97e0c5ff0c5b406bcbcea5f62c2f46c1848b061a628a",
+    "reviewPath": "runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md"
+  },
+  {
+    "path": "runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@d8012043ca2f8b0a867f03532f2a31dc.webm",
+    "bytes": 2097152,
+    "sha256": "084f0bc12a47ebbd835093a5381f5946c3658ce881ec5ca2745c181b0ce0739a",
+    "reviewPath": "runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@d8012043ca2f8b0a867f03532f2a31dc.webm"
+  },
+  {
+    "path": "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+    "bytes": 15142,
+    "sha256": "ceacd15336840ee8c7f2279f24e6135afc4387d8754d763089ff706a5617367b",
+    "reviewPath": "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md"
+  },
+  {
+    "path": "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@13319a38c81dcdce33a0c48e1993d8dc.webm",
+    "bytes": 4077173,
+    "sha256": "72664e5e917541a960f19e7eb313bf3c409723f02fe0a5a976a16ec1a02ccf47",
+    "reviewPath": "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@13319a38c81dcdce33a0c48e1993d8dc.webm"
+  },
+  {
+    "path": "runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+    "bytes": 15258,
+    "sha256": "e7831ffc55d30382043f6b1a33a96fb1fda481202babd494b832eaa18460daa5",
+    "reviewPath": "runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md"
+  },
+  {
+    "path": "runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@344cc163bba3f107a6caea73f014c378.webm",
+    "bytes": 2863215,
+    "sha256": "00ac1459c8b006c686919b5841010f6c81757f4338f00b9686f33dc55a0f804b",
+    "reviewPath": "runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@344cc163bba3f107a6caea73f014c378.webm"
+  },
+  {
+    "path": "runs/ceremony-02/.last-run.json",
+    "bytes": 194,
+    "sha256": "5f1ad4d84e3aa8b6a37d062635df70aadb96508290b3ff5502c1e1c176348af7",
+    "reviewPath": "runs/ceremony-02/.last-run.json"
+  },
+  {
+    "path": "runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+    "bytes": 15260,
+    "sha256": "157893fb0c36a46d100ffc26bf1d38bb912a1d80b6b05d8c11dbb5284e71d208",
+    "reviewPath": "runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md"
+  },
+  {
+    "path": "runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@d04b655bd6167b451c21e9f718dcf056.webm",
+    "bytes": 2097152,
+    "sha256": "d07ea51ce36294db09468636182b64082ecb00b5ee00a63a04fa4154aad5f88e",
+    "reviewPath": "runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@d04b655bd6167b451c21e9f718dcf056.webm"
+  },
+  {
+    "path": "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+    "bytes": 15261,
+    "sha256": "019c21a4b89e99c88933ebfda9c79d2433b40fe55203a8f42785c4b2fd3495ac",
+    "reviewPath": "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md"
+  },
+  {
+    "path": "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@feaa78437c33e5daf5205d4eacc77fb8.webm",
+    "bytes": 4052700,
+    "sha256": "c35fc8f6ae2e3bd6b5cd37c3898b007f65ff7bee9ea48f85f60cd83e2a00da88",
+    "reviewPath": "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@feaa78437c33e5daf5205d4eacc77fb8.webm"
+  },
+  {
+    "path": "runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+    "bytes": 15258,
+    "sha256": "42717e9d38c63568d069e1a2654928f497b454ce61c7b1b3bca65618239c0e1d",
+    "reviewPath": "runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md"
+  },
+  {
+    "path": "runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@2168d48127d5e9b2cf8a2400cb7ac7b1.webm",
+    "bytes": 3066445,
+    "sha256": "23aea05c0f198aee08c78f1eca3b7fa05038fc9ff5c533604eddc5739dab435a",
+    "reviewPath": "runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@2168d48127d5e9b2cf8a2400cb7ac7b1.webm"
+  },
+  {
+    "path": "runs/photos-01/.last-run.json",
+    "bytes": 96,
+    "sha256": "6819c2b8e9e376acaa82272ecb0d8878766914c1819444c778749d23b8bc60d0",
+    "reviewPath": "runs/photos-01/.last-run.json"
+  },
+  {
+    "path": "runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/error-context.md",
+    "bytes": 10172,
+    "sha256": "e3ccca2c9803d3e64fbe71f4eb7133611baa571563d5000dd0597e1d02e10d7e",
+    "reviewPath": "runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/error-context.md"
+  },
+  {
+    "path": "runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+    "bytes": 2644502,
+    "sha256": "dfaddf0d21b69df38a2f29be2632b62162f54625bd65359a54cde03d2575544c",
+    "reviewPath": "runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm"
+  },
+  {
+    "path": "runs/photos-02/.last-run.json",
+    "bytes": 45,
+    "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+    "reviewPath": "runs/photos-02/.last-run.json"
+  },
+  {
+    "path": "runs/production-final/.last-run.json",
+    "bytes": 45,
+    "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+    "reviewPath": "runs/production-final/.last-run.json"
+  },
+  {
+    "path": "runs/refinement-02/.last-run.json",
+    "bytes": 45,
+    "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+    "reviewPath": "runs/refinement-02/.last-run.json"
+  },
+  {
+    "path": "runs/regression-all-01/.last-run.json",
+    "bytes": 341,
+    "sha256": "98aebe86c6af2f7b1b792f64567a55a87d2a4ca4b777ada75864086eaac1e8a1",
+    "reviewPath": "runs/regression-all-01/.last-run.json"
+  },
+  {
+    "path": "runs/regression-all-01/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/error-context.md",
+    "bytes": 6632,
+    "sha256": "972b8795b36108a89bb352f02fe94ac43bc23eebbbbd1a6e34362d4da7787189",
+    "reviewPath": "runs/regression-all-01/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/error-context.md"
+  },
+  {
+    "path": "runs/regression-all-01/reception-only-single-rece-6f818-movement-and-completes-once-chromium/error-context.md",
+    "bytes": 6685,
+    "sha256": "4a70d94b0266b39903a4063326a83aac4e99dbbf905d26e6d147cc2a2cd2677a",
+    "reviewPath": "runs/regression-all-01/reception-only-single-rece-6f818-movement-and-completes-once-chromium/error-context.md"
+  },
+  {
+    "path": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+    "bytes": 6482,
+    "sha256": "0c62d3afe73f5e7bdb47fb18010e38395800acb60dc3c3638400f4bfd7cb7d94",
+    "reviewPath": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md"
+  },
+  {
+    "path": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@ecc59c89abd190064543dbf4788fbc42.webm",
+    "bytes": 3387651,
+    "sha256": "47e957b824aa0b29838195ff2876de0ac7ae19635a95e0e6f2a98d98033fa5e2",
+    "reviewPath": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@ecc59c89abd190064543dbf4788fbc42.webm"
+  },
+  {
+    "path": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+    "bytes": 6483,
+    "sha256": "f10785152193d718fdb22544429fd5509aa34b9fa5410671c045cb243f20fef2",
+    "reviewPath": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md"
+  },
+  {
+    "path": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@159551f6393fb42cf52ea01497959a21.webm",
+    "bytes": 4545167,
+    "sha256": "1c743a6f30fa88a76ecb0b90f6d460777d3d590b4d42c933d10206fa84c573e2",
+    "reviewPath": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@159551f6393fb42cf52ea01497959a21.webm"
+  },
+  {
+    "path": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+    "bytes": 6480,
+    "sha256": "c752c44d54bbb1f9a242d296d0b1ff6b97c9d759deb463599ac51b90c836f604",
+    "reviewPath": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md"
+  },
+  {
+    "path": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@62b7299c4d0aaaffa7ca27e6a34836e4.webm",
+    "bytes": 3435411,
+    "sha256": "8db15b34e49a9e2677d8091609b97b7a4a1b383e1c3d93bc0afd8fc1afa1a9c5",
+    "reviewPath": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@62b7299c4d0aaaffa7ca27e6a34836e4.webm"
+  },
+  {
+    "path": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/error-context.md",
+    "bytes": 11850,
+    "sha256": "a2cc83f88b3be08f634ddbe9fa078bb51ef081a8947165fa59d608dc65d23f1a",
+    "reviewPath": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/error-context.md"
+  },
+  {
+    "path": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+    "bytes": 3692093,
+    "sha256": "f4572ed8cae337c287fb06205099f5df4f2f4c1ed58e16726a421941c925eb20",
+    "reviewPath": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm"
+  },
+  {
+    "path": "runs/regression-final/.last-run.json",
+    "bytes": 45,
+    "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+    "reviewPath": "runs/regression-final/.last-run.json"
+  },
+  {
+    "path": "source-final.json",
+    "bytes": 34360,
+    "sha256": "22d6ca898f6eb27c40d82ba0a19f90c9e93e561e355a829093d98f1309a7507b",
+    "reviewPath": "source-final.json"
+  },
+  {
+    "path": "source-frozen-01.json",
+    "bytes": 34297,
+    "sha256": "94308d98cc4ae3bc44de2bff73fe2780c7eaf33d81641cc074e5d12fd78ba376",
+    "reviewPath": "source-frozen-01.json"
+  },
+  {
+    "path": "timing-and-resources.json",
+    "bytes": 7291,
+    "sha256": "f69183d13d3292aa5c9b8075eb6031532ec3894a0c91d78b439d2ec8319cfe27",
+    "reviewPath": "timing-and-resources.json"
+  },
+  {
+    "path": "tools/acceptance-content.json",
+    "bytes": 2979,
+    "sha256": "22a699ce5854d5cc528b65a7e9552860602e8c8074288fc0a34a5608d244d101",
+    "reviewPath": "tools/acceptance-content.json"
+  },
+  {
+    "path": "tools/finalize-evidence.py",
+    "bytes": 6978,
+    "sha256": "1dbb3a2763a56f89c56b1f085e2e3769d42dd07f2e5a97189a6ce5844c7febca",
+    "reviewPath": "tools/finalize-evidence.py"
+  },
+  {
+    "path": "tools/make-clips.py",
+    "bytes": 2905,
+    "sha256": "861c8eb05ad0dbd1de80ff579e3b41d39cf4f396e3038c3abe3b80e853b9f027",
+    "reviewPath": "tools/make-clips.py"
+  },
+  {
+    "path": "tools/package-evidence.py",
+    "bytes": 1948,
+    "sha256": "8d177b855c19b02438f5da92402c0ad0e85a97909d8afe65e6452940368a0cda",
+    "reviewPath": "tools/package-evidence.py"
+  },
+  {
+    "path": "video-frames/f11-applause-1.0s.png",
+    "bytes": 461337,
+    "sha256": "103091fa0e325542790adb2aadf7c232ed8f06bdf9025ce7a992a9ba477d9173",
+    "reviewPath": "video-frames/f11-applause-1.0s.png"
+  },
+  {
+    "path": "video-frames/f11-applause-1.8s.png",
+    "bytes": 483892,
+    "sha256": "9241cac40c5c78f8b20f29d9b3a919f65d5579712d3731683bd439439ae3f0c5",
+    "reviewPath": "video-frames/f11-applause-1.8s.png"
+  },
+  {
+    "path": "video-frames/f11-applause-10.3s.png",
+    "bytes": 506362,
+    "sha256": "fba6733abea1168158f75d5fe2871c2939c18eec8b22193e215350e3903619cb",
+    "reviewPath": "video-frames/f11-applause-10.3s.png"
+  },
+  {
+    "path": "video-frames/f11-applause-5.6s.png",
+    "bytes": 247973,
+    "sha256": "ee65527abf001a64dbcbb670cde9af6f1f4b4c845e68bf889c233230cb3c578b",
+    "reviewPath": "video-frames/f11-applause-5.6s.png"
+  },
+  {
+    "path": "video-frames/f11-cheer-1.0s.png",
+    "bytes": 410968,
+    "sha256": "93200668b213bcd6de5ee8cd2fe1f505c712e0524934cf6aa9e4595f66ff8b21",
+    "reviewPath": "video-frames/f11-cheer-1.0s.png"
+  },
+  {
+    "path": "video-frames/f11-cheer-1.8s.png",
+    "bytes": 505474,
+    "sha256": "1e21e51e6af632176b3df89514f79c5017e0a583014e16a9febef2c2cc8c69a5",
+    "reviewPath": "video-frames/f11-cheer-1.8s.png"
+  },
+  {
+    "path": "video-frames/f11-cheer-13.7s.png",
+    "bytes": 513244,
+    "sha256": "140a1a240ec850a79f7080335485650cff7994a321cd7b28ee5c5825c8426b3b",
+    "reviewPath": "video-frames/f11-cheer-13.7s.png"
+  },
+  {
+    "path": "video-frames/f11-cheer-7.3s.png",
+    "bytes": 495440,
+    "sha256": "7243332338102945fced3deb0bed083b02fb9593d5810d41b10be3a8ad6e78e7",
+    "reviewPath": "video-frames/f11-cheer-7.3s.png"
+  },
+  {
+    "path": "video-frames/f12-booth-1.0s.png",
+    "bytes": 364155,
+    "sha256": "68bb50e01f9e528ff451c401d9b7d45a5a6c292135bf69a01ed7103ea79ca736",
+    "reviewPath": "video-frames/f12-booth-1.0s.png"
+  },
+  {
+    "path": "video-frames/f12-booth-10.7s.png",
+    "bytes": 349191,
+    "sha256": "f1abbc5d8929260f093b31e35d761d87c5ad7e10c5367df553bbb17ed74e8da5",
+    "reviewPath": "video-frames/f12-booth-10.7s.png"
+  },
+  {
+    "path": "video-frames/f12-booth-5.9s.png",
+    "bytes": 358862,
+    "sha256": "00513da979e26c305ca785cf496652337e6b60cb093282b4a118a83a24fb4b4b",
+    "reviewPath": "video-frames/f12-booth-5.9s.png"
+  },
+  {
+    "path": "video-frames/f12-bridal-1.0s.png",
+    "bytes": 407000,
+    "sha256": "f60b9d44eb3ae800ab4a13eae8f555330a44c8a62a8b5dd300c3fdd8dd6d9fb2",
+    "reviewPath": "video-frames/f12-bridal-1.0s.png"
+  },
+  {
+    "path": "video-frames/f12-bridal-12.0s.png",
+    "bytes": 417825,
+    "sha256": "124dd7c7da864caa9ba1a18b989f0f2d586dcd49736b977d4da866981ab545f6",
+    "reviewPath": "video-frames/f12-bridal-12.0s.png"
+  },
+  {
+    "path": "video-frames/f12-bridal-6.5s.png",
+    "bytes": 343891,
+    "sha256": "6a93b6ae539a36c153ce0e02a3eb6af8cd04256c265e37d7b3e1d1ca55978ab6",
+    "reviewPath": "video-frames/f12-bridal-6.5s.png"
+  },
+  {
+    "path": "video-frames/f15-reception-1.0s.png",
+    "bytes": 474892,
+    "sha256": "6378df6b43eaa125fc55a80adb5a4294234309a6f014d64b8dd247daf9058df1",
+    "reviewPath": "video-frames/f15-reception-1.0s.png"
+  },
+  {
+    "path": "video-frames/f15-reception-14.3s.png",
+    "bytes": 471691,
+    "sha256": "12c7dfcf77d74062c5a150c29f38bc35e39297f3dab1a520ea2033e7b7d6c2e9",
+    "reviewPath": "video-frames/f15-reception-14.3s.png"
+  },
+  {
+    "path": "video-frames/f15-reception-5.4s.png",
+    "bytes": 218190,
+    "sha256": "090d6cd18ef15e5ac0f1c4d6aad80f9c322c5ffdc2d4436c8ca81a6ade4fa152",
+    "reviewPath": "video-frames/f15-reception-5.4s.png"
+  },
+  {
+    "path": "video-frames/f15-reception-7.2s.png",
+    "bytes": 488191,
+    "sha256": "f2cb0513a53c25fbd3647ab48703aee13dfb23c5342bff5c3ec260809524e974",
+    "reviewPath": "video-frames/f15-reception-7.2s.png"
+  },
+  {
+    "path": "video-frames/f15-reception-8.6s.png",
+    "bytes": 506130,
+    "sha256": "575df9cb145a211812a92dcf2a1d741f95531627a694002a670427a525d0fbce",
+    "reviewPath": "video-frames/f15-reception-8.6s.png"
+  },
+  {
+    "path": "video-frames/f15-reception-9.8s.png",
+    "bytes": 18594,
+    "sha256": "292dc2f71f4655731be2b691da9491e0b5c5cc475b5793d577ad403114e2ab1d",
+    "reviewPath": "video-frames/f15-reception-9.8s.png"
+  },
+  {
+    "path": "video-frames/f15-reception-9.9s.png",
+    "bytes": 99548,
+    "sha256": "9db6c36deba07ecbcc218a2aa4ba4a02faed06c164df1b9c28b3b40214a82c6c",
+    "reviewPath": "video-frames/f15-reception-9.9s.png"
+  },
+  {
+    "path": "video-inputs/ceremony-applause-events.json",
+    "bytes": 3405,
+    "sha256": "46a03f079d1bab51af2acc9e5183275e87a4af4900e1f03cdd676a7a50c74e0d",
+    "reviewPath": "video-inputs/ceremony-applause-events.json"
+  },
+  {
+    "path": "video-inputs/ceremony-cheer-events.json",
+    "bytes": 3382,
+    "sha256": "3ea1b5002ddecd525aa0b48ed7797cb03f69af057a2b420fdbe9e5daa4702a31",
+    "reviewPath": "video-inputs/ceremony-cheer-events.json"
+  },
+  {
+    "path": "video-inputs/ceremony-compact-events.json",
+    "bytes": 3375,
+    "sha256": "ddee95b035fe6a01dc924bd04eb6c2fdefe5adb6fe07a149390685594174b7c7",
+    "reviewPath": "video-inputs/ceremony-compact-events.json"
+  },
+  {
+    "path": "video-inputs/ceremony-reduced-events.json",
+    "bytes": 3388,
+    "sha256": "891dfc8fe3f2bf1ee4677e3ae89a4154ad415e12eb5ab4befb3d41308f9b53b2",
+    "reviewPath": "video-inputs/ceremony-reduced-events.json"
+  },
+  {
+    "path": "video-inputs/photo-events.json",
+    "bytes": 15481,
+    "sha256": "ca4b1c19f7571e358b420e9017e73901314ac1a221c9061efbe319dd83162f1a",
+    "reviewPath": "video-inputs/photo-events.json"
+  },
+  {
+    "path": "video-inputs/reception-events.json",
+    "bytes": 1691,
+    "sha256": "c9ae92314e7f895f06be8a161a2facb6f8a9a40cae15741098aea7c60ce33de6",
+    "reviewPath": "video-inputs/reception-events.json"
+  },
+  {
+    "path": "video-inputs/reception-pause-events.json",
+    "bytes": 1318,
+    "sha256": "a5dd28e7004d186637f7a78e5562f36c6beb97a01e71932f7cf7900cfe0b39aa",
+    "reviewPath": "video-inputs/reception-pause-events.json"
+  },
+  {
+    "path": "video-manifest.json",
+    "bytes": 13808,
+    "sha256": "fa44179e643cc53188dc56ace4b660b763c6b9fb86ec9518437f650109085b75",
+    "reviewPath": "video-manifest.json"
+  },
+  {
+    "path": "runs/photos-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+    "bytes": 5332114,
+    "sha256": "28aeea33b02c2860fb20920a545cac11a6b199dfa9e78126b85e02937bbe988c",
+    "reviewPath": "runs/photos-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm"
+  }
+]

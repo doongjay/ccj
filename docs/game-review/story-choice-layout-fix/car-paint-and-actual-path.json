@@ -1,0 +1,68 @@
+{
+  "image": "game/public/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+  "sha256": "b86da40f26958b5532e2da69674a8a8754a03f4de62563bbba1aca9b34edc89a",
+  "size": [
+    941,
+    1670
+  ],
+  "method": "Read-only pixel analysis. Actual browser Player frames compared with largest 8-connected component of matching painted lane. No image modifications.",
+  "results": [
+    {
+      "lane": "파란색",
+      "frames": 185,
+      "maxDistanceNativePx": 0.6591861388929703,
+      "framesWithoutLaneWithin12px": 0,
+      "largestConnectedLanePixels": 12870,
+      "connectedBounds": [
+        565,
+        736,
+        764,
+        1669
+      ],
+      "medianColorRGB": [
+        51.0,
+        113.0,
+        196.0
+      ],
+      "destination": "b3"
+    },
+    {
+      "lane": "노란색",
+      "frames": 156,
+      "maxDistanceNativePx": 1.413115231618125,
+      "framesWithoutLaneWithin12px": 0,
+      "largestConnectedLanePixels": 10138,
+      "connectedBounds": [
+        3,
+        1026,
+        322,
+        1669
+      ],
+      "medianColorRGB": [
+        220.0,
+        145.0,
+        39.0
+      ],
+      "destination": "emart"
+    },
+    {
+      "lane": "분홍색",
+      "frames": 156,
+      "maxDistanceNativePx": 0.6578430654859015,
+      "framesWithoutLaneWithin12px": 0,
+      "largestConnectedLanePixels": 12117,
+      "connectedBounds": [
+        119,
+        838,
+        469,
+        1669
+      ],
+      "medianColorRGB": [
+        227,
+        95,
+        159
+      ],
+      "destination": "tower"
+    }
+  ]
+}

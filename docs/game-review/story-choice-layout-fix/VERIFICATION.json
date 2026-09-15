@@ -1,0 +1,48 @@
+{
+  "finalReports": {
+    "final-03": {
+      "startTime": "2026-09-14T17:29:29.037Z",
+      "duration": 82800.771,
+      "expected": 12,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "regression-01": {
+      "startTime": "2026-09-14T17:20:46.628Z",
+      "duration": 195639.646,
+      "expected": 13,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "regression-02": {
+      "startTime": "2026-09-14T17:35:05.418Z",
+      "duration": 255443.115,
+      "expected": 13,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "production-01": {
+      "startTime": "2026-09-14T17:29:43.362Z",
+      "duration": 42281.178,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "hallGoTestsFromFinal01": 3,
+  "distinctRelevantTestsPassed": 44,
+  "fullRepositorySuite": false,
+  "shipping": {
+    "registered": 101,
+    "checked": 101,
+    "decoded": 100,
+    "exitCode": 0,
+    "errors": []
+  },
+  "openingNetworkBytes": 3516691,
+  "faceAndPickerUnchanged": true
+}

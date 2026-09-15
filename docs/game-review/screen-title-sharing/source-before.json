@@ -1,0 +1,62 @@
+[
+  {
+    "path": "game/src/ui/InvitationView.ts",
+    "sha256": "e2eef4301c0b6a44e07e641dc018d8b6eb9513f576699ca28145d6654609ce77"
+  },
+  {
+    "path": "game/src/data/weddingMetadata.ts",
+    "sha256": "56e1b5091a41f377bd3f64da2c361f89a33ec3d7109165911ddf338df8bfb263"
+  },
+  {
+    "path": "game/index.html",
+    "sha256": "50d0b26b4ddbbb2dfd35f1e2813f3ac923a6dd73c1d5c864aa500f3721949c2e"
+  },
+  {
+    "path": "game/public/share-preview.html",
+    "sha256": "690bff32fb901b1733782209d6b9d7e8685086ec277613f652810be7c9e95dae"
+  },
+  {
+    "path": "game/src/scenes/IntroScene.ts",
+    "sha256": "0bb5c6c5447c73fecfa251ab99c31b42559afb2009e6681458cf5eb40cb48e6a"
+  },
+  {
+    "path": "game/src/scenes/VenueHallScene.ts",
+    "sha256": "3d6f4642924ce39155565c588ecfccc17db018abe67e89b8dbf642a51dc1b963"
+  },
+  {
+    "path": "game/e2e/invitation-sharing.spec.ts",
+    "sha256": "c1f5b45f69bf16bb5f45b250027a79367a95cb4547c9c44519be57ef90342633"
+  },
+  {
+    "path": "game/e2e/group-screen-reuse.spec.ts",
+    "sha256": "e19897b2d0147f18c1f8621367353be8a88dd94b742846d81d13b866e17b8708"
+  },
+  {
+    "path": "game/e2e/smoke.spec.ts",
+    "sha256": "dbe48b897525ca0f5c1c0d5a3a4d2502ca84583fda2365cf1ca7255a503b4ac3"
+  },
+  {
+    "path": "game/e2e/invitation.spec.ts",
+    "sha256": "c3348929c2d621a91e6e00c4e6758d5f38e4a473528a8bfde92af95d763d600a"
+  },
+  {
+    "path": "game/e2e/wedding-group.spec.ts",
+    "sha256": "b458b1525227adcf049dd8b28db5fa351e118c494bbe80327f4122bcfa095360"
+  },
+  {
+    "path": "game/e2e/current-journey.spec.ts",
+    "sha256": "edc188c26ee20a9928ec85587a6b31d576ae41c0669ae87a09a457357c22f921"
+  },
+  {
+    "path": "game/e2e/review-batch-b-access.spec.ts",
+    "sha256": "234c5a044b02b423a39aec0805aaa5625faa4bcc33c291f5128bac4fddff1d52"
+  },
+  {
+    "path": "game/e2e/review-batch-d-resources.spec.ts",
+    "sha256": "4b94f309a55209fc8707c857f5f48dd8f9c0b327f6d54b739ac4389fca69d289"
+  },
+  {
+    "path": "game/src/invitation.css",
+    "sha256": "897349cb0670261659cd1c7e474fd94ca8c6baf39aa18ee1e092980c2f60cad3"
+  }
+]

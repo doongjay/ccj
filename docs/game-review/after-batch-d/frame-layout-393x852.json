@@ -1,0 +1,110 @@
+{
+  "viewport": [
+    393,
+    852
+  ],
+  "scroll": [
+    852,
+    852
+  ],
+  "nodes": [
+    {
+      "tag": "DIV",
+      "className": "",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 393,
+        "height": 852,
+        "top": 0,
+        "right": 393,
+        "bottom": 852,
+        "left": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "className": "",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "portrait-notice",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "className": "game-access",
+      "bounds": {
+        "x": 309,
+        "y": 28,
+        "width": 76,
+        "height": 44,
+        "top": 28,
+        "right": 385,
+        "bottom": 72,
+        "left": 309
+      }
+    },
+    {
+      "tag": "NAV",
+      "className": "keyboard-destinations",
+      "bounds": {
+        "x": 16,
+        "y": 160,
+        "width": 361,
+        "height": 1,
+        "top": 160,
+        "right": 377,
+        "bottom": 161,
+        "left": 16
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "className": "canvas-keyboard-button",
+      "bounds": {
+        "x": 8.71875,
+        "y": 84.71875,
+        "width": 122.265625,
+        "height": 48.03125,
+        "top": 84.71875,
+        "right": 130.984375,
+        "bottom": 132.75,
+        "left": 8.71875
+      }
+    },
+    {
+      "tag": "DIV",
+      "className": "story-overlay story-tappable story-notebook",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    }
+  ]
+}

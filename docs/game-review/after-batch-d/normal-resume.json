@@ -1,0 +1,15 @@
+{
+  "start": 1789370616783,
+  "clipStart": 10232,
+  "clipEnd": 23461,
+  "shownAt": 1789370629752,
+  "explicitReturnAt": 1789370635256,
+  "resultHeldMs": 5504,
+  "fixedViewport": {
+    "width": 393,
+    "height": 852
+  },
+  "invitationDuringClip": false,
+  "errors": [],
+  "video": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/local-server/.playwright-artifacts-0/page@24e4e92a617e92532494a8dae5c64c9d.webm"
+}

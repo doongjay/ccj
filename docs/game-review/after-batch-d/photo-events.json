@@ -1,0 +1,709 @@
+{
+  "testStart": 1789370350349,
+  "clips": [
+    {
+      "name": "f12-booth",
+      "startMs": 14789,
+      "endMs": 23617
+    },
+    {
+      "name": "f12-bridal",
+      "startMs": 36379,
+      "endMs": 46921
+    }
+  ],
+  "events": [
+    {
+      "at": 235.80000019073486,
+      "attribute": "data-asset-load-progress",
+      "value": "0"
+    },
+    {
+      "at": 368.30000019073486,
+      "attribute": "data-asset-load-progress",
+      "value": "0.25"
+    },
+    {
+      "at": 368.6000003814697,
+      "attribute": "data-asset-load-progress",
+      "value": "0.5"
+    },
+    {
+      "at": 368.7000002861023,
+      "attribute": "data-asset-load-progress",
+      "value": "0.75"
+    },
+    {
+      "at": 450.5,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 540.5,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 572.4000000953674,
+      "attribute": "data-session-keepsake-count",
+      "value": "0"
+    },
+    {
+      "at": 572.4000000953674,
+      "attribute": "data-session-keepsake-builds",
+      "value": "0"
+    },
+    {
+      "at": 572.4000000953674,
+      "attribute": "data-photo-booth-completion-count",
+      "value": "0"
+    },
+    {
+      "at": 572.4000000953674,
+      "attribute": "data-bridal-photo-completion-count",
+      "value": "0"
+    },
+    {
+      "at": 1027.5,
+      "attribute": "data-session-keepsake-count",
+      "value": "0"
+    },
+    {
+      "at": 1027.5,
+      "attribute": "data-session-keepsake-builds",
+      "value": "0"
+    },
+    {
+      "at": 1027.5,
+      "attribute": "data-photo-booth-completion-count",
+      "value": "0"
+    },
+    {
+      "at": 1027.5,
+      "attribute": "data-bridal-photo-completion-count",
+      "value": "0"
+    },
+    {
+      "at": 1027.5,
+      "attribute": "data-asset-load-progress",
+      "value": "0"
+    },
+    {
+      "at": 1166.3000001907349,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 1166.4000000953674,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 1553.7000002861023,
+      "attribute": "data-asset-load-progress",
+      "value": "0"
+    },
+    {
+      "at": 1618.1000003814697,
+      "attribute": "data-asset-load-progress",
+      "value": "0.3333333333333333"
+    },
+    {
+      "at": 1672.1000003814697,
+      "attribute": "data-asset-load-progress",
+      "value": "0.6666666666666666"
+    },
+    {
+      "at": 1722.8000001907349,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 1723.1000003814697,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 5131.700000286102,
+      "attribute": "data-asset-load-progress",
+      "value": "0"
+    },
+    {
+      "at": 5131.800000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0.6"
+    },
+    {
+      "at": 5131.800000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0.6"
+    },
+    {
+      "at": 5131.800000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0.6"
+    },
+    {
+      "at": 5215.800000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0.8"
+    },
+    {
+      "at": 5296.300000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 5296.5,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 11774.700000286102,
+      "attribute": "data-photo-booth-visited",
+      "value": "false"
+    },
+    {
+      "at": 11774.700000286102,
+      "attribute": "data-photo-table-visited",
+      "value": "false"
+    },
+    {
+      "at": 11774.700000286102,
+      "attribute": "data-photo-gallery-open",
+      "value": "false"
+    },
+    {
+      "at": 11774.700000286102,
+      "attribute": "data-photo-gallery-index",
+      "value": "0"
+    },
+    {
+      "at": 11774.700000286102,
+      "attribute": "data-lobby-progress",
+      "value": "0/4"
+    },
+    {
+      "at": 12515.900000095367,
+      "attribute": "data-asset-load-progress",
+      "value": "0"
+    },
+    {
+      "at": 12516,
+      "attribute": "data-asset-load-progress",
+      "value": "0.75"
+    },
+    {
+      "at": 12516,
+      "attribute": "data-asset-load-progress",
+      "value": "0.75"
+    },
+    {
+      "at": 12516,
+      "attribute": "data-asset-load-progress",
+      "value": "0.75"
+    },
+    {
+      "at": 12641.60000038147,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 12641.800000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 12806.200000286102,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 12806.200000286102,
+      "attribute": "data-photo-booth-stage",
+      "value": "ready"
+    },
+    {
+      "at": 12920.300000190735,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 12920.300000190735,
+      "attribute": "data-photo-returned-at",
+      "value": "12920.200000286102"
+    },
+    {
+      "at": 13154.5,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 13154.5,
+      "attribute": "data-photo-booth-visited",
+      "value": "false"
+    },
+    {
+      "at": 13154.5,
+      "attribute": "data-photo-table-visited",
+      "value": "false"
+    },
+    {
+      "at": 13154.5,
+      "attribute": "data-photo-gallery-open",
+      "value": "false"
+    },
+    {
+      "at": 13154.5,
+      "attribute": "data-photo-gallery-index",
+      "value": "0"
+    },
+    {
+      "at": 13154.5,
+      "attribute": "data-lobby-progress",
+      "value": "0/4"
+    },
+    {
+      "at": 14693.200000286102,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 14693.200000286102,
+      "attribute": "data-photo-booth-stage",
+      "value": "ready"
+    },
+    {
+      "at": 14864.10000038147,
+      "attribute": "data-photo-booth-stage",
+      "value": "approaching"
+    },
+    {
+      "at": 16030.10000038147,
+      "attribute": "data-photo-booth-stage",
+      "value": "posing"
+    },
+    {
+      "at": 16938.900000095367,
+      "attribute": "data-session-keepsake-count",
+      "value": "1"
+    },
+    {
+      "at": 16938.900000095367,
+      "attribute": "data-session-keepsake-builds",
+      "value": "1"
+    },
+    {
+      "at": 16938.900000095367,
+      "attribute": "data-photo-character-texture-count",
+      "value": "4"
+    },
+    {
+      "at": 16938.900000095367,
+      "attribute": "data-photo-booth-completion-count",
+      "value": "1"
+    },
+    {
+      "at": 16938.900000095367,
+      "attribute": "data-photo-booth-visited",
+      "value": "true"
+    },
+    {
+      "at": 16938.900000095367,
+      "attribute": "data-photo-captured-at",
+      "value": "16938.700000286102"
+    },
+    {
+      "at": 17164.300000190735,
+      "attribute": "data-photo-booth-stage",
+      "value": "result"
+    },
+    {
+      "at": 17164.300000190735,
+      "attribute": "data-photo-result-open",
+      "value": "true"
+    },
+    {
+      "at": 17164.300000190735,
+      "attribute": "data-photo-result-at",
+      "value": "17163.200000286102"
+    },
+    {
+      "at": 22945.5,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 22945.5,
+      "attribute": "data-photo-returned-at",
+      "value": "22945.5"
+    },
+    {
+      "at": 23196.900000095367,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 23196.900000095367,
+      "attribute": "data-photo-booth-visited",
+      "value": "true"
+    },
+    {
+      "at": 23196.900000095367,
+      "attribute": "data-photo-table-visited",
+      "value": "false"
+    },
+    {
+      "at": 23196.900000095367,
+      "attribute": "data-photo-gallery-open",
+      "value": "false"
+    },
+    {
+      "at": 23196.900000095367,
+      "attribute": "data-photo-gallery-index",
+      "value": "0"
+    },
+    {
+      "at": 23196.900000095367,
+      "attribute": "data-lobby-progress",
+      "value": "1/4"
+    },
+    {
+      "at": 24360.200000286102,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 24360.200000286102,
+      "attribute": "data-photo-booth-stage",
+      "value": "ready"
+    },
+    {
+      "at": 24546.900000095367,
+      "attribute": "data-photo-booth-stage",
+      "value": "approaching"
+    },
+    {
+      "at": 25704.800000190735,
+      "attribute": "data-photo-booth-stage",
+      "value": "posing"
+    },
+    {
+      "at": 26613.300000190735,
+      "attribute": "data-photo-character-texture-count",
+      "value": "4"
+    },
+    {
+      "at": 26613.300000190735,
+      "attribute": "data-photo-booth-visited",
+      "value": "true"
+    },
+    {
+      "at": 26613.300000190735,
+      "attribute": "data-photo-captured-at",
+      "value": "26613.10000038147"
+    },
+    {
+      "at": 26838.700000286102,
+      "attribute": "data-photo-booth-stage",
+      "value": "result"
+    },
+    {
+      "at": 26838.700000286102,
+      "attribute": "data-photo-result-open",
+      "value": "true"
+    },
+    {
+      "at": 26838.700000286102,
+      "attribute": "data-photo-result-at",
+      "value": "26838"
+    },
+    {
+      "at": 26913.300000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0"
+    },
+    {
+      "at": 26913.300000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0.7777777777777778"
+    },
+    {
+      "at": 26913.300000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0.7777777777777778"
+    },
+    {
+      "at": 26913.300000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0.7777777777777778"
+    },
+    {
+      "at": 26913.300000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0.7777777777777778"
+    },
+    {
+      "at": 26913.300000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0.7777777777777778"
+    },
+    {
+      "at": 26913.300000190735,
+      "attribute": "data-asset-load-progress",
+      "value": "0.7777777777777778"
+    },
+    {
+      "at": 26913.400000095367,
+      "attribute": "data-asset-load-progress",
+      "value": "0.7777777777777778"
+    },
+    {
+      "at": 26971.60000038147,
+      "attribute": "data-asset-load-progress",
+      "value": "0.8888888888888888"
+    },
+    {
+      "at": 27027,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 27027.200000286102,
+      "attribute": "data-asset-load-progress",
+      "value": "1"
+    },
+    {
+      "at": 28126.700000286102,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 28126.700000286102,
+      "attribute": "data-photo-returned-at",
+      "value": "28126.700000286102"
+    },
+    {
+      "at": 28380.800000190735,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 28380.800000190735,
+      "attribute": "data-photo-booth-visited",
+      "value": "true"
+    },
+    {
+      "at": 28380.800000190735,
+      "attribute": "data-photo-table-visited",
+      "value": "false"
+    },
+    {
+      "at": 28380.800000190735,
+      "attribute": "data-photo-gallery-open",
+      "value": "false"
+    },
+    {
+      "at": 28380.900000095367,
+      "attribute": "data-photo-gallery-index",
+      "value": "0"
+    },
+    {
+      "at": 28380.900000095367,
+      "attribute": "data-lobby-progress",
+      "value": "1/4"
+    },
+    {
+      "at": 31533.200000286102,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 32199.200000286102,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 32199.200000286102,
+      "attribute": "data-photo-returned-at",
+      "value": "32199.200000286102"
+    },
+    {
+      "at": 32420.400000095367,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 32420.400000095367,
+      "attribute": "data-photo-booth-visited",
+      "value": "true"
+    },
+    {
+      "at": 32420.400000095367,
+      "attribute": "data-photo-table-visited",
+      "value": "false"
+    },
+    {
+      "at": 32420.400000095367,
+      "attribute": "data-photo-gallery-open",
+      "value": "false"
+    },
+    {
+      "at": 32420.400000095367,
+      "attribute": "data-photo-gallery-index",
+      "value": "0"
+    },
+    {
+      "at": 32420.400000095367,
+      "attribute": "data-lobby-progress",
+      "value": "1/4"
+    },
+    {
+      "at": 35856.7000002861,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 39288.5,
+      "attribute": "data-session-keepsake-count",
+      "value": "2"
+    },
+    {
+      "at": 39288.5,
+      "attribute": "data-session-keepsake-builds",
+      "value": "2"
+    },
+    {
+      "at": 39288.5,
+      "attribute": "data-photo-character-texture-count",
+      "value": "4"
+    },
+    {
+      "at": 39288.5,
+      "attribute": "data-bridal-photo-completion-count",
+      "value": "1"
+    },
+    {
+      "at": 39288.5,
+      "attribute": "data-photo-captured-at",
+      "value": "39288.40000009537"
+    },
+    {
+      "at": 39513.90000009537,
+      "attribute": "data-photo-result-open",
+      "value": "true"
+    },
+    {
+      "at": 39513.90000009537,
+      "attribute": "data-photo-result-at",
+      "value": "39513.10000038147"
+    },
+    {
+      "at": 46196.10000038147,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 46196.10000038147,
+      "attribute": "data-photo-returned-at",
+      "value": "46196.10000038147"
+    },
+    {
+      "at": 46446.7000002861,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 46446.7000002861,
+      "attribute": "data-photo-booth-visited",
+      "value": "true"
+    },
+    {
+      "at": 46446.7000002861,
+      "attribute": "data-photo-table-visited",
+      "value": "false"
+    },
+    {
+      "at": 46446.7000002861,
+      "attribute": "data-photo-gallery-open",
+      "value": "false"
+    },
+    {
+      "at": 46446.7000002861,
+      "attribute": "data-photo-gallery-index",
+      "value": "0"
+    },
+    {
+      "at": 46446.7000002861,
+      "attribute": "data-lobby-progress",
+      "value": "2/4"
+    },
+    {
+      "at": 49914.7000002861,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 53421.40000009537,
+      "attribute": "data-photo-character-texture-count",
+      "value": "4"
+    },
+    {
+      "at": 53421.40000009537,
+      "attribute": "data-photo-captured-at",
+      "value": "53421.300000190735"
+    },
+    {
+      "at": 53647,
+      "attribute": "data-photo-result-open",
+      "value": "true"
+    },
+    {
+      "at": 53647,
+      "attribute": "data-photo-result-at",
+      "value": "53646.2000002861"
+    },
+    {
+      "at": 54295.10000038147,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 54295.10000038147,
+      "attribute": "data-photo-returned-at",
+      "value": "54295"
+    },
+    {
+      "at": 54538.2000002861,
+      "attribute": "data-photo-result-open",
+      "value": "false"
+    },
+    {
+      "at": 54538.2000002861,
+      "attribute": "data-photo-booth-visited",
+      "value": "true"
+    },
+    {
+      "at": 54538.2000002861,
+      "attribute": "data-photo-table-visited",
+      "value": "false"
+    },
+    {
+      "at": 54538.2000002861,
+      "attribute": "data-photo-gallery-open",
+      "value": "false"
+    },
+    {
+      "at": 54538.300000190735,
+      "attribute": "data-photo-gallery-index",
+      "value": "0"
+    },
+    {
+      "at": 54538.300000190735,
+      "attribute": "data-lobby-progress",
+      "value": "2/4"
+    }
+  ],
+  "errors": [],
+  "video": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/.playwright-artifacts-2/page@009ca485f77b25aac02c11c09558bd77.webm"
+}

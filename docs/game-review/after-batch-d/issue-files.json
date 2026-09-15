@@ -1,0 +1,100 @@
+{
+  "D-A01": [
+    "game/src/data/assetManifest.ts",
+    "game/src/data/runtimeAssets.ts",
+    "game/src/data/shippingAssets.json",
+    "game/src/systems/stageAssets.ts",
+    "game/scripts/verify-assets.mjs",
+    "game/scripts/verify-shipping-assets.mjs",
+    "game/scripts/verify-shipping-assets.test.mjs",
+    "game/scripts/import-source.mjs",
+    "game/scripts/optimize-stage-assets.py",
+    "game/artwork/README.md",
+    "game/e2e/avatar-alpha.spec.ts",
+    "game/e2e/review-batch-d-assets.spec.ts"
+  ],
+  "F16": [
+    "game/src/ui/buttonInteraction.ts",
+    "game/src/ui/sceneUi.ts",
+    "game/src/ui/keyboardAccess.ts",
+    "game/src/ui/waitForTap.ts",
+    "game/src/style.css",
+    "game/e2e/review-batch-d-input-motion.spec.ts"
+  ],
+  "F17": [
+    "game/src/ui/motionPreference.ts",
+    "game/src/ui/pixelFeedback.ts",
+    "game/src/objects/Player.ts",
+    "game/src/ui/MinimiPicker.ts",
+    "game/src/ui/StoryDialog.ts",
+    "game/src/ui/WeddingCountdown.ts",
+    "game/src/scenes/VenueLobbyScene.ts",
+    "game/src/scenes/VenueRoomScene.ts",
+    "game/src/scenes/VenueHallScene.ts",
+    "game/src/style.css",
+    "game/e2e/review-batch-d-input-motion.spec.ts",
+    "game/e2e/review-batch-d-resources.spec.ts"
+  ],
+  "F18": [
+    "game/src/state/checkpointData.ts",
+    "game/src/state/checkpoint.ts",
+    "game/src/ui/sessionMemories.ts",
+    "game/src/scenes/IntroScene.ts",
+    "game/src/scenes/VenueLobbyScene.ts",
+    "game/src/scenes/VenueRoomScene.ts",
+    "game/src/scenes/ReceptionScene.ts",
+    "game/src/scenes/CarRouteScene.ts",
+    "game/src/scenes/SubwayRouteScene.ts",
+    "game/src/scenes/VenueHallScene.ts",
+    "game/src/scenes/DinnerJourneyScene.ts",
+    "game/src/scenes/EndingScene.ts",
+    "game/src/scenes/InvitationScene.ts",
+    "game/src/ui/GameAccess.ts",
+    "game/e2e/review-batch-d-checkpoint.spec.ts"
+  ],
+  "F19": [
+    "game/src/ui/parkingCar.ts",
+    "game/src/scenes/parkingArt.ts",
+    "game/src/scenes/CarRouteScene.ts",
+    "game/src/objects/Player.ts",
+    "game/src/ui/StoryDialog.ts",
+    "game/src/style.css",
+    "game/e2e/review-batch-d-venue.spec.ts",
+    "game/e2e/review-batch-d-animation.spec.ts"
+  ],
+  "F20": [
+    "game/src/ui/BuffetPreview.ts",
+    "game/src/scenes/DinnerJourneyScene.ts",
+    "game/src/ui/StoryDialog.ts",
+    "game/src/style.css",
+    "game/e2e/review-batch-d-venue.spec.ts",
+    "game/e2e/tap-pacing.spec.ts",
+    "game/e2e/lobby-required.spec.ts"
+  ],
+  "F21": [
+    "game/src/scenes/lobbyArt.ts",
+    "game/e2e/review-batch-d-frame.spec.ts",
+    "game/e2e/review-batch-d-production.spec.ts"
+  ],
+  "F22": [
+    "game/src/style.css",
+    "game/e2e/review-batch-d-frame.spec.ts",
+    "game/e2e/review-batch-d-production.spec.ts"
+  ],
+  "F23": [
+    "game/src/objects/Player.ts",
+    "game/src/ui/minimiMotion.ts",
+    "game/e2e/review-batch-d-animation.spec.ts",
+    "game/e2e/review-batch-d-resources.spec.ts"
+  ],
+  "C-P01": [
+    "game/src/objects/Player.ts",
+    "game/src/ui/minimiMotion.ts",
+    "game/src/ui/speechBubble.ts",
+    "game/src/scenes/VenueHallScene.ts",
+    "game/e2e/review-batch-d-animation.spec.ts"
+  ],
+  "F24-triage-only": [
+    "docs/game-review/after-batch-d/F24_ART_TRIAGE.md"
+  ]
+}

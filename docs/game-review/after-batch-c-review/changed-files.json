@@ -1,0 +1,212 @@
+[
+  {
+    "path": "game/e2e/current-journey.spec.ts",
+    "status": "modified",
+    "beforeSHA256": "29bc62334a46e68231c23b175a83d4b5e16f7f144af89c22b251d09ed9251de1",
+    "afterSHA256": "4559fe4a6c7030b60b54a05f94c529345b742cd4a7cbbbf7a900bfdb42d597aa",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/lobby-required.spec.ts",
+    "status": "modified",
+    "beforeSHA256": "d31c68758e88534e1e6ffbcce9eb925ffb14be1f02ae13c4c71737e5a207086f",
+    "afterSHA256": "92c558a610a61f9d2f3a60de85c2d8d0a67843a6ab31add36acd0877e8b0056d",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/lobby-return.spec.ts",
+    "status": "modified",
+    "beforeSHA256": "a7fe61c3a0285e72698855a025c65af938a0b0ae4dcd580ada77581cb4fa80fd",
+    "afterSHA256": "6a203510fa1af109bd8be1476043054def4c3a05dd8489d4d28775ef4d037b0d",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/reception-only.spec.ts",
+    "status": "modified",
+    "beforeSHA256": "d36725c4d22365d70f7494b582ea90a04ef959eebe914ad9f1e6ce88ce008308",
+    "afterSHA256": "a776f593bf3433ea6e62d17a37c0fa597ad979c400971f333622ca2829f72cac",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/review-batch-a.spec.ts",
+    "status": "modified",
+    "beforeSHA256": "580ea1886f084cde9facaffe7be240813006ced6da8e2f749f06d95bca59c382",
+    "afterSHA256": "d6571b7b0aeeb74dbeec26c70f386f551135aa53d4b8f387db52caeeb24e0cdd",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/review-batch-a1.spec.ts",
+    "status": "modified",
+    "beforeSHA256": "7cc384f6d44a2ffd33d652ffd96ad8c6400cfa35585ee3345ee0e9ff04804dde",
+    "afterSHA256": "65865681bdf0a5011ddac5229ae56daf2524df1851bdd24d5f0fddb4ad111f1b",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/review-batch-b-access.spec.ts",
+    "status": "modified",
+    "beforeSHA256": "d0b1ab87bbc803e091a87c7a5b65ff74015a7da50782aa286e73d558ff13f51a",
+    "afterSHA256": "9b4649ce408632891c59040baaee001e5ec0e2a0f8fa3cbc29785d611095a143",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/review-batch-b-floor.spec.ts",
+    "status": "modified",
+    "beforeSHA256": "ddf06625fba502760dcf2e900a23fd81eac9df2933643ca670d57390d962b5b4",
+    "afterSHA256": "299225525c22a063bd86dc435fe1adf5a2417b55a9b1e54b39081c390027b250",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/review-batch-b-guidance.spec.ts",
+    "status": "modified",
+    "beforeSHA256": "9c18478684b78834a0f89966377863b5a6d6f593c1848e84fcb5a7f8b89088d1",
+    "afterSHA256": "92ef4ddeb6611f7af5aa60a6aedad0dfcc47b125f18d2bd8dffbd56939745169",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/review-batch-b-performance.spec.ts",
+    "status": "modified",
+    "beforeSHA256": "c67caed59fae19cdfce0990d218d9874a2fbe2a41ac98bf474229d16d6da78a8",
+    "afterSHA256": "5d3e0b012b34af3fa57e61b69172566f846211f1dd1934c91d7970c618c63687",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/review-batch-c-ceremony.spec.ts",
+    "status": "added",
+    "beforeSHA256": null,
+    "afterSHA256": "6ef612ab5696fa3cb85216540faccb5339b7cd3b6d82d0f9e88255a601fb4970",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/review-batch-c-photos.spec.ts",
+    "status": "added",
+    "beforeSHA256": null,
+    "afterSHA256": "6e8b2a1b43112b46f040490493f91e3f07e022216f7ea88a14a6e01b7c72eebf",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/review-batch-c-reception.spec.ts",
+    "status": "added",
+    "beforeSHA256": null,
+    "afterSHA256": "c7c684e15699217bd968b4d4278df5d8afd5ec4d87eab459c089660492821f7c",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/e2e/story-helpers.ts",
+    "status": "modified",
+    "beforeSHA256": "6bd99eeb8232cc5aeea818926ceeedbce4ededae665bd8838685b3628c559ca5",
+    "afterSHA256": "6f1e5c76bce3af95b31c0ea9cf239a0133df33ba733ea4dfe25d766324666ec8",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/playwright.review.config.ts",
+    "status": "added",
+    "beforeSHA256": null,
+    "afterSHA256": "d3661b52661aa95eb620bf2bca76ba4f75254d1b5335b95518516970fd294518",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/scripts/reconcile-review-tests.mjs",
+    "status": "added",
+    "beforeSHA256": null,
+    "afterSHA256": "583e20d43ba8e8a530b0f5115534553fd397cceea6d9a3b4ffe482a310fa0ecb",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/scenes/IntroScene.ts",
+    "status": "modified",
+    "beforeSHA256": "81c7736e797dc56559152ffe6bb150aeefca37247ece06d1a7db83b805f6e87d",
+    "afterSHA256": "eb105596846a550d311ca75d6980282be39fe09bc8811bfddb5c88451a5751bc",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/scenes/ReceptionScene.ts",
+    "status": "modified",
+    "beforeSHA256": "636948380ba5a8f3d1392416ce2d3be5754661d44e2d2992015e4b0556fe002a",
+    "afterSHA256": "515f6777dc9892df13a783b4317723643cb62b784defa258c95986f42cee9044",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/scenes/VenueHallScene.ts",
+    "status": "modified",
+    "beforeSHA256": "710146019d72bcc9da82f6f955ea0105fb43757f9280dd15b9c40f6365f8065b",
+    "afterSHA256": "065fab7df2eb6e56ce32213e791a7a0dfbff7279330a2a97d59b73592acee21c",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/scenes/VenueLobbyScene.ts",
+    "status": "modified",
+    "beforeSHA256": "8bf30fc4a85096a78c637ad54c8aa46b2bd54417eba847cd95964afacb942de6",
+    "afterSHA256": "2a6a8086d576ff1a3590b2d4e71b9ba40fd5a958c7d01b0b19491a9b72a49f7d",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/scenes/VenueRoomScene.ts",
+    "status": "modified",
+    "beforeSHA256": "d8908c63affe0187d6ce78b317ff159bc2116d18af8ff36d634598e77ee8878c",
+    "afterSHA256": "52a2c67da961b8a0612a63b201841735d022e3060b6d2078bbda9d4fa0b7284c",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/style.css",
+    "status": "modified",
+    "beforeSHA256": "f42c86d56897b77e5fd73fa24e783ccebbdb2a45938c11831fd51acccf5341b4",
+    "afterSHA256": "e2efec2c8ed156d92f64213fcdb7bf37f692a88126beaf16f7f4ae2ff05b5b7b",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/ui/GameAccess.ts",
+    "status": "modified",
+    "beforeSHA256": "b98fbe02f8420364d3943c5b99f2a1699c1621e50b7d4be045b033968f920cd4",
+    "afterSHA256": "f9d71a96642ee4efa3ce8c9a18ff61d156cd8c7256fc179f160317efce313ee1",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/ui/SceneFeedback.ts",
+    "status": "added",
+    "beforeSHA256": null,
+    "afterSHA256": "26ad82cda63ff86445d72b2c1364238a1edb5f833411022884b9b7fce593b8f4",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/ui/StoryDialog.ts",
+    "status": "modified",
+    "beforeSHA256": "1d8e548c183808eb6dc6249383195703cf6e019c53a42ccf6814a11a4d6d594f",
+    "afterSHA256": "386b76877cd561959c189c220af8ab8fd72ddb3fef94066d8a641b9c1bdbe819",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/ui/ceremonyGuests.ts",
+    "status": "added",
+    "beforeSHA256": null,
+    "afterSHA256": "f4ef5360cdb8bd184e9cdbeef74b193ccce37fe750a6fb95c805ae2cd21035ed",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "game/src/ui/sessionMemories.ts",
+    "status": "added",
+    "beforeSHA256": null,
+    "afterSHA256": "6c4b91aa312a0222e957baa6a8feb0f0cbe8e456b6c2e968f8d2afa9e44a18fa",
+    "scope": "implementation-test-config"
+  },
+  {
+    "path": "GAME_REVIEW.md",
+    "status": "modified",
+    "beforeSHA256": "279f90df64c548700fa5fd9529991930fb3024bcc1a5282c44c3b9eb82ef24d3",
+    "afterSHA256": "abaca69edccd5d07050872b711e619ceeb228d955a8c6f7f41048703243833fa",
+    "scope": "review-completion-document"
+  },
+  {
+    "path": "GAME_REVIEW_FINAL.md",
+    "status": "modified",
+    "beforeSHA256": "ca60f2e034b432931d87ed8ab8144083b927030dad64b793476e3306d454ad6e",
+    "afterSHA256": "3bcb46bc63ef921826fd28dca582c9db0dc7371ff727764e3b705dd3b52e3848",
+    "scope": "review-completion-document"
+  },
+  {
+    "path": "BATCH_C_IMPLEMENTATION.md",
+    "status": "modified",
+    "beforeSHA256": "4809540fb528172549d68323c070653d4b004b7441900fc66dde7a6e3a117a01",
+    "afterSHA256": "eb000941259898dc1b1a9cb922cdc85bc38d243b88e589eb8707028dd300f059",
+    "scope": "review-completion-document"
+  }
+]

@@ -1,0 +1,348 @@
+{
+  "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/production-final.json",
+  "reported": {
+    "startTime": "2026-09-13T17:22:34.759Z",
+    "duration": 409311.503,
+    "expected": 14,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "detailed": {
+    "expected": 14,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0
+  },
+  "totalProjectCases": 14,
+  "uniqueSpecIds": 14,
+  "totalAttempts": 14,
+  "retriedCases": 0,
+  "projectCounts": {
+    "chromium-production": 14
+  },
+  "matches": true,
+  "globalErrors": [],
+  "cases": [
+    {
+      "id": "9ecde7723c811a214900-c609df87aabc950c468f",
+      "file": "review-batch-b-access.spec.ts",
+      "line": 54,
+      "title": "review-batch-b-access.spec.ts › F08: lobby invitation returns to the same notebook and progress; stable refresh starts safely",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:22:35.442Z",
+          "duration": 12786,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "9ecde7723c811a214900-248dc9ccc73bb58b3078",
+      "file": "review-batch-b-access.spec.ts",
+      "line": 77,
+      "title": "review-batch-b-access.spec.ts › F08/F10: keyboard-only bride completes car, meal first, save",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:22:48.603Z",
+          "duration": 68186,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "9ecde7723c811a214900-9bfa4824cca22f7763a8",
+      "file": "review-batch-b-access.spec.ts",
+      "line": 77,
+      "title": "review-batch-b-access.spec.ts › F08/F10: keyboard-only groom completes subway, ceremony first, skip",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:23:56.795Z",
+          "duration": 58621,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "56b392b6273def9fc737-526475a5ef09f11342a9",
+      "file": "review-batch-b-guidance.spec.ts",
+      "line": 5,
+      "title": "review-batch-b-guidance.spec.ts › F07: car guidance precedes choices and wrong attempts remain recognizable",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:24:55.427Z",
+          "duration": 19194,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "56b392b6273def9fc737-1f5f40f8e7109062a2ff",
+      "file": "review-batch-b-guidance.spec.ts",
+      "line": 5,
+      "title": "review-batch-b-guidance.spec.ts › F07: subway guidance precedes choices and wrong attempts remain recognizable",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:25:14.630Z",
+          "duration": 16767,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "524cd45fbb457ad92d5f-9620beb31ecb00012873",
+      "file": "review-batch-b-performance.spec.ts",
+      "line": 45,
+      "title": "review-batch-b-performance.spec.ts › F09 production cold cache: opening and first car lobby transfer",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:25:31.407Z",
+          "duration": 10651,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "524cd45fbb457ad92d5f-868d767135eab609551e",
+      "file": "review-batch-b-performance.spec.ts",
+      "line": 45,
+      "title": "review-batch-b-performance.spec.ts › F09 production cold cache: opening and first subway lobby transfer",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:25:42.064Z",
+          "duration": 9794,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "524cd45fbb457ad92d5f-0a4c56f8c47be7c040f4",
+      "file": "review-batch-b-performance.spec.ts",
+      "line": 82,
+      "title": "review-batch-b-performance.spec.ts › F09 production: branded opening and retry after one deliberately failed later asset",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:25:51.864Z",
+          "duration": 10501,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-a7d146aa79b0fdbd80fe",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 7,
+      "title": "review-batch-c-ceremony.spec.ts › F14: deterministic full candidate cycle, player exclusion and short-list reuse",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:26:02.377Z",
+          "duration": 1,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-407aad387c3356b07138",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: applause visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:26:02.382Z",
+          "duration": 45777,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-0c77cbabfdb6a8d64019",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: cheer visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:26:48.166Z",
+          "duration": 35536,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-3449cb84ee40a97e2ed8",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: reduced visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:27:23.710Z",
+          "duration": 35015,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "eacd9f2c4395bdfdd5f5-b932d1de060ba2e66fa6",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "line": 21,
+      "title": "review-batch-c-ceremony.spec.ts › F11/F14: compact visible response, invitation pause, one group entry and diverse guests",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:27:58.730Z",
+          "duration": 34395,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "id": "9b44bad5f9e10d4e14d6-205366e687e98217a25b",
+      "file": "review-batch-c-photos.spec.ts",
+      "line": 16,
+      "title": "review-batch-c-photos.spec.ts › F12/F13/B-V01: actual photos persist, explicit returns, finite notebook keepsakes and clean controls",
+      "project": "chromium-production",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T17:28:34.436Z",
+          "duration": 49404,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "photo-events",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 15208
+            },
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/production-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium-production/video.webm",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

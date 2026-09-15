@@ -1,0 +1,119 @@
+{
+  "reason": "An already-loaded Playwright worker retained the earlier hardcoded evidence root after the test source was updated. Stopped that run, preserved all new captures separately, restored original bytes from the unmodified review ZIP, and rerun uses REVIEW_EVIDENCE at a new location.",
+  "records": [
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-320.json",
+      "restoredSHA256": "f49992fa9206038798a8f18962685a349cca9e9fa63a703de6a7aa791a8d8bc5",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-320.json",
+      "newCaptureSHA256": "e6931bd21db363e7f1983ed865c83814df723ba7eb43826e168e6970b34363f7"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-393.json",
+      "restoredSHA256": "05841c89d731a5f052782e72227d868ad36ce2cff62a6d3d21b5f765dfc3c19f",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-393.json",
+      "newCaptureSHA256": "8eec168459f4200c74b6e1bccb4b8945959816934bab547b57baec178cd6ff00"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-430.json",
+      "restoredSHA256": "b054b5ccbb4ea0e6f024baa46e16c2a9abbe5695dc04d020bcf3286bce41549c",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-430.json",
+      "newCaptureSHA256": "adf26b24489af2b6dd2341075a4ecb593f6d0f7ea119644932f68c99c565544f"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-choice-393.png",
+      "restoredSHA256": "95eea58816ca743c67bd0e50c3fb920b8f5dab13c3f7ae825574a8375e58d56f",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-choice-393.png",
+      "newCaptureSHA256": "ae8cf1db621f172c471dce435356e3c0a16cfc0697097b835ac57a0e9c2ba93d"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-choice-430.png",
+      "restoredSHA256": "fb31331fe5584c7b98e67b065be2690c9758ee722ec208c6238ba97efc11b204",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-choice-430.png",
+      "newCaptureSHA256": "42062e36eecaa8d9bcd845b896e6b228a18c7152645ac75e38a89843ed0d1b8e"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-destination-320.png",
+      "restoredSHA256": "853e66d53ee795b4aa042a4769b4133aa0222bcd83403faed5e5b2ca3c2c4b09",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-destination-320.png",
+      "newCaptureSHA256": "412fe7c22753d9eee5d2ed42c20bb1ba80e8025c86b09c1674cf347fc4e9c17f"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-destination-393.png",
+      "restoredSHA256": "8a16832273512cdb09f8bd673bd4d04838841647b960ff3d9619e176d2e71438",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-destination-393.png",
+      "newCaptureSHA256": "7253baa52c5acf0e2610f20b595f53795e7010aeb2486786cc8da0e70facdac9"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-destination-430.png",
+      "restoredSHA256": "1a7034690b65483618941e97fb42b32ec9275ba4690a0933aee2c596ed5381eb",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-destination-430.png",
+      "newCaptureSHA256": "6604cf07ab83e863da36ceb8948db5e15975efcaf47bcb85c596cb244c194f73"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-driving-320.png",
+      "restoredSHA256": "103faf4733ebb5dcca310117ac9d6df60a0e22a0d2d82d11542e43ccf170157e",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-driving-320.png",
+      "newCaptureSHA256": "e65cc2c9d8ef8dc32f17bf309462569285cb64270725d1f7e2f5e42ea683d305"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-driving-393.png",
+      "restoredSHA256": "a8b9094868fd80004b411ef941da6d8372303f44f68178862884c549e320434e",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-driving-393.png",
+      "newCaptureSHA256": "3b9c4e14dd8cfd0aa70790efa5ea3c1c3b901455d47054923154993f0403e517"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/car-driving-430.png",
+      "restoredSHA256": "8cdfd0091e0b6233334191045bcb1b12557804dbe3da59a927a4615fa37ef287",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/car-driving-430.png",
+      "newCaptureSHA256": "2f3a22ef352448521e5c292b60c509841b7c910a5c1ea065f4748f98b4dd1b90"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/first-notebook-320.png",
+      "restoredSHA256": "cd11e906156cc2c360f21b054687469d3cf4d6804abe3bfa294c05e9dec71255",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/first-notebook-320.png",
+      "newCaptureSHA256": "8726af59c643e9af96187a36d8c8591a2a761a35d0ea74006ab5d74c021ff923"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/first-notebook-393.png",
+      "restoredSHA256": "da9726e00aa262b8d2f18a4044f80686be927fd7db8c97ede786e4931fa61003",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/first-notebook-393.png",
+      "newCaptureSHA256": "3fe61c7694461061c7f214346cb3f9df5d255319904df9e66c6c8c65510fba02"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/first-notebook-430.png",
+      "restoredSHA256": "5b50137d3750446ffe89b21abab469992fbbdea478d9956fcafad5269bfad6c3",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/first-notebook-430.png",
+      "newCaptureSHA256": "575a8e82c21f1ab90c9c68be96a6d35c7623c20937df3a075645bc0d026a23e9"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/first-notebook-hall.json",
+      "restoredSHA256": "26832812e381f7d8f0aae1cbeb514ba90ea0cf2075e7808c9c7a68d537ab350c",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/first-notebook-hall.json",
+      "newCaptureSHA256": "e70d66d5bb655da442be6f66754ca9d7ed99b8dd264bed25160fae8288d13b1e"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/hall-photo-button-320.png",
+      "restoredSHA256": "51a8b5db51bfebbbef171bd01eaab269657f17d36f024063069fe1def74e17fc",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/hall-photo-button-320.png",
+      "newCaptureSHA256": "d5425c87b4ea0b6f8ee978ce8c22775ac53274de47ea5c9e300f5b046a90645d"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/hall-photo-button-393.png",
+      "restoredSHA256": "e7655e60bb54be92ee8a17382f510f711d5baf386c8c3dd9c745531491755e37",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/hall-photo-button-393.png",
+      "newCaptureSHA256": "91c2573cad61b34acb44b1181d4a27074bb89a3b004063b43dcc0f1b2c2ed941"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/hall-photo-button-430.png",
+      "restoredSHA256": "9650acdaf9826e44625415ce7d32ab8794dd7830989db369763a751e3992af17",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/hall-photo-button-430.png",
+      "newCaptureSHA256": "ac97979f78b6cfce3e8bb361e0adc9d2c5d498c7c4b812cb072d8c91ab65a084"
+    },
+    {
+      "path": "docs/game-review/neck-loading-fix/after/ux/local-server-opening.png",
+      "restoredSHA256": "7d03a149bc672b47f045324710ce8fafe21fcd834db71fe0d0cd31ee27d6132a",
+      "newCaptureSavedAt": "docs/game-review/minimi-silhouette-fix/recovered-ux-run01/local-server-opening.png",
+      "newCaptureSHA256": "b37ec3c36efeb9d7ac9da5424948a08eb1b1ddff14190a943580fce6668e4545"
+    }
+  ]
+}

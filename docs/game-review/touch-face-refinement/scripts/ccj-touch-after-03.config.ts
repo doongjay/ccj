@@ -1,0 +1,3 @@
+import {defineConfig} from "/Users/user/wedding/ccj/game/node_modules/@playwright/test/index.mjs";
+process.env.MINIMI_EVIDENCE="/Users/user/wedding/ccj/docs/game-review/touch-face-refinement";process.env.MINIMI_PHASE="after";
+export default defineConfig({"testDir":"/Users/user/wedding/ccj/game/e2e","testMatch":["review-touch-refinement.spec.ts"],"workers":1,"retries":0,"reporter":[["list"],["json",{"outputFile":"/Users/user/wedding/ccj/docs/game-review/touch-face-refinement/logs/after-03.json"}]],"outputDir":"/Users/user/wedding/ccj/docs/game-review/touch-face-refinement/runs/after-03","use":{"baseURL":"http://127.0.0.1:5174","viewport":{"width":393,"height":852},"trace":"retain-on-failure","video":{"mode":"on","size":{"width":430,"height":932}}}});

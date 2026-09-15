@@ -1,0 +1,4 @@
+import { defineConfig } from "../../../../game/node_modules/@playwright/test/index.mjs";
+process.env.REVIEW_EVIDENCE = "/Users/user/wedding/ccj/docs/game-review/story-choice-layout-fix/final-02-evidence";
+process.env.MINIMI_PHASE = "after";
+export default defineConfig({ testDir: "../../../../game/e2e", testMatch: ["car-guidance-reference.spec.ts", "story-choice-layout.spec.ts", "review-batch-b-guidance.spec.ts", "review-neck-loading.spec.ts"], grep: /reference car|all nine|real choice scenes|F07|unobscured guidance|local server opening/, workers: 2, retries: 0, reporter: [["list"], ["json", { outputFile: "../logs/final-02.json" }]], outputDir: "../runs/final-02", use: { baseURL: "http://127.0.0.1:5174", screenshot: "only-on-failure", trace: "off", video: { mode: "on", size: { width: 430, height: 932 } } } });

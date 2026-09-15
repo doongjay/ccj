@@ -1,0 +1,62 @@
+{
+  "scope": "10 relevant distinct tests, not the complete repository suite",
+  "finalPass": 10,
+  "remainingFailure": 0,
+  "skip": 0,
+  "runs": {
+    "ui-03.json": {
+      "startTime": "2026-09-14T16:32:25.097Z",
+      "duration": 13183.547999999999,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "ui-02.json": {
+      "startTime": "2026-09-14T16:30:49.045Z",
+      "duration": 18151.549,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "art-01.json": {
+      "startTime": "2026-09-14T16:26:22.022Z",
+      "duration": 11721.680999999999,
+      "expected": 3,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "final-01.json": {
+      "startTime": "2026-09-14T16:29:47.759Z",
+      "duration": 139156.867,
+      "expected": 7,
+      "skipped": 0,
+      "unexpected": 3,
+      "flaky": 0
+    }
+  },
+  "finalSelection": {
+    "logs/final-01.json": "7 PASS outside failed card positioning tests",
+    "logs/ui-03.json": "3 PASS replacing the failed card positioning runs"
+  },
+  "failedIteration": "final-01: 3 viewport checks caught 2px arrow vertical offset. CSS navigation height fixed; original <=1px assertion retained. Full reports and traces preserved.",
+  "assets": {
+    "command": "npm run verify:assets -- --report ../docs/game-review/female-eye-correction/assets-final-01.json",
+    "cwd": "/Users/user/wedding/ccj/game",
+    "exitCode": 0,
+    "registered": 101,
+    "checked": 101,
+    "decoded": 100,
+    "errors": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "css": "index-CRCmKnWz.css",
+    "js": "index-Bs2Z_eHt.js",
+    "warning": "existing >500kB bundle warning; limit unchanged"
+  },
+  "acceptedFaceUnchanged": true
+}

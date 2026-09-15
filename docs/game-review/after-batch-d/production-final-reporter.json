@@ -1,0 +1,1361 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=playwright.review-production.config.ts",
+      "--workers=2"
+    ],
+    "configFile": "/Users/user/wedding/ccj/game/playwright.review-production.config.ts",
+    "rootDir": "/Users/user/wedding/ccj/game/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": {},
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "chromium-production",
+        "name": "chromium-production",
+        "testDir": "/Users/user/wedding/ccj/game/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "review-batch-b-performance.spec.ts",
+          "review-batch-b-access.spec.ts",
+          "review-batch-b-guidance.spec.ts",
+          "review-batch-c-photos.spec.ts",
+          "review-batch-c-ceremony.spec.ts",
+          "current-journey.spec.ts",
+          "review-batch-d-checkpoint.spec.ts",
+          "review-batch-d-venue.spec.ts",
+          "review-batch-d-animation.spec.ts",
+          "review-batch-d-production.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../docs/game-review/after-batch-d/logs/production-final.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 2,
+    "webServer": {
+      "command": "npm run preview -- --host 127.0.0.1 --port 5199 --strictPort",
+      "url": "http://127.0.0.1:5199",
+      "reuseExistingServer": false,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "current-journey.spec.ts",
+      "file": "current-journey.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "profile, reception, photo poses, meal first and save/skip local message: bride",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 65754,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:14:35.889Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cc128f7803b1f07d03eb-bbb2b0d3e18068adeeea",
+          "file": "current-journey.spec.ts",
+          "line": 5,
+          "column": 3
+        },
+        {
+          "title": "profile, reception, photo poses, ceremony first and save/skip local message: groom",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 53418,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:14:36.174Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "cc128f7803b1f07d03eb-2fef3f2e772728bd02af",
+          "file": "current-journey.spec.ts",
+          "line": 5,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "review-batch-b-access.spec.ts",
+      "file": "review-batch-b-access.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F08: lobby invitation returns to the same notebook and progress; stable refresh starts safely",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 13884,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:15:29.958Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9ecde7723c811a214900-c609df87aabc950c468f",
+          "file": "review-batch-b-access.spec.ts",
+          "line": 55,
+          "column": 1
+        },
+        {
+          "title": "F08/F10: keyboard-only bride completes car, meal first, save",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 80416,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:15:42.017Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9ecde7723c811a214900-248dc9ccc73bb58b3078",
+          "file": "review-batch-b-access.spec.ts",
+          "line": 78,
+          "column": 3
+        },
+        {
+          "title": "F08/F10: keyboard-only groom completes subway, ceremony first, skip",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 65187,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:15:43.850Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9ecde7723c811a214900-9bfa4824cca22f7763a8",
+          "file": "review-batch-b-access.spec.ts",
+          "line": 78,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "review-batch-b-guidance.spec.ts",
+      "file": "review-batch-b-guidance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F07: car guidance precedes choices and wrong attempts remain recognizable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 21343,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:16:49.048Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "56b392b6273def9fc737-526475a5ef09f11342a9",
+          "file": "review-batch-b-guidance.spec.ts",
+          "line": 6,
+          "column": 3
+        },
+        {
+          "title": "F07: subway guidance precedes choices and wrong attempts remain recognizable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18062,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:17:02.448Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "56b392b6273def9fc737-1f5f40f8e7109062a2ff",
+          "file": "review-batch-b-guidance.spec.ts",
+          "line": 6,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "review-batch-b-performance.spec.ts",
+      "file": "review-batch-b-performance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F09 production cold cache: opening and first car lobby transfer",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 12415,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:17:10.411Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "524cd45fbb457ad92d5f-9620beb31ecb00012873",
+          "file": "review-batch-b-performance.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "F09 production cold cache: opening and first subway lobby transfer",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10642,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:17:20.530Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "524cd45fbb457ad92d5f-868d767135eab609551e",
+          "file": "review-batch-b-performance.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "F09 production: branded opening and retry after one deliberately failed later asset",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 12393,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:17:22.837Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "524cd45fbb457ad92d5f-0a4c56f8c47be7c040f4",
+          "file": "review-batch-b-performance.spec.ts",
+          "line": 83,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "review-batch-c-ceremony.spec.ts",
+      "file": "review-batch-c-ceremony.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F14: deterministic full candidate cycle, player exclusion and short-list reuse",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:17:31.186Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eacd9f2c4395bdfdd5f5-a7d146aa79b0fdbd80fe",
+          "file": "review-batch-c-ceremony.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "F11/F14: applause visible response, invitation pause, one group entry and diverse guests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 57387,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:17:31.192Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eacd9f2c4395bdfdd5f5-407aad387c3356b07138",
+          "file": "review-batch-c-ceremony.spec.ts",
+          "line": 22,
+          "column": 3
+        },
+        {
+          "title": "F11/F14: cheer visible response, invitation pause, one group entry and diverse guests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 44256,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:17:35.249Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eacd9f2c4395bdfdd5f5-0c77cbabfdb6a8d64019",
+          "file": "review-batch-c-ceremony.spec.ts",
+          "line": 22,
+          "column": 3
+        },
+        {
+          "title": "F11/F14: reduced visible response, invitation pause, one group entry and diverse guests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 39711,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:18:19.511Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eacd9f2c4395bdfdd5f5-3449cb84ee40a97e2ed8",
+          "file": "review-batch-c-ceremony.spec.ts",
+          "line": 22,
+          "column": 3
+        },
+        {
+          "title": "F11/F14: compact visible response, invitation pause, one group entry and diverse guests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 39966,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:18:28.589Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eacd9f2c4395bdfdd5f5-b932d1de060ba2e66fa6",
+          "file": "review-batch-c-ceremony.spec.ts",
+          "line": 22,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "review-batch-c-photos.spec.ts",
+      "file": "review-batch-c-photos.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F12/F13/B-V01: actual photos persist, explicit returns, finite notebook keepsakes and clean controls",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 55486,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:19:10.182Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "photo-events",
+                      "contentType": "application/json",
+                      "body": "W3siYXQiOjIzNS44MDAwMDAxOTA3MzQ4NiwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwIn0seyJhdCI6MzY4LjMwMDAwMDE5MDczNDg2LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuMjUifSx7ImF0IjozNjguNjAwMDAwMzgxNDY5NywiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwLjUifSx7ImF0IjozNjguNzAwMDAwMjg2MTAyMywiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwLjc1In0seyJhdCI6NDUwLjUsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMSJ9LHsiYXQiOjU0MC41LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjEifSx7ImF0Ijo1NzIuNDAwMDAwMDk1MzY3NCwiYXR0cmlidXRlIjoiZGF0YS1zZXNzaW9uLWtlZXBzYWtlLWNvdW50IiwidmFsdWUiOiIwIn0seyJhdCI6NTcyLjQwMDAwMDA5NTM2NzQsImF0dHJpYnV0ZSI6ImRhdGEtc2Vzc2lvbi1rZWVwc2FrZS1idWlsZHMiLCJ2YWx1ZSI6IjAifSx7ImF0Ijo1NzIuNDAwMDAwMDk1MzY3NCwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC1jb21wbGV0aW9uLWNvdW50IiwidmFsdWUiOiIwIn0seyJhdCI6NTcyLjQwMDAwMDA5NTM2NzQsImF0dHJpYnV0ZSI6ImRhdGEtYnJpZGFsLXBob3RvLWNvbXBsZXRpb24tY291bnQiLCJ2YWx1ZSI6IjAifSx7ImF0IjoxMDI3LjUsImF0dHJpYnV0ZSI6ImRhdGEtc2Vzc2lvbi1rZWVwc2FrZS1jb3VudCIsInZhbHVlIjoiMCJ9LHsiYXQiOjEwMjcuNSwiYXR0cmlidXRlIjoiZGF0YS1zZXNzaW9uLWtlZXBzYWtlLWJ1aWxkcyIsInZhbHVlIjoiMCJ9LHsiYXQiOjEwMjcuNSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC1jb21wbGV0aW9uLWNvdW50IiwidmFsdWUiOiIwIn0seyJhdCI6MTAyNy41LCJhdHRyaWJ1dGUiOiJkYXRhLWJyaWRhbC1waG90by1jb21wbGV0aW9uLWNvdW50IiwidmFsdWUiOiIwIn0seyJhdCI6MTAyNy41LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAifSx7ImF0IjoxMTY2LjMwMDAwMDE5MDczNDksImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMSJ9LHsiYXQiOjExNjYuNDAwMDAwMDk1MzY3NCwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6MTU1My43MDAwMDAyODYxMDIzLCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAifSx7ImF0IjoxNjE4LjEwMDAwMDM4MTQ2OTcsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC4zMzMzMzMzMzMzMzMzMzMzIn0seyJhdCI6MTY3Mi4xMDAwMDAzODE0Njk3LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuNjY2NjY2NjY2NjY2NjY2NiJ9LHsiYXQiOjE3MjIuODAwMDAwMTkwNzM0OSwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6MTcyMy4xMDAwMDAzODE0Njk3LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjEifSx7ImF0Ijo1MTMxLjcwMDAwMDI4NjEwMiwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwIn0seyJhdCI6NTEzMS44MDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC42In0seyJhdCI6NTEzMS44MDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC42In0seyJhdCI6NTEzMS44MDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC42In0seyJhdCI6NTIxNS44MDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC44In0seyJhdCI6NTI5Ni4zMDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMSJ9LHsiYXQiOjUyOTYuNSwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6MTE3NzQuNzAwMDAwMjg2MTAyLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXZpc2l0ZWQiLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTE3NzQuNzAwMDAwMjg2MTAyLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXRhYmxlLXZpc2l0ZWQiLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTE3NzQuNzAwMDAwMjg2MTAyLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjoxMTc3NC43MDAwMDAyODYxMDIsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tZ2FsbGVyeS1pbmRleCIsInZhbHVlIjoiMCJ9LHsiYXQiOjExNzc0LjcwMDAwMDI4NjEwMiwiYXR0cmlidXRlIjoiZGF0YS1sb2JieS1wcm9ncmVzcyIsInZhbHVlIjoiMC80In0seyJhdCI6MTI1MTUuOTAwMDAwMDk1MzY3LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAifSx7ImF0IjoxMjUxNiwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwLjc1In0seyJhdCI6MTI1MTYsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC43NSJ9LHsiYXQiOjEyNTE2LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuNzUifSx7ImF0IjoxMjY0MS42MDAwMDAzODE0NywiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6MTI2NDEuODAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjEifSx7ImF0IjoxMjgwNi4yMDAwMDAyODYxMDIsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmVzdWx0LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTI4MDYuMjAwMDAwMjg2MTAyLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXN0YWdlIiwidmFsdWUiOiJyZWFkeSJ9LHsiYXQiOjEyOTIwLjMwMDAwMDE5MDczNSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjoxMjkyMC4zMDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmV0dXJuZWQtYXQiLCJ2YWx1ZSI6IjEyOTIwLjIwMDAwMDI4NjEwMiJ9LHsiYXQiOjEzMTU0LjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmVzdWx0LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTMxNTQuNSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC12aXNpdGVkIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjEzMTU0LjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tdGFibGUtdmlzaXRlZCIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjoxMzE1NC41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjoxMzE1NC41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktaW5kZXgiLCJ2YWx1ZSI6IjAifSx7ImF0IjoxMzE1NC41LCJhdHRyaWJ1dGUiOiJkYXRhLWxvYmJ5LXByb2dyZXNzIiwidmFsdWUiOiIwLzQifSx7ImF0IjoxNDY5My4yMDAwMDAyODYxMDIsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmVzdWx0LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MTQ2OTMuMjAwMDAwMjg2MTAyLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXN0YWdlIiwidmFsdWUiOiJyZWFkeSJ9LHsiYXQiOjE0ODY0LjEwMDAwMDM4MTQ3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXN0YWdlIiwidmFsdWUiOiJhcHByb2FjaGluZyJ9LHsiYXQiOjE2MDMwLjEwMDAwMDM4MTQ3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXN0YWdlIiwidmFsdWUiOiJwb3NpbmcifSx7ImF0IjoxNjkzOC45MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtc2Vzc2lvbi1rZWVwc2FrZS1jb3VudCIsInZhbHVlIjoiMSJ9LHsiYXQiOjE2OTM4LjkwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1zZXNzaW9uLWtlZXBzYWtlLWJ1aWxkcyIsInZhbHVlIjoiMSJ9LHsiYXQiOjE2OTM4LjkwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1waG90by1jaGFyYWN0ZXItdGV4dHVyZS1jb3VudCIsInZhbHVlIjoiNCJ9LHsiYXQiOjE2OTM4LjkwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC1jb21wbGV0aW9uLWNvdW50IiwidmFsdWUiOiIxIn0seyJhdCI6MTY5MzguOTAwMDAwMDk1MzY3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXZpc2l0ZWQiLCJ2YWx1ZSI6InRydWUifSx7ImF0IjoxNjkzOC45MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tY2FwdHVyZWQtYXQiLCJ2YWx1ZSI6IjE2OTM4LjcwMDAwMDI4NjEwMiJ9LHsiYXQiOjE3MTY0LjMwMDAwMDE5MDczNSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC1zdGFnZSIsInZhbHVlIjoicmVzdWx0In0seyJhdCI6MTcxNjQuMzAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJ0cnVlIn0seyJhdCI6MTcxNjQuMzAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1hdCIsInZhbHVlIjoiMTcxNjMuMjAwMDAwMjg2MTAyIn0seyJhdCI6MjI5NDUuNSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjoyMjk0NS41LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJldHVybmVkLWF0IiwidmFsdWUiOiIyMjk0NS41In0seyJhdCI6MjMxOTYuOTAwMDAwMDk1MzY3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjIzMTk2LjkwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC12aXNpdGVkIiwidmFsdWUiOiJ0cnVlIn0seyJhdCI6MjMxOTYuOTAwMDAwMDk1MzY3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXRhYmxlLXZpc2l0ZWQiLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MjMxOTYuOTAwMDAwMDk1MzY3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjoyMzE5Ni45MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tZ2FsbGVyeS1pbmRleCIsInZhbHVlIjoiMCJ9LHsiYXQiOjIzMTk2LjkwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1sb2JieS1wcm9ncmVzcyIsInZhbHVlIjoiMS80In0seyJhdCI6MjQzNjAuMjAwMDAwMjg2MTAyLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjI0MzYwLjIwMDAwMDI4NjEwMiwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC1zdGFnZSIsInZhbHVlIjoicmVhZHkifSx7ImF0IjoyNDU0Ni45MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtc3RhZ2UiLCJ2YWx1ZSI6ImFwcHJvYWNoaW5nIn0seyJhdCI6MjU3MDQuODAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXN0YWdlIiwidmFsdWUiOiJwb3NpbmcifSx7ImF0IjoyNjYxMy4zMDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tY2hhcmFjdGVyLXRleHR1cmUtY291bnQiLCJ2YWx1ZSI6IjQifSx7ImF0IjoyNjYxMy4zMDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtdmlzaXRlZCIsInZhbHVlIjoidHJ1ZSJ9LHsiYXQiOjI2NjEzLjMwMDAwMDE5MDczNSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1jYXB0dXJlZC1hdCIsInZhbHVlIjoiMjY2MTMuMTAwMDAwMzgxNDcifSx7ImF0IjoyNjgzOC43MDAwMDAyODYxMDIsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtc3RhZ2UiLCJ2YWx1ZSI6InJlc3VsdCJ9LHsiYXQiOjI2ODM4LjcwMDAwMDI4NjEwMiwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoidHJ1ZSJ9LHsiYXQiOjI2ODM4LjcwMDAwMDI4NjEwMiwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtYXQiLCJ2YWx1ZSI6IjI2ODM4In0seyJhdCI6MjY5MTMuMzAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAifSx7ImF0IjoyNjkxMy4zMDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC43Nzc3Nzc3Nzc3Nzc3Nzc4In0seyJhdCI6MjY5MTMuMzAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuNzc3Nzc3Nzc3Nzc3Nzc3OCJ9LHsiYXQiOjI2OTEzLjMwMDAwMDE5MDczNSwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwLjc3Nzc3Nzc3Nzc3Nzc3NzgifSx7ImF0IjoyNjkxMy4zMDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC43Nzc3Nzc3Nzc3Nzc3Nzc4In0seyJhdCI6MjY5MTMuMzAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLWFzc2V0LWxvYWQtcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjAuNzc3Nzc3Nzc3Nzc3Nzc3OCJ9LHsiYXQiOjI2OTEzLjMwMDAwMDE5MDczNSwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIwLjc3Nzc3Nzc3Nzc3Nzc3NzgifSx7ImF0IjoyNjkxMy40MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC43Nzc3Nzc3Nzc3Nzc3Nzc4In0seyJhdCI6MjY5NzEuNjAwMDAwMzgxNDcsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMC44ODg4ODg4ODg4ODg4ODg4In0seyJhdCI6MjcwMjcsImF0dHJpYnV0ZSI6ImRhdGEtYXNzZXQtbG9hZC1wcm9ncmVzcyIsInZhbHVlIjoiMSJ9LHsiYXQiOjI3MDI3LjIwMDAwMDI4NjEwMiwiYXR0cmlidXRlIjoiZGF0YS1hc3NldC1sb2FkLXByb2dyZXNzIiwidmFsdWUiOiIxIn0seyJhdCI6MjgxMjYuNzAwMDAwMjg2MTAyLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjI4MTI2LjcwMDAwMDI4NjEwMiwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXR1cm5lZC1hdCIsInZhbHVlIjoiMjgxMjYuNzAwMDAwMjg2MTAyIn0seyJhdCI6MjgzODAuODAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjI4MzgwLjgwMDAwMDE5MDczNSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1ib290aC12aXNpdGVkIiwidmFsdWUiOiJ0cnVlIn0seyJhdCI6MjgzODAuODAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXRhYmxlLXZpc2l0ZWQiLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MjgzODAuODAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjoyODM4MC45MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tZ2FsbGVyeS1pbmRleCIsInZhbHVlIjoiMCJ9LHsiYXQiOjI4MzgwLjkwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1sb2JieS1wcm9ncmVzcyIsInZhbHVlIjoiMS80In0seyJhdCI6MzE1MzMuMjAwMDAwMjg2MTAyLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjMyMTk5LjIwMDAwMDI4NjEwMiwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjozMjE5OS4yMDAwMDAyODYxMDIsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmV0dXJuZWQtYXQiLCJ2YWx1ZSI6IjMyMTk5LjIwMDAwMDI4NjEwMiJ9LHsiYXQiOjMyNDIwLjQwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0IjozMjQyMC40MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtdmlzaXRlZCIsInZhbHVlIjoidHJ1ZSJ9LHsiYXQiOjMyNDIwLjQwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1waG90by10YWJsZS12aXNpdGVkIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjMyNDIwLjQwMDAwMDA5NTM2NywiYXR0cmlidXRlIjoiZGF0YS1waG90by1nYWxsZXJ5LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MzI0MjAuNDAwMDAwMDk1MzY3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktaW5kZXgiLCJ2YWx1ZSI6IjAifSx7ImF0IjozMjQyMC40MDAwMDAwOTUzNjcsImF0dHJpYnV0ZSI6ImRhdGEtbG9iYnktcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjEvNCJ9LHsiYXQiOjM1ODU2LjcwMDAwMDI4NjEsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmVzdWx0LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6MzkyODguNSwiYXR0cmlidXRlIjoiZGF0YS1zZXNzaW9uLWtlZXBzYWtlLWNvdW50IiwidmFsdWUiOiIyIn0seyJhdCI6MzkyODguNSwiYXR0cmlidXRlIjoiZGF0YS1zZXNzaW9uLWtlZXBzYWtlLWJ1aWxkcyIsInZhbHVlIjoiMiJ9LHsiYXQiOjM5Mjg4LjUsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tY2hhcmFjdGVyLXRleHR1cmUtY291bnQiLCJ2YWx1ZSI6IjQifSx7ImF0IjozOTI4OC41LCJhdHRyaWJ1dGUiOiJkYXRhLWJyaWRhbC1waG90by1jb21wbGV0aW9uLWNvdW50IiwidmFsdWUiOiIxIn0seyJhdCI6MzkyODguNSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1jYXB0dXJlZC1hdCIsInZhbHVlIjoiMzkyODguNDAwMDAwMDk1MzcifSx7ImF0IjozOTUxMy45MDAwMDAwOTUzNywiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoidHJ1ZSJ9LHsiYXQiOjM5NTEzLjkwMDAwMDA5NTM3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1hdCIsInZhbHVlIjoiMzk1MTMuMTAwMDAwMzgxNDcifSx7ImF0Ijo0NjE5Ni4xMDAwMDAzODE0NywiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo0NjE5Ni4xMDAwMDAzODE0NywiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXR1cm5lZC1hdCIsInZhbHVlIjoiNDYxOTYuMTAwMDAwMzgxNDcifSx7ImF0Ijo0NjQ0Ni43MDAwMDAyODYxLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjQ2NDQ2LjcwMDAwMDI4NjEsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tYm9vdGgtdmlzaXRlZCIsInZhbHVlIjoidHJ1ZSJ9LHsiYXQiOjQ2NDQ2LjcwMDAwMDI4NjEsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tdGFibGUtdmlzaXRlZCIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo0NjQ0Ni43MDAwMDAyODYxLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo0NjQ0Ni43MDAwMDAyODYxLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktaW5kZXgiLCJ2YWx1ZSI6IjAifSx7ImF0Ijo0NjQ0Ni43MDAwMDAyODYxLCJhdHRyaWJ1dGUiOiJkYXRhLWxvYmJ5LXByb2dyZXNzIiwidmFsdWUiOiIyLzQifSx7ImF0Ijo0OTkxNC43MDAwMDAyODYxLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJmYWxzZSJ9LHsiYXQiOjUzNDIxLjQwMDAwMDA5NTM3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWNoYXJhY3Rlci10ZXh0dXJlLWNvdW50IiwidmFsdWUiOiI0In0seyJhdCI6NTM0MjEuNDAwMDAwMDk1MzcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tY2FwdHVyZWQtYXQiLCJ2YWx1ZSI6IjUzNDIxLjMwMDAwMDE5MDczNSJ9LHsiYXQiOjUzNjQ3LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXJlc3VsdC1vcGVuIiwidmFsdWUiOiJ0cnVlIn0seyJhdCI6NTM2NDcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmVzdWx0LWF0IiwidmFsdWUiOiI1MzY0Ni4yMDAwMDAyODYxIn0seyJhdCI6NTQyOTUuMTAwMDAwMzgxNDcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmVzdWx0LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6NTQyOTUuMTAwMDAwMzgxNDcsImF0dHJpYnV0ZSI6ImRhdGEtcGhvdG8tcmV0dXJuZWQtYXQiLCJ2YWx1ZSI6IjU0Mjk1In0seyJhdCI6NTQ1MzguMjAwMDAwMjg2MSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1yZXN1bHQtb3BlbiIsInZhbHVlIjoiZmFsc2UifSx7ImF0Ijo1NDUzOC4yMDAwMDAyODYxLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWJvb3RoLXZpc2l0ZWQiLCJ2YWx1ZSI6InRydWUifSx7ImF0Ijo1NDUzOC4yMDAwMDAyODYxLCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLXRhYmxlLXZpc2l0ZWQiLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6NTQ1MzguMjAwMDAwMjg2MSwiYXR0cmlidXRlIjoiZGF0YS1waG90by1nYWxsZXJ5LW9wZW4iLCJ2YWx1ZSI6ImZhbHNlIn0seyJhdCI6NTQ1MzguMzAwMDAwMTkwNzM1LCJhdHRyaWJ1dGUiOiJkYXRhLXBob3RvLWdhbGxlcnktaW5kZXgiLCJ2YWx1ZSI6IjAifSx7ImF0Ijo1NDUzOC4zMDAwMDAxOTA3MzUsImF0dHJpYnV0ZSI6ImRhdGEtbG9iYnktcHJvZ3Jlc3MiLCJ2YWx1ZSI6IjIvNCJ9XQ=="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9b44bad5f9e10d4e14d6-205366e687e98217a25b",
+          "file": "review-batch-c-photos.spec.ts",
+          "line": 17,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "review-batch-d-animation.spec.ts",
+      "file": "review-batch-d-animation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "C-P01 applause: uninterrupted normal response into one group photo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 100000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 37311,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:19:17.156Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-animation-C-ca671-sponse-into-one-group-photo-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b123763ce9e4a8fabeff-685be963476d21b1796d",
+          "file": "review-batch-d-animation.spec.ts",
+          "line": 118,
+          "column": 56
+        },
+        {
+          "title": "C-P01 cheer: uninterrupted normal response into one group photo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 100000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 27703,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:19:54.603Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-animation-C-70f37-sponse-into-one-group-photo-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b123763ce9e4a8fabeff-423651e3830d83840a79",
+          "file": "review-batch-d-animation.spec.ts",
+          "line": 118,
+          "column": 56
+        }
+      ]
+    },
+    {
+      "title": "review-batch-d-checkpoint.spec.ts",
+      "file": "review-batch-d-checkpoint.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F18 semantic checkpoint rejects incompatible profiles, photo versions and contradictory progress",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:20:06.700Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2487738b82402d880ccb-0d88841bc40fdb816338",
+          "file": "review-batch-d-checkpoint.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "F18 actual one/two photos restore identical pixels, profile and progress; in-flight photo restarts at lobby",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 53401,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:20:06.733Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "photo-restoration",
+                      "contentType": "application/json",
+                      "body": "W3siY2hlY2twb2ludCI6eyJ2ZXJzaW9uIjoxLCJhc3NldHMiOjEsIm5hbWUiOiLthYzsiqTtirjtlZjqsJ0iLCJwcm9maWxlIjp7ImdlbmRlciI6Im1hbGUiLCJvdXRmaXQiOjAsImhhaXIiOjAsImZhY2UiOjB9LCJzaWRlIjoiYnJpZGUiLCJyb3V0ZSI6ImNhciIsInZhbGlkUm91dGUiOiJiMyIsInByb2dyZXNzaW9uIjp7InJvdXRlQ2hvc2VuIjp0cnVlLCJyb3V0ZVF1aXpTb2x2ZWQiOnRydWUsInBob3RvVGFibGVWaXNpdGVkIjpmYWxzZSwicGhvdG9Cb290aFZpc2l0ZWQiOnRydWUsImd1ZXN0U2lkZUNob3NlbiI6dHJ1ZSwicmVjZXB0aW9uQ29tcGxldGUiOmZhbHNlLCJicmlkYWxSb29tVmlzaXRlZCI6ZmFsc2UsImJhbnF1ZXRHdWlkZUNvbXBsZXRlIjpmYWxzZSwibWVhbENvbXBsZXRlIjpmYWxzZX0sInBob3RvcyI6W3sia2luZCI6ImJvb3RoIiwicHJvZmlsZSI6eyJnZW5kZXIiOiJtYWxlIiwib3V0Zml0IjowLCJoYWlyIjowLCJmYWNlIjowfSwiY29tcG9zaXRpb24iOjF9XSwicG9pbnQiOiJsb2JieSIsIm1lYWxPcmRlciI6InBlbmRpbmciLCJlbmRpbmciOiJwZW5kaW5nIn0sImFmdGVyIjp7InZlcnNpb24iOjEsImFzc2V0cyI6MSwibmFtZSI6Iu2FjOyKpO2KuO2VmOqwnSIsInByb2ZpbGUiOnsiZ2VuZGVyIjoibWFsZSIsIm91dGZpdCI6MCwiaGFpciI6MCwiZmFjZSI6MH0sInNpZGUiOiJicmlkZSIsInJvdXRlIjoiY2FyIiwidmFsaWRSb3V0ZSI6ImIzIiwicHJvZ3Jlc3Npb24iOnsicm91dGVDaG9zZW4iOnRydWUsInJvdXRlUXVpelNvbHZlZCI6dHJ1ZSwicGhvdG9UYWJsZVZpc2l0ZWQiOmZhbHNlLCJwaG90b0Jvb3RoVmlzaXRlZCI6dHJ1ZSwiZ3Vlc3RTaWRlQ2hvc2VuIjp0cnVlLCJyZWNlcHRpb25Db21wbGV0ZSI6ZmFsc2UsImJyaWRhbFJvb21WaXNpdGVkIjpmYWxzZSwiYmFucXVldEd1aWRlQ29tcGxldGUiOmZhbHNlLCJtZWFsQ29tcGxldGUiOmZhbHNlfSwicGhvdG9zIjpbeyJraW5kIjoiYm9vdGgiLCJwcm9maWxlIjp7ImdlbmRlciI6Im1hbGUiLCJvdXRmaXQiOjAsImhhaXIiOjAsImZhY2UiOjB9LCJjb21wb3NpdGlvbiI6MX1dLCJwb2ludCI6ImxvYmJ5IiwibWVhbE9yZGVyIjoicGVuZGluZyIsImVuZGluZyI6InBlbmRpbmcifSwiYnl0ZXMiOiI1NDUiLCJyZXN0b3JlTXMiOiIxMjIifSx7ImNoZWNrcG9pbnQiOnsidmVyc2lvbiI6MSwiYXNzZXRzIjoxLCJuYW1lIjoi7YWM7Iqk7Yq47ZWY6rCdIiwicHJvZmlsZSI6eyJnZW5kZXIiOiJtYWxlIiwib3V0Zml0IjowLCJoYWlyIjowLCJmYWNlIjowfSwic2lkZSI6ImJyaWRlIiwicm91dGUiOiJjYXIiLCJ2YWxpZFJvdXRlIjoiYjMiLCJwcm9ncmVzc2lvbiI6eyJyb3V0ZUNob3NlbiI6dHJ1ZSwicm91dGVRdWl6U29sdmVkIjp0cnVlLCJwaG90b1RhYmxlVmlzaXRlZCI6ZmFsc2UsInBob3RvQm9vdGhWaXNpdGVkIjp0cnVlLCJndWVzdFNpZGVDaG9zZW4iOnRydWUsInJlY2VwdGlvbkNvbXBsZXRlIjpmYWxzZSwiYnJpZGFsUm9vbVZpc2l0ZWQiOnRydWUsImJhbnF1ZXRHdWlkZUNvbXBsZXRlIjpmYWxzZSwibWVhbENvbXBsZXRlIjpmYWxzZX0sInBob3RvcyI6W3sia2luZCI6ImJvb3RoIiwicHJvZmlsZSI6eyJnZW5kZXIiOiJtYWxlIiwib3V0Zml0IjowLCJoYWlyIjowLCJmYWNlIjowfSwiY29tcG9zaXRpb24iOjF9LHsia2luZCI6ImJyaWRhbCIsInByb2ZpbGUiOnsiZ2VuZGVyIjoibWFsZSIsIm91dGZpdCI6MCwiaGFpciI6MCwiZmFjZSI6MH0sImNvbXBvc2l0aW9uIjoxfV0sInBvaW50IjoibG9iYnkiLCJtZWFsT3JkZXIiOiJwZW5kaW5nIiwiZW5kaW5nIjoicGVuZGluZyJ9LCJhZnRlciI6eyJ2ZXJzaW9uIjoxLCJhc3NldHMiOjEsIm5hbWUiOiLthYzsiqTtirjtlZjqsJ0iLCJwcm9maWxlIjp7ImdlbmRlciI6Im1hbGUiLCJvdXRmaXQiOjAsImhhaXIiOjAsImZhY2UiOjB9LCJzaWRlIjoiYnJpZGUiLCJyb3V0ZSI6ImNhciIsInZhbGlkUm91dGUiOiJiMyIsInByb2dyZXNzaW9uIjp7InJvdXRlQ2hvc2VuIjp0cnVlLCJyb3V0ZVF1aXpTb2x2ZWQiOnRydWUsInBob3RvVGFibGVWaXNpdGVkIjpmYWxzZSwicGhvdG9Cb290aFZpc2l0ZWQiOnRydWUsImd1ZXN0U2lkZUNob3NlbiI6dHJ1ZSwicmVjZXB0aW9uQ29tcGxldGUiOmZhbHNlLCJicmlkYWxSb29tVmlzaXRlZCI6dHJ1ZSwiYmFucXVldEd1aWRlQ29tcGxldGUiOmZhbHNlLCJtZWFsQ29tcGxldGUiOmZhbHNlfSwicGhvdG9zIjpbeyJraW5kIjoiYm9vdGgiLCJwcm9maWxlIjp7ImdlbmRlciI6Im1hbGUiLCJvdXRmaXQiOjAsImhhaXIiOjAsImZhY2UiOjB9LCJjb21wb3NpdGlvbiI6MX0seyJraW5kIjoiYnJpZGFsIiwicHJvZmlsZSI6eyJnZW5kZXIiOiJtYWxlIiwib3V0Zml0IjowLCJoYWlyIjowLCJmYWNlIjowfSwiY29tcG9zaXRpb24iOjF9XSwicG9pbnQiOiJsb2JieSIsIm1lYWxPcmRlciI6InBlbmRpbmciLCJlbmRpbmciOiJwZW5kaW5nIn0sImJ5dGVzIjoiNjM1IiwicmVzdG9yZU1zIjoiMjYzIn1d"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-checkpoint--d119a-ght-photo-restarts-at-lobby-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2487738b82402d880ccb-b878e76d5d03115ec4b1",
+          "file": "review-batch-d-checkpoint.spec.ts",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "F18 first: actual meal/reaction/ending reload and one saved or skipped message",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 62016,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:20:23.168Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-checkpoint--abb2c-ne-saved-or-skipped-message-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2487738b82402d880ccb-1fa6a6c5074c73732cf4",
+          "file": "review-batch-d-checkpoint.spec.ts",
+          "line": 89,
+          "column": 50
+        },
+        {
+          "title": "F18 after: actual meal/reaction/ending reload and one saved or skipped message",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 240000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 52204,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:21:00.269Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-checkpoint--d8073-ne-saved-or-skipped-message-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2487738b82402d880ccb-f0aa3a90b4bd1cad140d",
+          "file": "review-batch-d-checkpoint.spec.ts",
+          "line": 89,
+          "column": 50
+        },
+        {
+          "title": "F18 corrupt: real browser storage failure stays playable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 11243,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:21:25.329Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-checkpoint--561d1-rage-failure-stays-playable-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2487738b82402d880ccb-9c10f49e8989a03c897c",
+          "file": "review-batch-d-checkpoint.spec.ts",
+          "line": 126,
+          "column": 83
+        },
+        {
+          "title": "F18 unknown-version: real browser storage failure stays playable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 10811,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:21:36.578Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-checkpoint--36490-rage-failure-stays-playable-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2487738b82402d880ccb-33684f5f44e6f30a7d73",
+          "file": "review-batch-d-checkpoint.spec.ts",
+          "line": 126,
+          "column": 83
+        },
+        {
+          "title": "F18 denied: real browser storage failure stays playable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 10619,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:21:47.399Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-checkpoint--cc2cd-rage-failure-stays-playable-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2487738b82402d880ccb-4e818eb6d449e2847056",
+          "file": "review-batch-d-checkpoint.spec.ts",
+          "line": 126,
+          "column": 83
+        },
+        {
+          "title": "F18 quota: real browser storage failure stays playable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11480,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:21:52.479Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-checkpoint--fb743-rage-failure-stays-playable-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2487738b82402d880ccb-52897aa72f89dd438aa6",
+          "file": "review-batch-d-checkpoint.spec.ts",
+          "line": 126,
+          "column": 83
+        }
+      ]
+    },
+    {
+      "title": "review-batch-d-production.spec.ts",
+      "file": "review-batch-d-production.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F21/F22 production: viewport frame, visible notebook and portrait alternative without source hooks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 16566,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:18:59.231Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "68a110064cf2bb58ad34-d4134d0511e488525238",
+          "file": "review-batch-d-production.spec.ts",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "review-batch-d-venue.spec.ts",
+      "file": "review-batch-d-venue.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F19 tower: real car guide map, wrong-route return and valid arrival",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 19223,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:21:58.955Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-venue-F19-t-51011-te-return-and-valid-arrival-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8daf5fcf2f48983f05e0-8fdd6c3ed36cd548003c",
+          "file": "review-batch-d-venue.spec.ts",
+          "line": 10,
+          "column": 46
+        },
+        {
+          "title": "F19 b3: real car guide map, wrong-route return and valid arrival",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11907,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:22:04.633Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-venue-F19-b-ef527-te-return-and-valid-arrival-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8daf5fcf2f48983f05e0-8ae914e3e35ecefe3bce",
+          "file": "review-batch-d-venue.spec.ts",
+          "line": 10,
+          "column": 46
+        },
+        {
+          "title": "F20 320: manual food card, keyboard paging and direct meal completion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 75000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23405,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:22:16.640Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-venue-F20-3-a5f3f--and-direct-meal-completion-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8daf5fcf2f48983f05e0-bb2d8470e0f02b77ed8e",
+          "file": "review-batch-d-venue.spec.ts",
+          "line": 34,
+          "column": 38
+        },
+        {
+          "title": "F20 393: manual food card, keyboard paging and direct meal completion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 75000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 23985,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:22:18.304Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-venue-F20-3-67851--and-direct-meal-completion-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8daf5fcf2f48983f05e0-c1b576cc707422ec49d4",
+          "file": "review-batch-d-venue.spec.ts",
+          "line": 34,
+          "column": 38
+        },
+        {
+          "title": "F20 430: manual food card, keyboard paging and direct meal completion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 75000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium-production",
+              "projectName": "chromium-production",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 20557,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-14T07:22:40.050Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d/runs/production-final/review-batch-d-venue-F20-4-3e7ac--and-direct-meal-completion-chromium-production/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8daf5fcf2f48983f05e0-8fe161e6f63982c81fed",
+          "file": "review-batch-d-venue.spec.ts",
+          "line": 34,
+          "column": 38
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-14T07:14:34.901Z",
+    "duration": 505853.347,
+    "expected": 32,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

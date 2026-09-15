@@ -1,0 +1,930 @@
+{
+  "count": 154,
+  "allUnchanged": true,
+  "items": [
+    {
+      "beforePath": "game/public/assets/invitation/calendar.jpg",
+      "currentPath": "game/public/assets/invitation/calendar.jpg",
+      "sha256": "4d457946a70544364f7414615fe5bdfb8a74fe429d5929fc9f78dc71dd65c049",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/chrysanthemum.png",
+      "currentPath": "game/public/assets/invitation/chrysanthemum.png",
+      "sha256": "ca1c5b322753942b76f246eea9f28b5564ba1aa6d646eb7cbeac58013db280ef",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-01.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-01.jpg",
+      "sha256": "0b4c5fe5d0e86b3c7af9ad2c6bf506650856fa78ac1e710449d12e102bdd05b3",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-02.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-02.jpg",
+      "sha256": "b2f25bfb811b254f461c0059d0c10ab934fe16d7f9a8e9c52354bbcef67b50d9",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-03.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-03.jpg",
+      "sha256": "ffc8a90dff4b04d4dbca4720491e85e8e95e6e56460ff78e79628ef65b839dbb",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-04.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-04.jpg",
+      "sha256": "a294fc8e2e12d39f043a809bb5ecf7cad0da6708f704b316ac65eb407df75c89",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-05.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-05.jpg",
+      "sha256": "f0c2982f12ece1de85fd85b6d3dd3f2e25fa126153a5257216385396bcde0b80",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-06.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-06.jpg",
+      "sha256": "dad92b1062c09ae70db38f644128d5622f7fdef622b4cb076f80953de335f5c1",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-07.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-07.jpg",
+      "sha256": "41986f7404605ef71d8ad2eb7d525df0698ff051ebc7a953d72885b8adda6b8f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-08.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-08.jpg",
+      "sha256": "8ecbe39c62f6ebb5b7a359d9f01b8b8685431994c40dc931419c6167531dc601",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-09.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-09.jpg",
+      "sha256": "04466428a65f75a33c1f8894594305ada81c8f8a7934cceceeea21f5fd0f1378",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-10.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-10.jpg",
+      "sha256": "0b5469c9350bf9e28b0ce06c951fe5be2eab4632ea07b0bc85a98e8f88de4fa9",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-11.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-11.jpg",
+      "sha256": "8f51860e940db61b4f1b4314d234dfa6ab7f8b07f49e0c2a547675574d953662",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-12.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-12.jpg",
+      "sha256": "a27289b446e67eca62bc20f1861aebf2ecf0cdc4acc2eb5b5751e65009f8deef",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-13.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-13.jpg",
+      "sha256": "7a87c9dd4d6407b0de4db88bd1cb8a824032d183e0fde3192f074367eb4fa7aa",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-14.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-14.jpg",
+      "sha256": "7d7c13e30996532ee53ec6b516eb08da90e591afbd1a0507cae532b43b0ef0e5",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-15.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-15.jpg",
+      "sha256": "c18335f559214563b2fb8fcf557b97db01ab40b685b91f81dcc6ef89b4b09cc4",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-16.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-16.jpg",
+      "sha256": "c5909247ec6f49d99dd0cc3ae1e22e620863617b9c851b2aedfcbc100faf6c1b",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-17.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-17.jpg",
+      "sha256": "c7613d4987322c3d3897e1cce8de0c056e3b5d1c3b2b8f7cb25ab86ea8e89f5c",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-18.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-18.jpg",
+      "sha256": "65958b6cfb4dc992b227a2490a899cc01a9104c6524e1337f718c59ad9d17f9a",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-19.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-19.jpg",
+      "sha256": "67901055e3682cae4e9e2f15216f4059cc0bd9a3fd46c45aefd9c0f8dedf6acb",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-20.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-20.jpg",
+      "sha256": "0b47d0755d38ade93a4751012674a4e53c2ab851a596d6ab6b840c1df6c2392c",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-21.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-21.jpg",
+      "sha256": "a31e910e9558c1e33342ade2235e6369926633ff844610902957dbd3151d7ea6",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/gallery-22.jpg",
+      "currentPath": "game/public/assets/invitation/gallery-22.jpg",
+      "sha256": "983ba6ff510968d9912e1a07c65efaecfd94f02d477ee7d7efd7ca6218af5eaa",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/information.png",
+      "currentPath": "game/public/assets/invitation/information.png",
+      "sha256": "f07eaf393761f5ce8101f78d3daa40a6a1d60db3c43c78b79383ee822eaed83d",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/intro.jpg",
+      "currentPath": "game/public/assets/invitation/intro.jpg",
+      "sha256": "a4c5be47d495a44ad22bb49be4ef7c62998aa6c6da4dcf4c51f3c3c41f8fe1d6",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/notice-atm.jpg",
+      "currentPath": "game/public/assets/invitation/notice-atm.jpg",
+      "sha256": "575081529fc274d76d0ddaa05b5b19cf2e88c3b11399b1e13a77269a9d86270b",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/notice-banquet.jpg",
+      "currentPath": "game/public/assets/invitation/notice-banquet.jpg",
+      "sha256": "27beeae3a580455e57d794a224e365b88e29d9ace390888c794aa655138ea8f4",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/notice-photo-booth.jpg",
+      "currentPath": "game/public/assets/invitation/notice-photo-booth.jpg",
+      "sha256": "93a3865896dbee914091454817e9792f731e9cad7647a68402088f047e8b2aa7",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/notice-welcome.jpg",
+      "currentPath": "game/public/assets/invitation/notice-welcome.jpg",
+      "sha256": "4ce7c87fe2f43ff286d8f7d253ce5bdecf01a2bc1c711feea5bc6a22a8b7a755",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/share-pixel-square-v2.png",
+      "currentPath": "game/public/assets/invitation/share-pixel-square-v2.png",
+      "sha256": "bd7f383e058c4457475ada4abcdb3eec73cb06c3a19948e25e2131a2a21579d9",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/share-pixel-wide-v2.png",
+      "currentPath": "game/public/assets/invitation/share-pixel-wide-v2.png",
+      "sha256": "553e95770f50a88125856b5d8562ead34827c1b7729e65620003b9ef556df748",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/share.jpg",
+      "currentPath": "game/artwork/sources/assets/invitation/share.jpg",
+      "sha256": "89b1ac13ca4f5254a744dcb97209d66a34c4c07d54244757b43c67044a0081ca",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/shuttle-exit-5.png",
+      "currentPath": "game/artwork/sources/assets/invitation/shuttle-exit-5.png",
+      "sha256": "e510d4395ed984b1ae91c569f3b3227228e92219a78763b120c656720eac257a",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/shuttle-pixel-matte.png",
+      "currentPath": "game/public/assets/invitation/shuttle-pixel-matte.png",
+      "sha256": "de922e356be0a4a83980cb3a7fa51d8b4647c5fa20b8bd976256f9d029a7ff85",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/timer.jpg",
+      "currentPath": "game/public/assets/invitation/timer.jpg",
+      "sha256": "03817e97d9bf7f7412d05de1d573dedb6533edb8c94463057a464bbb5080ab95",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/invitation/venue-directions.jpg",
+      "currentPath": "game/public/assets/invitation/venue-directions.jpg",
+      "sha256": "0db6e293c57f770ce0511696fa6ed21e296bf90ded324eae149dc655050b601e",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/extra-outfits-female.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/extra-outfits-female.png",
+      "sha256": "5cb153627ad8746bc4026b1f71f4da50de35bd3c1deb50dbda8171e8234a2f6c",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/extra-outfits-male.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/extra-outfits-male.png",
+      "sha256": "6967e4ca06ab030e95ed3a596acafe9665c700ff928d507088c4b47c7190ba54",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/formal-guests.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/formal-guests.png",
+      "sha256": "5ab7a3f1e70cc28570eb5a916cea6b600ac1fd682e106870c42b306a1065adb5",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/guest-poses.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/guest-poses.png",
+      "sha256": "f586ffe6590b1bd2de850ece28dec865478c1c2665a8a13f89d98e9b7f6feda8",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/minimi-faces-v2.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/minimi-faces-v2.png",
+      "sha256": "9e27c7efdbbbf48331dc5088727bd1cd98573f1e376f7374c7a084c3115161a4",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/minimi-hair.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/minimi-hair.png",
+      "sha256": "b0c9e826c83376802cdb62129d1ad23b30feded0d86ac0d6eeb6a39b38b517ce",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/minimi-hairstyles-v2.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/minimi-hairstyles-v2.png",
+      "sha256": "5eb0df5fe5af7459956952ebf219fe75f627d67157b0804c22d8e82eb51fe7ff",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/npc-bride-white.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/npc-bride-white.png",
+      "sha256": "e3f88b89aabb23c090475df5782a307c1b3b1847fd1415deb0c453703a87b08a",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/npc-bride.png",
+      "currentPath": "game/public/assets/lacitta/characters/npc-bride.png",
+      "sha256": "7d7ea5964b8a982f101487f6dc429ff9d7ef1706760f08ae6256d40b192d32ea",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/npc-groom.png",
+      "currentPath": "game/public/assets/lacitta/characters/npc-groom.png",
+      "sha256": "414b2837d7fe7f4e086e2ed22f8baa926bac6f63c924a67b317353dbc78bf0af",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/npc-guide.png",
+      "currentPath": "game/public/assets/lacitta/characters/npc-guide.png",
+      "sha256": "c0d4f8e3a9825e9b3ae8f50d8c6f436b540e573e10e9bd8b98a4a7562f7cb51f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/npc-reception.png",
+      "currentPath": "game/public/assets/lacitta/characters/npc-reception.png",
+      "sha256": "f430bb6a6aa4c38fd5005984a1dbf3ad1a0ee5705a921adeeb3a0d20f5606f7e",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/outfits-female.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/outfits-female.png",
+      "sha256": "2e5f5609188424b458b8dcba7442a6cab8e0ce6ee959823b66a4d0a7d97a540a",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/outfits-male.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/outfits-male.png",
+      "sha256": "0256a87dc584b87157ebc7e4a83ee8ebd16e37b14b98d880bd4f15a5cac87b21",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/parents.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/parents.png",
+      "sha256": "c82d4d6a260deb2e4957e9fcc608ad85af85f80555d5589c40bd0fdc03ac68e3",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/player-guest-female.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/player-guest-female.png",
+      "sha256": "4dc22b81bcdda46f9790e5f0030ec6a33573a97fc099c28d888fabe57204e319",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/player-guest.png",
+      "currentPath": "game/public/assets/lacitta/characters/player-guest.png",
+      "sha256": "8083a16f51ad2c9762c23097939ce064973c29e53b3677b04ca8c51a76f533d0",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/seated-guest.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/seated-guest.png",
+      "sha256": "1e6268337f77525af1a9aafc493eee9774ce6991373c4555fb3daf995f9ea343",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/wedding-couple.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/wedding-couple.png",
+      "sha256": "84b330dbe6e23ddf231e25c0fba430c6dc486df4c8a50e7158f729984ae83826",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/characters/white-car.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/characters/white-car.png",
+      "sha256": "68f61287cca3648c23607fd4e259738268ce0e4599cc4e8b0f5bb1586b2a20a8",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/fonts/Galmuri11.woff2",
+      "currentPath": "game/public/assets/lacitta/fonts/Galmuri11.woff2",
+      "sha256": "51a59c70b4b0ac05c6f6a8a53181e0d1b1f2ccd227ebfb829500670a2e2b45e3",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/food/buffet-left.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/food/buffet-left.png",
+      "sha256": "9ace171232c3052f889df9b8ad2ab3bccac5553bd9440a8b041d02e8033b77a0",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/food/buffet-right.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/food/buffet-right.png",
+      "sha256": "f64c1cbf363ca5dbec884c368d58f01eeae7fcc1df19f16da49121715081ecd8",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/atm.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/atm.jpeg",
+      "sha256": "d15fe8db121e3dc79812dd4436d8f2d6a34bffc41d457a6e7a5ae25430bb56ad",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/banquet-corridor.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/banquet-corridor.jpeg",
+      "sha256": "61bb3f7efb3116bbbdce6fa070319a72213d11398a45270a973c9ba90d02a5e6",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/banquet.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/banquet.jpeg",
+      "sha256": "5194be1fbf160859ea3b037e79352ac0ec2b6590d72a3da2743b67e24abb502e",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/bridal-curtains.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/bridal-curtains.jpeg",
+      "sha256": "6af1a7a143f85667577b72630fefe1091ad7cab7ef2933d8838bda3f7df5d90c",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/bridal-entry.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/bridal-entry.jpeg",
+      "sha256": "423df0e872c4e95b6fca4f08e2077cceb1d8ce676c3eceaebecb7faabc06e217",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/bridal-room.jpeg",
+      "currentPath": "game/public/assets/lacitta/photos/bridal-room.jpeg",
+      "sha256": "acb8e9ec4bcfecd559f1be95b43c6d2350392e3cfe91f15aa851ca2d9bfae69d",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/exterior.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/exterior.jpeg",
+      "sha256": "fba38dc1d59d3ec679d7d84d1d8084abc41d0842c52498a33322db8d4207be3c",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/garden.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/garden.png",
+      "sha256": "9851789d6ebee7016c2e7d9778bf2efb2bd233177b02c5207da9961bb03c87ca",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/hall.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/hall.jpeg",
+      "sha256": "3995b1bc415ce23e00d40f40c428b3ea98947e28867590ae7de23c15803e07c6",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/junction.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/junction.jpeg",
+      "sha256": "1ba7bc37bc8cdd24870b3cc4ba0294b41933fd354759a78e3c46b77bcfb5a636",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/lounge.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/lounge.jpeg",
+      "sha256": "391a90d93bebdddf4821609ced32cc8f5005c5ce76d4b0342591a5f4407d621f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/photo-booth.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/photo-booth.jpeg",
+      "sha256": "6f429e229080060424ff3163a407b73a41542fc4b446c53043bc86db7c401684",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/photo-zone.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/photo-zone.jpeg",
+      "sha256": "1502a4ff69bc6d2eaa12246395cee09255cf3ed950a0dfd703c646a42913fd5b",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/shuttle.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/shuttle.jpeg",
+      "sha256": "d335facdf49f0e67b5cd2cb6915027649b133f87089fd53847f63580f308e4e2",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/photos/welcome.jpeg",
+      "currentPath": "game/artwork/sources/assets/lacitta/photos/welcome.jpeg",
+      "sha256": "97cfa649d5642535517f453efcf98082fad134468fea76fe6000b9ab1fbe709d",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/banquet-corridor.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/banquet-corridor.png",
+      "sha256": "a3d386b254ea4300e40e5c19c5a7f629b8c4be3dd7c1a04913a71c056a0f580b",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/banquet.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/banquet.png",
+      "sha256": "4ebe86561e8ed63def42feba97054ff767db7e33d41f20c2da08be4cb96d7332",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/bridal-room-white.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/bridal-room-white.png",
+      "sha256": "38bf5c6f4ca765edee01414f633f779929e051deb395823b967d7349bb3dc5dd",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/bridal-room.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/bridal-room.png",
+      "sha256": "7e0da709ad2d96d2f5b22f5977715d8788409c168c5fb96fb49a34f2d07eea57",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/garden.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/garden.png",
+      "sha256": "7642506691bf98d0fe41c319fe53a0e4a11fd785a5adcfc15e7e34c40480c1d9",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/group-photo-hall.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-hall.png",
+      "sha256": "ca1f5ff97003e0625632032fcb0b445a29cc30249f442f0cfc9d5007453f5718",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/group-photo-portrait-v3.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-portrait-v3.png",
+      "sha256": "a2779430320a6f5a3bfce69d1cc4af2e89d6efc4c2411755a6b2e810ed0e2b52",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/group-photo-stage-v2.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-stage-v2.png",
+      "sha256": "1d04a67a112ddbad3caf45d10f625ce2f144db5a5f24045f7a2e75cfb6976eca",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/group-photo-stage-v3.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-stage-v3.png",
+      "sha256": "f3795fe3ace1cf417743ee7563cdd4a50326b4206f507d959720137305c3af53",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/group-photo-stage-v4.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-stage-v4.png",
+      "sha256": "88c593e5d7919efdb1ce7b25faf57723828c6c818336cf0a3b393af509e488b3",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/hall-v2.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/hall-v2.png",
+      "sha256": "564901450febd022a1a2ce776ba83b32639c1386fd5ea0709a5f9cc0702dda66",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/hall.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/hall.png",
+      "sha256": "b8f14ea2af1c0e2c78425354af87def7848a8a5614ab5f2f175a446726c5764f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/lobby-heart-panels.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/lobby-heart-panels.png",
+      "sha256": "7671cae0a9d789b8d5da808036203996ceba54195a82524b3c8fcc1a84bc8c13",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/lobby-no-posters.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/lobby-no-posters.png",
+      "sha256": "fc256ccc0c91806b4bcffa3cf680fc3d71a48c8cf6b1e9840018017abc67e584",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/lobby.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/lobby.png",
+      "sha256": "89a5175ec68d04885730d5e3bf534f9459328add15e7877d1782814c663bc3b7",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/photo-booth.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/photo-booth.png",
+      "sha256": "b1bcca45bce98884c9c89b2b5e2af17e715a7c6e3b265e86a5beca29bb1afbc0",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/reception-family.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/reception-family.png",
+      "sha256": "0d770d77c3163341db0c73b6521cb9dec0e357a1c85917892f534bcc02388f7c",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/pixel-venue/shuttle.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/pixel-venue/shuttle.png",
+      "sha256": "e8363cd0b5ba6de169183eb5c4083680f7371246f4a3a99ed186fe25ca60eb3a",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/car-background-pink.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/routes/car-background-pink.png",
+      "sha256": "3da44158d370ec99e29f674e7c53753363cc620bd552f8a39f79a91ac5968ce4",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/car-background.png",
+      "currentPath": "game/public/assets/lacitta/routes/car-background.png",
+      "sha256": "749143eb351aba67b46401d63cd53bf5fa89b2a7fa67f6d5cad31ea6823d12c5",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/car-choice.png",
+      "currentPath": "game/public/assets/lacitta/routes/car-choice.png",
+      "sha256": "4da339daa6b16a84cd5297c0c6d209f36410d18a8366b9b0429e2c63ea527d08",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/car-guidance-v2.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/routes/car-guidance-v2.png",
+      "sha256": "7b66d596d1b86823d8cd2e1f6549f670388bdd09d234fc7eb3c2e5c559d0b965",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/exit-sign.png",
+      "currentPath": "game/public/assets/lacitta/routes/exit-sign.png",
+      "sha256": "39dddc783b7fdeb63c764d0ceb62f523dee1e2789df53ce2bd28849758d52d6d",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/home-background.png",
+      "currentPath": "game/public/assets/lacitta/routes/home-background.png",
+      "sha256": "aa985d20424b40124291c839d244b1c4ab2885b62252038f58600c4e12f8f8b4",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/home-ground-v2.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/routes/home-ground-v2.png",
+      "sha256": "fee9f4b9121a8761e0cc7066599eb41f04499068c2971d1506efb0ff85f89d58",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/home-sky.png",
+      "currentPath": "game/artwork/sources/assets/lacitta/routes/home-sky.png",
+      "sha256": "0df5c3ba2d22bf1129a7f54c485873ea9efab994ca072ee5148f78728501c07f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/shuttle-bus.png",
+      "currentPath": "game/public/assets/lacitta/routes/shuttle-bus.png",
+      "sha256": "d308444673010a6ca051913e1c69058ac8ba2fb25adcf219ac7ff225b12a8110",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/subway-background.png",
+      "currentPath": "game/public/assets/lacitta/routes/subway-background.png",
+      "sha256": "e55056a0429d2582da74f4a4cba7f6e113dbe75d63bcec1c9c94ff24b36cf43f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/routes/subway-choice.png",
+      "currentPath": "game/public/assets/lacitta/routes/subway-choice.png",
+      "sha256": "315c3b83fa6d1b2745577529bd76713aa6460689095d53519cbe113aec5e7f64",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/share/og-lacitta-wedding.png",
+      "currentPath": "game/public/assets/lacitta/share/og-lacitta-wedding.png",
+      "sha256": "1e18dd59da0e7829c119fe25b1c1ba7672e45164a576f39787bce13c41176a07",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/ui/arrow-marker.png",
+      "currentPath": "game/public/assets/lacitta/ui/arrow-marker.png",
+      "sha256": "415329bf3aa0ea9ee681ad5ac7678344138e9f66f6fe7d6b27e61818acd57cb7",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/ui/dialog-panel.png",
+      "currentPath": "game/public/assets/lacitta/ui/dialog-panel.png",
+      "sha256": "e25f3453d4c816bb446b382a87bc3d8034c34aac3655f43f5804b6ab72ccea3a",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/ui/guide-marker.png",
+      "currentPath": "game/public/assets/lacitta/ui/guide-marker.png",
+      "sha256": "4f52d4a095916792caeeb3529bf10ff8864343c8d9068f9026d6192eb02a1685",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/ui/hint-button.png",
+      "currentPath": "game/public/assets/lacitta/ui/hint-button.png",
+      "sha256": "23427a4bb80c987a83dd6446c9baf1505fcc9085e2161efef27346ad6daccf27",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/ui/loading-accent.png",
+      "currentPath": "game/public/assets/lacitta/ui/loading-accent.png",
+      "sha256": "735a248b20157d959c7e8ec3554afd7c469938b456dd2d30405f62aeb019b46a",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/ui/quiz-frame.png",
+      "currentPath": "game/public/assets/lacitta/ui/quiz-frame.png",
+      "sha256": "fbd648b4a02bec64f90fd41867944f7b779b88e864d9044b7cca72813809062d",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/ui/route-sign.png",
+      "currentPath": "game/public/assets/lacitta/ui/route-sign.png",
+      "sha256": "e84d0862e2b1e1ff2775db8387779b23b2ca14d7478da32a2854caa209383dea",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/ui/touch-button.png",
+      "currentPath": "game/public/assets/lacitta/ui/touch-button.png",
+      "sha256": "f4707c831d57342524829d69907759869005a5e00e5d18c69b390a49a30884b9",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/banquet-background.png",
+      "currentPath": "game/public/assets/lacitta/venue/banquet-background.png",
+      "sha256": "227044c5955040e77b50b18357136adf83185728f5b1bd75ef799e2ea010ba82",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/bridal-room-background.png",
+      "currentPath": "game/public/assets/lacitta/venue/bridal-room-background.png",
+      "sha256": "3ef5b0969acafa41fd91767d58ebe1bd84a256137788c1029bbd4c1b9b0013d6",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/buffet-island.png",
+      "currentPath": "game/public/assets/lacitta/venue/buffet-island.png",
+      "sha256": "1eb27f1bec736bc0c87b3627e94129993b3179dc07a8950fc48b7c230f8febd1",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/drinks-station.png",
+      "currentPath": "game/public/assets/lacitta/venue/drinks-station.png",
+      "sha256": "11001eeaed8517ed871d7e5737d347ef789edb696dde91eabe954f15a05d1ee9",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/ending-background.png",
+      "currentPath": "game/public/assets/lacitta/venue/ending-background.png",
+      "sha256": "33ab091ff2b5f1f1527df0b631610b180009cb068c1a05d83a508a6fb3fc3577",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/greenery-corridor-background.png",
+      "currentPath": "game/public/assets/lacitta/venue/greenery-corridor-background.png",
+      "sha256": "7c88a0c62b23485ff5214b28502cdd5e1178d28f00c2dc82ca481ed501ae631c",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/hall-background.png",
+      "currentPath": "game/public/assets/lacitta/venue/hall-background.png",
+      "sha256": "07a8fb4fa49b69e7795e2fbe089f7693733e45c6f7b5117f82b6b670972bf1d6",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/lobby-background.png",
+      "currentPath": "game/public/assets/lacitta/venue/lobby-background.png",
+      "sha256": "5b54ff149737876b3da66a332de768bf2b6eb397837147af1e99a1bf3c08341f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/photo-booth.png",
+      "currentPath": "game/public/assets/lacitta/venue/photo-booth.png",
+      "sha256": "6661d21b1142a9ecb963a5414f747188513fdb5667b4f08a9e3dd7e19b6fb5f0",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/photo-room-background.png",
+      "currentPath": "game/public/assets/lacitta/venue/photo-room-background.png",
+      "sha256": "5901ba24e9ecbea19ad53771eafa896175a6c4899c841475b24c45a619b0cdcb",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/photo-table.png",
+      "currentPath": "game/public/assets/lacitta/venue/photo-table.png",
+      "sha256": "c795a902f5279882269d2916808f9d10c8371cad5e72545ae81e24dad3442d3a",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/reception-desk.png",
+      "currentPath": "game/public/assets/lacitta/venue/reception-desk.png",
+      "sha256": "c56f293589ded64617e869d348ce7484acb714db53fbc4bf535a0e591ed91a4f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/lacitta/venue/waiting-room-background.png",
+      "currentPath": "game/public/assets/lacitta/venue/waiting-room-background.png",
+      "sha256": "d8054aa3cbf879f59941b1eb14d99b39e8e375d6a6b7fc98ab37f6781dcd1e9e",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/gallery-01-game.jpg",
+      "currentPath": "game/public/assets/optimized/gallery-01-game.jpg",
+      "sha256": "d1a2bb9b6b8779591287f07f034fe78a465e0dc331f54bd405eb0fa2085ea20d",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/gallery-02-game.jpg",
+      "currentPath": "game/public/assets/optimized/gallery-02-game.jpg",
+      "sha256": "b1a7d654b1c06c5cd70f2bc7f16eb04570cc05a70a3a5b0ba32388c1fdbee75e",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/gallery-03-game.jpg",
+      "currentPath": "game/public/assets/optimized/gallery-03-game.jpg",
+      "sha256": "27067642bbe13723f2bc2fe19857643f8b8fe580514314a920704cb914a86ba7",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-characters-extra-outfits-female.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-characters-extra-outfits-female.webp",
+      "sha256": "de7ad8f64ad714f3c86ed2dd27f4ac9650332d98cf94a43ad958c99d849b1f81",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-characters-extra-outfits-male.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-characters-extra-outfits-male.webp",
+      "sha256": "074d76607b3669502b4476188774f092a9a16e33d69294a374fc46d81bbde819",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-characters-formal-guests.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-characters-formal-guests.webp",
+      "sha256": "218ae9da932b9ca6dff9335be5b131bea71eec833f5676c3cb7c9d0f0016297f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-characters-minimi-hair.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-characters-minimi-hair.webp",
+      "sha256": "14b027836aa7982021da7b1a4a3a4738f31a4d2e8dc4c7c39d595e397af3797a",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-characters-outfits-female.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-characters-outfits-female.webp",
+      "sha256": "cf7181d2df8805a8ef237149ddc0d81f032d9564d053fb8184cf0548b21963fe",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-characters-outfits-male.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-characters-outfits-male.webp",
+      "sha256": "8b29dab1449f7bb8e35ec07205690193d1537a84784c4f5c37e87c4fe0f5e339",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-characters-parents.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-characters-parents.webp",
+      "sha256": "0cb96e7828cc9845881d8f91b409ce6e47865160be9726b557a7cc2406cb9dc0",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-characters-wedding-couple.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-characters-wedding-couple.webp",
+      "sha256": "9708fe5124abe1fe4787812f4217797f734609feb55610e354e5cd004b4760fb",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-characters-white-car.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-characters-white-car.webp",
+      "sha256": "39fec34862d811404632a803a0bc944e6d626b066a104ae63e314c95d7790023",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-food-buffet-left.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-food-buffet-left.webp",
+      "sha256": "b3f3b9a8fdb043a123866e0c498a10337296baf537e415af105aa2b15550096c",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-food-buffet-right.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-food-buffet-right.webp",
+      "sha256": "69a7841a5d87fbe425ae6d50ed003222f302588799d7c6bb15b11f52909ebf2d",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-banquet-corridor.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-banquet-corridor.webp",
+      "sha256": "c88787a3899583a3767f7b426ca2211b06690e67160e90818b49696d3b5a5b06",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-banquet.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-banquet.webp",
+      "sha256": "5b22d1c51deb101876e17d18d266f82914e21e986b6b1c84474eadefbc462b66",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-bridal-room-white.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-bridal-room-white.webp",
+      "sha256": "2083f480501eb8358cbd8eeb82632100bb9a3d9b55915a37dcdbb20f9ddafc27",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-garden.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-garden.webp",
+      "sha256": "bad2c802bdd0a448b6cdb5c42db4cba7e597deaaab7775375a6893d814e70b5f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-group-photo-portrait-v3.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-group-photo-portrait-v3.webp",
+      "sha256": "bf8cb787027ec2a1008b3a465c49bad219fbbf17a5eaa5207c8fc5f22604ce8a",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-group-photo-stage-v4.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-group-photo-stage-v4.webp",
+      "sha256": "0143a96ef5c789fa8289c1900aafb6e09b462a29ccdd7d0938415dccb6f9fd10",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-hall.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-hall.webp",
+      "sha256": "77b090421b5ce80c267b3dc9589c6c204566ebb2abb82aea5f27dfd3aaef2d1d",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-lobby.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-lobby.webp",
+      "sha256": "2732407e880fb1b8d4c561cbab62268f20e1818268e6b6922b426e3c9ff50b21",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-photo-booth.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-photo-booth.webp",
+      "sha256": "5d2f01ad9ae4039744c4abd731ebfdf694b1c3dbd833980302a281c7dfb0c24e",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-reception-family.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-reception-family.webp",
+      "sha256": "f83c6807d1cfb2b2dfe0ad6d86fd828a5fc45805e1bd894f429f5c3e96a8921f",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-pixel-venue-shuttle.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-pixel-venue-shuttle.webp",
+      "sha256": "90a756ecca831d705649b976d37f1f3c51cd9cadf0a7bfc814746caed2c229fd",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+      "sha256": "9089e743e84449401c6fcc244dedb26a24485f36a707752e9ae8156e13133682",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/assets/optimized/lacitta-routes-home-ground-v2.webp",
+      "currentPath": "game/public/assets/optimized/lacitta-routes-home-ground-v2.webp",
+      "sha256": "cee866980842605860fc6311ab9c5edbea49bd6e83ace93d3394bc059934dabc",
+      "unchanged": true
+    },
+    {
+      "beforePath": "game/public/og-placeholder.png",
+      "currentPath": "game/artwork/sources/og-placeholder.png",
+      "sha256": "e94cf8fd4d28e9e396b916b6046a824f42f9fc430c551f9b5b24be7c4ff27e03",
+      "unchanged": true
+    }
+  ]
+}

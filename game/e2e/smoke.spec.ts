@@ -1,3 +1,4 @@
+import { chooseStory, completeLobbyTours, finishDinner, fillProfile, receiveEnvelope, takeBridalPhoto, dismissLobbyArrival } from "./story-helpers";
 import { expect, test } from "@playwright/test";
 import type { Page } from "@playwright/test";
 
@@ -6,7 +7,7 @@ test("Given the Vite app When the home page loads Then the wedding game title is
 }) => {
   await page.goto("/");
 
-  await expect(page).toHaveTitle("이재준 ♥ 김현서 결혼식으로 가는 길");
+  await expect(page).toHaveTitle("JJ ♥ HS");
 });
 
 test("Given the car route When the guest makes mistakes then finishes Then the game reaches ending and replay resets", async ({
@@ -14,29 +15,23 @@ test("Given the car route When the guest makes mistakes then finishes Then the g
 }) => {
   await page.setViewportSize({ width: 390, height: 844 });
 
-  await startToHome(page);
-  await clickLogical(page, 190, 790);
+  await startToHome(page, "신랑측");
+  test.setTimeout(100_000);
+  await chooseStory(page, "자차로 간다");
   await waitScene(page, "CarRouteScene");
-  await clickLogical(page, 568, 650);
-  await waitDataset(page, "routeQuizModalOpen", "true");
-
-  await page.keyboard.press("1");
+  await chooseStory(page, "노란색");
   await waitDataset(page, "routeQuizWrongCount", "1");
   await expect(await datasetValue(page, "routeQuizSolved")).toBe("false");
-  await expect(await datasetValue(page, "routeQuizHintCount")).toBe("1");
-  await expect(await datasetValue(page, "activeScene")).toBe("CarRouteScene");
-
-  await page.keyboard.press("2");
-  await waitDataset(page, "routeQuizWrongCount", "2");
-  await expect(await datasetValue(page, "activeScene")).toBe("CarRouteScene");
-
-  await page.keyboard.press("3");
+  await expect(page.locator(".story-narration")).toHaveAttribute("aria-label", /이마트[\s\S]*파란색[\s\S]*분홍색/);
+  await page.getByRole("button", { name: "파란색", exact: true }).click({ timeout: 15000 });
   await waitScene(page, "VenueLobbyScene");
   await waitDataset(page, "lobbyReady", "true");
+  await dismissLobbyArrival(page);
 
-  await chooseGuestSide(page, "1", "groom", 110, 260);
+  await completeReception(page, "groom");
+  await completeLobbyTours(page);
   await enterHall(page);
-  await followGuideToEnding(page, 403);
+  await celebrateToEnding(page, "박수를 친다");
   await replay(page);
 });
 
@@ -45,80 +40,65 @@ test("Given the subway route When the guest chooses wrong exits then bride side 
 }) => {
   await page.setViewportSize({ width: 430, height: 932 });
 
-  await startToHome(page);
-  await clickLogical(page, 530, 790);
+  await startToHome(page, "신부측");
+  test.setTimeout(100_000);
+  await chooseStory(page, "지하철을 탄다");
   await waitScene(page, "SubwayRouteScene");
-  await clickLogical(page, 120, 620);
-  await waitDataset(page, "routeQuizOpen", "true");
-
-  await page.keyboard.press("1");
+  await chooseStory(page, "1번 출구");
   await waitDataset(page, "routeQuizWrongCount", "1");
   await expect(await datasetValue(page, "routeQuizSolved")).toBe("false");
-  await expect(await datasetValue(page, "routeQuizHintCount")).toBe("1");
-  await expect(await datasetValue(page, "activeScene")).toBe("SubwayRouteScene");
-
-  await page.keyboard.press("2");
+  await page.getByRole("button", { name: "2번 출구", exact: true }).click({ timeout: 15000 });
   await waitDataset(page, "routeQuizWrongCount", "2");
-  await expect(await datasetValue(page, "activeScene")).toBe("SubwayRouteScene");
-
-  await page.keyboard.press("3");
+  await page.getByRole("button", { name: "5번 출구", exact: true }).click({ timeout: 15000 });
   await waitScene(page, "VenueLobbyScene");
   await waitDataset(page, "lobbyReady", "true");
+  await dismissLobbyArrival(page);
 
-  await chooseGuestSide(page, "2", "bride", 260);
+  await completeReception(page, "bride");
+  await completeLobbyTours(page);
+  await clickLogical(page, 590, 150);
+  await waitDataset(page, "lobbyInfo", "explore-required");
+  await page.keyboard.press("Escape");
+  await clickLogical(page, 590, 990);
+  await waitScene(page, "GreeneryCorridorScene");
+  await takeBridalPhoto(page);
   await enterHall(page);
-  await followGuideToEnding(page, 230);
+  await celebrateToEnding(page, "환호를 한다");
   await expect(await datasetValue(page, "guestSide")).toBe("bride");
 });
 
-async function startToHome(page: Page): Promise<void> {
+async function startToHome(page: Page, side: string): Promise<void> {
   await page.goto("/");
   await waitScene(page, "IntroScene");
-  await clickLogical(page, 360, 876);
+  await clickLogical(page, 360, 1180);
   await waitScene(page, "HomeSelectScene");
+  await fillProfile(page);
+  await chooseStory(page, side);
 }
 
-async function chooseGuestSide(
-  page: Page,
-  optionKey: string,
-  expectedSide: string,
-  deskX: number,
-  wrongDeskX?: number,
-): Promise<void> {
-  await clickLogical(page, wrongDeskX ?? deskX, 500);
-  await waitDataset(page, "q3ModalOpen", "true");
-  await page.keyboard.press(optionKey);
+async function completeReception(page: Page, expectedSide: string): Promise<void> {
+  await clickLogical(page, 360, 460);
+  await receiveEnvelope(page);
   await waitDataset(page, "guestSide", expectedSide);
-
-  if (wrongDeskX !== undefined) {
-    await waitDataset(page, "receptionWarning", "wrong-desk");
-    await expect(await datasetValue(page, "receptionComplete")).toBe("false");
-    await clickLogical(page, deskX, 500);
-  }
-
   await waitDataset(page, "receptionComplete", "true");
   await expect(await datasetValue(page, "q3ModalOpen")).toBe("false");
   await expect(await datasetValue(page, "receptionDesk")).toBe(expectedSide);
 }
 
 async function enterHall(page: Page): Promise<void> {
-  await clickLogical(page, 360, 150);
+  await clickLogical(page, 590, 150);
   await waitScene(page, "VenueHallScene");
-  await waitDataset(page, "hallGuideArrivalCount", "0");
 }
 
-async function followGuideToEnding(page: Page, firstX: number): Promise<void> {
-  await clickLogical(page, firstX, 896);
-  await waitDataset(page, "hallGuideArrivalCount", "1");
-  await clickLogical(page, 187, 1050);
-  await waitDataset(page, "hallGuideArrivalCount", "2");
-  await clickLogical(page, 202, 1152);
+async function celebrateToEnding(page: Page, reaction: string): Promise<void> {
+  await chooseStory(page, reaction);
+  await finishDinner(page);
   await waitScene(page, "EndingScene");
   await waitDataset(page, "endingReplayReady", "true");
 }
 
 async function replay(page: Page): Promise<void> {
-  await clickLogical(page, 360, 994);
+  await page.getByRole("button", { name: "처음부터 다시", exact: true }).click();
   await waitScene(page, "IntroScene");
   await waitDataset(page, "routeChoice", "");
   await waitDataset(page, "guestSide", "");

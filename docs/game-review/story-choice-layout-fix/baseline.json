@@ -1,0 +1,25 @@
+{
+  "HEAD": "a2a31405940560e169c819ee0f2677f073ccba40",
+  "files": [
+    {
+      "path": "game/src/style.css",
+      "sha256": "10e45d54435aaf34a0a0a59ada1db9ad1ac1e959a0c46eb2a1a989d8be215d90"
+    },
+    {
+      "path": "game/src/ui/minimi.ts",
+      "sha256": "6e817945a46cf47835a0bcd944b37d15d908501725b7428cbe39ff286c8dbf7a"
+    },
+    {
+      "path": "game/src/ui/minimiParts.ts",
+      "sha256": "16e925c83a415c49799b902692da3fa34031aeebfc09885d97f7e1c5ebb37ca2"
+    },
+    {
+      "path": "game/src/ui/classicMinimi.ts",
+      "sha256": "91fed89ff0f3c22f58f1b97c5e292ea9e155ac80ae485f2348cd4ae6b86a1862"
+    },
+    {
+      "path": "game/src/ui/MinimiPicker.ts",
+      "sha256": "9bc7c75f6a5b35d1dba7368ad75293e1a6770c6dfa2ad4f83c8d4c411801eb2d"
+    }
+  ]
+}

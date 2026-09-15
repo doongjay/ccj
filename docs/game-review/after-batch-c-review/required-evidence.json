@@ -1,0 +1,27 @@
+{
+  "screenshots": [
+    "f11-applause-response-393.png",
+    "f11-cheer-response-393.png",
+    "f12-booth-result-393.png",
+    "f12-bridal-result-393.png",
+    "f12-notebook-keepsakes-393.png",
+    "f12-booth-controls-no-overlap-393.png",
+    "f13-booth-result-320.png",
+    "f13-bridal-result-320.png",
+    "f13-photo-result-430.png",
+    "f14-group-bride-393.png",
+    "f14-group-groom-393.png",
+    "f15-reception-acknowledged-393.png",
+    "f15-lobby-revisit-no-banner-393.png",
+    "keyboard-photo-result-desktop.png",
+    "reduced-motion-response-393.png"
+  ],
+  "videos": [
+    "f12-booth.webm",
+    "f12-bridal.webm",
+    "f11-applause.webm",
+    "f11-cheer.webm",
+    "f15-reception.webm"
+  ],
+  "note": "All 15 PNG and 5 required WebM bytes must match original; additional unedited failed-run recordings retained."
+}

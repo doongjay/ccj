@@ -1,0 +1,14 @@
+{
+  "timeUTC": "2026-09-14T07:36:16.579001+00:00",
+  "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-d-review.zip",
+  "bytes": 179443825,
+  "MiB": 171.13,
+  "sha256": "92567f440ea23b430f85ec3025a23e41aa4af60b45f4275d6975e73c0fa1e5e6",
+  "entries": 659,
+  "crcFailure": null,
+  "manifestHashesMatch": true,
+  "excludedFiles": 529,
+  "excludedBytes": 1890186674,
+  "originalsDeleted": 0,
+  "sourceFingerprint": "1402719dd9a38740f9b3955698e0ca61dd028dbfb2467650529ac2f33bf1858e"
+}

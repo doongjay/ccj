@@ -1,0 +1,398 @@
+{
+  "id": 5933,
+  "domain": "now-2026-11-21",
+  "status": "APPROVE_REMOVE_WATERMARK",
+  "createdAt": "$D2026-08-11T15:03:55.164Z",
+  "files": [
+    {
+      "id": 27989,
+      "fileName": "06a4197e-61fe-4054-9770-14abc6a28baa.blob",
+      "category": "TIMER"
+    },
+    {
+      "id": 28178,
+      "fileName": "6b9f778d-9b60-4c4e-bfe5-ecb3e5f7e2d9.blob",
+      "category": "CALENDAR"
+    },
+    {
+      "id": 27953,
+      "fileName": "29f2151e-4137-4873-805a-8f177c9d4e2c.blob",
+      "category": "INTRO"
+    }
+  ],
+  "effect": {
+    "isLetteringEffect": true,
+    "letteringEffect": "MARRY",
+    "letteringEffectColor": "rgb(255, 255, 255)",
+    "letteringEffectOffset": 0,
+    "isParticleEffect": true,
+    "particleEffect": "CONFETTI"
+  },
+  "themeText1": "<p>Our Now Begins</p>",
+  "themeText2": "<ol start=\"2024\"><li><p>2026.11.21 (SAT) 14:00</p></li></ol>",
+  "themeText3": "<p></p>",
+  "themeText4": "<p>Jaejun</p>",
+  "themeText5": "<p>Hyeonseo</p>",
+  "themeText6": "<p>- HEUM CARD HOTEL -</p>",
+  "themeFontColor1": "rgb(255, 255, 255)",
+  "themeFontColor2": "rgb(255, 255, 255)",
+  "themeFontColor3": "rgb(255, 255, 255)",
+  "themeFontColor4": "rgb(255, 255, 255)",
+  "themeFontColor5": "rgb(255, 255, 255)",
+  "themeFontColor6": "rgb(0, 0, 0)",
+  "themeFontFamily1": "var(--font-edensor)",
+  "themeFontFamily2": "var(--font-suit)",
+  "themeFontFamily3": "var(--font-suit)",
+  "themeFontFamily4": "var(--font-edensor)",
+  "themeFontFamily5": "var(--font-edensor)",
+  "themeFontFamily6": "var(--font-pretendard)",
+  "theme": {
+    "codeName": "BLISS"
+  },
+  "themeColor": "rgb(255, 255, 255)",
+  "themePointColor": "rgb(0, 0, 0)",
+  "themeOffset1": 0,
+  "themeOffset2": 0,
+  "fontFamily": "",
+  "isBlockExpansion": true,
+  "isScrollAnimation": true,
+  "isCoverBgColor": true,
+  "coverBgColor": "rgb(238, 232, 227)",
+  "groomFatherLastName": "이",
+  "groomFatherFirstName": "홍섭",
+  "isDeadGroomFatherIcon": false,
+  "isDeadGroomFather": false,
+  "groomMotherLastName": "김",
+  "groomMotherFirstName": "영아",
+  "isDeadGroomMotherIcon": false,
+  "isDeadGroomMother": false,
+  "groomLastName": "이",
+  "groomFirstName": "재준",
+  "groomRelation": "의 아들",
+  "bridgeFatherLastName": "김",
+  "bridgeFatherFirstName": "동근",
+  "isDeadBridgeFatherIcon": true,
+  "isDeadBridgeFather": true,
+  "bridgeMotherLastName": "김",
+  "bridgeMotherFirstName": "경숙",
+  "isDeadBridgeMotherIcon": false,
+  "isDeadBridgeMother": false,
+  "bridgeLastName": "김",
+  "bridgeFirstName": "현서",
+  "bridgeRelation": "의 딸",
+  "isBridgeFirst": false,
+  "invitationLetterTitle": "1-1-2-1",
+  "invitationLetterContent": "<p>서로 다른 한 사람과 한 사람이 만나</p><p>둘이 되어 서로를 닮아가다</p><p>이제는 하나의 삶으로 함께하고자 합니다.</p><p></p><p>그 시작의 자리에 함께해 주시면</p><p>더없는 기쁨으로 간직하겠습니다.</p><p></p>",
+  "invitationLetterFontFamily": "var(--font-gowun-dodum)",
+  "isInvitationLetterImage": true,
+  "isInvitationLetterDate": false,
+  "weddingAt": "$D2026-11-20T15:00:00.000Z",
+  "ampm": "PM",
+  "hour": "2",
+  "minute": "0",
+  "isCalendar": true,
+  "isDDay": true,
+  "dDayTimerType": "IMAGE",
+  "venue": {
+    "isChecked": true,
+    "venueTitle": "",
+    "venueName": "라시따시어터 ",
+    "venueDetail": "1층 그랜드볼룸 (단독홀)",
+    "venueAddress": "서울 서초구 양재동 215",
+    "lat": 37.4634041,
+    "lng": 127.0370146,
+    "isMap": true
+  },
+  "transportation": {
+    "isChecked": true,
+    "isIcon": true,
+    "carContent": "<ul><li><p><strong>네비게이션 : \"라시따시어터\" 또는 \"하이브랜드\" 입력</strong></p></li></ul><ul><li><p></p></li></ul><p><br></p>",
+    "busContent": "",
+    "subwayContent": "<p>양재시민의숲역 (신분당선)</p>",
+    "parkingContent": "<p><span style=\"font-family: var(--font-pretendard)\">건물 내 동시 1,000대 가능 (3시간 무료)</span></p><p><span style=\"font-family: var(--font-pretendard)\"><strong>[ </strong></span><span style=\"font-family: var(--font-pretendard)\"><strong>파란색 유도선 ] 지하 3층 주차장 (추천) 💙</strong></span></p><p><span style=\"font-family: var(--font-pretendard)\">[ 분홍색 유도선 ] 타워 주차장</span></p><p><span style=\"font-family: var(--font-pretendard)\">[ 노란색 유도선 ] 주차 지원 불가</span></p><p></p>",
+    "trainContent": "",
+    "airplaneContent": "",
+    "shuttleBusContent": "<p><span style=\"font-family: var(--font-pretendard)\"><strong>양재시민의숲역</strong> (신분당선) <strong>5번 출구</strong></span></p><p><span style=\"font-family: var(--font-pretendard)\"> (예식 1시간 전부터 10분 간격 운행)</span></p>",
+    "charterBusContent": "",
+    "isCarChecked": false,
+    "isBusChecked": false,
+    "isSubwayChecked": false,
+    "isParkingChecked": true,
+    "isTrainChecked": false,
+    "isAirplaneChecked": false,
+    "isShuttleBusChecked": true,
+    "isCharterBusChecked": false
+  },
+  "gallery": {
+    "isChecked": true,
+    "title": "",
+    "effect": "BOARD",
+    "isArrow": true
+  },
+  "galleryFiles": [
+    {
+      "index": 1,
+      "fileName": "1.jpg",
+      "localFile": "gallery/1.jpg"
+    },
+    {
+      "index": 2,
+      "fileName": "2.jpg",
+      "localFile": "gallery/2.jpg"
+    },
+    {
+      "index": 3,
+      "fileName": "3.jpg",
+      "localFile": "gallery/3.jpg"
+    },
+    {
+      "index": 4,
+      "fileName": "4.jpg",
+      "localFile": "gallery/4.jpg"
+    },
+    {
+      "index": 5,
+      "fileName": "5.jpg",
+      "localFile": "gallery/5.jpg"
+    },
+    {
+      "index": 6,
+      "fileName": "6.jpg",
+      "localFile": "gallery/6.jpg"
+    },
+    {
+      "index": 7,
+      "fileName": "11.jpg",
+      "localFile": "gallery/11.jpg"
+    },
+    {
+      "index": 8,
+      "fileName": "12.jpg",
+      "localFile": "gallery/12.jpg"
+    },
+    {
+      "index": 9,
+      "fileName": "13.jpg",
+      "localFile": "gallery/13.jpg"
+    },
+    {
+      "index": 10,
+      "fileName": "21.jpg",
+      "localFile": "gallery/21.jpg"
+    },
+    {
+      "index": 11,
+      "fileName": "22.jpg",
+      "localFile": "gallery/22.jpg"
+    },
+    {
+      "index": 12,
+      "fileName": "23.jpg",
+      "localFile": "gallery/23.jpg"
+    },
+    {
+      "index": 13,
+      "fileName": "24.jpg",
+      "localFile": "gallery/24.jpg"
+    },
+    {
+      "index": 14,
+      "fileName": "25.jpg",
+      "localFile": "gallery/25.jpg"
+    },
+    {
+      "index": 15,
+      "fileName": "26.jpg",
+      "localFile": "gallery/26.jpg"
+    },
+    {
+      "index": 16,
+      "fileName": "31.jpg",
+      "localFile": "gallery/31.jpg"
+    },
+    {
+      "index": 17,
+      "fileName": "32.jpg",
+      "localFile": "gallery/32.jpg"
+    },
+    {
+      "index": 18,
+      "fileName": "33.jpg",
+      "localFile": "gallery/33.jpg"
+    },
+    {
+      "index": 19,
+      "fileName": "41.png",
+      "localFile": "gallery/41.png"
+    },
+    {
+      "index": 20,
+      "fileName": "42.jpg",
+      "localFile": "gallery/42.jpg"
+    },
+    {
+      "index": 21,
+      "fileName": "43.jpg",
+      "localFile": "gallery/43.jpg"
+    },
+    {
+      "index": 22,
+      "fileName": "44.jpg",
+      "localFile": "gallery/44.jpg"
+    },
+    {
+      "index": 23,
+      "fileName": "45.jpg",
+      "localFile": "gallery/45.jpg"
+    }
+  ],
+  "groomAndBridgeContact": {
+    "isChecked": false,
+    "groomPhone": "",
+    "bridgePhone": ""
+  },
+  "parentsContact": {
+    "isChecked": false,
+    "groomFatherTitle": "",
+    "groomFatherContent": "",
+    "groomFatherPhone": "",
+    "groomMotherTitle": "",
+    "groomMotherContent": "",
+    "groomMotherPhone": "",
+    "bridgeFatherTitle": "",
+    "bridgeFatherContent": "",
+    "bridgeFatherPhone": "",
+    "bridgeMotherTitle": "",
+    "bridgeMotherContent": "",
+    "bridgeMotherPhone": ""
+  },
+  "accountNumber": {
+    "isChecked": true,
+    "title": "",
+    "content": "참석이 어려우신 분들을 위해 안내 드립니다.\n소중한 마음 감사히 간직하겠습니다.",
+    "groomAccountHolder": "이재준",
+    "groomBankName": "신한",
+    "groomAccountNumber": "110-355-047787",
+    "groomKakaoPayLink": "",
+    "groomFatherAccountHolder": "이홍섭",
+    "groomFatherBankName": "신한",
+    "groomFatherAccountNumber": "461-02-311124",
+    "groomFatherKakaoPayLink": "",
+    "groomMotherAccountHolder": "김영아",
+    "groomMotherBankName": "농협",
+    "groomMotherAccountNumber": "302-2684-8325-21",
+    "groomMotherKakaoPayLink": "",
+    "bridgeAccountHolder": "김현서",
+    "bridgeBankName": "신한",
+    "bridgeAccountNumber": "110-374-074600",
+    "bridgeKakaoPayLink": "",
+    "bridgeFatherAccountHolder": "",
+    "bridgeFatherBankName": "",
+    "bridgeFatherAccountNumber": "",
+    "bridgeFatherKakaoPayLink": "",
+    "bridgeMotherAccountHolder": "김경숙",
+    "bridgeMotherBankName": "농협",
+    "bridgeMotherAccountNumber": "778-02-317656",
+    "bridgeMotherKakaoPayLink": ""
+  },
+  "video": {
+    "isChecked": false,
+    "youtubeUrl": ""
+  },
+  "backgroundMusic": {
+    "isChecked": false,
+    "backgroundMusicType": "B",
+    "isAutoPlay": true
+  },
+  "information": {
+    "isChecked": true,
+    "title": "",
+    "content": "<p style=\"text-align: center\"></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\"><strong>[ 웰컴 드링크 ]</strong></span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">일찍 도착하신 하객분들을 위해</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">로비에 음료가 준비되어 있습니다. </span><span style=\"font-family: var(--font-pretendard); font-size: 15px\">🥂</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">휴게 공간에서 편안히 즐기시며 </span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">저희를 기다려주세요.</span></p><p style=\"text-align: center\"></p><hr><p style=\"text-align: center\"></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\"><strong>[ 포토 부스 ]</strong></span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">로비에 포토 부스를 준비했습니다. </span><span style=\"font-family: var(--font-pretendard); font-size: 15px\">📷</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">저희 결혼식에 와주시는 여러분들을</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">오래도록 기억할 수 있게</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">많이 이용해주세요.</span></p><p style=\"text-align: center\"></p><hr><p style=\"text-align: center\"></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\"><strong>[ ATM ]</strong></span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">로비 내 1층 에스컬레이터 옆에</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">2대 비치되어 있습니다. 🏦</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">은행 ATM(국민, 우리, 신한, SC제일은행)은</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">지하 1층 에스컬레이터 옆에 위치합니다.</span></p><p style=\"text-align: center\"></p><hr><p style=\"text-align: center\"></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\"><strong>[ 연회장 ]</strong></span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">웨딩홀과 동일 층에 마련되어 있습니다.</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">예식 30분 전부터 이용 가능합니다.</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">음료 및 주류(와인 8종, 사케 포함)도</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">모두 무제한이니 마음껏 즐겨주세요. </span><span style=\"font-family: var(--font-pretendard); font-size: 15px\">🍚</span></p><p style=\"text-align: center\"></p><hr><p style=\"text-align: center\"></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\"><strong>[ 신부 대기실 ]</strong></span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">1층 ATM을 지나면 잔디 길이 나옵니다. 🌱</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">쭉 따라 들어오시며 창 너머로 인사도 하고</span></p><p style=\"text-align: center\"><span style=\"font-family: var(--font-pretendard); font-size: 15px\">함께 사진을 남겨주세요.</span></p><p style=\"text-align: center\"></p>",
+    "isCheckedFile": true,
+    "fileName": "2f7a41bc-533e-4995-adbc-cb1d66b0f3b0.png",
+    "isCheckedButton": true,
+    "buttonUrl": "",
+    "buttonName": ""
+  },
+  "rsvp": {
+    "isChecked": false,
+    "title": "참석의사",
+    "content": "",
+    "buttonName": "",
+    "isMeal": false,
+    "isContact": false,
+    "isCompanionName": false,
+    "isIssue": false,
+    "isPopUp": false
+  },
+  "guestBook": {
+    "isChecked": true,
+    "title": "",
+    "isCreatedAt": true
+  },
+  "kakaoTalkShareThumbnail": {
+    "isChecked": true,
+    "fileName": "058fba8f-269c-4d9b-a0bd-81d2a4e994c2.blob",
+    "title": "Our Now Begins",
+    "content": "현서와 재준, 현재의 시작"
+  },
+  "urlShareThumbnail": {
+    "isChecked": true,
+    "fileName": "981878c2-f45b-4834-afa9-85a4e4b7cb03.jpeg",
+    "title": "Our Now Begins",
+    "content": "현서와 재준, 현재의 시작"
+  },
+  "menuIndex": {
+    "isChecked": false,
+    "menuIndexItems": [
+      {
+        "id": 47427,
+        "index": 1,
+        "key": "venueIndex",
+        "title": "예식 장소"
+      },
+      {
+        "id": 47428,
+        "index": 2,
+        "key": "transportationIndex",
+        "title": "교통수단"
+      },
+      {
+        "id": 47429,
+        "index": 3,
+        "key": "galleryIndex",
+        "title": "갤러리"
+      },
+      {
+        "id": 47431,
+        "index": 4,
+        "key": "videoIndex",
+        "title": "동영상"
+      },
+      {
+        "id": 47432,
+        "index": 5,
+        "key": "informationIndex",
+        "title": "안내사항"
+      },
+      {
+        "id": 47430,
+        "index": 6,
+        "key": "accountNumberIndex",
+        "title": "계좌번호"
+      },
+      {
+        "id": 47433,
+        "index": 7,
+        "key": "rsvpIndex",
+        "title": "참석의사"
+      },
+      {
+        "id": 47434,
+        "index": 8,
+        "key": "guestBookIndex",
+        "title": "방명록"
+      }
+    ]
+  }
+}

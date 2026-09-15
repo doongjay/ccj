@@ -1,0 +1,22 @@
+{
+  "checkedUTC": "2026-09-13T17:54:28.598931+00:00",
+  "originalFolder": "/Users/user/wedding/ccj/docs/game-review/after-batch-c",
+  "originalFiles": 515,
+  "originalFileHashesSizesAndMtimesUnchanged": true,
+  "originalZIP": {
+    "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c.zip",
+    "bytes": 1039572809,
+    "sha256": "e1066bbff4da9677454dadd3d34c375d56fd1c7043f5c7c34ea772cd3c0ee0a1",
+    "mtimeNs": 1789320745917875869,
+    "unchanged": true
+  },
+  "gameAndSpecFileCount": 284,
+  "gameAndSpecHashesUnchanged": true,
+  "noSourceFilesAddedOrRemoved": true,
+  "copiedOriginalFiles": 176,
+  "copiedOriginalBytesUnchanged": true,
+  "excludedOriginalFiles": 339,
+  "everyOriginalAccountedForExactlyOnce": true,
+  "gameTestsOrBuildRerun": false,
+  "batchD_F24_F25Started": false
+}

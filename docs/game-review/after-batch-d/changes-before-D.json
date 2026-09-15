@@ -1,0 +1,902 @@
+{
+  "baselineFingerprint": "21f179f047e1c6971b07f10cae4d59f44191f524f160eba1bbb08d0bbd5e8b4b",
+  "finalFingerprint": "1402719dd9a38740f9b3955698e0ca61dd028dbfb2467650529ac2f33bf1858e",
+  "changes": [
+    {
+      "path": "GAME_REVIEW.md",
+      "status": "modified",
+      "before": "abaca69edccd5d07050872b711e619ceeb228d955a8c6f7f41048703243833fa",
+      "after": "1acc016699969914d9250b02b3adf3aa317e7a92178a3c76be230d3be1db5169",
+      "purpose": "검수 완료 상태와 남은 검증 기록"
+    },
+    {
+      "path": "GAME_REVIEW_FINAL.md",
+      "status": "modified",
+      "before": "3bcb46bc63ef921826fd28dca582c9db0dc7371ff727764e3b705dd3b52e3848",
+      "after": "055733e00cc30ccd5db56cd56cf7d79da349ed9376adec57c454e6eb6625e5c9",
+      "purpose": "검수 완료 상태와 남은 검증 기록"
+    },
+    {
+      "path": "game/artwork/README.md",
+      "status": "added",
+      "before": null,
+      "after": "40b8e27e3fa72da25a6304dd6d2dc8f521a41a1487ca373bc1cb2d229b8c0664",
+      "purpose": "D-A01 제작용 원본 보존 위치와 생성 도구 안내"
+    },
+    {
+      "path": "game/e2e/avatar-alpha.spec.ts",
+      "status": "modified",
+      "before": "3ed1a094d8bc53e0a08aac7d2f73a608182e70e27a375eea46d024b22068d40a",
+      "after": "e198136b91505594062fc38bf34680d3b28c55d9f7704d2311fa5e84463577d0",
+      "purpose": "D-A01 실제 optimized URL 및 보관된 bride 원본의 알파 검사; Node JSON import 계약"
+    },
+    {
+      "path": "game/e2e/lobby-required.spec.ts",
+      "status": "modified",
+      "before": "92c558a610a61f9d2f3a60de85c2d8d0a67843a6ab31add36acd0877e8b0056d",
+      "after": "0b72cba7cc4f40bcca7bad0eb90584c81dcf44f79cede7819090ae353e5eab5b",
+      "purpose": "F20 제거된 자동 단계명 대신 실제 3장 카드·직접 식사 종료 표시를 검사"
+    },
+    {
+      "path": "game/e2e/review-batch-b-access.spec.ts",
+      "status": "modified",
+      "before": "9b4649ce408632891c59040baaee001e5ec0e2a0f8fa3cbc29785d611095a143",
+      "after": "2cb271ccfa8e8babdc81bef576b343ab40475363b143f9042aacc2ad7e900d2d",
+      "purpose": "기존 B/C 검증 assertion 유지, AFTER 출력 경로만 D로 분리"
+    },
+    {
+      "path": "game/e2e/review-batch-b-floor.spec.ts",
+      "status": "modified",
+      "before": "299225525c22a063bd86dc435fe1adf5a2417b55a9b1e54b39081c390027b250",
+      "after": "a57c132b0942f726bf4f12a0f22abb97bc7340c0eccebaf1ddd33ed8b990024d",
+      "purpose": "기존 B/C 검증 assertion 유지, AFTER 출력 경로만 D로 분리"
+    },
+    {
+      "path": "game/e2e/review-batch-b-guidance.spec.ts",
+      "status": "modified",
+      "before": "92ef4ddeb6611f7af5aa60a6aedad0dfcc47b125f18d2bd8dffbd56939745169",
+      "after": "7b485aeb0bc8c827771349873db6b4936876d1b3c8f6cf6fc6fa551ed141a8ce",
+      "purpose": "기존 B/C 검증 assertion 유지, AFTER 출력 경로만 D로 분리"
+    },
+    {
+      "path": "game/e2e/review-batch-b-performance.spec.ts",
+      "status": "modified",
+      "before": "5d3e0b012b34af3fa57e61b69172566f846211f1dd1934c91d7970c618c63687",
+      "after": "b3b98b7dcd60e00a75a8f080544de3309db444ceb8b9b635530ca531cde579ee",
+      "purpose": "증빙 출력만 D로 분리하고 C baseline으로 실제 전송량 비교"
+    },
+    {
+      "path": "game/e2e/review-batch-c-ceremony.spec.ts",
+      "status": "modified",
+      "before": "6ef612ab5696fa3cb85216540faccb5339b7cd3b6d82d0f9e88255a601fb4970",
+      "after": "d1a66183351cf2ccccae40387da9873f64fdc167a6ec37683820be9f8b3942c2",
+      "purpose": "기존 B/C 검증 assertion 유지, AFTER 출력 경로만 D로 분리"
+    },
+    {
+      "path": "game/e2e/review-batch-c-photos.spec.ts",
+      "status": "modified",
+      "before": "6e8b2a1b43112b46f040490493f91e3f07e022216f7ea88a14a6e01b7c72eebf",
+      "after": "544f770cbf57fac2ee42102d10e827f790762962d79d19b6440e415cf6135705",
+      "purpose": "기존 B/C 검증 assertion 유지, AFTER 출력 경로만 D로 분리"
+    },
+    {
+      "path": "game/e2e/review-batch-c-reception.spec.ts",
+      "status": "modified",
+      "before": "c7c684e15699217bd968b4d4278df5d8afd5ec4d87eab459c089660492821f7c",
+      "after": "82d7bd9e28ee13b7becb13619bb265664e6d3c4b71e8ac05cb2c03ff10882ce4",
+      "purpose": "기존 B/C 검증 assertion 유지, AFTER 출력 경로만 D로 분리"
+    },
+    {
+      "path": "game/e2e/review-batch-d-animation.spec.ts",
+      "status": "added",
+      "before": null,
+      "after": "c3a319410264f82c437c08b718bc282a85edce3c81cc378443d8298d5bf3758f",
+      "purpose": "F23/C-P01 90조합 아트·실제 이동·정상 박수/환호와 생성 주차 아이콘 계약 검사"
+    },
+    {
+      "path": "game/e2e/review-batch-d-assets.spec.ts",
+      "status": "added",
+      "before": null,
+      "after": "d8a1cf757287d819f6243e8ed896b4be30ac7ab37654c5491ec599b7b6ad3abf",
+      "purpose": "D-A01 실제 shipping 사본에서 손상 이미지/잘못된 시트의 실패 확인"
+    },
+    {
+      "path": "game/e2e/review-batch-d-checkpoint.spec.ts",
+      "status": "added",
+      "before": null,
+      "after": "4400ee4b18cb0c3e9afe6b6ac13778c49b4851cc0a1b054c89ab692e0ced3edf",
+      "purpose": "F18 실제 촬영·재개·식사/예식/메시지와 저장 실패 검증"
+    },
+    {
+      "path": "game/e2e/review-batch-d-frame.spec.ts",
+      "status": "added",
+      "before": null,
+      "after": "9d884bf0d597a220732b0862632bdea0f315de2af16a4649debf566d276e4f84",
+      "purpose": "F21/F22 실제 로비 명패/viewport/overflow 관찰"
+    },
+    {
+      "path": "game/e2e/review-batch-d-input-motion.spec.ts",
+      "status": "added",
+      "before": null,
+      "after": "79fe55dd2e98009a33d0fb4f32576a3ccee9c4108b4b4c33c906449dc24d3a62",
+      "purpose": "F16/F17 실제 취소 입력·키보드·3사진 정상/감소 모드와 live 변경"
+    },
+    {
+      "path": "game/e2e/review-batch-d-production.spec.ts",
+      "status": "added",
+      "before": null,
+      "after": "9c4be718570c0cd48dce369b31dafebd134bc47510689ffd4833353ea22eb948",
+      "purpose": "F21/F22 production 화면 검증; dev source hook 없음"
+    },
+    {
+      "path": "game/e2e/review-batch-d-resources.spec.ts",
+      "status": "added",
+      "before": null,
+      "after": "4b94f309a55209fc8707c857f5f48dd8f9c0b327f6d54b739ac4389fca69d289",
+      "purpose": "두 실제 방문/재시작의 텍스처·사진·리스너 수명 대조"
+    },
+    {
+      "path": "game/e2e/review-batch-d-venue.spec.ts",
+      "status": "added",
+      "before": null,
+      "after": "5de91e0544e69d4270e58077b05b983cb44513c8eae91690943a893011cf7d29",
+      "purpose": "F19/F20 안내도 경로와 3크기 수동 뷔페 페이지 검증"
+    },
+    {
+      "path": "game/e2e/review-evidence.ts",
+      "status": "added",
+      "before": null,
+      "after": "2a51b465e2497d7649fb43a3e0a95582f1f42b3e6494e1d06089f6659b4b066f",
+      "purpose": "기존 배치 증빙을 보존하는 공통 D 출력 루트"
+    },
+    {
+      "path": "game/e2e/tap-pacing.spec.ts",
+      "status": "modified",
+      "before": "0896bcc0de81257ff74af5ca6e65eabda884fe2c35e9d80122ee7b9cdfc532fd",
+      "after": "f500c6de90b48a19cfed937af47fa562f6b44aa71dd6faf57c04f97d666c5a97",
+      "purpose": "F20 수동 사진 카드·직접 종료의 새 요구사항 검증"
+    },
+    {
+      "path": "game/playwright.review-production.config.ts",
+      "status": "added",
+      "before": null,
+      "after": "675bde400ebfd1eb7f09b635da2b923d8c2dd90a9fe547b31df43f4fb92c1c1a",
+      "purpose": "실제 production config 진입점"
+    },
+    {
+      "path": "game/playwright.review.config.ts",
+      "status": "modified",
+      "before": "d3661b52661aa95eb620bf2bca76ba4f75254d1b5335b95518516970fd294518",
+      "after": "ff8dd3c87bb7cb9aee0295a875e04323d59448bb0a1c1cbaf86ea88ad8c53ced",
+      "purpose": "dev 전체 / production 대표 통합 실행과 D raw JSON·실패 trace 출력"
+    },
+    {
+      "path": "game/public/assets/invitation/share.jpg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/invitation/share.jpg",
+      "before": "89b1ac13ca4f5254a744dcb97209d66a34c4c07d54244757b43c67044a0081ca",
+      "after": "89b1ac13ca4f5254a744dcb97209d66a34c4c07d54244757b43c67044a0081ca",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/invitation/shuttle-exit-5.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/invitation/shuttle-exit-5.png",
+      "before": "e510d4395ed984b1ae91c569f3b3227228e92219a78763b120c656720eac257a",
+      "after": "e510d4395ed984b1ae91c569f3b3227228e92219a78763b120c656720eac257a",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/extra-outfits-female.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/extra-outfits-female.png",
+      "before": "5cb153627ad8746bc4026b1f71f4da50de35bd3c1deb50dbda8171e8234a2f6c",
+      "after": "5cb153627ad8746bc4026b1f71f4da50de35bd3c1deb50dbda8171e8234a2f6c",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/extra-outfits-male.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/extra-outfits-male.png",
+      "before": "6967e4ca06ab030e95ed3a596acafe9665c700ff928d507088c4b47c7190ba54",
+      "after": "6967e4ca06ab030e95ed3a596acafe9665c700ff928d507088c4b47c7190ba54",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/formal-guests.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/formal-guests.png",
+      "before": "5ab7a3f1e70cc28570eb5a916cea6b600ac1fd682e106870c42b306a1065adb5",
+      "after": "5ab7a3f1e70cc28570eb5a916cea6b600ac1fd682e106870c42b306a1065adb5",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/guest-poses.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/guest-poses.png",
+      "before": "f586ffe6590b1bd2de850ece28dec865478c1c2665a8a13f89d98e9b7f6feda8",
+      "after": "f586ffe6590b1bd2de850ece28dec865478c1c2665a8a13f89d98e9b7f6feda8",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/minimi-faces-v2.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/minimi-faces-v2.png",
+      "before": "9e27c7efdbbbf48331dc5088727bd1cd98573f1e376f7374c7a084c3115161a4",
+      "after": "9e27c7efdbbbf48331dc5088727bd1cd98573f1e376f7374c7a084c3115161a4",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/minimi-hair.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/minimi-hair.png",
+      "before": "b0c9e826c83376802cdb62129d1ad23b30feded0d86ac0d6eeb6a39b38b517ce",
+      "after": "b0c9e826c83376802cdb62129d1ad23b30feded0d86ac0d6eeb6a39b38b517ce",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/minimi-hairstyles-v2.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/minimi-hairstyles-v2.png",
+      "before": "5eb0df5fe5af7459956952ebf219fe75f627d67157b0804c22d8e82eb51fe7ff",
+      "after": "5eb0df5fe5af7459956952ebf219fe75f627d67157b0804c22d8e82eb51fe7ff",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/npc-bride-white.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/npc-bride-white.png",
+      "before": "e3f88b89aabb23c090475df5782a307c1b3b1847fd1415deb0c453703a87b08a",
+      "after": "e3f88b89aabb23c090475df5782a307c1b3b1847fd1415deb0c453703a87b08a",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/outfits-female.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/outfits-female.png",
+      "before": "2e5f5609188424b458b8dcba7442a6cab8e0ce6ee959823b66a4d0a7d97a540a",
+      "after": "2e5f5609188424b458b8dcba7442a6cab8e0ce6ee959823b66a4d0a7d97a540a",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/outfits-male.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/outfits-male.png",
+      "before": "0256a87dc584b87157ebc7e4a83ee8ebd16e37b14b98d880bd4f15a5cac87b21",
+      "after": "0256a87dc584b87157ebc7e4a83ee8ebd16e37b14b98d880bd4f15a5cac87b21",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/parents.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/parents.png",
+      "before": "c82d4d6a260deb2e4957e9fcc608ad85af85f80555d5589c40bd0fdc03ac68e3",
+      "after": "c82d4d6a260deb2e4957e9fcc608ad85af85f80555d5589c40bd0fdc03ac68e3",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/player-guest-female.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/player-guest-female.png",
+      "before": "4dc22b81bcdda46f9790e5f0030ec6a33573a97fc099c28d888fabe57204e319",
+      "after": "4dc22b81bcdda46f9790e5f0030ec6a33573a97fc099c28d888fabe57204e319",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/seated-guest.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/seated-guest.png",
+      "before": "1e6268337f77525af1a9aafc493eee9774ce6991373c4555fb3daf995f9ea343",
+      "after": "1e6268337f77525af1a9aafc493eee9774ce6991373c4555fb3daf995f9ea343",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/wedding-couple.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/wedding-couple.png",
+      "before": "84b330dbe6e23ddf231e25c0fba430c6dc486df4c8a50e7158f729984ae83826",
+      "after": "84b330dbe6e23ddf231e25c0fba430c6dc486df4c8a50e7158f729984ae83826",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/characters/white-car.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/characters/white-car.png",
+      "before": "68f61287cca3648c23607fd4e259738268ce0e4599cc4e8b0f5bb1586b2a20a8",
+      "after": "68f61287cca3648c23607fd4e259738268ce0e4599cc4e8b0f5bb1586b2a20a8",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/food/buffet-left.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/food/buffet-left.png",
+      "before": "9ace171232c3052f889df9b8ad2ab3bccac5553bd9440a8b041d02e8033b77a0",
+      "after": "9ace171232c3052f889df9b8ad2ab3bccac5553bd9440a8b041d02e8033b77a0",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/food/buffet-right.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/food/buffet-right.png",
+      "before": "f64c1cbf363ca5dbec884c368d58f01eeae7fcc1df19f16da49121715081ecd8",
+      "after": "f64c1cbf363ca5dbec884c368d58f01eeae7fcc1df19f16da49121715081ecd8",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/atm.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/atm.jpeg",
+      "before": "d15fe8db121e3dc79812dd4436d8f2d6a34bffc41d457a6e7a5ae25430bb56ad",
+      "after": "d15fe8db121e3dc79812dd4436d8f2d6a34bffc41d457a6e7a5ae25430bb56ad",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/banquet-corridor.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/banquet-corridor.jpeg",
+      "before": "61bb3f7efb3116bbbdce6fa070319a72213d11398a45270a973c9ba90d02a5e6",
+      "after": "61bb3f7efb3116bbbdce6fa070319a72213d11398a45270a973c9ba90d02a5e6",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/banquet.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/banquet.jpeg",
+      "before": "5194be1fbf160859ea3b037e79352ac0ec2b6590d72a3da2743b67e24abb502e",
+      "after": "5194be1fbf160859ea3b037e79352ac0ec2b6590d72a3da2743b67e24abb502e",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/bridal-curtains.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/bridal-curtains.jpeg",
+      "before": "6af1a7a143f85667577b72630fefe1091ad7cab7ef2933d8838bda3f7df5d90c",
+      "after": "6af1a7a143f85667577b72630fefe1091ad7cab7ef2933d8838bda3f7df5d90c",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/bridal-entry.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/bridal-entry.jpeg",
+      "before": "423df0e872c4e95b6fca4f08e2077cceb1d8ce676c3eceaebecb7faabc06e217",
+      "after": "423df0e872c4e95b6fca4f08e2077cceb1d8ce676c3eceaebecb7faabc06e217",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/exterior.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/exterior.jpeg",
+      "before": "fba38dc1d59d3ec679d7d84d1d8084abc41d0842c52498a33322db8d4207be3c",
+      "after": "fba38dc1d59d3ec679d7d84d1d8084abc41d0842c52498a33322db8d4207be3c",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/garden.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/garden.png",
+      "before": "9851789d6ebee7016c2e7d9778bf2efb2bd233177b02c5207da9961bb03c87ca",
+      "after": "9851789d6ebee7016c2e7d9778bf2efb2bd233177b02c5207da9961bb03c87ca",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/hall.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/hall.jpeg",
+      "before": "3995b1bc415ce23e00d40f40c428b3ea98947e28867590ae7de23c15803e07c6",
+      "after": "3995b1bc415ce23e00d40f40c428b3ea98947e28867590ae7de23c15803e07c6",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/junction.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/junction.jpeg",
+      "before": "1ba7bc37bc8cdd24870b3cc4ba0294b41933fd354759a78e3c46b77bcfb5a636",
+      "after": "1ba7bc37bc8cdd24870b3cc4ba0294b41933fd354759a78e3c46b77bcfb5a636",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/lounge.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/lounge.jpeg",
+      "before": "391a90d93bebdddf4821609ced32cc8f5005c5ce76d4b0342591a5f4407d621f",
+      "after": "391a90d93bebdddf4821609ced32cc8f5005c5ce76d4b0342591a5f4407d621f",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/photo-booth.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/photo-booth.jpeg",
+      "before": "6f429e229080060424ff3163a407b73a41542fc4b446c53043bc86db7c401684",
+      "after": "6f429e229080060424ff3163a407b73a41542fc4b446c53043bc86db7c401684",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/photo-zone.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/photo-zone.jpeg",
+      "before": "1502a4ff69bc6d2eaa12246395cee09255cf3ed950a0dfd703c646a42913fd5b",
+      "after": "1502a4ff69bc6d2eaa12246395cee09255cf3ed950a0dfd703c646a42913fd5b",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/shuttle.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/shuttle.jpeg",
+      "before": "d335facdf49f0e67b5cd2cb6915027649b133f87089fd53847f63580f308e4e2",
+      "after": "d335facdf49f0e67b5cd2cb6915027649b133f87089fd53847f63580f308e4e2",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/photos/welcome.jpeg",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/photos/welcome.jpeg",
+      "before": "97cfa649d5642535517f453efcf98082fad134468fea76fe6000b9ab1fbe709d",
+      "after": "97cfa649d5642535517f453efcf98082fad134468fea76fe6000b9ab1fbe709d",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/banquet-corridor.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/banquet-corridor.png",
+      "before": "a3d386b254ea4300e40e5c19c5a7f629b8c4be3dd7c1a04913a71c056a0f580b",
+      "after": "a3d386b254ea4300e40e5c19c5a7f629b8c4be3dd7c1a04913a71c056a0f580b",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/banquet.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/banquet.png",
+      "before": "4ebe86561e8ed63def42feba97054ff767db7e33d41f20c2da08be4cb96d7332",
+      "after": "4ebe86561e8ed63def42feba97054ff767db7e33d41f20c2da08be4cb96d7332",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/bridal-room-white.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/bridal-room-white.png",
+      "before": "38bf5c6f4ca765edee01414f633f779929e051deb395823b967d7349bb3dc5dd",
+      "after": "38bf5c6f4ca765edee01414f633f779929e051deb395823b967d7349bb3dc5dd",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/bridal-room.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/bridal-room.png",
+      "before": "7e0da709ad2d96d2f5b22f5977715d8788409c168c5fb96fb49a34f2d07eea57",
+      "after": "7e0da709ad2d96d2f5b22f5977715d8788409c168c5fb96fb49a34f2d07eea57",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/garden.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/garden.png",
+      "before": "7642506691bf98d0fe41c319fe53a0e4a11fd785a5adcfc15e7e34c40480c1d9",
+      "after": "7642506691bf98d0fe41c319fe53a0e4a11fd785a5adcfc15e7e34c40480c1d9",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/group-photo-hall.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-hall.png",
+      "before": "ca1f5ff97003e0625632032fcb0b445a29cc30249f442f0cfc9d5007453f5718",
+      "after": "ca1f5ff97003e0625632032fcb0b445a29cc30249f442f0cfc9d5007453f5718",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/group-photo-portrait-v3.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-portrait-v3.png",
+      "before": "a2779430320a6f5a3bfce69d1cc4af2e89d6efc4c2411755a6b2e810ed0e2b52",
+      "after": "a2779430320a6f5a3bfce69d1cc4af2e89d6efc4c2411755a6b2e810ed0e2b52",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/group-photo-stage-v2.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-stage-v2.png",
+      "before": "1d04a67a112ddbad3caf45d10f625ce2f144db5a5f24045f7a2e75cfb6976eca",
+      "after": "1d04a67a112ddbad3caf45d10f625ce2f144db5a5f24045f7a2e75cfb6976eca",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/group-photo-stage-v3.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-stage-v3.png",
+      "before": "f3795fe3ace1cf417743ee7563cdd4a50326b4206f507d959720137305c3af53",
+      "after": "f3795fe3ace1cf417743ee7563cdd4a50326b4206f507d959720137305c3af53",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/group-photo-stage-v4.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/group-photo-stage-v4.png",
+      "before": "88c593e5d7919efdb1ce7b25faf57723828c6c818336cf0a3b393af509e488b3",
+      "after": "88c593e5d7919efdb1ce7b25faf57723828c6c818336cf0a3b393af509e488b3",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/hall-v2.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/hall-v2.png",
+      "before": "564901450febd022a1a2ce776ba83b32639c1386fd5ea0709a5f9cc0702dda66",
+      "after": "564901450febd022a1a2ce776ba83b32639c1386fd5ea0709a5f9cc0702dda66",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/hall.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/hall.png",
+      "before": "b8f14ea2af1c0e2c78425354af87def7848a8a5614ab5f2f175a446726c5764f",
+      "after": "b8f14ea2af1c0e2c78425354af87def7848a8a5614ab5f2f175a446726c5764f",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/lobby-heart-panels.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/lobby-heart-panels.png",
+      "before": "7671cae0a9d789b8d5da808036203996ceba54195a82524b3c8fcc1a84bc8c13",
+      "after": "7671cae0a9d789b8d5da808036203996ceba54195a82524b3c8fcc1a84bc8c13",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/lobby-no-posters.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/lobby-no-posters.png",
+      "before": "fc256ccc0c91806b4bcffa3cf680fc3d71a48c8cf6b1e9840018017abc67e584",
+      "after": "fc256ccc0c91806b4bcffa3cf680fc3d71a48c8cf6b1e9840018017abc67e584",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/lobby.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/lobby.png",
+      "before": "89a5175ec68d04885730d5e3bf534f9459328add15e7877d1782814c663bc3b7",
+      "after": "89a5175ec68d04885730d5e3bf534f9459328add15e7877d1782814c663bc3b7",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/photo-booth.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/photo-booth.png",
+      "before": "b1bcca45bce98884c9c89b2b5e2af17e715a7c6e3b265e86a5beca29bb1afbc0",
+      "after": "b1bcca45bce98884c9c89b2b5e2af17e715a7c6e3b265e86a5beca29bb1afbc0",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/reception-family.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/reception-family.png",
+      "before": "0d770d77c3163341db0c73b6521cb9dec0e357a1c85917892f534bcc02388f7c",
+      "after": "0d770d77c3163341db0c73b6521cb9dec0e357a1c85917892f534bcc02388f7c",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/pixel-venue/shuttle.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/pixel-venue/shuttle.png",
+      "before": "e8363cd0b5ba6de169183eb5c4083680f7371246f4a3a99ed186fe25ca60eb3a",
+      "after": "e8363cd0b5ba6de169183eb5c4083680f7371246f4a3a99ed186fe25ca60eb3a",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/car-background-pink.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/routes/car-background-pink.png",
+      "before": "3da44158d370ec99e29f674e7c53753363cc620bd552f8a39f79a91ac5968ce4",
+      "after": "3da44158d370ec99e29f674e7c53753363cc620bd552f8a39f79a91ac5968ce4",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/car-guidance-v2.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/routes/car-guidance-v2.png",
+      "before": "7b66d596d1b86823d8cd2e1f6549f670388bdd09d234fc7eb3c2e5c559d0b965",
+      "after": "7b66d596d1b86823d8cd2e1f6549f670388bdd09d234fc7eb3c2e5c559d0b965",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/home-ground-v2.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/routes/home-ground-v2.png",
+      "before": "fee9f4b9121a8761e0cc7066599eb41f04499068c2971d1506efb0ff85f89d58",
+      "after": "fee9f4b9121a8761e0cc7066599eb41f04499068c2971d1506efb0ff85f89d58",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/assets/lacitta/routes/home-sky.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/assets/lacitta/routes/home-sky.png",
+      "before": "0df5c3ba2d22bf1129a7f54c485873ea9efab994ca072ee5148f78728501c07f",
+      "after": "0df5c3ba2d22bf1129a7f54c485873ea9efab994ca072ee5148f78728501c07f",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/public/og-placeholder.png",
+      "status": "moved",
+      "destination": "game/artwork/sources/og-placeholder.png",
+      "before": "e94cf8fd4d28e9e396b916b6046a824f42f9fc430c551f9b5b24be7c4ff27e03",
+      "after": "e94cf8fd4d28e9e396b916b6046a824f42f9fc430c551f9b5b24be7c4ff27e03",
+      "purpose": "D-A01 원본 bytes 보존, 제작용 위치 이전"
+    },
+    {
+      "path": "game/scripts/import-source.mjs",
+      "status": "added",
+      "before": null,
+      "after": "72aed5e17854e66bb94881d6f1eb3a5d0658b0fade882c133c079a3a12aba800",
+      "purpose": "검사기에서 pure TS 메타데이터 import"
+    },
+    {
+      "path": "game/scripts/optimize-stage-assets.py",
+      "status": "modified",
+      "before": "55f2bcdd4605ad500363974a01628721067cf6696858db57d944d8ffcdcdc4c5",
+      "after": "e6600e1aebdc388bed9d6c080de157564ba9aa3d962f1a2e7112d96e93a4b08e",
+      "purpose": "이동된 제작 원본 경로와 D 보고서 출력 사용; 실제 재인코딩 미실행"
+    },
+    {
+      "path": "game/scripts/verify-assets.mjs",
+      "status": "modified",
+      "before": "415ca36acaad0c3d89318b3c51c44db19ea64569a4048805fba227b987ac0b26",
+      "after": "2f35d3b5c568795f4b26303f42aefb63035bf53bf6a9d65f589f53b27f3e05ee",
+      "purpose": "기본 verify:assets를 전체 shipping 검증으로 연결; legacy fixture 경로 유지"
+    },
+    {
+      "path": "game/scripts/verify-shipping-assets.mjs",
+      "status": "added",
+      "before": null,
+      "after": "0992050ffc37df5aba636b81aef33ed5526ad356797f9fb3faf226002c832905",
+      "purpose": "전체 public/dist·runtime/CSS/동적URL·출처·크기/알파/시트/예산·보존 원본 검사"
+    },
+    {
+      "path": "game/scripts/verify-shipping-assets.test.mjs",
+      "status": "added",
+      "before": null,
+      "after": "a8ff2ce6b3dc23147f896d32386f9da0981375b753020527a6f8f570cd11be4e",
+      "purpose": "누락 URL/중복/누락 파일/미확인 출처/이미지 숨김 음성 fixture 5개"
+    },
+    {
+      "path": "game/src/data/assetManifest.ts",
+      "status": "modified",
+      "before": "563ee2725e8d37f135271d5927bd1f81f92cb7c80ea275bd6ce1ba9956f243f8",
+      "after": "c255d9db549cc16a50acb354352c18e4008352a826d6fc5fa5ece4951f375328",
+      "purpose": "legacy 계약과 전체 shipping catalog의 역할 주석"
+    },
+    {
+      "path": "game/src/data/runtimeAssets.ts",
+      "status": "added",
+      "before": null,
+      "after": "4cf14475170a4210805acbf0f73c7233b15d7d519cfe34cd518c2c921260cb66",
+      "purpose": "기존 단계별 로더 key/URL 공통 순수 메타데이터"
+    },
+    {
+      "path": "game/src/data/shippingAssets.json",
+      "status": "added",
+      "before": null,
+      "after": "4827e5cc8bab7d1cc9fa94a105a3fe54ed8f0eb14e5f8dc4c526a8a6bebcd12b",
+      "purpose": "98개 shipping 파일과 56개 원본, 기존 40건 처리·검사 계약·출처"
+    },
+    {
+      "path": "game/src/objects/Player.ts",
+      "status": "modified",
+      "before": "1538ca97a95071ddcdbdbe910343edb0c7fd79cf81a7d334792694c7391194da",
+      "after": "7a48fc908e271ed4bbaf2005ac7edd1c7db3073faa9ee06ebd79b2c6fefa7f89",
+      "purpose": "F19 안내도 차, F23 거리 기반 걷기, C-P01 박수·F17 공통 모션"
+    },
+    {
+      "path": "game/src/scenes/CarRouteScene.ts",
+      "status": "modified",
+      "before": "f53cb958ef6d079e3a8e7b2aa3bd417260103241f95aa8d2cee21783890f231a",
+      "after": "75d931aa42823402c9084be1b4ad6357aeaabf843e8e9e1f4815fe0901174d43",
+      "purpose": "F19 안내도 조작/표시 및 F18 유효 경로 저장"
+    },
+    {
+      "path": "game/src/scenes/DinnerJourneyScene.ts",
+      "status": "modified",
+      "before": "f9184136d136ac281b8654cedf8a62a2c61a93758dc7378f1a074e22f2a4cab9",
+      "after": "d8e6b5f14e9e9dc1cdffa2652bb46333c14773711d0157bcbe9b78205c05461f",
+      "purpose": "F20 수동 뷔페 프리뷰; F18 식사 순서/안전 경계 저장"
+    },
+    {
+      "path": "game/src/scenes/EndingScene.ts",
+      "status": "modified",
+      "before": "53211279d2f1030bd2814e55fe066bd77ffed9ed2c7edefbd42540546b80b6f5",
+      "after": "6f88b9f15ac38a66d3179e3dea312f5a8da138f1f243e6210895e4dca8144697",
+      "purpose": "F18 저장/생략 후 이어하기와 방명록 보존 재시작"
+    },
+    {
+      "path": "game/src/scenes/IntroScene.ts",
+      "status": "modified",
+      "before": "eb105596846a550d311ca75d6980282be39fe09bc8811bfddb5c88451a5751bc",
+      "after": "2316001435c0c814883511ae28cf79e1b2c89ce6016f8c77091ff1f9275d9e11",
+      "purpose": "F18 이어하기/처음부터 및 손상 저장 안내"
+    },
+    {
+      "path": "game/src/scenes/InvitationScene.ts",
+      "status": "modified",
+      "before": "a87bcc3643dc502add3a35da52cbdc9166ccb5003a3ab2a295aa63a6db23ba74",
+      "after": "d50163c55f61907794d542a48125a033b87631c34741523cdb207591e630b45f",
+      "purpose": "F18 명시적 게임 재시작 시 checkpoint 정리"
+    },
+    {
+      "path": "game/src/scenes/ReceptionScene.ts",
+      "status": "modified",
+      "before": "515f6777dc9892df13a783b4317723643cb62b784defa258c95986f42cee9044",
+      "after": "748b54703953465a3e73abffd8ce5554638eda457f8cd58e21ae4d5febffa121",
+      "purpose": "F18 접수 완료 경계 저장"
+    },
+    {
+      "path": "game/src/scenes/SubwayRouteScene.ts",
+      "status": "modified",
+      "before": "9f28d11dfe7a5aeeb041c494a7740afb01a613b30e87224ad177e325af6c0347",
+      "after": "af8fc4fa982ab73f853ea15e93feb28dc3107c668a3d02f8f2a1841cd498b2ce",
+      "purpose": "F18 5번 출구 유효 경로 저장"
+    },
+    {
+      "path": "game/src/scenes/VenueHallScene.ts",
+      "status": "modified",
+      "before": "065fab7df2eb6e56ce32213e791a7a0dfbff7279330a2a97d59b73592acee21c",
+      "after": "8a0b5df50ddc89006339c7ce105bd80f73bdfaba7be5ac22686b770013be34c5",
+      "purpose": "C-P01 박수/말풍선, F17 플래시/REC, F18 예식/단체사진 경계"
+    },
+    {
+      "path": "game/src/scenes/VenueLobbyScene.ts",
+      "status": "modified",
+      "before": "2a6a8086d576ff1a3590b2d4e71b9ba40fd5a958c7d01b0b19491a9b72a49f7d",
+      "after": "e71a7096ca2a06b559d5140c5e32f70b3ae76db58d84fb7e0b3390d39d5ffc4d",
+      "purpose": "F18 복구 사진·안전 지점; F17 공통 선호 상태"
+    },
+    {
+      "path": "game/src/scenes/VenueRoomScene.ts",
+      "status": "modified",
+      "before": "52a2c67da961b8a0612a63b201841735d022e3060b6d2078bbda9d4fa0b7284c",
+      "after": "0d9cd05916227e241aac2da2cb4e08a413fa50bd83098cb292e928e751c7b446",
+      "purpose": "F17 사진 플래시, F18 촬영 결과 메타데이터 저장"
+    },
+    {
+      "path": "game/src/scenes/lobbyArt.ts",
+      "status": "modified",
+      "before": "e258296daaf49a806bc8faf03d3a09cacc6cdecbd6c4201bb37c62fab6732139",
+      "after": "e725a4393f99bce4a13853cc50ce2dfa3f82f1932abda0511ac3bdfa0d112ccf",
+      "purpose": "F21 필수/편의시설 명패; 기존 문구·위치·접근점 보존"
+    },
+    {
+      "path": "game/src/scenes/parkingArt.ts",
+      "status": "modified",
+      "before": "a03f34121cbc688917085baf740e313e2796a6b58c8b79909a1bac0670e81e18",
+      "after": "3a06260d33aaa75218d89f7cc401f84812c818d93ad1e0c21a141762c1159db6",
+      "purpose": "F19 목적지/차량 시점을 통일한 주차 안내도"
+    },
+    {
+      "path": "game/src/state/checkpoint.ts",
+      "status": "added",
+      "before": null,
+      "after": "768d46e9fd69eb2358cc654507bdb5b9badfcfb1edf9d4fe9124d1edc67c2c78",
+      "purpose": "F18 작은 checkpoint 저장/복구/재시작과 저장 실패 표시"
+    },
+    {
+      "path": "game/src/state/checkpointData.ts",
+      "status": "added",
+      "before": null,
+      "after": "354e8c4bbf74375f31d85155a53ddbd07909979cb74ecbc435c1b8e22419e098",
+      "purpose": "F18 schema·외형·측/경로·진행·사진/식사 모순 검증"
+    },
+    {
+      "path": "game/src/style.css",
+      "status": "modified",
+      "before": "e2efec2c8ed156d92f64213fcdb7bf37f692a88126beaf16f7f4ae2ff05b5b7b",
+      "after": "3fec4fc41d78b5d9540be7aac228bcc6792d9e12c56b2d3a4197c531cda6b6f1",
+      "purpose": "F16 입력 상태, F19/F20 패널, F22 크림 프레임 및 margin collapse 해소"
+    },
+    {
+      "path": "game/src/systems/stageAssets.ts",
+      "status": "modified",
+      "before": "ab4be718fe7d50819f5b5b3642c9732dc3801cdd20f2d6fce05e081000615b2f",
+      "after": "c4b763526a5b24b49e1c11b311f53f748e3033b0d469a78e170b25b23078b37e",
+      "purpose": "D-A01 registry 분리; 기존 지연 로딩 보존"
+    },
+    {
+      "path": "game/src/ui/BuffetPreview.ts",
+      "status": "added",
+      "before": null,
+      "after": "28f257cb8f5096b7fd8ca1b449ccc48ba5049aa5b6ed496fcafb3e909e3cce43",
+      "purpose": "F20 3장씩 수동 2페이지·키보드·disabled·원본 비율 유지"
+    },
+    {
+      "path": "game/src/ui/GameAccess.ts",
+      "status": "modified",
+      "before": "f9d71a96642ee4efa3ce8c9a18ff61d156cd8c7256fc179f160317efce313ee1",
+      "after": "6abf46b9dac87a2b7d0a9b0250dbcc10e4f800d9c4f450d937ffcf5ad5e46454",
+      "purpose": "F18 명시적 빠른 재시작 checkpoint 정리"
+    },
+    {
+      "path": "game/src/ui/MinimiPicker.ts",
+      "status": "modified",
+      "before": "9e9bf46834b56d82407ce1d6d05d37df85e0327c84058ce2808c5cdb3f9481ea",
+      "after": "9a127174683715cb49228906965a96ef1bbe2efa0e2a559e0ec859ab3a7cfd88",
+      "purpose": "F17 공통 모션 선호 사용"
+    },
+    {
+      "path": "game/src/ui/StoryDialog.ts",
+      "status": "modified",
+      "before": "386b76877cd561959c189c220af8ab8fd72ddb3fef94066d8a641b9c1bdbe819",
+      "after": "bffee92affc9df3475ebb6caa506b7a3daef7695629139cd7540c94a60f08136",
+      "purpose": "F17 live typing 선호; F19/F20 공통 패널 배치·선택적 Escape 정책"
+    },
+    {
+      "path": "game/src/ui/WeddingCountdown.ts",
+      "status": "modified",
+      "before": "7a33d0c1f000f8d00d8ad1dead45fa1019d9e1cc8174cc3a5e9485507765c073",
+      "after": "780392d2ad4aae97ecee41131284229eece4206225e359c162b316a1d9f5afe7",
+      "purpose": "F17 공통 모션·live 반복 효과 정리"
+    },
+    {
+      "path": "game/src/ui/buttonInteraction.ts",
+      "status": "added",
+      "before": null,
+      "after": "e227437262939448a98deb1ab25394d05184c32d436e991c5350198314df473b",
+      "purpose": "F16 canvas release-inside·cancel/blur·disabled·수명 처리 공통 helper"
+    },
+    {
+      "path": "game/src/ui/keyboardAccess.ts",
+      "status": "modified",
+      "before": "742e6a8ca46275ea43bfba88f2963449d7a60c2d2b3973a92813dcbe5263fb5b",
+      "after": "4692b8265f86fe5d0ec50da1fabdfc6e88e4522ebeb0969eebb839d2e5897d5b",
+      "purpose": "F16 native 버튼의 disabled/focus/held-key 1회 실행"
+    },
+    {
+      "path": "game/src/ui/minimiMotion.ts",
+      "status": "added",
+      "before": null,
+      "after": "de7a58616404752e1ea7571c14efaf44ce5a870b1c1a57fea3f03c15f55e2d54",
+      "purpose": "F23/C-P01 기존 외형별 정수 픽셀 걷기/박수 atlas 지연 생성·재사용"
+    },
+    {
+      "path": "game/src/ui/motionPreference.ts",
+      "status": "added",
+      "before": null,
+      "after": "915a9c682296b9cfd2bae4ac8bd9f8a755f9539d97a058ef2d0bbec41d42e3a6",
+      "purpose": "F17 단일 MQL, scene 소유 구독·live 변경·공통 사진 플래시"
+    },
+    {
+      "path": "game/src/ui/parkingCar.ts",
+      "status": "added",
+      "before": null,
+      "after": "518c6a08183cbedffd4c76ab87d50cbcc40e8800ee83fb9adbeed87b6af06042",
+      "purpose": "F19 38×52 nearest 공통 top-down 아이콘"
+    },
+    {
+      "path": "game/src/ui/pixelFeedback.ts",
+      "status": "modified",
+      "before": "9bdd4acd6c98bceeb0cfa2c506d7dfa411b7af38a81c5a55f3fe449db84748fb",
+      "after": "76011ef74637f1da88776b55e4c05404de90b9dad1ad1e085cec05229b7db05a",
+      "purpose": "F17 기존 하트의 공통 선호 및 live 정적 전환"
+    },
+    {
+      "path": "game/src/ui/sceneUi.ts",
+      "status": "modified",
+      "before": "473ad1da23d7875cc3acd5f2ee33883bfd27e042c3522bb4187a134e3ae3510c",
+      "after": "da32031ddf42bd92ffd32bffd65c1facfc2ea13e5925bccc0457861f6e6eb24d",
+      "purpose": "F16 공통 canvas 버튼/장소 입력 바인딩"
+    },
+    {
+      "path": "game/src/ui/sessionMemories.ts",
+      "status": "modified",
+      "before": "6c4b91aa312a0222e957baa6a8feb0f0cbe8e456b6c2e968f8d2afa9e44a18fa",
+      "after": "8774cb5f23b8a1f55376e4abee38576969ff6f9d5d59de9bbd8cb7c8a1b2978a",
+      "purpose": "F18 촬영 시점 외형/구도 메타데이터로 사진 지연 재구성"
+    },
+    {
+      "path": "game/src/ui/speechBubble.ts",
+      "status": "added",
+      "before": null,
+      "after": "ab7a995edbf9ee3a66d0bcb28760dbb3ca63ecc61d3f92f5eb4d895622d9744b",
+      "purpose": "C-P01 원래 문구에 작은 꼬리로 반응 주체 표시"
+    },
+    {
+      "path": "game/src/ui/waitForTap.ts",
+      "status": "modified",
+      "before": "12b972d99d88e073bec9314b0a189ea6421a1105e8d8f97ccbced546e8bfbd4d",
+      "after": "e754c71adf3c5a96e0aba1af9db80359a5ea497fe98a2378da9527466f1a3ecf",
+      "purpose": "F16 공통 취소 가능한 release 입력"
+    }
+  ]
+}

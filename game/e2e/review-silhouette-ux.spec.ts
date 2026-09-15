@@ -1,0 +1,80 @@
+import { expect, test } from "@playwright/test";
+import { mkdir, writeFile } from "node:fs/promises";
+import { installPlayerObservation } from "./corridor-observables";
+import { chooseStory, clickGame } from "./story-helpers";
+import { CHECKPOINT_KEY } from "../src/state/checkpointData";
+
+const evidence = `${process.env.MINIMI_EVIDENCE ?? "../docs/game-review/minimi-silhouette-fix"}/after/ux`;
+test.use({ hasTouch: true });
+
+for (const [width,height] of [[320,568],[393,852],[430,932]]) test(`Restored station and touch continuation at ${width}x${height}`, async ({page}) => {
+  test.setTimeout(60000);
+  await mkdir(evidence,{recursive:true});
+  await installPlayerObservation(page);
+  await page.setViewportSize({width:width!,height:height!});
+  const errors:string[]=[];
+  page.on("pageerror",error=>errors.push(error.message));
+  page.on("console",entry=>{if(entry.type()==="error")errors.push(entry.text());});
+  await page.goto("/");
+  const canvas=page.locator("#app canvas");
+  await expect(canvas).toHaveAttribute("data-active-scene","IntroScene");
+  await clickGame(page,360,1180);
+  await page.getByRole("textbox",{name:"내 이름은",exact:true}).fill("하객");
+  await page.getByRole("button",{name:"여자",exact:true}).tap();
+  await page.getByRole("button",{name:"다음 의상 보기",exact:true}).tap();
+  await page.locator('.outfit-card[data-index="5"]').tap();
+  await expect(page.locator('.outfit-card:visible')).toHaveCount(3);
+  await page.screenshot({path:`${evidence}/female-black-mini-boots-${width}.png`});
+  await page.getByRole("button",{name:"시작하기",exact:true}).tap();
+  await chooseStory(page,"신부측");await chooseStory(page,"지하철을 탄다");
+  await page.locator(".story-narration").tap();
+  await expect(page.locator(".story-copy")).toHaveText("양재시민의숲역에서 내리라고 했지.\n근데 셔틀이 몇번 출구더라?");
+  await expect(page.locator(".story-choice")).toHaveText(["1번 출구","2번 출구","3번 출구","4번 출구","5번 출구"]);
+  await page.waitForTimeout(400);
+  await page.screenshot({path:`${evidence}/subway-exit-choice-${width}.png`});
+  await page.getByRole("button",{name:"1번 출구",exact:true}).tap();
+  await expect(canvas).toHaveAttribute("data-route-quiz-wrong-count","1");
+  await expect(page.locator(".story-copy")).toHaveText("셔틀 버스는 5번 출구 앞 이었던것 같은데...");
+  await page.screenshot({path:`${evidence}/subway-wrong-exit-${width}.png`});
+  await expect(page.getByRole("button",{name:"5번 출구",exact:true})).toBeEnabled({timeout:15000});
+  await expect(page.locator(".story-choice[data-tried]")).toHaveCount(0);
+  await page.getByRole("button",{name:"5번 출구",exact:true}).tap();
+  await expect(canvas).toHaveAttribute("data-lobby-info","arrival-guide",{timeout:20000});
+  await expect(page.getByRole("button",{name:"확인",exact:true})).toHaveCount(0);
+  await page.screenshot({path:`${evidence}/lobby-arrival-touch-${width}.png`});
+  const before=await page.evaluate(()=>window.__venuePlayerSnapshot());
+  const bounds=(await canvas.boundingBox())!;
+  // Tap the visible venue beneath the overlay, over the photo booth facility.
+  // It dismisses only the tutorial; it must not enter the room or move the player.
+  await page.touchscreen.tap(bounds.x+bounds.width*130/720,bounds.y+bounds.height*590/1280);
+  await expect(page.locator(".story-info-tutorial")).toHaveCount(0);
+  await page.waitForTimeout(300);
+  expect(await page.evaluate(()=>window.__venuePlayerSnapshot())).toMatchObject({x:before!.x,y:before!.y,moving:false});
+  await expect(canvas).toHaveAttribute("data-active-scene","VenueLobbyScene");
+  await expect(canvas).toHaveAttribute("data-lobby-progress","0/4");
+  await clickGame(page,128,60);
+  await expect(page.locator(".story-info-notebook")).toBeVisible();
+  await expect(page.locator(".story-copy")).toContainText("포토부스에서 사진 찍기");
+  await page.screenshot({path:`${evidence}/first-notebook-${width}.png`});
+  await page.keyboard.press("Escape");
+  expect(errors).toEqual([]);
+  await writeFile(`${evidence}/touch-${width}.json`,JSON.stringify({viewport:{width,height},input:"real touchscreen taps",before,errors,checks:["three outfits per page","restored exact station copy and five choices","wrong exit return","exit five reaches lobby","tap tutorial dismisses without click-through","first notebook opens notebook"]},null,2));
+});
+
+test("Saved-record notice: Space dismisses without starting the game",async({page})=>{
+  await mkdir(evidence,{recursive:true});
+  await page.addInitScript(key=>localStorage.setItem(key,"{bad"),CHECKPOINT_KEY);
+  await page.goto("/");
+  const panel=page.locator(".story-info-compact .story-narration");
+  await expect(panel).toBeFocused();
+  await expect(page.getByRole("button",{name:"확인",exact:true})).toHaveCount(0);
+  await page.keyboard.press("Tab");await page.keyboard.press("Shift+Tab");
+  await expect(panel).toBeFocused();
+  await expect(panel).toHaveCSS("outline-style","solid");
+  await page.screenshot({path:`${evidence}/saved-record-notice-keyboard.png`});
+  await page.keyboard.press("Space");
+  await expect(panel).toHaveCount(0);
+  await expect(page.locator("#app canvas")).toHaveAttribute("data-active-scene","IntroScene");
+  await clickGame(page,360,1180);
+  await expect(page.getByRole("textbox",{name:"내 이름은",exact:true})).toBeVisible();
+});

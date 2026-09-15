@@ -1,0 +1,2 @@
+import { defineConfig } from "../../../../game/node_modules/@playwright/test/index.mjs";
+export default defineConfig({ testDir: "../../../../game/e2e", testMatch: "story-choice-layout.spec.ts", workers: 2, retries: 0, reporter: [["list"], ["json", { outputFile: "../logs/after-02.json" }]], outputDir: "../runs/after-02", use: { baseURL: "http://127.0.0.1:5174", screenshot: "only-on-failure", trace: "off", video: { mode: "on", size: { width: 430, height: 932 } } } });

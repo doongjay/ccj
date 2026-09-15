@@ -1,0 +1,33 @@
+{
+  "command": "npm run test:e2e -- e2e/minimi-visual.spec.ts e2e/lobby-info.spec.ts e2e/lobby-required.spec.ts e2e/lobby-return.spec.ts --workers=2 --reporter=list --output=/private/tmp/ccj-batch-b-final-regressions",
+  "passed": 5,
+  "failed": 0,
+  "duration": "1.7m",
+  "tests": [
+    {
+      "test": "lobby items pause movement and dismiss explicitly",
+      "durationSeconds": 24.5,
+      "status": "passed"
+    },
+    {
+      "test": "only unfinished lobby activities are listed; normal visits unlock the ceremony and dinner",
+      "status": "passed"
+    },
+    {
+      "test": "groom explores facilities normally after dismissing the hall reminder",
+      "durationSeconds": 34.0,
+      "status": "passed"
+    },
+    {
+      "test": "bride explores facilities normally after dismissing the hall reminder",
+      "durationSeconds": 43.2,
+      "status": "passed"
+    },
+    {
+      "test": "all minimi hairstyles, outfits and poses render on transparent tiles",
+      "durationSeconds": 15.1,
+      "status": "passed",
+      "missingFrameWarnings": 0
+    }
+  ]
+}

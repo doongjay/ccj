@@ -1,0 +1,78 @@
+{
+  "group": {
+    "before": {
+      "widthCSS": 251.515625,
+      "centerWorldY": 363.9844344053316,
+      "leftCSS": 70.734375
+    },
+    "after": {
+      "widthCSS": 353.6875,
+      "centerWorldY": 363.9844344053316,
+      "leftCSS": 19.640625
+    }
+  },
+  "result": {
+    "before": {
+      "widthCSS": 251.515625,
+      "centerWorldY": 363.9844344053316,
+      "leftCSS": 70.734375
+    },
+    "after": {
+      "widthCSS": 353.6875,
+      "centerWorldY": 363.9844344053316,
+      "leftCSS": 19.640625
+    }
+  },
+  "greetingsAfter": [
+    {
+      "text": "축하해!",
+      "x": 136.8,
+      "y": 640,
+      "width": 66,
+      "height": 29.33333396911621,
+      "fontSize": "16px",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "text": "잘살아!",
+      "x": 568.8000000000001,
+      "y": 640,
+      "width": 66,
+      "height": 29.33333396911621,
+      "fontSize": "16px",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "text": "멋지다!",
+      "x": 309.6,
+      "y": 640,
+      "width": 66,
+      "height": 29.33333396911621,
+      "fontSize": "16px",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "text": "예쁘다!",
+      "x": 482.40000000000003,
+      "y": 640,
+      "width": 66,
+      "height": 29.33333396911621,
+      "fontSize": "16px",
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "text": "행복해!",
+      "x": 396,
+      "y": 640,
+      "width": 66,
+      "height": 29.33333396911621,
+      "fontSize": "16px",
+      "scaleX": 1,
+      "scaleY": 1
+    }
+  ]
+}

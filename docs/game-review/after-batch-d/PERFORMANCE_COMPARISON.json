@@ -1,0 +1,60 @@
+{
+  "measurement": "Production Chromium CDP loadingFinished. encodedDataLength includes response headers and HTML/JS/CSS; local cold cache, no artificial throttle. Manifest asset file sum is separate.",
+  "sourceFingerprint": "1402719dd9a38740f9b3955698e0ca61dd028dbfb2467650529ac2f33bf1858e",
+  "routes": [
+    {
+      "route": "car",
+      "current": "docs/game-review/after-batch-d/regressions/performance-car.json",
+      "baseline": "docs/game-review/after-batch-c/regressions/performance-car.json",
+      "baselineSha256": "083727c54c9b74993f51c591031b06d168f471280a7a50b091aea7c29b664e36",
+      "opening": {
+        "total": 3513647,
+        "assets": 3094744,
+        "baselineTotal": 3509311,
+        "baselineAssets": 3094744,
+        "deltaTotal": 4336,
+        "deltaAssets": 0,
+        "elapsedMs": 761
+      },
+      "firstLobby": {
+        "total": 12673227,
+        "assets": 12254324,
+        "baselineTotal": 12668891,
+        "baselineAssets": 12254324,
+        "deltaTotal": 4336,
+        "deltaAssets": 0
+      },
+      "errors": [],
+      "failures": [],
+      "lateAssetsBeforeOpening": [],
+      "unselectedRouteAssetsByFirstLobby": []
+    },
+    {
+      "route": "subway",
+      "current": "docs/game-review/after-batch-d/regressions/performance-subway.json",
+      "baseline": "docs/game-review/after-batch-c/regressions/performance-subway.json",
+      "baselineSha256": "3f63c5b6dee114c545d0b7dceca3a8ddc706f4d10b3564c1a870eb51da25c423",
+      "opening": {
+        "total": 3513647,
+        "assets": 3094744,
+        "baselineTotal": 3509311,
+        "baselineAssets": 3094744,
+        "deltaTotal": 4336,
+        "deltaAssets": 0,
+        "elapsedMs": 733
+      },
+      "firstLobby": {
+        "total": 12387062,
+        "assets": 11968159,
+        "baselineTotal": 12382726,
+        "baselineAssets": 11968159,
+        "deltaTotal": 4336,
+        "deltaAssets": 0
+      },
+      "errors": [],
+      "failures": [],
+      "lateAssetsBeforeOpening": [],
+      "unselectedRouteAssetsByFirstLobby": []
+    }
+  ]
+}

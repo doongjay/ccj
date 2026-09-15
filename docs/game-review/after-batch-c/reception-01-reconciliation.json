@@ -1,0 +1,62 @@
+{
+  "source": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/logs/reception-01.json",
+  "reported": {
+    "startTime": "2026-09-13T15:55:42.276Z",
+    "duration": 25705.444,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "detailed": {
+    "expected": 1,
+    "unexpected": 0,
+    "flaky": 0,
+    "skipped": 0
+  },
+  "totalProjectCases": 1,
+  "uniqueSpecIds": 1,
+  "totalAttempts": 1,
+  "retriedCases": 0,
+  "projectCounts": {
+    "chromium": 1
+  },
+  "matches": true,
+  "globalErrors": [],
+  "cases": [
+    {
+      "id": "6857659465e21c3093a2-796ecf4ee45d1d76577b",
+      "file": "review-batch-c-reception.spec.ts",
+      "line": 7,
+      "title": "review-batch-c-reception.spec.ts › F15: first completion notice expires while walking; invitation and room revisits do not repeat it",
+      "project": "chromium",
+      "expectedStatus": "passed",
+      "status": "expected",
+      "annotations": [],
+      "attempts": [
+        {
+          "retry": 0,
+          "status": "passed",
+          "startTime": "2026-09-13T15:55:42.975Z",
+          "duration": 24545,
+          "errors": [],
+          "stdout": [],
+          "stderr": [],
+          "attachments": [
+            {
+              "name": "reception-timing",
+              "contentType": "application/json",
+              "omittedEmbeddedBytes": 1568
+            },
+            {
+              "name": "video",
+              "contentType": "video/webm",
+              "path": "/Users/user/wedding/ccj/docs/game-review/after-batch-c/runs/regression-final/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+              "omittedEmbeddedBytes": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

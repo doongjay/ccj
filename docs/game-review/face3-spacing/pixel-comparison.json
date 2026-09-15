@@ -1,0 +1,835 @@
+{
+  "totalProfiles": 108,
+  "changedThirdExpressionProfiles": 36,
+  "unchangedOtherExpressionProfiles": 72,
+  "records": [
+    {
+      "profile": "male-face0-hair0-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair0-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair0-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair0-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair0-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair0-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair1-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair1-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair1-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair1-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair1-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair1-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair2-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair2-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair2-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair2-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair2-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face0-hair2-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair0-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair0-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair0-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair0-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair0-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair0-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair1-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair1-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair1-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair1-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair1-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair1-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair2-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair2-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair2-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair2-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair2-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face1-hair2-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair0-outfit0-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair0-outfit1-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair0-outfit2-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair0-outfit3-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair0-outfit4-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair0-outfit5-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair1-outfit0-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair1-outfit1-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair1-outfit2-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair1-outfit3-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair1-outfit4-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair1-outfit5-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair2-outfit0-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair2-outfit1-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair2-outfit2-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair2-outfit3-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair2-outfit4-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "male-face2-hair2-outfit5-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair0-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair0-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair0-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair0-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair0-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair0-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair1-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair1-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair1-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair1-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair1-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair1-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair2-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair2-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair2-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair2-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair2-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face0-hair2-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair0-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair0-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair0-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair0-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair0-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair0-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair1-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair1-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair1-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair1-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair1-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair1-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair2-outfit0-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair2-outfit1-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair2-outfit2-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair2-outfit3-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair2-outfit4-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face1-hair2-outfit5-1x.png",
+      "changedBounds": null,
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair0-outfit0-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair0-outfit1-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair0-outfit2-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair0-outfit3-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair0-outfit4-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair0-outfit5-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair1-outfit0-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair1-outfit1-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair1-outfit2-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair1-outfit3-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair1-outfit4-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair1-outfit5-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair2-outfit0-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair2-outfit1-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair2-outfit2-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair2-outfit3-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair2-outfit4-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    },
+    {
+      "profile": "female-face2-hair2-outfit5-1x.png",
+      "changedBounds": [
+        46,
+        54,
+        82,
+        64
+      ],
+      "onlyThirdExpressionChanged": true,
+      "neckHairClothingOutsideEyeRegionUnchanged": true
+    }
+  ]
+}

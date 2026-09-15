@@ -1,0 +1,266 @@
+{
+  "zip": {
+    "path": "/Users/user/Downloads/셀프 모청.zip",
+    "bytes": 165823460,
+    "sha256": "84b4da029cdba605ea428598504ed4ed362ea1c65ffb5d480938f5beb01c018a"
+  },
+  "invitation": [
+    {
+      "fileName": "1.jpg",
+      "source": "game/artwork/sources/invitation-originals/1.jpg",
+      "url": "/assets/invitation/gallery/1.jpg",
+      "bytes": 8396760,
+      "sha256": "7709559186d717c330df95568ae89195b65e08f46cdd22756207dffbde2fda1f",
+      "width": 3072,
+      "height": 4705
+    },
+    {
+      "fileName": "2.jpg",
+      "source": "game/artwork/sources/invitation-originals/2.jpg",
+      "url": "/assets/invitation/gallery/2.jpg",
+      "bytes": 8529483,
+      "sha256": "9869f9700865d4fb6bb2b9d21c7cd7a43c2774e283440947521fa36f96741808",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "fileName": "3.jpg",
+      "source": "game/artwork/sources/invitation-originals/3.jpg",
+      "url": "/assets/invitation/gallery/3.jpg",
+      "bytes": 7494326,
+      "sha256": "1ab59f79deaef2bbe2f86dc623725d09b8029197d56c73ca00dfdc116787a7f0",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "fileName": "4.jpg",
+      "source": "game/artwork/sources/invitation-originals/4.jpg",
+      "url": "/assets/invitation/gallery/4.jpg",
+      "bytes": 10534309,
+      "sha256": "684b5415533e2aad852fb070ca057446afd66c87ad4fb1cc00e455d41a8f9f0b",
+      "width": 3067,
+      "height": 4495
+    },
+    {
+      "fileName": "5.jpg",
+      "source": "game/artwork/sources/invitation-originals/5.jpg",
+      "url": "/assets/invitation/gallery/5.jpg",
+      "bytes": 2042887,
+      "sha256": "310a9f0e634315b8cc3eeb09878ef4da7582ab423227d82d80f2fa19512c7ca0",
+      "width": 3840,
+      "height": 4927
+    },
+    {
+      "fileName": "6.jpg",
+      "source": "game/artwork/sources/invitation-originals/6.jpg",
+      "url": "/assets/invitation/gallery/6.jpg",
+      "bytes": 6997649,
+      "sha256": "a9bd6ef65144be86977043b6af91660531f907ac02304e6dac7ea81a5781ba4f",
+      "width": 3072,
+      "height": 4608
+    },
+    {
+      "fileName": "11.jpg",
+      "source": "game/artwork/sources/invitation-originals/11.jpg",
+      "url": "/assets/invitation/gallery/11.jpg",
+      "bytes": 1691773,
+      "sha256": "5517896c284057d9fe891f4f9368233e0dfb74615934667b2edaaf50c7ed84f1",
+      "width": 3072,
+      "height": 4608
+    },
+    {
+      "fileName": "12.jpg",
+      "source": "game/artwork/sources/invitation-originals/12.jpg",
+      "url": "/assets/invitation/gallery/12.jpg",
+      "bytes": 8518911,
+      "sha256": "5b32077c4695ae8ab13f0aaeb8284126ed20c33ebb24423b20e4ad0ad6905357",
+      "width": 3072,
+      "height": 4608
+    },
+    {
+      "fileName": "13.jpg",
+      "source": "game/artwork/sources/invitation-originals/13.jpg",
+      "url": "/assets/invitation/gallery/13.jpg",
+      "bytes": 3214457,
+      "sha256": "c70623d4c51276345cabfdd88162be8862ab56cf3e856cf03a6e0153eb6e514b",
+      "width": 2851,
+      "height": 4276
+    },
+    {
+      "fileName": "21.jpg",
+      "source": "game/artwork/sources/invitation-originals/21.jpg",
+      "url": "/assets/invitation/gallery/21.jpg",
+      "bytes": 2542804,
+      "sha256": "78bd30cc3cdbf62c0a327f93b9332cb568a032474c7577c1ab227674000552e2",
+      "width": 3072,
+      "height": 4639
+    },
+    {
+      "fileName": "22.jpg",
+      "source": "game/artwork/sources/invitation-originals/22.jpg",
+      "url": "/assets/invitation/gallery/22.jpg",
+      "bytes": 4432950,
+      "sha256": "704cb282e5dfe86f6f9328429a000069126510d68aa462b0dda8b469417672bb",
+      "width": 3072,
+      "height": 4608
+    },
+    {
+      "fileName": "23.jpg",
+      "source": "game/artwork/sources/invitation-originals/23.jpg",
+      "url": "/assets/invitation/gallery/23.jpg",
+      "bytes": 4673486,
+      "sha256": "abcdf50190bdbeca5f7008d1b1c32d6a07ddc38fc9689dfd9441860e530fadfa",
+      "width": 2730,
+      "height": 4095
+    },
+    {
+      "fileName": "24.jpg",
+      "source": "game/artwork/sources/invitation-originals/24.jpg",
+      "url": "/assets/invitation/gallery/24.jpg",
+      "bytes": 13145848,
+      "sha256": "2669e58203b7df08ccf07c5e0e02300a60bd111df663290b02d0684fff4e21c0",
+      "width": 4608,
+      "height": 3072
+    },
+    {
+      "fileName": "25.jpg",
+      "source": "game/artwork/sources/invitation-originals/25.jpg",
+      "url": "/assets/invitation/gallery/25.jpg",
+      "bytes": 4828810,
+      "sha256": "16b40823a4d1fd7cf4ac09dd016be9f20dcfbf352f9a234d2eaef8363c1c50aa",
+      "width": 2836,
+      "height": 4254
+    },
+    {
+      "fileName": "26.jpg",
+      "source": "game/artwork/sources/invitation-originals/26.jpg",
+      "url": "/assets/invitation/gallery/26.jpg",
+      "bytes": 1740872,
+      "sha256": "b93fa9e1833a83c2540569f7a6b4dfbee9b715e425e41391ff192d982f9ad22d",
+      "width": 2859,
+      "height": 4282
+    },
+    {
+      "fileName": "31.jpg",
+      "source": "game/artwork/sources/invitation-originals/31.jpg",
+      "url": "/assets/invitation/gallery/31.jpg",
+      "bytes": 15773393,
+      "sha256": "258999f552461b6c57cee711e1dff84bbc6f70573b519218f724b78a76cae2e9",
+      "width": 4605,
+      "height": 3107
+    },
+    {
+      "fileName": "32.jpg",
+      "source": "game/artwork/sources/invitation-originals/32.jpg",
+      "url": "/assets/invitation/gallery/32.jpg",
+      "bytes": 8433629,
+      "sha256": "374b50bac7b38d7788f6fae8deae7906ab9e28006d27d66baf3884e49f3787ce",
+      "width": 2875,
+      "height": 4608
+    },
+    {
+      "fileName": "33.jpg",
+      "source": "game/artwork/sources/invitation-originals/33.jpg",
+      "url": "/assets/invitation/gallery/33.jpg",
+      "bytes": 9081261,
+      "sha256": "2267b3e74f7052ce348961d19e55acf4763c403ad00e191de3b0d334a8cbaae1",
+      "width": 3072,
+      "height": 4252
+    },
+    {
+      "fileName": "41.png",
+      "source": "game/artwork/sources/invitation-originals/41.png",
+      "url": "/assets/invitation/gallery/41.png",
+      "bytes": 1675133,
+      "sha256": "9baa859da2b70e9bcedd812ffb4b780c8ddb6682c034333dea055017772fe0c3",
+      "width": 1023,
+      "height": 1537
+    },
+    {
+      "fileName": "42.jpg",
+      "source": "game/artwork/sources/invitation-originals/42.jpg",
+      "url": "/assets/invitation/gallery/42.jpg",
+      "bytes": 13140947,
+      "sha256": "52c32afb9ab0faddbebc8957fe0217e3ab26b26a48f1865528397283e3df3d88",
+      "width": 3072,
+      "height": 4608
+    },
+    {
+      "fileName": "43.jpg",
+      "source": "game/artwork/sources/invitation-originals/43.jpg",
+      "url": "/assets/invitation/gallery/43.jpg",
+      "bytes": 7572969,
+      "sha256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+      "width": 2951,
+      "height": 4491
+    },
+    {
+      "fileName": "44.jpg",
+      "source": "game/artwork/sources/invitation-originals/44.jpg",
+      "url": "/assets/invitation/gallery/44.jpg",
+      "bytes": 14949923,
+      "sha256": "c1cfcb39c8a63b648f58d8c114fd964b30b0b3f0f2dab295348b333c9f295570",
+      "width": 2983,
+      "height": 4608
+    },
+    {
+      "fileName": "45.jpg",
+      "source": "game/artwork/sources/invitation-originals/45.jpg",
+      "url": "/assets/invitation/gallery/45.jpg",
+      "bytes": 9478045,
+      "sha256": "e664f05bf902c489bd6a42316e706978c815dfce417ada562c3216d6f528ed88",
+      "width": 3072,
+      "height": 4608
+    }
+  ],
+  "photoTable": [
+    {
+      "source": "game/artwork/sources/photo-table/bride-01.jpeg",
+      "url": "/assets/photo-table/bride-01.jpeg",
+      "bytes": 6976166,
+      "sha256": "cd27675b88fe789df95147d04051e951da3a5dcc79546a73a9dbd5cedc01f087",
+      "width": 3072,
+      "height": 4608
+    },
+    {
+      "source": "game/artwork/sources/photo-table/bride-02.jpeg",
+      "url": "/assets/photo-table/bride-02.jpeg",
+      "bytes": 9026796,
+      "sha256": "67e78068c58bc850f36678b4264c73caa3ba4b1a8f856b72f647fc7129df17bf",
+      "width": 3072,
+      "height": 4608
+    },
+    {
+      "source": "game/artwork/sources/photo-table/bride-03.jpeg",
+      "url": "/assets/photo-table/bride-03.jpeg",
+      "bytes": 4680567,
+      "sha256": "b01896b02aa14b753966b58932745589ab3befb559d57d1b7ff78f869fba0892",
+      "width": 3072,
+      "height": 4608
+    },
+    {
+      "source": "game/artwork/sources/photo-table/groom-01.jpeg",
+      "url": "/assets/photo-table/groom-01.jpeg",
+      "bytes": 1513307,
+      "sha256": "60dd6aad30a0b9d20efc4aa8cca1272ffcbfcc1019d9c2fe3d0727ef9eed6d48",
+      "width": 2852,
+      "height": 3803
+    },
+    {
+      "source": "game/artwork/sources/photo-table/groom-02.jpeg",
+      "url": "/assets/photo-table/groom-02.jpeg",
+      "bytes": 5184731,
+      "sha256": "17602e0a4be65c7864891706013995b6aff676b27e2a04742dcbc0138bd20661",
+      "width": 3072,
+      "height": 4608
+    },
+    {
+      "source": "game/artwork/sources/photo-table/groom-03.jpeg",
+      "url": "/assets/photo-table/groom-03.jpeg",
+      "bytes": 7572969,
+      "sha256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+      "width": 2951,
+      "height": 4491
+    }
+  ]
+}

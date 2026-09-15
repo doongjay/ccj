@@ -1,0 +1,100 @@
+{
+  "generatedIdleCount": 90,
+  "visuallyInspectedIdleCount": 90,
+  "generatedPartsCount": 22,
+  "visuallyInspectedPartsCount": 22,
+  "motionRepresentativeCount": 11,
+  "motionFramesPerRepresentative": 19,
+  "actualPlayProfileCount": 3,
+  "actualCustomizerViews": 12,
+  "automaticArtQualityOracle": false,
+  "actualPreviewHarnessPixelEquality": 12,
+  "beforeAfterSelectionDprCssViewportEqual": true,
+  "idleInspectedPages": [
+    "after/atlas/page-male-face0-outfit0-4x.png",
+    "after/atlas/page-male-face0-outfit1-4x.png",
+    "after/atlas/page-male-face0-outfit2-4x.png",
+    "after/atlas/page-male-face0-outfit3-4x.png",
+    "after/atlas/page-male-face0-outfit4-4x.png",
+    "after/atlas/page-male-face1-outfit0-4x.png",
+    "after/atlas/page-male-face1-outfit1-4x.png",
+    "after/atlas/page-male-face1-outfit2-4x.png",
+    "after/atlas/page-male-face1-outfit3-4x.png",
+    "after/atlas/page-male-face1-outfit4-4x.png",
+    "after/atlas/page-male-face2-outfit0-4x.png",
+    "after/atlas/page-male-face2-outfit1-4x.png",
+    "after/atlas/page-male-face2-outfit2-4x.png",
+    "after/atlas/page-male-face2-outfit3-4x.png",
+    "after/atlas/page-male-face2-outfit4-4x.png",
+    "after/atlas/page-female-face0-outfit0-4x.png",
+    "after/atlas/page-female-face0-outfit1-4x.png",
+    "after/atlas/page-female-face0-outfit2-4x.png",
+    "after/atlas/page-female-face0-outfit3-4x.png",
+    "after/atlas/page-female-face0-outfit4-4x.png",
+    "after/atlas/page-female-face1-outfit0-4x.png",
+    "after/atlas/page-female-face1-outfit1-4x.png",
+    "after/atlas/page-female-face1-outfit2-4x.png",
+    "after/atlas/page-female-face1-outfit3-4x.png",
+    "after/atlas/page-female-face1-outfit4-4x.png",
+    "after/atlas/page-female-face2-outfit0-4x.png",
+    "after/atlas/page-female-face2-outfit1-4x.png",
+    "after/atlas/page-female-face2-outfit2-4x.png",
+    "after/atlas/page-female-face2-outfit3-4x.png",
+    "after/atlas/page-female-face2-outfit4-4x.png"
+  ],
+  "nativeIdlePages": [
+    "after/inspection-pages/native-male-face0.png",
+    "after/inspection-pages/native-male-face1.png",
+    "after/inspection-pages/native-male-face2.png",
+    "after/inspection-pages/native-female-face0.png",
+    "after/inspection-pages/native-female-face1.png",
+    "after/inspection-pages/native-female-face2.png"
+  ],
+  "motionInspected": [
+    {
+      "native": "after/motion/male-face2-hair2-outfit0-pose-page-1x.png",
+      "junction4x": "after/motion/male-face2-hair2-outfit0-junction-page-4x.png"
+    },
+    {
+      "native": "after/motion/male-face2-hair0-outfit0-pose-page-1x.png",
+      "junction4x": "after/motion/male-face2-hair0-outfit0-junction-page-4x.png"
+    },
+    {
+      "native": "after/motion/male-face1-hair0-outfit2-pose-page-1x.png",
+      "junction4x": "after/motion/male-face1-hair0-outfit2-junction-page-4x.png"
+    },
+    {
+      "native": "after/motion/male-face1-hair1-outfit1-pose-page-1x.png",
+      "junction4x": "after/motion/male-face1-hair1-outfit1-junction-page-4x.png"
+    },
+    {
+      "native": "after/motion/male-face0-hair0-outfit3-pose-page-1x.png",
+      "junction4x": "after/motion/male-face0-hair0-outfit3-junction-page-4x.png"
+    },
+    {
+      "native": "after/motion/male-face1-hair1-outfit4-pose-page-1x.png",
+      "junction4x": "after/motion/male-face1-hair1-outfit4-junction-page-4x.png"
+    },
+    {
+      "native": "after/motion/female-face0-hair0-outfit0-pose-page-1x.png",
+      "junction4x": "after/motion/female-face0-hair0-outfit0-junction-page-4x.png"
+    },
+    {
+      "native": "after/motion/female-face1-hair1-outfit1-pose-page-1x.png",
+      "junction4x": "after/motion/female-face1-hair1-outfit1-junction-page-4x.png"
+    },
+    {
+      "native": "after/motion/female-face2-hair2-outfit2-pose-page-1x.png",
+      "junction4x": "after/motion/female-face2-hair2-outfit2-junction-page-4x.png"
+    },
+    {
+      "native": "after/motion/female-face0-hair0-outfit3-pose-page-1x.png",
+      "junction4x": "after/motion/female-face0-hair0-outfit3-junction-page-4x.png"
+    },
+    {
+      "native": "after/motion/female-face1-hair1-outfit4-pose-page-1x.png",
+      "junction4x": "after/motion/female-face1-hair1-outfit4-junction-page-4x.png"
+    }
+  ],
+  "manualAssessment": "Viewed PNG pixels via image viewer, independent from test assertions. 30 final idle pages byte-identical to visually reviewed iteration02 (diagnosis/body-preservation.json). Motion pages rechecked after final source changes; four corrected extra posing frames also viewed individually at4x. Actual screens across12customizer views and3playing routes were viewed. No claim of90complete motion/play journeys."
+}

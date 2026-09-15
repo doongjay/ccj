@@ -1,0 +1,2375 @@
+[
+  {
+    "path": "final-02-evidence/after/neck-loading-ux/car-lines-renderer-320.png",
+    "bytes": 1369359,
+    "sha256": "87ecb3a243989285e331090b81da6cee694c48cdb22b3cb8ea4ddbd541ee23d0",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-02-evidence/after/neck-loading-ux/car-lines-renderer-393.png",
+    "bytes": 1494287,
+    "sha256": "73e553030ebca6172b0c0dadb3c68b9807c8e7683e085923ffad3572a50a9339",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-02-evidence/after/neck-loading-ux/car-lines-renderer-430.png",
+    "bytes": 1415839,
+    "sha256": "f731a8d0f7b358fecd3b980d7405f6e20b3f1b9f67d4273dae5a247f949d7d13",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-02-evidence/after/neck-loading-ux/car-lines-renderer.json",
+    "bytes": 695,
+    "sha256": "3f9a151cc2adfc36d1ccbd1ba29cc66254bdee2ecea98c0bd734f3e310c44cbd",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-02-evidence/after/neck-loading-ux/local-server-opening.png",
+    "bytes": 514690,
+    "sha256": "8dd489891dca23e7ad778fa5149981d5c3d090fb96bab094bc08bcc26f72c8f8",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-02-evidence/after/neck-loading-ux/local-server.json",
+    "bytes": 192,
+    "sha256": "97df2bffecfc65c196f7608b0ab2f8bfd5a32ca7825da4cc1f9d6cc683120bfe",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-02-evidence/regressions/f07-car-guidance-393.png",
+    "bytes": 397926,
+    "sha256": "6851ecc47984fdf5eb8921242c6fd33139d0c2c1dd60cab726e928b2c00f9405",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-02-evidence/regressions/f07-car-wrong-retry-393.png",
+    "bytes": 379308,
+    "sha256": "2a3d8fdc99b339bf94e6d8cc237c4bbb7c04cd3f5050a72104605bf744becc54",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-320.json",
+    "bytes": 473,
+    "sha256": "f555bf06ec15f61dfd7f474f5e19a3cf414ed71287fc842200c6a50602f36688",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-393.json",
+    "bytes": 475,
+    "sha256": "4672f6b643cc60a4d0bc889435317a39c3de5af5bbc06c9094eee6f672150b09",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-430.json",
+    "bytes": 673,
+    "sha256": "247a462ffc5270c5de34046e419d3266d3355873dc17a8d14a5736b0a9d7411a",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-choice-320.png",
+    "bytes": 251633,
+    "sha256": "333696d343d9d0b22899475172792f022b0db05d6be1c5c35366c20ccbebe6a2",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-choice-393.png",
+    "bytes": 389972,
+    "sha256": "d38e0834294feb6627a2e609b28137e454ff3aca9b0976d19b9ed105a920d88e",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-choice-430.png",
+    "bytes": 451130,
+    "sha256": "ee4138220565751ce90c586caeb4775f5eb4a2dfca1c5d9ad5f71045ca96f685",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-destination-320.png",
+    "bytes": 14174,
+    "sha256": "c881430a82f07c6767f259b04078750e12aabc12422eca08a090d9da6aae33f5",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-destination-393.png",
+    "bytes": 19624,
+    "sha256": "4505cb318f4a82d66774085d200709a615f6b10c5a2fa15377fc0c6effa42ea4",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-destination-430.png",
+    "bytes": 20101,
+    "sha256": "090d0c80997fb92286bba8a7eb7e961430b8e7e41b609330bca3555e759fc1b5",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-driving-320.png",
+    "bytes": 312648,
+    "sha256": "ce54b17e48b3f0bdf616fcd29e07641df5186ec25f1bee8ebbfaa4aa916ad3a5",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-driving-393.png",
+    "bytes": 455660,
+    "sha256": "7d61a28a82aab305348163913addb92c24eaac5ee822848817e796b6546946af",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-driving-430.png",
+    "bytes": 526662,
+    "sha256": "0b8eae72236b6a295896ed9a52cc69fd82ff8c905ad11a739403eb266d01a32e",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-lines-canvas-320.png",
+    "bytes": 262860,
+    "sha256": "cc6492e4019b14af9fc7cd60f52fe3302c9510f8f6898764b4a1d6d3e6d4deef",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-lines-canvas-393.png",
+    "bytes": 387270,
+    "sha256": "2aefd47251fc963f49d99cb02e3c9b6a6c08f4b9a9749f9a412a316105af86c3",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-lines-canvas-430.png",
+    "bytes": 448740,
+    "sha256": "a7ffa23f50ac5e59431a3593b464306d27eedcc84023b8618c558abd41917fe7",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-lines-renderer-320.png",
+    "bytes": 1822407,
+    "sha256": "a3077c0285e77512c59b251249d2aafa1ef19534876f4560b20eb6ac29b8e504",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-lines-renderer-393.png",
+    "bytes": 1851773,
+    "sha256": "afce9782cbfe4d398a138e9addabaa6f8d4b4eead26927ab259a02bf09b336fe",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-lines-renderer-430.png",
+    "bytes": 1851773,
+    "sha256": "afce9782cbfe4d398a138e9addabaa6f8d4b4eead26927ab259a02bf09b336fe",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/car-lines-renderer.json",
+    "bytes": 695,
+    "sha256": "3f9a151cc2adfc36d1ccbd1ba29cc66254bdee2ecea98c0bd734f3e310c44cbd",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/local-server-opening.png",
+    "bytes": 514665,
+    "sha256": "b303869290189753492444f4bf6d807723ee7cad9042808fdba7b265dda08b25",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "final-evidence/after/neck-loading-ux/local-server.json",
+    "bytes": 192,
+    "sha256": "97df2bffecfc65c196f7608b0ab2f8bfd5a32ca7825da4cc1f9d6cc683120bfe",
+    "reason": "Intermediate duplicate car screenshots; final-03 evidence supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/car-choices-393.png",
+    "bytes": 399908,
+    "sha256": "c70b1c9c8ae5dfdc1922c08f62524729a298c7fd379aeebf842ca54b586469a3",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/car-typing-393.png",
+    "bytes": 228061,
+    "sha256": "3eb025672a2724a6e2c7fd3c8f559a7da11a42bfd57667f8b888756e923414ae",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ceremony-choices-393.png",
+    "bytes": 479499,
+    "sha256": "c8a6ccece3fa75bfabca04c6bcc2be583c4d690f6f47fd9cba7ab715bbce11bd",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ceremony-typing-393.png",
+    "bytes": 396378,
+    "sha256": "90fb0901cd20dd75894900578ff38ed760c976bbb983101c8a717f8973ceed39",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ending-choices-393.png",
+    "bytes": 302894,
+    "sha256": "713697a58344383ec38e06aaec1f6c5b356d2ae2c4ab26fef488f8a4f2833b5b",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ending-typing-393.png",
+    "bytes": 174139,
+    "sha256": "375328ddb99d901359ca5b0736113ed06e71d63375f02d25a78cf4fb6764ea81",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/group-photo-choices-393.png",
+    "bytes": 467581,
+    "sha256": "8f10f3c508ab883b8d4ad01abdbebce66e74ac5bf7fb48f0db4fefa5fb29bb34",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/group-photo-typing-393.png",
+    "bytes": 497457,
+    "sha256": "6fde5a05b87e75522226562148290ee4116de3ab0d76d82e764ba9bd5fc9a3c5",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/guest-side-choices-393.png",
+    "bytes": 405284,
+    "sha256": "74a99a5038eb7fd59965fd6195f36daf448c1ed687188eb6596e39d4a48c46e5",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/guest-side-typing-393.png",
+    "bytes": 460564,
+    "sha256": "d6b2ac4eada65cb2bf7f883b4d9cea254a6047d5b392d59d3390f664394046f3",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/photo-complete-choices-393.png",
+    "bytes": 473093,
+    "sha256": "6422ca9befc23a0fee1ddf71bdc627345782889488079747faa0febb0c86f421",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/photo-complete-typing-393.png",
+    "bytes": 436608,
+    "sha256": "9789c2c4a4d1b0d50e20be4779a20aea1bd37e230ffccad16716ef7e674e1eba",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/reception-choices-393.png",
+    "bytes": 390245,
+    "sha256": "e9c257c13d7f1c12fcefa107ef5cf74cc8cdde9c5f89499657860cde471c90e7",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/reception-typing-393.png",
+    "bytes": 221318,
+    "sha256": "cd971c9ae43870130a33c681c0eefa08b827bd477d263e54a91fef8a6dbf2836",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/subway-choices-393.png",
+    "bytes": 387781,
+    "sha256": "d5bbcb7c85a5e4fab50cec6dfcbd14e708b30458011683fd92d4fc923bf0813d",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/subway-typing-393.png",
+    "bytes": 241849,
+    "sha256": "4ef6e892db1e3b0541a532a65bde14b9a70089465d4abfbf85c2d09c41539003",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/travel-mode-choices-393.png",
+    "bytes": 401412,
+    "sha256": "3002d7dbe199aa569aeec6b86c77fc703840f0ff4c704fc565a47905fabb1cdd",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/travel-mode-typing-393.png",
+    "bytes": 493331,
+    "sha256": "f00981062c5aa043ed835bf17cc7bd83033f74d4e092478bce3e7d5fe081eac2",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/video.webm",
+    "bytes": 1412179,
+    "sha256": "ce3d7e40ef4e6eab34a76212bd67094770dbfe69d329290a658749282359db12",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/car-choices-320.png",
+    "bytes": 271116,
+    "sha256": "1a6ec2aafd6ddb0afde65e4bcf191c4924616e12ce7b86ccebe80e859cd27be1",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/car-typing-320.png",
+    "bytes": 137003,
+    "sha256": "1bab83568d21142f55a3c5738cd9515edbb94ffe05888e01295637a19a64dfd7",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ceremony-choices-320.png",
+    "bytes": 325879,
+    "sha256": "f31376e2fdd19ded24f8fbeb3b1cca62e505934523c80deaac8f5f84eaf99237",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ceremony-typing-320.png",
+    "bytes": 286906,
+    "sha256": "f6e922cc5fcaa476498ffde494a5ce4e4ce81f084bb7e262de874ccb3a9be5f4",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ending-choices-320.png",
+    "bytes": 207647,
+    "sha256": "b22ca4d2a10f43c0aa6107f2a2c397da156bdf62a877c3578454fa42137ceb4a",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ending-typing-320.png",
+    "bytes": 125923,
+    "sha256": "5d8cf595337365eb4fd58eabf27ae54e5222fbd97d0972c54a45789a57c0413d",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/group-photo-choices-320.png",
+    "bytes": 315714,
+    "sha256": "5f471267cbf114b067abee340115de63bb21f1ad5f231fa3e00afa42dd0cd8d6",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/group-photo-typing-320.png",
+    "bytes": 337966,
+    "sha256": "186de5bbbd9a608322d9db728a904f447ba021df5ac5a1fcb019f25b0fcf0162",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/guest-side-choices-320.png",
+    "bytes": 266802,
+    "sha256": "cdff1ca8eca44a0ecbf087f0d854ee234bfee5d83cb024eadbe9ab8edd219c2a",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/guest-side-typing-320.png",
+    "bytes": 305827,
+    "sha256": "63fc03d453f6f05776a5e0d8a0784a5d961f2665430682027e2e4ebe6691b2c2",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/photo-complete-choices-320.png",
+    "bytes": 318849,
+    "sha256": "d7c2d676abfdf4320834bbf8d6d17d0f85881a781f76e01efd3b70502b3fcc47",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/photo-complete-typing-320.png",
+    "bytes": 307617,
+    "sha256": "62059f1f51f90dc8936615188ad3d254c5591525d3231f16be1c9e10ba6085bc",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/reception-choices-320.png",
+    "bytes": 266515,
+    "sha256": "c7473815bb1ee0b3a3311274d08ff7e22ed689152ba1e741f51524a6352e39ac",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/reception-typing-320.png",
+    "bytes": 155856,
+    "sha256": "bb1d1af2478c0acce72f7deafbb0276247fbf1c287b9e002890f3253a232d3fa",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/subway-choices-320.png",
+    "bytes": 263042,
+    "sha256": "2096a53d01e088525ac193223176142c1f9060ddfe23744e8c3347433c1c5c25",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/subway-typing-320.png",
+    "bytes": 180478,
+    "sha256": "4350570bfdf00ca876e7734c6484a3158f4e15d4a33d238330de92dfca005a4f",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/travel-mode-choices-320.png",
+    "bytes": 263386,
+    "sha256": "cb566af631679b8ec446bee7249f0426484187ae4c2859fe98d16c05495c34f7",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/travel-mode-typing-320.png",
+    "bytes": 334504,
+    "sha256": "32cdd383aa36bf624edae66d23f27e60b838630b20a8a5e810b9cb8e81422c3a",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/video.webm",
+    "bytes": 1240183,
+    "sha256": "c54b9de3389ca2921c128c27b6f267e4fe4fae78ccf95e359d3c485d64f74794",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/car-choices-430.png",
+    "bytes": 463026,
+    "sha256": "f3d9b7f10c0a763f603830e769216c8253c81346cb1a0d4cfa7070e175f1cd6d",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/car-typing-430.png",
+    "bytes": 260696,
+    "sha256": "55771b96219a8b8fd4e5f99c57a8da17b86ce8509fd4444969ec3ee540a082b5",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ceremony-choices-430.png",
+    "bytes": 559128,
+    "sha256": "11f35dcc9eb8231f295da5c6dd13394215fabbcd0647290923029df6abdf04ae",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ceremony-typing-430.png",
+    "bytes": 347761,
+    "sha256": "c89e567aaeb0da77a41161883dc975c5767c5bbb60aef3afa9ab60106c1b40ca",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ending-choices-430.png",
+    "bytes": 346250,
+    "sha256": "6e675ebc6b48b4ef483f1396477a9d48cfce7eee58e2cdd6d14f93805cb837bc",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ending-typing-430.png",
+    "bytes": 197114,
+    "sha256": "bc28f8c36e62bc02af33daedc2c1dc7b053632f3acb0305c4115eafae98e8612",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/group-photo-choices-430.png",
+    "bytes": 547399,
+    "sha256": "914ca57d745dc9f5ca6141b8e1fce0b73e4f7a3624321f3b027e13535c815df7",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/group-photo-typing-430.png",
+    "bytes": 580008,
+    "sha256": "eae028851c2f119f17875374df24e7eae2813c6f88301e2e465b710f3057c965",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/guest-side-choices-430.png",
+    "bytes": 472928,
+    "sha256": "17b46849aed06e08277457afa8e12bef0e8e95b84c926e9241ecbf6dec8ba362",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/guest-side-typing-430.png",
+    "bytes": 511896,
+    "sha256": "50ca9f88a999e7ea84c542cf9d831b8710d6fd68a26009a77d9a0875b25900b5",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/photo-complete-choices-430.png",
+    "bytes": 553962,
+    "sha256": "1e581eea927aa8503fe4f4a3d0190a46473132db86162299bbd0432014c5a040",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/photo-complete-typing-430.png",
+    "bytes": 506057,
+    "sha256": "c3a4622fa47762c3b2ffceb1bbdb26f614d1ebf64d8f3705a0b8cf2e764cc739",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/reception-choices-430.png",
+    "bytes": 449130,
+    "sha256": "b29f762bc61463935bba8155deae81601b494af51c5ea4e806cd6e61b8393a93",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/reception-typing-430.png",
+    "bytes": 215993,
+    "sha256": "07e97f4fece3a57c9d90b23d7f1f1388cff55032f4c4560ad85dce391e5703fa",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/subway-choices-430.png",
+    "bytes": 442958,
+    "sha256": "dc7d8248c69bdd170a30f6d6a2e7f643e158879b0ed4ede2e342fc039c780e38",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/subway-typing-430.png",
+    "bytes": 297322,
+    "sha256": "e372b9d2b8fd8662ea17b880458ad431efd56c86332894891d935212cc484a28",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/travel-mode-choices-430.png",
+    "bytes": 468113,
+    "sha256": "25843b05d31c4dfc2e5213aac64535fe0c065a94e2f0bf3e4b94d51d40579a04",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/travel-mode-typing-430.png",
+    "bytes": 573251,
+    "sha256": "efc8fb0aaef9259dbded27e873d5da1eae0462b816465ac5f3371a54a0a6dd75",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/video.webm",
+    "bytes": 1389288,
+    "sha256": "1bd9b3e60d78fca3343d567708fe9188361cf7a7c826f141bfadfeb142300f27",
+    "reason": "Duplicate passing scene evidence; final scene evidence supplied. Failure cases remain included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/.last-run.json",
+    "bytes": 45,
+    "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/bottom-choices-320.png",
+    "bytes": 271693,
+    "sha256": "aac45473a85cd0481cd81994e06390cdf20bd0181afbaa157609e4d56512d30e",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/bottom-typing-320.png",
+    "bytes": 325026,
+    "sha256": "3b3e933cd7e9b9573856026ec6769f1e338fb3a0eac10170f3bc58f6715c5372",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/station-choices-320.png",
+    "bytes": 313791,
+    "sha256": "01b705a6df20c561afab0fc72e724a90033b8d17fe2db53ed4509e3062d3188d",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/station-typing-320.png",
+    "bytes": 331599,
+    "sha256": "8be30152bc288fdac65a9c8e1e5bd29294003e41e310a0652585d70d71736bae",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/video.webm",
+    "bytes": 668565,
+    "sha256": "b4e4f937a95b0346e6fffc30c954a90f30be09e208057dcdde5ce400dd80d019",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/bottom-choices-430.png",
+    "bytes": 476022,
+    "sha256": "87171ae880952fb9235b3168c87864fabbc30e90ef68d8dccad838297036889f",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/bottom-typing-430.png",
+    "bytes": 549287,
+    "sha256": "e79599effa80391ab0daba87f0be71708d8ddc99d3977baf13132ecb07c36ef1",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/station-choices-430.png",
+    "bytes": 537523,
+    "sha256": "5e9aa29338017dd4ffc384de800f56010d7c50f4916c9eec9c2d8eac3e653492",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/station-typing-430.png",
+    "bytes": 560901,
+    "sha256": "9eb71edac278c9aa3f830a66c1e05799e87f7b70eb91db411c30449e59d19c93",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/video.webm",
+    "bytes": 788681,
+    "sha256": "bc37dc90748345f76d50a91153f09e9788a8ff6c835193c9fdb286f60ed3a240",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/bottom-choices-393.png",
+    "bytes": 406753,
+    "sha256": "75929ded42f6b82da4d9048b30c87b53d1a165876b9033c919ccd6edcd5e151a",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/bottom-typing-393.png",
+    "bytes": 473012,
+    "sha256": "54df855b55249fc956b0f019385872469cddb59c8fb7f4ee2675f2eae217f1a4",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/station-choices-393.png",
+    "bytes": 464023,
+    "sha256": "8eb4bf6b5e1bbdcf2e011ff279aca630828a64f38788d9ecbed06402251d4d93",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/station-typing-393.png",
+    "bytes": 483198,
+    "sha256": "74171332cfaa7344128b80f96673d51c47d5d8e7d2495aa4b13fdeb4da478322",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/video.webm",
+    "bytes": 713228,
+    "sha256": "72c35385f8f1434478e63273df6c2d91bf9a8994e209cec7b6198efca93eb79b",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/car-choices-393.png",
+    "bytes": 399892,
+    "sha256": "2030fc987f531860d3d1d6f0439b785eec818f9bfa18c6ed0c1668fb0b91b186",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/car-typing-393.png",
+    "bytes": 194674,
+    "sha256": "1307ebbb937a1545600492db19b605ae2734ab83da502fa5f8fab288d61b68da",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ceremony-choices-393.png",
+    "bytes": 479526,
+    "sha256": "bfe39165d4fc6dd8290f987cadb9c1fef2f3bd9126ad21c1b5fc6db6ccda68c5",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ceremony-typing-393.png",
+    "bytes": 415864,
+    "sha256": "ec54205ccc1581664aaaa512e094b75948e31c223fdb64da9b3a303dc4ecd5a5",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ending-choices-393.png",
+    "bytes": 308013,
+    "sha256": "22e28ad269ec0f56479035126c16d39ac6c19dc8ff3efed9454b889f71ced645",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ending-typing-393.png",
+    "bytes": 216446,
+    "sha256": "c89106223a464eaad6078a30111dfbdea7107724e73e59d887b9ed1af3631968",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/group-photo-choices-393.png",
+    "bytes": 467581,
+    "sha256": "a74f078b869e532e8c615f556bfa25a14ff37e41542cc3360e919e77bcb12329",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/group-photo-typing-393.png",
+    "bytes": 497489,
+    "sha256": "3af1a6244e06c9fa4f496f2f80f1671370d939b1d20454a96920149803586b7c",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/guest-side-choices-393.png",
+    "bytes": 405241,
+    "sha256": "433eeaba31dfd3be818258194e7bb3254eb83cef7ad1b7c623a7b60dc2d23b81",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/guest-side-typing-393.png",
+    "bytes": 421745,
+    "sha256": "931185a74c8327d00d72ec7275458655eeb1933c020bcf128d9f43b62ca98f84",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/meal-order-choices-393.png",
+    "bytes": 417691,
+    "sha256": "1336bf87fa9ef6e145811c3a8adfda49b2390d3226212c6aee9ea7cbe40d189d",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/meal-order-typing-393.png",
+    "bytes": 480729,
+    "sha256": "e98ba1541d2fdb3082c91ab7c13f45eb51d0774c848ab7bad2e3fe4050e1d79c",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/photo-complete-choices-393.png",
+    "bytes": 473101,
+    "sha256": "ae8f209497fc1989143528cc6a581e14b4c0b3cf06251b1d23695d66144bbcbf",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/photo-complete-typing-393.png",
+    "bytes": 425828,
+    "sha256": "286d0f5be6490b1ecee60294b5bd914d05e0ab3ecbd5afc965dd8869eb784f7d",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/reception-choices-393.png",
+    "bytes": 390232,
+    "sha256": "9ffd1f92605babfa1092eb3a407dd3b74aa62f02a5f7585569e22429b52dda5b",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/reception-typing-393.png",
+    "bytes": 221319,
+    "sha256": "32399d09b14470cc2baa2d8857b52a5e50509494f7eeba5ab1b52588157310fc",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/subway-choices-393.png",
+    "bytes": 387829,
+    "sha256": "b0d5c4416b9c5e1b19f8802d32f7e596aa8858895e847d881137b46613a1b3dc",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/subway-typing-393.png",
+    "bytes": 260444,
+    "sha256": "6496ed2019be71f7f424ad6e64bcfdfcc683f978e1e84aea2fad2e688ad6e767",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/travel-mode-choices-393.png",
+    "bytes": 401398,
+    "sha256": "028a99f24648adaf6231363e143f2aa278300aa68151ecacab02decc3e0d47ce",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/travel-mode-typing-393.png",
+    "bytes": 493308,
+    "sha256": "188d3146fca7fd87dabe22d4e239a4d5dccbb3617b5b67d31c927d152adb09b0",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/video.webm",
+    "bytes": 1462576,
+    "sha256": "cdfbcbe9ec20f12f762cbbbebfe9c462d9ddd1edd58af51acaabf91cc75912da",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/car-choices-320.png",
+    "bytes": 271116,
+    "sha256": "1a6ec2aafd6ddb0afde65e4bcf191c4924616e12ce7b86ccebe80e859cd27be1",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/car-typing-320.png",
+    "bytes": 153916,
+    "sha256": "72be0963aae3262fab389780fdf569842b5c7ee131abfaf24f677d4345a0677e",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ceremony-choices-320.png",
+    "bytes": 325879,
+    "sha256": "f31376e2fdd19ded24f8fbeb3b1cca62e505934523c80deaac8f5f84eaf99237",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ceremony-typing-320.png",
+    "bytes": 273344,
+    "sha256": "d45392f6e3d00bf2da10c206abc83f1f98a865c752fec1257d4f918a0c1ebfaf",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ending-choices-320.png",
+    "bytes": 197541,
+    "sha256": "123117f2027e1bc3fc6a2db94c6a12399146a108980aa64373130f815c2e4663",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ending-typing-320.png",
+    "bytes": 117684,
+    "sha256": "b6fa5bf95616a096e664837d4d403c79cf7fab3e238e976fe416988018a3b5a8",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/group-photo-choices-320.png",
+    "bytes": 315713,
+    "sha256": "bd89859592563d3b1a8829daca10b389c4a9309906eb2c1aae320796d0246568",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/group-photo-typing-320.png",
+    "bytes": 337628,
+    "sha256": "4efc3cf3bb22369669df8e7a082ecf8215a3a9f9a094f904b9a3da0c91e21f22",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/guest-side-choices-320.png",
+    "bytes": 266802,
+    "sha256": "cdff1ca8eca44a0ecbf087f0d854ee234bfee5d83cb024eadbe9ab8edd219c2a",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/guest-side-typing-320.png",
+    "bytes": 301965,
+    "sha256": "06aff7f30192dd2cda2f1101a409898fdb526b8d9e11525a3794d882947dc32b",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/meal-order-choices-320.png",
+    "bytes": 270341,
+    "sha256": "b2aa2052b69bc6986b8c3ac4ad05b75b96166b2595a306b4ec4899f03dba32dc",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/meal-order-typing-320.png",
+    "bytes": 317922,
+    "sha256": "363d3c0b684e1a18f41cdf104463cad03c9cf99aa10646c92e91b7a8d0c27257",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/photo-complete-choices-320.png",
+    "bytes": 318835,
+    "sha256": "fade4a0c776eb4e6751bc11647863a4ec883fd3a86c9f933e615ded1db8953b4",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/photo-complete-typing-320.png",
+    "bytes": 278193,
+    "sha256": "1db6f1ad30c757dfc3d1c3c1ec50202fe250fa44d814971024e9911f9ad18815",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/reception-choices-320.png",
+    "bytes": 266515,
+    "sha256": "c7473815bb1ee0b3a3311274d08ff7e22ed689152ba1e741f51524a6352e39ac",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/reception-typing-320.png",
+    "bytes": 155856,
+    "sha256": "bb1d1af2478c0acce72f7deafbb0276247fbf1c287b9e002890f3253a232d3fa",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/subway-choices-320.png",
+    "bytes": 263042,
+    "sha256": "2096a53d01e088525ac193223176142c1f9060ddfe23744e8c3347433c1c5c25",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/subway-typing-320.png",
+    "bytes": 142783,
+    "sha256": "f7a30b136822e2cdcc58ab0365955e8327d852fc0004d370c246261f12232b0b",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/travel-mode-choices-320.png",
+    "bytes": 263386,
+    "sha256": "cb566af631679b8ec446bee7249f0426484187ae4c2859fe98d16c05495c34f7",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/travel-mode-typing-320.png",
+    "bytes": 334504,
+    "sha256": "32cdd383aa36bf624edae66d23f27e60b838630b20a8a5e810b9cb8e81422c3a",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/video.webm",
+    "bytes": 1290918,
+    "sha256": "f012242be53407250ae0d5ed8794d1be30b918a2e46741ab917ace3ac96bb812",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/car-choices-430.png",
+    "bytes": 463016,
+    "sha256": "592ed089baa59042487386814f1c7d55ace6485723324a03642699b4fc8f39e0",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/car-typing-430.png",
+    "bytes": 227728,
+    "sha256": "d37a79433659a7f7ababb40d2ec3884bbbeb916b1d49340b05260fcdb9077569",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ceremony-choices-430.png",
+    "bytes": 559142,
+    "sha256": "f8f9726727d88c3b27f94d20b722cada9d1660e9ba7231b0eefd285ce75a9d1d",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ceremony-typing-430.png",
+    "bytes": 399653,
+    "sha256": "f8574306b0173c7fbe5463402ed8e269f166758e60439a7e7e17e3a419e9cf97",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ending-choices-430.png",
+    "bytes": 348219,
+    "sha256": "353bfe4d0d976468c683d458b26465873a1c24f81520fa1a9c58c7a507bd2c0e",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ending-typing-430.png",
+    "bytes": 189612,
+    "sha256": "5e185dc8375ebc51ec89a167d07fcaf4db8f555268d6ad932c3dd9b5d94c3aa5",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/group-photo-choices-430.png",
+    "bytes": 547418,
+    "sha256": "21b5a669d6f38bcc443009a82b98c6d9f1aa4780e3d658b609b0b27fe82f95de",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/group-photo-typing-430.png",
+    "bytes": 580044,
+    "sha256": "bae6822ce35828c445b708ffead4a2219db84209e68b9fd5aedbd365ba40e57e",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/guest-side-choices-430.png",
+    "bytes": 472925,
+    "sha256": "174d6f7bb249d436be66cee9d4131b7b700510d6aac1562f455983776ce24545",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/guest-side-typing-430.png",
+    "bytes": 509003,
+    "sha256": "e3e9f6582a195e1b85920c41fd96d677a2d6efdfa18b7700dc092320552891d6",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/meal-order-choices-430.png",
+    "bytes": 489815,
+    "sha256": "53bcd87164d8040a0c6e200ce05f7d4d34eb70d135edec87baf5fb910f8eec20",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/meal-order-typing-430.png",
+    "bytes": 560256,
+    "sha256": "11cbcfd78f02a83a1a9159cf69492cfc2b9c0b32f9a4375a10b963ec2b93a040",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/photo-complete-choices-430.png",
+    "bytes": 553910,
+    "sha256": "1b63276a88ea88690605622c98cb945acb7b7e7b0ef5e073f25e34a41cbda1e8",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/photo-complete-typing-430.png",
+    "bytes": 504382,
+    "sha256": "dc2405a7ad71c604b00ea2b18c8bdfe2fdbd3b5ad5f4039cb7c10e71e87a4471",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/reception-choices-430.png",
+    "bytes": 449108,
+    "sha256": "44fa5e0f297a4ba46bb55dc2fe49c3431d59bcce57b29104d8918c2ebfe25c96",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/reception-typing-430.png",
+    "bytes": 250263,
+    "sha256": "c54f8016f06bd21db515b17bf785d08459ce6cdb48525af4972e562c7dc626ba",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/subway-choices-430.png",
+    "bytes": 443004,
+    "sha256": "fb9f81471c03d2f6da6e0e0884aeddb02f3b7a0a8c9d9a30b29cfad351df2361",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/subway-typing-430.png",
+    "bytes": 297342,
+    "sha256": "4416d887678eebc5b34f9a0c4a6eb6408c577c2a427bdbb10fde9c5d62c781ed",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/travel-mode-choices-430.png",
+    "bytes": 468086,
+    "sha256": "bb6b2dd665e335cf647cf0d1bf829f0df5788f8d0517c36905b05200840cf3ae",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/travel-mode-typing-430.png",
+    "bytes": 573257,
+    "sha256": "b7306fb95656fac0b9869e4484ed290d3d95d6fc3aa814994d6beebdeb0a5e29",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/after-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/video.webm",
+    "bytes": 1529452,
+    "sha256": "1d8bc44726ba7293367ccd0ca947d711dff6938f4043cf236280e4895e09a01f",
+    "reason": "Superseded passing layout run; full JSON retained, final screenshots/videos supplied.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/.last-run.json",
+    "bytes": 45,
+    "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/review-neck-loading-local--f3a33-t-and-ready-for-manual-play/video.webm",
+    "bytes": 157795,
+    "sha256": "bac98de899a99e519eab9a6a675b06603fb7a09fba51cf655728f9400dbd0ba5",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/review-neck-loading-separa-30e9c--lines-and-actual-drive-430/video.webm",
+    "bytes": 1533605,
+    "sha256": "526a68400ca135b99a2dc4668c6415525774b46dd9c5588051996897de96fd36",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/review-neck-loading-separa-5dbb7--lines-and-actual-drive-320/video.webm",
+    "bytes": 1566135,
+    "sha256": "598a7e14c167345aed638a2a80549aa45f3972eac0c3cbb04111e26fd9710e5a",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/review-neck-loading-separa-f9547--lines-and-actual-drive-393/video.webm",
+    "bytes": 1382007,
+    "sha256": "e5eb12d0c33402ff7f6a02a6e43e858449ff301eaf72a947f786600a34a6a813",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/review-neck-loading-unobsc-7c734-tput-at-three-mobile-widths/video.webm",
+    "bytes": 2798230,
+    "sha256": "0070b38ecf4c4847ea883091f1e04cff0173f3d51cc7577960f92d3007eccc06",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/bottom-choices-320.png",
+    "bytes": 271693,
+    "sha256": "aac45473a85cd0481cd81994e06390cdf20bd0181afbaa157609e4d56512d30e",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/bottom-typing-320.png",
+    "bytes": 325204,
+    "sha256": "a868c9a96e89e6eae564cdd5a255f1a8b14794bc5839addc232dd90afbe4cda9",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/station-choices-320.png",
+    "bytes": 296246,
+    "sha256": "55d38325aaeafe733052d0542f7c5417dcb85c24a3cea63bf785b51c3b345704",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/station-typing-320.png",
+    "bytes": 332005,
+    "sha256": "f645f4234ad34f72b40204bd4aed9f11002f3b288d65a08a6604e1d8e7dfe8ce",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/video.webm",
+    "bytes": 702404,
+    "sha256": "4967accbbd0b692866614d0f7b623852d27377c2c7cd44fca06ef77eb1c2b728",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/bottom-choices-430.png",
+    "bytes": 475998,
+    "sha256": "0233e60b188a221d7955a11270510ecc804a4307e1c8ff4ef7754e2ba493e81a",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/bottom-typing-430.png",
+    "bytes": 550180,
+    "sha256": "0e9e5d48a31d1b0a25cc0b6c34683cd04d7e677fa6ccb87b95fcc0e8eed52723",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/station-choices-430.png",
+    "bytes": 509354,
+    "sha256": "47b78c4ebdfc994789f195b4cd08a450eec169db9af12f844cbc4535ceb5cd25",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/station-typing-430.png",
+    "bytes": 561200,
+    "sha256": "190c49466c204e28ab963782802955a9156e7ecd73cb362bd7b2df754ad6ed28",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/video.webm",
+    "bytes": 1254942,
+    "sha256": "e6831a9e06be6e0ba137c39d61266cb88f61a4fdc39a1aee8801f8e4f89a9087",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/bottom-choices-393.png",
+    "bytes": 406726,
+    "sha256": "ea437535c2581c8a75d9f3a1e89bea066d447c3300d2424a518c70a0024d46a5",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/bottom-typing-393.png",
+    "bytes": 473542,
+    "sha256": "8f89a226c8579ad62221322c80f09c8a110a3176a6d040509ff5eb8f23cf1ea8",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/station-choices-393.png",
+    "bytes": 439724,
+    "sha256": "edf2f96bf3d7cbb51a848398411c2195475e1e7d8a5d9b5d66708f5f7641e875",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/station-typing-393.png",
+    "bytes": 482194,
+    "sha256": "3ea3ac923524c596b1677f2beffe38c0efe8d36a7591a87cce3ed47bf0afd6ab",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/video.webm",
+    "bytes": 1230490,
+    "sha256": "d50c1389f62cac11ad8cdd5408ea9ed24d04b74ab5adf3fc931c93a7203532e2",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/car-choices-393.png",
+    "bytes": 389804,
+    "sha256": "f4b911cd9bb8cdba7b3a2b87a5973099d29d0c5a33702053be4f6ea40a06ab68",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/car-typing-393.png",
+    "bytes": 333703,
+    "sha256": "39661e0aeffaad78536767140ce2728a290e17945bb05d0c10ca22de9ab8a6e6",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ceremony-choices-393.png",
+    "bytes": 479541,
+    "sha256": "019c63798718f7a9671db4c29c9730ebf5abc22824a0217c406aba7de7a21df8",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ceremony-typing-393.png",
+    "bytes": 470209,
+    "sha256": "81b08d937ee290b89f0708fead17551e4007e44f1a544cb6e2ad7df092460474",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ending-choices-393.png",
+    "bytes": 331064,
+    "sha256": "315cac16e508030d8145e8cfd56683bc467c06cbba66df3ec6c742defe43afbe",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ending-typing-393.png",
+    "bytes": 412941,
+    "sha256": "1c302e6a53fecf1c83f90015a1e66ff271c89df4d1116a8317c0f5757574d767",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/group-photo-choices-393.png",
+    "bytes": 467491,
+    "sha256": "fc844587effefade6194fe327cc34213ce4933c2af1a85773205d515603c16a8",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/group-photo-typing-393.png",
+    "bytes": 498498,
+    "sha256": "46fd8725ad0217a9064fad6863d009e5660974360ad2318d8719f19ad237759e",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/guest-side-choices-393.png",
+    "bytes": 405283,
+    "sha256": "fcca56eee9bd88a240c413426a2a97dedc02b1ee1412c5c828ba99f30124e442",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/guest-side-typing-393.png",
+    "bytes": 500589,
+    "sha256": "41abebbbdf17d73c72fbedd4c861a5a772100c988faec2834e147b52480e8eac",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/meal-order-choices-393.png",
+    "bytes": 417694,
+    "sha256": "ecabe000cea56934235ed4b05069e9d3d8cbdb2bc25b07e761c75bdc055180b6",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/meal-order-typing-393.png",
+    "bytes": 481411,
+    "sha256": "ee8232cd0ed00fa079c9a875c295d10e40f37e85580e72a0480824a1d13b90d5",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/photo-complete-choices-393.png",
+    "bytes": 473174,
+    "sha256": "8939c56612631ea1fbc84a00518063352cc6f8ecd04a18b63d1d17d76b11c8b9",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/photo-complete-typing-393.png",
+    "bytes": 507378,
+    "sha256": "32d63fdd0142b66bcfbae294b832f0bf74dee5430ea2924636f2c68e28e5deaf",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/reception-choices-393.png",
+    "bytes": 390191,
+    "sha256": "f9cb5190b590a98d255107b0b229e3d894c9aa19ed2bad9dad634a336a8e4708",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/reception-typing-393.png",
+    "bytes": 285299,
+    "sha256": "b425bda860ac1cfeabd9d3364176c3801b316ddb6b949bd3fd88918b2086d8a5",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/subway-choices-393.png",
+    "bytes": 386467,
+    "sha256": "0549347c061fd8b223be2618cea5261e99bdc8e8689d250d351a45db85b0f8c6",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/subway-typing-393.png",
+    "bytes": 345430,
+    "sha256": "b7e35a73e0d23123994911a73d34ce8a7a8f88249fa87a2bae6c0175b594e03a",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/travel-mode-choices-393.png",
+    "bytes": 401443,
+    "sha256": "aaf10def6b2262780d5806bf4af515dcb4ef8e53c9fca50291c74427d9ff776a",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/travel-mode-typing-393.png",
+    "bytes": 493660,
+    "sha256": "c72f592c81b1dbe73b60f652a4b4bc0adea885a16e3b69105ce111f52dec5027",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-1a82a-r-narration-position-at-393/video.webm",
+    "bytes": 2376193,
+    "sha256": "ec5e9f7f516ddef575977d6801880cc0f31e2a79127f04e4ad566f809b0deac5",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/car-choices-320.png",
+    "bytes": 262490,
+    "sha256": "4094169fd86de4063c1f8487fea76de3fb855d16562f679d190b8b74a376d684",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/car-typing-320.png",
+    "bytes": 164360,
+    "sha256": "04cda6513c5ab7407ae6a5567c7658f8cb48b3cdcdabe211fd5b95ae95225cc3",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ceremony-choices-320.png",
+    "bytes": 325879,
+    "sha256": "f31376e2fdd19ded24f8fbeb3b1cca62e505934523c80deaac8f5f84eaf99237",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ceremony-typing-320.png",
+    "bytes": 309947,
+    "sha256": "99cfdf94292651bbc86a2ff8e6e15d14468c6d65c4f52662cde737dc5b20aefb",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ending-choices-320.png",
+    "bytes": 221147,
+    "sha256": "6f493e0490efaf07dd3e8903629eb0c5ec48fa18c95712acd54ef9b40fb67d6b",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ending-typing-320.png",
+    "bytes": 283902,
+    "sha256": "5b11d47a59ceb5d6fd2f105223791710e7dd70b21e10ebed2a00d83e97d74b04",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/group-photo-choices-320.png",
+    "bytes": 315724,
+    "sha256": "961081358180c65a1a84bdf00322c7e84e684e068d2b29c5f90d8798d668e0b3",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/group-photo-typing-320.png",
+    "bytes": 339039,
+    "sha256": "9357a6891a2781f96a250ca3f8e1a3724fdda6f3a4e1333c195a287ff80c7150",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/guest-side-choices-320.png",
+    "bytes": 266802,
+    "sha256": "cdff1ca8eca44a0ecbf087f0d854ee234bfee5d83cb024eadbe9ab8edd219c2a",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/guest-side-typing-320.png",
+    "bytes": 329863,
+    "sha256": "11806971fe806cffbaab91d9d647850043daa6207e0af6fc5641745e2742e40c",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/meal-order-choices-320.png",
+    "bytes": 270337,
+    "sha256": "16f692b8aded70b5f7bc82ded04b317e32f1bf7dc328e5bbc2aa64f759d88cb8",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/meal-order-typing-320.png",
+    "bytes": 318075,
+    "sha256": "679dc40e3b2c4cafacf5eab6d2952aa260383252a94b1994ac88200c9c74646a",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/photo-complete-choices-320.png",
+    "bytes": 318846,
+    "sha256": "4a6a77b12dcc99547e5b7653427d2c132715bd3bf08849efc60e2233fd8e903a",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/photo-complete-typing-320.png",
+    "bytes": 319115,
+    "sha256": "3c989e3cee9bd129b38dc80f0983322733e198199546ff8360e96c0c94abf4f3",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/reception-choices-320.png",
+    "bytes": 266515,
+    "sha256": "c7473815bb1ee0b3a3311274d08ff7e22ed689152ba1e741f51524a6352e39ac",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/reception-typing-320.png",
+    "bytes": 158156,
+    "sha256": "203c731e670e407aaa5258439f300a42d237835a9178b46112ee1f774d55eb2d",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/subway-choices-320.png",
+    "bytes": 261267,
+    "sha256": "902e9bd2b83915e1d7c7d472f915fcd5b3c41e1230933a1e6b7089ef3ad94744",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/subway-typing-320.png",
+    "bytes": 203295,
+    "sha256": "67712521a753af0d6c16370018d2b63207c0ac411e4fcb77a3605410838e43de",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/travel-mode-choices-320.png",
+    "bytes": 263386,
+    "sha256": "cb566af631679b8ec446bee7249f0426484187ae4c2859fe98d16c05495c34f7",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/travel-mode-typing-320.png",
+    "bytes": 334504,
+    "sha256": "32cdd383aa36bf624edae66d23f27e60b838630b20a8a5e810b9cb8e81422c3a",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/video.webm",
+    "bytes": 1724462,
+    "sha256": "856797f5bb7f700a22dfa9c06506b1132cd59211070d6c87928abd494b34a0e9",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/car-choices-430.png",
+    "bytes": 450806,
+    "sha256": "1f885839e3d48de1e42d86139c80c11c24b50176b8e1c37a702165fbfbb8905f",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/car-typing-430.png",
+    "bytes": 389924,
+    "sha256": "f75f54191eb7741959cfdeec86258a91fad91170822228ce110fa1097d5d4d0c",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ceremony-choices-430.png",
+    "bytes": 559102,
+    "sha256": "9788776cf1fe4bed8a4bb30eb59577b56ca076dfbd8e7ccb911d1d6e64fcb44d",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ceremony-typing-430.png",
+    "bytes": 542123,
+    "sha256": "4d81c2632ba1a74e51c6e5667df689062120fe07c0498d0e56915587ad2cfea2",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ending-choices-430.png",
+    "bytes": 382763,
+    "sha256": "62fcd2120eac62e070f77d39965078da0ffd4f3fa0c51dec644e3d843f4e80e6",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ending-typing-430.png",
+    "bytes": 475476,
+    "sha256": "2ac52d9fc521d5c8196552f430591c37e627b71ef5b4074f4a678c703c5b1ace",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/group-photo-choices-430.png",
+    "bytes": 547412,
+    "sha256": "7324095a04c5bcac9a8da14a00728584f20005f0af7669cf80ebb1941113d771",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/group-photo-typing-430.png",
+    "bytes": 582070,
+    "sha256": "1fe57e5be98c5e54e50ef3fa68d48fcd53924c2d1a1f22575a33e47d0550614a",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/guest-side-choices-430.png",
+    "bytes": 472941,
+    "sha256": "2e9b75b7a4fe6b806bf396f22305683b4fa2224911763456c2f335216c4b1f77",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/guest-side-typing-430.png",
+    "bytes": 581525,
+    "sha256": "019ad91c4e215b3ce608413a2ce30f97e75e1aab1d8691fdd89b94bae24eddca",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/meal-order-choices-430.png",
+    "bytes": 489821,
+    "sha256": "29aec630300cf0ca1552b3c616575b453522a8be87124ceea9eae8c7f469b1ee",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/meal-order-typing-430.png",
+    "bytes": 560989,
+    "sha256": "0812c225c958602ff9691b52e1012accfdb5066387f3884a21aa26c312256f91",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/photo-complete-choices-430.png",
+    "bytes": 554001,
+    "sha256": "259480fb161b36b29cb0e891fb6b72e7f2400dfbf852ee39ea4c0550bb448fb3",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/photo-complete-typing-430.png",
+    "bytes": 554193,
+    "sha256": "88fa6bf024c3caa0e8d3cb9f9084c66243408a18a666227f3b2dfb3e3bb0b361",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/reception-choices-430.png",
+    "bytes": 449115,
+    "sha256": "4235fa88be63527a7c302a21d221303cee6ea6040c84fd3a992b3855b3e9ae11",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/reception-typing-430.png",
+    "bytes": 303354,
+    "sha256": "0adf31df19493f8c2d763fa5a3b3f3bc3b8e66b2b9c9729544095778c489c683",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/subway-choices-430.png",
+    "bytes": 441011,
+    "sha256": "e418e4042dd60a19393ded6f19eeae7b0dcca28974322013b775710de7eb1534",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/subway-typing-430.png",
+    "bytes": 336838,
+    "sha256": "d25f65a61e71adf64abf96b83eb2aba6eba038d489a8ddc034d38058338abf9d",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/travel-mode-choices-430.png",
+    "bytes": 468100,
+    "sha256": "ef29819de407a46a38e15f4115fbfb9fd38a6272e5e9b1339c707d20128ea3df",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/travel-mode-typing-430.png",
+    "bytes": 573600,
+    "sha256": "2841164802433a059eab31178681a4a46342e8ace9b54ad60b7fb41a0706e240",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-01/story-choice-layout-real-c-e7f13-r-narration-position-at-430/video.webm",
+    "bytes": 2475865,
+    "sha256": "060f24f97b2f79f5857133a5b3a6562878550274a6b5d06dc694be713bcfbdb9",
+    "reason": "Intermediate car composition or duplicate layouts; reporter retained, final-03 replaces these captures.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/.last-run.json",
+    "bytes": 96,
+    "sha256": "c90b8d7c5049d4233c39ec9c7e52b339db44220034735c8b2ac9c391935e711a",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/car-guidance-reference-ref-f8501-and-actual-파란색-drive-at-430/car-choice-430.png",
+    "bytes": 456960,
+    "sha256": "20e8208a224ed62f3c7e307cef24b3ae8d641b843ca22a41e2da31b719c3bed0",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/car-guidance-reference-ref-f8501-and-actual-파란색-drive-at-430/car-destination-430.png",
+    "bytes": 16852,
+    "sha256": "e97813605c0a1c8047a00bd3140850fcde39c628a5c164f586c1c32c84d3ddfa",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/car-guidance-reference-ref-f8501-and-actual-파란색-drive-at-430/car-typing-430.png",
+    "bytes": 353779,
+    "sha256": "c1634f5cfca4bc7fda6adffde8e3864614ab3833634189c904a94057d1c4959a",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/car-guidance-reference-ref-f8501-and-actual-파란색-drive-at-430/video.webm",
+    "bytes": 980552,
+    "sha256": "56a866132b40d055172590e70e3619edc46ab312b5f7bbdb5d8a97de9dc9da93",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/car-guidance-reference-ref-fa185-and-actual-분홍색-drive-at-393/car-choice-393.png",
+    "bytes": 391062,
+    "sha256": "8a90bb5fc6b37170d990f2e24ee67fee504b2ca05359cf9b071b34e9807af6ba",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/car-guidance-reference-ref-fa185-and-actual-분홍색-drive-at-393/car-destination-393.png",
+    "bytes": 16762,
+    "sha256": "b1d93116afd3967adb75ecba96373001e21ffacf07c496bc410fd2c69aa283fb",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/car-guidance-reference-ref-fa185-and-actual-분홍색-drive-at-393/car-typing-393.png",
+    "bytes": 290574,
+    "sha256": "c1589d5e17dc7aa22541baa9708563d41966ed3089ac05c64ed2208571c2cb7b",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/car-guidance-reference-ref-fa185-and-actual-분홍색-drive-at-393/video.webm",
+    "bytes": 1026605,
+    "sha256": "a7acb7a4893e615a64e045b3a494c5be5043054cb431eabe35c54c834a457e0e",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/review-batch-b-guidance-F0-0a07a-ttempts-remain-recognizable/video.webm",
+    "bytes": 1686166,
+    "sha256": "2275288aaaef1a59af81f2cdaa8cf5487d0a9682c74a2f873e2410e02403bff4",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/review-neck-loading-local--f3a33-t-and-ready-for-manual-play/video.webm",
+    "bytes": 154385,
+    "sha256": "b846717948e6dbe2bb993a7efa41ecfc0a05bfec3f690b39a85bbdf510ecc31d",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/review-neck-loading-unobsc-7c734-tput-at-three-mobile-widths/video.webm",
+    "bytes": 2097646,
+    "sha256": "4f0271bfbe981061b47acadf0677811a3179a60cb61ec69edb0c5b721e5d9f53",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/bottom-choices-320.png",
+    "bytes": 271693,
+    "sha256": "aac45473a85cd0481cd81994e06390cdf20bd0181afbaa157609e4d56512d30e",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/bottom-typing-320.png",
+    "bytes": 325204,
+    "sha256": "a868c9a96e89e6eae564cdd5a255f1a8b14794bc5839addc232dd90afbe4cda9",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/station-choices-320.png",
+    "bytes": 296246,
+    "sha256": "55d38325aaeafe733052d0542f7c5417dcb85c24a3cea63bf785b51c3b345704",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/station-typing-320.png",
+    "bytes": 332005,
+    "sha256": "f645f4234ad34f72b40204bd4aed9f11002f3b288d65a08a6604e1d8e7dfe8ce",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-2e6af-while-choices-appear-at-320/video.webm",
+    "bytes": 722220,
+    "sha256": "967e9abcaf59d933b29e6794f212bd04de56175727c1bec612a7720bd49d8768",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/bottom-choices-430.png",
+    "bytes": 476013,
+    "sha256": "c82cddfb4d4f835e43d53538338adf0911cfddd92e7a938d3b1adfe5fc495b9b",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/bottom-typing-430.png",
+    "bytes": 549242,
+    "sha256": "8c08c2353e8198039124c53dd63e31425c0c979c9b80c52e726993d1408da4a1",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/station-choices-430.png",
+    "bytes": 509429,
+    "sha256": "ebd62ca7f3ebbb1b88c17d2d7ae2a1e6a6d66cf881b3e06a39106bbb21959541",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/station-typing-430.png",
+    "bytes": 560480,
+    "sha256": "4e66acf4724ca9866e482c8e2ec2cb1a4c05f43f49d784828a683c8f5e8b08f8",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-99a90-while-choices-appear-at-430/video.webm",
+    "bytes": 723507,
+    "sha256": "97d5ceaca867912480f5ad26bd03c639f8d6119b8c09aabd532a8e5b36a25476",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/bottom-choices-393.png",
+    "bytes": 406746,
+    "sha256": "516b4eeb8e9b2cd932e2a15563aefc294d0944bce374277c3013d8be26d190e2",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/bottom-typing-393.png",
+    "bytes": 473161,
+    "sha256": "0a2cf9c88f368c451f342bab900174dc49354aeffa14ebe18d266b6cbffa231d",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/station-choices-393.png",
+    "bytes": 439755,
+    "sha256": "ddd740d669da0745098f059c32d7baaa5fccb117f999dcb8d9c8988baab8cd02",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/station-typing-393.png",
+    "bytes": 481725,
+    "sha256": "8e6c6df70e517e5265342d12f459e2952ccdc9df1c88c2f6398a04d75ad35751",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-all-ni-d4e80-while-choices-appear-at-393/video.webm",
+    "bytes": 746619,
+    "sha256": "f3ac00048579937ea1a6ace2cfed6d981ac78a2f9ebc2a5d04b566f30c618e05",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/car-choices-393.png",
+    "bytes": 397914,
+    "sha256": "56738fe5a44c5e77f8ee5df7d979fa5997773c48112deb8e8acfe1e0ddcc7e4a",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/car-typing-393.png",
+    "bytes": 236458,
+    "sha256": "9c8352d979a45c203a24952cbe055a66f8e5fb4e49ea69afac87c99884c4e2c9",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ceremony-choices-393.png",
+    "bytes": 479500,
+    "sha256": "183c80d199a36110320744e9da77b5ca43a0f68bee8c8fe475b359f72d4d2fb0",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ceremony-typing-393.png",
+    "bytes": 435557,
+    "sha256": "710315f78217276ed2fe68309759a2056f70ff9867c74c976607049c0cb1d7c3",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ending-choices-393.png",
+    "bytes": 299971,
+    "sha256": "0e43bdf1aaf925538d465d8c83d1ac44c7b57c514a964a11eb875e61c9b3e628",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/ending-typing-393.png",
+    "bytes": 157519,
+    "sha256": "e293b5b1174a150f238448901b59daa67dc78f37c95304285ab677297ecf2aef",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/group-photo-choices-393.png",
+    "bytes": 467586,
+    "sha256": "adf76bbeec378ff0a67f2032bc82b56cf94678745c34956decb873acd5ab4bd3",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/group-photo-typing-393.png",
+    "bytes": 497186,
+    "sha256": "64f17125e0157233955d6b9ac06a1351ee5130163d9126b13dc64ec0a326e4b7",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/guest-side-choices-393.png",
+    "bytes": 405267,
+    "sha256": "e2d61335d5304728845db9505acaf4215c1ad5d97006ffa126f48af78d066c9e",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/guest-side-typing-393.png",
+    "bytes": 426223,
+    "sha256": "2eeda90725d1de3f23ef7e748e915fc9da7d1aa375ff5dc80eafa426e8bc4167",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/meal-order-choices-393.png",
+    "bytes": 417698,
+    "sha256": "197da54124f3bd64c21bb43091a7dace14448d40ae4dcf42e0f95bd146890a15",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/meal-order-typing-393.png",
+    "bytes": 480755,
+    "sha256": "8361e1b8e646547aa7bcfb36314ee84a8b818338d88a744d597f2726e315a7d6",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/photo-complete-choices-393.png",
+    "bytes": 473092,
+    "sha256": "f49a3306177a8396243c3833e384619a99b4d8088be0d33a1e9fd44051ebe238",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/photo-complete-typing-393.png",
+    "bytes": 415633,
+    "sha256": "c2f91eab01a15d76ff95d1669aa2f76ce96c3586dc36a91ad621695279d65432",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/reception-choices-393.png",
+    "bytes": 390232,
+    "sha256": "f5599529c9cafd411a47b0b3375f4431c5622fbbee9430717a488574e732950b",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/reception-typing-393.png",
+    "bytes": 191008,
+    "sha256": "b7e9f52273ae2316ca42d80785c8495f34bfc93f4511ce1feba8943eb18c0a1f",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/subway-choices-393.png",
+    "bytes": 386464,
+    "sha256": "020db6a6f5f50c06094806b00322e05b1f7408c4696771f27e35c43b7c4e5266",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/subway-typing-393.png",
+    "bytes": 204314,
+    "sha256": "72e77fe7cc9d245208d2042dfb1f51b29c6a996d53c57ef845d492f06054b71e",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/travel-mode-choices-393.png",
+    "bytes": 401440,
+    "sha256": "646e62bec56b65a6b65509796fb47fb9021f62c2e15886ae72fafcbb41ebadf1",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/travel-mode-typing-393.png",
+    "bytes": 493303,
+    "sha256": "bf7ea2e04070c23ae26961bfdb8c9b8accdc0df10b8b101af74620d998f38bf9",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-1a82a-r-narration-position-at-393/video.webm",
+    "bytes": 1446255,
+    "sha256": "5f71928de42da0e6ff94873654b06cd473ffc538daa8713e9ba9e98404b7e49a",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/car-choices-320.png",
+    "bytes": 268465,
+    "sha256": "9c53800f9d8afcf278697fa00a7fd24d3b6a83638b4ffa2bc831d4864df80716",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/car-typing-320.png",
+    "bytes": 198756,
+    "sha256": "71facb6bf93e5126c8180a9d760a72960c953de36da0ddf2a11f0ae3f72d3cf4",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ceremony-choices-320.png",
+    "bytes": 325879,
+    "sha256": "f31376e2fdd19ded24f8fbeb3b1cca62e505934523c80deaac8f5f84eaf99237",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ceremony-typing-320.png",
+    "bytes": 234732,
+    "sha256": "e6839a99ce056c33a89ee5cabbe9e4a22a11aee46d9d61f0f16688132c720c04",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ending-choices-320.png",
+    "bytes": 212638,
+    "sha256": "f52c6e6cb11f6431d1d4d30117eecb31a63bb59780af10f18cc1b2f926838252",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/ending-typing-320.png",
+    "bytes": 149390,
+    "sha256": "45734e429be1f6c8840b05252e9e2b72d451f962019992a3a4ac3d7522367649",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/group-photo-choices-320.png",
+    "bytes": 315715,
+    "sha256": "c4749782360f8c770b14d661f26a1cd8011b12e323add971ee5f3e5f823e2334",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/group-photo-typing-320.png",
+    "bytes": 337969,
+    "sha256": "433e96fb459876cbc4172515c02fee6af3d271614ee235e3263aba950f853da6",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/guest-side-choices-320.png",
+    "bytes": 266802,
+    "sha256": "cdff1ca8eca44a0ecbf087f0d854ee234bfee5d83cb024eadbe9ab8edd219c2a",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/guest-side-typing-320.png",
+    "bytes": 332471,
+    "sha256": "56b3ea72f31e80c9da6922d4a6048be5d84c6acf8406fff269209fb67199de8e",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/meal-order-choices-320.png",
+    "bytes": 270337,
+    "sha256": "16f692b8aded70b5f7bc82ded04b317e32f1bf7dc328e5bbc2aa64f759d88cb8",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/meal-order-typing-320.png",
+    "bytes": 318071,
+    "sha256": "6ad0ae1a3377fc01e703dea8337026eab0ecd8677439104ed36c67c405a44bbc",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/photo-complete-choices-320.png",
+    "bytes": 318859,
+    "sha256": "97552a572bf9fcc2fc945332591c51cd03301c5fc2057323b6629acb4713e3df",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/photo-complete-typing-320.png",
+    "bytes": 321575,
+    "sha256": "6b53594fab05fb04da50478f7ce1bfe994cc830953fb8dfaf1907e69c3e6b80c",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/reception-choices-320.png",
+    "bytes": 266515,
+    "sha256": "c7473815bb1ee0b3a3311274d08ff7e22ed689152ba1e741f51524a6352e39ac",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/reception-typing-320.png",
+    "bytes": 137661,
+    "sha256": "7581a92bfbff0067b586fb5e17f5f09cd6c9d0bcd9caa65a642dca2492b7cb32",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/subway-choices-320.png",
+    "bytes": 261267,
+    "sha256": "902e9bd2b83915e1d7c7d472f915fcd5b3c41e1230933a1e6b7089ef3ad94744",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/subway-typing-320.png",
+    "bytes": 201510,
+    "sha256": "20187fbf6f1ac57bc5a3f9791265a56e9b64fa1dd7063554747e177525114d27",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/travel-mode-choices-320.png",
+    "bytes": 263386,
+    "sha256": "cb566af631679b8ec446bee7249f0426484187ae4c2859fe98d16c05495c34f7",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/travel-mode-typing-320.png",
+    "bytes": 334504,
+    "sha256": "32cdd383aa36bf624edae66d23f27e60b838630b20a8a5e810b9cb8e81422c3a",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-7fbfa-r-narration-position-at-320/video.webm",
+    "bytes": 1405640,
+    "sha256": "338468b22eb0241559055633f84ff44de10c7db676e06b9b3e3388c8d0757862",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/car-choices-430.png",
+    "bytes": 460596,
+    "sha256": "af993ca8518827899900f5aece6500564fc2edfc5d5f65023ea0e9319c6d84dc",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/car-typing-430.png",
+    "bytes": 231101,
+    "sha256": "bb4dc46e6811706f38940915932fd49b9573023a266e9db65dec626ea9c05852",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ceremony-choices-430.png",
+    "bytes": 559138,
+    "sha256": "0665d4ebba9d8617298889bf9369e6c1de8870d917efd2048fba9bee4e452a6b",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ceremony-typing-430.png",
+    "bytes": 516259,
+    "sha256": "54750b073fac96c5599d8de5cde9a5a743758edd36608b656eb7e6e2d6f3e0dd",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ending-choices-430.png",
+    "bytes": 367736,
+    "sha256": "2f87844f91e5f3cddc941d168f99822665824ba20a40e12002f40227f1f1ddb1",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/ending-typing-430.png",
+    "bytes": 245967,
+    "sha256": "605797b2ba37135d24bcec1dbc5ed2651fc47ab573cbfdf8885120970565b51a",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/group-photo-choices-430.png",
+    "bytes": 547427,
+    "sha256": "7c3db17b75a360c9b0d23c00d76b1767e38d1e1468242c4a832813660fe6b8ab",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/group-photo-typing-430.png",
+    "bytes": 580039,
+    "sha256": "1bac8d32b248b8d42d93229f574fa82469b6ccfedf324f83c1d37520b3a3ee46",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/guest-side-choices-430.png",
+    "bytes": 472927,
+    "sha256": "dcae259444bfc46840f66fff612b47e931d2afee8535f9567eaf02d8234763ed",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/guest-side-typing-430.png",
+    "bytes": 502220,
+    "sha256": "d4afa65e88d6cffa66d501d66a10a130c7e9606d06e648e72e9d3c8e979c216b",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/meal-order-choices-430.png",
+    "bytes": 489811,
+    "sha256": "d308a3ef6bca053bda0914576c3aa1139e5642efa08df2b1bc6abff2736029c1",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/meal-order-typing-430.png",
+    "bytes": 560470,
+    "sha256": "de712cf01f2db834b55ec22f4e00a35167f9c3d4f8274e54e279bf29c0ad4361",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/photo-complete-choices-430.png",
+    "bytes": 553978,
+    "sha256": "4389456f6cf307b1cca6fae580dbca047323f47da9547936e8f9d9495b602f2b",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/photo-complete-typing-430.png",
+    "bytes": 506992,
+    "sha256": "62850f4b1f081451085559eb745dfa83cb4a68ef1bacea51a4e93d9262c007f0",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/reception-choices-430.png",
+    "bytes": 449141,
+    "sha256": "6d9c97a1afa722d8d8e2104fc6e32fadf848182843e4dfe3ca6b9f12da366e5d",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/reception-typing-430.png",
+    "bytes": 250276,
+    "sha256": "c099c52b423ae6c83c4dac386bf707937fcb883ad4ab4f7394b8760f315ccc0a",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/subway-choices-430.png",
+    "bytes": 440977,
+    "sha256": "f80fefbb2b01d5d104b05ff039205eaea3a7189ce8ddf81453b9260031aaf536",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/subway-typing-430.png",
+    "bytes": 297587,
+    "sha256": "909076b39d7c855da0c874d384247b03f63f725047b3132bdec21a3858c35898",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/travel-mode-choices-430.png",
+    "bytes": 468082,
+    "sha256": "22b17235ec8aff2faad9366f433a4cc906726712c16fd63dd47257b0d633652d",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/travel-mode-typing-430.png",
+    "bytes": 573264,
+    "sha256": "6ea8ed8a553a5f87a1f6c9c26ec0e713d57eba64c317d38a3092391488749503",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  },
+  {
+    "path": "runs/final-02/story-choice-layout-real-c-e7f13-r-narration-position-at-430/video.webm",
+    "bytes": 1554796,
+    "sha256": "0559ae90cba9c601f38fa54caa933e3ea7b9ae310b4bfc9f2049c4664f4de492",
+    "reason": "Superseded passing capture; final-03 provided. The failed 320 case remains included.",
+    "originalPreserved": true
+  }
+]

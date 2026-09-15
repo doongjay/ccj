@@ -1,0 +1,23 @@
+{
+  "originalsPreserved": true,
+  "files": [
+    {
+      "path": "lobby-return-tap-fix/runs/final-01/review-touch-refinement-St-7dc33-tered-tap-only-lobby-at-430/trace.zip",
+      "bytes": 178226854,
+      "sha256": "e07610d86788c8bf2c0a6d190c04184c7eea83d5d62721005e6deff6d0d169bb",
+      "reason": "Large trace resource bundle; original preserved. Extracted trace/network/stacks, reporter errors, failure video and error-context included."
+    },
+    {
+      "path": "lobby-return-tap-fix/runs/final-01/review-touch-refinement-St-d0cfb-tered-tap-only-lobby-at-393/trace.zip",
+      "bytes": 164034200,
+      "sha256": "182b929600034920b4d9b714bf3349b7b282548cf8e78bd68af23ea49a520654",
+      "reason": "Large trace resource bundle; original preserved. Extracted trace/network/stacks, reporter errors, failure video and error-context included."
+    },
+    {
+      "path": "lobby-return-tap-fix/runs/journeys-01/current-journey-profile-re-be56e-ve-skip-local-message-groom/trace.zip",
+      "bytes": 139573408,
+      "sha256": "22ebaab9fac5dc7493b952cf4de44eede1ebc47263342cbd3c3d675243ed2c7e",
+      "reason": "Large trace resource bundle; original preserved. Extracted trace/network/stacks, reporter errors, failure video and error-context included."
+    }
+  ]
+}

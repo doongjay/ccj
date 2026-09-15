@@ -1,0 +1,13 @@
+{
+  "game/scripts/verify-assets.mjs": {
+    "before": "415ca36acaad0c3d89318b3c51c44db19ea64569a4048805fba227b987ac0b26",
+    "after": "415ca36acaad0c3d89318b3c51c44db19ea64569a4048805fba227b987ac0b26",
+    "unchanged": true
+  },
+  "game/src/data/assetManifest.ts": {
+    "before": "563ee2725e8d37f135271d5927bd1f81f92cb7c80ea275bd6ce1ba9956f243f8",
+    "after": "563ee2725e8d37f135271d5927bd1f81f92cb7c80ea275bd6ce1ba9956f243f8",
+    "unchanged": true
+  },
+  "unlistedAssetCount": 40
+}

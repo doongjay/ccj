@@ -1,0 +1,41 @@
+{
+  "timeUTC": "2026-09-14T06:42:17.094514+00:00",
+  "command": "npm run build",
+  "exitCode": 0,
+  "sourceFingerprint": "4d81668f2c00cc177f4493e25378e72c732a92c223495fc5439162145f81996d",
+  "files": [
+    {
+      "path": "game/dist/assets/index-CeqT_DQG.css",
+      "bytes": 38946,
+      "sha256": "98d3f4920672ffa60abd0cbaf70006f0f0c23c7c01b5321e85b15d707c51f2d3"
+    },
+    {
+      "path": "game/dist/assets/index-DiXa4mxF.js",
+      "bytes": 1545411,
+      "sha256": "623289e5d07d555ee71bb8aceb51d024886980b586e97fbe2d74da056416a66b"
+    },
+    {
+      "path": "game/dist/index.html",
+      "bytes": 2336,
+      "sha256": "79697bbad37825707403d22539f2a7c2c06c5cb180c2dfc02b6a94366ec36e0f"
+    }
+  ],
+  "os": "ProductName:\t\tmacOS\nProductVersion:\t\t15.7.3\nBuildVersion:\t\t24G419\n",
+  "architecture": "arm64",
+  "browserInstallation": [
+    {
+      "name": "chromium",
+      "revision": "1234",
+      "installByDefault": true,
+      "browserVersion": "151.0.7922.34",
+      "title": "Chrome for Testing"
+    },
+    {
+      "name": "chromium-headless-shell",
+      "revision": "1234",
+      "installByDefault": true,
+      "browserVersion": "151.0.7922.34",
+      "title": "Chrome Headless Shell"
+    }
+  ]
+}

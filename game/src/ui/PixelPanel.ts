@@ -20,6 +20,11 @@ export class PixelPanel extends Phaser.GameObjects.Rectangle {
     return super.setDepth(value);
   }
 
+  public override setSize(width: number, height: number): this {
+    this.decoration?.setSize(width, height);
+    return super.setSize(width, height);
+  }
+
   public override setVisible(value: boolean): this {
     this.decoration?.setVisible(value);
     return super.setVisible(value);

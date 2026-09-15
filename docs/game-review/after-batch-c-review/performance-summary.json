@@ -1,0 +1,20 @@
+[
+  {
+    "route": "car",
+    "total": 3509311,
+    "assets": 3094744,
+    "delta": 1999,
+    "assetDelta": 0,
+    "elapsedMs": 580,
+    "measuredAt": "2026-09-13T17:25:42.049Z"
+  },
+  {
+    "route": "subway",
+    "total": 3509311,
+    "assets": 3094744,
+    "delta": 1999,
+    "assetDelta": 0,
+    "elapsedMs": 577,
+    "measuredAt": "2026-09-13T17:25:51.844Z"
+  }
+]

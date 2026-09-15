@@ -1,0 +1,31 @@
+[
+  {
+    "key": "car-background",
+    "generated": "/Users/user/.codex/generated_images/01a09129-9bc6-7cf0-b317-4ba15101dbfd/exec-9de96c41-a0e4-4115-8860-12e96dca6187.png",
+    "source": "game/artwork/sources/assets/lacitta/routes/car-guidance-separated.png",
+    "shipping": "game/public/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+    "bytes": 1522352,
+    "decodedRGBAIdentical": true,
+    "sha256": "cf6931548aec4e9cde6a7b8a202235dda1ac580d5a2123548dc2850a849b4421"
+  },
+  {
+    "key": "gray-tweed",
+    "generated": "/Users/user/.codex/generated_images/01a09129-9bc6-7cf0-b317-4ba15101dbfd/exec-8e2434b4-946c-4638-aa30-9a0dbd13b66d.png",
+    "source": "game/artwork/sources/assets/lacitta/characters/extra-outfits-female-gray.png",
+    "shipping": "game/public/assets/optimized/lacitta-characters-extra-outfits-female-gray.webp",
+    "bytes": 971850,
+    "decodedRGBAIdentical": true,
+    "consumedColumn": 1,
+    "originalPinkDress": "Original extra-outfits-female remains shipping unchanged; gray left column is not consumed.",
+    "sha256": "4e2b7ea395aa1ea97c1fbca8496c9adc390c62e86f4c3dca91b76671f77fc4dd"
+  },
+  {
+    "key": "sixth-outfits",
+    "generated": "/Users/user/.codex/generated_images/01a09129-9bc6-7cf0-b317-4ba15101dbfd/exec-69ad01be-bf0b-489f-a5ef-4cf2dda84aab.png",
+    "source": "game/artwork/sources/assets/lacitta/characters/sixth-outfits.png",
+    "shipping": "game/public/assets/optimized/lacitta-characters-sixth-outfits.webp",
+    "bytes": 999294,
+    "decodedRGBAIdentical": true,
+    "sha256": "43e28c2ddca373be3497e88e586ff9dbe7783773c51c422c66daa3bca94e6578"
+  }
+]

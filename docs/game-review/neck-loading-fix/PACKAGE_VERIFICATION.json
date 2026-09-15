@@ -1,0 +1,23 @@
+{
+  "path": "/Users/user/wedding/ccj/docs/game-review/neck-loading-fix-review.zip",
+  "bytes": 593775910,
+  "MiB": 566.27,
+  "sha256": "69ae8592af465d59f270bc698ff73c0560459c6507492dc5f2815517f1ea3377",
+  "entries": 4444,
+  "crcCheck": "all entries passed",
+  "manifestSHA256Check": "all listed entries passed",
+  "originalPackages": {
+    "docs/game-review/minimi-fix-review.zip": {
+      "unchanged": true,
+      "bytes": 253388727,
+      "sha256": "94b726c222136f5d5d2f3e76073eacf447ffdb84500713ce23b57ec10b832b27"
+    },
+    "docs/game-review/after-batch-d-review.zip": {
+      "unchanged": true,
+      "bytes": 179443825,
+      "sha256": "92567f440ea23b430f85ec3025a23e41aa4af60b45f4275d6975e73c0fa1e5e6"
+    }
+  },
+  "originalEvidenceDeletedOrOverwritten": false,
+  "sourceFingerprint": "9c989fb44f926b726b4e0a2138e6514597571f880cb5af5dc056c6bb56f84fba"
+}

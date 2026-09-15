@@ -1,0 +1,4076 @@
+{
+  "createdUTC": "2026-09-13T17:32:09.547945+00:00",
+  "entries": [
+    {
+      "path": "README.md",
+      "bytes": 19948,
+      "sha256": "059d007f2c8fca34f6951f4521508fa22927a6a0cbb4858e0720feee7c0df98f"
+    },
+    {
+      "path": "acceptance-checks.json",
+      "bytes": 6519,
+      "sha256": "3afd6b97c578875a7775f4af6ec9ba23c419ce8165e90309e840f6d85fadb475"
+    },
+    {
+      "path": "b-e01/audit.json",
+      "bytes": 1006,
+      "sha256": "faa9ed03cc46e40e1a1b571c24db039f13f5c8b6cef8571ba35389c50e442769"
+    },
+    {
+      "path": "b-e01/original-b-regression-results.json",
+      "bytes": 10822,
+      "sha256": "07243d2d314b18563e0ba208bd8751de4a9a05a890cfa7fe95f51ab8e9ff172d"
+    },
+    {
+      "path": "before/attempt-1-timeout.md",
+      "bytes": 7310,
+      "sha256": "d4035920b939f3d8b7f203fe727142d965aef8120769d4f38af5856619d1c1fa"
+    },
+    {
+      "path": "before/b-booth-controls-overlap-393.png",
+      "bytes": 465000,
+      "sha256": "d0f6409afe2805aecdd33db27bb72400d0bca617328d58689315cafd9a7773ab",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "before/b-booth-post-capture-320.png",
+      "bytes": 316217,
+      "sha256": "5fdbc8340a58524d7bbbc90ac23d4317d8a9f244d8063e3e3d37ad4f5c4098fb",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "before/b-booth-post-capture-393.png",
+      "bytes": 465010,
+      "sha256": "374be95a7a3f5c9e88d95a564fc60a3595bb71e5d57ce153e75688685fd0d2df",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "before/b-booth-post-capture-430.png",
+      "bytes": 541443,
+      "sha256": "4015e3966b29723eecfad955e41ac38fe9477684453604e67566d9fd8a87f4b3",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "before/b-bridal-post-capture-320.png",
+      "bytes": 286929,
+      "sha256": "b51474c6b922b5b7f8b1092d10c86daa4e3d8d38788fd0491fdf2c9904a17cad",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "before/b-bridal-post-capture-393.png",
+      "bytes": 419147,
+      "sha256": "6224524462dff92a28ee720ed284801777206279e218924709800fb4c730009e",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "before/b-bridal-post-capture-430.png",
+      "bytes": 518357,
+      "sha256": "16af4c28d89ee4dd0674a353078ee1487712cbd12740a9e45138030c6074f99b",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "before/b-ceremony-choice-393.png",
+      "bytes": 478499,
+      "sha256": "89ef25985cb707eddffe82fa74251ec7fc5d580b07d023e6fb57cbe1af76878e",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "before/b-group-bride-393.png",
+      "bytes": 497090,
+      "sha256": "43239ee64f2e40bee28c26996de5021558ceebf7368620c7fe9b726232008d64",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "before/b-reception-persistent-393.png",
+      "bytes": 489273,
+      "sha256": "93d97eff4ccfeff75b28a135800b9439c62585bf975c52a71c86af1f17a0fcf5",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "before/capture-results.json",
+      "bytes": 3128,
+      "sha256": "c46b5657dc85ff025ddfc30bee033ca753f8d1031c7984bcadf2fda0c21b4d5d"
+    },
+    {
+      "path": "before/capture.json",
+      "bytes": 279,
+      "sha256": "7efd63a8e7caf075acfb0244862a2820db89f6c44e0c7e1d8208b05ff54ec075"
+    },
+    {
+      "path": "before/source-metadata.json",
+      "bytes": 5632,
+      "sha256": "79a208a44632433037cde20f4136cd15d1bef3d95904bbd4585d72053be9f913"
+    },
+    {
+      "path": "ceremony-01-reconciliation.json",
+      "bytes": 10187,
+      "sha256": "6a8f2e2b595cb64ee35375b409d854ceedcef00ee6e7a6e2f0bbe70f798cac88"
+    },
+    {
+      "path": "ceremony-01-reporter.json",
+      "bytes": 24069,
+      "sha256": "17df97563af33f3c432c00be278d0bcd893048fbf2488eb64ffd790f8eca89f4"
+    },
+    {
+      "path": "ceremony-02-reconciliation.json",
+      "bytes": 10259,
+      "sha256": "c0ee81ed330e5b21efd013967873a759ea38b532da94c6fed909c05b22c0f72e"
+    },
+    {
+      "path": "ceremony-02-reporter.json",
+      "bytes": 24212,
+      "sha256": "3a62e4ca645d7aa8b230c0fac477ff95d4d2c036540a039f41046da68f071313"
+    },
+    {
+      "path": "ceremony-03-reconciliation.json",
+      "bytes": 3233,
+      "sha256": "7a4e3c9801c81cb50ed19153bee86e6e9720b8435b7f5c7a1599da99dd115b6f"
+    },
+    {
+      "path": "ceremony-03-reporter.json",
+      "bytes": 6635,
+      "sha256": "c9fb03c7b2a31e3d9b319299b828c6b145cf2bf127843c8e3b9f52485213c068"
+    },
+    {
+      "path": "ceremony-applause-events.json",
+      "bytes": 3445,
+      "sha256": "66c3ce7a4b250fa959fc65dc924bb625f86cd0b285c2347855c039eff8fae9b5"
+    },
+    {
+      "path": "ceremony-cheer-events.json",
+      "bytes": 3374,
+      "sha256": "c2b92302f2adb114380c45b9964b1a0a8fdc4e7dee65a9f6409889bf43cba916"
+    },
+    {
+      "path": "ceremony-compact-events.json",
+      "bytes": 3403,
+      "sha256": "c90fff10d88b91f606c97497ffe7067b905fb58344d6a3c0401f6fc4ed5f98b6"
+    },
+    {
+      "path": "ceremony-reduced-events.json",
+      "bytes": 3402,
+      "sha256": "059422cc46bbefb860cc8ca27024f915aea115a5e93f931a8ee65bf500e10505"
+    },
+    {
+      "path": "f11-applause-response-393.png",
+      "bytes": 534335,
+      "sha256": "65484752c18228cc8849c3f5094fd403e79cabd1f527434f81dddc76d0251079",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "f11-applause.webm",
+      "bytes": 4967380,
+      "sha256": "3772410bebe6e5223800cd82c0dea3371be4be3ba9bc46dc0f0cb541ee78fc51"
+    },
+    {
+      "path": "f11-cheer-response-393.png",
+      "bytes": 531196,
+      "sha256": "e05b0c5043f6cf6af4d249ced914121f06d5120939e75d841822e7e55086ae2b",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "f11-cheer.webm",
+      "bytes": 5420198,
+      "sha256": "51ed6618b10f8bbd307085b0c5ba5301ef4d8133d62bf7e32250ba0d15525102"
+    },
+    {
+      "path": "f11-compact-response-320.png",
+      "bytes": 363753,
+      "sha256": "674fc73c17d6f8bbfb59de7a72e1366793f789dbacb1c3a2263d7e97bbe6c3bc",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "f11-keyboard-bride-desktop.png",
+      "bytes": 1165601,
+      "sha256": "14e3d14ce9f402fe063f1b4988f81cb34acab5abdd7346cd31516f53a120f627",
+      "pixelSize": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "f11-keyboard-groom-desktop.png",
+      "bytes": 1170252,
+      "sha256": "5c4df40b379036f8a713b40e3c8c5fecfa729401bb2a3938dc910fe550d5bff7",
+      "pixelSize": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "f12-booth-controls-no-overlap-393.png",
+      "bytes": 474630,
+      "sha256": "ce4bb8d2db0af650ce1280d0f82f2dbcf2bff6278fb55d8a2a04bbf698e10149",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "f12-booth-result-393.png",
+      "bytes": 300879,
+      "sha256": "167073466e56d4dc4f56b00fd98ba402a7e39f9026421fbe4a0ecf8f278e53c0",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "f12-booth.webm",
+      "bytes": 9212460,
+      "sha256": "60b35bb2f194b44144d2009827460b469802d4c52321d8d2bfa87ffea07553e1"
+    },
+    {
+      "path": "f12-bridal-result-393.png",
+      "bytes": 282528,
+      "sha256": "2b5eb5579cd73c67a6ad50037ad7b6ea91770d2a8b38c534b5f5d9497e170ec1",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "f12-bridal.webm",
+      "bytes": 7618128,
+      "sha256": "b1e620bacb90b24ef72966628abae7f9c92b95d89f5dcd3d57143e585939f27a"
+    },
+    {
+      "path": "f12-notebook-keepsakes-393.png",
+      "bytes": 359208,
+      "sha256": "7a7a56cf4ce24fe09508bbacd84a6974e510110a556ecf43d6e28863e1ab5f33",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "f13-booth-result-320.png",
+      "bytes": 211811,
+      "sha256": "7912d75b59193e7621421ed89b2363e387c2b1bb98d9013ed3cd6a63af3c585d",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "f13-bridal-result-320.png",
+      "bytes": 196994,
+      "sha256": "0656d94bb6e5dd51e54f6e8fdb4759a72fb7d232f801d139248a3d22437ae380",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "f13-bridal-result-430.png",
+      "bytes": 318988,
+      "sha256": "11b291538c4e939d35bbafab9d0a478bcbc764960b155faebf22c4b263273f18",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "f13-photo-result-430.png",
+      "bytes": 343268,
+      "sha256": "1c38b8f228485130a43dac109b659df80b1da25239d09f7175b0e413124fe1c0",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "f14-group-bride-393.png",
+      "bytes": 466495,
+      "sha256": "5940c1b099463d55a0d709fcc5efbb107b6c1287c22faf9c96e1a10ce773f824",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "f14-group-groom-393.png",
+      "bytes": 466722,
+      "sha256": "a9cb467e44fdd33827c94b8dcac511db722c603a6442be5e914ff7f879a4ae33",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "f14-group-reduced-320.png",
+      "bytes": 1437294,
+      "sha256": "328fb9821f3569b48fe86ca0dd2c4b568c031cfbf1461a33a934465807c64119",
+      "pixelSize": [
+        960,
+        1704
+      ]
+    },
+    {
+      "path": "f15-lobby-revisit-no-banner-393.png",
+      "bytes": 516358,
+      "sha256": "3124f03c32a7215d7f4e254968b37fc293f2570f375f07b029ee0450d92c3537",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "f15-reception-acknowledged-393.png",
+      "bytes": 492152,
+      "sha256": "9c3d2a57972a023809d246fa1599b8fba9311669b630c6b2d7e3842b382cbb84",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "f15-reception.webm",
+      "bytes": 10893132,
+      "sha256": "11eaf366c8e1c855286d4066601fbf0123add5bf3baa684ea793fdcf505bf98e"
+    },
+    {
+      "path": "final-verification.json",
+      "bytes": 85803,
+      "sha256": "8fd296abb93681dbff59985a944e5eeabbf2c6d85d9bfd8d3d7f31b87767052c"
+    },
+    {
+      "path": "keyboard-photo-result-desktop.png",
+      "bytes": 830010,
+      "sha256": "42b8c5f5b9d1c4f58626fe48436cd6565b057b7df7c86962e272394d8a8fc4e9",
+      "pixelSize": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "legacy-asset-check.json",
+      "bytes": 486,
+      "sha256": "2bb07d6d3ba46e50d62ba5a0a2363535708e8d3f13be268a74ac33b9d359403d"
+    },
+    {
+      "path": "logs/assets-01.log",
+      "bytes": 9518,
+      "sha256": "f932a7f72a79401b1e50d9c5915d4767baa6d90049ed59bb64999406055f929a"
+    },
+    {
+      "path": "logs/assets-02.log",
+      "bytes": 3253,
+      "sha256": "d08262e463a4164120644cb8efae4bd536d6d4755aeebef8ecf03955249013de"
+    },
+    {
+      "path": "logs/build-01.log",
+      "bytes": 843,
+      "sha256": "0e63aa9d64280620cff41d0b65de92cbde0df81805cdb3c4bde61717ca3fbc1a"
+    },
+    {
+      "path": "logs/build-final.log",
+      "bytes": 843,
+      "sha256": "f15e5a3fa256432fb69da6cb2c9e028a2100aae129eeca6718ddd87aaf7f9799"
+    },
+    {
+      "path": "logs/ceremony-01.json",
+      "bytes": 24068,
+      "sha256": "b56f544b8ec00e09de154c8ed6c7df22a69f2233d946ae7365a8da014190ebc2"
+    },
+    {
+      "path": "logs/ceremony-01.log",
+      "bytes": 7349,
+      "sha256": "f23e320d09cd44691810c9469cc636f619dc2dd2c05a42682c227d32df1c2177"
+    },
+    {
+      "path": "logs/ceremony-02.json",
+      "bytes": 24211,
+      "sha256": "0f5bf14890f0314f9b5637ec4436984a5a26024ca0ed239a4da891d580bc6450"
+    },
+    {
+      "path": "logs/ceremony-02.log",
+      "bytes": 7423,
+      "sha256": "32f8fac328b311eb24aebdc768b4dc4436d474785b20cf7fa13464bc0dcb105d"
+    },
+    {
+      "path": "logs/ceremony-03.json",
+      "bytes": 6634,
+      "sha256": "acaa55d6a0ae90d2c524e6dae1a4349d481672be047f7d1693893905ccd85c29"
+    },
+    {
+      "path": "logs/exploratory-photos.md",
+      "bytes": 1278,
+      "sha256": "d92bc65b2ed49624a4014e9dc819e5b5481420097d7bd68d5eeeb0e3e00be7e0"
+    },
+    {
+      "path": "logs/finalize.log",
+      "bytes": 2189,
+      "sha256": "8d3615f888d21e2ffbdd6e286a88f8fa23be5b19521c60db1328723f1dde27ea"
+    },
+    {
+      "path": "logs/production-final.json",
+      "bytes": 34471,
+      "sha256": "f835d2618f528da2eafe63160e413d2b6e2501236fe760dba78f7530c5987b36"
+    },
+    {
+      "path": "logs/production-final.log",
+      "bytes": 3021,
+      "sha256": "ba543a8143b9624353361e5026b524a1c6455de9b439ee38c8293addceef1c08"
+    },
+    {
+      "path": "logs/reception-01.json",
+      "bytes": 5443,
+      "sha256": "180b3d975063c0619dc76d3b65f5b51eee14e9bbf32d6c5ee480d5d71fa4a8ad"
+    },
+    {
+      "path": "logs/refinement-02.json",
+      "bytes": 663455,
+      "sha256": "db9c074148e4d792917287a624a0c2696663218279154c0a2634e7f0b0edcca6"
+    },
+    {
+      "path": "logs/regression-all-01.json",
+      "bytes": 17286858,
+      "sha256": "c379427af49a4d22f4b56a563bd861e76476989a76f75d643b0543a5101f3b92"
+    },
+    {
+      "path": "logs/regression-final.json",
+      "bytes": 17300989,
+      "sha256": "1659a7042d1b9641787bff011dae5d6ea50e2b49c0108d22a14d6a8e770ce5e6"
+    },
+    {
+      "path": "logs/regression-final.log",
+      "bytes": 14130,
+      "sha256": "6bbce2eff29c76e2007d310e80228145a26d46857cb5ba3155d7f84dc8e76a67"
+    },
+    {
+      "path": "logs/video-export-02.log",
+      "bytes": 441,
+      "sha256": "8f28d241476c380202e6c14cfbdac2d0629871a73bd15de1ae9555d2191a3521"
+    },
+    {
+      "path": "logs/video-export.log",
+      "bytes": 1636,
+      "sha256": "3c0d1510e22ab7f6b95174daf022645f34d0951e0693040a12317049cb0d3010"
+    },
+    {
+      "path": "logs/video-final.log",
+      "bytes": 1310,
+      "sha256": "26d6cb5e4833ce87ff03e6849a4960da0ef937922c2535a801ba0936c69db809"
+    },
+    {
+      "path": "performance-summary.json",
+      "bytes": 367,
+      "sha256": "054db458273513be85be30b48f70d2fb9a735012d14e97f1176dca9ef40a7c4f"
+    },
+    {
+      "path": "photo-events.json",
+      "bytes": 16779,
+      "sha256": "e03ecb91e6d6f076f5f2b531f1781b0f1cc09c3ce60d50ad1ab221a3de86b7e8"
+    },
+    {
+      "path": "production-final-reconciliation.json",
+      "bytes": 10564,
+      "sha256": "76901d031a57eeec797b5d49a3eb28767fba8af19aa35c2bd07f7ab37bf58e95"
+    },
+    {
+      "path": "production-final-reporter.json",
+      "bytes": 34472,
+      "sha256": "43ce096d3240c10751b50764b29cae4d06b0ff98f553ba5a6d0a93537c4deae0"
+    },
+    {
+      "path": "protection-checks.json",
+      "bytes": 946,
+      "sha256": "aed81ded3a33555ac1f6668acf653f1cf9d8645a06575c3e1e34da673ccff152"
+    },
+    {
+      "path": "reception-01-reconciliation.json",
+      "bytes": 1734,
+      "sha256": "e8072813eda6c6545782ff14bdf48a1387a7c6552829a9a2e0b26898adaaaa79"
+    },
+    {
+      "path": "reception-01-reporter.json",
+      "bytes": 5444,
+      "sha256": "7ca13e3f08f646b48d5297c9392e4c9047a62588345bece39264a2fe0b330783"
+    },
+    {
+      "path": "reception-events.json",
+      "bytes": 1693,
+      "sha256": "07dff12cd268747035b8cdbba223816bc09c7c25fe51253bdd63b296457f22dc"
+    },
+    {
+      "path": "reception-pause-events.json",
+      "bytes": 1318,
+      "sha256": "36389a53da1117c6f478e344586057c5b375d887c0e8e6cf02bb7476f710d088"
+    },
+    {
+      "path": "reduced-motion-response-393.png",
+      "bytes": 1927562,
+      "sha256": "40f95fea0693ff37ff078780e4988d7ff762952486940c85fc6ada676a00276f",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "refinement-02-reconciliation.json",
+      "bytes": 8900,
+      "sha256": "b26dacd3b0370e1ffe6b4327a9e87c76000ccbaa1711baf9343397457b94eb4a"
+    },
+    {
+      "path": "refinement-02-reporter.json",
+      "bytes": 31254,
+      "sha256": "350f8218485f9e940ae3830121088c3aa3e49074005cb8564febfe239f5e80f4"
+    },
+    {
+      "path": "regression-all-01-reconciliation.json",
+      "bytes": 75217,
+      "sha256": "7938f0df86e46f5b46a9a9fa495b01a7d710e6c4c7086954e52fae00e1c40744"
+    },
+    {
+      "path": "regression-all-01-reporter.json",
+      "bytes": 213618,
+      "sha256": "13593cba6c2fcedb87137ed216e401087acdfabfb3fcf20034284ba1f28ae7c9"
+    },
+    {
+      "path": "regression-final-reconciliation.json",
+      "bytes": 64276,
+      "sha256": "aa09998ad23ebb62c8965d48c38327217640167d2262c1e2883ccd27e2d5c321"
+    },
+    {
+      "path": "regression-final-reporter.json",
+      "bytes": 203957,
+      "sha256": "88a7c81504b0a54624a7e991ffe7659958f013d8e9721976cd250914ad572ce9"
+    },
+    {
+      "path": "regressions/f02-invalid-wall-tap-393.png",
+      "bytes": 516404,
+      "sha256": "ee7dd47eda0d27d587b882ea82cfae833935714d5356ebaa1db536f5d9586f88",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "regressions/f02-valid-edge-route-393.png",
+      "bytes": 515910,
+      "sha256": "99d4c02df2ddaf3b10a1da1f474415136af6b2c8d06c08428e5192225b2c9cb8",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "regressions/f07-car-guidance-393.png",
+      "bytes": 400145,
+      "sha256": "c7f5cc8df6c53d79522c781e01817108e67212fd6ab75379094c4ddd9501112c",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "regressions/f07-car-wrong-retry-393.png",
+      "bytes": 392042,
+      "sha256": "0a026d5e106fa703615a6d02f7f0acc03de6c2f72d0264acc781f886cd3f88f8",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "regressions/f07-subway-guidance-393.png",
+      "bytes": 317646,
+      "sha256": "81d358abcb364639ece657530c4a702d2f968d7e6b52a9cd1e3443793a811c55",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "regressions/f07-subway-wrong-retry-393.png",
+      "bytes": 318416,
+      "sha256": "d8136b0ae0687831a4663af8002d4a9c0329c3375039d300995d02f454d260af",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "regressions/f08-ending-skip-message-393.png",
+      "bytes": 206408,
+      "sha256": "873fb619437aa7f74df1e8623637dff565312cbb1a99f9877d2efa5b0f82b8e4",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "regressions/f08-invitation-access-lobby-393.png",
+      "bytes": 516318,
+      "sha256": "03445769250483cd7feb20173205203b0ab52f472c250d9c1028efe17c6625f8",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "regressions/f09-later-load-retry-393.png",
+      "bytes": 10093,
+      "sha256": "875872bb61d681ff14406f06c9dabba90534e80fe67b7e1a64e998d131ce56a4",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "regressions/f09-opening-loading-state-393.png",
+      "bytes": 7192,
+      "sha256": "010800279208cc8f65a29be3824bd0c2f37b31e66b4c5ee59d73fdd26833d531",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "regressions/f10-intro-keyboard-focus-desktop.png",
+      "bytes": 1143341,
+      "sha256": "1cfcfa308e3fb8530b6515a3fa6546a7099b0498938d9a7a182970f34e9e9a54",
+      "pixelSize": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "regressions/f10-lobby-keyboard-destinations-desktop.png",
+      "bytes": 922514,
+      "sha256": "16509c1f4bebb852db686d6c163ca8b63da65a2b97a201210cfc6571094c56cc",
+      "pixelSize": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "regressions/load-recovery.json",
+      "bytes": 379,
+      "sha256": "433bd07d92830d1a0926e2ddda7465aa300f22bbbd4f04baa9d3d0021bb167a2"
+    },
+    {
+      "path": "regressions/performance-car.json",
+      "bytes": 7342,
+      "sha256": "083727c54c9b74993f51c591031b06d168f471280a7a50b091aea7c29b664e36"
+    },
+    {
+      "path": "regressions/performance-subway.json",
+      "bytes": 7331,
+      "sha256": "3f63c5b6dee114c545d0b7dceca3a8ddc706f4d10b3564c1a870eb51da25c423"
+    },
+    {
+      "path": "runs/ceremony-01/.last-run.json",
+      "bytes": 194,
+      "sha256": "5f1ad4d84e3aa8b6a37d062635df70aadb96508290b3ff5502c1e1c176348af7"
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15260,
+      "sha256": "9f247cea94035417d6de97e0c5ff0c5b406bcbcea5f62c2f46c1848b061a628a"
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@d8012043ca2f8b0a867f03532f2a31dc.webm",
+      "bytes": 2097152,
+      "sha256": "084f0bc12a47ebbd835093a5381f5946c3658ce881ec5ca2745c181b0ce0739a"
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15142,
+      "sha256": "ceacd15336840ee8c7f2279f24e6135afc4387d8754d763089ff706a5617367b"
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@13319a38c81dcdce33a0c48e1993d8dc.webm",
+      "bytes": 4077173,
+      "sha256": "72664e5e917541a960f19e7eb313bf3c409723f02fe0a5a976a16ec1a02ccf47"
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15258,
+      "sha256": "e7831ffc55d30382043f6b1a33a96fb1fda481202babd494b832eaa18460daa5"
+    },
+    {
+      "path": "runs/ceremony-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@344cc163bba3f107a6caea73f014c378.webm",
+      "bytes": 2863215,
+      "sha256": "00ac1459c8b006c686919b5841010f6c81757f4338f00b9686f33dc55a0f804b"
+    },
+    {
+      "path": "runs/ceremony-02/.last-run.json",
+      "bytes": 194,
+      "sha256": "5f1ad4d84e3aa8b6a37d062635df70aadb96508290b3ff5502c1e1c176348af7"
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15260,
+      "sha256": "157893fb0c36a46d100ffc26bf1d38bb912a1d80b6b05d8c11dbb5284e71d208"
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@d04b655bd6167b451c21e9f718dcf056.webm",
+      "bytes": 2097152,
+      "sha256": "d07ea51ce36294db09468636182b64082ecb00b5ee00a63a04fa4154aad5f88e"
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15261,
+      "sha256": "019c21a4b89e99c88933ebfda9c79d2433b40fe55203a8f42785c4b2fd3495ac"
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@feaa78437c33e5daf5205d4eacc77fb8.webm",
+      "bytes": 4052700,
+      "sha256": "c35fc8f6ae2e3bd6b5cd37c3898b007f65ff7bee9ea48f85f60cd83e2a00da88"
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 15258,
+      "sha256": "42717e9d38c63568d069e1a2654928f497b454ce61c7b1b3bca65618239c0e1d"
+    },
+    {
+      "path": "runs/ceremony-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@2168d48127d5e9b2cf8a2400cb7ac7b1.webm",
+      "bytes": 3066445,
+      "sha256": "23aea05c0f198aee08c78f1eca3b7fa05038fc9ff5c533604eddc5739dab435a"
+    },
+    {
+      "path": "runs/photos-01/.last-run.json",
+      "bytes": 96,
+      "sha256": "6819c2b8e9e376acaa82272ecb0d8878766914c1819444c778749d23b8bc60d0"
+    },
+    {
+      "path": "runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/error-context.md",
+      "bytes": 10172,
+      "sha256": "e3ccca2c9803d3e64fbe71f4eb7133611baa571563d5000dd0597e1d02e10d7e"
+    },
+    {
+      "path": "runs/photos-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 2644502,
+      "sha256": "dfaddf0d21b69df38a2f29be2632b62162f54625bd65359a54cde03d2575544c"
+    },
+    {
+      "path": "runs/photos-02/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "runs/photos-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 5332114,
+      "sha256": "28aeea33b02c2860fb20920a545cac11a6b199dfa9e78126b85e02937bbe988c"
+    },
+    {
+      "path": "runs/production-final/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "runs/production-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium-production/video/page@e2a3774ba028db7ab5c3e506bd446624.webm",
+      "bytes": 3617933,
+      "sha256": "ca28c818cae4d826908f41e7f7a4eb57ff9e52c3695004f24f49466ec95ece2d"
+    },
+    {
+      "path": "runs/production-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium-production/video/page@991b393e8f92797facf02ca902c4efa3.webm",
+      "bytes": 5069063,
+      "sha256": "bf597715bbb365d2b6b8131709830c67730df6ee2f6cfd743ea4dd7439092546"
+    },
+    {
+      "path": "runs/production-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium-production/video/page@9ff15cb6915638b3e33363d5119047fb.webm",
+      "bytes": 3648875,
+      "sha256": "0d9731226ac946d359ea6086ced30cc6e183d4c41bb5f150524c5cba98d04436"
+    },
+    {
+      "path": "runs/production-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium-production/video/page@7659c9232747feb45f29610b7c61316e.webm",
+      "bytes": 3904454,
+      "sha256": "8f23f23ef81da38e4af49d5e15b55fc5da3d5bf6eecd3cdff449426a2b60be80"
+    },
+    {
+      "path": "runs/production-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium-production/video.webm",
+      "bytes": 5220234,
+      "sha256": "854a95a1c290a5d94be28a748309595c7c2382eb044ec77104f235d18657590f"
+    },
+    {
+      "path": "runs/refinement-02/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "runs/refinement-02/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/groom-reception.png",
+      "bytes": 486437,
+      "sha256": "69c3de3c8ad43eea497f7b9be19558b79b05316aedc48e5fdb942cc62fb390d3",
+      "pixelSize": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "runs/refinement-02/reception-only-single-rece-6f818-movement-and-completes-once-chromium/bride-reception.png",
+      "bytes": 486306,
+      "sha256": "48f9f5e5bb12f75a2e8248aefa575aa33100fcde1d8796b41fc729bf3ff9536c",
+      "pixelSize": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@f170e480bc3d1ebeacb6e52af1759af5.webm",
+      "bytes": 5228328,
+      "sha256": "94c6d1a83c80dee2f9847a6c43805098bb4687bffdc695b0a16bd6bc3b5a25d9"
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@7624ddfd2d7e9dc41cb8af42bf87eb40.webm",
+      "bytes": 6808324,
+      "sha256": "e55501e53aaf1e63faa10b7f8582cc6edfe0bd89e1f09fe32032e0c353ff3482"
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium/video/page@bd266f5d6a376f598815bbe87e7859a9.webm",
+      "bytes": 5493605,
+      "sha256": "bec7ee06ffd69b054b0c6af187a04f53c6ca9eb5c4e20e9c881a4fc575a2023e"
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@feac90e2fe35c66f7e50fc81109106c7.webm",
+      "bytes": 6092688,
+      "sha256": "92c5fb8a1566df9b3e95b941a2eb516c44b283bc14fbac6e6f9bc912de5fbfe3"
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 6196228,
+      "sha256": "de3a10a1631557e515d1d806d78be91a3958af173f4338aee5a9d28ddf374c1c"
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+      "bytes": 2540527,
+      "sha256": "f5261f0bcba3e3677e681b1adfcbb81685b93c763bcf38e9ce7b274d197adf41"
+    },
+    {
+      "path": "runs/refinement-02/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+      "bytes": 2964607,
+      "sha256": "17f4429f875209b986d4de594e3a4dffe613fcc43d7026b3e34433af85a4fd71"
+    },
+    {
+      "path": "runs/regression-all-01/.last-run.json",
+      "bytes": 341,
+      "sha256": "98aebe86c6af2f7b1b792f64567a55a87d2a4ca4b777ada75864086eaac1e8a1"
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/bridal-seated.png",
+      "bytes": 419007,
+      "sha256": "ead706d41cb9514493c165a0c8a25e22e068d15833dcaf11aa5041848bc41f32",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/car.png",
+      "bytes": 408930,
+      "sha256": "c6d77b4b530dc7f61a888fb123cbe2d639b658bb93666ba755ba00b2c83c320a",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/group-photo.png",
+      "bytes": 496894,
+      "sha256": "6ee649921e7652d21aaf36b820066add04ebabc6d0520a495742fba45fd6e8b6",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/lobby.png",
+      "bytes": 516277,
+      "sha256": "665c952c96b394df359bf043c879475afce52b4d3af493d6cde8684f7e16d3c6",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/parents.png",
+      "bytes": 401374,
+      "sha256": "87f64ad3337c2d86b3be78d7e10a1e53599af7a3441cfcfddefa23bd31d92561",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/v-pose.png",
+      "bytes": 474636,
+      "sha256": "3a5d0749fabca12ec819aa4b94343260669e3d6934d4fd06328ed9f493a3097f",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/car.png",
+      "bytes": 329808,
+      "sha256": "a1b8fb63fa11d39bcbb3432b8f49e0a14810624b93954dace1b442e12024713a",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/group-photo.png",
+      "bytes": 497480,
+      "sha256": "d3beb99a0e10d7b6ef3ea13669610945ec9ff02f3736b15ba902267d2fa01ab9",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/lobby.png",
+      "bytes": 516339,
+      "sha256": "7bb64229457a61d624b82257a060c3d485d728a046be7d07bbd0be9e6cce0df1",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/parents.png",
+      "bytes": 394746,
+      "sha256": "18ccd7ac5d82cc9be3429a54971668fa4088ae53836717c74131dccceab1750c",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/v-pose.png",
+      "bytes": 474625,
+      "sha256": "91c56054e96e2454a8a5a84d09b8090c481f76e82c000cd5c4a5dffeb43f0323",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/dinner-pacing-banquet-trav-8409b-parture-stays-at-the-buffet-chromium/departure-at-buffet.png",
+      "bytes": 483177,
+      "sha256": "30d4e28a2560759f08fd5b14d703f4eb21347520162cd24ceedb9dc2345867db",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/family-chrysanthemum.png",
+      "bytes": 39725,
+      "sha256": "86abf046d4208ae853f3a4501a092f14845b9451f010a3042c979a8bc3dc27d1",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/original-photo-countdown.png",
+      "bytes": 199470,
+      "sha256": "1e0b7e97f07c3d968744763cae5aeac3fefc8c3be3a03703de860297bac07cae",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/family-chrysanthemum.png",
+      "bytes": 54414,
+      "sha256": "eb1e61813a0f7f12a226b17cf6de66b4a24b9b1a2f08205c3ea65542047cd73f",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/original-photo-countdown.png",
+      "bytes": 239862,
+      "sha256": "2d78bf566e7bd14d299290d362c551493f5fdc99ff55a248b01c6b4357d218ea",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-game-guest-keep-be038-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 34075,
+      "sha256": "20a78c9085d34c3632901aa5bd5fbd5994028be119bd6d499fabb23c0038a51c",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-game-guest-keep-cf9e3-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 33829,
+      "sha256": "1a01632708092996c9f3ad7297d581c4ca0f96b4645eeff80aa3fbe42bed58a5",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-minimi-group-pa-52609-without-covering-the-couple-chromium/minimi-full-group.png",
+      "bytes": 187125,
+      "sha256": "8a58d0a8130b0dcc3e93bc378ac7a5a91ec61a511cb7a3b59c17be00b4a93e04",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-bridal-room.jpeg.png",
+      "bytes": 139020,
+      "sha256": "ce74e408a70f70c5a9270a44cf90938c110e48b78c639b215ed14fcf0f4f4152",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-atm.jpg.png",
+      "bytes": 164273,
+      "sha256": "c5c877f621409b429f63c39f275ddf287f8bed4e065cda7702b89b7980f405b7",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-banquet.jpg.png",
+      "bytes": 175744,
+      "sha256": "703db01a0f2ec5de69f1fad037016e56a002b856021d5c8a708d83cb74d5c210",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-photo-booth.jpg.png",
+      "bytes": 174240,
+      "sha256": "516c6672ead9ace4cd56a06cac203cbdc7f0afc4c351d074713c4ded994308ea",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-welcome.jpg.png",
+      "bytes": 169189,
+      "sha256": "65e32dd3f6c1934d0dad5acd6bebc333871c6d03d5e6c919f754cc69a10bc63a",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-bridal-room.jpeg.png",
+      "bytes": 109305,
+      "sha256": "08492e77fc645e04cae5ab5deb7ac439db9b0b212f2fab8f1fc433bfea6c09c5",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-atm.jpg.png",
+      "bytes": 118477,
+      "sha256": "bc0ce1e128f28c61464b770ff46df23cbf8a9300e22fdaf981c361c70c0b77d8",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-banquet.jpg.png",
+      "bytes": 136043,
+      "sha256": "cfceb0b6fafa11131f6239140a77de0a3f62c7dc444fb5ceb6fa2409a8437b9f",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-photo-booth.jpg.png",
+      "bytes": 122497,
+      "sha256": "1bb9c09d689dd91ffe62075a5ab57e32886a5c43b010f85777917e5f03ad46ef",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-welcome.jpg.png",
+      "bytes": 117664,
+      "sha256": "698710c4d3d97ad3d5597f7f6d74e1eea46a8c807b4958186093eabe4d505250",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-profile-cards-stay-inside-the-game-at-1440px-chromium/profile.png",
+      "bytes": 627350,
+      "sha256": "82648f39ce5eb20181d5c55e3e88666328e4a725cd9372606df0b68b75a13c0d",
+      "pixelSize": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-profile-cards-stay-inside-the-game-at-320px-chromium/profile.png",
+      "bytes": 128210,
+      "sha256": "57e03e157af4c7a22e6d34188e6e12d5a524a70184e63d64926257e5bc52bd16",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/message-postcard.png",
+      "bytes": 35412,
+      "sha256": "e3b57a29a502928bd627b8e0b5b8c3d5ef791185f93fc1afb329f3353c7d11cb",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/thirty-friends.png",
+      "bytes": 194517,
+      "sha256": "308fc853aa4e8871308ee1987647f85f6b28afb428059c4988728dc4c924d675",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/character-selection.png",
+      "bytes": 148694,
+      "sha256": "a61c8112695fa5efabeb30d8f8f4900dfc7c4e7b210bd929ffa8884b0b3e6ae4",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/gallery-carousel.png",
+      "bytes": 117534,
+      "sha256": "f003c898e2f6c7fb186b8e230e8d68eaad56b88a9db922ad63655d9f9fa900e3",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/invitation-cover.png",
+      "bytes": 146118,
+      "sha256": "960eab7de1d5124c2d95c6ed924248ffa78c4bbc0f2334df8e31807c167fb641",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/character-selection.png",
+      "bytes": 213869,
+      "sha256": "49d6adb75a72ff49d393cfb5bdd1b257d6a77765218185e61a926473e418a7b7",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/gallery-carousel.png",
+      "bytes": 161061,
+      "sha256": "dc23e892f293350d4ba847b70060e1540cb5fda3845d7061054d40d5ec5d1174",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/invitation-cover.png",
+      "bytes": 169424,
+      "sha256": "2e295d09ee3e6e63331f927e407ad4de56b25424d56eddf19830201c5e238ab2",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/female-independent-faces.png",
+      "bytes": 6852,
+      "sha256": "c4bf6bf120b03a27fb7e0ef8444dbbb51037415f7d394f6687889127583c26c0",
+      "pixelSize": [
+        1152,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/male-independent-faces.png",
+      "bytes": 6852,
+      "sha256": "c4bf6bf120b03a27fb7e0ef8444dbbb51037415f7d394f6687889127583c26c0",
+      "pixelSize": [
+        1152,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/blue-pink-accounts.png",
+      "bytes": 34910,
+      "sha256": "2337b6b9597cd90e714c0de13216bb9e0f45271ce7e13bae5050562549a4826c",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/parking-shuttle.png",
+      "bytes": 45356,
+      "sha256": "ed3ad6f1cb2b4b606b0ce4809d1f61a4d312899e313cdbbd2dd3b045f21ee2cb",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/venue-map.png",
+      "bytes": 57702,
+      "sha256": "a9be46caad55c8bfc30eaf4359fcae67d43a91e59fde51cd4894d81c38eeb4f0",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/blue-pink-accounts.png",
+      "bytes": 34445,
+      "sha256": "d8a20af5ceb696c8f9c162a299117be138c719a01e7ab34f9f8c6c7582f0cebb",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/parking-shuttle.png",
+      "bytes": 46713,
+      "sha256": "72b0d900ac93af7e15bd1ba4f96b392d5210f08388564bad0f601a829a3764d4",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/venue-map.png",
+      "bytes": 65506,
+      "sha256": "cd55cf0675613c94868ea4c5e4a9210780b2e67f752add044015743fbe95a121",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-sharing-share-c-ae8d8--image-in-the-original-HTML-chromium/share-card-formats.png",
+      "bytes": 198803,
+      "sha256": "c25a6b54d8d2e3203d95f77d49fdc7f5246e2b26c0cb49a73645d15ac37b92e6",
+      "pixelSize": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-main.png",
+      "bytes": 170009,
+      "sha256": "18c1623c09e957b2ad844ce75c0c21f64b83ebcf250138859670d2c6881b7920",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-minimi.png",
+      "bytes": 206942,
+      "sha256": "907242f7d4dbd3ce5b992b6dbb1cabb6cf06e23e73eb3c6e799df6c229861638",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/garden.png",
+      "bytes": 1547796,
+      "sha256": "259ba4608fad03a36b28cde286755f29fddabd6ac72c1874548c0ada1338271c",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/lobby.png",
+      "bytes": 1875466,
+      "sha256": "947c868011d126b903c3a80659d7ea9490c9d5f45cab487e2e8d6eb8a133dc54",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/lobby-required-only-unfini-03ac7-ock-the-ceremony-and-dinner-chromium/buffet-mobile.png",
+      "bytes": 473208,
+      "sha256": "9e59006e43145cb5792373a7b147a62e4c2b602d05cb128e0664ecdd48743bf1",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/lobby-return-bride-explore-711ad-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 516311,
+      "sha256": "51cc12ecbc98867f376378ae15dbe81019df459fc1447cbab31314bae7fbc459",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/lobby-return-groom-explore-7f5d0-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 492203,
+      "sha256": "5686f731c70906732ae1f4e668e285fd3ebf89b54368d674616a353fadfa896e",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-customization-direc-57186-d-all-five-outfits-at-320px-chromium/original-panel-independent-parts.png",
+      "bytes": 163763,
+      "sha256": "26ec299a0cb9f681d69157ac64a2fd8b7917bd174975d582b8efddcf3adca6fa",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-customization-direc-b8329-d-all-five-outfits-at-393px-chromium/original-panel-independent-parts.png",
+      "bytes": 247060,
+      "sha256": "3bccdcdfd74ba62262dc62e8590262b093d2058f4a50951d5e339d0dbbfc3279",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-jaw-finished-minimi-a874a-s-have-no-jaw-or-neck-seams-chromium/chin-closeup.png",
+      "bytes": 32889,
+      "sha256": "b9957ae44ba2f8ccdb423f88ca8f21c91237b76b5467bba3c453badc2da150c5",
+      "pixelSize": [
+        768,
+        576
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/female-neck.png",
+      "bytes": 249784,
+      "sha256": "f1ff7301b2f7906a2abadb197fedc00ed258905ea35a6293350e042053b4afaf",
+      "pixelSize": [
+        1920,
+        864
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/male-neck.png",
+      "bytes": 206228,
+      "sha256": "364ee98d30a30e01db55b04cda087b06f6a1612e2357e1771e7062cfe58d1f31",
+      "pixelSize": [
+        1920,
+        864
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-all-poses.png",
+      "bytes": 499677,
+      "sha256": "60a66decb8291ae9397bc5174c1e080889942692944858bcb955f117e5c5f8c6",
+      "pixelSize": [
+        1920,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-blink.png",
+      "bytes": 260286,
+      "sha256": "8243bcc9db08267c3ba2b6f4a269498895f3f77c5c253daa994e6e55bbe1b191",
+      "pixelSize": [
+        1920,
+        576
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-source.png",
+      "bytes": 315875,
+      "sha256": "ff05b69576b3d2e2fe6d8d90279ec39891f5817c515547e7d065b1a1df389b8b",
+      "pixelSize": [
+        384,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-all-poses.png",
+      "bytes": 477575,
+      "sha256": "e4840b9475c7041529d617743d9e14cfe368e7bd08f65e2f94b1aedf05c8fa9d",
+      "pixelSize": [
+        1920,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-blink.png",
+      "bytes": 239284,
+      "sha256": "4c196ca12bc51c51cb58b54b1a74dcd51d5025d4ff0cb8818646195bec338a56",
+      "pixelSize": [
+        1920,
+        576
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-source.png",
+      "bytes": 334642,
+      "sha256": "e4989ce7d5c2e36e34bbcf05f66043f4f65fea2dd924eb3e3f640ba35dcd0b60",
+      "pixelSize": [
+        384,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-0-0-profile.png",
+      "bytes": 234293,
+      "sha256": "d8581d0395e9867626b2473f2c813641c73d0a728e398cbe4d995638a88f0985",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-0-1-profile.png",
+      "bytes": 242903,
+      "sha256": "2b630680b65cb0f8ce55720a5f4644d23be285452168027c901f3239f8485eb9",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-0-2-profile.png",
+      "bytes": 241729,
+      "sha256": "0eddacb3995cbd56d2e14835dd0069ae14921c1658c4a2620e1bcb2549594558",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-0-3-profile.png",
+      "bytes": 244136,
+      "sha256": "56294d0673753c3701a097aa58bec6b31b6f468271be729a1c29ace89698d218",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-0-4-profile.png",
+      "bytes": 244339,
+      "sha256": "42f2d6cfef9614764d304655115fa9129fda7ee2efce34f3e065048cecc939d5",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-1-0-profile.png",
+      "bytes": 242473,
+      "sha256": "0121bfc9c16e952aa93baa5e0ba550f3e1a243b592f59f23b253db3c6e33455b",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-1-1-profile.png",
+      "bytes": 243134,
+      "sha256": "028d405875788b3f8be2554b799487feccb16f12cf95de050832e99635291182",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-1-2-profile.png",
+      "bytes": 241905,
+      "sha256": "1e7731443cb3e64fb678580d6850b76e8415b9a62ec71c258099802ffd9d64e9",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-1-3-profile.png",
+      "bytes": 244334,
+      "sha256": "2a091e4c4b966ad1c46286dc08c2a94d86546976fa047f935d5f49c6ec2f5955",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-1-4-profile.png",
+      "bytes": 244567,
+      "sha256": "4cfcef64d6f983a016d103f1c30c16bf1245e3a74c2f731b4e860e2bf4b08c04",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-2-0-profile.png",
+      "bytes": 242863,
+      "sha256": "05f51f98eb2b9b765ad2d1f25a051411644768fcdd408efddc44e38cec67dc53",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-2-1-profile.png",
+      "bytes": 243562,
+      "sha256": "77c87a788ec866fbf6ca3bcab19dc3fa77897345d3e612425ad519f850b35c78",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-2-2-profile.png",
+      "bytes": 242367,
+      "sha256": "4b4266a8defd37d3192085819639b3c04244ef65f6589600c6f9cd01ec7c0138",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-2-3-profile.png",
+      "bytes": 244756,
+      "sha256": "e989ed1147952caa3a2f8b062d0270b064e1b6bbe0cc3ff7bc2ce65e1ee768d5",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-2-4-profile.png",
+      "bytes": 244919,
+      "sha256": "73192960514652ab52dcbbbb05ac7a09da74f6bec1714aa7966115cf768fa49d",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-0-0-profile.png",
+      "bytes": 243911,
+      "sha256": "0599616c3c37e8c779eefff49bcbe8b670e1a75c75fe8e874f712b78a2a64904",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-0-1-profile.png",
+      "bytes": 244416,
+      "sha256": "36d27457fbf3c4e47faacb11ec52947d454448679fd15244914cc91014fb94fc",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-0-2-profile.png",
+      "bytes": 244172,
+      "sha256": "39b44055f5e69e9efcc6ed3e09e2c2018062dc553ac956a5b230fa9c0581a6a3",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-0-3-profile.png",
+      "bytes": 246250,
+      "sha256": "39258cd97e605e6112f0afcf00baf8fd86ebf828e910287e953c7f801fc459f1",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-0-4-profile.png",
+      "bytes": 246332,
+      "sha256": "e49a80a2f3ea45a1f1c4802ea4c8a287509f670e3a6b1879cd1f3ae5ee5c8ff3",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-1-0-profile.png",
+      "bytes": 244159,
+      "sha256": "ba9af8f90221f57f46bd3fa30837f39625d460ccd45bd564f2349baa802f8e03",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-1-1-profile.png",
+      "bytes": 244627,
+      "sha256": "f0ffbc7d257e5bb745ca1879ef45a5aa971db31eca45391f1be9873e23897a0b",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-1-2-profile.png",
+      "bytes": 244413,
+      "sha256": "7732c0564524af1a0478335121215036f94a4bc1a7d52bb7f1297c4465d23c39",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-1-3-profile.png",
+      "bytes": 246372,
+      "sha256": "c640c8b5bf3d4b659fc9a2d5c9461a1348756c0e93da947dc6db048ac27f56f1",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-1-4-profile.png",
+      "bytes": 246472,
+      "sha256": "4d04a1a665f32a9a99afdddc432b0a1cfbd13ccf567ef9424e8d4ec2140b7620",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-2-0-profile.png",
+      "bytes": 243964,
+      "sha256": "86e1c41ccd8cda2ecc7f66a288ead51dd9769861530b8e57edf55a3e177a3d2e",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-2-1-profile.png",
+      "bytes": 244452,
+      "sha256": "bbfb6fa7497ec0560a9e1fc4ac62e1a7e9ca1093941e63737a673ebfb0e96c1f",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-2-2-profile.png",
+      "bytes": 244248,
+      "sha256": "a269b87f272cb72de6b47de08ffe5d43c46875c71763719438c1f8aca1235ee3",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-2-3-profile.png",
+      "bytes": 246275,
+      "sha256": "d49311de248194e9dc833073eafd09328915ef6d68472b1d599af1e94bd65af5",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-2-4-profile.png",
+      "bytes": 246340,
+      "sha256": "2fd74ddd7957ff4df5d10f1cc14c17ccf2e22679ca90daa89533d80577c2c8ea",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/lobby-registered-photos.png",
+      "bytes": 601060,
+      "sha256": "69ac9ac0dbf53bd61a898c3a1f94bbf0639bea8013840f5d2b0374d338fd3026",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/photo-gallery-restored.png",
+      "bytes": 277085,
+      "sha256": "99f2fc27f99b6e6f6711b94c656f7a11d8a37820f012a4756320b5c7465648b3",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/lobby-registered-photos.png",
+      "bytes": 510580,
+      "sha256": "d80a427142cc1dfc458d884779a1d9171170024273cc75f7630520ff90d6289b",
+      "pixelSize": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/photo-gallery-restored.png",
+      "bytes": 237090,
+      "sha256": "e267997e2da40223c6b295778ca0f2984d52aeb147cbbe9ea5d5c069f13af2c9",
+      "pixelSize": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/lobby-registered-photos.png",
+      "bytes": 1329361,
+      "sha256": "a1173f807771f585621eda1a8b979969d03d7f20088a54df55f38aeaa817adbc",
+      "pixelSize": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/photo-gallery-restored.png",
+      "bytes": 787153,
+      "sha256": "a644e034d6d4bb5b42e218428d6fa570f5f05d3bc6c70f0bd385c83d44e15187",
+      "pixelSize": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/lobby-registered-photos.png",
+      "bytes": 1453468,
+      "sha256": "f5126cded8694a64dd22bde5f96d1ae2f27b9e4c08e594c32e92cb54487241e1",
+      "pixelSize": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/photo-gallery-restored.png",
+      "bytes": 646626,
+      "sha256": "0a788b6de6ed026283fd851d7d6528e8dc84df8bec0738ea52c3e8ebd6b65143",
+      "pixelSize": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/error-context.md",
+      "bytes": 6632,
+      "sha256": "972b8795b36108a89bb352f02fe94ac43bc23eebbbbd1a6e34362d4da7787189"
+    },
+    {
+      "path": "runs/regression-all-01/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/trace.zip",
+      "bytes": 42056967,
+      "sha256": "55a8b97ca0fdd96b067c911268e40521b3860e6ded93ca421feb18e0df30ddda"
+    },
+    {
+      "path": "runs/regression-all-01/reception-only-single-rece-6f818-movement-and-completes-once-chromium/error-context.md",
+      "bytes": 6685,
+      "sha256": "4a70d94b0266b39903a4063326a83aac4e99dbbf905d26e6d147cc2a2cd2677a"
+    },
+    {
+      "path": "runs/regression-all-01/reception-only-single-rece-6f818-movement-and-completes-once-chromium/trace.zip",
+      "bytes": 53098694,
+      "sha256": "4551ba6e5a05bc3e2af4fcb7d18911e7a2b62cd7c85e6b834de1bd20cf83c570"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-first-lobby-arrival-393.png",
+      "bytes": 458063,
+      "sha256": "a0b8a433ff16acd8f75c2e0cb74dc7c7456c7b0dae45a3f6574d6327c6f43978",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-hall-requirements-393.png",
+      "bytes": 421172,
+      "sha256": "b5a82b55731e827dd827bcab661a8d61db6c1ac47bb929ec45bf417f4b4d0321",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-notebook-progress-393.png",
+      "bytes": 350779,
+      "sha256": "3dd1f47dcd6097626c43433464a23e16e8601cdb85e7a1d10ea2161e850748b5",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F03-inline--65ff3-les-in-setup-and-invitation-chromium/f03-avatar-validation-393.png",
+      "bytes": 350387,
+      "sha256": "be3292b4ec4cc42856c496c875ce3ad0793a40c98675ad2648f433f385b7e994",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-320.png",
+      "bytes": 268713,
+      "sha256": "835df26968783e572ef948fc26073a409ebf8f276ec64f3f53ad4c88d3729248",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-393.png",
+      "bytes": 400133,
+      "sha256": "05779824b61714a2a2b7a22cdfa43c6b50b6c1576f640627fc20d0334213521c",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-430.png",
+      "bytes": 462698,
+      "sha256": "82b3b94f362e4f1d16f09cdeb830cd638ae6a85993e3fd647b3ed2719cf9c94d",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-320.png",
+      "bytes": 325897,
+      "sha256": "85fff58abac0a23ebd2e21b63d19a180fe5280ea0d4720259839d61b30eed7a4",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-393.png",
+      "bytes": 483862,
+      "sha256": "7afeadeee245e63b2e9b80988466dd8860d052e46a07150a26845cc966e5ea72",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-430.png",
+      "bytes": 564537,
+      "sha256": "de8bf59eef293bfb60a243f06c512708df10c7039ebb1293360ff55e5a88bc48",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-atm.png",
+      "bytes": 549804,
+      "sha256": "82ec3c9d07b302ef56ea720ee5cbb5bf6e745331042cba3d94177412c48c1468",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-bridal-restricted.png",
+      "bytes": 548906,
+      "sha256": "6445811c2b16faac887a56037063082d37a8f7aac1739362916771d2b74bb4aa",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-drinks.png",
+      "bytes": 555976,
+      "sha256": "ada277b78694bd568c32887b35c2aa6702dbf1586d7b866e1dd2be100e30a488",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-320.png",
+      "bytes": 142867,
+      "sha256": "0527a77ddf0971924d9fa69e3528925c76d188239cf364fb7241b33b87f1a52d",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-393.png",
+      "bytes": 244956,
+      "sha256": "87e398df794029db8a947f732aaca06d34300702cff6a4ae221c8b14e18d8e0f",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-430.png",
+      "bytes": 295823,
+      "sha256": "e4c3948363b09f5a1faf25973fccbd61fef99d1b20b0c421d7bce1c6b8ff2c40",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-landscape-852x393.png",
+      "bytes": 7114,
+      "sha256": "6830866c0bc0d64d826bc047e3af1b996eeed2a94a97038ace98f05c967e8ea4",
+      "pixelSize": [
+        852,
+        393
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-1440x900.png",
+      "bytes": 1160836,
+      "sha256": "4354b40791e393ef4fb35cfc868bef23e7e0350efea79defced1589b119d14d5",
+      "pixelSize": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-320x568.png",
+      "bytes": 342904,
+      "sha256": "ab4c1a6899dcfbb7dc9a594bd00a6841ea9e112d56bb1cce48d6e79927f4ce15",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-393x852.png",
+      "bytes": 516358,
+      "sha256": "1a3578fa0d04e5d052c1da0bddd00a68f801c1258bc9be926903577f0c0bd603",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-430x932.png",
+      "bytes": 601109,
+      "sha256": "5608f88a2c0e8044bc01f4e021e8cc708b00c762dbb97d8277a052dae50d2bc5",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-first-lobby-arrival-393x852.png",
+      "bytes": 458085,
+      "sha256": "08a25f6716113e69afe2be48e821ee0d511662f5de29ee7cfcfb38dda6c74694",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-hall-requirements-393x852.png",
+      "bytes": 419621,
+      "sha256": "8f4bb4980b79e3e4b9ba558917032bbe11c6a05758782d1c9ca6db9b9ba90fab",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-393x852.png",
+      "bytes": 374151,
+      "sha256": "bc973c7b24ab39368df432ea6c0dc6b17a592b656d49a9f0dd3b7c145d3f3d7a",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-completed-393x852.png",
+      "bytes": 348984,
+      "sha256": "0d54659df4c2e471837e06a0b05cbd735d18c9431ae966fdf294d986577d61ca",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-atm-430x932.png",
+      "bytes": 548819,
+      "sha256": "7688932fdb42bd48265cf9b9139a2cfec3ff7ee1cd90aefbe07b74e05889758d",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-bridal-restriction-430x932.png",
+      "bytes": 547885,
+      "sha256": "7a71d5b33d2d92d4ff6a4cf94bc2d35436d2e07e0733e73122d370401f25171e",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-welcome-drink-430x932.png",
+      "bytes": 554987,
+      "sha256": "e93c0ea484930a253292a2b0813461421da7c1856a55e88da8e56125ded9c574",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 6482,
+      "sha256": "0c62d3afe73f5e7bdb47fb18010e38395800acb60dc3c3638400f4bfd7cb7d94"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 126975824,
+      "sha256": "ec76c248a0c5d9dbe661c6646477ba9b95fb42899bdf4d1f39f139cb2fa6eb2d"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@ecc59c89abd190064543dbf4788fbc42.webm",
+      "bytes": 3387651,
+      "sha256": "47e957b824aa0b29838195ff2876de0ac7ae19635a95e0e6f2a98d98033fa5e2"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 6483,
+      "sha256": "f10785152193d718fdb22544429fd5509aa34b9fa5410671c045cb243f20fef2"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 164795787,
+      "sha256": "6cdc8fe1e4551415c6c1eaec684c263739d8710d19c08881e3db5dfebbc96f44"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@159551f6393fb42cf52ea01497959a21.webm",
+      "bytes": 4545167,
+      "sha256": "1c743a6f30fa88a76ecb0b90f6d460777d3d590b4d42c933d10206fa84c573e2"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/error-context.md",
+      "bytes": 6480,
+      "sha256": "c752c44d54bbb1f9a242d296d0b1ff6b97c9d759deb463599ac51b90c836f604"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/trace.zip",
+      "bytes": 145265850,
+      "sha256": "a3f08eff9314061380f386d46fca50ed7bce2819707bc2daca8df778d7d55bbe"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@62b7299c4d0aaaffa7ca27e6a34836e4.webm",
+      "bytes": 3435411,
+      "sha256": "8db15b34e49a9e2677d8091609b97b7a4a1b383e1c3d93bc0afd8fc1afa1a9c5"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/error-context.md",
+      "bytes": 11850,
+      "sha256": "a2cc83f88b3be08f634ddbe9fa078bb51ef081a8947165fa59d608dc65d23f1a"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/trace.zip",
+      "bytes": 151149775,
+      "sha256": "fff704043689117ece5314b9db3841c414b9f63c28269f869293b4a0217e878b"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 3692093,
+      "sha256": "f4572ed8cae337c287fb06205099f5df4f2f4c1ed58e16726a421941c925eb20"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+      "bytes": 2253141,
+      "sha256": "43a25d4d3e0605cbeb1fbc4f4e1213d1944e088772d9379ab0b806a50c6ba41b"
+    },
+    {
+      "path": "runs/regression-all-01/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+      "bytes": 2817176,
+      "sha256": "8f9d14a2ff7c609c1e5e6447c79359b789c397f6e90526ec26809e02dfb48e08"
+    },
+    {
+      "path": "runs/regression-all-01/story-choice-width-all-sto-9f739-ame-readable-width-at-320px-chromium/equal-choice-width.png",
+      "bytes": 222986,
+      "sha256": "32fbcf2e87dc279822bc0c7fd28c0c4e131f102c7f8f8bbba87874e99b404887",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/story-choice-width-all-sto-e2bf4-ame-readable-width-at-393px-chromium/equal-choice-width.png",
+      "bytes": 331597,
+      "sha256": "35c79df5a0f304f4f4fa539670867ee819cff7084cac84aaf429808d9b52b0da",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/choices.png",
+      "bytes": 1458349,
+      "sha256": "b9ce50c9a52ea388e5408a50083d14681ca6d6b20ad2a97b0e7d93e6de52d9ee",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/home-sky.png",
+      "bytes": 1738694,
+      "sha256": "702f769c48195ab418a29282c89e2f1a1e4d38dd32f138988de4d455b0a1fa01",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/intro.png",
+      "bytes": 1866242,
+      "sha256": "646ea595cb8cc5f82c7ed3f7e9b61a9480ff4a9400adaf656dea34aded4cbd66",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-pink-chromium/pixel-parking.png",
+      "bytes": 71731,
+      "sha256": "ee02bb76e08f3a73232ce702ff503ddb511af6016097733faa176fde452c1a51",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/choices.png",
+      "bytes": 1440848,
+      "sha256": "53e8646ef70aa6231f2542ddd524a41d96549876b2797265a450062c1dc47013",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/home-sky.png",
+      "bytes": 1738747,
+      "sha256": "d0dd03a1314246711cfc56999cda27af66ddecc6ec8c7bf5fe20b909bc6fc672",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/intro.png",
+      "bytes": 1866239,
+      "sha256": "d5d3cbc291584c27b9966d8fe532af8a5a62b0a6159fba6c217319790860c139",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-iPhone-15-Pro-story-subway-chromium/numbered-exits.png",
+      "bytes": 1023805,
+      "sha256": "14f77fd6df6f9a7afaa8c3dc280d1b586fcb30cef79060f7292b0631021807ad",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/story-routes-station-choic-5c7c3-ed-circles-visible-at-320px-chromium/numbered-exits-small.png",
+      "bytes": 823982,
+      "sha256": "6ea324c5c41c137f17b71bde0457f9e15a8fd27020b06b58c2639637bba8780d",
+      "pixelSize": [
+        960,
+        1704
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/tap-pacing-group-photo-cou-7898c--skipped-with-separate-taps-chromium/white-bride-group-photo.png",
+      "bytes": 505091,
+      "sha256": "a63a8f5b990719b9cfd54c06e6f7806f1d22c12ad663ac4e24cfc9b4696e43b9",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/tap-pacing-taps-finish-foo-14d3c-eal-or-replaying-old-timers-chromium/food-reveal-complete.png",
+      "bytes": 506960,
+      "sha256": "8cb5f7e78fe37c8b360039b44b9ebdabb6e4b1b5e5e0aef4db3561cc38d4a74d",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/venue-rooms-room-navigatio-6bf3d--and-selected-side-at-720px-chromium/hall.png",
+      "bytes": 1403355,
+      "sha256": "c01377ac8755f56f616a6a89c0fb27f610b8b146faeea189b09e18f74c15eff3",
+      "pixelSize": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/venue-rooms-room-navigatio-7f39e-and-selected-side-at-1440px-chromium/hall.png",
+      "bytes": 1284719,
+      "sha256": "5df25b6707761053e7c0a0e80604b6bf9155aec85c1aa5817855b38e8bd2414c",
+      "pixelSize": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/venue-rooms-room-navigatio-835f5--and-selected-side-at-430px-chromium/hall.png",
+      "bytes": 578913,
+      "sha256": "940d71325e81a8937ad6adc93be1722875408056c9b60a283b43f0a9da07bc32",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/venue-rooms-room-navigatio-a86b4--and-selected-side-at-390px-chromium/hall.png",
+      "bytes": 493086,
+      "sha256": "850b21e6fd546684bb2fe5e3a2ce2a12b529367bf1eecef6504d0e1a37153b1c",
+      "pixelSize": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/wedding-group-100-guests-r-675c5-ppears-immediately-at-320px-chromium/100-friends.png",
+      "bytes": 146512,
+      "sha256": "232d710cd462b5c801b3bd28d717ced6b4802832587bce1579992670e5b1c730",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/wedding-group-100-guests-r-89a7e-ppears-immediately-at-393px-chromium/100-friends.png",
+      "bytes": 196486,
+      "sha256": "5bac986ae202ca7aab1fb71ce58ef7d2da79d1e5bb3950d5e3f9edeb53140b92",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-group-photo.png",
+      "bytes": 469849,
+      "sha256": "1588a25afdbcc24f0a85da8ebd9b096bbfa2a559b68c4e9e192a311299aa9278",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-invitation.png",
+      "bytes": 169970,
+      "sha256": "6e143028c81581b564648104990723b681d0b9de34d4165201032ab5d97130af",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-all-01/wedding-group-hearts-cover-cd7b1-ntercepting-invitation-taps-chromium/even-hearts-over-photo.png",
+      "bytes": 170011,
+      "sha256": "17536971c2e14bc6714a5a2fdd43a8193abdedf911fe71a69dd40275844a5f93",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/.last-run.json",
+      "bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/bridal-seated.png",
+      "bytes": 419013,
+      "sha256": "f32eee3d28bd022911dee224bb3c2c5f669bdf9851dc1deee9c027869c8d3a75",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/car.png",
+      "bytes": 409139,
+      "sha256": "49ff387892ce0b1d597d3f172f748388033ab86c5e0916fa22fb95f2a79f4c71",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/group-photo.png",
+      "bytes": 498244,
+      "sha256": "c221e978a7fe72771123f5629ea853027f4d5dd8d22d65abf0e4be640083d7e2",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/lobby.png",
+      "bytes": 516292,
+      "sha256": "8c0bf7de0120ea5be6a9e65e0c0df5b2b2daab1f8d22029c410c49ce31e9247c",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/parents.png",
+      "bytes": 338366,
+      "sha256": "28c951bc9031d5c27bfa71314f8fb52e13b40df2561378ca05b8bd04997754c6",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-57ad6-ve-skip-local-message-bride-chromium/v-pose.png",
+      "bytes": 474654,
+      "sha256": "f3e77b2518293bad7f2f90d947d0c2a6b08d6aad048cc378b3cbc20135d2ada2",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/car.png",
+      "bytes": 368518,
+      "sha256": "c7b685a1ca2a3f3265104b5efa51c0b5d32b7cfbdb6308484588305d796daeed",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/group-photo.png",
+      "bytes": 497666,
+      "sha256": "ef6c1b7b153335afb20c2cd97b07dd61785aa116d71218c709527938c3425f46",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/lobby.png",
+      "bytes": 516384,
+      "sha256": "9fb1ffd293387934a73e2f77a42f8b5f7f571681928f2f77d5e8d7d2a9485b4e",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/parents.png",
+      "bytes": 326088,
+      "sha256": "51ff2c4fd4cd40170236adfc494e15d8ecec56e9c3738a437198ca3000c666aa",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/current-journey-profile-re-be56e-ve-skip-local-message-groom-chromium/v-pose.png",
+      "bytes": 474604,
+      "sha256": "cf398c50d040ce4db6bff96f507c07fd3226c757f777583bb0e28f3603493840",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/dinner-pacing-banquet-trav-8409b-parture-stays-at-the-buffet-chromium/departure-at-buffet.png",
+      "bytes": 482309,
+      "sha256": "759c2760f0b0522c0cba023a885a92bc18a76834cb7584e4189593e5ec90d36f",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/family-chrysanthemum.png",
+      "bytes": 57189,
+      "sha256": "dd54e1618eaf08eddbe6fb3e5f42c7dfea9414b043e4dac167ab27cf2968ca97",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-details-family--d3168-to-countdown-ticks-at-320px-chromium/original-photo-countdown.png",
+      "bytes": 199390,
+      "sha256": "a3d5910be41aadc88b0f6a597eae7b3a50b2d0a5536efc505fd5c93b9401dc86",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/family-chrysanthemum.png",
+      "bytes": 54129,
+      "sha256": "4852a9dd2a7f5f8a79394ed1e9509ba1574a178f92e2bd1e96aaa2eebbe2e207",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-details-family--fdf64-to-countdown-ticks-at-393px-chromium/original-photo-countdown.png",
+      "bytes": 238348,
+      "sha256": "d0c78726f3e71cbe32895c24c177adb29f4f4f6f8375f0a393a6a566784236e7",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-game-guest-keep-be038-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 33912,
+      "sha256": "419a2e8ab60803e7bd3475099086340da2e21af02d29ea529ceef27b45b71850",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-game-guest-keep-cf9e3-tion-without-another-picker-chromium/game-minimi-invitation.png",
+      "bytes": 33630,
+      "sha256": "d0718242fbea5294168fb3797c5e4f0808f0bdec025315d0a4e00e9766d15c14",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-minimi-group-pa-52609-without-covering-the-couple-chromium/minimi-full-group.png",
+      "bytes": 187050,
+      "sha256": "e3c51de26899d07b4166d66987d4d7bb0416d61d76e1f115dcf3da68e5b1b4b5",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-bridal-room.jpeg.png",
+      "bytes": 138877,
+      "sha256": "d2451ad762f580a899489d1d6a9e105f3c8f968a6a038028010a7ad028751ab3",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-atm.jpg.png",
+      "bytes": 164310,
+      "sha256": "57200957b8fe2b4a741381ac940d053817607337d1c6759d5d723195b4775b3c",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-banquet.jpg.png",
+      "bytes": 175513,
+      "sha256": "eada9f8beb20b6e70cb52303ff5ee07654882d34332eb46092cbb39f4666c1b9",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-photo-booth.jpg.png",
+      "bytes": 174460,
+      "sha256": "c9d680c86f9da5073c847068837c4676affe634c1711b06917cdf87687866cd1",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--4b4d5-without-page-jumps-at-393px-chromium/393-notice-welcome.jpg.png",
+      "bytes": 169299,
+      "sha256": "0385ef12069c404de411183024a6761573b59c800984bbdba8c3103d8db22c33",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-bridal-room.jpeg.png",
+      "bytes": 109287,
+      "sha256": "ba3b2e1a7cc8bd7e1d36701839067fd0bb2a62c3314b7746e8a2322aee33a0bd",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-atm.jpg.png",
+      "bytes": 118480,
+      "sha256": "cbc8844a1d19d36f604f661d470bff354c289f291cf6e31be685e06a2d6c869a",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-banquet.jpg.png",
+      "bytes": 136124,
+      "sha256": "5c3f5df9aa441638c51d8d641e34f784924bcdc07d547a2c746500f4efd7ddaa",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-photo-booth.jpg.png",
+      "bytes": 122444,
+      "sha256": "7460d4fd8ca83d9217ed56cad2009c6bd87073d03b1e25bbe2f8d2c0bf7fa208",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-notices-notice--6a7f9-without-page-jumps-at-320px-chromium/320-notice-welcome.jpg.png",
+      "bytes": 117571,
+      "sha256": "cb6c1d049632f4a3e412a5d6c6afed7f804f31bf4fb8db43dbd85c958e969b5b",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-profile-cards-stay-inside-the-game-at-1440px-chromium/profile.png",
+      "bytes": 676129,
+      "sha256": "1ecff847f3af1d4e0323060914561ca1dd475952df4879676ab430fdac458d9e",
+      "pixelSize": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-profile-cards-stay-inside-the-game-at-320px-chromium/profile.png",
+      "bytes": 140896,
+      "sha256": "c04be1e580f62b3fa5b74bc8a73630bb1f8b6a370e37397799a0be963a45aed1",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/message-postcard.png",
+      "bytes": 35418,
+      "sha256": "bd5158d3de521b3541f4a0fe1e312e470d6644af58109251dc1f3898a34ab308",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-a-mess-e6525--text-together-while-paging-chromium/thirty-friends.png",
+      "bytes": 194536,
+      "sha256": "862a452922d25aef3302e07c157cd800cc1224874999525feee69a614c1981f6",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/character-selection.png",
+      "bytes": 161521,
+      "sha256": "77cca12eeb6ce069c537f4c712d1f21fd8359c9369f46467f05c00952b7f072e",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/gallery-carousel.png",
+      "bytes": 117534,
+      "sha256": "f003c898e2f6c7fb186b8e230e8d68eaad56b88a9db922ad63655d9f9fa900e3",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-8820f-ation-photo-frames-at-320px-chromium/invitation-cover.png",
+      "bytes": 146118,
+      "sha256": "960eab7de1d5124c2d95c6ed924248ffa78c4bbc0f2334df8e31807c167fb641",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/character-selection.png",
+      "bytes": 243887,
+      "sha256": "368e0823eebe9f10bfbf02cc659e23f9670a2d45d78a736a4d80a7a0714ec345",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/gallery-carousel.png",
+      "bytes": 174452,
+      "sha256": "007a2459cfa7b1d827dd8300b3aa96909c9c546ae5d2b8cb4949685a8bad1369",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-charac-fb01b-ation-photo-frames-at-393px-chromium/invitation-cover.png",
+      "bytes": 169424,
+      "sha256": "2e295d09ee3e6e63331f927e407ad4de56b25424d56eddf19830201c5e238ab2",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/female-independent-faces.png",
+      "bytes": 6852,
+      "sha256": "c4bf6bf120b03a27fb7e0ef8444dbbb51037415f7d394f6687889127583c26c0",
+      "pixelSize": [
+        1152,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-separa-e7054-own-transparent-silhouettes-chromium/male-independent-faces.png",
+      "bytes": 6852,
+      "sha256": "c4bf6bf120b03a27fb7e0ef8444dbbb51037415f7d394f6687889127583c26c0",
+      "pixelSize": [
+        1152,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/blue-pink-accounts.png",
+      "bytes": 35106,
+      "sha256": "da2f24c6421eb038e4fe93dba8e756b297e3322899c0c13bf64f67ceb0a14dc2",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/parking-shuttle.png",
+      "bytes": 45218,
+      "sha256": "1b87b521678ce13b585d26eb6bf13b686c1ec37b0a61bd31a76fb1a31dd71df8",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--19d40-lors-stay-readable-at-320px-chromium/venue-map.png",
+      "bytes": 57619,
+      "sha256": "a05a6d386ccb5e470cb69935f2cb4a153ee57dba0aba4e8d0508271025491366",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/blue-pink-accounts.png",
+      "bytes": 34592,
+      "sha256": "78bf06958462e72db91510dd9cf515534907e671bcca4cc7198ce118b0b72587",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/parking-shuttle.png",
+      "bytes": 46524,
+      "sha256": "c9af37eb4befb2860a7fe15aa368a8e8748d0fdc6009cbdadd59b3349e822547",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-redesign-venue--77079-lors-stay-readable-at-393px-chromium/venue-map.png",
+      "bytes": 65435,
+      "sha256": "4f56e2ddb7078de19ac3550bbefc9b1b18a86ca29479c670ebfc8f9bccf22197",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-sharing-share-c-ae8d8--image-in-the-original-HTML-chromium/share-card-formats.png",
+      "bytes": 198803,
+      "sha256": "c25a6b54d8d2e3203d95f77d49fdc7f5246e2b26c0cb49a73645d15ac37b92e6",
+      "pixelSize": [
+        1280,
+        720
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-main.png",
+      "bytes": 170029,
+      "sha256": "e1326deebedbaeb7fd6f84d1838897dcd9c40469dc8f6ccc93d22aafbc2ff2b1",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/invitation-skip-opens-orig-8a1a9--and-local-minimi-guestbook-chromium/invitation-minimi.png",
+      "bytes": 206746,
+      "sha256": "c69b1556e23d9d0c8a7ac8b6e80cc92d247118b0a8db65ae20b072feceb91085",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/garden.png",
+      "bytes": 1950030,
+      "sha256": "1e4132a1db09277e32b04d3f7d0363f7fb504a6ce87a5b595d31b14cae0a2bbe",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-final/lobby-info-lobby-items-pause-movement-and-dismiss-explicitly-chromium/lobby.png",
+      "bytes": 1875415,
+      "sha256": "927c0e420eb8a7af0feab8b51ae50c4d8a0e90ada62a76a7fa86cad1ef8502d4",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-final/lobby-required-only-unfini-03ac7-ock-the-ceremony-and-dinner-chromium/buffet-mobile.png",
+      "bytes": 491601,
+      "sha256": "2fac37ee3d2a9a35cbe9034cfbc2430ad911267cf04f6cadee48b1f9faea7423",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/lobby-return-bride-explore-711ad-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 516293,
+      "sha256": "e6fad7a3d6bd55736d604e4b07ddec5ec40a3ea619948c55e94eb4ee9d9c21a0",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/lobby-return-groom-explore-7f5d0-ismissing-the-hall-reminder-chromium/back-in-lobby.png",
+      "bytes": 492187,
+      "sha256": "74c13a21491ea6faf723aace1a25f1e46aa1e3a116aaafba4424d9b7cb7a8257",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-customization-direc-57186-d-all-five-outfits-at-320px-chromium/original-panel-independent-parts.png",
+      "bytes": 163763,
+      "sha256": "26ec299a0cb9f681d69157ac64a2fd8b7917bd174975d582b8efddcf3adca6fa",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-customization-direc-b8329-d-all-five-outfits-at-393px-chromium/original-panel-independent-parts.png",
+      "bytes": 247060,
+      "sha256": "3bccdcdfd74ba62262dc62e8590262b093d2058f4a50951d5e339d0dbbfc3279",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-jaw-finished-minimi-a874a-s-have-no-jaw-or-neck-seams-chromium/chin-closeup.png",
+      "bytes": 32889,
+      "sha256": "b9957ae44ba2f8ccdb423f88ca8f21c91237b76b5467bba3c453badc2da150c5",
+      "pixelSize": [
+        768,
+        576
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/female-neck.png",
+      "bytes": 249784,
+      "sha256": "f1ff7301b2f7906a2abadb197fedc00ed258905ea35a6293350e042053b4afaf",
+      "pixelSize": [
+        1920,
+        864
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-neck-heads-and-outf-70e04-nected-in-every-minimi-pose-chromium/male-neck.png",
+      "bytes": 206228,
+      "sha256": "364ee98d30a30e01db55b04cda087b06f6a1612e2357e1771e7062cfe58d1f31",
+      "pixelSize": [
+        1920,
+        864
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-all-poses.png",
+      "bytes": 499677,
+      "sha256": "60a66decb8291ae9397bc5174c1e080889942692944858bcb955f117e5c5f8c6",
+      "pixelSize": [
+        1920,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-blink.png",
+      "bytes": 260286,
+      "sha256": "8243bcc9db08267c3ba2b6f4a269498895f3f77c5c253daa994e6e55bbe1b191",
+      "pixelSize": [
+        1920,
+        576
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/female-source.png",
+      "bytes": 315875,
+      "sha256": "ff05b69576b3d2e2fe6d8d90279ec39891f5817c515547e7d065b1a1df389b8b",
+      "pixelSize": [
+        384,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-all-poses.png",
+      "bytes": 477575,
+      "sha256": "e4840b9475c7041529d617743d9e14cfe368e7bd08f65e2f94b1aedf05c8fa9d",
+      "pixelSize": [
+        1920,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-blink.png",
+      "bytes": 239284,
+      "sha256": "4c196ca12bc51c51cb58b54b1a74dcd51d5025d4ff0cb8818646195bec338a56",
+      "pixelSize": [
+        1920,
+        576
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/male-source.png",
+      "bytes": 334642,
+      "sha256": "e4989ce7d5c2e36e34bbcf05f66043f4f65fea2dd924eb3e3f640ba35dcd0b60",
+      "pixelSize": [
+        384,
+        1152
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-0-0-profile.png",
+      "bytes": 242169,
+      "sha256": "d488f1f7b5541b34284060d163b3525102b61a46e5babe79d61dfb1b3f856884",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-0-1-profile.png",
+      "bytes": 242907,
+      "sha256": "dc6b0a8178bf4c80fd9a77bb29201f20cd37ed71d80b6612febba56fd1aeb4f9",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-0-2-profile.png",
+      "bytes": 241723,
+      "sha256": "a1571927f8fc956d6cf8dac4ac1a57d4ee7c71fbf139085ae55f45ccc118509b",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-0-3-profile.png",
+      "bytes": 244083,
+      "sha256": "5029570379a71bd3c146ec9825d80b42b78656b2360e49852ae80e2d94a05c55",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-0-4-profile.png",
+      "bytes": 244326,
+      "sha256": "55a55971f15ec1a4acd22fd3a1002edb9555e2a8a74943f5ed25b889da19e6a5",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-1-0-profile.png",
+      "bytes": 242494,
+      "sha256": "8fb01f3c901e6c3e6d4e9b6ae8f98e31c997cc0df4aa8b5e79ade9b2f02f88fa",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-1-1-profile.png",
+      "bytes": 243163,
+      "sha256": "96bff4f132df4fd8ed91c7e01e1b56e66f898a94de352a3cb5eba1afb42e6f46",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-1-2-profile.png",
+      "bytes": 241979,
+      "sha256": "786fdbd97f399ddd3900bdd567f5b2c9fb499ac826769f70ea77b733acbae035",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-1-3-profile.png",
+      "bytes": 244368,
+      "sha256": "d8465cf5cb9587d1f79aeae131044a725a4647ba0dd9980435bb15d901362d99",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-1-4-profile.png",
+      "bytes": 244573,
+      "sha256": "97d4a199c649ef4ef0abb4edc4bf658b7600579e250b342265db6c596572436a",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-2-0-profile.png",
+      "bytes": 242846,
+      "sha256": "1810533a63cbf797d68cd14e894d1e38d35bbba46045a578d4b31b1afda6d5d1",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-2-1-profile.png",
+      "bytes": 243458,
+      "sha256": "785879b4a82ba91f4279cc41e902518573f6901f1df9d88d86cc398fadbd24f1",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-2-2-profile.png",
+      "bytes": 242345,
+      "sha256": "b12fe28d6b817cafb876015282f51482fdd373d4d67e2f6dd394be920753bd62",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-2-3-profile.png",
+      "bytes": 244751,
+      "sha256": "4041f1583f1d4fd7bc546b5993c6c761b9187b2a9301614b78a4c6cffdbbcf3e",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\ub0a8\uc131-2-4-profile.png",
+      "bytes": 244943,
+      "sha256": "665213599602bc731d20e330edb3fa5214b5c97150a54a02a3c46856aa6ac8f9",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-0-0-profile.png",
+      "bytes": 243901,
+      "sha256": "683b76cdf42ef9f6204b87d20728fb1978ebbd888a23bf730817838a5651878d",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-0-1-profile.png",
+      "bytes": 244408,
+      "sha256": "991a00dc37e568e8ec9c62bd02a4115a36ff5508ba454cd658bde8886cbfdeb9",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-0-2-profile.png",
+      "bytes": 244167,
+      "sha256": "f29e632de2f3ea75cdcd1a5ef2cd8598a77242ef21c652909540d8e4dfc66ff5",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-0-3-profile.png",
+      "bytes": 246267,
+      "sha256": "d0bd6e9664a8438c675ec494878099b5711b6ae41296df5456eb31edb3212752",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-0-4-profile.png",
+      "bytes": 246338,
+      "sha256": "c4855e03804722458bbca8a21f2c1cb5f7bb5b43f9b9c9c4cfd9cd786d8e9a34",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-1-0-profile.png",
+      "bytes": 244127,
+      "sha256": "9f7592773ecc29743ae76126cae9dab41c6d3efdd4e74188a5f7581c31b44368",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-1-1-profile.png",
+      "bytes": 244595,
+      "sha256": "2110d04821e56994d858e39476d328b07f89ccc28f7e74cf47947588be1fae22",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-1-2-profile.png",
+      "bytes": 244422,
+      "sha256": "c43050a1cfb6ee09aa994bc260331ba58d72766e8f1d43c752b30bd546f954a8",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-1-3-profile.png",
+      "bytes": 246494,
+      "sha256": "e841fbb777a38812f9f6aa603ef68dcf7b066fd04c231ff6354a0bea621713eb",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-1-4-profile.png",
+      "bytes": 246530,
+      "sha256": "a00e30c1d40d34a5efe373efa04f292c130f88554fd14f44be660b13901d3e71",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-2-0-profile.png",
+      "bytes": 243952,
+      "sha256": "b89c09679184785bc03fafe97bd239610ced80a2abe12590e8a8fd6903e812a3",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-2-1-profile.png",
+      "bytes": 244461,
+      "sha256": "0aa6785b486f72d31f5cef36f9e501c7dc0420e87ab13104aa6f9d0de2d2c3c6",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-2-2-profile.png",
+      "bytes": 244258,
+      "sha256": "529c4467e68a3364ef6b7972092e52cd9d077d6d7b2e87b771198c2c07836b6d",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-2-3-profile.png",
+      "bytes": 246302,
+      "sha256": "187c958d09aeaa46c5c47a36e37515a7532e76ab4aea72eb91a7e16240f4b4e0",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/minimi-visual-all-minimi-h-5a7df-render-on-transparent-tiles-chromium/\uc5ec\uc131-2-4-profile.png",
+      "bytes": 246365,
+      "sha256": "a46a28ea55b524a029dedbe2b96e01c4c6d7ece6c5dc984cfb78176fe5a98da8",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/lobby-registered-photos.png",
+      "bytes": 601041,
+      "sha256": "40075d7cfc83784c25b56953c671e881806ef9f2c234de14dff28aaaa509237f",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--23f53-ery-shows-photos-at-430x932-chromium/photo-gallery-restored.png",
+      "bytes": 277157,
+      "sha256": "f80f7655a095e9d303905525ea1d38dbeeec953d3d9e3b645c882c147306d585",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/lobby-registered-photos.png",
+      "bytes": 510475,
+      "sha256": "c004acae6b6e192a296516639d557c9e5097be034031f62876006dc74524450d",
+      "pixelSize": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--65dab-ery-shows-photos-at-390x844-chromium/photo-gallery-restored.png",
+      "bytes": 237132,
+      "sha256": "adb9ea04aff82d789f9e98dfe33d4933624f9e53024b30bd7fab264fe10d0d7f",
+      "pixelSize": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/lobby-registered-photos.png",
+      "bytes": 1328957,
+      "sha256": "c99d5e9e910a9ae020a94d9582f63dbd11ce6756a9bb8d426505632b67f3b949",
+      "pixelSize": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--7c13b-y-shows-photos-at-1440x1000-chromium/photo-gallery-restored.png",
+      "bytes": 787260,
+      "sha256": "664d422e12430b64089e015c395cb8b376ba5a999518dd3c0dcbe7ed083e27c8",
+      "pixelSize": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/lobby-registered-photos.png",
+      "bytes": 1453468,
+      "sha256": "f5126cded8694a64dd22bde5f96d1ae2f27b9e4c08e594c32e92cb54487241e1",
+      "pixelSize": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "runs/regression-final/photo-gallery-lobby-photo--add54-ry-shows-photos-at-720x1280-chromium/photo-gallery-restored.png",
+      "bytes": 646626,
+      "sha256": "0a788b6de6ed026283fd851d7d6528e8dc84df8bec0738ea52c3e8ebd6b65143",
+      "pixelSize": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "runs/regression-final/reception-only-single-rece-12ee6-movement-and-completes-once-chromium/groom-reception.png",
+      "bytes": 486338,
+      "sha256": "e1a444f85137a982c4b0fcb47cb93e25e9b8be295c0f0bdd8a1050d7343b8ac5",
+      "pixelSize": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "runs/regression-final/reception-only-single-rece-6f818-movement-and-completes-once-chromium/bride-reception.png",
+      "bytes": 486335,
+      "sha256": "1832a671aec35530030fee0000707ea33c51259680517d8b8f7df6d9a43d354a",
+      "pixelSize": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-first-lobby-arrival-393.png",
+      "bytes": 458141,
+      "sha256": "c009560eba5ef77633f1936bcb782a5d0d2307a29f2eccb7d29fbd29c80088da",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-hall-requirements-393.png",
+      "bytes": 421253,
+      "sha256": "d7b899f6cb1dafa0036416cd308f25946590a0363b4a05be18741891992fe206",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F01-A1-brid-c77bd--after-every-required-visit-chromium/f01-notebook-progress-393.png",
+      "bytes": 350755,
+      "sha256": "3e11c4955116cc2d26cdbd8e84f0090849ac0b76501013f24065333915ec2dea",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F03-inline--65ff3-les-in-setup-and-invitation-chromium/f03-avatar-validation-393.png",
+      "bytes": 341957,
+      "sha256": "c60b0bffcb455773d1ec4e845ca79b74b9fd96cf5891483b4d1fe8c01c813866",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-320.png",
+      "bytes": 268713,
+      "sha256": "835df26968783e572ef948fc26073a409ebf8f276ec64f3f53ad4c88d3729248",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-393.png",
+      "bytes": 400139,
+      "sha256": "fadba9bc1175ce03d865a72c63342085de09a80a4a4024114af2c9420cb5a98b",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-car-choice-430.png",
+      "bytes": 462842,
+      "sha256": "29d4531325418d65dadf6bd7bd52d38256a5878aa840346cf59a02bb58988f77",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-320.png",
+      "bytes": 325897,
+      "sha256": "85fff58abac0a23ebd2e21b63d19a180fe5280ea0d4720259839d61b30eed7a4",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-393.png",
+      "bytes": 483892,
+      "sha256": "3652f4b36ded770494eb0676d410ad1985b3d99b566d163f2459b93065af3764",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f04-ceremony-choice-430.png",
+      "bytes": 564516,
+      "sha256": "d0ac564ac79f9164f730ad5e64cac2698f7cdea8a7cf386ec62ba23c111099cc",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-atm.png",
+      "bytes": 549747,
+      "sha256": "2582cb48b3789c0922bba2d29896982976638c3b7b9c48967a1566965747e653",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-bridal-restricted.png",
+      "bytes": 548843,
+      "sha256": "2e0e7f436cdc96d868f69c80a910641f4ee003bf674d60c9bc35b0c7b1ce3b14",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F04-F05-saf-fc3ba-and-one-ceremony-transition-chromium/f05-drinks.png",
+      "bytes": 555983,
+      "sha256": "0914aa3d8ab8e0febc74061ef5aa45b98cddf5735c76816723894d2ff8d744ad",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-320.png",
+      "bytes": 142867,
+      "sha256": "0527a77ddf0971924d9fa69e3528925c76d188239cf364fb7241b33b87f1a52d",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-393.png",
+      "bytes": 244940,
+      "sha256": "046d1ae97dd830c63bf7ad92900f533cc0d2b4798e1f77f8d6dff6122a1ec4b4",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-avatar-430.png",
+      "bytes": 295796,
+      "sha256": "6c09aca251aa38d5bf9ef2e939f90a3644bb70d02abe9e9bb5ab19e4d211d679",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-landscape-852x393.png",
+      "bytes": 7114,
+      "sha256": "6830866c0bc0d64d826bc047e3af1b996eeed2a94a97038ace98f05c967e8ea4",
+      "pixelSize": [
+        852,
+        393
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-1440x900.png",
+      "bytes": 1161083,
+      "sha256": "35745ca03774df1a674fe4cb4dfaf7b193129f7c190ca7f68d532d94d607951a",
+      "pixelSize": [
+        1440,
+        900
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-320x568.png",
+      "bytes": 342904,
+      "sha256": "ab4c1a6899dcfbb7dc9a594bd00a6841ea9e112d56bb1cce48d6e79927f4ce15",
+      "pixelSize": [
+        320,
+        568
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-393x852.png",
+      "bytes": 516376,
+      "sha256": "9cfc4fa747f387bff2e5e341dc55db777b623f05f7c566ca21c305d1ebc5fbe3",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a-F06-portrai-4f327-ith-a-landscape-alternative-chromium/f06-lobby-430x932.png",
+      "bytes": 601160,
+      "sha256": "c00bc9e8246e87d1d62a3b7ceb545bb803297b83d5d264499bd4e978878f1b92",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-first-lobby-arrival-393x852.png",
+      "bytes": 458145,
+      "sha256": "4efdde8682d7a52801ca00b6d0a10833ed833e4a60b68530e6b4ae3dbab2d61e",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-hall-requirements-393x852.png",
+      "bytes": 419633,
+      "sha256": "548e8efe9cc3cb1dd9b5f055aa98d595b44e104969ea6e87458b0d9464a0bef2",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-393x852.png",
+      "bytes": 374111,
+      "sha256": "03ee11ad226e42c17f4758753ce352b7daed966d43a50ef37111f6d0ea89bf94",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-01-02-0-7edd4-n-an-informational-notebook-chromium/a1-notebook-completed-393x852.png",
+      "bytes": 348948,
+      "sha256": "42f242d611bed2e58ddffb6df1ec59e053aac40fbbf89c1cd5053abeaa05a8b6",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-atm-430x932.png",
+      "bytes": 548834,
+      "sha256": "51860a972f343d4228f764cc377b73d44fa146b2eeb390e6bfc7d61e2d12f549",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-bridal-restriction-430x932.png",
+      "bytes": 547871,
+      "sha256": "0640095f8616e75bfa8a1569fd9882ce8e9c980738aeb11c566f049b27197931",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-a1-A1-04-comp-120cf-s-Escape-and-input-blocking-chromium/a1-welcome-drink-430x932.png",
+      "bytes": 554991,
+      "sha256": "11053fb82024611ea0bd8042d65511bc186b45bdd31ae7ffcc8eaac60baeefd1",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-2706b-up-entry-and-diverse-guests-chromium/video/page@a91a73ccb584a4dd691e9d8db7881bb3.webm",
+      "bytes": 5509957,
+      "sha256": "80454b909e868028e11e407008a76a10072b6fdea489e4a470341d59dd708ae0"
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-6ec4a-up-entry-and-diverse-guests-chromium/video/page@e968ca655db2fedf0dcb64e685cdff34.webm",
+      "bytes": 7014488,
+      "sha256": "8b901be56237121a634cd7a08e52e67ef8f45cbbd296e229c83e67e4995d67fa"
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-70844-up-entry-and-diverse-guests-chromium/video/page@2d7a44f7c9c016edc28f4d05d44fa466.webm",
+      "bytes": 5242157,
+      "sha256": "3b75b7a39b75e4d9b962fba8ec77408ad7704c2130f1e2afe4c609a5f6ac1ec8"
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-ceremony-F1-83986-up-entry-and-diverse-guests-chromium/video/page@be17605dea316a17ab8aabecea73386f.webm",
+      "bytes": 5791968,
+      "sha256": "8974a6c608536132c8b1ae57d1521d56c0ad13fd4f8032fad615aac4bded066b"
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-photos-F12--c7c88-eepsakes-and-clean-controls-chromium/video.webm",
+      "bytes": 6671025,
+      "sha256": "42424ae1985966c2a677b1bee3e78cbffefa767cc0aa1a9761f174292d86835a"
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-reception-F-08199--notice-and-resumes-it-once-chromium/video.webm",
+      "bytes": 2595969,
+      "sha256": "f1f7e94d6053bf3b9fb718b12585df61887a18be47e581a0a854db766cbfa83f"
+    },
+    {
+      "path": "runs/regression-final/review-batch-c-reception-F-f4990-m-revisits-do-not-repeat-it-chromium/video.webm",
+      "bytes": 2992665,
+      "sha256": "c114334c9f315270da1685d40333497412ebee32a1c839e81fc69a2bcf5a7c52"
+    },
+    {
+      "path": "runs/regression-final/story-choice-width-all-sto-9f739-ame-readable-width-at-320px-chromium/equal-choice-width.png",
+      "bytes": 222986,
+      "sha256": "32fbcf2e87dc279822bc0c7fd28c0c4e131f102c7f8f8bbba87874e99b404887",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/story-choice-width-all-sto-e2bf4-ame-readable-width-at-393px-chromium/equal-choice-width.png",
+      "bytes": 331597,
+      "sha256": "35c79df5a0f304f4f4fa539670867ee819cff7084cac84aaf429808d9b52b0da",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/choices.png",
+      "bytes": 1458268,
+      "sha256": "f3290b0858f12ac8ce081f37ba9c914aef932e20a1d38aea9ef2e28d5a5ea369",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/home-sky.png",
+      "bytes": 1739368,
+      "sha256": "e80b8ddb1f4705128a720a72ec8ba4e604ae1122874be4e305afa7b3929439cc",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/intro.png",
+      "bytes": 1866265,
+      "sha256": "dd2e1734fe74864e59a8dfddff595e6a3621577744691b5af6551089478fcd55",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-pink-chromium/pixel-parking.png",
+      "bytes": 71836,
+      "sha256": "939abd4c0cff2a850034652b7d4df6a76c9e5ef3cf1e1977714c952b2c9f23f7",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/choices.png",
+      "bytes": 1458269,
+      "sha256": "df11a473d18daa9a037cf8b2cba6295bc63fa756ebb62956976b1473ccba4853",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/home-sky.png",
+      "bytes": 1739011,
+      "sha256": "0d2724fc7b5e312e455b6c7200be83395b0cfb27082a27f5a3003e221a825e86",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/intro.png",
+      "bytes": 1866277,
+      "sha256": "35068a33747e4cb7c7effc8b9c2043f0b0578ea5e6e3d7cd375a82f4177e8593",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-final/story-routes-iPhone-15-Pro-story-subway-chromium/numbered-exits.png",
+      "bytes": 1023817,
+      "sha256": "c186fa88151541944591161218b62ae72e6a2a86dedaeb4ca091f9f0b64c67d2",
+      "pixelSize": [
+        1179,
+        2556
+      ]
+    },
+    {
+      "path": "runs/regression-final/story-routes-station-choic-5c7c3-ed-circles-visible-at-320px-chromium/numbered-exits-small.png",
+      "bytes": 823982,
+      "sha256": "6ea324c5c41c137f17b71bde0457f9e15a8fd27020b06b58c2639637bba8780d",
+      "pixelSize": [
+        960,
+        1704
+      ]
+    },
+    {
+      "path": "runs/regression-final/tap-pacing-group-photo-cou-7898c--skipped-with-separate-taps-chromium/white-bride-group-photo.png",
+      "bytes": 505868,
+      "sha256": "3409ba82b66a08334faa5ec36014bf1247b41cb1a40d682bffd48118ea755904",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/tap-pacing-taps-finish-foo-14d3c-eal-or-replaying-old-timers-chromium/food-reveal-complete.png",
+      "bytes": 506971,
+      "sha256": "3775d08891c16754e4a32e8f8c47ea54c7f358a71c5a2d33aedcee76e57f65ce",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/venue-rooms-room-navigatio-6bf3d--and-selected-side-at-720px-chromium/hall.png",
+      "bytes": 1403773,
+      "sha256": "79fdc33a9118263cbb323e8207e207ccdce8839fd4b335f15a105aeab3746cd1",
+      "pixelSize": [
+        720,
+        1280
+      ]
+    },
+    {
+      "path": "runs/regression-final/venue-rooms-room-navigatio-7f39e-and-selected-side-at-1440px-chromium/hall.png",
+      "bytes": 1286069,
+      "sha256": "3502b0ebf466f23c42e5b2d751deef5d8b53e192c46f30e1ddb7a9759f8df51f",
+      "pixelSize": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "path": "runs/regression-final/venue-rooms-room-navigatio-835f5--and-selected-side-at-430px-chromium/hall.png",
+      "bytes": 579403,
+      "sha256": "98a029a3769431d04977cffc865d5cade0fb8a69207593bbc20d115a11d07144",
+      "pixelSize": [
+        430,
+        932
+      ]
+    },
+    {
+      "path": "runs/regression-final/venue-rooms-room-navigatio-a86b4--and-selected-side-at-390px-chromium/hall.png",
+      "bytes": 493250,
+      "sha256": "51945d2fd3fb0ff9a6bccc4b165dc5fa4c527d500147217f449822dc6b6ae53d",
+      "pixelSize": [
+        390,
+        844
+      ]
+    },
+    {
+      "path": "runs/regression-final/wedding-group-100-guests-r-675c5-ppears-immediately-at-320px-chromium/100-friends.png",
+      "bytes": 146517,
+      "sha256": "cede7e4788a5a7a8067f1bb148200a5a2726ca98bfb31e49ed2d48e871e2d07d",
+      "pixelSize": [
+        320,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/wedding-group-100-guests-r-89a7e-ppears-immediately-at-393px-chromium/100-friends.png",
+      "bytes": 196338,
+      "sha256": "dd923e190769884811aeffc719f2faa621121c7795bdf220c9ac39f979351523",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-group-photo.png",
+      "bytes": 469785,
+      "sha256": "c918d091e68979150594627baf43ba629cb17af53429f9005092e8b44b7de60e",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/wedding-group-couple-faces-71009-the-invitation-and-ceremony-chromium/new-couple-invitation.png",
+      "bytes": 169973,
+      "sha256": "6e820e91ba0b3d25746cdd0b3a9e9d96a2b94a60a3fb53548aee0a70e5b9ff05",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "runs/regression-final/wedding-group-hearts-cover-cd7b1-ntercepting-invitation-taps-chromium/even-hearts-over-photo.png",
+      "bytes": 169960,
+      "sha256": "0fd9b23fe9582fa1582c6c7a8b604395f7acad2b9fc7a5c8c161ff353347a28c",
+      "pixelSize": [
+        393,
+        852
+      ]
+    },
+    {
+      "path": "source-final.json",
+      "bytes": 34360,
+      "sha256": "22d6ca898f6eb27c40d82ba0a19f90c9e93e561e355a829093d98f1309a7507b"
+    },
+    {
+      "path": "source-frozen-01.json",
+      "bytes": 34297,
+      "sha256": "94308d98cc4ae3bc44de2bff73fe2780c7eaf33d81641cc074e5d12fd78ba376"
+    },
+    {
+      "path": "timing-and-resources.json",
+      "bytes": 7291,
+      "sha256": "f69183d13d3292aa5c9b8075eb6031532ec3894a0c91d78b439d2ec8319cfe27"
+    },
+    {
+      "path": "tools/acceptance-content.json",
+      "bytes": 2979,
+      "sha256": "22a699ce5854d5cc528b65a7e9552860602e8c8074288fc0a34a5608d244d101"
+    },
+    {
+      "path": "tools/finalize-evidence.py",
+      "bytes": 6978,
+      "sha256": "1dbb3a2763a56f89c56b1f085e2e3769d42dd07f2e5a97189a6ce5844c7febca"
+    },
+    {
+      "path": "tools/make-clips.py",
+      "bytes": 2905,
+      "sha256": "861c8eb05ad0dbd1de80ff579e3b41d39cf4f396e3038c3abe3b80e853b9f027"
+    },
+    {
+      "path": "tools/package-evidence.py",
+      "bytes": 1948,
+      "sha256": "8d177b855c19b02438f5da92402c0ad0e85a97909d8afe65e6452940368a0cda"
+    },
+    {
+      "path": "video-frames/f11-applause-1.0s.png",
+      "bytes": 461337,
+      "sha256": "103091fa0e325542790adb2aadf7c232ed8f06bdf9025ce7a992a9ba477d9173",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f11-applause-1.8s.png",
+      "bytes": 483892,
+      "sha256": "9241cac40c5c78f8b20f29d9b3a919f65d5579712d3731683bd439439ae3f0c5",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f11-applause-10.3s.png",
+      "bytes": 506362,
+      "sha256": "fba6733abea1168158f75d5fe2871c2939c18eec8b22193e215350e3903619cb",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f11-applause-5.6s.png",
+      "bytes": 247973,
+      "sha256": "ee65527abf001a64dbcbb670cde9af6f1f4b4c845e68bf889c233230cb3c578b",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f11-cheer-1.0s.png",
+      "bytes": 410968,
+      "sha256": "93200668b213bcd6de5ee8cd2fe1f505c712e0524934cf6aa9e4595f66ff8b21",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f11-cheer-1.8s.png",
+      "bytes": 505474,
+      "sha256": "1e21e51e6af632176b3df89514f79c5017e0a583014e16a9febef2c2cc8c69a5",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f11-cheer-13.7s.png",
+      "bytes": 513244,
+      "sha256": "140a1a240ec850a79f7080335485650cff7994a321cd7b28ee5c5825c8426b3b",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f11-cheer-7.3s.png",
+      "bytes": 495440,
+      "sha256": "7243332338102945fced3deb0bed083b02fb9593d5810d41b10be3a8ad6e78e7",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f12-booth-1.0s.png",
+      "bytes": 364155,
+      "sha256": "68bb50e01f9e528ff451c401d9b7d45a5a6c292135bf69a01ed7103ea79ca736",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f12-booth-10.7s.png",
+      "bytes": 349191,
+      "sha256": "f1abbc5d8929260f093b31e35d761d87c5ad7e10c5367df553bbb17ed74e8da5",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f12-booth-5.9s.png",
+      "bytes": 358862,
+      "sha256": "00513da979e26c305ca785cf496652337e6b60cb093282b4a118a83a24fb4b4b",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f12-bridal-1.0s.png",
+      "bytes": 407000,
+      "sha256": "f60b9d44eb3ae800ab4a13eae8f555330a44c8a62a8b5dd300c3fdd8dd6d9fb2",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f12-bridal-12.0s.png",
+      "bytes": 417825,
+      "sha256": "124dd7c7da864caa9ba1a18b989f0f2d586dcd49736b977d4da866981ab545f6",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f12-bridal-6.5s.png",
+      "bytes": 343891,
+      "sha256": "6a93b6ae539a36c153ce0e02a3eb6af8cd04256c265e37d7b3e1d1ca55978ab6",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f15-reception-1.0s.png",
+      "bytes": 474892,
+      "sha256": "6378df6b43eaa125fc55a80adb5a4294234309a6f014d64b8dd247daf9058df1",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f15-reception-14.3s.png",
+      "bytes": 471691,
+      "sha256": "12c7dfcf77d74062c5a150c29f38bc35e39297f3dab1a520ea2033e7b7d6c2e9",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f15-reception-5.4s.png",
+      "bytes": 218190,
+      "sha256": "090d6cd18ef15e5ac0f1c4d6aad80f9c322c5ffdc2d4436c8ca81a6ade4fa152",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f15-reception-7.2s.png",
+      "bytes": 488191,
+      "sha256": "f2cb0513a53c25fbd3647ab48703aee13dfb23c5342bff5c3ec260809524e974",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f15-reception-8.6s.png",
+      "bytes": 506130,
+      "sha256": "575df9cb145a211812a92dcf2a1d741f95531627a694002a670427a525d0fbce",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f15-reception-9.8s.png",
+      "bytes": 18594,
+      "sha256": "292dc2f71f4655731be2b691da9491e0b5c5cc475b5793d577ad403114e2ab1d",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-frames/f15-reception-9.9s.png",
+      "bytes": 99548,
+      "sha256": "9db6c36deba07ecbcc218a2aa4ba4a02faed06c164df1b9c28b3b40214a82c6c",
+      "pixelSize": [
+        392,
+        852
+      ]
+    },
+    {
+      "path": "video-inputs/ceremony-applause-events.json",
+      "bytes": 3405,
+      "sha256": "46a03f079d1bab51af2acc9e5183275e87a4af4900e1f03cdd676a7a50c74e0d"
+    },
+    {
+      "path": "video-inputs/ceremony-cheer-events.json",
+      "bytes": 3382,
+      "sha256": "3ea1b5002ddecd525aa0b48ed7797cb03f69af057a2b420fdbe9e5daa4702a31"
+    },
+    {
+      "path": "video-inputs/ceremony-compact-events.json",
+      "bytes": 3375,
+      "sha256": "ddee95b035fe6a01dc924bd04eb6c2fdefe5adb6fe07a149390685594174b7c7"
+    },
+    {
+      "path": "video-inputs/ceremony-reduced-events.json",
+      "bytes": 3388,
+      "sha256": "891dfc8fe3f2bf1ee4677e3ae89a4154ad415e12eb5ab4befb3d41308f9b53b2"
+    },
+    {
+      "path": "video-inputs/photo-events.json",
+      "bytes": 15481,
+      "sha256": "ca4b1c19f7571e358b420e9017e73901314ac1a221c9061efbe319dd83162f1a"
+    },
+    {
+      "path": "video-inputs/reception-events.json",
+      "bytes": 1691,
+      "sha256": "c9ae92314e7f895f06be8a161a2facb6f8a9a40cae15741098aea7c60ce33de6"
+    },
+    {
+      "path": "video-inputs/reception-pause-events.json",
+      "bytes": 1318,
+      "sha256": "a5dd28e7004d186637f7a78e5562f36c6beb97a01e71932f7cf7900cfe0b39aa"
+    },
+    {
+      "path": "video-manifest.json",
+      "bytes": 13808,
+      "sha256": "fa44179e643cc53188dc56ace4b660b763c6b9fb86ec9518437f650109085b75"
+    }
+  ],
+  "note": "All evidence files except this self-referential manifest. PNG pixel dimensions differ from CSS viewport at DPR 3. Failure traces are retained."
+}

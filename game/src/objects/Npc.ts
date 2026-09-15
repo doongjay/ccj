@@ -15,6 +15,8 @@ export type NpcConfig = Readonly<{
   y: number;
   label: string;
   variant: NpcVariant;
+  showLabel?: boolean;
+  cropHeight?: number;
 }>;
 
 const NPC_WIDTH = 64;
@@ -72,7 +74,16 @@ export class Npc extends Phaser.GameObjects.Container {
     }).setOrigin(0.5);
 
     const sprite = new Phaser.GameObjects.Sprite(scene, 0, 48, TEXTURES[config.variant], 0)
-      .setOrigin(0.5, 1).setScale(2);
+      .setOrigin(0.5, 1);
+    const isCouple = config.variant === "bride" || config.variant === "groom";
+    sprite.setDisplaySize(isCouple ? 80 : NPC_WIDTH, isCouple ? 120 : NPC_HEIGHT);
+    if (isCouple) {
+      this.setSize(80, 120);
+      labelPlate.y = this.labelText.y = -90;
+    }
+    if (config.cropHeight !== undefined) sprite.setCrop(0, 0, 32, config.cropHeight);
+    labelPlate.setVisible(config.showLabel !== false);
+    this.labelText.setVisible(config.showLabel !== false);
     this.add([sprite, labelPlate, this.labelText]);
     scene.add.existing(this);
   }

@@ -1,0 +1,63 @@
+{
+  "command": "node --test scripts/verify-shipping-assets.test.mjs",
+  "exitCode": 0,
+  "sourceFingerprint": "1402719dd9a38740f9b3955698e0ca61dd028dbfb2467650529ac2f33bf1858e",
+  "passed": 5,
+  "failed": 0,
+  "fixtures": [
+    {
+      "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-R2Keaj/catalog.json",
+      "report": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-R2Keaj/result.json",
+      "exitCode": 1,
+      "expected": "runtime optimized URL missing/mismatched",
+      "errors": [
+        "public: Unlisted shipping file: assets/optimized/lacitta-pixel-venue-lobby.webp",
+        "production: Unlisted shipping file: assets/optimized/lacitta-pixel-venue-lobby.webp",
+        "venue-lobby: runtime optimized URL missing/mismatched: /assets/optimized/lacitta-pixel-venue-lobby.webp",
+        "venue-lobby: unregistered stage lobby",
+        "game/public/assets/lacitta/pixel-venue/lobby.png: derivative URL missing from shipping catalog"
+      ]
+    },
+    {
+      "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-18cAoI/catalog.json",
+      "report": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-18cAoI/result.json",
+      "exitCode": 1,
+      "expected": "invalid/duplicate key",
+      "errors": [
+        "file:assets/invitation/calendar.jpg: invalid/duplicate key"
+      ]
+    },
+    {
+      "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-Zq2W32/catalog.json",
+      "report": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-Zq2W32/result.json",
+      "exitCode": 1,
+      "expected": "ENOENT",
+      "errors": [
+        "venue-lobby: Error: ENOENT: no such file or directory, open '/Users/user/wedding/ccj/game/public/assets/optimized/missing.webp'",
+        "public: Unlisted shipping file: assets/optimized/lacitta-pixel-venue-lobby.webp",
+        "production: Unlisted shipping file: assets/optimized/lacitta-pixel-venue-lobby.webp",
+        "venue-lobby: runtime optimized URL missing/mismatched: /assets/optimized/lacitta-pixel-venue-lobby.webp",
+        "game/public/assets/lacitta/pixel-venue/lobby.png: derivative URL missing from shipping catalog"
+      ]
+    },
+    {
+      "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-9vtSox/catalog.json",
+      "report": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-9vtSox/result.json",
+      "exitCode": 1,
+      "expected": "provenance not accepted",
+      "errors": [
+        "buffet-left: provenance not accepted for shipping",
+        "buffet-right: provenance not accepted for shipping"
+      ]
+    },
+    {
+      "fixture": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-E22Q4u/catalog.json",
+      "report": "/var/folders/8q/y3n0rgw53zs_7j_s1sk43twm0000gn/T/ccj-d-asset-negative-E22Q4u/result.json",
+      "exitCode": 1,
+      "expected": "unknown non-media shipping exception",
+      "errors": [
+        "assets/unknown.png: unknown non-media shipping exception"
+      ]
+    }
+  ]
+}

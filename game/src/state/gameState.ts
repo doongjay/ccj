@@ -1,3 +1,5 @@
+import { validOutfit } from "../data/guestOutfits";
+
 export const SCENE_KEYS = {
   Boot: 'BootScene',
   Intro: 'IntroScene',
@@ -5,6 +7,7 @@ export const SCENE_KEYS = {
   CarRoute: 'CarRouteScene',
   SubwayRoute: 'SubwayRouteScene',
   VenueLobby: 'VenueLobbyScene',
+  Reception: 'ReceptionScene',
   VenueHall: 'VenueHallScene',
   PhotoBooth: 'PhotoBoothScene',
   Banquet: 'BanquetScene',
@@ -12,6 +15,8 @@ export const SCENE_KEYS = {
   GreeneryCorridor: 'GreeneryCorridorScene',
   WaitingRoom: 'WaitingRoomScene',
   Ending: 'EndingScene',
+  DinnerJourney: 'DinnerJourneyScene',
+  Invitation: 'InvitationScene',
 } as const;
 
 export type SceneKey = (typeof SCENE_KEYS)[keyof typeof SCENE_KEYS];
@@ -37,9 +42,12 @@ export const PROGRESSION_FLAGS = {
   routeChosen: 'routeChosen',
   routeQuizSolved: 'routeQuizSolved',
   photoTableVisited: 'photoTableVisited',
+  photoBoothVisited: 'photoBoothVisited',
   guestSideChosen: 'guestSideChosen',
   receptionComplete: 'receptionComplete',
+  bridalRoomVisited: 'bridalRoomVisited',
   banquetGuideComplete: 'banquetGuideComplete',
+  mealComplete: 'mealComplete',
 } as const;
 
 export type ProgressionFlag = (typeof PROGRESSION_FLAGS)[keyof typeof PROGRESSION_FLAGS];
@@ -55,6 +63,12 @@ export type WeddingGameState = Readonly<{
 export const GAME_STATE_REGISTRY_KEYS = {
   routeChoice: 'wedding.routeChoice',
   guestSide: 'wedding.guestSide',
+  guestName: 'wedding.guestName',
+  guestGender: 'wedding.guestGender',
+  guestOutfit: 'wedding.guestOutfit',
+  guestHair: 'wedding.guestHair',
+  guestFace: 'wedding.guestFace',
+  lobbyIntroShown: 'wedding.lobbyIntroShown',
   progression: 'wedding.progression',
 } as const;
 
@@ -68,9 +82,12 @@ export function createInitialProgressionState(): ProgressionState {
     routeChosen: false,
     routeQuizSolved: false,
     photoTableVisited: false,
+    photoBoothVisited: false,
     guestSideChosen: false,
     receptionComplete: false,
+    bridalRoomVisited: false,
     banquetGuideComplete: false,
+    mealComplete: false,
   };
 }
 
@@ -85,6 +102,12 @@ export function readWeddingGameState(registry: GameStateRegistry): WeddingGameSt
 export function resetWeddingGameState(registry: GameStateRegistry): WeddingGameState {
   registry.set(GAME_STATE_REGISTRY_KEYS.routeChoice, undefined);
   registry.set(GAME_STATE_REGISTRY_KEYS.guestSide, undefined);
+  registry.set(GAME_STATE_REGISTRY_KEYS.guestName, undefined);
+  registry.set(GAME_STATE_REGISTRY_KEYS.guestGender, undefined);
+  registry.set(GAME_STATE_REGISTRY_KEYS.guestOutfit, undefined);
+  registry.set(GAME_STATE_REGISTRY_KEYS.guestHair, undefined);
+  registry.set(GAME_STATE_REGISTRY_KEYS.guestFace, undefined);
+  registry.set(GAME_STATE_REGISTRY_KEYS.lobbyIntroShown, false);
 
   const progression = createInitialProgressionState();
   registry.set(GAME_STATE_REGISTRY_KEYS.progression, progression);
@@ -116,6 +139,50 @@ export function setGuestSide(registry: GameStateRegistry, guestSide: GuestSide):
 export function readGuestSide(registry: GameStateRegistry): GuestSide | undefined {
   const guestSide: unknown = registry.get(GAME_STATE_REGISTRY_KEYS.guestSide);
   return isGuestSide(guestSide) ? guestSide : undefined;
+}
+
+export function readGuestName(registry: GameStateRegistry): string {
+  const name = registry.get(GAME_STATE_REGISTRY_KEYS.guestName);
+  return typeof name === "string" ? name : "";
+}
+
+export function setGuestName(registry: GameStateRegistry, name: string): void {
+  registry.set(GAME_STATE_REGISTRY_KEYS.guestName, name.trim());
+}
+
+export function readGuestGender(registry: GameStateRegistry): "male" | "female" {
+  return registry.get(GAME_STATE_REGISTRY_KEYS.guestGender) === "female" ? "female" : "male";
+}
+
+export function setGuestGender(registry: GameStateRegistry, gender: "male" | "female"): void {
+  registry.set(GAME_STATE_REGISTRY_KEYS.guestGender, gender);
+}
+
+export function readGuestOutfit(registry: GameStateRegistry): number {
+  const outfit = registry.get(GAME_STATE_REGISTRY_KEYS.guestOutfit);
+  return validOutfit(outfit);
+}
+
+export function setGuestOutfit(registry: GameStateRegistry, outfit: number): void {
+  registry.set(GAME_STATE_REGISTRY_KEYS.guestOutfit, outfit);
+}
+
+export function readGuestHair(registry: GameStateRegistry): number {
+  const hair = registry.get(GAME_STATE_REGISTRY_KEYS.guestHair);
+  return hair === 1 || hair === 2 ? hair : 0;
+}
+
+export function setGuestHair(registry: GameStateRegistry, hair: number): void {
+  registry.set(GAME_STATE_REGISTRY_KEYS.guestHair, hair);
+}
+
+export function readGuestFace(registry: GameStateRegistry): number {
+  const face = registry.get(GAME_STATE_REGISTRY_KEYS.guestFace);
+  return face === 1 || face === 2 ? face : 0;
+}
+
+export function setGuestFace(registry: GameStateRegistry, face: number): void {
+  registry.set(GAME_STATE_REGISTRY_KEYS.guestFace, face === 1 || face === 2 ? face : 0);
 }
 
 export function completeProgressionFlag(registry: GameStateRegistry, flag: ProgressionFlag): WeddingGameState {

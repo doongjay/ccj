@@ -1,3 +1,5 @@
+// Legacy 32×48/UI contracts retained for compatibility. Full shipping inventory lives in
+// shippingAssets.json and is cross-checked against runtimeAssets.ts, CSS, invitation templates and dist.
 import type { SceneKey } from "../state/gameState";
 
 export const ASSET_ROOT = "/assets/lacitta/";
