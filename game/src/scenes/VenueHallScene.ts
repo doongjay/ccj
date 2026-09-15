@@ -38,9 +38,7 @@ export class VenueHallScene extends Phaser.Scene {
     this.game.canvas.dataset.hallCharacterTextureCountBefore = String(this.textures.getTextureKeys().filter(key => /^(?:minimi-(?:male|female)(?:-face-[12])?|heads-(?:male|female)-face-[012]|formal-guest-portraits)$/.test(key)).length);
     this.cameras.main.fadeIn(350);
     photoArt(this, "hall");
-    this.add.text(360, 455, "JJ ♥ HS", {
-      fontFamily: "Galmuri11, monospace", fontSize: "42px", color: "#8a6e53", resolution: 3,
-    }).setOrigin(0.5);
+    weddingScreen(this, "opening");
     new Npc(this, { x: 320, y: 698, label: WEDDING_METADATA.groomName, variant: "groom", showLabel: false });
     new Npc(this, { x: 395, y: 698, label: WEDDING_METADATA.brideName, variant: "bride", showLabel: false });
     this.participant = new Player(this, { x: 360, y: 1000, appearance: "guest" });
@@ -79,7 +77,7 @@ export class VenueHallScene extends Phaser.Scene {
     this.children.removeAll(true);
     this.add.image(360, 640, "wedding-group-portrait").setDisplaySize(720, 1280).setDepth(-2);
     // Reuse the opening screen's exact pixels at 1:1 world scale, covering the old film bezel.
-    const screen = { x: 232, y: 468, width: 478, height: 270 };
+    const screen = GROUP_SCREEN_SOURCE;
     this.add.image(360 - screen.width / 2 - screen.x, 364 - screen.height / 2 - screen.y, "venue-hall", "__BASE")
       .setOrigin(0).setCrop(screen.x, screen.y, screen.width, screen.height).setDepth(-1).setName("group-photo-screen");
     weddingScreen(this, "group-photo");
@@ -207,4 +205,4 @@ export class VenueHallScene extends Phaser.Scene {
     this.game.canvas.dataset.groupPhotoCamera = "viewfinder";
   }
 }
-import { weddingScreen } from "../ui/weddingScreen";
+import { GROUP_SCREEN_SOURCE, weddingScreen } from "../ui/weddingScreen";

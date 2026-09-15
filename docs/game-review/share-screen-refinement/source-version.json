@@ -1,0 +1,122 @@
+{
+  "capturedAt": "2026-09-15T18:06:24.003963+00:00",
+  "baseCommit": "67ed8d9ca1ea8336b7ad730f23944595f11f1cd8",
+  "files": [
+    {
+      "path": "docs/VERCEL_DEPLOYMENT.md",
+      "sha256": "ef524e61b4817a1a45714fc8c553aee8cc34b04f460133a397012ce0c2ab68e8"
+    },
+    {
+      "path": "game/artwork/sources/share-pixel-v2/share-pixel-square-v2.png",
+      "sha256": "bd7f383e058c4457475ada4abcdb3eec73cb06c3a19948e25e2131a2a21579d9"
+    },
+    {
+      "path": "game/artwork/sources/share-pixel-v2/share-pixel-wide-v2.png",
+      "sha256": "553e95770f50a88125856b5d8562ead34827c1b7729e65620003b9ef556df748"
+    },
+    {
+      "path": "game/artwork/sources/share-pixel-v3/share-pixel-square-v3.png",
+      "sha256": "14c55108a9ca0fe63874572aa395f81dfd701e92d8286722e400fa5560bc3cac"
+    },
+    {
+      "path": "game/artwork/sources/share-pixel-v3/share-pixel-wide-v3.png",
+      "sha256": "b348cfe39ab4496707531c802e89d4a191bf92ef95fb56d942968087733f9d7a"
+    },
+    {
+      "path": "game/e2e/car-guidance-reference.spec.ts",
+      "sha256": "a8710c2045a7c72b85a15dc377f436dae19e3665639b987c6311dafa652be43d"
+    },
+    {
+      "path": "game/e2e/group-screen-reuse.spec.ts",
+      "sha256": "ff4023bfe117d63b243bc7f974a7bdc0c49e7c6cee04b7b43eb65ddde5fb55f1"
+    },
+    {
+      "path": "game/e2e/invitation-sharing.spec.ts",
+      "sha256": "6f51c21a29777c0821dd011cf195f63ba041f9fd9c8cb03064ea8992b33fae2f"
+    },
+    {
+      "path": "game/e2e/minimi-customization.spec.ts",
+      "sha256": "3bb6b3f0c0782f5ce76782bb3e8cb7a4a57067d77d509cb8a35a405eaaa67438"
+    },
+    {
+      "path": "game/e2e/smoke.spec.ts",
+      "sha256": "42657f1b40facd85c2d1cdc5251949fc323cea49e4a15937fe13afcdd097b7ed"
+    },
+    {
+      "path": "game/e2e/story-sentence-lines.spec.ts",
+      "sha256": "04deb28caaa48e455f1205eb9cf0f16c4d67a239de16796d19307b2474ca8e42"
+    },
+    {
+      "path": "game/index.html",
+      "sha256": "e9f719ff5bbc0a630c3f4d2f2b713bebecb77131e9ae2dc97c56373a3930c492"
+    },
+    {
+      "path": "game/public/assets/invitation/share-pixel-square-v2.png",
+      "status": "removed-from-shipping; archived source retained"
+    },
+    {
+      "path": "game/public/assets/invitation/share-pixel-square-v3.png",
+      "sha256": "14c55108a9ca0fe63874572aa395f81dfd701e92d8286722e400fa5560bc3cac"
+    },
+    {
+      "path": "game/public/assets/invitation/share-pixel-wide-v2.png",
+      "status": "removed-from-shipping; archived source retained"
+    },
+    {
+      "path": "game/public/assets/invitation/share-pixel-wide-v3.png",
+      "sha256": "b348cfe39ab4496707531c802e89d4a191bf92ef95fb56d942968087733f9d7a"
+    },
+    {
+      "path": "game/public/share-preview.html",
+      "sha256": "df6282bbd4d6b986d99e3e7fb4bd382832bf768c45200738a0bcf755cbf785c9"
+    },
+    {
+      "path": "game/src/data/shippingAssets.json",
+      "sha256": "b2db0819c29e82cff16a1da7ada3817c1b1a59c8d844da7bd85bf2bb8bdc61c5"
+    },
+    {
+      "path": "game/src/data/weddingMetadata.ts",
+      "sha256": "8ddf6f57d6598b8c95b7f3b6a613b9f02623fad0ccfa06350008243acf862f05"
+    },
+    {
+      "path": "game/src/invitation.css",
+      "sha256": "bd54893e162e92f1f314a94fa16551e5e94e0073b4632133b41e54b5f8371e43"
+    },
+    {
+      "path": "game/src/scenes/CarRouteScene.ts",
+      "sha256": "d1d017ba27a30d1d92bfe9d9ec9ae53ad4c952690dd679992bc5fcb7500867fb"
+    },
+    {
+      "path": "game/src/scenes/VenueHallScene.ts",
+      "sha256": "c61fc4de94c7a0fa7c5b7c552422eaf09d2350081ac87b0662c66472942edc87"
+    },
+    {
+      "path": "game/src/style.css",
+      "sha256": "d89fc69891f024c71079ed46b9566b93ece0f63f723d4d8a678752b1deacfbaf"
+    },
+    {
+      "path": "game/src/ui/InvitationView.ts",
+      "sha256": "c98b97774de34879bf65f27036e822c365aade2138340d025183de1f91a789f2"
+    },
+    {
+      "path": "game/src/ui/MinimiPicker.ts",
+      "sha256": "e661f84714bedaa490bb14ee42d46328cb056a2338d7159a44a3becee75f0bee"
+    },
+    {
+      "path": "game/src/ui/StoryDialog.ts",
+      "sha256": "9ba12745a0cff66e11155d1a576c483efa5f76ef6f73cbd728f981a961742599"
+    },
+    {
+      "path": "game/src/ui/invitationShare.ts",
+      "sha256": "ed3e3ae9df57fa86cc2b2de82d158114d36fdf02db141e708941ec8cd133adba"
+    },
+    {
+      "path": "game/src/ui/weddingMonogram.ts",
+      "sha256": "ba8d41c99650e7406853ff982b41d33fd92f4ec25ff56ff5663d3a30fc994aa7"
+    },
+    {
+      "path": "game/src/ui/weddingScreen.ts",
+      "sha256": "8a9ee90e3d4901a8a3ed7ea3a449dc94b9ed8afc34890d0fa50b817d260361be"
+    }
+  ]
+}

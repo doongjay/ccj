@@ -164,8 +164,8 @@
       "sha256": "4ce7c87fe2f43ff286d8f7d253ce5bdecf01a2bc1c711feea5bc6a22a8b7a755"
     },
     {
-      "key": "file:assets/invitation/share-pixel-square-v2.png",
-      "url": "/assets/invitation/share-pixel-square-v2.png",
+      "key": "file:assets/invitation/share-pixel-square-v3.png",
+      "url": "/assets/invitation/share-pixel-square-v3.png",
       "kind": "image",
       "width": 1254,
       "height": 1254,
@@ -173,18 +173,18 @@
       "stages": [
         "invitation"
       ],
-      "source": "game/public/assets/invitation/share-pixel-square-v2.png",
+      "source": "game/artwork/sources/share-pixel-v3/share-pixel-square-v3.png",
       "contract": "image",
       "byteLimit": 3000000,
       "budgetClass": "photograph",
-      "provenanceId": "share-art",
+      "provenanceId": "share-pixel-refinement-20260916",
       "runtimeKey": null,
-      "sourceSHA256": "bd7f383e058c4457475ada4abcdb3eec73cb06c3a19948e25e2131a2a21579d9",
-      "sha256": "bd7f383e058c4457475ada4abcdb3eec73cb06c3a19948e25e2131a2a21579d9"
+      "sourceSHA256": "14c55108a9ca0fe63874572aa395f81dfd701e92d8286722e400fa5560bc3cac",
+      "sha256": "14c55108a9ca0fe63874572aa395f81dfd701e92d8286722e400fa5560bc3cac"
     },
     {
-      "key": "file:assets/invitation/share-pixel-wide-v2.png",
-      "url": "/assets/invitation/share-pixel-wide-v2.png",
+      "key": "file:assets/invitation/share-pixel-wide-v3.png",
+      "url": "/assets/invitation/share-pixel-wide-v3.png",
       "kind": "image",
       "width": 1774,
       "height": 887,
@@ -192,14 +192,14 @@
       "stages": [
         "invitation"
       ],
-      "source": "game/public/assets/invitation/share-pixel-wide-v2.png",
+      "source": "game/artwork/sources/share-pixel-v3/share-pixel-wide-v3.png",
       "contract": "image",
       "byteLimit": 3000000,
       "budgetClass": "photograph",
-      "provenanceId": "share-art",
+      "provenanceId": "share-pixel-refinement-20260916",
       "runtimeKey": null,
-      "sourceSHA256": "553e95770f50a88125856b5d8562ead34827c1b7729e65620003b9ef556df748",
-      "sha256": "553e95770f50a88125856b5d8562ead34827c1b7729e65620003b9ef556df748"
+      "sourceSHA256": "b348cfe39ab4496707531c802e89d4a191bf92ef95fb56d942968087733f9d7a",
+      "sha256": "b348cfe39ab4496707531c802e89d4a191bf92ef95fb56d942968087733f9d7a"
     },
     {
       "key": "file:assets/invitation/shuttle-pixel-matte.png",
@@ -3227,6 +3227,18 @@
         "docs/game-review/bridal-minimi-reuse/ARTWORK.md",
         "docs/game-review/bridal-minimi-reuse/artwork/patch-proof.json"
       ]
+    },
+    {
+      "id": "share-pixel-refinement-20260916",
+      "mode": "generated",
+      "sourceUrl": "Built-in image_gen edit of approved v2 sharing illustrations",
+      "license": "Generated for this project at user request.",
+      "transformationNotes": "Two built-in image_gen style-transfer edits. Generated PNG copied unchanged to source and public; prior v2 images archived. Actual output dimensions retained.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/game-review/share-screen-refinement/ARTWORK.md",
+        "docs/game-review/share-screen-refinement/asset-import.json"
+      ]
     }
   ],
   "nonMediaFiles": [
@@ -3937,6 +3949,24 @@
       "bytes": 408211,
       "runtimeVariant": null,
       "reason": "User replaced the invitation gallery with the numerically ordered original ZIP photos on 2026-09-16. Previous file archived unchanged.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/share-pixel-wide-v2.png",
+      "preservedPath": "game/artwork/sources/share-pixel-v2/share-pixel-wide-v2.png",
+      "sha256": "553e95770f50a88125856b5d8562ead34827c1b7729e65620003b9ef556df748",
+      "bytes": 1505049,
+      "runtimeVariant": "/assets/invitation/share-pixel-wide-v3.png",
+      "reason": "User requested visibly coarser pixel art for sharing thumbnails. Prior image preserved byte-identically.",
+      "old40Item": false
+    },
+    {
+      "previousPath": "game/public/assets/invitation/share-pixel-square-v2.png",
+      "preservedPath": "game/artwork/sources/share-pixel-v2/share-pixel-square-v2.png",
+      "sha256": "bd7f383e058c4457475ada4abcdb3eec73cb06c3a19948e25e2131a2a21579d9",
+      "bytes": 1658479,
+      "runtimeVariant": "/assets/invitation/share-pixel-square-v3.png",
+      "reason": "User requested visibly coarser pixel art for sharing thumbnails. Prior image preserved byte-identically.",
       "old40Item": false
     }
   ]

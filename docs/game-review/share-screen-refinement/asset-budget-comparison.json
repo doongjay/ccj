@@ -1,0 +1,10 @@
+{
+  "previousReport": "docs/game-review/root-readme-cleanup/assets.json",
+  "currentReport": "docs/game-review/share-screen-refinement/assets-final-02.json",
+  "sameIndividualErrors": true,
+  "individualErrorCount": 23,
+  "previousTotalBytes": 260173242,
+  "currentTotalBytes": 259823609,
+  "differenceBytes": -349633,
+  "limitsChanged": false
+}

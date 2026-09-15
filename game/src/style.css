@@ -302,14 +302,13 @@ body {
 .minimi-part-option:focus-visible, .minimi-outfit-arrow:focus-visible { outline: 2px solid #b2808b; outline-offset: 2px; }
 .minimi-part-row[data-part="outfit"] { position: relative; }
 .minimi-outfit-navigation { height: 20px; padding-top: 4px; text-align: center; font: 9px/1 Galmuri11, monospace; }
-.minimi-outfit-arrow { --arrow-edge: #925164; --arrow-fill: #eeb0c3; --arrow-highlight: #ffdde7; position: absolute; top: calc((100% - 20px) / 2); display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 0; background: transparent; cursor: pointer; touch-action: manipulation; transform: translateY(-50%); }
+.minimi-outfit-arrow, .invitation-page .minimi-outfit-arrow { --arrow-edge: #925164; --arrow-fill: #eeb0c3; position: absolute; top: calc((100% - 20px) / 2); display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; cursor: pointer; touch-action: manipulation; transform: translateY(-50%); }
 .minimi-outfit-arrow[data-direction="previous"] { left: -22px; }
 .minimi-outfit-arrow[data-direction="next"] { right: -22px; }
 .minimi-outfit-arrow[data-direction="next"] svg { transform: scaleX(-1); }
 .minimi-outfit-arrow .arrow-outline { fill: var(--arrow-edge); }
 .minimi-outfit-arrow .arrow-fill { fill: var(--arrow-fill); }
-.minimi-outfit-arrow .arrow-highlight { fill: var(--arrow-highlight); }
-.minimi-picker[data-gender="male"] .minimi-outfit-arrow { --arrow-edge: #446e85; --arrow-fill: #8ecbe8; --arrow-highlight: #d9f3ff; }
+.minimi-picker[data-gender="male"] .minimi-outfit-arrow { --arrow-edge: #446e85; --arrow-fill: #8ecbe8; }
 .minimi-outfit-arrow:active { transform: translateY(calc(-50% + 1px)); }
 @media (max-width: 360px) {
   .minimi-customizer { gap: 5px; padding: 7px; }

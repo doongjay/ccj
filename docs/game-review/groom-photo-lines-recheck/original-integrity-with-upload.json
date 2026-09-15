@@ -1,0 +1,29 @@
+[
+  {
+    "file": "game/public/assets/photo-table/groom-01.jpeg",
+    "bytes": 1513307,
+    "sha256": "60dd6aad30a0b9d20efc4aa8cca1272ffcbfcc1019d9c2fe3d0727ef9eed6d48",
+    "originalIdentical": true,
+    "providedOriginal": "/Users/user/wedding/재준1.jpeg",
+    "providedSHA256": "60dd6aad30a0b9d20efc4aa8cca1272ffcbfcc1019d9c2fe3d0727ef9eed6d48",
+    "providedOriginalIdentical": true
+  },
+  {
+    "file": "game/public/assets/photo-table/groom-02.jpeg",
+    "bytes": 5184731,
+    "sha256": "17602e0a4be65c7864891706013995b6aff676b27e2a04742dcbc0138bd20661",
+    "originalIdentical": true,
+    "providedOriginal": "/Users/user/wedding/재준2.jpeg",
+    "providedSHA256": "17602e0a4be65c7864891706013995b6aff676b27e2a04742dcbc0138bd20661",
+    "providedOriginalIdentical": true
+  },
+  {
+    "file": "game/public/assets/photo-table/groom-03.jpeg",
+    "bytes": 7572969,
+    "sha256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+    "originalIdentical": true,
+    "providedOriginal": "/Users/user/wedding/재준3.jpeg",
+    "providedSHA256": "5953a15452574b7973530efb41601f94af1ad3838b8eb76ccdf545326f738862",
+    "providedOriginalIdentical": true
+  }
+]

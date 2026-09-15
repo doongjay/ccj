@@ -23,7 +23,7 @@ Vercel에서 개인 Hobby 계정으로 `Add New → Project`에서 위 저장소
 | Output Directory | `dist` |
 | Production Branch | `master` |
 
-`game/vercel.json`에 명령을 명시했다. 별도 서버나 유료 함수는 필요하지 않다. 원본 사진은 `public/assets`에서 그대로 제공한다. [Vite 배포](https://vercel.com/docs/frameworks/frontend/vite)
+`game/vercel.json`에 명령을 명시했다. 현재 화면은 정적 배포로 제공하고, 원본 사진은 `public/assets`에서 그대로 제공한다. 공용 방명록 저장은 아래와 같이 별도 연결이 필요하다. [Vite 배포](https://vercel.com/docs/frameworks/frontend/vite)
 
 현재 원본 사진 포함 public은 약 248 MiB이므로 **Git 저장소 Import**로 빌드한다. Hobby CLI의 source upload 한도는 100 MB이므로 이 프로젝트 전체를 CLI로 직접 업로드하는 방식은 맞지 않는다. 원본 사진을 임의로 압축하거나 누락하지 않는다. [업로드 한도](https://vercel.com/docs/limits)
 
@@ -41,6 +41,12 @@ Vercel에서 개인 Hobby 계정으로 `Add New → Project`에서 위 저장소
 도메인을 바꾼 뒤에는 재배포하여 canonical/OG 주소도 새 주소로 갱신한다. 첫 화면, `/#invitation`, 사진 원본, 링크 복사, 공유 미리보기와 실제 모바일 게임 흐름을 배포 주소에서 확인한다.
 
 ## 현재 검증 범위
+
+### 방명록 보관 — 공개 전 연결 필요
+
+현재 `game/src/state/guestMessages.ts`는 각 방문자 브라우저의 `localStorage["wedding.guestMessages"]`에만 이름·메시지·받는 사람·작성 시각·미니미 선택을 저장한다. 서버 전송이나 공용 데이터베이스 연결은 없다. Vercel에 그대로 올려도 하객들의 메시지가 한곳에 모이지 않는다. 브라우저 데이터 삭제, 기기·도메인 변경 시 기존 기록에 접근하지 못할 수 있다.
+
+결혼식 이후까지 모두 보관하려면 공용 DB 저장/조회와 관리자용 JSON·CSV 내보내기를 구현하고, 저장 성공·실패 및 서로 다른 두 기기에서 조회되는지 검증해야 한다. DB 외에도 별도 백업 파일을 보관한다. 이 연결은 아직 완료하지 않았으며, 현재 로컬 저장을 장기 보존 기능으로 간주하지 않는다. 기존 로컬 기록은 삭제하거나 자동 업로드하지 않았다.
 
 로컬 build 및 실제 Chromium 검증 기록은 `docs/game-review/`에 있다. shipping asset 검사는 원본 사진 품질 유지로 기존 23개 사진 개별 용량 + 전체 용량, 24건의 한도 초과가 남아 있다. 기준을 낮추지 않았다.
 

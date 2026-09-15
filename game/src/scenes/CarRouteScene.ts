@@ -36,7 +36,7 @@ export class CarRouteScene extends Phaser.Scene {
   }
   private prompt(): void {
     this.dialog?.setPlacement("car");
-    this.dialog?.show("양재IC랑 가깝군. 그런데 진입구에\n유도선이 많은데?", [
+    this.dialog?.show("양재IC랑 가깝군. 그런데 진입구에 유도선이 많은데?", [
       { label: "노란색", tried: Number(this.game.canvas.dataset.routeQuizWrongCount) > 0, onSelect: () => this.drive(0) },
       { label: "분홍색", onSelect: () => this.drive(1) },
       { label: "파란색", onSelect: () => this.drive(2) },

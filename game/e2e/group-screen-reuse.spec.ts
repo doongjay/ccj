@@ -4,8 +4,8 @@ import { installPlayerObservation } from "./corridor-observables";
 import { startPreparedScene } from "./stage-fixtures";
 import { chooseStory } from "./story-helpers";
 
-test("group screen matches the opening artwork pixels and preserves the full background on return", async ({ page }, info) => {
-  await page.setViewportSize({ width: 393, height: 852 });
+for (const viewport of [{ width: 320, height: 568 }, { width: 393, height: 852 }, { width: 430, height: 932 }]) test(`group screen matches opening artwork and lettering positions at ${viewport.width}`, async ({ page }, info) => {
+  await page.setViewportSize(viewport);
   await installPlayerObservation(page);
   const errors: string[] = [];
   page.on("pageerror", error => errors.push(error.message));
@@ -13,7 +13,7 @@ test("group screen matches the opening artwork pixels and preserves the full bac
   await page.goto("/");
   const canvas = page.locator("#app canvas");
   await expect(canvas).toHaveAttribute("data-active-scene", "IntroScene");
-  await page.screenshot({ path: info.outputPath("opening-reference-393.png") });
+  await page.screenshot({ path: info.outputPath(`opening-reference-${viewport.width}.png`) });
   const background = () => page.evaluate(() => {
     const game = window.__venueQaGame as Phaser.Game;
     const image = game.scene.getScene("IntroScene").children.list.find(child =>
@@ -22,6 +22,15 @@ test("group screen matches the opening artwork pixels and preserves the full bac
       defaultFrame: game.textures.get("venue-hall").firstFrame };
   });
   const initial = await background();
+  const openingLettering = await page.evaluate(() => {
+    const game = window.__venueQaGame as Phaser.Game;
+    const source = game.textures.get("venue-hall").getSourceImage() as HTMLImageElement;
+    const screen = { x: 232 * 720 / source.width, y: 468 * 1280 / source.height, width: 478 * 720 / source.width, height: 270 * 1280 / source.height };
+    return game.scene.getScene("IntroScene").children.list.filter(child => child.getData("screenBranding")).map(child => {
+      const item = child as Phaser.GameObjects.Container | Phaser.GameObjects.Text;
+      return { copy: item.getData("screenBrandingCopy"), relativeX: (item.x - screen.x) / screen.width, relativeY: (item.y - screen.y) / screen.height };
+    });
+  });
   await startPreparedScene(page, "VenueHallScene");
   await chooseStory(page, "박수를 친다");
   await expect(canvas).toHaveAttribute("data-ceremony-stage", "group-photo");
@@ -46,19 +55,30 @@ test("group screen matches the opening artwork pixels and preserves the full bac
       if (bounds.some(b => x >= b.left - 1 && x <= b.right + 1 && y >= b.top - 1 && y <= b.bottom + 1)) letteringPixels++;
       else differentPixels++;
     }
-    return { comparedPixels: 478 * 270, differentPixels, letteringPixels, lettering: lettering.map(text => text.text) };
+    const monogram = game.scene.getScene("VenueHallScene").children.getByName("wedding-screen-monogram") as Phaser.GameObjects.Container;
+    return { comparedPixels: 478 * 270, differentPixels, letteringPixels, lettering: lettering.map(text => text.getData("screenBrandingCopy")),
+      positions: lettering.map(item => ({ relativeX: (item.x - 121) / 478, relativeY: (item.y - 229) / 270 })),
+      heartColours: [...new Set(monogram.list.filter(child => child.type === "Rectangle").map(child => (child as Phaser.GameObjects.Rectangle).fillColor))],
+      letterText: monogram.list.filter(child => child.type === "Text").map(child => (child as Phaser.GameObjects.Text).text),
+    };
   });
   expect(comparison.differentPixels).toBe(0);
   expect(comparison.lettering).toEqual(["JJ ♥ HS", "WE ARE GETTING MARRIED"]);
   expect(comparison.letteringPixels).toBeGreaterThan(100);
-  await page.screenshot({ path: info.outputPath("group-screen-uncovered-393.png") });
+  for (const [index, position] of comparison.positions.entries()) {
+    expect(Math.abs(position.relativeX - openingLettering[index]!.relativeX)).toBeLessThan(.004);
+    expect(Math.abs(position.relativeY - openingLettering[index]!.relativeY)).toBeLessThan(.004);
+  }
+  expect(comparison.heartColours).toEqual([0xe9a0a7]);
+  expect(comparison.letterText).toEqual(["JJ", "HS"]);
+  await page.screenshot({ path: info.outputPath(`group-screen-uncovered-${viewport.width}.png`) });
   await expect(page.locator(".story-narration")).toHaveAttribute("aria-label", "찰칵! 결혼 축하해!", { timeout: 8000 });
   await chooseStory(page, "다음으로");
   await expect(canvas).toHaveAttribute("data-active-scene", "DinnerJourneyScene");
   await startPreparedScene(page, "IntroScene");
   await expect(canvas).toHaveAttribute("data-active-scene", "IntroScene");
   expect(await background()).toEqual(initial);
-  await page.screenshot({ path: info.outputPath("opening-after-group-393.png") });
+  await page.screenshot({ path: info.outputPath(`opening-after-group-${viewport.width}.png`) });
   expect(errors).toEqual([]);
-  await info.attach("screen-art-comparison", { body: JSON.stringify({ initial, comparison, returned: await background(), errors }), contentType: "application/json" });
+  await info.attach("screen-art-comparison", { body: JSON.stringify({ viewport, initial, openingLettering, comparison, returned: await background(), errors }), contentType: "application/json" });
 });

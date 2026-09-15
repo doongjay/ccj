@@ -11,6 +11,7 @@ import { weddingAmbience } from "./weddingAmbience";
 import { invitationInformation } from "./InvitationInformation";
 import { GUEST_PHOTO_PAGE_SIZE, GUEST_PHOTO_POSITIONS } from "./guestPhotoLayout";
 import { WEDDING_METADATA } from "../data/weddingMetadata";
+import { weddingMonogramElement } from "./weddingMonogram";
 import { invitationShareUrl, kakaoConfigured, prepareKakaoShare, sendKakaoInvitation } from "./invitationShare";
 
 const SOURCE_URL = "https://www.heumcard.com/cards/now-2026-11-21";
@@ -41,7 +42,7 @@ export class InvitationView {
     const paper = element("article", "invitation-paper");
     const navigation = element("nav", "invitation-nav");
     navigation.setAttribute("aria-label", "청첩장 바로가기");
-    navigation.append(element("span", "invitation-monogram", "JJ ♥ HS"));
+    navigation.append(weddingMonogramElement("span"));
     if (onReturn) navigation.append(button("게임으로 돌아가기", onReturn));
     for (const [label, id] of [["예식 안내", "invitation-location"], ["사진", "invitation-gallery"], ["방명록", "invitation-guests"]]) {
       navigation.append(button(label!, () => this.root.querySelector(`#${id}`)?.scrollIntoView({ behavior: "auto", block: "start" })));
@@ -438,7 +439,7 @@ export class InvitationView {
 
   private footer(): HTMLElement {
     const footer = element("footer", "invitation-footer");
-    footer.append(element("p", "invitation-monogram", "JJ ♥ HS"), element("p", "", "함께해 주시는 모든 마음, 감사히 간직하겠습니다."));
+    footer.append(weddingMonogramElement("p"), element("p", "", "함께해 주시는 모든 마음, 감사히 간직하겠습니다."));
     const actions = element("div", "invitation-actions");
     actions.append(button("링크 복사", () => void this.copy(invitationShareUrl(), "청첩장 링크를 복사했어요.")),
       button("카카오톡으로 전달", () => void this.share()));

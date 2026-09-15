@@ -55,6 +55,9 @@ for (const [width, height] of [[320, 568], [393, 852], [430, 932]]) {
     // The 44px controls straddle the first/third card borders, at their midline.
     const cards = page.locator(".outfit-card:visible");
     for (const [arrow, card, side] of [[previous, cards.first(), "left"], [next, cards.last(), "right"]] as const) {
+      await expect(arrow).toHaveCSS("background-color", "rgba(0, 0, 0, 0)");
+      await expect(arrow).toHaveCSS("border-top-width", "0px");
+      await expect(arrow).toHaveCSS("box-shadow", "none");
       const a = (await arrow.boundingBox())!, c = (await card.boundingBox())!;
       expect(Math.abs(a.x + a.width / 2 - (side === "left" ? c.x : c.x + c.width))).toBeLessThanOrEqual(1);
       expect(Math.abs(a.y + a.height / 2 - c.y - c.height / 2)).toBeLessThanOrEqual(1);
@@ -123,5 +126,53 @@ for (const [width, height] of [[320, 568], [393, 852], [430, 932]]) {
     await page.getByRole("button", { name: "시작하기", exact: true }).click();
     await expect(page.locator("#app canvas")).toHaveAttribute("data-guest-face", "1");
     await expect(page.locator("#app canvas")).toHaveAttribute("data-guest-outfit", "4");
+  });
+
+  test(`invitation outfit arrowheads have no button box and retain touch and keyboard navigation at ${width}px`, async ({ page }, info) => {
+    await page.setViewportSize({ width: width!, height: height! });
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    const errors: string[] = [];
+    page.on("pageerror", error => errors.push(error.message));
+    page.on("console", entry => { if (entry.type() === "error") errors.push(entry.text()); });
+    await page.goto("/#invitation");
+    await page.locator(".invitation-nav").getByRole("button", { name: "방명록", exact: true }).click();
+    const picker = page.locator(".invitation-guest-form .minimi-picker");
+    for (const [gender, label, colour] of [["male", "남자", "rgb(142, 203, 232)"], ["female", "여자", "rgb(238, 176, 195)"]] as const) {
+      await picker.getByRole("button", { name: label, exact: true }).click();
+      await expect(picker).toHaveAttribute("data-gender", gender);
+      const previous = picker.getByRole("button", { name: "이전 의상 보기", exact: true });
+      const next = picker.getByRole("button", { name: "다음 의상 보기", exact: true });
+      await next.scrollIntoViewIfNeeded();
+      for (const arrow of [previous, next]) {
+        await expect(arrow).toHaveCSS("background-color", "rgba(0, 0, 0, 0)");
+        await expect(arrow).toHaveCSS("border-top-width", "0px");
+        await expect(arrow).toHaveCSS("box-shadow", "none");
+        await expect(arrow.locator(".arrow-fill")).toHaveCSS("fill", colour);
+        const bounds = (await arrow.boundingBox())!;
+        expect(bounds.width).toBeGreaterThanOrEqual(44); expect(bounds.height).toBeGreaterThanOrEqual(44);
+        expect(bounds.x).toBeGreaterThanOrEqual(0); expect(bounds.x + bounds.width).toBeLessThanOrEqual(width!);
+      }
+      // A triangular arrowhead has a flat trailing edge; the former stem did not.
+      const rightEdges = await previous.locator(".arrow-outline").evaluate(node => {
+        const path = node as SVGGeometryElement;
+        return Array.from({ length: 12 }, (_, y) => {
+          let right = -1;
+          for (let x = 0; x < 12; x++) if (path.isPointInFill(new DOMPoint(x + .5, y + .5))) right = x;
+          return right;
+        });
+      });
+      expect(new Set(rightEdges).size).toBe(1);
+      await page.screenshot({ path: info.outputPath(`invitation-${gender}-arrowheads-${width}.png`) });
+      await next.click();
+      expect(await picker.locator(".outfit-card:visible").evaluateAll(nodes => nodes.map(node => (node as HTMLElement).dataset.index))).toEqual(["3", "4", "5"]);
+      await previous.focus(); await page.keyboard.press("Space");
+      expect(await picker.locator(".outfit-card:visible").evaluateAll(nodes => nodes.map(node => (node as HTMLElement).dataset.index))).toEqual(["0", "1", "2"]);
+      await expect(previous).toHaveCSS("outline-style", "solid");
+      await page.keyboard.press("Tab"); await expect(next).toBeFocused();
+      await page.keyboard.press("Enter");
+      await picker.locator('.outfit-card[data-index="5"]').click();
+      await expect(picker.locator('.outfit-card[data-index="5"]')).toHaveAttribute("aria-pressed", "true");
+    }
+    expect(errors).toEqual([]);
   });
 }

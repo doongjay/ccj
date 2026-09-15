@@ -135,7 +135,7 @@ export class MinimiPicker {
         button.dataset.direction = direction === -1 ? "previous" : "next";
         button.setAttribute("aria-label", `${direction === -1 ? "이전" : "다음"} 의상 보기`);
         // Integer-pixel silhouette, with the same sky/pink palette as the cards.
-        button.innerHTML = `<svg viewBox="0 0 12 12" width="24" height="24" aria-hidden="true" shape-rendering="crispEdges"><path class="arrow-outline" d="M5 0h2v4h4v3H7v4H5v-1H4V9H3V8H2V7H1V6H0V5h1V4h1V3h1V2h1V1h1z"/><path class="arrow-fill" d="M5 2h1v3h4v1H6v3H5V8H4V7H3V6H2V5h1V4h1V3h1z"/><path class="arrow-highlight" d="M5 2h1v1H5zM4 3h1v1H4zM3 4h1v1H3z"/></svg>`;
+        button.innerHTML = `<svg viewBox="0 0 12 12" width="24" height="24" aria-hidden="true" shape-rendering="crispEdges"><path class="arrow-outline" d="M10 0H12V12H10V11H8V10H6V9H4V8H2V7H0V5H2V4H4V3H6V2H8V1H10Z"/><path class="arrow-fill" d="M11 2H10V3H8V4H6V5H4V7H6V8H8V9H10V10H11Z"/></svg>`;
         button.onclick = () => {
           start = ((start / 3 + direction + pages) % pages) * 3;
           paintWindow();

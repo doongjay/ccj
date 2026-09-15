@@ -12,6 +12,8 @@
 .invitation-nav .invitation-monogram { margin-right: auto; font-size: 13px; }
 .invitation-nav button { border: 0; padding: 6px 9px; font-size: 13px; }
 .invitation-monogram, .invitation-pixel-heart { font-family: Galmuri11, monospace; color: #8a9c75; }
+.invitation-monogram { white-space: nowrap; }
+.monogram-heart { display: inline-block; width: 14px; height: 12px; vertical-align: -1px; }
 .invitation-hero { position: relative; padding: 24px 22px 28px; background-color: #f7f6ea; background-image: linear-gradient(#dce5d04d 1px, transparent 1px), linear-gradient(90deg, #dce5d04d 1px, transparent 1px); background-size: 20px 20px; border-bottom: 2px solid #d3ddc7; }
 .invitation-hero img { aspect-ratio: 2 / 3; object-fit: contain; background: #f5f0e7; }
 .invitation-hero-title { padding: 18px 4px 0; text-align: center; color: #46573e; }

@@ -2,13 +2,13 @@ import { reducedMotion, watchMotion } from "./motionPreference";
 import Phaser from "phaser";
 
 export type StoryChoice = Readonly<{ label: string; onSelect: () => void; tried?: boolean }>;
-const SHORT_EXCLAMATIONS = new Set(["아", "아아", "아하", "오", "오오", "오호", "와", "우와", "와아", "와우", "어", "어라", "어머", "오잉", "앗", "헉", "휴", "흠", "음", "에이", "아이쿠", "맙소사", "세상에"]);
-
-/** Break complete sentences, keeping short exclamations and ellipses together. */
+/** Break at a single period after at least five characters, excluding the period. */
 function formatStoryCopy(copy: string): string {
+  let sentenceStart = 0;
   return copy.replace(/(?<!\.)\.(?!\.)(?:[ \t]+(?=\S)|(?=[가-힣]))/gu, (ending, offset: number) => {
-    const sentence = copy.slice(0, offset).split(/[.!?…\n]/u).at(-1)!.trim();
-    return SHORT_EXCLAMATIONS.has(sentence) ? ending : ".\n";
+    const sentence = copy.slice(sentenceStart, offset).split(/[!?…\n]/u).at(-1)!.trim();
+    sentenceStart = offset + ending.length;
+    return Array.from(sentence).length < 5 ? ending : ".\n";
   });
 }
 type StoryPlacement = "default" | "bottom" | "station" | "photo" | "group-photo" | "car" | "parking" | "ceremony" | "notebook";

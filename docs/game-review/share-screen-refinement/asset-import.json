@@ -1,0 +1,22 @@
+[
+  {
+    "kind": "wide",
+    "path": "game/public/assets/invitation/share-pixel-wide-v3.png",
+    "source": "game/artwork/sources/share-pixel-v3/share-pixel-wide-v3.png",
+    "width": 1774,
+    "height": 887,
+    "bytes": 1423181,
+    "sha256": "b348cfe39ab4496707531c802e89d4a191bf92ef95fb56d942968087733f9d7a",
+    "previousBytes": 1505049
+  },
+  {
+    "kind": "square",
+    "path": "game/public/assets/invitation/share-pixel-square-v3.png",
+    "source": "game/artwork/sources/share-pixel-v3/share-pixel-square-v3.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 1390714,
+    "sha256": "14c55108a9ca0fe63874572aa395f81dfd701e92d8286722e400fa5560bc3cac",
+    "previousBytes": 1658479
+  }
+]

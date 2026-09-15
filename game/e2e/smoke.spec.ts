@@ -7,7 +7,7 @@ test("Given the Vite app When the home page loads Then the wedding game title is
 }) => {
   await page.goto("/");
 
-  await expect(page).toHaveTitle("JJ ♥ HS");
+  await expect(page).toHaveTitle("JJ ♥︎ HS");
 });
 
 test("Given the car route When the guest makes mistakes then finishes Then the game reaches ending and replay resets", async ({

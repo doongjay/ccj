@@ -1,13 +1,18 @@
 import { expect, test } from "@playwright/test";
+const expectedDescription = "2026년 11월 21일 오후 2시\n라시따시어터 그랜드볼룸";
 
 test("share crawlers receive the wide pixel image in the original HTML", async ({ page, request, baseURL }, testInfo) => {
   const html = await (await request.get("/")).text();
-  expect(html).toContain(`property="og:image" content="${baseURL}/assets/invitation/share-pixel-wide-v2.png"`);
-  expect(html).toContain('<title>JJ ♥ HS</title>');
+  expect(html).toContain(`property="og:image" content="${baseURL}/assets/invitation/share-pixel-wide-v3.png"`);
+  expect(html).toContain('<title>JJ ♥︎ HS</title>');
   expect(html).toContain('property="og:title" content="현서와 재준, 현재의 시작"');
   expect(html).toContain('name="twitter:title" content="현서와 재준, 현재의 시작"');
   expect(html).toContain('property="og:image:width" content="1774"');
   expect(html).toContain('property="og:image:height" content="887"');
+  await page.goto("/");
+  for (const selector of ['meta[name="description"]', 'meta[property="og:description"]', 'meta[name="twitter:description"]']) {
+    await expect(page.locator(selector)).toHaveAttribute("content", expectedDescription);
+  }
   await page.goto("/share-preview.html");
   await page.locator("img").evaluateAll(nodes => Promise.all(nodes.map(node => (node as HTMLImageElement).decode())));
   const sizes = await page.locator("img").evaluateAll(nodes => nodes.map(node => ({ width: (node as HTMLImageElement).naturalWidth, height: (node as HTMLImageElement).naturalHeight })));
@@ -21,7 +26,7 @@ test("native sharing and the Kakao card use matching invitation URLs and the cor
     Object.defineProperty(navigator, "share", { value: async (data: ShareData) => sessionStorage.setItem("shared", JSON.stringify(data)) });
   });
   await page.goto("/?tracking=discard#invitation");
-  await expect(page).toHaveTitle("JJ ♥ HS");
+  await expect(page).toHaveTitle("JJ ♥︎ HS");
   await page.getByRole("button", { name: "카카오톡으로 전달", exact: true }).click();
   const native = await page.evaluate(() => JSON.parse(sessionStorage.getItem("shared")!));
   expect(native.url).toBe(`${baseURL}/#invitation`);
@@ -36,9 +41,10 @@ test("native sharing and the Kakao card use matching invitation URLs and the cor
   });
   expect(kakao.content.link.webUrl).toBe(native.url);
   expect(kakao.buttons[0].link.mobileWebUrl).toBe(native.url);
-  expect(kakao.content.imageUrl).toMatch(/\/share-pixel-square-v2.png$/);
+  expect(kakao.content.imageUrl).toMatch(/\/share-pixel-square-v3.png$/);
   expect(kakao.content.imageWidth).toBe(kakao.content.imageHeight);
   expect(kakao.content.title).toBe(native.title);
+  expect(kakao.content.description).toBe(expectedDescription);
 });
 
 for (const viewport of [{ width: 320, height: 568 }, { width: 393, height: 852 }, { width: 430, height: 932 }]) test(`explicit link copy and Kakao paste fallback preserve the invitation URL at ${viewport.width}`, async ({ page, baseURL }, info) => {
@@ -54,6 +60,11 @@ for (const viewport of [{ width: 320, height: 568 }, { width: 393, height: 852 }
   await expect(page.getByRole("button", { name: "게임으로 초대받기" })).toHaveCount(0);
   await expect(page.locator(".invitation-nav button")).toHaveText(["예식 안내", "사진", "방명록"]);
   await expect(page.locator(".invitation-nav")).toHaveCSS("display", "flex");
+  const heart = page.locator(".invitation-nav .monogram-heart");
+  await expect(heart).toHaveAttribute("fill", "#e9a0a7");
+  await expect(heart).toHaveAttribute("shape-rendering", "crispEdges");
+  expect(await heart.locator("rect").count()).toBeGreaterThan(20);
+  expect(await page.locator(".invitation-nav .invitation-monogram").textContent()).not.toContain("♥");
   for (const action of await page.locator(".invitation-nav button").all()) {
     const box = (await action.boundingBox())!;
     expect(box.height).toBeGreaterThanOrEqual(44);

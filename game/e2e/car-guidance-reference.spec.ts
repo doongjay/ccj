@@ -15,10 +15,19 @@ for (const [lane, width, height, destination] of [["노란색", 320, 568, "emart
     await expect(page.locator("canvas")).toHaveAttribute("data-active-scene", "IntroScene");
     await startPreparedScene(page, "CarRouteScene");
     const copy = page.locator(".story-car .story-narration");
-    await expect(copy).toHaveAttribute("aria-label", "양재IC랑 가깝군. 그런데 진입구에\n유도선이 많은데?");
+    await expect(copy).toHaveAttribute("aria-label", "양재IC랑 가깝군. 그런데 진입구에 유도선이 많은데?");
     const initial = (await copy.boundingBox())!;
     await page.screenshot({ path: testInfo.outputPath(`car-typing-${width}.png`) });
     await copy.click();
+    await expect(copy.locator(".story-copy")).toHaveText("양재IC랑 가깝군.\n그런데 진입구에 유도선이 많은데?");
+    const questionLines = await copy.locator(".story-copy").evaluate(element => {
+      const text = element.firstChild!;
+      const range = document.createRange();
+      range.setStart(text, text.textContent!.indexOf("그런데"));
+      range.setEnd(text, text.textContent!.length);
+      return range.getClientRects().length;
+    });
+    expect(questionLines).toBe(1);
     const revealed = (await copy.boundingBox())!;
     expect(Math.abs(initial.y - revealed.y)).toBeLessThanOrEqual(0.5);
     const canvas = (await page.locator("canvas").boundingBox())!;
@@ -54,7 +63,7 @@ for (const [lane, width, height, destination] of [["노란색", 320, 568, "emart
     const path = await page.locator("canvas").getAttribute("data-car-lane-path");
     if (lane === "노란색") {
       await expect(page.getByRole("button", { name: "파란색", exact: true })).toBeEnabled({ timeout: 15000 });
-      await expect(copy).toHaveAttribute("aria-label", "양재IC랑 가깝군. 그런데 진입구에\n유도선이 많은데?");
+      await expect(copy).toHaveAttribute("aria-label", "양재IC랑 가깝군. 그런데 진입구에 유도선이 많은데?");
       await chooseStory(page, "파란색");
     }
     await expect(page.locator("canvas")).toHaveAttribute("data-lobby-ready", "true", { timeout: 15000 });
