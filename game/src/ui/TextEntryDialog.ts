@@ -1,3 +1,4 @@
+import { CloudSaveError } from "../cloud/client";
 import Phaser from "phaser";
 import { MinimiPicker } from "./MinimiPicker";
 
@@ -10,7 +11,7 @@ type TextEntryConfig = Readonly<{
   note?: string;
   collectGender?: boolean;
   onSkip?: () => void;
-  onSubmit: (value: string, gender?: "male" | "female", outfit?: number, hair?: number, face?: number) => void;
+  onSubmit: (value: string, gender?: "male" | "female", outfit?: number, hair?: number, face?: number) => void | Promise<void>;
 }>;
 
 export class TextEntryDialog {
@@ -73,8 +74,9 @@ export class TextEntryDialog {
       field.removeAttribute("aria-invalid");
       error.textContent = "";
     };
-    form.onsubmit = event => {
+    form.onsubmit = async event => {
       event.preventDefault();
+      if (submit.disabled) return;
       const value = field.value.trim();
       if (!value) {
         error.textContent = config.collectGender ? "이름을 알려주세요!" : "축하 메시지를 입력해 주세요.";
@@ -88,10 +90,20 @@ export class TextEntryDialog {
           error.textContent = "남자 또는 여자을 선택해 주세요.";
           return;
         }
-        config.onSubmit(value, profile?.gender, profile?.outfit, profile?.hair, profile?.face);
+        submit.disabled = true;
+        field.readOnly = true;
+        submit.textContent = "저장 중…";
+        form.setAttribute("aria-busy", "true");
+        form.querySelectorAll("button").forEach(button => { button.disabled = true; });
+        await config.onSubmit(value, profile?.gender, profile?.outfit, profile?.hair, profile?.face);
         this.destroy();
-      } catch {
-        error.textContent = "저장하지 못했어요. 브라우저 저장 공간을 확인한 뒤 다시 시도해 주세요.";
+      } catch (failure) {
+        error.textContent = failure instanceof CloudSaveError ? failure.message : "저장하지 못했어요. 다시 시도해 주세요.";
+      } finally {
+        form.querySelectorAll("button").forEach(button => { button.disabled = false; });
+        field.readOnly = false;
+        submit.textContent = config.submitLabel;
+        form.removeAttribute("aria-busy");
       }
     };
     this.position();

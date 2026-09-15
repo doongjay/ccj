@@ -69,6 +69,12 @@ npm run preview -- --host 127.0.0.1
 
 `dist/`를 정적 호스팅에 배포합니다. 공유 미리보기는 `index.html`의 OG/Twitter 메타 태그와 `public/assets/invitation/share-pixel-wide-v2.png`를 사용합니다. 카카오 전달은 정사각형 `share-pixel-square-v2.png`를 사용합니다. `.env.example`의 `SITE_URL`, `VITE_KAKAO_JAVASCRIPT_KEY`를 설정하고 카카오 앱에 서비스 도메인을 등록합니다. `/share-preview.html`에서 두 비율을 확인할 수 있습니다. 실제 카카오톡 링크 미리보기는 배포된 공개 URL에서 다시 확인해야 합니다.
 
+## Supabase 사진·메시지 저장
+
+`VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`가 설정된 빌드에서는 사진과 메시지를 Supabase에 저장합니다. 하객은 본인 기록만 조회하며 신랑신부는 Supabase 대시보드에서 전체 기록을 확인합니다. 테이블 생성, 권한, 저장소, 검증 방법은 [Supabase 설정 안내](supabase/README.md)를 참고하세요.
+
+아래 로컬 저장 설명은 두 환경 변수가 없는 체험판에 해당합니다.
+
 ## 청첩장과 로컬 방명록
 
 - 메인 우측 `건너뛰기`, 게임 엔딩, `/#invitation`에서 실제 청첩장을 엽니다.

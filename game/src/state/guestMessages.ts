@@ -1,3 +1,5 @@
+import { cloudEnabled } from "../cloud/client";
+import { loadCloudMessages, sendCloudMessage } from "../cloud/messages";
 import type { GuestSide } from "./gameState";
 
 export const GUEST_MESSAGES_KEY = "wedding.guestMessages";
@@ -15,7 +17,17 @@ export type GuestMessage = Readonly<{
   face?: number;
 }>;
 
+let cloudMessages: GuestMessage[] = [];
+
+export async function refreshGuestMessages(): Promise<void> {
+  if (!cloudEnabled) return;
+  const loaded = await loadCloudMessages();
+  cloudMessages = [...new Map([...loaded, ...cloudMessages].map(message => [message.id, message])).values()]
+    .sort((a, b) => a.createdAt.localeCompare(b.createdAt));
+}
+
 export function readGuestMessages(): GuestMessage[] {
+  if (cloudEnabled) return [...cloudMessages];
   try {
     const saved: unknown = JSON.parse(localStorage.getItem(GUEST_MESSAGES_KEY) ?? "[]");
     if (!Array.isArray(saved)) return [];
@@ -25,7 +37,12 @@ export function readGuestMessages(): GuestMessage[] {
   } catch { return []; }
 }
 
-export function saveGuestMessage(name: string, side: GuestSide, message: string, avatar?: { gender: "male" | "female"; outfit: number; hair: number; face?: number }): void {
+export async function saveGuestMessage(name: string, side: GuestSide, message: string, avatar?: { gender: "male" | "female"; outfit: number; hair: number; face?: number }): Promise<void> {
+  if (cloudEnabled) {
+    const entry = await sendCloudMessage({ name, side, message, avatar: avatar ?? {} });
+    cloudMessages = [...cloudMessages.filter(saved => saved.id !== entry.id), entry];
+    return;
+  }
   if (!name.trim() || !message.trim()) throw new Error("Name and message are required.");
   const saved = localStorage.getItem(GUEST_MESSAGES_KEY);
   const entries: unknown = saved === null ? [] : JSON.parse(saved);
