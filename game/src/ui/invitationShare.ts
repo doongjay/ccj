@@ -52,7 +52,7 @@ export function sendKakaoInvitation(): void {
     content: {
       title: WEDDING_METADATA.shareTitle,
       description: WEDDING_METADATA.description,
-      imageUrl: new URL("/assets/invitation/share-pixel-square-v3.png", url).href,
+      imageUrl: new URL("/assets/invitation/share-pixel-square-v4.png", url).href,
       imageWidth: 1254, imageHeight: 1254,
       link,
     },

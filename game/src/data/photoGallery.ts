@@ -6,7 +6,7 @@ export type GalleryPhoto = Readonly<{ texture: ImageKey | `venue-${VenuePhoto}` 
 
 export const PHOTO_GALLERIES = {
   groom: [
-    { texture: "wedding-photo-groom-1", src: "/assets/photo-table/groom-01.jpeg" },
+    { texture: "wedding-photo-groom-1", src: "/assets/photo-table/groom-01-v2.jpeg" },
     { texture: "wedding-photo-groom-2", src: "/assets/photo-table/groom-02.jpeg" },
     { texture: "wedding-photo-groom-3", src: "/assets/photo-table/groom-03.jpeg" },
   ],

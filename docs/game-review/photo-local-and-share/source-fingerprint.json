@@ -1,0 +1,32 @@
+{
+  "baseCommit": "faa99dd2f78a21c936427458c3d05c05fc3c0e86",
+  "files": {
+    "README.md": "659dc751e37576608ebd3af00b8cbbd844f2a1faac53bdd0fb32110cdf03d47a",
+    "docs/VERCEL_DEPLOYMENT.md": "8a5bf152fe1a107ee57eee5ba0ad21675aad53700ce71921473bea0234c20109",
+    "game/artwork/sources/photo-table/groom-01-v2.jpeg": "5e8432da926dda230a010a9f06c0b0125deb334868496db243154e41f97887e3",
+    "game/artwork/sources/share-pixel-v4/share-pixel-square-v4.png": "4e22716f0e767f520fbd1980a007311f750d1636fc7ab7cfbb1273eb886e6134",
+    "game/artwork/sources/share-pixel-v4/share-pixel-wide-v4.png": "9eef408ce83339965c75dac7de629eb9fc38d29f9d7fd85965d6e663290f6cc2",
+    "game/e2e/cloud-live.spec.ts": "d61918030debdafcc9da71cbabf5ecaa46685beb4d8cbd92a216197fbde1e338",
+    "game/e2e/cloud-photos.spec.ts": "e32a24213f42209aa77ac10b600b61b398e1349fcd1937c14abe14560aa5c570",
+    "game/e2e/invitation-sharing.spec.ts": "c17ab4c3322401c97e328018f646ea8cab4852f8d42126bc4e1e2a70946fee94",
+    "game/e2e/photo-table-personalized.spec.ts": "0af016a78a77661ef4f47bd01b77ad25df4c0967a17eef659ed719b046a3b3d8",
+    "game/index.html": "ec5f8a294673646c848129ea519ea1aa76d7ff217694e5bd85aed31663a2d3c6",
+    "game/public/assets/invitation/share-pixel-square-v4.png": "4e22716f0e767f520fbd1980a007311f750d1636fc7ab7cfbb1273eb886e6134",
+    "game/public/assets/invitation/share-pixel-wide-v4.png": "9eef408ce83339965c75dac7de629eb9fc38d29f9d7fd85965d6e663290f6cc2",
+    "game/public/assets/photo-table/groom-01-v2.jpeg": "5e8432da926dda230a010a9f06c0b0125deb334868496db243154e41f97887e3",
+    "game/public/share-preview.html": "e13405c06d7830f12ca38f0b13a3572633028c68ae9d1425af161e4450bb678b",
+    "game/src/cloud/photos.ts": "deleted",
+    "game/src/data/photoGallery.ts": "ce296a33bcdddf50458ca0a47871ed799124fbd7c0dd8851dc02a39abe89abed",
+    "game/src/data/shippingAssets.json": "3cedcda365eff7f6eccf8c3b57e7e67f3b6338fe3b442c3d239872be3afac0cd",
+    "game/src/data/weddingMetadata.ts": "47e079e0641f59470f440b531ce244fdb638a3a0d2a69c972595b5c6a6af68d4",
+    "game/src/scenes/VenueHallScene.ts": "287bcba0c66191d4dad70523112461acfe4b8687d549965424bed39a919d6238",
+    "game/src/scenes/VenueRoomScene.ts": "a62e14e61136348a54570c510934d35a62be9f83a41cda449ec81d56d706265c",
+    "game/src/style.css": "d490378db85129c6804fcd9410935a642fe67303eedec1f4a3d6363fc88d2e4b",
+    "game/src/ui/invitationShare.ts": "987eb8c454f2c218db12a0e3cfb1254aec8111e8a51d46ddcdf85ebd6ba9bf76",
+    "game/src/ui/photoResult.ts": "7fbafc5791bc5c3559a9f6386ffe9a3529216d1e4cb8fb27a19c3e9ec17ad329",
+    "game/src/ui/photoUpload.ts": "deleted",
+    "game/supabase/README.md": "ef7643dbb84867d6764867f9f615d3855af766581558931b811be8d7e2416177"
+  },
+  "gameFaces": "unchanged",
+  "guestbookRuntime": "unchanged"
+}

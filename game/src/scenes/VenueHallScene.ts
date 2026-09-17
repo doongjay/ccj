@@ -1,7 +1,6 @@
-import { cloudEnabled } from "../cloud/client";
-import { showGroupPhotoResult } from "../ui/photoUpload";
+import { showGroupPhotoResult } from "../ui/photoResult";
 import { warmStage } from "../systems/stageAssets";
-import { reducedMotion, watchMotion, photoFlash } from "../ui/motionPreference";
+import { reducedMotion, watchMotion } from "../ui/motionPreference";
 import Phaser from "phaser";
 import { speechBubble } from "../ui/speechBubble";
 import { saveCheckpoint, CHECKPOINT_REGISTRY } from "../state/checkpoint";
@@ -127,25 +126,15 @@ export class VenueHallScene extends Phaser.Scene {
         waitForTap(this, 3000, () => {
           ticking.remove();
           countdown.destroy();
-          if (!cloudEnabled) photoFlash(this, 300);
           this.game.canvas.dataset.ceremonyStage = "photo";
           completeProgressionFlag(this.registry, PROGRESSION_FLAGS.banquetGuideComplete);
           this.game.canvas.dataset.banquetGuideComplete = "true";
           if (!this.registry.get(CHECKPOINT_REGISTRY.meal) || this.registry.get(CHECKPOINT_REGISTRY.meal) === "pending") this.registry.set(CHECKPOINT_REGISTRY.meal, "after");
           saveCheckpoint(this, "dinner");
-          if (cloudEnabled) {
-            void showGroupPhotoResult(this, () => {
-              this.game.canvas.dataset.hallTransitionCount = "1";
-              fadeToScene(this, SCENE_KEYS.DinnerJourney);
-            });
-            return;
-          }
-          waitForTap(this, 1200, () => photoDialog.show("찰칵! 결혼 축하해!", [{
-            label: "다음으로", onSelect: () => {
-              this.game.canvas.dataset.hallTransitionCount = "1";
-              fadeToScene(this, SCENE_KEYS.DinnerJourney);
-            },
-          }]));
+          void showGroupPhotoResult(this, () => {
+            this.game.canvas.dataset.hallTransitionCount = "1";
+            fadeToScene(this, SCENE_KEYS.DinnerJourney);
+          });
         });
       },
     }]);

@@ -1,0 +1,160 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=../docs/game-review/photo-local-and-share/scripts/production.config.ts"
+    ],
+    "configFile": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/scripts/production.config.ts",
+    "rootDir": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/scripts",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/production-01",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/scripts",
+        "testIgnore": [],
+        "testMatch": [
+          "production.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../logs/production-01.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run preview -- --host 127.0.0.1 --port 5199 --strictPort",
+      "cwd": "/Users/user/wedding/ccj/game",
+      "url": "http://127.0.0.1:5199",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "production.spec.ts",
+      "file": "production.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "first screen stays under 5 MB and the groom portrait is the supplied original",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1090,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at /Users/user/wedding/ccj/docs/game-review/photo-local-and-share/scripts/production.spec.ts:19:78",
+                    "location": {
+                      "file": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/scripts/production.spec.ts",
+                      "column": 78,
+                      "line": 19
+                    },
+                    "snippet": "  17 |   const bytes = resources.reduce((sum, item) => sum + item.bytes, 0);\n  18 |   expect(bytes).toBeLessThan(5_000_000);\n> 19 |   expect(resources.some(item => item.url.endsWith(\"wedding-couple-v2.png\"))).toBe(true);\n     |                                                                              ^\n  20 |   expect(resources.some(item => item.url.includes(\"/photo-table/\"))).toBe(false);\n  21 |   await page.screenshot({ path: info.outputPath(\"first-screen-393.png\") });\n  22 |   const photo = await request.get(\"/assets/photo-table/groom-01-v2.jpeg\");"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/scripts/production.spec.ts",
+                        "column": 78,
+                        "line": 19
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n  17 |   const bytes = resources.reduce((sum, item) => sum + item.bytes, 0);\n  18 |   expect(bytes).toBeLessThan(5_000_000);\n> 19 |   expect(resources.some(item => item.url.endsWith(\"wedding-couple-v2.png\"))).toBe(true);\n     |                                                                              ^\n  20 |   expect(resources.some(item => item.url.includes(\"/photo-table/\"))).toBe(false);\n  21 |   await page.screenshot({ path: info.outputPath(\"first-screen-393.png\") });\n  22 |   const photo = await request.get(\"/assets/photo-table/groom-01-v2.jpeg\");\n    at /Users/user/wedding/ccj/docs/game-review/photo-local-and-share/scripts/production.spec.ts:19:78"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:05:54.886Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/production-01/production-first-screen-st-f8042-it-is-the-supplied-original/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/production-01/production-first-screen-st-f8042-it-is-the-supplied-original/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/scripts/production.spec.ts",
+                    "column": 78,
+                    "line": 19
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ed69554c53210704c98c-fbcd0465bdca45256f74",
+          "file": "production.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-17T15:05:53.682Z",
+    "duration": 2554.826,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

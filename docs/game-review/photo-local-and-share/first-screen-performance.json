@@ -1,0 +1,61 @@
+{
+  "bytes": 3543588,
+  "limit": 5000000,
+  "resources": [
+    {
+      "url": "http://127.0.0.1:5199/",
+      "bytes": 1040
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/index-ChwwLTVW.css",
+      "bytes": 10131
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/index-C5z7wldr.js",
+      "bytes": 437673
+    },
+    {
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABAQMAAADD8p2OAAAAA1BMVEX/AP804Oa6AAAACklEQVQI12NgAAAAAgAB4iG8MwAAAABJRU5ErkJggg==",
+      "bytes": 0
+    },
+    {
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAABVJREFUeF7NwIEAAAAAgKD9qdeocAMAoAABm3DkcAAAAABJRU5ErkJggg==",
+      "bytes": 0
+    },
+    {
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJ9JREFUeNq01ssOwyAMRFG46v//Mt1ESmgh+DFmE2GPOBARKb2NVjo+17PXLD8a1+pl5+A+wSgFygymWYHBb0FtsKhJDdZlncG2IzJ4ayoMDv20wTmSMzClEgbWYNTAkQ0Z+OJ+A/eWnAaR9+oxCF4Os0H8htsMUp+pwcgBBiMNnAwF8GqIgL2hAzaGFFgZauDPKABmowZ4GL369/0rwACp2yA/ttmvsQAAAABJRU5ErkJggg==",
+      "bytes": 0
+    },
+    {
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABdJREFUeNpi/P//PwMMMDEgAdwcgAADAJZuAwXJYZOzAAAAAElFTkSuQmCC",
+      "bytes": 0
+    },
+    {
+      "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABAQMAAADD8p2OAAAAA1BMVEX//wCKxvRFAAAACklEQVQI12NgAAAAAgAB4iG8MwAAAABJRU5ErkJggg==",
+      "bytes": 0
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/lacitta/fonts/Galmuri11.woff2",
+      "bytes": 155622
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-wedding-couple.webp",
+      "bytes": 1005382
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/lacitta/ui/dialog-panel.png",
+      "bytes": 591
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/lacitta/ui/touch-button.png",
+      "bytes": 537
+    },
+    {
+      "url": "http://127.0.0.1:5199/assets/optimized/lacitta-pixel-venue-hall.webp",
+      "bytes": 1932612
+    }
+  ],
+  "portraitBytes": 4993418,
+  "originalIdentical": true,
+  "errors": []
+}

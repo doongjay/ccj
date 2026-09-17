@@ -44,9 +44,9 @@ Vercel에서 개인 Hobby 계정으로 `Add New → Project`에서 위 저장소
 
 ### 방명록 보관 — 원격 Supabase 패치 반영
 
-2026-09-16 원격 `04ba87b`까지의 방명록·사진 저장 패치를 그대로 반영했다. `VITE_SUPABASE_URL`과 `VITE_SUPABASE_PUBLISHABLE_KEY`가 설정된 배포에서는 메시지를 Supabase `guest_messages`에 저장하고, 공개 읽기 뷰 `guestbook_entries`로 모든 방문자에게 표시한다. 촬영 사진은 비공개 `guest-photos` 버킷과 `guest_photos` 테이블에 저장한다. 받는 사람 선택을 포함한 방명록 추가 수정은 취소했다.
+2026-09-16 원격 `04ba87b`까지의 방명록 저장 패치를 유지한다. `VITE_SUPABASE_URL`과 `VITE_SUPABASE_PUBLISHABLE_KEY`가 설정된 배포에서는 메시지를 Supabase `guest_messages`에 저장하고, 공개 읽기 뷰 `guestbook_entries`로 모든 방문자에게 표시한다. 2026-09-17 요청에 따라 촬영 사진 업로드는 제거했다. 사진은 게임 화면에서만 감상하며 서버에 전송하지 않는다. 기존 테이블·버킷·보관 자료는 삭제하지 않았다. 받는 사람 선택을 포함한 방명록 추가 수정은 취소했다.
 
-설정과 보관 방법은 [원격 패치의 안내](../game/supabase/README.md)를 따른다. 관리자는 Supabase 대시보드에서 메시지·사진을 확인하고 주기적으로 내려받아 별도 보관한다. 앱에 새로운 JSON/CSV 내보내기 기능을 추가하지 않았다. 기존 브라우저 로컬 기록은 삭제하거나 자동 업로드하지 않는다.
+설정과 보관 방법은 [원격 패치의 안내](../game/supabase/README.md)를 따른다. 관리자는 Supabase 대시보드에서 방명록 메시지를 확인하고 주기적으로 내려받아 별도 보관한다. 앱에 새로운 JSON/CSV 내보내기 기능을 추가하지 않았다. 기존 브라우저 로컬 기록은 삭제하거나 자동 업로드하지 않는다.
 
 두 환경 변수가 없는 로컬 실행은 기존 localStorage 체험판으로 동작한다. 이 작업 환경에는 `game/.env.local`이 없다. 사용자가 원격 동작을 확인했다고 전달하여 방명록 추가 검증은 중단했다. 실제 서비스에 테스트 기록을 쓰거나 DB 설정을 변경하지 않는다.
 

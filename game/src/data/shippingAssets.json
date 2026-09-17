@@ -2542,7 +2542,7 @@
     {
       "key": "wedding-photo-groom-1",
       "runtimeKey": "wedding-photo-groom-1",
-      "url": "/assets/photo-table/groom-01.jpeg",
+      "url": "/assets/photo-table/groom-01-v2.jpeg",
       "kind": "image",
       "width": 2852,
       "height": 3803,
@@ -2550,13 +2550,13 @@
       "stages": [
         "photo-table-groom"
       ],
-      "source": "game/artwork/sources/photo-table/groom-01.jpeg",
+      "source": "game/artwork/sources/photo-table/groom-01-v2.jpeg",
       "contract": "image",
       "byteLimit": 3000000,
       "budgetClass": "photograph",
       "provenanceId": "user-original-photographs-20260916",
-      "sourceSHA256": "60dd6aad30a0b9d20efc4aa8cca1272ffcbfcc1019d9c2fe3d0727ef9eed6d48",
-      "sha256": "60dd6aad30a0b9d20efc4aa8cca1272ffcbfcc1019d9c2fe3d0727ef9eed6d48",
+      "sourceSHA256": "5e8432da926dda230a010a9f06c0b0125deb334868496db243154e41f97887e3",
+      "sha256": "5e8432da926dda230a010a9f06c0b0125deb334868496db243154e41f97887e3",
       "derivation": "byte-identical-original"
     },
     {
@@ -3138,6 +3138,64 @@
       "sourceSHA256": "e664f05bf902c489bd6a42316e706978c815dfce417ada562c3216d6f528ed88",
       "sha256": "506f92ed1088fb39c1fc2b06b43632d595e9994256a3b80580213f656a93fb1d",
       "derivation": "photograph-webp-1920-q92"
+    },
+    {
+      "key": "retained-photo-table-groom-1-before-20260917",
+      "runtimeKey": null,
+      "url": "/assets/photo-table/groom-01.jpeg",
+      "kind": "image",
+      "width": 2852,
+      "height": 3803,
+      "alpha": "opaque",
+      "stages": [
+        "retained-previous-photo-table"
+      ],
+      "source": "game/artwork/sources/photo-table/groom-01.jpeg",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "user-original-photographs-20260916",
+      "sourceSHA256": "60dd6aad30a0b9d20efc4aa8cca1272ffcbfcc1019d9c2fe3d0727ef9eed6d48",
+      "sha256": "60dd6aad30a0b9d20efc4aa8cca1272ffcbfcc1019d9c2fe3d0727ef9eed6d48",
+      "derivation": "byte-identical-original"
+    },
+    {
+      "key": "file:assets/invitation/share-pixel-wide-v4.png",
+      "url": "/assets/invitation/share-pixel-wide-v4.png",
+      "kind": "image",
+      "width": 1774,
+      "height": 887,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/share-pixel-v4/share-pixel-wide-v4.png",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "share-callout-labels-20260918",
+      "runtimeKey": null,
+      "sourceSHA256": "9eef408ce83339965c75dac7de629eb9fc38d29f9d7fd85965d6e663290f6cc2",
+      "sha256": "9eef408ce83339965c75dac7de629eb9fc38d29f9d7fd85965d6e663290f6cc2"
+    },
+    {
+      "key": "file:assets/invitation/share-pixel-square-v4.png",
+      "url": "/assets/invitation/share-pixel-square-v4.png",
+      "kind": "image",
+      "width": 1254,
+      "height": 1254,
+      "alpha": "opaque",
+      "stages": [
+        "invitation"
+      ],
+      "source": "game/artwork/sources/share-pixel-v4/share-pixel-square-v4.png",
+      "contract": "image",
+      "byteLimit": 3000000,
+      "budgetClass": "photograph",
+      "provenanceId": "share-callout-labels-20260918",
+      "runtimeKey": null,
+      "sourceSHA256": "4e22716f0e767f520fbd1980a007311f750d1636fc7ab7cfbb1273eb886e6134",
+      "sha256": "4e22716f0e767f520fbd1980a007311f750d1636fc7ab7cfbb1273eb886e6134"
     }
   ],
   "provenance": [
@@ -3770,6 +3828,19 @@
       "evidence": [
         "docs/game-review/invitation-photo-loading/README.md",
         "docs/game-review/invitation-photo-loading/photo-variants.json"
+      ]
+    },
+    {
+      "id": "share-callout-labels-20260918",
+      "sourceUrl": "User requested bride-left Hyunseo and groom-right Jaejun with black pixel arrow callouts",
+      "license": "Built-in image_gen edit of existing project artwork authorized by the user.",
+      "mode": "generated",
+      "licenseFile": null,
+      "transformationNotes": "Removed top name/heart/flower-sprig heading; added left 현서 and right 재준 callouts with black pixel arrows. Original v3 artwork remains preserved. New images copied without resizing or recompression.",
+      "rejectionStatus": "accepted",
+      "evidence": [
+        "docs/game-review/photo-local-and-share/imagegen-prompts.json",
+        "docs/game-review/photo-local-and-share/README.md"
       ]
     }
   ],

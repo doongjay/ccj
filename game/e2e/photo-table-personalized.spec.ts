@@ -35,8 +35,8 @@ for (const side of ["groom", "bride"] as const) for (const viewport of viewports
     expect(wall.photos).toEqual(expected);
     await page.screenshot({ path: `${evidence}/lobby-${side}-${viewport.width}.png` });
     if (viewport.width === 393) await writeFile(`${evidence}/lobby-frames-${side}-4x.png`, Buffer.from(wall.image.split(",")[1]!, "base64"));
-    const photos = requested.filter(url => /\/photo-table\/(?:groom|bride)-\d+\.jpeg$/.test(url));
-    expect(photos.sort()).toEqual([1, 2, 3].map(i => `/assets/photo-table/${side}-0${i}.jpeg`));
+    const photos = requested.filter(url => /\/photo-table\/(?:groom|bride)-\d+(?:-v2)?\.jpeg$/.test(url));
+    expect(photos.sort()).toEqual([1, 2, 3].map(i => `/assets/photo-table/${side}-0${i}${side === "groom" && i === 1 ? "-v2" : ""}.jpeg`));
     expect(requested.some(url => /gallery-0[123]-game|\/invitation\/gallery-/.test(url))).toBe(false);
     await clickGame(page, 550, 450);
     await expect(canvas).toHaveAttribute("data-photo-gallery-open", "true");

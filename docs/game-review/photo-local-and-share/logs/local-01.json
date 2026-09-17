@@ -1,0 +1,794 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=../docs/game-review/photo-local-and-share/scripts/local.config.ts"
+    ],
+    "configFile": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/scripts/local.config.ts",
+    "rootDir": "/Users/user/wedding/ccj/game/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/user/wedding/ccj/game/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "cloud-photos.spec.ts",
+          "invitation-sharing.spec.ts",
+          "photo-table-personalized.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../logs/local-01.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "cloud-photos.spec.ts",
+      "file": "cloud-photos.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "booth photo remains viewable and returns normally without cloud requests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16767,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:04:15.090Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-console",
+                      "contentType": "application/json",
+                      "body": "eyJjbG91ZENvbmZpZ3VyZWQiOmZhbHNlLCJjbG91ZFJlcXVlc3RzIjpbXSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/cloud-photos-booth-photo-r-8b1a0-ally-without-cloud-requests/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8adeff5fdde756e23a25-c1e3c7e9111b747cb750",
+          "file": "cloud-photos.spec.ts",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "bridal photo remains viewable and returns normally without cloud requests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18350,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:04:32.236Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-console",
+                      "contentType": "application/json",
+                      "body": "eyJjbG91ZENvbmZpZ3VyZWQiOmZhbHNlLCJjbG91ZFJlcXVlc3RzIjpbXSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/cloud-photos-bridal-photo--997b5-ally-without-cloud-requests/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8adeff5fdde756e23a25-aa70b25c7cb57e79cc2a",
+          "file": "cloud-photos.spec.ts",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "group photo remains viewable and returns normally without cloud requests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 18291,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:04:50.592Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-console",
+                      "contentType": "application/json",
+                      "body": "eyJjbG91ZENvbmZpZ3VyZWQiOmZhbHNlLCJjbG91ZFJlcXVlc3RzIjpbXSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/cloud-photos-group-photo-r-85ef7-ally-without-cloud-requests/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8adeff5fdde756e23a25-b0b42808142ba607b213",
+          "file": "cloud-photos.spec.ts",
+          "line": 7,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "invitation-sharing.spec.ts",
+      "file": "invitation-sharing.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "share crawlers receive the wide pixel image in the original HTML",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3396,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:04:15.089Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/invitation-sharing-share-c-ae8d8--image-in-the-original-HTML/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "99c1c8e926bfc82a15e5-8e7ed2676578d12fa045",
+          "file": "invitation-sharing.spec.ts",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "native sharing and the Kakao card use matching invitation URLs and the correct image shape",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2627,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:04:19.095Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/invitation-sharing-native--67fdf-and-the-correct-image-shape/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "99c1c8e926bfc82a15e5-02e6492dbe3e7de37ac5",
+          "file": "invitation-sharing.spec.ts",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "explicit link copy and Kakao paste fallback preserve the invitation URL at 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5840,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:04:21.728Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/invitation-sharing-explici-7707c-e-the-invitation-URL-at-320/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "99c1c8e926bfc82a15e5-1cc6f69b93ab0b4ba30b",
+          "file": "invitation-sharing.spec.ts",
+          "line": 50,
+          "column": 113
+        },
+        {
+          "title": "explicit link copy and Kakao paste fallback preserve the invitation URL at 393",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6025,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:04:27.573Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/invitation-sharing-explici-38ec4-e-the-invitation-URL-at-393/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "99c1c8e926bfc82a15e5-e2325d80c7b16e6be3d4",
+          "file": "invitation-sharing.spec.ts",
+          "line": 50,
+          "column": 113
+        },
+        {
+          "title": "explicit link copy and Kakao paste fallback preserve the invitation URL at 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6479,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:04:33.604Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/invitation-sharing-explici-fee9b-e-the-invitation-URL-at-430/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "99c1c8e926bfc82a15e5-61ca2d4f407e28120dbf",
+          "file": "invitation-sharing.spec.ts",
+          "line": 50,
+          "column": 113
+        },
+        {
+          "title": "Kakao button uses an initialized SDK and clipboard denial retains selectable text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2539,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:04:40.089Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/invitation-sharing-Kakao-b-f72e8-ial-retains-selectable-text/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "99c1c8e926bfc82a15e5-47331422abb343f7346d",
+          "file": "invitation-sharing.spec.ts",
+          "line": 100,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "photo-table-personalized.spec.ts",
+      "file": "photo-table-personalized.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "groom portraits follow filename order in the lobby and photo table at 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 18078,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:04:42.644Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "portraits",
+                      "contentType": "application/json",
+                      "body": "eyJzaWRlIjoiZ3Jvb20iLCJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjU2OH0sIndhbGxQaG90b3MiOlsid2VkZGluZy1waG90by1ncm9vbS0xIiwid2VkZGluZy1waG90by1ncm9vbS0yIiwid2VkZGluZy1waG90by1ncm9vbS0zIl0sInBob3RvcyI6WyIvYXNzZXRzL3Bob3RvLXRhYmxlL2dyb29tLTAxLXYyLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2dyb29tLTAyLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2dyb29tLTAzLmpwZWciXSwicmVjb3JkcyI6W3sia2V5Ijoid2VkZGluZy1waG90by1ncm9vbS0xIiwid2lkdGgiOjI4NTIsImhlaWdodCI6MzgwMywiZGlzcGxheVdpZHRoIjo0OTEuOTU2ODc2MTUwNDA3NTQsImRpc3BsYXlIZWlnaHQiOjY1NiwidG9wIjoyODgsImJvdHRvbSI6OTQ0LCJsZWZ0IjoxMTQuMDIxNTYxOTI0Nzk2MjMsInJpZ2h0Ijo2MDUuOTc4NDM4MDc1MjAzN30seyJrZXkiOiJ3ZWRkaW5nLXBob3RvLWdyb29tLTIiLCJ3aWR0aCI6MzA3MiwiaGVpZ2h0Ijo0NjA4LCJkaXNwbGF5V2lkdGgiOjQzNy4zMzMzMzMzMzMzMzMzLCJkaXNwbGF5SGVpZ2h0Ijo2NTYsInRvcCI6Mjg4LCJib3R0b20iOjk0NCwibGVmdCI6MTQxLjMzMzMzMzMzMzMzMzM0LCJyaWdodCI6NTc4LjY2NjY2NjY2NjY2NjZ9LHsia2V5Ijoid2VkZGluZy1waG90by1ncm9vbS0zIiwid2lkdGgiOjI5NTEsImhlaWdodCI6NDQ5MSwiZGlzcGxheVdpZHRoIjo0MzEuMDUyMzI2ODc1OTc0MTMsImRpc3BsYXlIZWlnaHQiOjY1NiwidG9wIjoyODgsImJvdHRvbSI6OTQ0LCJsZWZ0IjoxNDQuNDczODM2NTYyMDEyOTMsInJpZ2h0Ijo1NzUuNTI2MTYzNDM3OTg3MX1dLCJlcnJvcnMiOltdfQ=="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/photo-table-personalized-g-11549-obby-and-photo-table-at-320/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "769e4e9fd5e9908a733c-a9f81717b9ac32b581a3",
+          "file": "photo-table-personalized.spec.ts",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "groom portraits follow filename order in the lobby and photo table at 393",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 17091,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:05:00.727Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "portraits",
+                      "contentType": "application/json",
+                      "body": "eyJzaWRlIjoiZ3Jvb20iLCJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzkzLCJoZWlnaHQiOjg1Mn0sIndhbGxQaG90b3MiOlsid2VkZGluZy1waG90by1ncm9vbS0xIiwid2VkZGluZy1waG90by1ncm9vbS0yIiwid2VkZGluZy1waG90by1ncm9vbS0zIl0sInBob3RvcyI6WyIvYXNzZXRzL3Bob3RvLXRhYmxlL2dyb29tLTAxLXYyLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2dyb29tLTAyLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2dyb29tLTAzLmpwZWciXSwicmVjb3JkcyI6W3sia2V5Ijoid2VkZGluZy1waG90by1ncm9vbS0xIiwid2lkdGgiOjI4NTIsImhlaWdodCI6MzgwMywiZGlzcGxheVdpZHRoIjo0OTEuOTU2ODc2MTUwNDA3NTQsImRpc3BsYXlIZWlnaHQiOjY1NiwidG9wIjoyODgsImJvdHRvbSI6OTQ0LCJsZWZ0IjoxMTQuMDIxNTYxOTI0Nzk2MjMsInJpZ2h0Ijo2MDUuOTc4NDM4MDc1MjAzN30seyJrZXkiOiJ3ZWRkaW5nLXBob3RvLWdyb29tLTIiLCJ3aWR0aCI6MzA3MiwiaGVpZ2h0Ijo0NjA4LCJkaXNwbGF5V2lkdGgiOjQzNy4zMzMzMzMzMzMzMzMzLCJkaXNwbGF5SGVpZ2h0Ijo2NTYsInRvcCI6Mjg4LCJib3R0b20iOjk0NCwibGVmdCI6MTQxLjMzMzMzMzMzMzMzMzM0LCJyaWdodCI6NTc4LjY2NjY2NjY2NjY2NjZ9LHsia2V5Ijoid2VkZGluZy1waG90by1ncm9vbS0zIiwid2lkdGgiOjI5NTEsImhlaWdodCI6NDQ5MSwiZGlzcGxheVdpZHRoIjo0MzEuMDUyMzI2ODc1OTc0MTMsImRpc3BsYXlIZWlnaHQiOjY1NiwidG9wIjoyODgsImJvdHRvbSI6OTQ0LCJsZWZ0IjoxNDQuNDczODM2NTYyMDEyOTMsInJpZ2h0Ijo1NzUuNTI2MTYzNDM3OTg3MX1dLCJlcnJvcnMiOltdfQ=="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/photo-table-personalized-g-1c569-obby-and-photo-table-at-393/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "769e4e9fd5e9908a733c-f0fdae940f1bc1ad31d7",
+          "file": "photo-table-personalized.spec.ts",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "groom portraits follow filename order in the lobby and photo table at 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 17801,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:05:17.823Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "portraits",
+                      "contentType": "application/json",
+                      "body": "eyJzaWRlIjoiZ3Jvb20iLCJ2aWV3cG9ydCI6eyJ3aWR0aCI6NDMwLCJoZWlnaHQiOjkzMn0sIndhbGxQaG90b3MiOlsid2VkZGluZy1waG90by1ncm9vbS0xIiwid2VkZGluZy1waG90by1ncm9vbS0yIiwid2VkZGluZy1waG90by1ncm9vbS0zIl0sInBob3RvcyI6WyIvYXNzZXRzL3Bob3RvLXRhYmxlL2dyb29tLTAxLXYyLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2dyb29tLTAyLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2dyb29tLTAzLmpwZWciXSwicmVjb3JkcyI6W3sia2V5Ijoid2VkZGluZy1waG90by1ncm9vbS0xIiwid2lkdGgiOjI4NTIsImhlaWdodCI6MzgwMywiZGlzcGxheVdpZHRoIjo0OTEuOTU2ODc2MTUwNDA3NTQsImRpc3BsYXlIZWlnaHQiOjY1NiwidG9wIjoyODgsImJvdHRvbSI6OTQ0LCJsZWZ0IjoxMTQuMDIxNTYxOTI0Nzk2MjMsInJpZ2h0Ijo2MDUuOTc4NDM4MDc1MjAzN30seyJrZXkiOiJ3ZWRkaW5nLXBob3RvLWdyb29tLTIiLCJ3aWR0aCI6MzA3MiwiaGVpZ2h0Ijo0NjA4LCJkaXNwbGF5V2lkdGgiOjQzNy4zMzMzMzMzMzMzMzMzLCJkaXNwbGF5SGVpZ2h0Ijo2NTYsInRvcCI6Mjg4LCJib3R0b20iOjk0NCwibGVmdCI6MTQxLjMzMzMzMzMzMzMzMzM0LCJyaWdodCI6NTc4LjY2NjY2NjY2NjY2NjZ9LHsia2V5Ijoid2VkZGluZy1waG90by1ncm9vbS0zIiwid2lkdGgiOjI5NTEsImhlaWdodCI6NDQ5MSwiZGlzcGxheVdpZHRoIjo0MzEuMDUyMzI2ODc1OTc0MTMsImRpc3BsYXlIZWlnaHQiOjY1NiwidG9wIjoyODgsImJvdHRvbSI6OTQ0LCJsZWZ0IjoxNDQuNDczODM2NTYyMDEyOTMsInJpZ2h0Ijo1NzUuNTI2MTYzNDM3OTg3MX1dLCJlcnJvcnMiOltdfQ=="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/photo-table-personalized-g-dbfe9-obby-and-photo-table-at-430/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "769e4e9fd5e9908a733c-f2e9f1d08d8d0cab363f",
+          "file": "photo-table-personalized.spec.ts",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "bride portraits follow filename order in the lobby and photo table at 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 15228,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:05:35.629Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "portraits",
+                      "contentType": "application/json",
+                      "body": "eyJzaWRlIjoiYnJpZGUiLCJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjU2OH0sIndhbGxQaG90b3MiOlsid2VkZGluZy1waG90by1icmlkZS0xIiwid2VkZGluZy1waG90by1icmlkZS0yIiwid2VkZGluZy1waG90by1icmlkZS0zIl0sInBob3RvcyI6WyIvYXNzZXRzL3Bob3RvLXRhYmxlL2JyaWRlLTAxLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2JyaWRlLTAyLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2JyaWRlLTAzLmpwZWciXSwicmVjb3JkcyI6W3sia2V5Ijoid2VkZGluZy1waG90by1icmlkZS0xIiwid2lkdGgiOjMwNzIsImhlaWdodCI6NDYwOCwiZGlzcGxheVdpZHRoIjo0MzcuMzMzMzMzMzMzMzMzMywiZGlzcGxheUhlaWdodCI6NjU2LCJ0b3AiOjI4OCwiYm90dG9tIjo5NDQsImxlZnQiOjE0MS4zMzMzMzMzMzMzMzMzNCwicmlnaHQiOjU3OC42NjY2NjY2NjY2NjY2fSx7ImtleSI6IndlZGRpbmctcGhvdG8tYnJpZGUtMiIsIndpZHRoIjozMDcyLCJoZWlnaHQiOjQ2MDgsImRpc3BsYXlXaWR0aCI6NDM3LjMzMzMzMzMzMzMzMzMsImRpc3BsYXlIZWlnaHQiOjY1NiwidG9wIjoyODgsImJvdHRvbSI6OTQ0LCJsZWZ0IjoxNDEuMzMzMzMzMzMzMzMzMzQsInJpZ2h0Ijo1NzguNjY2NjY2NjY2NjY2Nn0seyJrZXkiOiJ3ZWRkaW5nLXBob3RvLWJyaWRlLTMiLCJ3aWR0aCI6MzA3MiwiaGVpZ2h0Ijo0NjA4LCJkaXNwbGF5V2lkdGgiOjQzNy4zMzMzMzMzMzMzMzMzLCJkaXNwbGF5SGVpZ2h0Ijo2NTYsInRvcCI6Mjg4LCJib3R0b20iOjk0NCwibGVmdCI6MTQxLjMzMzMzMzMzMzMzMzM0LCJyaWdodCI6NTc4LjY2NjY2NjY2NjY2NjZ9XSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/photo-table-personalized-b-f1dc6-obby-and-photo-table-at-320/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "769e4e9fd5e9908a733c-804acd35334e0630cb1d",
+          "file": "photo-table-personalized.spec.ts",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "bride portraits follow filename order in the lobby and photo table at 393",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 15166,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:05:50.862Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "portraits",
+                      "contentType": "application/json",
+                      "body": "eyJzaWRlIjoiYnJpZGUiLCJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzkzLCJoZWlnaHQiOjg1Mn0sIndhbGxQaG90b3MiOlsid2VkZGluZy1waG90by1icmlkZS0xIiwid2VkZGluZy1waG90by1icmlkZS0yIiwid2VkZGluZy1waG90by1icmlkZS0zIl0sInBob3RvcyI6WyIvYXNzZXRzL3Bob3RvLXRhYmxlL2JyaWRlLTAxLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2JyaWRlLTAyLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2JyaWRlLTAzLmpwZWciXSwicmVjb3JkcyI6W3sia2V5Ijoid2VkZGluZy1waG90by1icmlkZS0xIiwid2lkdGgiOjMwNzIsImhlaWdodCI6NDYwOCwiZGlzcGxheVdpZHRoIjo0MzcuMzMzMzMzMzMzMzMzMywiZGlzcGxheUhlaWdodCI6NjU2LCJ0b3AiOjI4OCwiYm90dG9tIjo5NDQsImxlZnQiOjE0MS4zMzMzMzMzMzMzMzMzNCwicmlnaHQiOjU3OC42NjY2NjY2NjY2NjY2fSx7ImtleSI6IndlZGRpbmctcGhvdG8tYnJpZGUtMiIsIndpZHRoIjozMDcyLCJoZWlnaHQiOjQ2MDgsImRpc3BsYXlXaWR0aCI6NDM3LjMzMzMzMzMzMzMzMzMsImRpc3BsYXlIZWlnaHQiOjY1NiwidG9wIjoyODgsImJvdHRvbSI6OTQ0LCJsZWZ0IjoxNDEuMzMzMzMzMzMzMzMzMzQsInJpZ2h0Ijo1NzguNjY2NjY2NjY2NjY2Nn0seyJrZXkiOiJ3ZWRkaW5nLXBob3RvLWJyaWRlLTMiLCJ3aWR0aCI6MzA3MiwiaGVpZ2h0Ijo0NjA4LCJkaXNwbGF5V2lkdGgiOjQzNy4zMzMzMzMzMzMzMzMzLCJkaXNwbGF5SGVpZ2h0Ijo2NTYsInRvcCI6Mjg4LCJib3R0b20iOjk0NCwibGVmdCI6MTQxLjMzMzMzMzMzMzMzMzM0LCJyaWdodCI6NTc4LjY2NjY2NjY2NjY2NjZ9XSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/photo-table-personalized-b-1159d-obby-and-photo-table-at-393/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "769e4e9fd5e9908a733c-14e1b4d663b1b6def39d",
+          "file": "photo-table-personalized.spec.ts",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "bride portraits follow filename order in the lobby and photo table at 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 14598,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:06:06.033Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "portraits",
+                      "contentType": "application/json",
+                      "body": "eyJzaWRlIjoiYnJpZGUiLCJ2aWV3cG9ydCI6eyJ3aWR0aCI6NDMwLCJoZWlnaHQiOjkzMn0sIndhbGxQaG90b3MiOlsid2VkZGluZy1waG90by1icmlkZS0xIiwid2VkZGluZy1waG90by1icmlkZS0yIiwid2VkZGluZy1waG90by1icmlkZS0zIl0sInBob3RvcyI6WyIvYXNzZXRzL3Bob3RvLXRhYmxlL2JyaWRlLTAxLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2JyaWRlLTAyLmpwZWciLCIvYXNzZXRzL3Bob3RvLXRhYmxlL2JyaWRlLTAzLmpwZWciXSwicmVjb3JkcyI6W3sia2V5Ijoid2VkZGluZy1waG90by1icmlkZS0xIiwid2lkdGgiOjMwNzIsImhlaWdodCI6NDYwOCwiZGlzcGxheVdpZHRoIjo0MzcuMzMzMzMzMzMzMzMzMywiZGlzcGxheUhlaWdodCI6NjU2LCJ0b3AiOjI4OCwiYm90dG9tIjo5NDQsImxlZnQiOjE0MS4zMzMzMzMzMzMzMzMzNCwicmlnaHQiOjU3OC42NjY2NjY2NjY2NjY2fSx7ImtleSI6IndlZGRpbmctcGhvdG8tYnJpZGUtMiIsIndpZHRoIjozMDcyLCJoZWlnaHQiOjQ2MDgsImRpc3BsYXlXaWR0aCI6NDM3LjMzMzMzMzMzMzMzMzMsImRpc3BsYXlIZWlnaHQiOjY1NiwidG9wIjoyODgsImJvdHRvbSI6OTQ0LCJsZWZ0IjoxNDEuMzMzMzMzMzMzMzMzMzQsInJpZ2h0Ijo1NzguNjY2NjY2NjY2NjY2Nn0seyJrZXkiOiJ3ZWRkaW5nLXBob3RvLWJyaWRlLTMiLCJ3aWR0aCI6MzA3MiwiaGVpZ2h0Ijo0NjA4LCJkaXNwbGF5V2lkdGgiOjQzNy4zMzMzMzMzMzMzMzMzLCJkaXNwbGF5SGVpZ2h0Ijo2NTYsInRvcCI6Mjg4LCJib3R0b20iOjk0NCwibGVmdCI6MTQxLjMzMzMzMzMzMzMzMzM0LCJyaWdodCI6NTc4LjY2NjY2NjY2NjY2NjZ9XSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/photo-table-personalized-b-bd68b-obby-and-photo-table-at-430/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "769e4e9fd5e9908a733c-e1a00091f6c8b581ffe6",
+          "file": "photo-table-personalized.spec.ts",
+          "line": 11,
+          "column": 3
+        },
+        {
+          "title": "switching guest side rebuilds all three lobby frames and gallery without stale photos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 15900,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:06:20.637Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "side-switch",
+                      "contentType": "text/plain",
+                      "body": "Z3Jvb20g4oaSIGJyaWRlIOKGkiBncm9vbTsgd2FsbCBwaXhlbHMgcmVzdG9yZWQgZXhhY3RseTsgZ2FsbGVyeSBzdGFydHMgYXQgbWF0Y2hpbmcgcGhvdG8gMQ=="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/local-01/photo-table-personalized-s-b10f2-allery-without-stale-photos/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "769e4e9fd5e9908a733c-1c927bad69884babe6d6",
+          "file": "photo-table-personalized.spec.ts",
+          "line": 85,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-17T15:04:14.823Z",
+    "duration": 142086.472,
+    "expected": 16,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

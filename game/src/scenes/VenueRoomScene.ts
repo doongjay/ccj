@@ -1,4 +1,3 @@
-import { photoUploadStatus } from "../ui/photoUpload";
 import { photoFlash } from "../ui/motionPreference";
 import Phaser from "phaser";
 import { saveCheckpoint } from "../state/checkpoint";
@@ -151,7 +150,6 @@ class VenueRoomScene extends Phaser.Scene {
       this.game.canvas.dataset.photoResultAt = String(performance.now());
       const result = new StoryDialog(this);
       const content = keepsakeFigure(photo);
-      content.append(photoUploadStatus(this, photo.canvas, kind));
       result.showInfo(`${photo.title}\n추억을 수첩에 남겼어요 ♥`, () => this.leavePhoto(), {
         variant: "photo-result", closeLabel: "로비로 돌아가기", content,
       });

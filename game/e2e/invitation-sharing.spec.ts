@@ -1,9 +1,9 @@
 import { expect, test } from "@playwright/test";
-const expectedDescription = "2026년 11월 21일 오후 2시\n라시따시어터 그랜드볼룸";
+const expectedDescription = "2026년 11월 21일 오후 2시\n라시따시어터";
 
 test("share crawlers receive the wide pixel image in the original HTML", async ({ page, request, baseURL }, testInfo) => {
   const html = await (await request.get("/")).text();
-  expect(html).toContain(`property="og:image" content="${baseURL}/assets/invitation/share-pixel-wide-v3.png"`);
+  expect(html).toContain(`property="og:image" content="${baseURL}/assets/invitation/share-pixel-wide-v4.png"`);
   expect(html).toContain('<title>JJ ♥︎ HS</title>');
   expect(html).toContain('property="og:title" content="현서와 재준, 현재의 시작"');
   expect(html).toContain('name="twitter:title" content="현서와 재준, 현재의 시작"');
@@ -41,7 +41,7 @@ test("native sharing and the Kakao card use matching invitation URLs and the cor
   });
   expect(kakao.content.link.webUrl).toBe(native.url);
   expect(kakao.buttons[0].link.mobileWebUrl).toBe(native.url);
-  expect(kakao.content.imageUrl).toMatch(/\/share-pixel-square-v3.png$/);
+  expect(kakao.content.imageUrl).toMatch(/\/share-pixel-square-v4.png$/);
   expect(kakao.content.imageWidth).toBe(kakao.content.imageHeight);
   expect(kakao.content.title).toBe(native.title);
   expect(kakao.content.description).toBe(expectedDescription);

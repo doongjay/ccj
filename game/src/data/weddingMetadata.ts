@@ -16,7 +16,7 @@ export const WEDDING_METADATA = {
   },
   title: 'JJ ♥︎ HS',
   shareTitle: '현서와 재준, 현재의 시작',
-  description: '2026년 11월 21일 오후 2시\n라시따시어터 그랜드볼룸',
+  description: '2026년 11월 21일 오후 2시\n라시따시어터',
   shareCopy: '현서와 재준, 현재의 시작',
   themeColor: '#738D5F',
   canonicalPath: '/',
@@ -29,7 +29,7 @@ export const WEDDING_METADATA = {
   openGraph: {
     type: 'website',
     locale: 'ko_KR',
-    imagePath: '/assets/invitation/share-pixel-wide-v3.png',
+    imagePath: '/assets/invitation/share-pixel-wide-v4.png',
     imageAlt: '계단에 나란히 앉아 서로 바라보는 재준과 현서의 픽셀 웨딩 그림',
     imageType: 'image/png',
     imageWidth: 1774,

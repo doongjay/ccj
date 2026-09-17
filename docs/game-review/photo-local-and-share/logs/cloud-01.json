@@ -1,0 +1,284 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=../docs/game-review/photo-local-and-share/scripts/cloud.config.ts"
+    ],
+    "configFile": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/scripts/cloud.config.ts",
+    "rootDir": "/Users/user/wedding/ccj/game/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/cloud-01",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/user/wedding/ccj/game/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "cloud-photos.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../logs/cloud-01.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": {
+      "command": "npm run dev -- --host 127.0.0.1 --port 5198 --strictPort",
+      "cwd": "/Users/user/wedding/ccj/game",
+      "url": "http://127.0.0.1:5198",
+      "reuseExistingServer": false
+    }
+  },
+  "suites": [
+    {
+      "title": "cloud-photos.spec.ts",
+      "file": "cloud-photos.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "booth photo remains viewable and returns normally without cloud requests",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 21624,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.notebook-keepsakes [data-keepsake=\"booth\"] canvas')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.notebook-keepsakes [data-keepsake=\"booth\"] canvas')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.notebook-keepsakes [data-keepsake=\"booth\"] canvas')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.notebook-keepsakes [data-keepsake=\"booth\"] canvas')\u001b[22m\n\n    at /Users/user/wedding/ccj/game/e2e/cloud-photos.spec.ts:57:28",
+                    "location": {
+                      "file": "/Users/user/wedding/ccj/game/e2e/cloud-photos.spec.ts",
+                      "column": 28,
+                      "line": 57
+                    },
+                    "snippet": "  55 |       await clickGame(page, 128, 60);\n  56 |       const memory = page.locator(`.notebook-keepsakes [data-keepsake=\"${kind}\"] canvas`);\n> 57 |       await expect(memory).toBeVisible();\n     |                            ^\n  58 |       expect(await memory.evaluate(node => (node as HTMLCanvasElement).toDataURL())).toBe(pixels);\n  59 |     }\n  60 |     await info.attach(\"network-and-console\", { body: JSON.stringify({ cloudConfigured: Boolean(process.env.VITE_SUPABASE_URL), cloudRequests, errors }), contentType: \"application/json\" });"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/user/wedding/ccj/game/e2e/cloud-photos.spec.ts",
+                        "column": 28,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.notebook-keepsakes [data-keepsake=\"booth\"] canvas')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.notebook-keepsakes [data-keepsake=\"booth\"] canvas')\u001b[22m\n\n\n  55 |       await clickGame(page, 128, 60);\n  56 |       const memory = page.locator(`.notebook-keepsakes [data-keepsake=\"${kind}\"] canvas`);\n> 57 |       await expect(memory).toBeVisible();\n     |                            ^\n  58 |       expect(await memory.evaluate(node => (node as HTMLCanvasElement).toDataURL())).toBe(pixels);\n  59 |     }\n  60 |     await info.attach(\"network-and-console\", { body: JSON.stringify({ cloudConfigured: Boolean(process.env.VITE_SUPABASE_URL), cloudRequests, errors }), contentType: \"application/json\" });\n    at /Users/user/wedding/ccj/game/e2e/cloud-photos.spec.ts:57:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:00:52.785Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/cloud-01/cloud-photos-booth-photo-r-8b1a0-ally-without-cloud-requests/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/cloud-01/cloud-photos-booth-photo-r-8b1a0-ally-without-cloud-requests/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/cloud-01/cloud-photos-booth-photo-r-8b1a0-ally-without-cloud-requests/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/user/wedding/ccj/game/e2e/cloud-photos.spec.ts",
+                    "column": 28,
+                    "line": 57
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8adeff5fdde756e23a25-c1e3c7e9111b747cb750",
+          "file": "cloud-photos.spec.ts",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "bridal photo remains viewable and returns normally without cloud requests",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 22850,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.notebook-keepsakes [data-keepsake=\"bridal\"] canvas')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.notebook-keepsakes [data-keepsake=\"bridal\"] canvas')\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.notebook-keepsakes [data-keepsake=\"bridal\"] canvas')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.notebook-keepsakes [data-keepsake=\"bridal\"] canvas')\u001b[22m\n\n    at /Users/user/wedding/ccj/game/e2e/cloud-photos.spec.ts:57:28",
+                    "location": {
+                      "file": "/Users/user/wedding/ccj/game/e2e/cloud-photos.spec.ts",
+                      "column": 28,
+                      "line": 57
+                    },
+                    "snippet": "  55 |       await clickGame(page, 128, 60);\n  56 |       const memory = page.locator(`.notebook-keepsakes [data-keepsake=\"${kind}\"] canvas`);\n> 57 |       await expect(memory).toBeVisible();\n     |                            ^\n  58 |       expect(await memory.evaluate(node => (node as HTMLCanvasElement).toDataURL())).toBe(pixels);\n  59 |     }\n  60 |     await info.attach(\"network-and-console\", { body: JSON.stringify({ cloudConfigured: Boolean(process.env.VITE_SUPABASE_URL), cloudRequests, errors }), contentType: \"application/json\" });"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/user/wedding/ccj/game/e2e/cloud-photos.spec.ts",
+                        "column": 28,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: locator('.notebook-keepsakes [data-keepsake=\"bridal\"] canvas')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('.notebook-keepsakes [data-keepsake=\"bridal\"] canvas')\u001b[22m\n\n\n  55 |       await clickGame(page, 128, 60);\n  56 |       const memory = page.locator(`.notebook-keepsakes [data-keepsake=\"${kind}\"] canvas`);\n> 57 |       await expect(memory).toBeVisible();\n     |                            ^\n  58 |       expect(await memory.evaluate(node => (node as HTMLCanvasElement).toDataURL())).toBe(pixels);\n  59 |     }\n  60 |     await info.attach(\"network-and-console\", { body: JSON.stringify({ cloudConfigured: Boolean(process.env.VITE_SUPABASE_URL), cloudRequests, errors }), contentType: \"application/json\" });\n    at /Users/user/wedding/ccj/game/e2e/cloud-photos.spec.ts:57:28"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:01:16.730Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/cloud-01/cloud-photos-bridal-photo--997b5-ally-without-cloud-requests/video.webm"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/cloud-01/cloud-photos-bridal-photo--997b5-ally-without-cloud-requests/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/cloud-01/cloud-photos-bridal-photo--997b5-ally-without-cloud-requests/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/user/wedding/ccj/game/e2e/cloud-photos.spec.ts",
+                    "column": 28,
+                    "line": 57
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "8adeff5fdde756e23a25-aa70b25c7cb57e79cc2a",
+          "file": "cloud-photos.spec.ts",
+          "line": 7,
+          "column": 3
+        },
+        {
+          "title": "group photo remains viewable and returns normally without cloud requests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17916,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T15:01:41.681Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "network-and-console",
+                      "contentType": "application/json",
+                      "body": "eyJjbG91ZENvbmZpZ3VyZWQiOnRydWUsImNsb3VkUmVxdWVzdHMiOltdLCJlcnJvcnMiOltdfQ=="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/photo-local-and-share/runs/cloud-01/cloud-photos-group-photo-r-85ef7-ally-without-cloud-requests/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8adeff5fdde756e23a25-b0b42808142ba607b213",
+          "file": "cloud-photos.spec.ts",
+          "line": 7,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-17T15:00:51.634Z",
+    "duration": 68496.845,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

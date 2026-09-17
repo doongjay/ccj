@@ -22,7 +22,7 @@ npm run dev -- --host 127.0.0.1 --port 5174 --strictPort
 - `docs/`: 기획, 에셋 출처, 검수 기록과 배포 안내
 - `game/`에서 `npm run build`, `npm run test:e2e`, `npm run verify:assets` 실행
 - 원본 사진은 보관하고 청첩장에는 1920px 표시본을 사용합니다. 게임 중 미리 받고 준비 후 함께 표시합니다.
-- 진행 상황·수첩은 브라우저에 저장됩니다. 메시지·촬영 사진은 [Supabase 설정](game/supabase/README.md)을 사용하며, 미설정 로컬 실행은 체험판으로 동작합니다.
+- 진행 상황·수첩은 브라우저에 저장됩니다. 방명록 메시지만 [Supabase 설정](game/supabase/README.md)으로 서버에 저장하며, 미설정 로컬 실행은 체험판으로 동작합니다.
 
 ## 배포 · 공유
 
