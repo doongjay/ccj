@@ -30,7 +30,7 @@ for (const route of ["car", "subway"] as const) {
     const wrong = route === "car" ? "노란색" : "1번 출구";
     await page.getByRole("button", { name: wrong, exact: true }).click();
     await expect(page.locator("canvas")).toHaveAttribute("data-route-quiz-wrong-count", "1");
-    await expect(copy).toHaveText(route === "car" ? "여긴 이마트 주차장이네.\n주차 정산이 안될테니 다른 유도선을 타야겠군." : "셔틀 버스는 5번 출구 앞 이었던것 같은데...");
+    await expect(copy).toHaveText(route === "car" ? "여긴 이마트 주차장이네.\n주차 정산이 안될테니 다른 유도선을 타야겠군." : "셔틀버스는\n5번 출구 앞 이었던것 같은데...");
     await page.screenshot({ path: `${REVIEW_EVIDENCE}/regressions/f07-${route}-wrong-copy-393.png` });
     await expect(page.getByRole("button", { name: wrong, exact: true })).toHaveAttribute("data-tried", "true", { timeout: 15000 });
     await expect(page.getByRole("button", { name: wrong, exact: true })).toBeDisabled();

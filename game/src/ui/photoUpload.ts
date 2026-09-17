@@ -9,6 +9,7 @@ const ids = new WeakMap<HTMLCanvasElement, string>();
 export function photoUploadStatus(scene: Phaser.Scene, canvas: HTMLCanvasElement, kind: PhotoSubmission["kind"]): HTMLElement {
   const container = document.createElement("div");
   container.className = "photo-upload-status";
+  container.hidden = true;
   if (!cloudEnabled) return container;
   const status = document.createElement("p");
   status.setAttribute("role", "status");
@@ -25,11 +26,15 @@ export function photoUploadStatus(scene: Phaser.Scene, canvas: HTMLCanvasElement
   const upload = async (): Promise<void> => {
     retry.remove();
     retry.disabled = true;
-    status.textContent = "신랑신부에게 사진을 보내는 중…";
+    container.hidden = true;
+    container.dataset.uploadState = "saving";
+    status.textContent = "";
     try {
       await sendCloudPhoto(photo);
-      status.textContent = "신랑신부에게 사진을 보냈어요.";
+      container.dataset.uploadState = "saved";
     } catch (failure) {
+      container.dataset.uploadState = "error";
+      container.hidden = false;
       status.textContent = failure instanceof CloudSaveError ? failure.message : "사진을 보내지 못했어요. 다시 시도해 주세요.";
       container.append(retry);
     } finally { retry.disabled = false; }

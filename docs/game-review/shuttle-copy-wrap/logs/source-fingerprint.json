@@ -1,0 +1,13 @@
+{
+  "base": "cfb73d7325349e0a6a4d9909d4c95ad4ce778012",
+  "changedFiles": {
+    "game/e2e/cloud-live.spec.ts": "bdee7240f2ff62619cadbbac8fa03178cec44d0a5d08e88ac0b6fa860b84947b",
+    "game/e2e/cloud-photos.spec.ts": "3b83f5ebbe02d72ab707ddcc47a1f7334bdad05324f12bb60740d52a8a16e220",
+    "game/e2e/review-batch-b-guidance.spec.ts": "9afb3a326b0e03ef5c136a83c04984af2f51cff6fbc79e2b53049997dcaaf2ac",
+    "game/e2e/review-silhouette-ux.spec.ts": "246fa7a2bb4ea7f824cb786d543b01016b7f85cd76f66da25ae71b15ba2ff4d7",
+    "game/e2e/review-touch-refinement.spec.ts": "6fa21e6eda787c2ffcbe2ad6ddf9397da04124f7929af55f72794c34f75f8ec0",
+    "game/e2e/route-tried-disabled.spec.ts": "538fecc3dd3794d7e487b78198d8c9eab45bda3d36e0e61ec44370269af214bd",
+    "game/src/scenes/SubwayRouteScene.ts": "4cfc21fc491f2c46496052302faada5c13d891aab0a843752120e8b163818eca",
+    "game/src/ui/photoUpload.ts": "52d125dcb0eba99b4ba0fa16a422933e45a500a0bdd7929d32d14eff1b956c4b"
+  }
+}

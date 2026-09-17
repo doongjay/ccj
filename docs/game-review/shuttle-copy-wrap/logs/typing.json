@@ -1,0 +1,221 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=../docs/game-review/shuttle-copy-wrap/scripts/typing.config.ts"
+    ],
+    "configFile": "/Users/user/wedding/ccj/docs/game-review/shuttle-copy-wrap/scripts/typing.config.ts",
+    "rootDir": "/Users/user/wedding/ccj/docs/game-review/shuttle-copy-wrap/scripts",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/wedding/ccj/docs/game-review/shuttle-copy-wrap/runs/typing",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/user/wedding/ccj/docs/game-review/shuttle-copy-wrap/scripts",
+        "testIgnore": [],
+        "testMatch": [
+          "typing.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../logs/typing.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "typing.spec.ts",
+      "file": "typing.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "wrong-exit letters stay on their final lines while typing at 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7015,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T14:34:01.283Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "typing-positions",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjU2OH0sInNhbXBsZXMiOlt7ImNvcHkiOiLshZQiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuAIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqQiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNSIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIICIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7LacIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4iLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4gIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4giLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4g7J207JeI642YIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4jrjZjqsoMgIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyDqsJkiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4g7J207JeI642Y6rKDIOqwmeydgCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4jrjZjqsoMg6rCZ7J2A642wIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyDqsJnsnYDrjbAuIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyDqsJnsnYDrjbAuLiIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4jrjZjqsoMg6rCZ7J2A642wLi4uIiwibWF4U2hpZnQiOjB9XX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/shuttle-copy-wrap/runs/typing/typing-wrong-exit-letters--d22f7-l-lines-while-typing-at-320/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55c4864cc1d114f1b841-e2c64b1379106136a3fc",
+          "file": "typing.spec.ts",
+          "line": 6,
+          "column": 7
+        },
+        {
+          "title": "wrong-exit letters stay on their final lines while typing at 393",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6251,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T14:34:08.692Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "typing-positions",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzkzLCJoZWlnaHQiOjg1Mn0sInNhbXBsZXMiOlt7ImNvcHkiOiLshZQiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuAIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqQiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNSIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIICIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7LacIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4iLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4gIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4giLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4g7J207JeI642YIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4jrjZjqsoMgIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyDqsJkiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4g7J207JeI642Y6rKDIOqwmeydgCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4jrjZjqsoMg6rCZ7J2A642wIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyDqsJnsnYDrjbAuIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyDqsJnsnYDrjbAuLiIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4jrjZjqsoMg6rCZ7J2A642wLi4uIiwibWF4U2hpZnQiOjB9XX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/shuttle-copy-wrap/runs/typing/typing-wrong-exit-letters--627a5-l-lines-while-typing-at-393/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55c4864cc1d114f1b841-e52fcbf500193d65ea72",
+          "file": "typing.spec.ts",
+          "line": 6,
+          "column": 7
+        },
+        {
+          "title": "wrong-exit letters stay on their final lines while typing at 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6536,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T14:34:14.948Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "typing-positions",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6NDMwLCJoZWlnaHQiOjkzMn0sInNhbXBsZXMiOlt7ImNvcHkiOiLshZQiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuAIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqQiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNSIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIICIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7LacIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4iLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4gIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4giLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4g7J207JeI642YIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4jrjZjqsoMgIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyDqsJkiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7IWU7YuA67KE7Iqk64qUXG4167KIIOy2nOq1rCDslZ4g7J207JeI642Y6rKDIOqwmeydgCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4jrjZjqsoMg6rCZ7J2A642wIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyDqsJnsnYDrjbAuIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyFlO2LgOuyhOyKpOuKlFxuNeuyiCDstpzqtawg7JWeIOydtOyXiOuNmOqygyDqsJnsnYDrjbAuLiIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLshZTti4DrsoTsiqTripRcbjXrsogg7Lac6rWsIOyVniDsnbTsl4jrjZjqsoMg6rCZ7J2A642wLi4uIiwibWF4U2hpZnQiOjB9XX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/shuttle-copy-wrap/runs/typing/typing-wrong-exit-letters--1ec30-l-lines-while-typing-at-430/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "55c4864cc1d114f1b841-186d40d5e6a231afce10",
+          "file": "typing.spec.ts",
+          "line": 6,
+          "column": 7
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-17T14:34:00.966Z",
+    "duration": 20652.988,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

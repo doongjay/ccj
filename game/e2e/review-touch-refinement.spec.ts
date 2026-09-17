@@ -101,7 +101,7 @@ for (const [width, height] of [[320,568],[393,852],[430,932]]) test(`Station ref
     for(const item of station) { expect(item.box.y).toBe(station[0]!.box.y); expect(item.box.height).toBeGreaterThan(item.box.width); expect(item.box.width).toBeGreaterThanOrEqual(44); }
   }
   await page.getByRole("button",{name:"1번 출구",exact:true}).tap();
-  await expect(page.locator(".story-copy")).toHaveText("셔틀 버스는 5번 출구 앞 이었던것 같은데...");
+  await expect(page.locator(".story-copy")).toHaveText("셔틀버스는\n5번 출구 앞 이었던것 같은데...");
   await expect(page.getByRole("button",{name:"5번 출구",exact:true})).toBeEnabled({timeout:15000});
   await page.getByRole("button",{name:"5번 출구",exact:true}).tap();
   const canvas = page.locator("#app canvas");

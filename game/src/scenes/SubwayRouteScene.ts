@@ -58,7 +58,7 @@ export class SubwayRouteScene extends Phaser.Scene {
       if (exit !== 5) {
         const dataset = this.game.canvas.dataset;
         dataset.routeQuizWrongCount = String(Number(dataset.routeQuizWrongCount) + 1);
-        this.dialog?.narrate("셔틀 버스는 5번 출구 앞 이었던것 같은데...", () => {
+        this.dialog?.narrate("셔틀버스는\n5번 출구 앞 이었던것 같은데...", () => {
           this.player?.moveTo(360, 1080);
           this.arrival = () => this.prompt();
         }, 1600);

@@ -1,0 +1,42 @@
+{
+  "browser.json": {
+    "startTime": "2026-09-17T14:32:47.301Z",
+    "duration": 112875.849,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "photos-02.json": {
+    "startTime": "2026-09-17T14:40:46.985Z",
+    "duration": 38990.208999999995,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "photos.json": {
+    "startTime": "2026-09-17T14:39:09.265Z",
+    "duration": 35252.989,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "share.json": {
+    "startTime": "2026-09-17T14:39:09.462Z",
+    "duration": 26019.165,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "typing.json": {
+    "startTime": "2026-09-17T14:34:00.966Z",
+    "duration": 20652.988,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

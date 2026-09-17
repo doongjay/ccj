@@ -34,7 +34,7 @@ for (const [width,height] of [[320,568],[393,852],[430,932]]) test(`Restored sta
   await page.screenshot({path:`${evidence}/subway-exit-choice-${width}.png`});
   await page.getByRole("button",{name:"1번 출구",exact:true}).tap();
   await expect(canvas).toHaveAttribute("data-route-quiz-wrong-count","1");
-  await expect(page.locator(".story-copy")).toHaveText("셔틀 버스는 5번 출구 앞 이었던것 같은데...");
+  await expect(page.locator(".story-copy")).toHaveText("셔틀버스는\n5번 출구 앞 이었던것 같은데...");
   await page.screenshot({path:`${evidence}/subway-wrong-exit-${width}.png`});
   await expect(page.getByRole("button",{name:"5번 출구",exact:true})).toBeEnabled({timeout:15000});
   await expect(page.locator(".story-choice[data-tried]")).toHaveCount(0);

@@ -43,7 +43,8 @@ test("real guest message and photo persist while another guest cannot read or im
   await expect(page.locator("#app canvas")).toHaveAttribute("data-photo-booth-stage", "ready");
   const savedPhoto = page.waitForResponse(result => result.url().includes("/rest/v1/guest_photos") && result.request().method() === "POST");
   await clickGame(page, 360, 860);
-  await expect(page.getByRole("status")).toContainText("사진을 보냈어요", { timeout: 25000 });
+  await expect(page.locator(".photo-upload-status")).toHaveAttribute("data-upload-state", "saved", { timeout: 25000 });
+  await expect(page.locator(".photo-upload-status")).toBeHidden();
   const photoResponse = await savedPhoto;
   expect(photoResponse.status()).toBe(201);
   const photo = z.object({ id: z.uuid(), user_id: z.uuid(), storage_path: z.string() }).parse(photoResponse.request().postDataJSON());

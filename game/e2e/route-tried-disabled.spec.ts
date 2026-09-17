@@ -31,7 +31,7 @@ for (const viewport of viewports) for (const route of ["car", "subway"] as const
       await page.getByRole("button", { name: wrong, exact: true }).tap();
       selected.add(wrong);
       await expect(canvas).toHaveAttribute("data-route-quiz-wrong-count", String(selected.size), { timeout: 10000 });
-      const feedback = route === "car" ? "여긴 이마트 주차장이네.\n주차 정산이 안될테니 다른 유도선을 타야겠군." : "셔틀 버스는 5번 출구 앞 이었던것 같은데...";
+      const feedback = route === "car" ? "여긴 이마트 주차장이네.\n주차 정산이 안될테니 다른 유도선을 타야겠군." : "셔틀버스는\n5번 출구 앞 이었던것 같은데...";
       await expect(page.locator(".story-copy")).toHaveText(feedback);
       await expect(page.locator(".story-narration")).toHaveAttribute("aria-label", feedback);
       if (selected.size === 1) await page.screenshot({ path: `${evidence}/${route}-wrong-copy-${viewport.width}.png` });

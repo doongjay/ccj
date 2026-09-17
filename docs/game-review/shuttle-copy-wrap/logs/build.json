@@ -1,0 +1,6 @@
+{
+  "command": "npm run build",
+  "cwd": "game",
+  "exitCode": 0,
+  "output": "> game@0.0.0 build\n> tsc && npm run typecheck:e2e && vite build\n\n> game@0.0.0 typecheck:e2e\n> tsc -p tsconfig.e2e.json\n\nvite v8.2.1 building client environment for production...\n\u001b[2K\rtransforming...✓ 243 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                     2.24 kB │ gzip:   0.78 kB\ndist/assets/index-DJHSNGOh.css     43.59 kB │ gzip:   9.82 kB\ndist/assets/index-BkrRlMwS.js   1,645.20 kB │ gzip: 440.82 kB\n\n✓ built in 787ms\n[plugin builtin:vite-reporter] \n(!) Some chunks are larger than 500 kB after minification. Consider:\n- Using dynamic import() to code-split the application\n- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting\n- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.\n"
+}
