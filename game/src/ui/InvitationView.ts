@@ -51,7 +51,8 @@ export class InvitationView {
       navigation.append(button(label!, () => this.root.querySelector(`#${id}`)?.scrollIntoView({ behavior: "auto", block: "start" })));
     }
     paper.append(navigation, this.hero(), this.letter(), this.calendar(), this.gallery(), this.location(), this.information(), this.accounts(), this.guestBook(), this.footer());
-    this.root.append(weddingAmbience(), paper, this.toast);
+    paper.append(weddingAmbience());
+    this.root.append(paper, this.toast);
     document.body.append(this.root);
     if (this.app) { this.app.inert = true; this.app.style.visibility = "hidden"; }
     this.root.focus({ preventScroll: true });

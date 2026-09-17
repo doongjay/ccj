@@ -1,0 +1,104 @@
+[
+  {
+    "viewport": {
+      "width": 320,
+      "height": 568
+    },
+    "movingStart": {
+      "x": 42.50755310058594,
+      "y": 276.501220703125,
+      "width": 14,
+      "height": 14
+    },
+    "movingEnd": {
+      "x": 46.26918029785156,
+      "y": 258.4454345703125,
+      "width": 14,
+      "height": 14
+    },
+    "before": {
+      "y": 258.12451171875,
+      "scroll": 558
+    },
+    "after": {
+      "y": -21.9246826171875,
+      "scroll": 838
+    },
+    "scrollDelta": 280,
+    "attachmentError": 0.0491943359375,
+    "reducedAnimation": "none",
+    "overflow": false,
+    "count": 12,
+    "pointerEvents": "none",
+    "hiddenFromAccessibility": "true",
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 393,
+      "height": 852
+    },
+    "movingStart": {
+      "x": 53.50370788574219,
+      "y": 419.169677734375,
+      "width": 14,
+      "height": 14
+    },
+    "movingEnd": {
+      "x": 57.25210952758789,
+      "y": 401.1773681640625,
+      "width": 13.999996185302734,
+      "height": 14
+    },
+    "before": {
+      "y": 400.90704345703125,
+      "scroll": 483
+    },
+    "after": {
+      "y": 120.69866943359375,
+      "scroll": 763
+    },
+    "scrollDelta": 280,
+    "attachmentError": 0.2083740234375,
+    "reducedAnimation": "none",
+    "overflow": false,
+    "count": 12,
+    "pointerEvents": "none",
+    "hiddenFromAccessibility": "true",
+    "errors": []
+  },
+  {
+    "viewport": {
+      "width": 430,
+      "height": 932
+    },
+    "movingStart": {
+      "x": 59.04884338378906,
+      "y": 458.75616455078125,
+      "width": 14,
+      "height": 14
+    },
+    "movingEnd": {
+      "x": 62.79898452758789,
+      "y": 440.7554931640625,
+      "width": 13.999996185302734,
+      "height": 14
+    },
+    "before": {
+      "y": 440.40093994140625,
+      "scroll": 472
+    },
+    "after": {
+      "y": 160.19854736328125,
+      "scroll": 752
+    },
+    "scrollDelta": 280,
+    "attachmentError": 0.202392578125,
+    "reducedAnimation": "none",
+    "overflow": false,
+    "count": 12,
+    "pointerEvents": "none",
+    "hiddenFromAccessibility": "true",
+    "errors": []
+  }
+]
