@@ -63,7 +63,7 @@ export async function ensureStages(scene: Phaser.Scene, stages: readonly AssetSt
   }
   const overlay = document.createElement("div");
   overlay.className = boot ? "stage-loading" : "stage-loading-inline";
-  overlay.dataset.loadingPolicy = boot ? "boot" : "inline";
+  overlay.dataset.loadingPolicy = boot ? "boot" : "background";
   overlay.setAttribute("role", boot ? "dialog" : "region");
   overlay.setAttribute("aria-label", "추억을 준비하는 중");
   const panel = document.createElement("div");
@@ -85,9 +85,9 @@ export async function ensureStages(scene: Phaser.Scene, stages: readonly AssetSt
   const blocked = [...document.querySelectorAll<HTMLElement>(".story-overlay, .game-access, .keyboard-destinations, .canvas-keyboard-button, .portrait-notice, .timed-continue-hint")]
     .map(node => ({ node, inert: node.inert }));
   if (boot) for (const { node } of blocked) node.inert = true;
-  // Keep the current scene visible while assets arrive. A fast transition has no UI.
+  // After boot, keep the current scene visible until its destination is ready.
+  // Normal loading stays in the background; only a failed request needs retry UI.
   const show = () => { if (!overlay.isConnected) document.body.append(overlay); };
-  const delay = boot ? undefined : window.setTimeout(show, 300);
   if (boot) show();
   const dataset = scene.game.canvas.dataset;
   dataset.assetLoadStage = stages.join(",");
@@ -96,7 +96,7 @@ export async function ensureStages(scene: Phaser.Scene, stages: readonly AssetSt
     dataset.assetLoadState = "loading";
     delete dataset.assetLoadError;
     let completed = 0;
-    const update = () => { progress.value = completed; dataset.assetLoadProgress = String(completed / keys.length); status.textContent = `추억을 준비하고 있어요 · ${Math.round(completed / keys.length * 100)}%`; };
+    const update = () => { progress.value = completed; dataset.assetLoadProgress = String(completed / keys.length); status.textContent = boot ? `추억을 준비하고 있어요 · ${Math.round(completed / keys.length * 100)}%` : "다시 불러오는 중…"; };
     update();
     const results = await Promise.allSettled(keys.map(async key => { const failure = warmFailures.get(scene.game)?.get(key);
       if (failure && !scene.textures.exists(key)) throw failure;
@@ -110,7 +110,7 @@ export async function ensureStages(scene: Phaser.Scene, stages: readonly AssetSt
     dataset.assetLoadState = "error";
     dataset.assetLoadError = failures.map(result => String(result.reason)).join(",");
     status.textContent = "불러오지 못했어요. 연결을 확인하고 다시 시도해 주세요.";
-    window.clearTimeout(delay);
+    overlay.dataset.loadingPolicy = "error";
     show();
     retry.hidden = false;
     retry.focus({ preventScroll: true });
@@ -118,7 +118,6 @@ export async function ensureStages(scene: Phaser.Scene, stages: readonly AssetSt
   }
   dataset.assetLoadState = "complete";
   dataset.assetLoadProgress = "1";
-  window.clearTimeout(delay);
   const restoreFocus = boot || overlay.contains(document.activeElement);
   overlay.remove();
   if (boot) for (const { node, inert } of blocked) node.inert = inert;

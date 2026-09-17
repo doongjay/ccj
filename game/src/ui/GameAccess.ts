@@ -1,7 +1,7 @@
 import type Phaser from "phaser";
 import { SCENE_KEYS } from "../state/gameState";
 import { InvitationView } from "./InvitationView";
-import { ensureSceneAssets } from "../systems/stageAssets";
+import { ensureSceneAssets, warmSceneAssets } from "../systems/stageAssets";
 
 const opened = new WeakSet<Phaser.Scene>();
 
@@ -41,6 +41,9 @@ export async function openGameInvitation(scene: Phaser.Scene): Promise<void> {
 }
 
 export function createGameAccess(scene: Phaser.Scene): void {
+  // Both avatar sets are needed by the invitation. Prepare them during play,
+  // including resumed visits, instead of waiting for the invitation button.
+  warmSceneAssets(scene, SCENE_KEYS.Invitation);
   const button = document.createElement("button");
   button.type = "button";
   button.className = "game-access";

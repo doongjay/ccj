@@ -1,0 +1,438 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=../docs/game-review/post-boot-loading/playwright.config.ts"
+    ],
+    "configFile": "/Users/user/wedding/ccj/docs/game-review/post-boot-loading/playwright.config.ts",
+    "rootDir": "/Users/user/wedding/ccj/game/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/wedding/ccj/docs/game-review/post-boot-loading/runs/local-01",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/user/wedding/ccj/game/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "post-boot-loading.spec.ts",
+          "invitation-photo-loading.spec.ts",
+          "review-batch-b-access.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./local-01.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "invitation-photo-loading.spec.ts",
+      "file": "invitation-photo-loading.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "direct invitation reveals decoded photos together at 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4130,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T16:44:50.520Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "photo-load-result",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjU2OH0sImltYWdlcyI6MzMsInJlcXVlc3RzIjpbImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC8iLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvQHZpdGUvY2xpZW50IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9tYWluLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9ub2RlX21vZHVsZXMvLnZpdGUvZGVwcy9waGFzZXIuanM/dj05NmY2ZmQzMSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc3R5bGUuY3NzP3Q9MTc4OTY1NjQzNDgwMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvaW52aXRhdGlvbi5jc3M/dD0xNzg5NjYyNDMwOTgwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9jb25maWcudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9Cb290U2NlbmUudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvSW50cm9TY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9Ib21lU2VsZWN0U2NlbmUudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvQ2FyUm91dGVTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9TdWJ3YXlSb3V0ZVNjZW5lLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc2NlbmVzL1ZlbnVlTG9iYnlTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9SZWNlcHRpb25TY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9WZW51ZUhhbGxTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9FbmRpbmdTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9JbnZpdGF0aW9uU2NlbmUudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvRGlubmVySm91cm5leVNjZW5lLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc2NlbmVzL0dyZWVuZXJ5Q29ycmlkb3JTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9WZW51ZVJvb21TY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL3dlZGRpbmdBbWJpZW5jZS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9ub2RlX21vZHVsZXMvdml0ZS9kaXN0L2NsaWVudC9lbnYubWpzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zeXN0ZW1zL3N0YWdlQXNzZXRzLnRzP3Q9MTc4OTY2MzMzMzkzMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvb2JqZWN0cy9QbGF5ZXIudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3N0YXRlL2dhbWVTdGF0ZS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvVGV4dEVudHJ5RGlhbG9nLnRzP3Q9MTc4OTY2MzMzMzkzMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvc2NlbmVVaS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL1N0b3J5RGlhbG9nLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvc2NlbmVBcnQudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL2ludml0YXRpb25QaG90b3MudHM/dD0xNzg5NDk3MjA5Mzk3IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9kYXRhL3dlZGRpbmdNZXRhZGF0YS50cz90PTE3ODk2NTc0NTQ0ODYiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL29iamVjdHMvTnBjLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvcGhvdG9BcnQudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL3Nlc3Npb25NZW1vcmllcy50cz90PTE3ODk2NjMzMzM5MzMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3N0YXRlL2NoZWNrcG9pbnQudHM/dD0xNzg5NjYzMzMzOTMzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS93ZWRkaW5nU2NyZWVuLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvcGFya2luZ0FydC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvZGF0YS9sYXlvdXQudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2RhdGEvbG9iYnlGbG9vci50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc2NlbmVzL2xvYmJ5QXJ0LnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc3lzdGVtcy9QaG90b0dhbGxlcnlNb2RhbC50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3N5c3RlbXMvVGFwVG9Nb3ZlLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zeXN0ZW1zL1RyaWdnZXJab25lLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS93YWl0Rm9yVGFwLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9waG90b1Jlc3VsdC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvbW90aW9uUHJlZmVyZW5jZS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvc3BlZWNoQnViYmxlLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvZ3Vlc3RQaG90b0xheW91dC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvY2VyZW1vbnlHdWVzdHMudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2Nsb3VkL2NsaWVudC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc3RhdGUvZ3Vlc3RNZXNzYWdlcy50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvSW52aXRhdGlvblZpZXcudHM/dD0xNzg5NjYzMzMzOTMzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9icmlkYWxSb29tQnJpZGUudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2RhdGEvZ3Vlc3RPdXRmaXRzLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9hc3NldEhlbHBlcnMudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL3dlZGRpbmdDb3VwbGUudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL21pbmltaS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvZGF0YS9ydW50aW1lQXNzZXRzLnRzP3Q9MTc4OTY1NzIwMDQ5OSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvbWluaW1pTW90aW9uLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9waXhlbEZlZWRiYWNrLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9wYXJraW5nQ2FyLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9NaW5pbWlQaWNrZXIudHM/dD0xNzg5NjYzMzMzOTMzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9idXR0b25JbnRlcmFjdGlvbi50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvUGl4ZWxQYW5lbC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvUG9ydHJhaXROb3RpY2UudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9rZXlib2FyZEFjY2Vzcy50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvR2FtZUFjY2Vzcy50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2RhdGEvaW52aXRhdGlvblBob3RvRGlzcGxheS5qc29uP2ltcG9ydCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc3RhdGUvY2hlY2twb2ludERhdGEudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL1NjZW5lRmVlZGJhY2sudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL3dlZGRpbmdNb25vZ3JhbS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvZGF0YS9waG90b0dhbGxlcnkudHM/dD0xNzg5NjU3MjAwNDk5IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zeXN0ZW1zL3dhbGtQYXRoLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvbG9iYnlQaG90b1dhbGwudHM/dD0xNzg5NjU3MjAwNDk5IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L25vZGVfbW9kdWxlcy8udml0ZS9kZXBzL2t5LmpzP3Y9YzY5YmRjMmUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvbm9kZV9tb2R1bGVzLy52aXRlL2RlcHMvQHN1cGFiYXNlX3N1cGFiYXNlLWpzLmpzP3Y9NTg5YmZmOTciLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2Nsb3VkL21lc3NhZ2VzLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9kYXRhL2Fzc2V0TWFuaWZlc3QudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL21pbmltaVBhcnRzLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9taW5pbWlBcnQudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL2NsYXNzaWNNaW5pbWkudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL3NodXR0bGVEZWNvcmF0aW9uLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9kYXRhL2ludml0YXRpb25Tb3VyY2UuanNvbj9pbXBvcnQiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL1dlZGRpbmdDb3VudGRvd24udHM/dD0xNzg5NDk3MjA5Mzk3IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9JbnZpdGF0aW9uSW5mb3JtYXRpb24udHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL2ludml0YXRpb25TaGFyZS50cz90PTE3ODk2NTc0NTQ0ODgiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvbm9kZV9tb2R1bGVzLy52aXRlL2RlcHMvem9kLmpzP3Y9NjI0NzA2YTEiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2xhY2l0dGEvZm9udHMvR2FsbXVyaTExLndvZmYyIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9vcHRpbWl6ZWQvbGFjaXR0YS1waXhlbC12ZW51ZS1oYWxsLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtd2VkZGluZy1jb3VwbGUud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvbGFjaXR0YS91aS9kaWFsb2ctcGFuZWwucG5nIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9sYWNpdHRhL3VpL3RvdWNoLWJ1dHRvbi5wbmciLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtbWluaW1pLWhhaXIud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvb3B0aW1pemVkL2xhY2l0dGEtY2hhcmFjdGVycy1zaXh0aC1vdXRmaXRzLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtb3V0Zml0cy1tYWxlLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtZXh0cmEtb3V0Zml0cy1tYWxlLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtc2l4dGgtb3V0Zml0cy1mZW1hbGUtYmxhY2sud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvb3B0aW1pemVkL2xhY2l0dGEtY2hhcmFjdGVycy1leHRyYS1vdXRmaXRzLWZlbWFsZS1ncmF5LndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtb3V0Zml0cy1mZW1hbGUud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvb3B0aW1pemVkL2xhY2l0dGEtY2hhcmFjdGVycy1leHRyYS1vdXRmaXRzLWZlbWFsZS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9vcHRpbWl6ZWQvbGFjaXR0YS1waXhlbC12ZW51ZS1ncm91cC1waG90by1zdGFnZS12NC53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvaW50cm8ud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9jaHJ5c2FudGhlbXVtLnBuZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9zaHV0dGxlLXBpeGVsLW1hdHRlLnBuZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2NhbGVuZGFyLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS90aW1lci53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzIud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80LndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzUud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvNi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xMS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xMi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yMS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yMi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNC53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8zMS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8zMi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8zMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80MS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80Mi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80My53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80NC53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80NS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL3ZlbnVlLWRpcmVjdGlvbnMuanBnIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL25vdGljZS13ZWxjb21lLmpwZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9ub3RpY2UtcGhvdG8tYm9vdGguanBnIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL25vdGljZS1hdG0uanBnIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL25vdGljZS1iYW5xdWV0LmpwZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvbGFjaXR0YS9waG90b3MvYnJpZGFsLXJvb20uanBlZyJdLCJlcnJvcnMiOltdfQ=="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/post-boot-loading/runs/local-01/invitation-photo-loading-d-330f7-oded-photos-together-at-320/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba143d8ba15d7f9834eb-08915cb784c4ee7d813d",
+          "file": "invitation-photo-loading.spec.ts",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "direct invitation reveals decoded photos together at 393",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3115,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T16:44:55.263Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "photo-load-result",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzkzLCJoZWlnaHQiOjg1Mn0sImltYWdlcyI6MzMsInJlcXVlc3RzIjpbImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC8iLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvQHZpdGUvY2xpZW50IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9tYWluLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9ub2RlX21vZHVsZXMvLnZpdGUvZGVwcy9waGFzZXIuanM/dj05NmY2ZmQzMSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc3R5bGUuY3NzP3Q9MTc4OTY1NjQzNDgwMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvaW52aXRhdGlvbi5jc3M/dD0xNzg5NjYyNDMwOTgwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9jb25maWcudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9Cb290U2NlbmUudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvSW50cm9TY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9Ib21lU2VsZWN0U2NlbmUudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvQ2FyUm91dGVTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9TdWJ3YXlSb3V0ZVNjZW5lLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc2NlbmVzL1ZlbnVlTG9iYnlTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9SZWNlcHRpb25TY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9WZW51ZUhhbGxTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9FbmRpbmdTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9JbnZpdGF0aW9uU2NlbmUudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvRGlubmVySm91cm5leVNjZW5lLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc2NlbmVzL0dyZWVuZXJ5Q29ycmlkb3JTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9WZW51ZVJvb21TY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL3dlZGRpbmdBbWJpZW5jZS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9ub2RlX21vZHVsZXMvdml0ZS9kaXN0L2NsaWVudC9lbnYubWpzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zdGF0ZS9jaGVja3BvaW50LnRzP3Q9MTc4OTY2MzMzMzkzMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvb2JqZWN0cy9QbGF5ZXIudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3N0YXRlL2dhbWVTdGF0ZS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvc2NlbmVVaS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL1N0b3J5RGlhbG9nLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvc2NlbmVBcnQudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9waG90b0FydC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc3lzdGVtcy9zdGFnZUFzc2V0cy50cz90PTE3ODk2NjMzMzM5MzMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL1RleHRFbnRyeURpYWxvZy50cz90PTE3ODk2NjMzMzM5MzMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9wYXJraW5nQXJ0LnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9kYXRhL2xheW91dC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvZGF0YS9sb2JieUZsb29yLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9zZXNzaW9uTWVtb3JpZXMudHM/dD0xNzg5NjYzMzMzOTMzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9vYmplY3RzL05wYy50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc2NlbmVzL2xvYmJ5QXJ0LnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc3lzdGVtcy9QaG90b0dhbGxlcnlNb2RhbC50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3N5c3RlbXMvVGFwVG9Nb3ZlLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zeXN0ZW1zL1RyaWdnZXJab25lLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS93YWl0Rm9yVGFwLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9waG90b1Jlc3VsdC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvbW90aW9uUHJlZmVyZW5jZS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvc3BlZWNoQnViYmxlLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvZGF0YS93ZWRkaW5nTWV0YWRhdGEudHM/dD0xNzg5NjU3NDU0NDg2IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9ndWVzdFBob3RvTGF5b3V0LnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9jZXJlbW9ueUd1ZXN0cy50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvd2VkZGluZ1NjcmVlbi50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvaW52aXRhdGlvblBob3Rvcy50cz90PTE3ODk0OTcyMDkzOTciLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL0ludml0YXRpb25WaWV3LnRzP3Q9MTc4OTY2MzMzMzkzMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvY2xvdWQvY2xpZW50LnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zdGF0ZS9ndWVzdE1lc3NhZ2VzLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9icmlkYWxSb29tQnJpZGUudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL21pbmltaS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvbWluaW1pTW90aW9uLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9waXhlbEZlZWRiYWNrLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9wYXJraW5nQ2FyLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zdGF0ZS9jaGVja3BvaW50RGF0YS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvU2NlbmVGZWVkYmFjay50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvZGF0YS9ndWVzdE91dGZpdHMudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL2J1dHRvbkludGVyYWN0aW9uLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9QaXhlbFBhbmVsLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9Qb3J0cmFpdE5vdGljZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL2tleWJvYXJkQWNjZXNzLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9HYW1lQWNjZXNzLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvYXNzZXRIZWxwZXJzLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS93ZWRkaW5nQ291cGxlLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9kYXRhL3J1bnRpbWVBc3NldHMudHM/dD0xNzg5NjU3MjAwNDk5IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9NaW5pbWlQaWNrZXIudHM/dD0xNzg5NjYzMzMzOTMzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvbG9iYnlQaG90b1dhbGwudHM/dD0xNzg5NjU3MjAwNDk5IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9kYXRhL3Bob3RvR2FsbGVyeS50cz90PTE3ODk2NTcyMDA0OTkiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3N5c3RlbXMvd2Fsa1BhdGgudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2RhdGEvaW52aXRhdGlvblBob3RvRGlzcGxheS5qc29uP2ltcG9ydCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvc2h1dHRsZURlY29yYXRpb24udHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2RhdGEvaW52aXRhdGlvblNvdXJjZS5qc29uP2ltcG9ydCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvV2VkZGluZ0NvdW50ZG93bi50cz90PTE3ODk0OTcyMDkzOTciLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL0ludml0YXRpb25JbmZvcm1hdGlvbi50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvd2VkZGluZ01vbm9ncmFtLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9pbnZpdGF0aW9uU2hhcmUudHM/dD0xNzg5NjU3NDU0NDg4IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L25vZGVfbW9kdWxlcy8udml0ZS9kZXBzL2t5LmpzP3Y9YzY5YmRjMmUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvbm9kZV9tb2R1bGVzLy52aXRlL2RlcHMvQHN1cGFiYXNlX3N1cGFiYXNlLWpzLmpzP3Y9NTg5YmZmOTciLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2Nsb3VkL21lc3NhZ2VzLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9taW5pbWlQYXJ0cy50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvbWluaW1pQXJ0LnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9jbGFzc2ljTWluaW1pLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9kYXRhL2Fzc2V0TWFuaWZlc3QudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvbm9kZV9tb2R1bGVzLy52aXRlL2RlcHMvem9kLmpzP3Y9NjI0NzA2YTEiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2xhY2l0dGEvZm9udHMvR2FsbXVyaTExLndvZmYyIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9vcHRpbWl6ZWQvbGFjaXR0YS1waXhlbC12ZW51ZS1oYWxsLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtd2VkZGluZy1jb3VwbGUud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvbGFjaXR0YS91aS9kaWFsb2ctcGFuZWwucG5nIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9sYWNpdHRhL3VpL3RvdWNoLWJ1dHRvbi5wbmciLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtbWluaW1pLWhhaXIud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvb3B0aW1pemVkL2xhY2l0dGEtY2hhcmFjdGVycy1zaXh0aC1vdXRmaXRzLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtb3V0Zml0cy1tYWxlLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtZXh0cmEtb3V0Zml0cy1tYWxlLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtc2l4dGgtb3V0Zml0cy1mZW1hbGUtYmxhY2sud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvb3B0aW1pemVkL2xhY2l0dGEtY2hhcmFjdGVycy1leHRyYS1vdXRmaXRzLWZlbWFsZS1ncmF5LndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtb3V0Zml0cy1mZW1hbGUud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvb3B0aW1pemVkL2xhY2l0dGEtY2hhcmFjdGVycy1leHRyYS1vdXRmaXRzLWZlbWFsZS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9vcHRpbWl6ZWQvbGFjaXR0YS1waXhlbC12ZW51ZS1ncm91cC1waG90by1zdGFnZS12NC53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvaW50cm8ud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9jaHJ5c2FudGhlbXVtLnBuZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9zaHV0dGxlLXBpeGVsLW1hdHRlLnBuZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2NhbGVuZGFyLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS90aW1lci53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzIud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80LndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzUud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvNi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xMS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xMi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yMS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yMi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNC53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8zMS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8zMi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8zMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80MS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80Mi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80My53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80NC53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80NS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL3ZlbnVlLWRpcmVjdGlvbnMuanBnIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL25vdGljZS13ZWxjb21lLmpwZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9ub3RpY2UtcGhvdG8tYm9vdGguanBnIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL25vdGljZS1hdG0uanBnIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL25vdGljZS1iYW5xdWV0LmpwZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvbGFjaXR0YS9waG90b3MvYnJpZGFsLXJvb20uanBlZyJdLCJlcnJvcnMiOltdfQ=="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/post-boot-loading/runs/local-01/invitation-photo-loading-d-6ef86-oded-photos-together-at-393/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba143d8ba15d7f9834eb-0bb1de5aa2ef3eb8fa87",
+          "file": "invitation-photo-loading.spec.ts",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "direct invitation reveals decoded photos together at 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3091,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T16:44:58.382Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "photo-load-result",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6NDMwLCJoZWlnaHQiOjkzMn0sImltYWdlcyI6MzMsInJlcXVlc3RzIjpbImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC8iLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvQHZpdGUvY2xpZW50IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9tYWluLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9ub2RlX21vZHVsZXMvLnZpdGUvZGVwcy9waGFzZXIuanM/dj05NmY2ZmQzMSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc3R5bGUuY3NzP3Q9MTc4OTY1NjQzNDgwMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvaW52aXRhdGlvbi5jc3M/dD0xNzg5NjYyNDMwOTgwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9jb25maWcudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9Cb290U2NlbmUudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvSW50cm9TY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9Ib21lU2VsZWN0U2NlbmUudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvQ2FyUm91dGVTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9TdWJ3YXlSb3V0ZVNjZW5lLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc2NlbmVzL1ZlbnVlTG9iYnlTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9SZWNlcHRpb25TY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9WZW51ZUhhbGxTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9FbmRpbmdTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9JbnZpdGF0aW9uU2NlbmUudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvRGlubmVySm91cm5leVNjZW5lLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc2NlbmVzL0dyZWVuZXJ5Q29ycmlkb3JTY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9WZW51ZVJvb21TY2VuZS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL3dlZGRpbmdBbWJpZW5jZS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9ub2RlX21vZHVsZXMvdml0ZS9kaXN0L2NsaWVudC9lbnYubWpzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zeXN0ZW1zL3N0YWdlQXNzZXRzLnRzP3Q9MTc4OTY2MzMzMzkzMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvb2JqZWN0cy9QbGF5ZXIudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3N0YXRlL2dhbWVTdGF0ZS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvVGV4dEVudHJ5RGlhbG9nLnRzP3Q9MTc4OTY2MzMzMzkzMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvc2NlbmVVaS50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL1N0b3J5RGlhbG9nLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zY2VuZXMvc2NlbmVBcnQudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9wYXJraW5nQXJ0LnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zdGF0ZS9jaGVja3BvaW50LnRzP3Q9MTc4OTY2MzMzMzkzMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvaW52aXRhdGlvblBob3Rvcy50cz90PTE3ODk0OTcyMDkzOTciLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2RhdGEvd2VkZGluZ01ldGFkYXRhLnRzP3Q9MTc4OTY1NzQ1NDQ4NiIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvb2JqZWN0cy9OcGMudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3NjZW5lcy9waG90b0FydC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvc2Vzc2lvbk1lbW9yaWVzLnRzP3Q9MTc4OTY2MzMzMzkzMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvd2VkZGluZ1NjcmVlbi50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvd2FpdEZvclRhcC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvZGF0YS9sYXlvdXQudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2RhdGEvbG9iYnlGbG9vci50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc2NlbmVzL2xvYmJ5QXJ0LnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc3lzdGVtcy9QaG90b0dhbGxlcnlNb2RhbC50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3N5c3RlbXMvVGFwVG9Nb3ZlLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zeXN0ZW1zL1RyaWdnZXJab25lLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9waG90b1Jlc3VsdC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvbW90aW9uUHJlZmVyZW5jZS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvc3BlZWNoQnViYmxlLnRzP3Q9MTc4OTY2MzMzMzkzNSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvZ3Vlc3RQaG90b0xheW91dC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvY2VyZW1vbnlHdWVzdHMudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2Nsb3VkL2NsaWVudC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc3RhdGUvZ3Vlc3RNZXNzYWdlcy50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvSW52aXRhdGlvblZpZXcudHM/dD0xNzg5NjYzMzMzOTMzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9icmlkYWxSb29tQnJpZGUudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2RhdGEvZ3Vlc3RPdXRmaXRzLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9hc3NldEhlbHBlcnMudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL3dlZGRpbmdDb3VwbGUudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL21pbmltaS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvZGF0YS9ydW50aW1lQXNzZXRzLnRzP3Q9MTc4OTY1NzIwMDQ5OSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvTWluaW1pUGlja2VyLnRzP3Q9MTc4OTY2MzMzMzkzMyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvbWluaW1pTW90aW9uLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9waXhlbEZlZWRiYWNrLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9wYXJraW5nQ2FyLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9idXR0b25JbnRlcmFjdGlvbi50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvUGl4ZWxQYW5lbC50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvUG9ydHJhaXROb3RpY2UudHM/dD0xNzg5NjYzMzMzOTM1IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9rZXlib2FyZEFjY2Vzcy50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvR2FtZUFjY2Vzcy50cz90PTE3ODk2NjMzMzM5MzUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3N0YXRlL2NoZWNrcG9pbnREYXRhLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9TY2VuZUZlZWRiYWNrLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9kYXRhL2ludml0YXRpb25QaG90b0Rpc3BsYXkuanNvbj9pbXBvcnQiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL3dlZGRpbmdNb25vZ3JhbS50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvc2NlbmVzL2xvYmJ5UGhvdG9XYWxsLnRzP3Q9MTc4OTY1NzIwMDQ5OSIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvZGF0YS9waG90b0dhbGxlcnkudHM/dD0xNzg5NjU3MjAwNDk5IiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9zeXN0ZW1zL3dhbGtQYXRoLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L25vZGVfbW9kdWxlcy8udml0ZS9kZXBzL2t5LmpzP3Y9YzY5YmRjMmUiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvbm9kZV9tb2R1bGVzLy52aXRlL2RlcHMvQHN1cGFiYXNlX3N1cGFiYXNlLWpzLmpzP3Y9NTg5YmZmOTciLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL21pbmltaVBhcnRzLnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy9jbG91ZC9tZXNzYWdlcy50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvc2h1dHRsZURlY29yYXRpb24udHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL2RhdGEvaW52aXRhdGlvblNvdXJjZS5qc29uP2ltcG9ydCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvV2VkZGluZ0NvdW50ZG93bi50cz90PTE3ODk0OTcyMDkzOTciLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL0ludml0YXRpb25JbmZvcm1hdGlvbi50cyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvdWkvaW52aXRhdGlvblNoYXJlLnRzP3Q9MTc4OTY1NzQ1NDQ4OCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9zcmMvZGF0YS9hc3NldE1hbmlmZXN0LnRzIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L3NyYy91aS9taW5pbWlBcnQudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvc3JjL3VpL2NsYXNzaWNNaW5pbWkudHMiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvbm9kZV9tb2R1bGVzLy52aXRlL2RlcHMvem9kLmpzP3Y9NjI0NzA2YTEiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2xhY2l0dGEvZm9udHMvR2FsbXVyaTExLndvZmYyIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9vcHRpbWl6ZWQvbGFjaXR0YS1waXhlbC12ZW51ZS1oYWxsLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtd2VkZGluZy1jb3VwbGUud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvbGFjaXR0YS91aS9kaWFsb2ctcGFuZWwucG5nIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9sYWNpdHRhL3VpL3RvdWNoLWJ1dHRvbi5wbmciLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtbWluaW1pLWhhaXIud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvb3B0aW1pemVkL2xhY2l0dGEtY2hhcmFjdGVycy1zaXh0aC1vdXRmaXRzLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtb3V0Zml0cy1tYWxlLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtZXh0cmEtb3V0Zml0cy1tYWxlLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtc2l4dGgtb3V0Zml0cy1mZW1hbGUtYmxhY2sud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvb3B0aW1pemVkL2xhY2l0dGEtY2hhcmFjdGVycy1leHRyYS1vdXRmaXRzLWZlbWFsZS1ncmF5LndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL29wdGltaXplZC9sYWNpdHRhLWNoYXJhY3RlcnMtb3V0Zml0cy1mZW1hbGUud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvb3B0aW1pemVkL2xhY2l0dGEtY2hhcmFjdGVycy1leHRyYS1vdXRmaXRzLWZlbWFsZS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9vcHRpbWl6ZWQvbGFjaXR0YS1waXhlbC12ZW51ZS1ncm91cC1waG90by1zdGFnZS12NC53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvaW50cm8ud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9jaHJ5c2FudGhlbXVtLnBuZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9zaHV0dGxlLXBpeGVsLW1hdHRlLnBuZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2NhbGVuZGFyLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS90aW1lci53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xLndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzIud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80LndlYnAiLCJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzUud2VicCIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvNi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xMS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xMi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yMS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yMi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNC53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8zMS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8zMi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8zMy53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80MS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80Mi53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80My53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80NC53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80NS53ZWJwIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL3ZlbnVlLWRpcmVjdGlvbnMuanBnIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL25vdGljZS13ZWxjb21lLmpwZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9ub3RpY2UtcGhvdG8tYm9vdGguanBnIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL25vdGljZS1hdG0uanBnIiwiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL25vdGljZS1iYW5xdWV0LmpwZyIsImh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvbGFjaXR0YS9waG90b3MvYnJpZGFsLXJvb20uanBlZyJdLCJlcnJvcnMiOltdfQ=="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/post-boot-loading/runs/local-01/invitation-photo-loading-d-83f9f-oded-photos-together-at-430/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba143d8ba15d7f9834eb-4f2594195e10fe426aa8",
+          "file": "invitation-photo-loading.spec.ts",
+          "line": 12,
+          "column": 3
+        },
+        {
+          "title": "game boot excludes invitation downloads, play warms them, and opening reuses cached bytes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6475,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T16:45:01.476Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "background-cache",
+                      "contentType": "application/json",
+                      "body": "eyJiYWNrZ3JvdW5kIjpbeyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9pbnRyby53ZWJwIiwiYnl0ZXMiOjEyMzc5MCwiY2FjaGVkIjpmYWxzZX0seyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9jYWxlbmRhci53ZWJwIiwiYnl0ZXMiOjE1OTQ4OCwiY2FjaGVkIjpmYWxzZX0seyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS90aW1lci53ZWJwIiwiYnl0ZXMiOjEyMTY4NiwiY2FjaGVkIjpmYWxzZX0seyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzEud2VicCIsImJ5dGVzIjoxNTM5OTgsImNhY2hlZCI6ZmFsc2V9LHsidXJsIjoiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yLndlYnAiLCJieXRlcyI6MTgzOTMyLCJjYWNoZWQiOmZhbHNlfSx7InVybCI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvMy53ZWJwIiwiYnl0ZXMiOjE1NzI1NCwiY2FjaGVkIjpmYWxzZX0seyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzQud2VicCIsImJ5dGVzIjoyNzU2NDgsImNhY2hlZCI6ZmFsc2V9LHsidXJsIjoiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS81LndlYnAiLCJieXRlcyI6MTgwOTE4LCJjYWNoZWQiOmZhbHNlfSx7InVybCI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvNi53ZWJwIiwiYnl0ZXMiOjEyMDg1NCwiY2FjaGVkIjpmYWxzZX0seyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzExLndlYnAiLCJieXRlcyI6NjQ1MjgsImNhY2hlZCI6ZmFsc2V9LHsidXJsIjoiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8xMi53ZWJwIiwiYnl0ZXMiOjEzMzA4MCwiY2FjaGVkIjpmYWxzZX0seyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzEzLndlYnAiLCJieXRlcyI6OTIyMDYsImNhY2hlZCI6ZmFsc2V9LHsidXJsIjoiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yMS53ZWJwIiwiYnl0ZXMiOjE3NDA4MiwiY2FjaGVkIjpmYWxzZX0seyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzIyLndlYnAiLCJieXRlcyI6MTE4NzU2LCJjYWNoZWQiOmZhbHNlfSx7InVybCI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvMjMud2VicCIsImJ5dGVzIjoxMzI0NTAsImNhY2hlZCI6ZmFsc2V9LHsidXJsIjoiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNC53ZWJwIiwiYnl0ZXMiOjkzMDA2LCJjYWNoZWQiOmZhbHNlfSx7InVybCI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvMjUud2VicCIsImJ5dGVzIjoxODk4NjQsImNhY2hlZCI6ZmFsc2V9LHsidXJsIjoiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8yNi53ZWJwIiwiYnl0ZXMiOjEzMTI3NiwiY2FjaGVkIjpmYWxzZX0seyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzMxLndlYnAiLCJieXRlcyI6MjcwMzcwLCJjYWNoZWQiOmZhbHNlfSx7InVybCI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvMzIud2VicCIsImJ5dGVzIjoxOTQ4NzQsImNhY2hlZCI6ZmFsc2V9LHsidXJsIjoiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS8zMy53ZWJwIiwiYnl0ZXMiOjMxNDcyMCwiY2FjaGVkIjpmYWxzZX0seyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzQxLndlYnAiLCJieXRlcyI6ODc2NzIsImNhY2hlZCI6ZmFsc2V9LHsidXJsIjoiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80Mi53ZWJwIiwiYnl0ZXMiOjExNjQwNiwiY2FjaGVkIjpmYWxzZX0seyJ1cmwiOiJodHRwOi8vMTI3LjAuMC4xOjUxNzQvYXNzZXRzL2ludml0YXRpb24vZGlzcGxheS9nYWxsZXJ5LzQzLndlYnAiLCJieXRlcyI6MTkzMTk2LCJjYWNoZWQiOmZhbHNlfSx7InVybCI6Imh0dHA6Ly8xMjcuMC4wLjE6NTE3NC9hc3NldHMvaW52aXRhdGlvbi9kaXNwbGF5L2dhbGxlcnkvNDQud2VicCIsImJ5dGVzIjozMDY2MDAsImNhY2hlZCI6ZmFsc2V9LHsidXJsIjoiaHR0cDovLzEyNy4wLjAuMTo1MTc0L2Fzc2V0cy9pbnZpdGF0aW9uL2Rpc3BsYXkvZ2FsbGVyeS80NS53ZWJwIiwiYnl0ZXMiOjE3MDUyNCwiY2FjaGVkIjpmYWxzZX1dLCJvcGVuaW5nIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/post-boot-loading/runs/local-01/invitation-photo-loading-g-bfd88-opening-reuses-cached-bytes/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba143d8ba15d7f9834eb-8aaec2d1d913333677a7",
+          "file": "invitation-photo-loading.spec.ts",
+          "line": 51,
+          "column": 1
+        },
+        {
+          "title": "photo failure keeps the incomplete page covered and offers a keyboard retry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2358,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T16:45:07.958Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/post-boot-loading/runs/local-01/invitation-photo-loading-p-a2045-and-offers-a-keyboard-retry/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba143d8ba15d7f9834eb-49185d8813d12a76c5f7",
+          "file": "invitation-photo-loading.spec.ts",
+          "line": 110,
+          "column": 1
+        },
+        {
+          "title": "display variants retain all original gallery bytes and numerical ordering",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 159,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T16:45:10.319Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ba143d8ba15d7f9834eb-3aa68e4c4ad9abe6d715",
+          "file": "invitation-photo-loading.spec.ts",
+          "line": 126,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "post-boot-loading.spec.ts",
+      "file": "post-boot-loading.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "slow post-boot assets keep the current scene without a loading panel",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 18107,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T16:44:50.517Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/post-boot-loading/runs/local-01/post-boot-loading-slow-pos-08a00-ene-without-a-loading-panel/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5edf88ff011b6483cff7-01e843f3223d71bd9410",
+          "file": "post-boot-loading.spec.ts",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "review-batch-b-access.spec.ts",
+      "file": "review-batch-b-access.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "F08: lobby invitation returns to the same notebook and progress; stable refresh starts safely",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 15396,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T16:45:09.010Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/post-boot-loading/runs/local-01/review-batch-b-access-F08--04ce3-table-refresh-starts-safely/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9ecde7723c811a214900-f056a5b9f2146483a73e",
+          "file": "review-batch-b-access.spec.ts",
+          "line": 63,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-17T16:44:50.266Z",
+    "duration": 34244.787000000004,
+    "expected": 8,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

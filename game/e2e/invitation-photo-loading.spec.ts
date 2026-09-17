@@ -1,9 +1,9 @@
 import { expect, test } from "@playwright/test";
+import type Phaser from "phaser";
 import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { installPlayerObservation } from "./corridor-observables";
-import { startPreparedScene } from "./stage-fixtures";
 import { clickGame } from "./story-helpers";
 import display from "../src/data/invitationPhotoDisplay.json" with { type: "json" };
 import source from "../src/data/invitationSource.json" with { type: "json" };
@@ -51,6 +51,17 @@ for (const viewport of [{ width: 320, height: 568 }, { width: 393, height: 852 }
 test("game boot excludes invitation downloads, play warms them, and opening reuses cached bytes", async ({ page }, info) => {
   await page.setViewportSize({ width: 393, height: 852 });
   await installPlayerObservation(page);
+  await page.addInitScript(() => {
+    const shown: string[] = [];
+    (window as unknown as { shownLoading: string[] }).shownLoading = shown;
+    const seen = new WeakSet<Element>();
+    new MutationObserver(() => {
+      for (const node of document.querySelectorAll<HTMLElement>(".stage-loading, .stage-loading-inline, .invitation-photo-loading")) {
+        if (node.hidden || seen.has(node)) continue;
+        seen.add(node); shown.push(node.className);
+      }
+    }).observe(document, { childList: true, subtree: true, attributes: true, attributeFilter: ["hidden"] });
+  });
   const responses: { url: string; bytes: number; cached: boolean }[] = [];
   const session = await page.context().newCDPSession(page);
   await session.send("Network.enable");
@@ -74,14 +85,26 @@ test("game boot excludes invitation downloads, play warms them, and opening reus
   await clickGame(page, 360, 1180);
   await expect(page.getByRole("textbox", { name: "내 이름은", exact: true })).toBeVisible();
   await expect.poll(() => new Set(responses.map(r => r.url)).size, { timeout: 20000 }).toBe(26);
+  await expect.poll(() => page.evaluate(async () => {
+    const path = "/src/data/runtimeAssets.ts";
+    const { ASSET_STAGES } = await import(path) as typeof import("../src/data/runtimeAssets");
+    const game = window.__venueQaGame as Phaser.Game;
+    return [...ASSET_STAGES["avatar-male"], ...ASSET_STAGES["avatar-female"]].every(key => game.textures.exists(key));
+  })).toBe(true);
   await page.screenshot({ path: info.outputPath("game-while-photos-warm.png") });
   const boundary = responses.length;
-  await startPreparedScene(page, "InvitationScene");
+  await page.getByRole("button", { name: "청첩장", exact: true }).click();
   await expect(page.locator(".invitation-page")).toHaveAttribute("data-photos-state", "ready", { timeout: 15000 });
   const reused = responses.slice(boundary);
   expect(reused.reduce((sum, r) => sum + r.bytes, 0)).toBeLessThan(26 * 1500);
+  expect(await page.evaluate(() => (window as unknown as { shownLoading: string[] }).shownLoading)).toEqual(["stage-loading"]);
   await info.attach("background-cache", { body: JSON.stringify({ background: responses.slice(0, boundary), opening: reused }), contentType: "application/json" });
   await page.screenshot({ path: info.outputPath("invitation-after-game-prefetch.png") });
+  await page.getByRole("button", { name: "게임으로 돌아가기", exact: true }).click();
+  await expect(page.getByRole("textbox", { name: "내 이름은", exact: true })).toBeVisible();
+  await page.getByRole("button", { name: "청첩장", exact: true }).click();
+  await expect(page.locator(".invitation-page")).toHaveAttribute("data-photos-state", "ready");
+  expect(await page.evaluate(() => (window as unknown as { shownLoading: string[] }).shownLoading)).toEqual(["stage-loading"]);
 });
 
 test("photo failure keeps the incomplete page covered and offers a keyboard retry", async ({ page }, info) => {
