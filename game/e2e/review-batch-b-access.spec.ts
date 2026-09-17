@@ -55,7 +55,7 @@ async function invitationRoundTrip(page: Page, from: string): Promise<void> {
   await keyButton(page, "청첩장");
   await expect(page.getByRole("main", { name: "재준과 현서의 청첩장" })).toBeVisible();
   await sceneIs(page, "InvitationScene");
-  await keyButton(page, "게임으로 돌아가기");
+  await keyButton(page, "게임으로");
   await sceneIs(page, from);
   expect(await page.locator("#app canvas").evaluate(canvas => ({ progress: canvas.dataset.lobbyProgress, side: canvas.dataset.guestSide, route: canvas.dataset.routeChoice }))).toEqual(before);
 }

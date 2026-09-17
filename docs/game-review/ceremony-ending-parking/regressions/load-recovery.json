@@ -1,0 +1,11 @@
+{
+  "injectedFailure": "white-car.webp, first request aborted",
+  "recovered": true,
+  "console": [
+    "Failed to load resource: net::ERR_FAILED"
+  ],
+  "failedRequests": [
+    "http://127.0.0.1:5199/assets/optimized/lacitta-characters-white-car.webp: net::ERR_FAILED"
+  ],
+  "result": "Keyboard Enter retries; selected car route reaches lobby without resetting progression."
+}

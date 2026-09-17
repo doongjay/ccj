@@ -8,7 +8,7 @@ import { readGuestMessages, refreshGuestMessages, saveGuestMessage, type GuestMe
 import { MinimiPicker } from "./MinimiPicker";
 import { drawMinimi, type MinimiProfile } from "./minimi";
 import { WeddingCountdown } from "./WeddingCountdown";
-import { weddingAmbience } from "./weddingAmbience";
+import { scrollingWeddingAmbience } from "./weddingAmbience";
 import { invitationInformation } from "./InvitationInformation";
 import { GUEST_PHOTO_PAGE_SIZE, GUEST_PHOTO_POSITIONS } from "./guestPhotoLayout";
 import { WEDDING_METADATA } from "../data/weddingMetadata";
@@ -34,6 +34,7 @@ export class InvitationView {
   private picker: MinimiPicker | undefined;
   private countdown: WeddingCountdown | undefined;
   private stopPhotoPreparation: (() => void) | undefined;
+  private stopAmbience: (() => void) | undefined;
   private readonly app = document.querySelector<HTMLElement>("#app");
 
   constructor(scene: Phaser.Scene, onReturn?: () => void) {
@@ -46,14 +47,14 @@ export class InvitationView {
     const navigation = element("nav", "invitation-nav");
     navigation.setAttribute("aria-label", "청첩장 바로가기");
     navigation.append(weddingMonogramElement("span"));
-    if (onReturn) navigation.append(button("게임으로 돌아가기", onReturn));
+    if (onReturn) navigation.append(button("게임으로", onReturn));
     for (const [label, id] of [["예식 안내", "invitation-location"], ["사진", "invitation-gallery"], ["방명록", "invitation-guests"]]) {
       navigation.append(button(label!, () => this.root.querySelector(`#${id}`)?.scrollIntoView({ behavior: "auto", block: "start" })));
     }
     paper.append(navigation, this.hero(), this.letter(), this.calendar(), this.gallery(), this.location(), this.information(), this.accounts(), this.guestBook(), this.footer());
-    paper.append(weddingAmbience());
     this.root.append(paper, this.toast);
     document.body.append(this.root);
+    this.stopAmbience = scrollingWeddingAmbience(paper, this.root);
     if (this.app) { this.app.inert = true; this.app.style.visibility = "hidden"; }
     this.root.focus({ preventScroll: true });
     this.renderGuests();
@@ -106,8 +107,9 @@ export class InvitationView {
   }
 
   private calendar(): HTMLElement {
-    const section = this.section("OUR DAY", "2026년 11월 21일");
-    section.append(element("p", "invitation-lead", "토요일 오후 2시"), picture("calendar.jpg", "두 사람의 웨딩 사진"));
+    const section = this.section("OUR DAY", "2026년 11월 21일 (토)");
+    section.classList.add("invitation-date-section");
+    section.append(element("p", "invitation-lead", "오후 2시 라시따시어터"), picture("calendar.jpg", "두 사람의 웨딩 사진"));
     const calendar = element("table", "invitation-calendar");
     calendar.setAttribute("aria-label", "2026년 11월 달력, 21일 결혼식");
     const heading = document.createElement("thead");
@@ -184,7 +186,7 @@ export class InvitationView {
     const section = this.section("LOCATION", "오시는 길", "invitation-location");
     section.append(element("h3", "invitation-venue", source.venue.venueName.trim()), element("p", "", source.venue.venueDetail), element("p", "", source.venue.venueAddress));
     const links = element("div", "invitation-actions");
-    links.append(link("카카오맵", `https://map.kakao.com/link/map/라시따시어터,${source.venue.lat},${source.venue.lng}`), link("네이버 지도", NAVER_MAP_URL), button("주소 복사", () => void this.copy(source.venue.venueAddress, "주소를 복사했어요.")));
+    links.append(link("카카오맵", `https://map.kakao.com/link/search/${encodeURIComponent("라시따시어터")}`), link("네이버 지도", NAVER_MAP_URL), button("주소 복사", () => void this.copy(source.venue.venueAddress, "주소를 복사했어요.")));
     section.append(links);
     const map = link("", NAVER_MAP_URL);
     map.className = "invitation-map";
@@ -518,6 +520,7 @@ export class InvitationView {
   private readonly onStorage = (): void => this.renderGuests();
 
   destroy(): void {
+    this.stopAmbience?.();
     this.stopPhotoPreparation?.();
     this.countdown?.destroy();
     this.picker?.destroy();

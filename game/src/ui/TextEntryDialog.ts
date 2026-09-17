@@ -9,6 +9,7 @@ type TextEntryConfig = Readonly<{
   maxLength: number;
   multiline?: boolean;
   note?: string;
+  noteHeading?: string;
   collectGender?: boolean;
   onSkip?: () => void;
   onSubmit: (value: string, gender?: "male" | "female", outfit?: number, hair?: number, face?: number) => void | Promise<void>;
@@ -38,7 +39,13 @@ export class TextEntryDialog {
     else field.rows = 5;
     label.append(field);
     const note = document.createElement("p");
-    note.textContent = config.note ?? "";
+    if (config.noteHeading) {
+      note.className = "text-entry-note";
+      const heading = document.createElement("span"), detail = document.createElement("span");
+      heading.className = "text-entry-note-heading"; heading.textContent = config.noteHeading;
+      detail.className = "text-entry-note-detail"; detail.textContent = config.note ?? "";
+      note.append(heading, detail);
+    } else note.textContent = config.note ?? "";
     const error = document.createElement("p");
     error.setAttribute("role", "alert");
     error.setAttribute("aria-live", "polite");
@@ -63,7 +70,7 @@ export class TextEntryDialog {
     if (config.onSkip) {
       const skip = document.createElement("button");
       skip.type = "button";
-      skip.className = "story-choice message-skip";
+      skip.className = "message-skip";
       skip.textContent = "나중에 남기기";
       skip.onclick = () => { this.destroy(); config.onSkip?.(); };
       form.append(skip);

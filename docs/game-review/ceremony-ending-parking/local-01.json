@@ -1,0 +1,537 @@
+{
+  "config": {
+    "argv": [
+      "/opt/homebrew/Cellar/node/23.11.0/bin/node",
+      "/Users/user/wedding/ccj/game/node_modules/.bin/playwright",
+      "test",
+      "--config=../docs/game-review/ceremony-ending-parking/playwright.config.ts",
+      "ceremony-ending-parking.spec.ts"
+    ],
+    "configFile": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/playwright.config.ts",
+    "rootDir": "/Users/user/wedding/ccj/game/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/user/wedding/ccj/game/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "ceremony-ending-parking.spec.ts",
+          "cloud-photos.spec.ts",
+          "group-screen-reuse.spec.ts",
+          "car-guidance-reference.spec.ts",
+          "invitation-photo-loading.spec.ts",
+          "post-boot-loading.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "./local-01.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 2,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "ceremony-ending-parking.spec.ts",
+      "file": "ceremony-ending-parking.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "hall typing stays put and photograph matches the viewfinder at 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17219,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T17:40:12.825Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "typing-and-crop",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjU2OH0sInNhbXBsZXMiOlt7ImNvcHkiOiLsi5wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja0IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAICIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeEIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIEiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZQiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZwiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbiIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7IqkIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgawiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbuyKpO2BrOumsCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQgIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6IIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja0IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScICIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IOyeiOyWtOyEnCDsi5wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbuyKpO2BrOumsOydtCDsnojslrTshJwg7Iuc7Ja0IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScIOyLnOyWtO2EsCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IOyeiOyWtOyEnCDsi5zslrTthLDsmIAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbuyKpO2BrOumsOydtCDsnojslrTshJwg7Iuc7Ja07YSw7JiA6rWsIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScIOyLnOyWtO2EsOyYgOq1rOuCmCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IOyeiOyWtOyEnCDsi5zslrTthLDsmIDqtazrgpguIiwibWF4U2hpZnQiOjB9XSwiY29tcGFyaXNvbiI6eyJ3aWR0aCI6NjQwLCJoZWlnaHQiOjQ4NSwiZGlmZmVyZW50IjowLCJjYW1lcmFVaVJlc3RvcmVkIjp0cnVlfSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01/ceremony-ending-parking-ha-226f1-tches-the-viewfinder-at-320/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b72bb9bbac751587805b-a0dfbc49a4d910a6779e",
+          "file": "ceremony-ending-parking.spec.ts",
+          "line": 14,
+          "column": 35
+        },
+        {
+          "title": "hall typing stays put and photograph matches the viewfinder at 393",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15778,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T17:40:30.442Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "typing-and-crop",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzkzLCJoZWlnaHQiOjg1Mn0sInNhbXBsZXMiOlt7ImNvcHkiOiLsi5wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja0IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAICIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeEIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIEiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZQiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZwiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbiIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7IqkIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgawiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbuyKpO2BrOumsCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQgIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6IIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja0IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScICIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IOyeiOyWtOyEnCDsi5wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbuyKpO2BrOumsOydtCDsnojslrTshJwg7Iuc7Ja0IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScIOyLnOyWtO2EsCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IOyeiOyWtOyEnCDsi5zslrTthLDsmIAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbuyKpO2BrOumsOydtCDsnojslrTshJwg7Iuc7Ja07YSw7JiA6rWsIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScIOyLnOyWtO2EsOyYgOq1rOuCmCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IOyeiOyWtOyEnCDsi5zslrTthLDsmIDqtazrgpguIiwibWF4U2hpZnQiOjB9XSwiY29tcGFyaXNvbiI6eyJ3aWR0aCI6NjQwLCJoZWlnaHQiOjQ4NSwiZGlmZmVyZW50IjowLCJjYW1lcmFVaVJlc3RvcmVkIjp0cnVlfSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01/ceremony-ending-parking-ha-67ac6-tches-the-viewfinder-at-393/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b72bb9bbac751587805b-de5792fd448957fdec04",
+          "file": "ceremony-ending-parking.spec.ts",
+          "line": 14,
+          "column": 35
+        },
+        {
+          "title": "hall typing stays put and photograph matches the viewfinder at 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 16852,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T17:40:46.225Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "typing-and-crop",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6NDMwLCJoZWlnaHQiOjkzMn0sInNhbXBsZXMiOlt7ImNvcHkiOiLsi5wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja0IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAICIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeEIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIEiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZQiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZwiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbiIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7IqkIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgawiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbuyKpO2BrOumsCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQgIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6IIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja0IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScICIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IOyeiOyWtOyEnCDsi5wiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbuyKpO2BrOumsOydtCDsnojslrTshJwg7Iuc7Ja0IiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScIOyLnOyWtO2EsCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IOyeiOyWtOyEnCDsi5zslrTthLDsmIAiLCJtYXhTaGlmdCI6MH0seyJjb3B5Ijoi7Iuc7Ja07YSw6rCAIOynhOynnCDsmIHtmZTqtIDrp4ztlZxcbuyKpO2BrOumsOydtCDsnojslrTshJwg7Iuc7Ja07YSw7JiA6rWsIiwibWF4U2hpZnQiOjB9LHsiY29weSI6IuyLnOyWtO2EsOqwgCDsp4Tsp5wg7JiB7ZmU6rSA66eM7ZWcXG7siqTtgazrprDsnbQg7J6I7Ja07IScIOyLnOyWtO2EsOyYgOq1rOuCmCIsIm1heFNoaWZ0IjowfSx7ImNvcHkiOiLsi5zslrTthLDqsIAg7KeE7KecIOyYge2ZlOq0gOunjO2VnFxu7Iqk7YGs66aw7J20IOyeiOyWtOyEnCDsi5zslrTthLDsmIDqtazrgpguIiwibWF4U2hpZnQiOjB9XSwiY29tcGFyaXNvbiI6eyJ3aWR0aCI6NjQwLCJoZWlnaHQiOjQ4NSwiZGlmZmVyZW50IjowLCJjYW1lcmFVaVJlc3RvcmVkIjp0cnVlfSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01/ceremony-ending-parking-ha-fd6c2-tches-the-viewfinder-at-430/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b72bb9bbac751587805b-8b500c1f8acd3bc1b58b",
+          "file": "ceremony-ending-parking.spec.ts",
+          "line": 14,
+          "column": 35
+        },
+        {
+          "title": "ending skip, opening branding and public disclosure at 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2918,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T17:41:03.082Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "ending-presentation",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjU2OH0sImdlb21ldHJ5Ijp7InNpbmdsZUxpbmUiOnRydWUsImZpdHMiOnRydWUsImJlbG93Ijp0cnVlLCJkZXRhaWxGb250Ijo5LjI2NTUsImhlYWRpbmdGb250IjoxNH0sIm9wZW5pbmciOlt7InRleHQiOiJKSiDimaUgSFMiLCJ4IjozNjAsInkiOjQ1NX0seyJ0ZXh0IjoiV0UgQVJFIEdFVFRJTkcgTUFSUklFRCIsIngiOjM2MCwieSI6NTEwfV0sImVuZGluZyI6W3sidGV4dCI6IkpKIOKZpSBIUyIsIngiOjM2MCwieSI6NDU1fSx7InRleHQiOiJXRSBBUkUgR0VUVElORyBNQVJSSUVEIiwieCI6MzYwLCJ5Ijo1MTB9XSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01/ceremony-ending-parking-en-00529-nd-public-disclosure-at-320/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b72bb9bbac751587805b-937c40eb6e44ff28e8a9",
+          "file": "ceremony-ending-parking.spec.ts",
+          "line": 81,
+          "column": 35
+        },
+        {
+          "title": "ending skip, opening branding and public disclosure at 393",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2946,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T17:41:06.006Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "ending-presentation",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzkzLCJoZWlnaHQiOjg1Mn0sImdlb21ldHJ5Ijp7InNpbmdsZUxpbmUiOnRydWUsImZpdHMiOnRydWUsImJlbG93Ijp0cnVlLCJkZXRhaWxGb250IjoxMS4zOTcsImhlYWRpbmdGb250IjoxNH0sIm9wZW5pbmciOlt7InRleHQiOiJKSiDimaUgSFMiLCJ4IjozNjAsInkiOjQ1NX0seyJ0ZXh0IjoiV0UgQVJFIEdFVFRJTkcgTUFSUklFRCIsIngiOjM2MCwieSI6NTEwfV0sImVuZGluZyI6W3sidGV4dCI6IkpKIOKZpSBIUyIsIngiOjM2MCwieSI6NDU1fSx7InRleHQiOiJXRSBBUkUgR0VUVElORyBNQVJSSUVEIiwieCI6MzYwLCJ5Ijo1MTB9XSwiZXJyb3JzIjpbXX0="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01/ceremony-ending-parking-en-78f40-nd-public-disclosure-at-393/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b72bb9bbac751587805b-a6ff059ada2ebdcef6a1",
+          "file": "ceremony-ending-parking.spec.ts",
+          "line": 81,
+          "column": 35
+        },
+        {
+          "title": "ending skip, opening branding and public disclosure at 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3010,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T17:41:08.956Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "ending-presentation",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6NDMwLCJoZWlnaHQiOjkzMn0sImdlb21ldHJ5Ijp7InNpbmdsZUxpbmUiOnRydWUsImZpdHMiOnRydWUsImJlbG93Ijp0cnVlLCJkZXRhaWxGb250IjoxMiwiaGVhZGluZ0ZvbnQiOjE0fSwib3BlbmluZyI6W3sidGV4dCI6IkpKIOKZpSBIUyIsIngiOjM2MCwieSI6NDU1fSx7InRleHQiOiJXRSBBUkUgR0VUVElORyBNQVJSSUVEIiwieCI6MzYwLCJ5Ijo1MTB9XSwiZW5kaW5nIjpbeyJ0ZXh0IjoiSkog4pmlIEhTIiwieCI6MzYwLCJ5Ijo0NTV9LHsidGV4dCI6IldFIEFSRSBHRVRUSU5HIE1BUlJJRUQiLCJ4IjozNjAsInkiOjUxMH1dLCJlcnJvcnMiOltdfQ=="
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01/ceremony-ending-parking-en-d3151-nd-public-disclosure-at-430/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b72bb9bbac751587805b-28af2ce0376ecddb46c6",
+          "file": "ceremony-ending-parking.spec.ts",
+          "line": 81,
+          "column": 35
+        },
+        {
+          "title": "invitation header, details and anchored particle density at 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3190,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T17:41:11.970Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "invitation-layout",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzIwLCJoZWlnaHQiOjU2OH0sImRlbnNpdHkiOlsxMiwxMiwxMl0sImVycm9ycyI6W119"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01/ceremony-ending-parking-in-f8093-red-particle-density-at-320/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b72bb9bbac751587805b-f53127d9e432569dbd33",
+          "file": "ceremony-ending-parking.spec.ts",
+          "line": 129,
+          "column": 35
+        },
+        {
+          "title": "invitation header, details and anchored particle density at 393",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3277,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T17:41:15.165Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "invitation-layout",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6MzkzLCJoZWlnaHQiOjg1Mn0sImRlbnNpdHkiOlsxMiwxMiwxMl0sImVycm9ycyI6W119"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01/ceremony-ending-parking-in-e4988-red-particle-density-at-393/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b72bb9bbac751587805b-63148a6f6235594a7109",
+          "file": "ceremony-ending-parking.spec.ts",
+          "line": 129,
+          "column": 35
+        },
+        {
+          "title": "invitation header, details and anchored particle density at 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3300,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T17:41:18.449Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "invitation-layout",
+                      "contentType": "application/json",
+                      "body": "eyJ2aWV3cG9ydCI6eyJ3aWR0aCI6NDMwLCJoZWlnaHQiOjkzMn0sImRlbnNpdHkiOlsxMiwxMiwxMl0sImVycm9ycyI6W119"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01/ceremony-ending-parking-in-86cf0-red-particle-density-at-430/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b72bb9bbac751587805b-194634ea5b8fc07e89d2",
+          "file": "ceremony-ending-parking.spec.ts",
+          "line": 129,
+          "column": 35
+        },
+        {
+          "title": "pink route parks inside the tower bay before the shutter closes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10993,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-17T17:41:21.754Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/user/wedding/ccj/docs/game-review/ceremony-ending-parking/runs/local-01/ceremony-ending-parking-pi-6afb3-y-before-the-shutter-closes/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b72bb9bbac751587805b-b74386c41958a8865307",
+          "file": "ceremony-ending-parking.spec.ts",
+          "line": 177,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-17T17:40:12.578Z",
+    "duration": 80471.52100000001,
+    "expected": 10,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

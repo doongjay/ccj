@@ -38,7 +38,7 @@ test("D resource revisit: two real play/restart cycles reuse textures, photos an
       return [...ASSET_STAGES.hall, ...ASSET_STAGES.reception].filter(key => !game.textures.exists(key));
     }), { timeout: 15000 }).toEqual([]);
     await page.getByRole("button", { name: "청첩장", exact: true }).click();
-    await page.getByRole("button", { name: "게임으로 돌아가기", exact: true }).click();
+    await page.getByRole("button", { name: "게임으로", exact: true }).click();
     await expect(page.locator("#app canvas")).toHaveAttribute("data-active-scene", "VenueLobbyScene");
     // The invitation footer now shares the invitation. Exercise the same restart
     // lifecycle directly after verifying that the remaining navigation resumes play.

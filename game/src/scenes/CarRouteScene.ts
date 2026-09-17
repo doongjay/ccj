@@ -4,7 +4,8 @@ import { completeProgressionFlag, PROGRESSION_FLAGS, SCENE_KEYS } from "../state
 import { fadeToScene, markActiveScene } from "../ui/sceneUi";
 import { StoryDialog } from "../ui/StoryDialog";
 import { sceneArt } from "./sceneArt";
-import { parkingArt } from "./parkingArt";
+import { parkingArt, TOWER_PARKING_BAY } from "./parkingArt";
+import { reducedMotion } from "../ui/motionPreference";
 import { warmSceneAssets } from "../systems/stageAssets";
 import { CHECKPOINT_REGISTRY } from "../state/checkpoint";
 
@@ -17,6 +18,8 @@ export class CarRouteScene extends Phaser.Scene {
     markActiveScene(this, SCENE_KEYS.CarRoute);
     this.cameras.main.fadeIn(350);
     this.arrival = undefined;
+    delete this.game.canvas.dataset.parkingMap;
+    delete this.game.canvas.dataset.towerParkingPhase;
     this.game.canvas.dataset.routeQuizSolved = "false";
     this.game.canvas.dataset.routeQuizWrongCount = "0";
     sceneArt(this, "car-background");
@@ -73,9 +76,27 @@ export class CarRouteScene extends Phaser.Scene {
         completeProgressionFlag(this.registry, PROGRESSION_FLAGS.routeQuizSolved);
         this.registry.set(CHECKPOINT_REGISTRY.route, lane === 1 ? "tower" : "b3");
         this.game.canvas.dataset.routeQuizSolved = "true";
-        this.player?.moveTo(360, 350);
-        this.arrival = () => fadeToScene(this, SCENE_KEYS.VenueLobby);
+        if (lane === 1) this.parkInTower();
+        else {
+          this.player?.moveTo(360, 350);
+          this.arrival = () => fadeToScene(this, SCENE_KEYS.VenueLobby);
+        }
       }, 2400);
+    };
+  }
+
+  private parkInTower(): void {
+    this.game.canvas.dataset.towerParkingPhase = "entering";
+    this.player?.moveTo(360, TOWER_PARKING_BAY.carY);
+    this.arrival = () => {
+      this.game.canvas.dataset.towerParkingPhase = "closing";
+      const gate = this.children.getByName("tower-parking-gate") as Phaser.GameObjects.Graphics;
+      const stored = () => {
+        this.game.canvas.dataset.towerParkingPhase = "stored";
+        this.time.delayedCall(350, () => fadeToScene(this, SCENE_KEYS.VenueLobby));
+      };
+      if (reducedMotion()) { gate.setScale(1); stored(); }
+      else this.tweens.add({ targets: gate, scaleY: 1, duration: 650, onComplete: stored });
     };
   }
 

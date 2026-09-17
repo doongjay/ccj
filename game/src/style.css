@@ -237,7 +237,8 @@ body {
 .keyboard-destinations { position: fixed; z-index: 30; box-sizing: border-box; height: 1px; overflow: hidden; clip-path: inset(50%); }
 .keyboard-destinations:focus-within { height: auto; clip-path: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; padding: 16px; border: 4px solid #c8a24b; background: #1e2920; }
 .keyboard-destinations p { grid-column: 1 / -1; margin: 0 0 8px; color: #fffaf2; font: 14px/1.6 Galmuri11, monospace; }
-.message-skip { margin-top: 8px; width: 100%; }
+.message-skip { display: block; margin: 8px auto 0; min-height: 44px; padding: 8px 12px; border: 0; background: transparent; color: #ead6a6; font: inherit; text-decoration: underline; text-underline-offset: 4px; cursor: pointer; }
+.message-skip:focus-visible { outline: 3px solid #c8a24b; outline-offset: 3px; }
 .stage-loading { position: fixed; inset: 0; z-index: 2000; display: grid; place-items: center; padding: 20px; background: #f8f2e7; color: #26332a; font: 16px/1.7 Galmuri11, system-ui, sans-serif; }
 .stage-loading > div { box-sizing: border-box; width: min(360px, 100%); padding: 24px; border: 4px solid #c8a24b; text-align: center; }
 .stage-loading p { margin: 0 0 16px; }
@@ -275,6 +276,9 @@ body {
 .text-entry-form label { display: block; }
 .text-entry-form input, .text-entry-form textarea { box-sizing: border-box; display: block; width: 100%; margin-top: 0.6em; padding: 0.7em; border: 3px solid #c8a24b; border-radius: 0; background: #fff9ef; color: #26332a; font: inherit; font-size: 16px; }
 .text-entry-form p { font-size: 0.85em; line-height: 1.5; }
+.text-entry-note-heading, .text-entry-note-detail { display: block; }
+.text-entry-note-heading { font-size: 14px; overflow-wrap: anywhere; }
+.text-entry-note-detail { margin-top: 6px; font-size: clamp(9px, calc(var(--scene-width, 393px) * .029), 12px); white-space: nowrap; }
 .text-entry-form [role="alert"] { color: #ffc0cb; }
 .text-entry-form input:focus-visible, .text-entry-form textarea:focus-visible,
 .invitation-guest-form input:focus-visible, .invitation-guest-form textarea:focus-visible,

@@ -1,0 +1,519 @@
+{
+  "measuredAt": "2026-09-17T17:44:24.331Z",
+  "throttling": "none; local Chromium cold cache",
+  "baselineBatch": "C",
+  "baselineTotalResponseBytes": 3509311,
+  "baselineAssetBytes": 3094744,
+  "deltaTotalResponseBytes": 35662,
+  "deltaAssetBytes": 0,
+  "production": true,
+  "coldCache": true,
+  "measurement": "CDP Network.loadingFinished encodedDataLength; includes response headers, production JS/CSS and HTML in totalResponseBytes",
+  "viewport": {
+    "width": 393,
+    "height": 852,
+    "deviceScaleFactor": 1
+  },
+  "route": "car",
+  "opening": {
+    "totalResponseBytes": 3544973,
+    "gameAssetBytes": 3094744,
+    "gameAssetRequests": 5,
+    "pendingRequests": [],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:5199/",
+        "type": "Document",
+        "bytes": 1039,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/index-d-tM-7cB.js",
+        "type": "Script",
+        "bytes": 438933,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/index-Bkx7eO-o.css",
+        "type": "Stylesheet",
+        "bytes": 10257,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/fonts/Galmuri11.woff2",
+        "type": "Font",
+        "bytes": 155622,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-pixel-venue-hall.webp",
+        "type": "Image",
+        "bytes": 1932612,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-wedding-couple.webp",
+        "type": "Image",
+        "bytes": 1005382,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/ui/dialog-panel.png",
+        "type": "Image",
+        "bytes": 591,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/ui/touch-button.png",
+        "type": "Image",
+        "bytes": 537,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      }
+    ],
+    "elapsedMs": 1003
+  },
+  "firstLobby": {
+    "totalResponseBytes": 41400580,
+    "gameAssetBytes": 40950351,
+    "gameAssetRequests": 49,
+    "pendingRequests": [],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:5199/",
+        "type": "Document",
+        "bytes": 1039,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/index-d-tM-7cB.js",
+        "type": "Script",
+        "bytes": 438933,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/index-Bkx7eO-o.css",
+        "type": "Stylesheet",
+        "bytes": 10257,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/fonts/Galmuri11.woff2",
+        "type": "Font",
+        "bytes": 155622,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-pixel-venue-hall.webp",
+        "type": "Image",
+        "bytes": 1932612,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-wedding-couple.webp",
+        "type": "Image",
+        "bytes": 1005382,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/ui/dialog-panel.png",
+        "type": "Image",
+        "bytes": 591,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/ui/touch-button.png",
+        "type": "Image",
+        "bytes": 537,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-routes-home-ground-v2.webp",
+        "type": "Image",
+        "bytes": 1921606,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-minimi-hair.webp",
+        "type": "Image",
+        "bytes": 577636,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-sixth-outfits.webp",
+        "type": "Image",
+        "bytes": 999564,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-outfits-male.webp",
+        "type": "Image",
+        "bytes": 479000,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-extra-outfits-male.webp",
+        "type": "Image",
+        "bytes": 934988,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-sixth-outfits-female-black.webp",
+        "type": "Image",
+        "bytes": 992854,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-extra-outfits-female-gray.webp",
+        "type": "Image",
+        "bytes": 972120,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-outfits-female.webp",
+        "type": "Image",
+        "bytes": 438180,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-extra-outfits-female.webp",
+        "type": "Image",
+        "bytes": 964628,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/intro.webp",
+        "type": "Image",
+        "bytes": 123790,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/calendar.webp",
+        "type": "Image",
+        "bytes": 159488,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/timer.webp",
+        "type": "Image",
+        "bytes": 121686,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/1.webp",
+        "type": "Image",
+        "bytes": 153998,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/2.webp",
+        "type": "Image",
+        "bytes": 183932,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/3.webp",
+        "type": "Image",
+        "bytes": 157254,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/4.webp",
+        "type": "Image",
+        "bytes": 275648,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/5.webp",
+        "type": "Image",
+        "bytes": 180918,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/6.webp",
+        "type": "Image",
+        "bytes": 120854,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/11.webp",
+        "type": "Image",
+        "bytes": 64528,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/12.webp",
+        "type": "Image",
+        "bytes": 133080,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/13.webp",
+        "type": "Image",
+        "bytes": 92206,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/21.webp",
+        "type": "Image",
+        "bytes": 174082,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/22.webp",
+        "type": "Image",
+        "bytes": 118756,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/23.webp",
+        "type": "Image",
+        "bytes": 132450,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/24.webp",
+        "type": "Image",
+        "bytes": 93006,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/25.webp",
+        "type": "Image",
+        "bytes": 189864,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/26.webp",
+        "type": "Image",
+        "bytes": 131276,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/31.webp",
+        "type": "Image",
+        "bytes": 270370,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/32.webp",
+        "type": "Image",
+        "bytes": 194874,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/33.webp",
+        "type": "Image",
+        "bytes": 314720,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/41.webp",
+        "type": "Image",
+        "bytes": 87672,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/42.webp",
+        "type": "Image",
+        "bytes": 116406,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/43.webp",
+        "type": "Image",
+        "bytes": 193196,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/44.webp",
+        "type": "Image",
+        "bytes": 306600,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/invitation/display/gallery/45.webp",
+        "type": "Image",
+        "bytes": 170524,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-routes-car-guidance-v2.webp",
+        "type": "Image",
+        "bytes": 1527450,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-white-car.webp",
+        "type": "Image",
+        "bytes": 566844,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-pixel-venue-lobby.webp",
+        "type": "Image",
+        "bytes": 1884220,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/optimized/lacitta-characters-parents.webp",
+        "type": "Image",
+        "bytes": 645550,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/characters/npc-reception.png",
+        "type": "Image",
+        "bytes": 4857,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/lacitta/ui/quiz-frame.png",
+        "type": "Image",
+        "bytes": 587,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/photo-table/bride-01.jpeg",
+        "type": "Image",
+        "bytes": 6976438,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/photo-table/bride-02.jpeg",
+        "type": "Image",
+        "bytes": 9027068,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      },
+      {
+        "url": "http://127.0.0.1:5199/assets/photo-table/bride-03.jpeg",
+        "type": "Image",
+        "bytes": 4680839,
+        "finished": true,
+        "status": 200,
+        "cached": false
+      }
+    ]
+  },
+  "lateAssetsBeforeOpening": [],
+  "unselectedRouteAssetsByFirstLobby": [],
+  "failures": [],
+  "errors": []
+}

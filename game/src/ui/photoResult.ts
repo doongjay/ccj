@@ -1,15 +1,24 @@
 import type Phaser from "phaser";
 import { StoryDialog } from "./StoryDialog";
 
+/** The same world-pixel bounds used by the visible viewfinder corners. */
+export const GROUP_PHOTO_FRAME = { x: 40, y: 510, width: 640, height: 485 } as const;
+
 export function captureGroupPhoto(scene: Phaser.Scene): Promise<HTMLCanvasElement> {
   return new Promise((resolve, reject) => {
-    scene.game.renderer.snapshot(image => {
+    const { x, y, width, height } = GROUP_PHOTO_FRAME;
+    const cameraUi = scene.children.getByName("group-photo-camera-ui") as Phaser.GameObjects.Container | null;
+    const visible = cameraUi?.visible ?? false;
+    cameraUi?.setVisible(false);
+    scene.game.renderer.snapshotArea(x, y, width, height, image => {
+      if (cameraUi?.scene) cameraUi.setVisible(visible);
       if (!(image instanceof HTMLImageElement)) { reject(new Error("사진을 만들지 못했어요.")); return; }
       const canvas = document.createElement("canvas");
-      canvas.width = 720; canvas.height = 1280;
+      canvas.width = width; canvas.height = height;
       const context = canvas.getContext("2d");
       if (!context) { reject(new Error("사진을 만들지 못했어요.")); return; }
-      context.drawImage(image, 0, 0, canvas.width, canvas.height);
+      context.imageSmoothingEnabled = false;
+      context.drawImage(image, 0, 0);
       resolve(canvas);
     });
   });

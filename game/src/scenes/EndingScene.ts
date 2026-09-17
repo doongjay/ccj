@@ -7,6 +7,7 @@ import { TextEntryDialog } from "../ui/TextEntryDialog";
 import { fadeToScene, markActiveScene } from "../ui/sceneUi";
 import { StoryDialog } from "../ui/StoryDialog";
 import { photoArt } from "./photoArt";
+import { weddingScreen } from "../ui/weddingScreen";
 
 export class EndingScene extends Phaser.Scene {
   private replayRequested = false;
@@ -20,10 +21,7 @@ export class EndingScene extends Phaser.Scene {
     this.game.canvas.dataset.replayRequested = "false";
     this.cameras.main.fadeIn(600);
     photoArt(this, "hall");
-    this.add.rectangle(360, 640, 720, 1280, 0x26332a, 0.5);
-    this.add.text(360, 280, "JJ ♥ HS", {
-      fontFamily: "Galmuri11, monospace", fontSize: "56px", color: "#fffaf2", resolution: 3,
-    }).setOrigin(0.5);
+    weddingScreen(this, "opening");
     const side = readGuestSide(this.registry) ?? "groom";
     const recipient = side === "bride" ? "현서" : "재준";
     this.game.canvas.dataset.messageSaved = "false";
@@ -40,7 +38,8 @@ export class EndingScene extends Phaser.Scene {
       submitLabel: "메시지 남기기",
       maxLength: 1000,
       multiline: true,
-      note: `보내는 사람: ${readGuestName(this.registry)} · ${cloudEnabled ? "이름, 미니미와 메시지는 방명록에 공개됩니다." : "로컬 확인용으로 이 브라우저에만 저장됩니다."}`,
+      noteHeading: `보내는 사람: ${readGuestName(this.registry)}`,
+      note: cloudEnabled ? "이름, 미니미와 메시지는 방명록에 공개됩니다." : "로컬 확인용으로 이 브라우저에만 저장됩니다.",
       onSkip: () => this.showEndingChoices(false),
       onSubmit: async message => {
         await saveGuestMessage(readGuestName(this.registry), side, message, { gender: readGuestGender(this.registry), outfit: readGuestOutfit(this.registry), hair: readGuestHair(this.registry), face: readGuestFace(this.registry) });

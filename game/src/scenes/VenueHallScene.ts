@@ -1,4 +1,4 @@
-import { showGroupPhotoResult } from "../ui/photoResult";
+import { GROUP_PHOTO_FRAME, showGroupPhotoResult } from "../ui/photoResult";
 import { warmStage } from "../systems/stageAssets";
 import { reducedMotion, watchMotion } from "../ui/motionPreference";
 import Phaser from "phaser";
@@ -45,7 +45,7 @@ export class VenueHallScene extends Phaser.Scene {
     this.participant = new Player(this, { x: 360, y: 1000, appearance: "guest" });
     this.participant.disableInteractive();
     const dialog = new StoryDialog(this, "ceremony");
-    dialog.show("시어터가 진짜 영화관만한 스크린이있어서 시어터였구나.", [
+    dialog.show("시어터가 진짜 영화관만한\n스크린이 있어서 시어터였구나.", [
       { label: "박수를 친다", onSelect: () => this.celebrate("applause") },
       { label: "환호를 한다", onSelect: () => this.celebrate("cheer") },
     ]);
@@ -172,10 +172,12 @@ export class VenueHallScene extends Phaser.Scene {
   }
 
   private renderCameraFrame(): void {
+    const cameraUi = this.add.container(0, 0).setDepth(30).setName("group-photo-camera-ui");
     const frame = this.add.graphics().setDepth(30);
     frame.fillStyle(0x000000, 0.45).fillRect(30, 500, 660, 56).fillRect(30, 960, 660, 44);
     frame.lineStyle(4, 0xffffff, 0.95);
-    for (const corner of [{ x: 40, y: 510, dx: 1, dy: 1 }, { x: 680, y: 510, dx: -1, dy: 1 }, { x: 40, y: 995, dx: 1, dy: -1 }, { x: 680, y: 995, dx: -1, dy: -1 }]) {
+    const { x, y, width, height } = GROUP_PHOTO_FRAME;
+    for (const corner of [{ x, y, dx: 1, dy: 1 }, { x: x + width, y, dx: -1, dy: 1 }, { x, y: y + height, dx: 1, dy: -1 }, { x: x + width, y: y + height, dx: -1, dy: -1 }]) {
       frame.lineBetween(corner.x, corner.y, corner.x + 65 * corner.dx, corner.y);
       frame.lineBetween(corner.x, corner.y, corner.x, corner.y + 65 * corner.dy);
     }
@@ -192,9 +194,10 @@ export class VenueHallScene extends Phaser.Scene {
     });
     recording.once("destroy", stopMotion);
     const style = { fontFamily: "Galmuri11, monospace", fontSize: "20px", color: "#ffffff" };
-    this.add.text(92, 521, "REC", style).setDepth(31);
-    this.add.text(58, 967, "HD  •  AF", style).setDepth(31);
+    const rec = this.add.text(92, 521, "REC", style).setDepth(31);
+    const mode = this.add.text(58, 967, "HD  •  AF", style).setDepth(31);
     const timer = this.add.text(548, 967, "00:00:00", style).setDepth(31);
+    cameraUi.add([frame, recording, rec, mode, timer]);
     let seconds = 0;
     this.time.addEvent({ delay: 1000, loop: true, callback: () => {
       seconds += 1;

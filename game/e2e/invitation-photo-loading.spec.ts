@@ -100,7 +100,7 @@ test("game boot excludes invitation downloads, play warms them, and opening reus
   expect(await page.evaluate(() => (window as unknown as { shownLoading: string[] }).shownLoading)).toEqual(["stage-loading"]);
   await info.attach("background-cache", { body: JSON.stringify({ background: responses.slice(0, boundary), opening: reused }), contentType: "application/json" });
   await page.screenshot({ path: info.outputPath("invitation-after-game-prefetch.png") });
-  await page.getByRole("button", { name: "게임으로 돌아가기", exact: true }).click();
+  await page.getByRole("button", { name: "게임으로", exact: true }).click();
   await expect(page.getByRole("textbox", { name: "내 이름은", exact: true })).toBeVisible();
   await page.getByRole("button", { name: "청첩장", exact: true }).click();
   await expect(page.locator(".invitation-page")).toHaveAttribute("data-photos-state", "ready");
