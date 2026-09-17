@@ -269,6 +269,8 @@ body {
 
 .text-entry-overlay { pointer-events: auto; padding: calc(var(--scene-height, 700px) * 0.1) calc(var(--scene-width, 393px) * 0.055) 24px; overflow-y: auto; background: rgb(0 0 0 / 35%); touch-action: pan-y; }
 .text-entry-form { display: block; box-sizing: border-box; white-space: normal; }
+.text-entry-overlay:not(.profile-entry) .text-entry-form,
+.text-entry-overlay:not(.profile-entry) .text-entry-form textarea { text-align: center; }
 .text-entry-panel { display: block; white-space: normal; text-align: center; }
 .text-entry-actions { width: min(100%, calc(var(--scene-width, 393px) * .8)); margin: 12px auto 0; }
 .text-entry-actions .story-choice { width: 100%; min-height: 48px; }
